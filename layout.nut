@@ -4,6 +4,7 @@
 # https://github.com/mickelson/attract/blob/master/config/plugins/History.dat/plugin.nut
 
 dofile(fe.script_dir + "GameButton.nut");
+dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchivementEntry.nut");
 
 fe.layout.preserve_aspect_ratio=true;
@@ -60,38 +61,7 @@ bottom_text.word_wrap = true;
 bottom_text.set_rgb(144, 172, 191);
 
 # Initialize the list of button
-local buttons = [];
-for (local i=0; i<6; i++) {
-	local button = GameButton(13, 305+135*i);
-	buttons.push(button);
-}
-
-function drawPage() {
-	# Calculate the page number
-	local page_number = fe.list.index / 6
-
-	foreach(index,button in buttons) {
-		# Calculate the index relative to current selected game
-		local relative_index = page_number * 6 + (index - fe.list.index)
-		# Caclulate the index relative to the entire gamelist
-		local absolute_index = page_number * 6 + index
-
-		# Load the logo
-		button.setLogo(fe.get_art("wheel", relative_index))
-		button.deselect()
-		button.show()
-
-		# If the button is pointing to a game ouside the list of games, hide it
-		if (absolute_index >= fe.list.size) {
-			button.hide();
-		}
-
-		# Select the current button
-		if (relative_index == 0){
-			button.select();
-		}
-	}
-}
+local game_buttons = GameButtons()
 
 function runTransitions(ttype, var, transition_time)
 {
@@ -101,11 +71,11 @@ function runTransitions(ttype, var, transition_time)
 		if (click_sounds_index >= 4 ) {
 			click_sounds_index = 0;
 		}
-		drawPage();
+		game_buttons.refresh()
 	}
 
 	if (ttype == Transition.StartLayout) {
-		drawPage();
+		game_buttons.refresh()
 	}
 }
 fe.add_transition_callback("runTransitions");
