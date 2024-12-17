@@ -16,7 +16,7 @@ class AchievementEntry {
 		m_surface = fe.add_surface(460, 350);
 		m_surface.set_pos(m_x, m_y);
 
-		m_badge = m_surface.add_image("images/achivements/"+info.BadgeName+".png", 0, 0);
+		m_badge = m_surface.add_image("images/achievements/"+info.BadgeName+".png", 0, 0);
 		m_badge.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		// m_badge.alpha = 100;
 
