@@ -61,7 +61,7 @@ bottom_text.word_wrap = true;
 bottom_text.set_rgb(144, 172, 191);
 
 # Initialize the list of button
-local game_buttons = GameButtons()
+local game_buttons = GameButtons(13, 305)
 
 function runTransitions(ttype, var, transition_time)
 {
