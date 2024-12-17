@@ -38,13 +38,13 @@ local subtitle = fe.add_text("[Year] [Manufacturer]", 470, 290, 460, 200);
 subtitle.char_size = 24;
 subtitle.align = Align.TopCentre;
 
-// local snap_surface = fe.add_surface(960,1280);
-// snap_surface.x = 0
-// snap_surface.y = 0
-// local snap = ::fe.add_artwork("snap", 0, 0);
-// snap.preserve_aspect_ratio = true;
-// snap.width = 1200;
-// snap.zorder = -1;
+local snap_surface = fe.add_surface(960,1280);
+snap_surface.x = 0
+snap_surface.y = 0
+snap_surface.zorder = -1;
+local snap = snap_surface.add_artwork("snap", 0, 0);
+snap.preserve_aspect_ratio = true;
+snap.width = 1200;
 
 # Bottom Text
 local bottom_text = fe.add_text("Press any button to start [Title]. Move up or down to select a different game.",0, 1200, 960, 200);

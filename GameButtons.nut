@@ -11,7 +11,7 @@ class GameButtons {
 
 		m_buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local button = GameButton(m_x, m_y+135*i);
+			local button = GameButton(m_x, m_y+125*i);
 			m_buttons.push(button);
 		}
 	}

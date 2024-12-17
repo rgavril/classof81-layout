@@ -29,7 +29,7 @@ class GameButton {
 		m_pointer = m_surface.add_image("images/pointer.png", 0, 0);
 		m_pointer.origin_x = m_pointer.texture_width;
 		m_pointer.origin_y = m_pointer.texture_height / 2;
-		m_pointer.x = 443;
+		m_pointer.x = 448;
 		m_pointer.y = m_background.y + m_background.texture_height / 2;
 		m_pointer.zorder = -1;
 
@@ -72,7 +72,7 @@ class GameButton {
 		m_logo.origin_x = m_logo.width;
 
 		# Align it horizontaly near the end of the button background
-		m_logo.x = m_background.x + m_background.texture_width - 15;
+		m_logo.x = m_background.x + m_background.texture_width - 17;
 		# Align it verticaly to the middle of the button background image
 		m_logo.y = m_background.y + m_background.texture_height/2;
 
