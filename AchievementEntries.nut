@@ -1,6 +1,6 @@
 class AchievementEntries {
 	constructor() {
-		local ra = dofile(fe.script_dir + "/ra2nut/achivements.nut");
+		local ra = dofile(fe.script_dir + "/ra2nut/achievements.nut");
 
 		# Sort achivements by keys
 		local keys = [];
@@ -10,7 +10,7 @@ class AchievementEntries {
 		keys.sort();
 
 		foreach (i,key in keys) {
-			AchivementEntry(490, 380+85*(i++), ra.Achievements[key]);
+			AchievementEntry(490, 380+85*(i++), ra.Achievements[key]);
 			if (i == 8) break
 		}
 	}

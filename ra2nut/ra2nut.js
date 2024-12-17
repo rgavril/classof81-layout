@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 class Squirrel {
-    filename = "achivements.nut";
+    filename = "achievements.nut";
     content = "";
 
     constructor() {
@@ -37,8 +37,8 @@ try {
 
 var squirrel = new Squirrel();
 
-squirrel.add_line('local achivements = ' + data);
-squirrel.add_line('return achivements');
+squirrel.add_line('local achievements = ' + data);
+squirrel.add_line('return achievements');
 // squirrel.log();
 squirrel.save();
 

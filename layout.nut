@@ -5,7 +5,7 @@
 
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
-dofile(fe.script_dir + "AchivementEntry.nut");
+dofile(fe.script_dir + "AchievementEntry.nut");
 dofile(fe.script_dir + "AchievementEntries.nut");
 dofile(fe.script_dir + "SoundEngine.nut");
 
