@@ -20,15 +20,15 @@ class AchievementEntry {
 		m_badge.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		// m_badge.alpha = 100;
 
-		m_title = m_surface.add_text(info.Title, 65, 0, 365, 32);
-		m_title.char_size = 26;
+		m_title = m_surface.add_text(info.Title, 65, -10, 365, 32);
+		m_title.char_size = 24;
 		m_title.align = Align.TopLeft;
 		m_title.word_wrap = true;
 		// m_title.style = Style.Bold;
 		m_title.set_rgb(255,252,103);
 
-		m_description = m_surface.add_text(info.Description, 65+5, 26+5, 365, 100);
-		m_description.char_size = 20;
+		m_description = m_surface.add_text(info.Description, 65+2, 24-7, 365, 100);
+		m_description.char_size = 18;
 		m_description.align = Align.TopLeft;
 		m_description.word_wrap = true;
 		// m_description.line_spacing = 0.75;

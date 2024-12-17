@@ -65,7 +65,7 @@ bottom_text.set_rgb(77, 105, 192);
 
 local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
-local achievement_entries = AchievementEntries()
+local achievement_entries = AchievementEntries(490, 360)
 
 function runTransitions(ttype, var, transition_time)
 {
