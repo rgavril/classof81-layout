@@ -26,12 +26,20 @@ fe.add_image("images/background.png", 0, 0);
 // gameList.rows=16;
 // gameList.align=Align.Left;
 
-# Title 
+# Title
+local title_shadow = fe.add_text("[Title]", 470+1, 245+1, 460, 50);
+title_shadow.font = "CriqueGrotesk-Bold.ttf";
+title_shadow.set_rgb(0,0,0);
+title_shadow.char_size = 36;
+title_shadow.align = Align.TopCentre;
 local title = fe.add_text("[Title]", 470, 245, 460, 50);
 title.font = "CriqueGrotesk-Bold.ttf";
 title.set_rgb(255,104,181);
 title.char_size = 36;
 title.align = Align.TopCentre;
+
+
+
 
 # Subtitle
 local subtitle = fe.add_text("[Year] [Manufacturer]", 470, 290, 460, 200);
