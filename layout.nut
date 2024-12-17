@@ -6,6 +6,7 @@
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchivementEntry.nut");
+dofile(fe.script_dir + "SoundEngine.nut");
 
 fe.layout.preserve_aspect_ratio=true;
 fe.layout.width = 960;
@@ -15,14 +16,6 @@ fe.layout.page_size = 6;
 
 # Background Image
 fe.add_image("images/background.png", 0, 0);
-
-local click_sounds = [];
-local click_sounds_index = 0;
-click_sounds.push(fe.add_sound("sounds/click.mp3", false))
-click_sounds.push(fe.add_sound("sounds/click.mp3", false))
-click_sounds.push(fe.add_sound("sounds/click.mp3", false))
-click_sounds.push(fe.add_sound("sounds/click.mp3", false))
-click_sounds.push(fe.add_sound("sounds/click.mp3", false))
 
 # Games Text List
 // local gameList = fe.add_listbox(490,300,421,700);
@@ -60,17 +53,14 @@ bottom_text.align = Align.TopLeft;
 bottom_text.word_wrap = true;
 bottom_text.set_rgb(144, 172, 191);
 
-# Initialize the list of button
+
 local game_buttons = GameButtons(13, 305)
+local sound_engine = SoundEngine()
 
 function runTransitions(ttype, var, transition_time)
 {
 	if (ttype == Transition.FromOldSelection) {
-		click_sounds[click_sounds_index].playing = true;
-		click_sounds_index++;
-		if (click_sounds_index >= 4 ) {
-			click_sounds_index = 0;
-		}
+		sound_engine.click()
 		game_buttons.refresh()
 	}
 
