@@ -6,6 +6,7 @@
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchivementEntry.nut");
+dofile(fe.script_dir + "AchievementEntries.nut");
 dofile(fe.script_dir + "SoundEngine.nut");
 
 fe.layout.preserve_aspect_ratio=true;
@@ -56,6 +57,7 @@ bottom_text.set_rgb(144, 172, 191);
 
 local game_buttons = GameButtons(13, 305)
 local sound_engine = SoundEngine()
+local achievement_entries = AchievementEntries()
 
 function runTransitions(ttype, var, transition_time)
 {
@@ -69,17 +71,3 @@ function runTransitions(ttype, var, transition_time)
 	}
 }
 fe.add_transition_callback("runTransitions");
-
-local ra = dofile(fe.script_dir + "/ra2nut/achivements.nut");
-
-# Sort achivements by keys
-local keys = [];
-foreach (key, value in ra.Achievements) {
-    keys.push(key);
-}
-keys.sort();
-
-foreach (i,key in keys) {
-	AchivementEntry(490, 380+85*(i++), ra.Achievements[key]);
-	if (i == 8) break
-}
