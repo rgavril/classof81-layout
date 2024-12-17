@@ -13,6 +13,8 @@ fe.layout.preserve_aspect_ratio=true;
 fe.layout.width = 960;
 fe.layout.height = 1280;
 fe.layout.page_size = 6;
+fe.layout.font = "CriqueGrotesk.ttf";
+
 // fe.layout.base_rotation = RotateScreen.Right;
 
 # Background Image
@@ -26,36 +28,34 @@ fe.add_image("images/background.png", 0, 0);
 
 # Title 
 local title = fe.add_text("[Title]", 470, 245, 460, 50);
-title.font = "Roboto-Bold";
-title.set_rgb(238,95,167);
+title.font = "CriqueGrotesk-Bold.ttf";
+title.set_rgb(255,104,181);
 title.char_size = 36;
 title.align = Align.TopCentre;
-title.word_wrap = true;
-//title.word_wrap = true;
 
 # Subtitle
 local subtitle = fe.add_text("[Year] [Manufacturer]", 470, 290, 460, 200);
 subtitle.char_size = 24;
 subtitle.align = Align.TopCentre;
 
-local snap_surface = fe.add_surface(960,1280);
-snap_surface.x = 0
-snap_surface.y = 0
-snap_surface.zorder = -1;
-local snap = snap_surface.add_artwork("snap", 0, 0);
-snap.preserve_aspect_ratio = true;
-snap.width = 1200;
+// local snap_surface = fe.add_surface(960,1280);
+// snap_surface.x = 0
+// snap_surface.y = 0
+// snap_surface.zorder = -1;
+// local snap = snap_surface.add_artwork("snap", 0, 0);
+// snap.preserve_aspect_ratio = true;
+// snap.width = 1200;
 
 # Bottom Text
-local bottom_text = fe.add_text("Press any button to start [Title]. Move up or down to select a different game.",0, 1200, 960, 200);
+local bottom_text = fe.add_text("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.",20, 1100, 800, 160);
 bottom_text.font = "Roboto-Regular";
 bottom_text.char_size = 26;
-bottom_text.align = Align.TopLeft;
+bottom_text.align = Align.BottomLeft;
 bottom_text.word_wrap = true;
 bottom_text.set_rgb(144, 172, 191);
 
 
-local game_buttons = GameButtons(13, 305)
+local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
 local achievement_entries = AchievementEntries()
 

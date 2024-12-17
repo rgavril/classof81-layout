@@ -29,7 +29,7 @@ class GameButton {
 		m_pointer = m_surface.add_image("images/pointer.png", 0, 0);
 		m_pointer.origin_x = m_pointer.texture_width;
 		m_pointer.origin_y = m_pointer.texture_height / 2;
-		m_pointer.x = 448;
+		m_pointer.x = 441;
 		m_pointer.y = m_background.y + m_background.texture_height / 2;
 		m_pointer.zorder = -1;
 
