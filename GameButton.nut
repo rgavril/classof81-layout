@@ -44,7 +44,7 @@ class GameButton {
 		m_logo = m_surface.add_image(null);
 
 		# Gear Icon
-		m_icon = m_surface.add_image("images/gear.png", 0, 0, 90, 90);
+		m_icon = m_surface.add_image("images/gear.png", 0, 0, 85, 85);
 		m_icon.origin_y = 30;
 		m_icon.origin_x = 30;
 		m_icon.y = m_background.y;

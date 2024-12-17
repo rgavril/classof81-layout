@@ -52,7 +52,7 @@ bottom_text.font = "Roboto-Regular";
 bottom_text.char_size = 26;
 bottom_text.align = Align.BottomLeft;
 bottom_text.word_wrap = true;
-bottom_text.set_rgb(144, 172, 191);
+bottom_text.set_rgb(77, 105, 192);
 
 
 local game_buttons = GameButtons(20, 305)
