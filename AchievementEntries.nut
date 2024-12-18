@@ -4,7 +4,9 @@ class AchievementEntries {
 	constructor(x, y) {
 		m_x = x;
 		m_y = y;
-		local ra = dofile(fe.script_dir + "/ra2nut/galaga.nut");
+
+		local ra = dofile(fe.script_dir + "/achievements/nuts/mrdo.nut");
+
 
 		# Sort achivements by keys
 		local keys = [];
