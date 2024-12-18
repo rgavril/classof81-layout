@@ -3,6 +3,8 @@
 # http://www.squirrel-lang.org/doc/sqstdlib3.pdf
 # https://github.com/mickelson/attract/blob/master/config/plugins/History.dat/plugin.nut
 
+fe.load_module("file");
+
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchievementEntry.nut");
@@ -65,17 +67,19 @@ bottom_text.set_rgb(77, 105, 192);
 
 local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
-local achievement_entries = AchievementEntries(490, 360)
+local ra_entries = AchievementEntries(490, 360)
 
 function runTransitions(ttype, var, transition_time)
 {
 	if (ttype == Transition.FromOldSelection) {
 		sound_engine.click()
 		game_buttons.refresh()
+		ra_entries.refresh()
 	}
 
 	if (ttype == Transition.StartLayout) {
 		game_buttons.refresh()
+		ra_entries.refresh();
 	}
 }
 fe.add_transition_callback("runTransitions");
