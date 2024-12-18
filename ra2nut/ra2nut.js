@@ -25,15 +25,21 @@ class Squirrel {
     }
 }
 
+const jsonData = fs.readFileSync('./mspacman.json', 'utf8');
+const raData = JSON.parse(jsonData);
+const achievements = raData.Achievements;
+for (const key in achievements) {
+    const badgeName = achievements[key].BadgeName;
+    console.log(`wget https://media.retroachievements.org/Badge/${badgeName}.png`);
+}
+
 var data = "";
 try {
-    data = fs.readFileSync('./retro.json', 'utf8');
+    data = fs.readFileSync('./mspacman.json', 'utf8');
     data = data.replace(/\\\//g, '/');
-    console.log('File content:', data);  // The content of the file as a string
 } catch (err) {
     console.error('Error reading file:', err);
 }
-// import ra from "./retro.json" with { type: "json" };
 
 var squirrel = new Squirrel();
 
@@ -41,5 +47,3 @@ squirrel.add_line('local achievements = ' + data);
 squirrel.add_line('return achievements');
 // squirrel.log();
 squirrel.save();
-
-// console.log(ra);
