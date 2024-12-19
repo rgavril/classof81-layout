@@ -29,12 +29,12 @@ fe.add_image("images/background.png", 0, 0);
 // gameList.align=Align.Left;
 
 # Title
-local title_shadow = fe.add_text("[Title]", 470+1, 238+1, 460, 50);
+local title_shadow = fe.add_text("Retro Achievements", 470+1, 238+1, 460, 50);
 title_shadow.font = "CriqueGrotesk-Bold.ttf";
 title_shadow.set_rgb(0,0,0);
 title_shadow.char_size = 36;
 title_shadow.align = Align.TopCentre;
-local title = fe.add_text("[Title]", 470, 238, 460, 50);
+local title = fe.add_text("Retro Achievements", 470, 238, 460, 50);
 title.font = "CriqueGrotesk-Bold.ttf";
 title.set_rgb(255,104,181);
 title.char_size = 36;
@@ -64,12 +64,12 @@ function runTransitions(ttype, var, transition_time)
 	if (ttype == Transition.FromOldSelection) {
 		sound_engine.click()
 		game_buttons.refresh()
-		ra_entries.refresh()
+		ra_entries.load()
 	}
 
 	if (ttype == Transition.StartLayout) {
 		game_buttons.refresh()
-		ra_entries.refresh();
+		ra_entries.load();
 	}
 }
 fe.add_transition_callback("runTransitions");
