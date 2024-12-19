@@ -1,5 +1,5 @@
 class AchievementEntries {
-	PAGE_SIZE = 7;
+	PAGE_SIZE = 9;
 
 	m_x = 0;
 	m_y = 0;
@@ -13,10 +13,9 @@ class AchievementEntries {
 
 		m_achivement_entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local achivement_entry = AchievementEntry(m_x, m_y+90*i);
+			local achivement_entry = AchievementEntry(m_x, m_y+83*i);
 			m_achivement_entries.push(achivement_entry)
 		}
-
 	}
 
 	function refresh() {
