@@ -23,18 +23,14 @@ fe.layout.font = "CriqueGrotesk.ttf";
 # Background Image
 fe.add_image("images/background.png", 0, 0);
 
-# Games Text List
-// local gameList = fe.add_listbox(490,300,421,700);
-// gameList.charsize = 30;
-// gameList.rows=16;
-// gameList.align=Align.Left;
-
-# Title
+# Title Shadow
 local title_shadow = fe.add_text("Retro Achievements", 470+1, 238+1, 460, 50);
 title_shadow.font = "CriqueGrotesk-Bold.ttf";
 title_shadow.set_rgb(0,0,0);
 title_shadow.char_size = 36;
 title_shadow.align = Align.TopCentre;
+
+# Title
 local title = fe.add_text("Retro Achievements", 470, 238, 460, 50);
 title.font = "CriqueGrotesk-Bold.ttf";
 title.set_rgb(255,104,181);
@@ -47,6 +43,10 @@ bottom_text.char_size = 26;
 bottom_text.align = Align.BottomLeft;
 bottom_text.word_wrap = true;
 bottom_text.set_rgb(77, 105, 192);
+
+# Sidebox Border
+local sidebox_border = fe.add_image("images/sidebox_active.png", 460, 220);
+sidebox_border.visible = false;
 
 # Leaderboard mockup
 // for (local i=1; i<=25; i++) {
@@ -74,3 +74,18 @@ function runTransitions(ttype, var, transition_time)
 	}
 }
 fe.add_transition_callback("runTransitions");
+
+function key_detect(signal_str) {
+	if (signal_str == "right") {
+		ra_entries.activate();
+		sidebox_border.visible = true;
+		return true;
+	}
+
+	if (signal_str == "left") {
+		ra_entries.desactivate();
+		sidebox_border.visible = false;
+		return true;
+	}
+}
+fe.add_signal_handler("key_detect");

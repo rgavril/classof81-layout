@@ -21,14 +21,11 @@ class AchievementEntries {
 			local entry = AchievementEntry(m_x, m_y+83*i);
 			m_achivement_entries.push(entry)
 		}
-
-		# Add signal handler used for list navigation
-		fe.add_signal_handler(this, "key_detect");
 	}
 
 	# Signal handler for navigatin the achievents list
 	function key_detect(signal_str) {
-		if (signal_str == "right") {
+		if (signal_str == "next_game") {
 			# Select the next element in list
 			m_info_selected++;
 
@@ -44,7 +41,7 @@ class AchievementEntries {
 			return true;
 		}
 
-		if (signal_str == "left") {
+		if (signal_str == "prev_game") {
 			# Select the previous element in the list
 			m_info_selected--;
 
@@ -59,7 +56,7 @@ class AchievementEntries {
 			# Prevent the default action for the button
 			return true;
 		}
-		
+
     	# Allow other signals to be handled normally
     	return false;
 	}
@@ -126,5 +123,16 @@ class AchievementEntries {
 		foreach(entry in m_achivement_entries) {
 			entry.hide();
 		}
+	}
+
+	function activate() {
+		# Add signal handler used for list navigation
+		fe.remove_signal_handler(this, "key_detect");
+		fe.add_signal_handler(this, "key_detect");
+	}
+
+	function desactivate() {
+		# Remove signal handler used for list navigation
+		fe.remove_signal_handler(this, "key_detect");
 	}
 }
