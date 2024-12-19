@@ -5,6 +5,7 @@
 
 fe.load_module("file");
 
+dofile(fe.script_dir + "utils.nut");
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchievementEntry.nut");

@@ -3,10 +3,13 @@ class AchievementEntries {
 
 	m_x = 0;
 	m_y = 0;
+	
 	m_info = null;
-	m_rom = null;
+	m_info_selected = 0;
+	m_info_start = 0;
+	m_info_end = 0;
+
 	m_achivement_entries = null;
-	m_selected_index = 0;
 
 	constructor(x, y) {
 		# Save the x,y coordinates for later user
@@ -27,11 +30,11 @@ class AchievementEntries {
 	function key_detect(signal_str) {
 		if (signal_str == "right") {
 			# Select the next element in list
-			m_selected_index++;
+			m_info_selected++;
 
 			# Prevent the selection to go over the end of the list
-			if (m_selected_index > m_achivement_entries.len()) {
-				m_selected_index = m_achivement_entries.len();
+			if (m_info_selected > m_info.Achievements.len() - 1) {
+				m_info_selected = m_info.Achievements.len() - 1;
 			}
 
 			# Redraw the achievements list
@@ -43,11 +46,11 @@ class AchievementEntries {
 
 		if (signal_str == "left") {
 			# Select the previous element in the list
-			m_selected_index--;
+			m_info_selected--;
 
 			# Prevent the selection to be negative
-			if (m_selected_index < 0) {
-				m_selected_index = 0;
+			if (m_info_selected < 0) {
+				m_info_selected = 0;
 			}
 
 			# Redraw the achievements list
@@ -65,13 +68,15 @@ class AchievementEntries {
 	function load() {
 		# Detect the rom name for the current game
 		local rom = fe.game_info(Info.Name);
-		
-		# Move selection index to the begining of the list
-		m_selected_index = 0;
 
 		try {
 			# Try to load the load achievements from the list
 			m_info = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
+
+			# Set the indexes for the start / end and selected
+			m_info_selected = 0;
+			m_info_start = 0;
+			m_info_end = PAGE_SIZE - 1;
 
 			# Draw the list of achievements
 			draw();
@@ -91,28 +96,26 @@ class AchievementEntries {
 		keys.sort();
 
 		# Calcuate the start/end indexes for the achivement info that is visible
-		local start_index = 0
-		local end_index = PAGE_SIZE;
-		
-		if (0 < m_selected_index - PAGE_SIZE) {
-			start_index = m_selected_index - PAGE_SIZE;
-			end_index = start_index + PAGE_SIZE;
+		if (m_info_selected < m_info_start) {
+			m_info_start = m_info_selected;
+			m_info_end = m_info_start + PAGE_SIZE - 1;
+		}
+		if (m_info_selected > m_info_end) {
+			m_info_end = m_info_selected;
+			m_info_start = max(0, m_info_end - PAGE_SIZE) + 1;
 		}
 
 		foreach(entry_index,entry in m_achivement_entries) {
 			# Translate the entry index to achivement info index
-			local info_index = entry_index;
-			if (m_selected_index >= PAGE_SIZE) {
-				info_index += m_selected_index - PAGE_SIZE + 1;
-			}
+			local info_index = entry_index + m_info_start;
 			
 			# Load the info from the info_index into the entry
 			local info = m_info.Achievements[keys[info_index]];
 			entry.load(info);
-			entry.deselect()
 
 			# Mark the selected achivement
-			if (m_selected_index == info_index) {
+			entry.deselect()
+			if (m_info_selected == info_index) {
 				entry.select();
 			}
 		}
