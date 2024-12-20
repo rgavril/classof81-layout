@@ -1,26 +1,36 @@
 class AchievementEntries {
-	PAGE_SIZE = 9;
-
-	m_x = 0;
-	m_y = 0;
-	
-	m_info = null;
-	m_info_selected = 0;
-	m_info_start = 0;
-
-	m_achivement_entries = null;
-
-	m_is_active = false;
+	PAGE_SIZE = 9;       # Number of achivements visible on screen
+	_info = [];          # Array containing all the achivements
+	_info_selected = 0;  # The index of the selected achivement
+	_info_offset = 0;    # The index of the first visible achivement
+	_entries = [];       # Array containing the achivement entries
+	_is_active = false;  # Whether the list is active or not
+	sound_engine = null;  
 
 	constructor(x, y) {
-		# Save the x,y coordinates for later user
-		m_x = x; m_y = y;
-
-		# Create the achivement entris 
-		m_achivement_entries = [];
+		# Create the achivement entries
+		_entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(m_x, m_y+80*i);
-			m_achivement_entries.push(entry)
+			local entry = AchievementEntry(x, y+80*i);
+			_entries.push(entry)
+		}
+
+		# Activate sound engine
+		sound_engine = SoundEngine();
+
+		# Load and draw the achivements for the current game
+		load(); draw();
+
+		# Add a callback to refresh the list when events take place
+		fe.add_transition_callback(this, "transition_callback");
+	}
+
+	function transition_callback(ttype, var, transition_time) {
+		# When the selected game changes
+		if (ttype == Transition.FromOldSelection) {
+
+			# Load and draw the achivements for the current game
+			load(); draw();
 		}
 	}
 
@@ -28,11 +38,13 @@ class AchievementEntries {
 	function key_detect(signal_str) {
 		if (signal_str == "next_game") {
 			move_next();
+			sound_engine.click()
 			return true;
 		}
 
 		if (signal_str == "prev_game") {
 			move_prev();
+			sound_engine.click()
 			return true;
 		}
 
@@ -40,28 +52,26 @@ class AchievementEntries {
     	return false;
 	}
 
-	# Loads the achivements for the current game
+	# Loads the achivements info for the current game
 	function load() {
 		# Detect the rom name for the current game
 		local rom = fe.game_info(Info.Name);
 
 		# Load the load achievements from the list
 		try {
-			m_info = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
+			local temp = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
+			_info = temp.Achievements;
 			sort();
 
 		# If the achivements list was not loaded correctly (ex: missing or bad format)
 		} catch(e) {
-			 m_info = { Achievements = [] }
+			_info = []
 			hide();
 		}
 
 		# Set the indexes for the start / end and selected
-		m_info_selected = 0;
-		m_info_start = 0;
-
-		# Draw the list of achievements
-		draw();
+		_info_selected = 0;
+		_info_offset = 0;
 	}
 
 	# Sort the list of achivements
@@ -69,26 +79,26 @@ class AchievementEntries {
 		local sortedAchievements = [];
 		local keys = [];
 
-		foreach (key, value in m_info.Achievements) {
+		foreach (key, value in _info) {
 	    	keys.push(key);
 		}
 		
 		keys.sort();
 
 		for (local i=0; i<keys.len(); i++) {
-			sortedAchievements.push(m_info.Achievements[keys[i]]);
+			sortedAchievements.push(_info[keys[i]]);
 		}
 
-		m_info.Achievements = sortedAchievements;
+		_info = sortedAchievements;
 	}
 
 	function draw() {
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = m_achivement_entries[i];
+			local entry = _entries[i];
 
 			# Load the achivement info if there is one
-			if (m_info_start + i < m_info.Achievements.len()) {
-				local info = m_info.Achievements[m_info_start + i];
+			if (_info_offset + i < _info.len()) {
+				local info = _info[_info_offset + i];
 				entry.load(info);
 
 			# Else hide it from screen
@@ -97,7 +107,7 @@ class AchievementEntries {
 			}
 
 			# Mark entry as selected, but only when the sidebox is active
-			if (m_is_active && m_info_selected == m_info_start + i) {
+			if (_is_active && _info_selected == _info_offset + i) {
 				entry.select()
 			} else {
 				entry.deselect();
@@ -107,16 +117,16 @@ class AchievementEntries {
 
 	function move_next() {
 		# If we're at the end of the list, no need to move forward
-		if (m_info_selected == m_info.Achievements.len() - 1) {
+		if (_info_selected == _info.len() - 1) {
 			return;
 		}
 
 		# Select the next element in list
-		m_info_selected++;
+		_info_selected++;
 
 		# Scroll the list down if the selection is not visible
-		if (m_info_selected > m_info_start+PAGE_SIZE - 1) {
-			m_info_start++;
+		if (_info_selected > _info_offset+PAGE_SIZE - 1) {
+			_info_offset++;
 		}
 
 		draw();
@@ -124,16 +134,16 @@ class AchievementEntries {
 
 	function move_prev() {
 		# If we're at the begining of the list, no need to move back
-		if (m_info_selected == 0) {
+		if (_info_selected == 0) {
 			return;
 		}
 
 		# Select the previous element in the list
-		m_info_selected--;
+		_info_selected--;
 
 		# Scroll the list up if the selection is not visible
-		if (m_info_selected < m_info_start) {
-			m_info_start--;
+		if (_info_selected < _info_offset) {
+			_info_offset--;
 		}
 
 		draw();
@@ -141,7 +151,7 @@ class AchievementEntries {
 
 	# Hide the achivements
 	function hide() {
-		foreach(entry in m_achivement_entries) {
+		foreach(entry in _entries) {
 			entry.hide();
 		}
 	}
@@ -151,7 +161,7 @@ class AchievementEntries {
 		fe.remove_signal_handler(this, "key_detect");
 		fe.add_signal_handler(this, "key_detect");
 
-		m_is_active = true;
+		_is_active = true;
 
 		draw();
 	}
@@ -160,7 +170,7 @@ class AchievementEntries {
 		# Remove signal handler used for list navigation
 		fe.remove_signal_handler(this, "key_detect");
 
-		m_is_active = false;
+		_is_active = false;
 
 		draw();
 	}

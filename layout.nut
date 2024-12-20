@@ -72,32 +72,18 @@ sidebox_border.visible = false;
 
 local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
-local ra_entries = AchievementEntries(475, 310)
+local achivement_entries = AchievementEntries(475, 310)
 
-function runTransitions(ttype, var, transition_time)
-{
-	if (ttype == Transition.FromOldSelection) {
-		sound_engine.click()
-		game_buttons.refresh()
-		ra_entries.load()
-	}
-
-	if (ttype == Transition.StartLayout) {
-		game_buttons.refresh()
-		ra_entries.load();
-	}
-}
-fe.add_transition_callback("runTransitions");
 
 function key_detect(signal_str) {
 	if (signal_str == "right") {
-		ra_entries.activate();
+		achivement_entries.activate();
 		sidebox_border.visible = true;
 		return true;
 	}
 
 	if (signal_str == "left") {
-		ra_entries.desactivate();
+		achivement_entries.desactivate();
 		sidebox_border.visible = false;
 		return true;
 	}

@@ -1,28 +1,41 @@
 class GameButtons {
-	PAGE_SIZE = 6
-	
-	m_buttons = null
-	m_x = 0
-	m_y = 0
-
-	m_is_active = true;
+	PAGE_SIZE = 6;   # Number of game buttons visible on screen
+	_buttons = [];
+	_sound_engine = null;
 
 	constructor(x, y) {
-		m_x = x;
-		m_y = y;
-
-		m_buttons = []
+		# Create the game buttons
+		_buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local button = GameButton(m_x, m_y+125*i);
-			m_buttons.push(button);
+			local button = GameButton(x, y+125*i);
+			_buttons.push(button);
+		}
+
+		# Activate sound engine
+		_sound_engine = SoundEngine();
+
+		# Draw the buttons
+		draw();
+
+		# Add a callback to refresh the buttons when events take place
+		fe.add_transition_callback(this, "transition_callback");
+	}
+
+	function transition_callback(ttype, var, transition_time) {
+		# When the selected game changes
+		if (ttype == Transition.FromOldSelection) {
+			_sound_engine.click()
+			
+			# Load and draw the achivements for the current game
+			draw();
 		}
 	}
 
-	function refresh() {
+	function draw() {
 		# Calculate the page number
 		local page_number = fe.list.index / PAGE_SIZE
 
-		foreach(index,button in m_buttons) {
+		foreach(index,button in _buttons) {
 			# Calculate the index relative to current selected game
 			local relative_index = page_number * PAGE_SIZE + (index - fe.list.index)
 
