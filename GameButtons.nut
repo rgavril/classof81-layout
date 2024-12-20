@@ -5,6 +5,8 @@ class GameButtons {
 	m_x = 0
 	m_y = 0
 
+	m_is_active = true;
+
 	constructor(x, y) {
 		m_x = x;
 		m_y = y;
