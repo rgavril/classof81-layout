@@ -45,22 +45,23 @@ class AchievementEntries {
 		# Detect the rom name for the current game
 		local rom = fe.game_info(Info.Name);
 
+		# Load the load achievements from the list
 		try {
-			# Try to load the load achievements from the list
 			m_info = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
 			sort();
 
-			# Set the indexes for the start / end and selected
-			m_info_selected = 0;
-			m_info_start = 0;
-
-			# Draw the list of achievements
-			draw();
-
 		# If the achivements list was not loaded correctly (ex: missing or bad format)
 		} catch(e) {
+			 m_info = { Achievements = [] }
 			hide();
 		}
+
+		# Set the indexes for the start / end and selected
+		m_info_selected = 0;
+		m_info_start = 0;
+
+		# Draw the list of achievements
+		draw();
 	}
 
 	# Sort the list of achivements
@@ -82,23 +83,24 @@ class AchievementEntries {
 	}
 
 	function draw() {
-		foreach(entry_index,entry in m_achivement_entries) {
-			# Translate the entry index to achivement info index
-			local info_index = entry_index + m_info_start;
-			
-			if (info_index > m_info.Achievements.len()-1) {
-				entry.hide();
-				continue;
-			}
-			
-			# Load the info from the info_index into the entry
-			local info = m_info.Achievements[info_index];
-			entry.load(info);
+		for (local i=0; i<PAGE_SIZE; i++) {
+			local entry = m_achivement_entries[i];
 
-			# Mark the selected achivement, unmark the rest
-			entry.deselect()
-			if (m_info_selected == info_index && m_is_active) {
-				entry.select();
+			# Load the achivement info if there is one
+			if (m_info_start + i < m_info.Achievements.len()) {
+				local info = m_info.Achievements[m_info_start + i];
+				entry.load(info);
+
+			# Else hide it from screen
+			} else {
+				entry.hide();
+			}
+
+			# Mark entry as selected, but only when the sidebox is active
+			if (m_is_active && m_info_selected == m_info_start + i) {
+				entry.select()
+			} else {
+				entry.deselect();
 			}
 		}
 	}
@@ -150,7 +152,7 @@ class AchievementEntries {
 		fe.add_signal_handler(this, "key_detect");
 
 		m_is_active = true;
-		
+
 		draw();
 	}
 
