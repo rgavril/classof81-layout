@@ -20,7 +20,7 @@ class AchievementEntries {
 		# Create the achivement entris 
 		m_achivement_entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(m_x, m_y+83*i);
+			local entry = AchievementEntry(m_x, m_y+80*i);
 			m_achivement_entries.push(entry)
 		}
 	}

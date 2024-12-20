@@ -21,6 +21,7 @@ class AchievementEntry {
 		# Achivement selection box
 		m_selection_box = m_surface.add_image("images/achievement_selected.png", 0, 0);
 		m_selection_box.visible = false;
+		m_selection_box.alpha = 200;
 
 		# Achievemnt badge image
 		m_badge = m_surface.add_image(null, 15, 5);

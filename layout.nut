@@ -4,6 +4,7 @@
 # https://github.com/mickelson/attract/blob/master/config/plugins/History.dat/plugin.nut
 
 fe.load_module("file");
+fe.load_module("animate");
 
 dofile(fe.script_dir + "utils.nut");
 dofile(fe.script_dir + "GameButton.nut");
@@ -19,6 +20,18 @@ fe.layout.page_size = 6;
 fe.layout.font = "CriqueGrotesk.ttf";
 
 // fe.layout.base_rotation = RotateScreen.Right;
+
+# Dynamic Background (To much?)
+// local snap = fe.add_artwork("snap", 0, 0, 960, 1280);
+// local snap_cfg = {
+// 	when = Transition.ToNewSelection,
+// 	property = "alpha",
+// 	start = 0,
+// 	end = 255,
+// 	time = 500,
+// 	//delay = 5000,
+// }	
+// animation.add( PropertyAnimation( snap, snap_cfg ) );
 
 # Background Image
 fe.add_image("images/background.png", 0, 0);
