@@ -56,9 +56,10 @@ sidebox_border.visible = false;
 // 	lb_text.set_rgb(255,255,120);
 // }
 
+
 local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
-local ra_entries = AchievementEntries(490, 315)
+local ra_entries = AchievementEntries(475, 310)
 
 function runTransitions(ttype, var, transition_time)
 {

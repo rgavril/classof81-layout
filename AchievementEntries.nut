@@ -11,6 +11,8 @@ class AchievementEntries {
 
 	m_achivement_entries = null;
 
+	m_is_active = false;
+
 	constructor(x, y) {
 		# Save the x,y coordinates for later user
 		m_x = x; m_y = y;
@@ -112,7 +114,7 @@ class AchievementEntries {
 
 			# Mark the selected achivement
 			entry.deselect()
-			if (m_info_selected == info_index) {
+			if (m_info_selected == info_index && m_is_active) {
 				entry.select();
 			}
 		}
@@ -129,10 +131,17 @@ class AchievementEntries {
 		# Add signal handler used for list navigation
 		fe.remove_signal_handler(this, "key_detect");
 		fe.add_signal_handler(this, "key_detect");
+
+		m_is_active = true;
+		draw();
 	}
 
 	function desactivate() {
 		# Remove signal handler used for list navigation
 		fe.remove_signal_handler(this, "key_detect");
+
+		m_is_active = false;
+
+		draw();
 	}
 }

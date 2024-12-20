@@ -7,6 +7,7 @@ class AchievementEntry {
 	m_surface = null;
 	m_title = null;
 	m_description = null;
+	m_selection_box = null;
 	m_desaturize_shader = null;
 
 	constructor(x, y) {
@@ -17,12 +18,16 @@ class AchievementEntry {
 		m_surface = fe.add_surface(460, 350);
 		m_surface.set_pos(m_x, m_y);
 
+		# Achivement selection box
+		m_selection_box = m_surface.add_image("images/achievement_selected.png", 0, 0);
+		m_selection_box.visible = false;
+
 		# Achievemnt badge image
-		m_badge = m_surface.add_image(null);
+		m_badge = m_surface.add_image(null, 15, 5);
 
 		# Location of description and title text
-		local text_x = 65;
-		local text_y = -5;
+		local text_x = 67 + 10;
+		local text_y = 5-6;
 
 		# Description of the achievement
 		m_description = m_surface.add_text("", text_x, text_y, 370, 85);
@@ -45,9 +50,7 @@ class AchievementEntry {
 
 	function load(info) {
 		m_info = info;
-
 		draw();
-
 		m_surface.visible = true;
 	}
 
@@ -67,10 +70,10 @@ class AchievementEntry {
 	}
 
 	function select() {
-		m_title.set_rgb(0,255,0);
+		m_selection_box.visible = true;
 	}
 
 	function deselect() {
-		m_title.set_rgb(255,252,103);
+		m_selection_box.visible = false;
 	}
 }
