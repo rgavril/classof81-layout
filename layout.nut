@@ -76,14 +76,20 @@ local achivement_entries = AchievementEntries(475, 310)
 
 
 function key_detect(signal_str) {
+	sound_engine.click();
+	
 	if (signal_str == "right") {
 		achivement_entries.activate();
+		game_buttons.desactivate();
+
 		sidebox_border.visible = true;
 		return true;
 	}
 
 	if (signal_str == "left") {
 		achivement_entries.desactivate();
+		game_buttons.activate();
+
 		sidebox_border.visible = false;
 		return true;
 	}
