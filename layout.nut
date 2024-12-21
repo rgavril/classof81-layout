@@ -76,7 +76,9 @@ local achivement_entries = AchievementEntries(475, 310)
 
 
 function key_detect(signal_str) {
-	sound_engine.click();
+	debug();
+
+	// sound_engine.click(); <-- This fucker gives us segfaults 
 	
 	if (signal_str == "right") {
 		achivement_entries.activate();

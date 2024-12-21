@@ -11,6 +11,8 @@ class AchievementEntry {
 	m_desaturize_shader = null;
 
 	constructor(x, y) {
+		debug("AchievementEntry");
+
 		# Coordinates where we start drawing
 		m_x = x; m_y = y;
 
@@ -50,16 +52,22 @@ class AchievementEntry {
 	}
 
 	function load(info) {
+		debug("AchievementEntry");
+
 		m_info = info;
 		draw();
 		m_surface.visible = true;
 	}
 
 	function hide() {
+		debug("AchievementEntry");
+
 		m_surface.visible = false;
 	}
 
 	function draw() {
+		debug("AchievementEntry");
+
 		# Load the badge
 		local filename = fe.script_dir + "/achievements/images/" + m_info.BadgeName + ".png";
 		m_badge.swap(m_surface.add_image(filename, -1000, -1000));
@@ -71,10 +79,14 @@ class AchievementEntry {
 	}
 
 	function select() {
+		debug("AchievementEntry");
+
 		m_selection_box.visible = true;
 	}
 
 	function deselect() {
+		debug("AchievementEntry");
+		
 		m_selection_box.visible = false;
 	}
 }

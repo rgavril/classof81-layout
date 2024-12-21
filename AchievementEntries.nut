@@ -9,6 +9,8 @@ class AchievementEntries {
 	is_active = false;   # Whether the list is active or not
 
 	constructor(x, y) {
+		debug()
+
 		# Create the achivement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -25,6 +27,8 @@ class AchievementEntries {
 
 
 	function transition_callback(ttype, var, transition_time) {
+		debug()
+
 		if (ttype == Transition.FromOldSelection) {
 			load(); draw();
 		}
@@ -32,6 +36,8 @@ class AchievementEntries {
 
 	# Signal handler for navigatin the achievents list
 	function key_detect(signal_str) {
+		debug()
+
 		if (signal_str == "next_game") {
 			move_next();
 			return true;
@@ -48,6 +54,8 @@ class AchievementEntries {
 
 	# Loads the achivements info for the current game
 	function load() {
+		debug()
+
 		local rom = fe.game_info(Info.Name);
 
 		# Load the load achievements from the list
@@ -69,6 +77,8 @@ class AchievementEntries {
 
 	# Sort the list of achivements
 	function sort() {
+		debug()
+
 		local sorted_list = [];
 		local keys = [];
 
@@ -85,6 +95,8 @@ class AchievementEntries {
 	}
 
 	function draw() {
+		debug()
+
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
 			local list_idx = this.first_idx + i;
@@ -109,6 +121,8 @@ class AchievementEntries {
 	}
 
 	function move_next() {
+		debug()
+
 		# If we're at the end of the list, no need to move forward
 		if (this.selected_idx == this.list.len() - 1) {
 			return;
@@ -126,6 +140,8 @@ class AchievementEntries {
 	}
 
 	function move_prev() {
+		debug()
+
 		# If we're at the begining of the list, no need to move back
 		if (this.selected_idx == 0) {
 			return;
@@ -144,12 +160,16 @@ class AchievementEntries {
 
 	# Hide the achivements
 	function hide() {
+		debug()
+
 		foreach(entry in this.entries) {
 			entry.hide();
 		}
 	}
 
 	function activate() {
+		debug()
+
 		# Add signal handler used for list navigation
 		fe.remove_signal_handler(this, "key_detect");
 		fe.add_signal_handler(this, "key_detect");
@@ -160,6 +180,8 @@ class AchievementEntries {
 	}
 
 	function desactivate() {
+		debug()
+
 		# Remove signal handler used for list navigation
 		fe.remove_signal_handler(this, "key_detect");
 

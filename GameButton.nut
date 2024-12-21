@@ -16,8 +16,9 @@ class GameButton {
 	is_selected = false;
 	is_active = true;
 
-	constructor(x=0, y=0)
-	{
+	constructor(x=0, y=0) {
+		debug()
+
 		# Create surface for drawing onto and position it
 		m_surface = fe.add_surface(500, 300);
 		m_surface.set_pos(x, y);
@@ -75,9 +76,12 @@ class GameButton {
 		draw();
 	}
 
-	function setLogo(filename)
-	{	
-		m_logo.swap(m_surface.add_image(filename,-1000, -1000))
+	function setLogo(filename) {
+		debug()
+
+		m_logo.visible = false;
+		m_logo = null;
+		m_logo = m_surface.add_image(filename,-1000, -1000)
 
 		# Resize the logo
 		m_logo.preserve_aspect_ratio = true;
@@ -108,44 +112,56 @@ class GameButton {
 	}
 
 	function draw() {
-			m_logo.shader = this.is_selected ? fe.add_shader(Shader.Empty) : m_desaturize_shader;
+		debug()
 
-			m_logo_shadow.alpha = this.is_selected ? 200 : 100;
+		m_logo.shader = this.is_selected ? fe.add_shader(Shader.Empty) : m_desaturize_shader;
 
-			m_pointer_a.visible = (this.is_selected && !this.is_active) ? true : false;
-			m_pointer_i.visible = (this.is_selected && this.is_active) ? true : false;
+		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
 
-			m_selection_box_a.visible = (this.is_selected && this.is_active) ? true : false;
-			m_selection_box_i.visible = (this.is_selected && !this.is_active) ? true : false;
+		m_pointer_a.visible = (this.is_selected && !this.is_active) ? true : false;
+		m_pointer_i.visible = (this.is_selected && this.is_active) ? true : false;
+
+		m_selection_box_a.visible = (this.is_selected && this.is_active) ? true : false;
+		m_selection_box_i.visible = (this.is_selected && !this.is_active) ? true : false;
 	}
 
-	function select()
-	{
+	function select() {
+		debug()
+
 		this.is_selected = true;
 		draw();
 	}
 
-	function deselect()
-	{
+	function deselect() {
+		debug()
+
 		this.is_selected = false;
 		draw();
 
 	}
 
 	function hide() {
+		debug()
+
 		m_surface.visible = false;
 	}
 
 	function show() {
+		debug()
+
 		m_surface.visible = true;
 	}
 
 	function activate() {
+		debug()
+
 		this.is_active = true;
 		draw();
 	}
 
 	function desactivate() {
+		debug()
+
 		this.is_active = false;
 		draw();
 	}

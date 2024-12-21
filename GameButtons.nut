@@ -5,6 +5,8 @@ class GameButtons {
 	is_active = true;  # Whether the list is active or not
 
 	constructor(x, y) {
+		debug()
+
 		# Create the game buttons
 		this.buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -20,12 +22,16 @@ class GameButtons {
 	}
 
 	function transition_callback(ttype, var, transition_time) {
+		debug()
+
 		if (ttype == Transition.FromOldSelection) {
 			draw();
 		}
 	}
 
 	function draw() {
+		debug()
+
 		# Calculate the page number
 		local page_number = fe.list.index / PAGE_SIZE
 
@@ -60,11 +66,15 @@ class GameButtons {
 	}
 
 	function activate() {
+		debug()
+
 		this.is_active = true;
 		draw();
 	}
 
 	function desactivate() {
+		debug()
+		
 		this.is_active = false;
 		draw();
 	}
