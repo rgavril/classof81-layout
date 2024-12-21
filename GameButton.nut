@@ -9,6 +9,7 @@ class GameButton {
 	m_logo_shadow = null;
 	m_desaturize_shader = null;
 	m_shadow_shader = null;
+	m_empty_shader = null;
 	m_icon = null;
 	m_pointer_a = null;
 	m_pointer_i = null;
@@ -71,6 +72,7 @@ class GameButton {
 		# Shader used to desaturade the unselected logo on buttons
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		m_shadow_shader = fe.add_shader(Shader.Fragment, "shaders/shadow.glsl");
+		m_empty_shader = fe.add_shader(Shader.Empty);
 
 		# Draw
 		draw();
@@ -79,9 +81,8 @@ class GameButton {
 	function setLogo(filename) {
 		debug()
 
-		m_logo.visible = false;
-		m_logo = null;
-		m_logo = m_surface.add_image(filename,-1000, -1000)
+		m_logo.visible = false; m_logo = null;
+		m_logo = m_surface.add_image(filename)
 
 		# Resize the logo
 		m_logo.preserve_aspect_ratio = true;
@@ -114,7 +115,7 @@ class GameButton {
 	function draw() {
 		debug()
 
-		m_logo.shader = this.is_selected ? fe.add_shader(Shader.Empty) : m_desaturize_shader;
+		m_logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
 
 		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
 

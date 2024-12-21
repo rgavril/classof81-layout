@@ -9,6 +9,7 @@ class AchievementEntry {
 	m_description = null;
 	m_selection_box = null;
 	m_desaturize_shader = null;
+	m_empty_shader = null;
 
 	constructor(x, y) {
 		debug("AchievementEntry");
@@ -49,6 +50,7 @@ class AchievementEntry {
 
 		# Shader used for desaturating badge icon
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
+		m_empty_shader = fe.add_shader(Shader.Empty);
 	}
 
 	function load(info) {
@@ -70,7 +72,11 @@ class AchievementEntry {
 
 		# Load the badge
 		local filename = fe.script_dir + "/achievements/images/" + m_info.BadgeName + ".png";
-		m_badge.swap(m_surface.add_image(filename, -1000, -1000));
+
+
+		m_badge.visible = false; m_badge = null
+		m_badge = m_surface.add_image(filename, 15, 5);
+
 		m_badge.shader = m_desaturize_shader;
 
 		# Update the title and description
