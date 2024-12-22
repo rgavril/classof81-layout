@@ -73,10 +73,7 @@ class AchievementEntry {
 		# Load the badge
 		local filename = fe.script_dir + "/achievements/images/" + m_info.BadgeName + ".png";
 
-
-		m_badge.visible = false; m_badge = null
-		m_badge = m_surface.add_image(filename, 15, 5);
-
+		m_badge.file_name = filename;
 		m_badge.shader = m_desaturize_shader;
 
 		# Update the title and description

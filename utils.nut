@@ -7,15 +7,18 @@ function max(a,b) {
 }
 
 function debug(msg = "") {
+	return;
 	local func = getstackinfos(2).func;
 	local src  = getstackinfos(2).src;
 	local line = getstackinfos(2).line
 	local locals = getstackinfos(2).locals
+	local time = clock();
 
-	local variables = "";
-	// foreach (var, value in locals) {
-	// 	variables += var + " = " + value + " | ";
+	// local variables = fe.obj.len();
+	// foreach (key,val in fe.obj) {
+	// 	print(key + " = " + val + "\n");
 	// }
+	// print("*** " + fe.image_cache.count() +"\n");
 
-	print("DEBUG: "+ func +" " + variables +"  @ "+ src + ":"+ line +" \n")
+	print("DEBUG: "+time+" "+ func +" @ "+ src + ":"+ line +" \n")
 }

@@ -81,13 +81,13 @@ class GameButton {
 	function setLogo(filename) {
 		debug()
 
-		m_logo.visible = false; m_logo = null;
-		m_logo = m_surface.add_image(filename)
+		m_logo.file_name = filename
 
 		# Resize the logo
 		m_logo.preserve_aspect_ratio = true;
 		m_logo.mipmap = true;
 		m_logo.width = 260;
+		m_logo.zorder = 2;
 
 		# Set the origin point to the center-right of the logo
 		m_logo.origin_y = (m_logo.texture_height * (m_logo.width / m_logo.texture_width)) / 2;
@@ -100,7 +100,8 @@ class GameButton {
 		m_logo.y = m_background.y + m_background.texture_height/2;
 
 
-		m_logo_shadow.swap(m_surface.add_image(filename,-1000, -1000))
+
+		m_logo_shadow.file_name = filename;
 		m_logo_shadow.preserve_aspect_ratio = true;
 		m_logo_shadow.width = m_logo.width;
 		m_logo_shadow.origin_y = m_logo.origin_y - 2;
@@ -108,6 +109,7 @@ class GameButton {
 		m_logo_shadow.x = m_logo.x;
 		m_logo_shadow.y = m_logo.y;
 		m_logo_shadow.shader = m_shadow_shader;
+		m_logo_shadow.zorder = 1;
 
 		draw();
 	}
