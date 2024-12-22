@@ -1,8 +1,7 @@
-import fs from 'fs';
-import https from 'https';
-// import CryptoJS from 'crypto-js';
-import crypto from 'crypto';
-import config from './config.json' with { type: "json" };
+const fs = require('fs');
+const https = require('https');
+const crypto = require('crypto');
+const config = require('./config.json'); 
 
 function saveJson2Nut(json, filename) {
     console.log(`* Saving JSON to Squirrel [ ${filename} ]`)
@@ -94,10 +93,11 @@ async function gameIdOfRom(rom) {
     return null;  // Return null if no match is found
 }
 
-
-const rom = process.argv[2];
-const gameId = await gameIdOfRom(rom)
-const url = `https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?g=${gameId}&u=${config.user}&y=${config.key}&z=${config.user}`;
-const jsonData = await fetchJson(url);
-saveJson2Nut(jsonData, `./nuts/${rom}.nut`);
-downloadBadges(jsonData, './images');
+(async() => {
+    const rom = process.argv[2];
+    const gameId = await gameIdOfRom(rom)
+    const url = `https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?g=${gameId}&u=${config.user}&y=${config.key}&z=${config.user}`;
+    const jsonData = await fetchJson(url);
+    saveJson2Nut(jsonData, `./nuts/${rom}.nut`);
+    downloadBadges(jsonData, './images');
+})();

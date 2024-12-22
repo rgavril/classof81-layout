@@ -3,5 +3,5 @@
   "name": "ra2nut",
   "version": "1.0.0",
   "author": "Razvan Gavril",
-  "type": "module"
+  "type": "commonjs"
 }
