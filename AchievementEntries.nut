@@ -34,24 +34,6 @@ class AchievementEntries {
 		}
 	}
 
-	# Signal handler for navigatin the achievents list
-	function key_detect(signal_str) {
-		debug()
-
-		if (signal_str == "next_game") {
-			move_next();
-			return true;
-		}
-
-		if (signal_str == "prev_game") {
-			move_prev();
-			return true;
-		}
-
-    	# Allow other signals to be handled normally
-    	return false;
-	}
-
 	# Loads the achivements info for the current game
 	function load() {
 		debug()
@@ -170,10 +152,6 @@ class AchievementEntries {
 	function activate() {
 		debug()
 
-		# Add signal handler used for list navigation
-		fe.remove_signal_handler(this, "key_detect");
-		fe.add_signal_handler(this, "key_detect");
-
 		this.is_active = true;
 
 		draw();
@@ -181,9 +159,6 @@ class AchievementEntries {
 
 	function desactivate() {
 		debug()
-
-		# Remove signal handler used for list navigation
-		fe.remove_signal_handler(this, "key_detect");
 
 		this.is_active = false;
 

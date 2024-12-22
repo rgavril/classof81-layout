@@ -78,21 +78,31 @@ local achivement_entries = AchievementEntries(475, 310)
 function key_detect(signal_str) {
 	debug();
 
-	// sound_engine.click(); <-- This fucker gives us segfaults 
+	// sound_engine.click(); <-- This fucker gives us segfaults ?
 	
-	if (signal_str == "right") {
+	if (signal_str == "right" && ! achivement_entries.is_active) {
 		achivement_entries.activate();
 		game_buttons.desactivate();
 
 		sidebox_border.visible = true;
-		return true;
+		return false;
 	}
 
-	if (signal_str == "left") {
+	if (signal_str == "left" && achivement_entries.is_active) {
 		achivement_entries.desactivate();
 		game_buttons.activate();
 
 		sidebox_border.visible = false;
+		return true;
+	}
+
+	if (signal_str == "down" && achivement_entries.is_active) {
+		achivement_entries.move_next();
+		return true;
+	}
+
+	if (signal_str == "up" && achivement_entries.is_active) {
+		achivement_entries.move_prev();
 		return true;
 	}
 }
