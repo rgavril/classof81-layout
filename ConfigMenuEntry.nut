@@ -1,6 +1,6 @@
 class ConfigMenuEntry {
-	title = "No Title";
-	value = "No Value";
+	title = "";
+	value = "";
 	options = [];
 
 	surface = null;
@@ -8,15 +8,15 @@ class ConfigMenuEntry {
 	value_label = null;
 
 	constructor(parent_surface, x, y) {
-		this.surface = fe.add_surface(1000, 1000);
+		this.surface = parent_surface.add_surface(1000, 1000);
 		this.surface.set_pos(x, y);
 		
 		# Title
-		this.title_label = this.surface.add_text(title, 0, 0, 600, 30);
+		this.title_label = this.surface.add_text(title, 0, 0, 600, 35);
 		title_label.align = Align.MiddleLeft;
 
 		# Value
-		this.value_label = this.surface.add_text(value, 0, 0, 600, 30);
+		this.value_label = this.surface.add_text(value, 0, 0, 600, 35);
 		value_label.align = Align.MiddleRight;
 	}
 
@@ -26,5 +26,13 @@ class ConfigMenuEntry {
 
 	function set_value(text) {
 		this.value_label.msg = text;
+	}
+
+	function hide() {
+		this.surface.visible = false;
+	}
+
+	function show() {
+		this.surface.visible = true;
 	}
 }
