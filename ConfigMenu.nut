@@ -14,7 +14,7 @@ class ConfigMenu {
 		this.surface.set_pos(0, 200);
 
 		# Background
-		this.surface.add_image("images/config_menu.png", 0, 0).alpha = 245;		
+		this.surface.add_image("images/config_menu.png", 0, 0);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local menu_entry = ConfigMenuEntry(this.surface, 70, 110+90*i);
@@ -45,11 +45,6 @@ class ConfigMenu {
 		local dip_switches = [];
 		try {
 			dip_switches = dofile(fe.script_dir + "/dipswitches/nuts/"+rom+".nut");
-
-			# Debug 
-			// foreach (i, dip_switch in this.dip_switches) {
-			// 	print("* " + dip_switch["name"] + " = " + dip_switch["default"] + "\n");
-			// }
 
 		# If the dip switches list was not loaded correctly (ex: missing or bad format)
 		} catch(e) {
@@ -93,6 +88,9 @@ class ConfigMenu {
 	function show() {
 		this.is_active = true;
 		this.surface.visible = true;
+
+        local enlarge = {property = "scale", start=0.1, end=1, time = 300, 	tween = Tween.Quart}
+        animation.add(PropertyAnimation(this.surface, enlarge));
 	}
 
 	function hide() {
