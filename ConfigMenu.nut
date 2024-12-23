@@ -1,5 +1,5 @@
 class ConfigMenu {
-	PAGE_SIZE = 20;
+	PAGE_SIZE = 7;
 
 	dip_switches = [];
 
@@ -13,10 +13,10 @@ class ConfigMenu {
 		this.surface.set_pos(0, 200);
 
 		# Background
-		this.surface.add_image("images/config_menu_background.png", 0, 0);
+		this.surface.add_image("images/config_menu.png", 0, 0).alpha = 245;		
 
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local menu_entry = ConfigMenuEntry(this.surface, 40, 80+40*i);
+			local menu_entry = ConfigMenuEntry(this.surface, 70, 110+90*i);
 			this.menu_entrie.push(menu_entry);
 		}
 
@@ -87,5 +87,13 @@ class ConfigMenu {
 				menu_entry.hide();
 			}
 		}
+	}
+
+	function show() {
+		this.surface.visible = true;
+	}
+
+	function hide() {
+		this.surface.visible = false;
 	}
 }

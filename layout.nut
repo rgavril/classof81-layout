@@ -74,7 +74,7 @@ sidebox_border.visible = false;
 local sound_engine = SoundEngine()
 local game_buttons = GameButtons(20, 305)
 local achivement_entries = AchievementEntries(475, 310)
-local dip_switches = ConfigMenu()
+local config_menu = ConfigMenu()
 
 
 function key_detect(signal_str) {
