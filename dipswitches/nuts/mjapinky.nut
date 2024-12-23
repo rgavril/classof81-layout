@@ -1,0 +1,178 @@
+return [
+  {
+    "name": "Unknown 1-0",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 1-1",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 1-2",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 1-3",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Maximum Bet",
+    "default": "1",
+    "values": [
+      "1",
+      "5",
+      "10",
+      "20"
+    ]
+  },
+  {
+    "name": "Background",
+    "default": "Green",
+    "values": [
+      "Black",
+      "Green"
+    ]
+  },
+  {
+    "name": "Unknown 1-7",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 2-0&1",
+    "default": "0",
+    "values": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "name": "Unknown 2-2",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 2-3",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 2-4&5",
+    "default": "0",
+    "values": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "name": "Unknown 2-6&7",
+    "default": "0",
+    "values": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "name": "Unknown 3-0",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-1",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-2",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-3",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-4",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-5",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Unknown 3-6",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Full Test",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Service Mode",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  }
+]

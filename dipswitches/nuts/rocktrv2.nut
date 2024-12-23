@@ -1,0 +1,98 @@
+return [
+  {
+    "name": "Coinage",
+    "default": "1 Coin/1 Credit",
+    "values": [
+      "2 Coins/1 Credit",
+      "1 Coin/1 Credit",
+      "1 Coin/2 Credits",
+      "Free Play"
+    ]
+  },
+  {
+    "name": "Questions Per Game",
+    "default": "5",
+    "values": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "name": "Clock Speed",
+    "default": "Beginner",
+    "values": [
+      "Beginner",
+      "Intermed",
+      "Pro",
+      "Super - Pro"
+    ]
+  },
+  {
+    "name": "Freeze Image",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Mode",
+    "default": "Amusement",
+    "values": [
+      "Amusement",
+      "Credit"
+    ]
+  },
+  {
+    "name": "Cabinet",
+    "default": "Upright",
+    "values": [
+      "Upright",
+      "Cocktail"
+    ]
+  },
+  {
+    "name": "K.O. Switch",
+    "default": "Auto",
+    "values": [
+      "Auto",
+      "Manual"
+    ]
+  },
+  {
+    "name": "Service Mode",
+    "default": "Off",
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Bonus Life",
+    "default": "10000",
+    "values": [
+      "10000",
+      "17500",
+      "25000",
+      "32500",
+      "40000",
+      "47500",
+      "55000",
+      "62500"
+    ]
+  },
+  {
+    "name": "Music",
+    "default": "On",
+    "values": [
+      "Off",
+      "On"
+    ]
+  }
+]

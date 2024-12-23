@@ -1,0 +1,26 @@
+return [
+  {
+    "name": "Contrast",
+    "default": "1",
+    "values": [
+      "0/Low",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7/High"
+    ]
+  },
+  {
+    "name": "Mode",
+    "default": "On/RUN",
+    "values": [
+      "Off",
+      "On/RUN",
+      "On/PRO",
+      "On/RSV"
+    ]
+  }
+]
