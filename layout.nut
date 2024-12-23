@@ -59,10 +59,6 @@ bottom_text.align = Align.BottomLeft;
 bottom_text.word_wrap = true;
 bottom_text.set_rgb(77, 105, 192);
 
-# Sidebox Border
-local sidebox_border = fe.add_image("images/sidebox_active.png", 460, 220);
-sidebox_border.visible = false;
-
 # Leaderboard mockup
 // for (local i=1; i<=25; i++) {
 // 	local lb_text = fe.add_text(i+"\tPlayer "+i, 485, 263+(i*30), 452, 24);
@@ -75,36 +71,41 @@ local sound_engine = SoundEngine()
 local game_buttons = GameButtons(20, 305)
 local achivement_entries = AchievementEntries(475, 310)
 local config_menu = ConfigMenu()
+config_menu.hide();
 
 
 function key_detect(signal_str) {
 	debug();
 
 	// sound_engine.click(); <-- This fucker gives us segfaults ?
-	
-	if (signal_str == "right" && ! achivement_entries.is_active) {
+
+	if (achivement_entries.is_active) {
+		if ( achivement_entries.key_detect(signal_str) ) {
+			return true;
+		};
+	}
+
+	if (signal_str == "right" && game_buttons.is_active) {
 		achivement_entries.activate();
 		game_buttons.desactivate();
-
-		sidebox_border.visible = true;
 		return false;
 	}
 
 	if (signal_str == "left" && achivement_entries.is_active) {
 		achivement_entries.desactivate();
 		game_buttons.activate();
-
-		sidebox_border.visible = false;
 		return true;
 	}
 
-	if (signal_str == "down" && achivement_entries.is_active) {
-		achivement_entries.move_next();
+	if (signal_str == "left" && game_buttons.is_active) {
+		game_buttons.desactivate();
+		config_menu.show();
 		return true;
 	}
 
-	if (signal_str == "up" && achivement_entries.is_active) {
-		achivement_entries.move_prev();
+	if (signal_str == "right" && config_menu.is_active) {
+		game_buttons.activate();
+		config_menu.hide();
 		return true;
 	}
 }

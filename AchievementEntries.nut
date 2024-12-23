@@ -6,6 +6,7 @@ class AchievementEntries {
 	first_idx = 0;       # The index of the first visible achivement
 
 	entries = [];        # Array containing the achivement entries
+	border_image = null; # Achivements Box Boder
 	is_active = false;   # Whether the list is active or not
 
 	constructor(x, y) {
@@ -17,6 +18,10 @@ class AchievementEntries {
 			local entry = AchievementEntry(x, y+80*i);
 			this.entries.push(entry)
 		}
+
+		# Sidebox Border
+		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
+		this.border_image.visible = false;
 
 		# Load and draw the achivements for the current game
 		load(); draw();
@@ -32,6 +37,20 @@ class AchievementEntries {
 		if (ttype == Transition.FromOldSelection) {
 			load(); draw();
 		}
+	}
+
+	function key_detect(signal_str) {
+		if (signal_str == "down") {
+			this.move_next();
+			return true;
+		}
+
+		if (signal_str == "up" ) {
+			this.move_prev();
+			return true;
+		}
+
+		return false;
 	}
 
 	# Loads the achivements info for the current game
@@ -99,6 +118,9 @@ class AchievementEntries {
 			} else {
 				entry.deselect();
 			}
+
+			# Toggle background border based on activity
+			this.border_image.visible = this.is_active;
 		}
 	}
 

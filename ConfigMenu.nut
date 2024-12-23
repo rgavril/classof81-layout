@@ -5,6 +5,7 @@ class ConfigMenu {
 
 	surface = [];
 	menu_entrie = [];
+	is_active = false;
 
 	constructor() {
 		debug();
@@ -90,10 +91,12 @@ class ConfigMenu {
 	}
 
 	function show() {
+		this.is_active = true;
 		this.surface.visible = true;
 	}
 
 	function hide() {
+		this.is_active = false;
 		this.surface.visible = false;
 	}
 }
