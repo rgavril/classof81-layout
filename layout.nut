@@ -11,6 +11,8 @@ dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchievementEntry.nut");
 dofile(fe.script_dir + "AchievementEntries.nut");
+dofile(fe.script_dir + "ConfigMenu.nut");
+dofile(fe.script_dir + "ConfigMenuEntry.nut");
 dofile(fe.script_dir + "SoundEngine.nut");
 
 fe.layout.preserve_aspect_ratio=true;
@@ -69,10 +71,10 @@ sidebox_border.visible = false;
 // 	lb_text.set_rgb(255,255,120);
 // }
 
-
-local game_buttons = GameButtons(20, 305)
 local sound_engine = SoundEngine()
+local game_buttons = GameButtons(20, 305)
 local achivement_entries = AchievementEntries(475, 310)
+local dip_switches = ConfigMenu(0, 0)
 
 
 function key_detect(signal_str) {
