@@ -2,6 +2,8 @@ class ConfigMenu {
 	PAGE_SIZE = 7;
 
 	dip_switches = [];
+	first_idx = 0;
+	selected_idx = 0;
 
 	surface = [];
 	menu_entrie = [];
@@ -36,6 +38,20 @@ class ConfigMenu {
 		}
 	}
 
+	function key_detect(signal_str) {
+		if (signal_str == "down") {
+			this.move_next();
+			return true;
+		}
+
+		if (signal_str == "up" ) {
+			this.move_prev();
+			return true;
+		}
+
+		return false;
+	}
+
 	function load() {
 		debug();
 
@@ -58,6 +74,10 @@ class ConfigMenu {
 			if (dip_switch["name"] == "Unused")  {  continue; }
 			this.dip_switches.push(dip_switch);
 		}
+
+		# Reset the offset and selected index
+		this.selected_idx = 0;
+		this.first_idx = 0;
 	}
 
 	function draw() {
@@ -65,11 +85,11 @@ class ConfigMenu {
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local dip_switch
-			local menu_entry = menu_entrie[i]
+			local menu_entry = this.menu_entrie[i]
 
 			# Try to load the dipswitch at this position
 			try {
-				dip_switch = this.dip_switches[i];
+				dip_switch = this.dip_switches[i + first_idx];
 			} catch (e) {
 				dip_switch = null;
 			}
@@ -82,7 +102,51 @@ class ConfigMenu {
 			} else {
 				menu_entry.hide();
 			}
+
+ 			if (this.selected_idx == i + this.first_idx) {
+ 				menu_entry.select();
+ 			} else {
+ 				menu_entry.deselect();
+ 			}
 		}
+	}
+
+	function move_next() {
+		debug();
+
+		# If we're at the end of the list, no need to move forward
+		if (this.selected_idx == this.dip_switches.len() - 1) {
+			return;
+		}
+
+		# Select the next element in list
+		this.selected_idx++;
+
+		# Scroll the list down if the selection is not visible
+		if (this.selected_idx > this.first_idx + (PAGE_SIZE - 1)) {
+			this.first_idx++;
+		}
+
+		draw();
+	}
+
+	function move_prev() {
+		debug()
+
+		# If we're at the begining of the list, no need to move back
+		if (this.selected_idx == 0) {
+			return;
+		}
+
+		# Select the previous element in the list
+		this.selected_idx--;
+
+		# Scroll the list up if the selection is not visible
+		if (this.selected_idx < this.first_idx) {
+			this.first_idx--;
+		}
+
+		draw();
 	}
 
 	function show() {
