@@ -4,6 +4,8 @@ class GameButtons {
 	buttons = [];      # Array containing the game buttons
 	is_active = true;  # Whether the list is active or not
 
+	is_config_mode = false;
+
 	constructor(x, y) {
 		debug()
 
@@ -29,6 +31,22 @@ class GameButtons {
 		}
 	}
 
+	function key_detect(signal_str) {
+		if (signal_str == "left" && !is_config_mode) {
+			is_config_mode = true;
+			draw();
+			return true;
+		}
+
+		if (signal_str == "right" && is_config_mode) {
+			is_config_mode = false;
+			draw();
+			return true;
+		}
+
+		return false;
+	}
+
 	function draw() {
 		debug()
 
@@ -47,6 +65,9 @@ class GameButtons {
 			button.deselect()
 			button.show()
 
+			# Set the button mode
+			button.set_config_mode(this.is_config_mode);
+			
 			# If the button is pointing to a game ouside the list of games, hide it
 			if (absolute_index >= fe.list.size) {
 				button.hide();

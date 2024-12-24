@@ -1,21 +1,19 @@
 class GameButton {
-	m_x = 0;
-	m_y = 0;
 	m_surface = null;
 	m_background = null;
-	m_selection_box_a = null;
-	m_selection_box_i = null;
+	game_select_box = null;
 	m_logo = null;
-	m_logo_shadow = null;
+	m_logo_shadow = null;	
+	gear_icon = null;
+	connection_bar = null;
+
 	m_desaturize_shader = null;
 	m_shadow_shader = null;
 	m_empty_shader = null;
-	m_icon = null;
-	m_pointer_a = null;
-	m_pointer_i = null;
 
 	is_selected = false;
 	is_active = true;
+	is_config_mode = false;
 
 	constructor(x=0, y=0) {
 		debug()
@@ -26,48 +24,35 @@ class GameButton {
 		m_surface.origin_y = m_surface.texture_height/2;
 
 		# Draw the button background image on the surface
-		m_background = m_surface.add_image("images/button_background.png");
+		m_background = m_surface.add_image("images/button_background_inactive.png");
 		m_background.y = m_surface.texture_height / 2;
 
-		# Pointer
-		m_pointer_a = m_surface.add_image("images/pointer_active.png", 0, 0);
-		m_pointer_a.origin_x = m_pointer_a.texture_width;
-		m_pointer_a.origin_y = m_pointer_a.texture_height / 2;
-		m_pointer_a.x = 441;
-		m_pointer_a.y = m_background.y + m_background.texture_height / 2;
-		m_pointer_a.zorder = -1;
-
-		m_pointer_i = m_surface.add_image("images/pointer.png", 0, 0);
-		m_pointer_i.origin_x = m_pointer_i.texture_width;
-		m_pointer_i.origin_y = m_pointer_i.texture_height / 2;
-		m_pointer_i.x = 441;
-		m_pointer_i.y = m_background.y + m_background.texture_height / 2;
-		m_pointer_i.zorder = -1;
-
+		# Connection Bar
+		this.connection_bar = m_surface.add_image("images/connection_bar_active.png", 0, 0);
+		this.connection_bar.origin_x = this.connection_bar.texture_width;
+		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
+		this.connection_bar.x = 441;
+		this.connection_bar.y = m_background.y + m_background.texture_height / 2;
+		this.connection_bar.zorder = -1;
+		this.connection_bar.visible = false;
 
 		# Create the the selection rectangle
-		m_selection_box_a = m_surface.add_image("images/button_selection.png", 0, 0);
-		m_selection_box_a.y = m_surface.texture_height / 2;
-		m_selection_box_a.origin_x = m_selection_box_a.texture_width;
-		m_selection_box_a.x = m_background.texture_width + m_background.x;
-		m_selection_box_a.visible = false;
-
-		m_selection_box_i = m_surface.add_image("images/button_selection_inactive.png", 0, 0);
-		m_selection_box_i.y = m_surface.texture_height / 2;
-		m_selection_box_i.origin_x = m_selection_box_i.texture_width;
-		m_selection_box_i.x = m_background.texture_width + m_background.x;
-		m_selection_box_i.visible = false;
+		this.game_select_box = m_surface.add_image("images/game_select_box_active.png", 0, 0);
+		this.game_select_box.y = m_surface.texture_height / 2;
+		this.game_select_box.origin_x = this.game_select_box.texture_width;
+		this.game_select_box.x = m_background.texture_width + m_background.x;
+		this.game_select_box.visible = false;
 
 		# Game Logo
 		m_logo_shadow = m_surface.add_image(null);
 		m_logo = m_surface.add_image(null);
 
 		# Gear Icon
-		m_icon = m_surface.add_image("images/gear.png", 0, 0, 85, 85);
-		m_icon.origin_y = 30;
-		m_icon.origin_x = 30;
-		m_icon.y = m_background.y;
-		m_icon.x = 43;
+		this.gear_icon = m_surface.add_image("images/gear.png", 0, 0, 85, 85);
+		this.gear_icon.origin_y = 30;
+		this.gear_icon.origin_x = 30;
+		this.gear_icon.y = m_background.y;
+		this.gear_icon.x = 43;
 
 		# Shader used to desaturade the unselected logo on buttons
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
@@ -118,14 +103,49 @@ class GameButton {
 		debug()
 
 		m_logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
-
 		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
 
-		m_pointer_a.visible = (this.is_selected && !this.is_active) ? true : false;
-		m_pointer_i.visible = (this.is_selected && this.is_active) ? true : false;
 
-		m_selection_box_a.visible = (this.is_selected && this.is_active) ? true : false;
-		m_selection_box_i.visible = (this.is_selected && !this.is_active) ? true : false;
+		# Connection Bar Logic
+		if (this.is_selected && this.is_active) {
+			this.connection_bar.visible = true;
+			this.connection_bar.file_name = "images/connection_bar_active.png";
+		} else if (this.is_selected && !this.is_active) {
+			this.connection_bar.visible = true;
+			this.connection_bar.file_name = "images/connection_bar_inactive.png";
+		} else {
+			this.connection_bar.visible = false;
+		}
+
+		# Gear Icon Logic
+		if (this.is_selected && this.is_config_mode) {
+			this.gear_icon.file_name = "images/gear_active.png";
+		} else {
+			this.gear_icon.file_name = "images/gear_inactive.png";
+		}
+
+		# Button Background Logic
+		if (this.is_selected && this.is_config_mode) {
+			m_background.file_name = "images/button_background_active.png";
+		} else {
+			m_background.file_name = "images/button_background_inactive.png";
+		}
+
+		# Select Box Game Logic
+		if (this.is_selected && this.is_active && !this.is_config_mode) {
+			this.game_select_box.file_name = "images/game_select_box_active.png"
+			this.game_select_box.visible = true;
+
+		} else if (this.is_selected && !this.is_active && !this.is_config_mode) {
+			this.game_select_box.file_name = "images/game_select_box_inactive.png"
+			this.game_select_box.visible = true;
+
+		} else if (this.is_selected && this.is_active && this.is_config_mode) {
+			this.game_select_box.file_name = "images/game_select_box_inactive.png"
+			this.game_select_box.visible = true;
+		} else {
+			this.game_select_box.visible = false;
+		}
 	}
 
 	function select() {
@@ -166,6 +186,13 @@ class GameButton {
 		debug()
 
 		this.is_active = false;
+		draw();
+	}
+
+	function set_config_mode(is_config_mode) {
+		debug();
+
+		this.is_config_mode = is_config_mode;
 		draw();
 	}
 }

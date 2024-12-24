@@ -91,6 +91,12 @@ function key_detect(signal_str) {
 		};
 	}
 
+	if (game_buttons.is_active) {
+		if ( game_buttons.key_detect(signal_str) ) {
+			return true;
+		}
+	}
+
 	if (signal_str == "right" && game_buttons.is_active) {
 		achivement_entries.activate();
 		game_buttons.desactivate();
