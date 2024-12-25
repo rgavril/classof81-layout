@@ -18,6 +18,7 @@ class GameButtons {
 
 		# Draw the buttons
 		draw();
+		activate();
 
 		# Add a callback to refresh the buttons when events take place
 		fe.add_transition_callback(this, "transition_callback");
@@ -92,6 +93,8 @@ class GameButtons {
 		debug()
 
 		this.is_active = true;
+		bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
+		
 		draw();
 	}
 

@@ -7,6 +7,7 @@ fe.load_module("file");
 fe.load_module("animate");
 
 dofile(fe.script_dir + "utils.nut");
+dofile(fe.script_dir + "BottomText.nut");
 dofile(fe.script_dir + "GameButton.nut");
 dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchievementEntry.nut");
@@ -52,13 +53,6 @@ title.set_rgb(255,104,181);
 title.char_size = 36;
 title.align = Align.TopCentre;
 
-# Bottom Text
-local bottom_text = fe.add_text("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.",20, 1100, 800, 160);
-bottom_text.char_size = 26;
-bottom_text.align = Align.BottomLeft;
-bottom_text.word_wrap = true;
-bottom_text.set_rgb(77, 105, 192);
-
 # Leaderboard mockup
 // for (local i=1; i<=25; i++) {
 // 	local lb_text = fe.add_text(i+"\tPlayer "+i, 485, 263+(i*30), 452, 24);
@@ -67,11 +61,11 @@ bottom_text.set_rgb(77, 105, 192);
 // 	lb_text.set_rgb(255,255,120);
 // }
 
+bottom_text <- BottomText();
 local sound_engine = SoundEngine()
-local game_buttons = GameButtons(20, 305)
-local achivement_entries = AchievementEntries(475, 310)
-local config_menu = ConfigMenu()
-config_menu.hide();
+local game_buttons = GameButtons(20, 305);
+local achivement_entries = AchievementEntries(475, 310);
+local config_menu = ConfigMenu();
 
 
 function key_detect(signal_str) {
@@ -79,7 +73,7 @@ function key_detect(signal_str) {
 
 	// sound_engine.click(); <-- This fucker gives us segfaults ?
 
-	# If Achivements is active
+	# If Achivements is Active
 	if (achivement_entries.is_active) {
 		# Send the keypress for processing
 		if ( achivement_entries.key_detect(signal_str) ) {
@@ -88,13 +82,13 @@ function key_detect(signal_str) {
 
 		# If Right is pressed, activate Game Buttons
 		if (signal_str == "left") {
-			achivement_entries.desactivate();
 			game_buttons.activate();
+			achivement_entries.desactivate();
 			return true;
 		}
 	}
 
-	# If Config Menu is active
+	# Config Menu is active
 	if (config_menu.is_active) {
 		# Send the keypress for processing
 		if ( config_menu.key_detect(signal_str) ) {
@@ -119,8 +113,8 @@ function key_detect(signal_str) {
 		# If Game Buttons is pointing to config gear 
 		# and select is pressed activate Config Menu
 		if (signal_str == "select" && game_buttons.is_config_mode) {
-			game_buttons.desactivate();
 			config_menu.show();
+			game_buttons.desactivate();
 			return true;
 		}
 

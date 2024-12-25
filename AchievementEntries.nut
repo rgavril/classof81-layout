@@ -24,7 +24,7 @@ class AchievementEntries {
 		this.border_image.visible = false;
 
 		# Load and draw the achivements for the current game
-		load(); draw();
+		load(); draw(); desactivate();
 
 		# Add a callback to refresh the list when events take place
 		fe.add_transition_callback(this, "transition_callback");
@@ -180,6 +180,7 @@ class AchievementEntries {
 		debug()
 
 		this.is_active = true;
+		bottom_text.set("Press any button to view achivement. Move up or down to select a different achivement. Move left to select a different game.");
 
 		draw();
 	}

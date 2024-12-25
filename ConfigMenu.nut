@@ -23,6 +23,7 @@ class ConfigMenu {
 			this.menu_entrie.push(menu_entry);
 		}
 
+		this.hide();
 		this.load(); 
 		this.draw();
 
