@@ -49,6 +49,11 @@ class ConfigMenu {
 			return true;
 		}
 
+		if (signal_str == "select") {
+			print("Config action not yet implemented\n");
+			return true;
+		}
+
 		return false;
 	}
 

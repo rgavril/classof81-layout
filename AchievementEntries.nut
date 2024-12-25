@@ -50,6 +50,11 @@ class AchievementEntries {
 			return true;
 		}
 
+		if (signal_str == "select") {
+			print("Achievements action not yet implemented\n");
+			return true;
+		}
+
 		return false;
 	}
 
