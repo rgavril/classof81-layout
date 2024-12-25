@@ -27,6 +27,7 @@ class GameButtons {
 		debug()
 
 		if (ttype == Transition.FromOldSelection) {
+			this.is_config_mode = false;
 			draw();
 		}
 	}
@@ -39,6 +40,7 @@ class GameButtons {
 		}
 
 		if (signal_str == "right" && is_config_mode) {
+			this.buttons[0].set_config_mode(false);
 			is_config_mode = false;
 			draw();
 			return true;
@@ -67,7 +69,7 @@ class GameButtons {
 
 			# Set the button mode
 			button.set_config_mode(this.is_config_mode);
-			
+
 			# If the button is pointing to a game ouside the list of games, hide it
 			if (absolute_index >= fe.list.size) {
 				button.hide();

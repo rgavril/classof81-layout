@@ -79,46 +79,60 @@ function key_detect(signal_str) {
 
 	// sound_engine.click(); <-- This fucker gives us segfaults ?
 
+	# If Achivements is active
 	if (achivement_entries.is_active) {
+		# Send the keypress for processing
 		if ( achivement_entries.key_detect(signal_str) ) {
 			return true;
 		};
-	}
 
-	if (config_menu.is_active) {
-		if ( config_menu.key_detect(signal_str) ) {
-			return true;
-		};
-	}
-
-	if (game_buttons.is_active) {
-		if ( game_buttons.key_detect(signal_str) ) {
+		# If Right is pressed, activate Game Buttons
+		if (signal_str == "left") {
+			achivement_entries.desactivate();
+			game_buttons.activate();
 			return true;
 		}
 	}
 
-	if (signal_str == "right" && game_buttons.is_active) {
-		achivement_entries.activate();
-		game_buttons.desactivate();
-		return false;
+	# If Config Menu is active
+	if (config_menu.is_active) {
+		# Send the keypress for processing
+		if ( config_menu.key_detect(signal_str) ) {
+			return true;
+		};
+
+		# If back is pressed, activate Game Buttons
+		if (signal_str == "back") {
+			game_buttons.activate();
+			config_menu.hide();
+			return true;
+		}
 	}
 
-	if (signal_str == "left" && achivement_entries.is_active) {
-		achivement_entries.desactivate();
-		game_buttons.activate();
-		return true;
+	# Game Buttons are active
+	if (game_buttons.is_active) {
+		# Send the keypress for processing
+		if ( game_buttons.key_detect(signal_str) ) {
+			return true;
+		}
+
+		# If Game Buttons is pointing to config gear 
+		# and select is pressed activate Config Menu
+		if (signal_str == "select" && game_buttons.is_config_mode) {
+			game_buttons.desactivate();
+			config_menu.show();
+			return true;
+		}
+
+		# If Right is pressed, activate Achivements
+		if (signal_str == "right") {
+			achivement_entries.activate();
+			game_buttons.desactivate();
+			return false;
+		}
 	}
 
-	if (signal_str == "left" && game_buttons.is_active) {
-		game_buttons.desactivate();
-		config_menu.show();
-		return true;
-	}
-
-	if (signal_str == "right" && config_menu.is_active) {
-		game_buttons.activate();
-		config_menu.hide();
-		return true;
-	}
+	# print("SIGNAL : " + signal_str + "\n"); return true;
+	return false;
 }
 fe.add_signal_handler("key_detect");
