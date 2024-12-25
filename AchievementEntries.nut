@@ -127,6 +127,10 @@ class AchievementEntries {
 			# Toggle background border based on activity
 			this.border_image.visible = this.is_active;
 		}
+
+		if (this.is_active) {
+			bottom_text.set("Move up or down to browse the Achievements. Press any button to view this Achivement. Move left to play [Title] or a different game.");
+		}
 	}
 
 	function move_next() {
@@ -180,7 +184,6 @@ class AchievementEntries {
 		debug()
 
 		this.is_active = true;
-		bottom_text.set("Press any button to view achivement. Move up or down to select a different achivement. Move left to select a different game.");
 
 		draw();
 	}

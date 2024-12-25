@@ -87,13 +87,20 @@ class GameButtons {
 				}
 			}
 		}
+
+		if (this.is_active) {
+			if (this.is_config_mode) {
+				bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
+			} else {
+				bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
+			}
+		}
 	}
 
 	function activate() {
 		debug()
 
 		this.is_active = true;
-		bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
 		
 		draw();
 	}

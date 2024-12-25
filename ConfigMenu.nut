@@ -161,6 +161,12 @@ class ConfigMenu {
 
         local enlarge = {property = "scale", start=0.1, end=1, time = 300, 	tween = Tween.Quart}
         animation.add(PropertyAnimation(this.surface, enlarge));
+
+		if (this.is_active) {
+			bottom_text.set("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Selet \"HIDE THIS MENU\" when done.");
+		}
+		
+        draw();
 	}
 
 	function hide() {
