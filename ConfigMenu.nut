@@ -90,26 +90,35 @@ class ConfigMenu {
 		debug();
 
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local dip_switch
 			local menu_entry = this.menu_entrie[i]
 
-			# Try to load the dipswitch at this position
-			try {
-				dip_switch = this.dip_switches[i + first_idx];
-			} catch (e) {
-				dip_switch = null;
-			}
+			local visible_idx = i + this.first_idx;
 
-			# If we found a valid dipswitch, add it to the menu entires
-			if (dip_switch) {
-				menu_entry.set_title(dip_switch["name"]);
-				menu_entry.set_value(dip_switch["default"]);	
+			if (visible_idx == 0) {
+				menu_entry.set_title("HIDE MENU");
 				menu_entry.show();
+
 			} else {
-				menu_entry.hide();
+				# Try to load the dipswitch at this position
+				local dip_switch
+				local dip_switch_idx = visible_idx - 1;
+				try {
+					dip_switch = this.dip_switches[dip_switch_idx];
+				} catch (e) {
+					dip_switch = null;
+				}
+
+				# If we found a valid dipswitch, add it to the menu entires
+				if (dip_switch) {
+					menu_entry.set_title(dip_switch["name"]);
+					menu_entry.set_value(dip_switch["default"]);	
+					menu_entry.show();
+				} else {
+					menu_entry.hide();
+				}
 			}
 
- 			if (this.selected_idx == i + this.first_idx) {
+ 			if (this.selected_idx == visible_idx) {
  				menu_entry.select();
  			} else {
  				menu_entry.deselect();
