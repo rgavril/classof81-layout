@@ -9,7 +9,7 @@ class ConfigMenuEntry {
 	background_image = null;
 
 	constructor(parent_surface, x, y) {
-		this.surface = parent_surface.add_surface(1000, 1000);
+		this.surface = parent_surface.add_surface(1000, 100);
 		this.surface.set_pos(x, y);
 		
 		# Background
