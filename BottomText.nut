@@ -13,8 +13,10 @@ class BottomText {
 	}
 
 	function set(text) {
-		this.text_obj.msg = text;
-		this.pulse();
+		if (this.text_obj.msg != text) {
+			this.text_obj.msg = text;
+			this.pulse();
+		}
 	}
 
 	function pulse() {
