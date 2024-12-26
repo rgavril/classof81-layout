@@ -39,21 +39,13 @@ class AchievementEntries {
 		}
 	}
 
-	key_detected_clock = 0;
 	function key_detect(signal_str) {
-		local current_clock = clock();
-		if (key_detected_clock > 0 && current_clock - key_detected_clock < 0.03) {
-			return true;
-		}
-
 		if (signal_str == "down") {
 			this.move_next();
-			key_detected_clock = current_clock;
 			return true;
 		}
 
 		if (signal_str == "up" ) {
-			key_detected_clock = current_clock;
 			this.move_prev();
 			return true;
 		}
@@ -66,12 +58,36 @@ class AchievementEntries {
 		return false;
 	}
 
+	down_hold_start = 0; up_hold_start = 0;
 	function ticks_callback( tick_time ) {
 		# Don't register keys if we're not active
 		if (! this.is_active) { return; }
 
-		if (fe.get_input_state("down")) { this.key_detect("down");}
-		if (fe.get_input_state("up"))   { this.key_detect("up");}
+		if (fe.get_input_state("down")) { 
+			if (down_hold_start == 0) {
+				down_hold_start = tick_time + 500;
+			}
+
+			if (tick_time - down_hold_start > 100) {
+				down_hold_start = tick_time;
+				this.key_detect("down");
+			}
+		} else {
+			down_hold_start = 0;
+		}
+
+		if (fe.get_input_state("up")) { 
+			if (up_hold_start == 0) {
+				up_hold_start = tick_time + 500;
+			}
+
+			if (tick_time - up_hold_start > 100) {
+				up_hold_start = tick_time;
+				this.key_detect("up");
+			}
+		} else {
+			up_hold_start = 0;
+		}
 	}
 
 	# Loads the achivements info for the current game
