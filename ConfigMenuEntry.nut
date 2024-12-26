@@ -8,6 +8,9 @@ class ConfigMenuEntry {
 	value_label = null;
 	background_image = null;
 
+	name = "";
+	option = "";
+
 	constructor(parent_surface, x, y) {
 		this.surface = parent_surface.add_surface(1000, 100);
 		this.surface.set_pos(x, y);
@@ -30,12 +33,27 @@ class ConfigMenuEntry {
 		value_label.set_rgb(255, 255, 255);
 	}
 
-	function set_title(text) {
-		this.title_label.msg = text.toupper() + ":";
+	function draw() {
+		this.title_label.msg = name.toupper();
+
+		if (option == null) {
+			this.title_label.align = Align.MiddleCentre;
+			this.value_label.visible = false;
+		} else {
+			this.title_label.msg += ":";
+			this.title_label.align = Align.MiddleLeft;
+
+			this.value_label.msg = option;
+			this.value_label.visible = true;
+		}
 	}
 
-	function set_value(text) {
-		this.value_label.msg = text;
+	function set_label(name, option=null) {
+		
+		this.name = name;
+		this.option = option;
+
+		draw();
 	}
 
 	function hide() {

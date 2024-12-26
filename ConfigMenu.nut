@@ -69,7 +69,7 @@ class ConfigMenu {
 
 		if (fe.get_input_state("down")) { 
 			if (down_hold_start == 0) {
-				down_hold_start = tick_time + 1500;
+				down_hold_start = tick_time + 500;
 			}
 
 			if (tick_time - down_hold_start > 100) {
@@ -82,7 +82,7 @@ class ConfigMenu {
 
 		if (fe.get_input_state("up")) { 
 			if (up_hold_start == 0) {
-				up_hold_start = tick_time + 1500;
+				up_hold_start = tick_time + 500;
 			}
 
 			if (tick_time - up_hold_start > 100) {
@@ -117,6 +117,7 @@ class ConfigMenu {
 			this.dip_switches.push(dip_switch);
 		}
 
+
 		# Reset the offset and selected index
 		this.selected_idx = 0;
 		this.first_idx = 0;
@@ -127,31 +128,29 @@ class ConfigMenu {
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local menu_entry = this.menu_entrie[i]
-
 			local visible_idx = i + this.first_idx;
 
-			# Try to load the dipswitch at this position
-			local dip_switch
-			try {
-				dip_switch = this.dip_switches[visible_idx];
-			} catch (e) {
-				dip_switch = null;
-			}
-
-			# If we found a valid dipswitch, add it to the menu entires
-			if (dip_switch) {
-				menu_entry.set_title(dip_switch["name"]);
-				menu_entry.set_value(dip_switch["default"]);
-				menu_entry.show();
-			} else {
-				menu_entry.hide();
-			}
-
- 			if (this.selected_idx == visible_idx) {
+			# Mark menu item if is selected
+			 if (this.selected_idx == visible_idx) {
  				menu_entry.select();
  			} else {
  				menu_entry.deselect();
  			}
+
+ 			# Add the special 'hide' menu entry on position 0
+			if (visible_idx == 0) {
+				menu_entry.set_label("HIDE THIS MENU");
+				continue;
+			}
+
+			# If there is a dipswitch to show on this position
+			if (visible_idx-1 < dip_switches.len()) {
+				local dip_switch = this.dip_switches[visible_idx-1];
+				menu_entry.set_label(dip_switch["name"], dip_switch["default"]);
+				menu_entry.show();
+			} else {
+				menu_entry.hide();
+			}
 		}
 
 		if (this.is_active) {
@@ -163,7 +162,7 @@ class ConfigMenu {
 		debug();
 
 		# If we're at the end of the list, no need to move forward
-		if (this.selected_idx == this.dip_switches.len() - 1) {
+		if (this.selected_idx == this.dip_switches.len()) {
 			return;
 		}
 
@@ -171,7 +170,7 @@ class ConfigMenu {
 		this.selected_idx++;
 
 		# Scroll the list down if the selection is not visible
-		if (this.selected_idx > this.first_idx + (PAGE_SIZE - 1)) {
+		if (this.selected_idx > this.first_idx + PAGE_SIZE - 1) {
 			this.first_idx++;
 		}
 
