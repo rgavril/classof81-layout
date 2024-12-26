@@ -29,6 +29,9 @@ class ConfigMenu {
 
 		# Add a callback to refresh the list when events take place
 		fe.add_transition_callback(this, "transition_callback");
+
+		# Add a tick call back to resend key events as long as a key is pressed
+		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
 	function transition_callback(ttype, var, transition_time) {
@@ -39,14 +42,23 @@ class ConfigMenu {
 		}
 	}
 
+	key_detected_clock = 0;
 	function key_detect(signal_str) {
+		# Ensure a delay between key events
+		local current_clock = clock();
+		if (key_detected_clock > 0 && current_clock - key_detected_clock < 0.03) {
+			return true;
+		}
+
 		if (signal_str == "down") {
 			this.move_next();
+			key_detected_clock = current_clock;
 			return true;
 		}
 
 		if (signal_str == "up" ) {
 			this.move_prev();
+			key_detected_clock = current_clock;
 			return true;
 		}
 
@@ -56,6 +68,14 @@ class ConfigMenu {
 		}
 
 		return false;
+	}
+
+	function ticks_callback( tick_time ) {
+		# Don't register keys if we're not active
+		if (! this.is_active) { return; }
+
+		if (fe.get_input_state("down")) { this.key_detect("down");}
+		if (fe.get_input_state("up"))   { this.key_detect("up");}
 	}
 
 	function load() {
