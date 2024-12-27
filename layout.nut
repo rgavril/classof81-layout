@@ -114,7 +114,7 @@ function key_detect(signal_str) {
 		# and select is pressed activate Config Menu
 		if (signal_str == "select" && game_buttons.is_config_mode) {
 			config_menu.show();
-			game_buttons.desactivate();
+			// game_buttons.desactivate();
 			return true;
 		}
 

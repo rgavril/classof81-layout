@@ -55,6 +55,21 @@ class ConfigMenu {
 		}
 
 		if (signal_str == "select") {
+			if (selected_idx == 0) {
+				this.is_active = false;
+				this.hide();
+			} else {
+				print("Config action not yet implemented\n");
+			}
+			return true;
+		}
+
+		if (signal_str == "left") {
+			print("Config action not yet implemented\n");
+			return true;
+		}
+
+		if (signal_str == "right") {
 			print("Config action not yet implemented\n");
 			return true;
 		}
