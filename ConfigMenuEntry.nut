@@ -1,7 +1,6 @@
 class ConfigMenuEntry {
 	title = "";
 	value = "";
-	options = [];
 
 	surface = null;
 	title_label = null;
@@ -10,6 +9,8 @@ class ConfigMenuEntry {
 
 	name = "";
 	option = "";
+
+	is_selected = false;
 
 	constructor(parent_surface, x, y) {
 		this.surface = parent_surface.add_surface(1000, 100);
@@ -35,21 +36,29 @@ class ConfigMenuEntry {
 
 	function draw() {
 		this.title_label.msg = name.toupper();
+		this.title_label.align = Align.MiddleCentre;
+		this.value_label.visible = false;
 
-		if (option == null) {
-			this.title_label.align = Align.MiddleCentre;
-			this.value_label.visible = false;
-		} else {
+		if (option != null) {
 			this.title_label.msg += ":";
 			this.title_label.align = Align.MiddleLeft;
 
 			this.value_label.msg = option;
 			this.value_label.visible = true;
 		}
+
+		if (this.is_selected) {
+			this.background_image.file_name = "images/config_menu_entry_selected.png"
+			this.title_label.set_rgb(100, 71, 145)
+			this.value_label.set_rgb(100, 71, 145)
+		} else {
+			this.background_image.file_name = "images/config_menu_entry.png"
+			this.title_label.set_rgb(255, 255, 255)
+			this.value_label.set_rgb(255, 255, 255)
+		}
 	}
 
 	function set_label(name, option=null) {
-		
 		this.name = name;
 		this.option = option;
 
@@ -65,14 +74,12 @@ class ConfigMenuEntry {
 	}
 
 	function select() {
-		this.background_image.file_name = "images/config_menu_entry_selected.png"
-		this.title_label.set_rgb(100, 71, 145)
-		this.value_label.set_rgb(100, 71, 145)
+		this.is_selected = true;
+		draw();
 	}
 
 	function deselect() {
-		this.background_image.file_name = "images/config_menu_entry.png"
-		this.title_label.set_rgb(255, 255, 255)
-		this.value_label.set_rgb(255, 255, 255)
+		this.is_selected = false;
+		draw();
 	}
 }
