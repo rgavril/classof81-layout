@@ -111,7 +111,6 @@ class ConfigMenu {
 
 		# Load the load dip switches for the current game
 		dip_switches = FBNeoDipSwitches(rom);
-		print("DIPS FOR " + rom + " = " + dip_switches.len()+ " \n\n\n");
 
 		# Reset the offset and selected index
 		this.selected_idx = 0;
@@ -141,7 +140,7 @@ class ConfigMenu {
 			# If there is a dipswitch to show on this position
 			if (visible_idx-1 < dip_switches.len()) {
 				local dip_switch = this.dip_switches.get(visible_idx-1);
-				menu_entry.set_label(dip_switch.name, dip_switch.current_value());
+				menu_entry.set_label(dip_switch.name, dip_switch.value());
 				menu_entry.show();
 			} else {
 				menu_entry.hide();
