@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test / Bookkeeping",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Rate (%)",
-    "default": "25.1",
+    "default": 7,
     "values": [
       "3.12",
       "6.25",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Reset",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Pago Doble (Double Pay)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Pago x5 (Pay x5)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "Plain = 40; Line = 70; Chance = 90",
+    "default": 3,
     "values": [
       "Plain = 10; Line = 30; Chance = 30",
       "Plain = 20; Line = 40; Chance = 50",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Player 1 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Player 2 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Player 3 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Player 4 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Player 5 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Player 6 Credits Lock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

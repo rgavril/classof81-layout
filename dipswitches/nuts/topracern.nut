@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "90 secs.",
+    "default": 0,
     "values": [
       "90 secs.",
       "100 secs.",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Racing Laps",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Extended Rank",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Practice Rank",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

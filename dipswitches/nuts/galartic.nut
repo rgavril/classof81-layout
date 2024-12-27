@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C  B 1C/3C",
+    "default": 2,
     "values": [
       "A 2C/1C  B 1C/3C",
       "A 2C/1C  B 1C/5C",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "7000"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "SP64i ROM Pages",
-    "default": "6&7",
+    "default": 3,
     "values": [
       "0&1",
       "2&3",

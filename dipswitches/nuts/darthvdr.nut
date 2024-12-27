@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "3000",
+    "default": 1,
     "values": [
       "1000",
       "3000"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 2,
     "values": [
       "3",
       "5",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "One less life",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

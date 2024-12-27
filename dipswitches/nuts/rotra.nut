@@ -1,7 +1,7 @@
 return [
   {
     "name": "Setup Disk",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Load PROG",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Reserved",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Enable Cache",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Debug Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "FPGA File Source",
-    "default": "Serial PROMs",
+    "default": 0,
     "values": [
       "Serial PROMs",
       "Cable"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Clock speed",
-    "default": "33",
+    "default": 5,
     "values": [
       "4",
       "8",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "SCSI bus terminated",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

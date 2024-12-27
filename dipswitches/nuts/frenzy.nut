@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hardware Tests",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Color test",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Input Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Crosshair Pattern",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "3000",
+    "default": 2,
     "values": [
       "1000",
       "2000",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin Multiplier",
-    "default": "1",
+    "default": 1,
     "values": [
       "Free Play",
       "1",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Coins/Credit A",
-    "default": "1",
+    "default": 1,
     "values": [
       "0 (invalid)",
       "1",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coins/Credit B",
-    "default": "1",
+    "default": 1,
     "values": [
       "0 (invalid)",
       "1",
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

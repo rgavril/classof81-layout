@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Non-Stop",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Record Password",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Auto Take",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Double-Up Game Type",
-    "default": "Poker 1",
+    "default": 0,
     "values": [
       "Poker 1",
       "Poker 2",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Chance Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Score Box",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Play Score",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

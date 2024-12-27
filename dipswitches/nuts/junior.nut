@@ -1,7 +1,7 @@
 return [
   {
     "name": "S25: Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S24: SS (NumLock)",
-    "default": "run",
+    "default": 1,
     "values": [
       "single step",
       "run"

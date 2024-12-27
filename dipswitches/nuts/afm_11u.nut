@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country",
-    "default": "America",
+    "default": 0,
     "values": [
       "America",
       "European",

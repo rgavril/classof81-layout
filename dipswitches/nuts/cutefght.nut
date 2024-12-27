@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Ticket Payout",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "No",
       "Little",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Level 4",
+    "default": 3,
     "values": [
       "Level 1",
       "Level 2",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

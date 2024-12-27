@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Beginner",
       "Easiest",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Control Panel",
-    "default": "4 Players",
+    "default": 0,
     "values": [
       "4 Players",
       "1P & 2P Tag only",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Half Continue",
-    "default": "Disabled",
+    "default": 3,
     "values": [
       "6C to start, 3C to continue",
       "4C to start, 2C to continue",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -142,7 +142,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -150,7 +150,7 @@ return [
   },
   {
     "name": "CP Single",
-    "default": "2:00",
+    "default": 0,
     "values": [
       "2:00",
       "2:30",
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "CP Tag",
-    "default": "2:00",
+    "default": 0,
     "values": [
       "2:00",
       "2:30",
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Vs Single",
-    "default": "2:30",
+    "default": 0,
     "values": [
       "2:30",
       "3:00",
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Vs Tag",
-    "default": "2:30",
+    "default": 0,
     "values": [
       "2:30",
       "3:00",

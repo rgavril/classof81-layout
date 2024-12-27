@@ -22,7 +22,7 @@ def extract_dip_switches(xml_file):
 
                 # Check if this is the default value
                 if dipvalue.get('default') == 'yes':
-                    default_value = value_name
+                    default_value = len(values) - 1
 
             dip_switches.append({
                 "name": dip_name,

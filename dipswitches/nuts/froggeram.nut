@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "5",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/1",
+    "default": 1,
     "values": [
       "A 1/2 B 1/1",
       "A 1/1 B 1/1",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Xmit ETX",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Xmit CSR",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Character Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None/High",
+    "default": 2,
     "values": [
       "Even",
       "Odd",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "50",
       "75",
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Half/Full Duplex",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Right Margin Wrap",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "LF NL/CR NL",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "New Line",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Display Attributes",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Inverse Display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Refresh Rate",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Serial Loop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

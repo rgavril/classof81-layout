@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "2 Coins/1 Credit",
       "3 Coins/2 Credits",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "2 Coins/1 Credit",
       "3 Coins/2 Credits",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "More",
+    "default": 1,
     "values": [
       "Less",
       "More"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Number of Virus",
-    "default": "Less",
+    "default": 0,
     "values": [
       "Less",
       "More"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Italian"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

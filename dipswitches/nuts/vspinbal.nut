@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Side Drain Walls",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "50000",
+    "default": 0,
     "values": [
       "50000",
       "70000"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Ball speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"

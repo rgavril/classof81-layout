@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Magazine / Grenade",
-    "default": "6 / 3",
+    "default": 1,
     "values": [
       "5 / 2",
       "6 / 3",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

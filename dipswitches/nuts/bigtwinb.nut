@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slots",
-    "default": "Common",
+    "default": 1,
     "values": [
       "Separate",
       "Common"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Credits to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Italian"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Rising Ground Level",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

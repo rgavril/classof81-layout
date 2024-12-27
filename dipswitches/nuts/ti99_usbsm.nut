@@ -1,7 +1,7 @@
 return [
   {
     "name": "Multiplex mode",
-    "default": "TI mode",
+    "default": 0,
     "values": [
       "TI mode",
       "Geneve mode"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "USB/Smartmedia CRU base",
-    "default": "1600",
+    "default": 6,
     "values": [
       "1000",
       "1100",

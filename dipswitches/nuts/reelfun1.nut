@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Multiplier",
-    "default": "1",
+    "default": 6,
     "values": [
       "7",
       "6",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Credits per Coin",
+    "default": 0,
     "values": [
       "Credits per Coin",
       "Coins per Credit"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Screen",
-    "default": "Horizontal",
+    "default": 0,
     "values": [
       "Horizontal",
       "Vertical"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

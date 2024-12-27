@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language Code",
-    "default": "US English",
+    "default": 0,
     "values": [
       "US English",
       "UK/Int. English",

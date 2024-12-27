@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "100 Points/Pulse",
+    "default": 0,
     "values": [
       "100 Points/Pulse",
       "200 Points/Pulse"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "85%",
+    "default": 2,
     "values": [
       "75%",
       "80%",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Max Rate",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Attract Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "SW2 - 40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "SW3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

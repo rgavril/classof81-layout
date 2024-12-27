@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "30000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 2,
     "values": [
       "2",
       "3",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/1",
+    "default": 8,
     "values": [
       "A 3/1 B 3/1",
       "A 3/1 B 1/2",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

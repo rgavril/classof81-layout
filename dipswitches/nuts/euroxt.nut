@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game port enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "LPT3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "LPT2: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "LPT1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "COM4: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "COM3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "COM2: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "COM1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "HDC2 (CA00:0 port 324-327)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "HDC1 (C800:0 port 320-323)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "XT-IDE ROM base segment",
-    "default": "C800",
+    "default": 2,
     "values": [
       "C000",
       "C400",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "XT-IDE I/O address",
-    "default": "300",
+    "default": 8,
     "values": [
       "200",
       "220",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "XT-IDE IRQ",
-    "default": "IRQ 5",
+    "default": 3,
     "values": [
       "IRQ 2",
       "IRQ 3",
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "SW 08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "SW 07",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "SW 06",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "SW 05",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "SW 04",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "SW 03",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "SW 02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "SW 01",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "SW 16",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "SW 15",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "SW 14",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "SW 13",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "SW 12",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "SW 11",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "SW 10",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "SW 09",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Clear RAM at boot",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

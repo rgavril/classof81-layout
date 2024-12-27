@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 Each 5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium Hard",
+    "default": 2,
     "values": [
       "Easy",
       "Medium",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "15000",
+    "default": 1,
     "values": [
       "10000",
       "15000",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

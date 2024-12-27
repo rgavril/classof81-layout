@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bombs",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200K, 500K",
+    "default": 1,
     "values": [
       "100K, 300K",
       "200K, 500K",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

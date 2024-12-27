@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 0,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Flip Y",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Mirrored Display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Show Blood",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Distribution list",
-    "default": "50:30:15:8:5:3:2:1",
+    "default": 3,
     "values": [
       "32:24:16:12:8:4:2:1",
       "200:100:50:10:5:3:2:1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Payout percentage",
-    "default": "84%",
+    "default": 4,
     "values": [
       "96%",
       "93%",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/5 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cocktail",
       "Upright"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin Out Logic",
-    "default": "Positive",
+    "default": 0,
     "values": [
       "Positive",
       "Negative"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Magic Switch",
-    "default": "A SW",
+    "default": 0,
     "values": [
       "A SW",
       "F/F SW"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Service Count",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Difficult",
       "Normal"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Times",
-    "default": "Twice",
+    "default": 0,
     "values": [
       "Twice",
       "Once"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Frequency",
-    "default": "Every 300 Coins",
+    "default": 2,
     "values": [
       "None",
       "Only Once",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Payout Method",
-    "default": "Pay Off",
+    "default": 2,
     "values": [
       "Direct Pay",
       "Pool Out",
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Game Title",
-    "default": "Real Mahjong Gold Yumehai",
+    "default": 0,
     "values": [
       "Real Mahjong Gold Yumehai",
       "Super Real Mahjong GOLD part.2"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Double Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "Auto Tsumo",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -188,7 +188,7 @@ return [
   },
   {
     "name": "Last Chance Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

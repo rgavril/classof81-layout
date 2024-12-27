@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

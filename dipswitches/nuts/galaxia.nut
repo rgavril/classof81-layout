@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "A 1C_1C B 2C_1C",
+    "default": 0,
     "values": [
       "A 1C_1C B 2C_1C",
       "A 1C_2C B 2C_1C",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "UNK04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "UNK05",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "UNK06",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "UNK07",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "UNK10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "UNK11",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "UNK12",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "UNK13",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "UNK14",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "UNK15",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "UNK16",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "UNK17",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

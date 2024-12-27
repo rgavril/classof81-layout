@@ -1,7 +1,7 @@
 return [
   {
     "name": "EIA Serial Baud Rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "EIA Serial Format",
-    "default": "7 bits, odd parity",
+    "default": 0,
     "values": [
       "7 bits, odd parity",
       "7 bits, even parity",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Keypad Mask on Power-Up",
-    "default": "All Ones",
+    "default": 1,
     "values": [
       "All Zeroes",
       "All Ones"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Enable DM button",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

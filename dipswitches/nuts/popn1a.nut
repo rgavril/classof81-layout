@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1P 2C / Continue 1C",
+    "default": 13,
     "values": [
       "1P 5C / Continue 5C",
       "1P 5C / Continue 4C",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Jamming Gauge Blocks",
-    "default": "6",
+    "default": 1,
     "values": [
       "5",
       "6",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Gauge Increment Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Gauge Decrement Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Normal Mode Jamming",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Loud",
+    "default": 0,
     "values": [
       "Loud",
       "Medium",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Enable \"Bonus Track\" (with *A=On and *B=On )",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Enable \"RAVE\" (with *A=On) [*B]",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "All Song Mode [*A]",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

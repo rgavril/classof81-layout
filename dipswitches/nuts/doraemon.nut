@@ -1,7 +1,7 @@
 return [
   {
     "name": "Gift Out",
-    "default": "20 %",
+    "default": 6,
     "values": [
       "2 %",
       "5 %",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Games For 100 Yen",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

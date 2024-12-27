@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Sync",
-    "default": "-",
+    "default": 0,
     "values": [
       "-",
       "+"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Modesty",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

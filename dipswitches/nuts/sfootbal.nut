@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "2:00",
+    "default": 3,
     "values": [
       "1:30",
       "1:40",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Players Per Credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "1 Or 2"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "2 Coins = 1 Bonus",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Left Coin Mech",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x2"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Right Coin Mech",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x4",

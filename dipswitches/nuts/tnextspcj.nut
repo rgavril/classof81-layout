@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Additional Bonus Life",
-    "default": "2nd Extend ONLY",
+    "default": 0,
     "values": [
       "2nd Extend ONLY",
       "Every Extend"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 1C/2C",
+    "default": 0,
     "values": [
       "A 1C/1C B 1C/2C",
       "A 2C/1C B 1C/3C",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Infinite Lives (Cheat)",
+    "default": 1,
     "values": [
       "Freeze",
       "Infinite Lives (Cheat)"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "SW2:3 Demo Sound/Game Mode",
-    "default": "Demo Sounds",
+    "default": 0,
     "values": [
       "Demo Sounds",
       "Game Mode"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100000 200000",
+    "default": 0,
     "values": [
       "100000 200000",
       "150000 300000",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

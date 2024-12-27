@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin to Credit",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin #1 multiplier",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x2"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin #2 multiplier",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x4",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Adder",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "2 gives +1",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Credits",
-    "default": "1 to Start, 1 to Continue",
+    "default": 0,
     "values": [
       "1 to Start, 1 to Continue",
       "2 to Start, 1 to Continue",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin Chute",
-    "default": "Twin",
+    "default": 1,
     "values": [
       "Single",
       "Twin"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Moving",
       "Upright"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

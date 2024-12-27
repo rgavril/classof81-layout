@@ -1,7 +1,7 @@
 return [
   {
     "name": "DIP switch? 10",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DIP switch? 20",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DIP switch? 40",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DIP switch? 80",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

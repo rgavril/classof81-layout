@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Max Double Up",
-    "default": "Once",
+    "default": 0,
     "values": [
       "Once",
       "Twice"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin Lockout",
-    "default": "2 Coins",
+    "default": 1,
     "values": [
       "Off",
       "2 Coins",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Counter Top",
+    "default": 0,
     "values": [
       "Counter Top",
       "Cocktail"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Free Hands",
-    "default": "100,000+ & 200,000+",
+    "default": 0,
     "values": [
       "100,000+ & 200,000+",
       "None"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Hands Per Game",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",

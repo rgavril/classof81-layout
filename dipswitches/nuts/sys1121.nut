@@ -1,7 +1,7 @@
 return [
   {
     "name": "ACFAIL*/SYSFAIL* Select",
-    "default": "SYSFAIL*",
+    "default": 1,
     "values": [
       "ACFAIL*",
       "SYSFAIL*"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "VMEbus Request Level",
-    "default": "Level 3",
+    "default": 3,
     "values": [
       "Level 0",
       "Level 1",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Abort Switch Enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Reset Switch Enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "VME IRQ1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "VME IRQ2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "VME IRQ3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "VME IRQ4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "VME IRQ5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "VME IRQ6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "VME IRQ7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Baud Rate Select",
-    "default": "12.5MHz CPU",
+    "default": 1,
     "values": [
       "10.0MHz CPU",
       "12.5MHz CPU"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Reset Vector Source",
-    "default": "Onboard ROM",
+    "default": 0,
     "values": [
       "Onboard ROM",
       "VMEbus"

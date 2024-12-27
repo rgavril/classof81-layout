@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 3,
     "values": [
       "30000",
       "20000",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 3,
     "values": [
       "6",
       "5",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

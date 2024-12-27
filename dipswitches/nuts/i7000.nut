@@ -1,7 +1,7 @@
 return [
   {
     "name": "8",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "7",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "6",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "5",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "4",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "3",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "2",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "1",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

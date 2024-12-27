@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin(s) per Player",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin Multiplicator",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "On Time Up",
-    "default": "End After Game",
+    "default": 1,
     "values": [
       "End After Point",
       "End After Game"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Individual"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Singles Game Time",
-    "default": "180 Seconds",
+    "default": 0,
     "values": [
       "180 Seconds",
       "120 Seconds"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Doubles Game Time",
-    "default": "180 Seconds",
+    "default": 0,
     "values": [
       "180 Seconds",
       "120 Seconds"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Starting Score",
-    "default": "4-4",
+    "default": 0,
     "values": [
       "4-4",
       "3-4",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "4 Players",
+    "default": 1,
     "values": [
       "2 Players",
       "4 Players"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Device #4",
-    "default": "Serial",
+    "default": 0,
     "values": [
       "Serial",
       "Parallel w/conv.",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Device #5",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Device #6",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Device #7",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Device #8",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Device #9",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Device #10",
-    "default": "Serial",
+    "default": 1,
     "values": [
       "IEEE",
       "Serial"

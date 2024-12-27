@@ -1,7 +1,7 @@
 return [
   {
     "name": "Strobe Length",
-    "default": "1 microsecond",
+    "default": 0,
     "values": [
       "1 microsecond",
       "3 microseconds",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Strobe Output Polarity",
-    "default": "Negative",
+    "default": 1,
     "values": [
       "Positive",
       "Negative"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Acknowledge Input Polarity",
-    "default": "Negative",
+    "default": 1,
     "values": [
       "Positive",
       "Negative"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Firmware",
-    "default": "Parallel Printer",
+    "default": 0,
     "values": [
       "Parallel Printer",
       "Centronics"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Interrupt",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"

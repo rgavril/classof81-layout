@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Level 4",
+    "default": 3,
     "values": [
       "Level 1",
       "Level 2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game Hit Probability",
-    "default": "1/5",
+    "default": 3,
     "values": [
       "1/15",
       "1/10",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Attract Sound Type",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bonus Game Type",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown B-6 (debug?)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Pirate Fight (debug?)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Taito Copyright (debug?)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown A-9 (debug?)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Tickets",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown B-9 (debug?)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

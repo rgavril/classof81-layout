@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Questions Per Game",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Clock Speed",
-    "default": "Beginner",
+    "default": 0,
     "values": [
       "Beginner",
       "Intermed",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Freeze Image",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Amusement",
+    "default": 0,
     "values": [
       "Amusement",
       "Credit"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "K.O. Switch",
-    "default": "Auto",
+    "default": 0,
     "values": [
       "Auto",
       "Manual"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "17500",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

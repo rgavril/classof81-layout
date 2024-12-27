@@ -1,7 +1,7 @@
 return [
   {
     "name": "Codepoint 0x24",
-    "default": "Dollar sign",
+    "default": 1,
     "values": [
       "Currency sign",
       "Dollar sign"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Perform I/O test",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Perform VRAM test",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "V.24 Parity",
-    "default": "No parity",
+    "default": 2,
     "values": [
       "No parity",
       "Odd",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "V.24 Character size",
-    "default": "8 bits",
+    "default": 1,
     "values": [
       "7 bits",
       "8 bits"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "V.24 Baud rate",
-    "default": "19200",
+    "default": 0,
     "values": [
       "19200",
       "9600",
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "IFSS Parity",
-    "default": "Even",
+    "default": 1,
     "values": [
       "Odd",
       "Even"
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "IFSS Baud rate",
-    "default": "Same as V.24",
+    "default": 1,
     "values": [
       "9600",
       "Same as V.24"

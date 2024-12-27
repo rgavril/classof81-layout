@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Chance (%)",
-    "default": "98",
+    "default": 15,
     "values": [
       "78",
       "80",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Input Tokens",
-    "default": "Keys",
+    "default": 0,
     "values": [
       "Keys",
       "Coins"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Output Tokens",
-    "default": "Keys",
+    "default": 0,
     "values": [
       "Keys",
       "Payout"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Credits Per Coin",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Credits Per Key-In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Credits Per Key-Out",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "100"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Max Credits",
-    "default": "3000",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Renso Bonus Time",
-    "default": "6",
+    "default": 3,
     "values": [
       "None",
       "3",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "DonDen Times",
-    "default": "6",
+    "default": 3,
     "values": [
       "None",
       "3",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Credits Limit",
-    "default": "2k",
+    "default": 0,
     "values": [
       "2k",
       "3k",
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Service-In Limit",
-    "default": "990k",
+    "default": 7,
     "values": [
       "20k",
       "30k",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Hu Type",
-    "default": "Topple",
+    "default": 0,
     "values": [
       "Topple",
       "Non-Topple"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Douple Up Chance (%)",
-    "default": "80",
+    "default": 3,
     "values": [
       "50",
       "60",
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Chinese Word",
-    "default": "3..6",
+    "default": 0,
     "values": [
       "3..6",
       "5..10"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Big Odds Times",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Hu Test Times",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "5",
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Computer Strength",
-    "default": "Strong",
+    "default": 0,
     "values": [
       "Strong",
       "Weak"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 2,
     "values": [
       "2",
       "3",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Attract Music",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "10k, 80k then every 100k",
+    "default": 0,
     "values": [
       "10k, 80k then every 100k",
       "20k, 80k then every 100k"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 3,
     "values": [
       "255",
       "5",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

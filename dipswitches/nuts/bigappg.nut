@@ -1,7 +1,7 @@
 return [
   {
     "name": "Auto Hold",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Jackpot",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Take Half Option",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Raise Option",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unlimited Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "99",
+    "default": 3,
     "values": [
       "10",
       "20",

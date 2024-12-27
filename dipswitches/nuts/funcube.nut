@@ -1,7 +1,7 @@
 return [
   {
     "name": "Battery",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Debug 0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Debug 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Debug 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Debug 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Debug 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Debug 5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Debug 6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Debug 7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

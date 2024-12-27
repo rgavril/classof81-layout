@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Select Slider",
-    "default": "Football (Right)",
+    "default": 2,
     "values": [
       "Baseball (Left)",
       "Basketball (Middle)",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Hard",
+    "default": 0,
     "values": [
       "Hard",
       "Normal"

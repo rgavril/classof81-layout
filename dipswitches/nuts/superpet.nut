@@ -1,7 +1,7 @@
 return [
   {
     "name": "RAM",
-    "default": "System Port",
+    "default": 2,
     "values": [
       "Read Only",
       "Read/Write",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "CPU",
-    "default": "System Port",
+    "default": 2,
     "values": [
       "6809",
       "6502",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Device Address",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "9",

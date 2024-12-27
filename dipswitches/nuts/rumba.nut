@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "20000 50000",
+    "default": 0,
     "values": [
       "20000 50000",
       "10000 60000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Training Stage",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Japanese",
       "English"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Attract Sound on Title Screen",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Coinage Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Copyright String",
-    "default": "Taito Corp. MCMLXXXIV",
+    "default": 0,
     "values": [
       "Taito Corp. MCMLXXXIV",
       "Taito Corporation"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Infinite Lives",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

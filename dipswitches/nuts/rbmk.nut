@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "70%",
+    "default": 0,
     "values": [
       "70%",
       "75%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Yakupai Rate",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "High",
+    "default": 1,
     "values": [
       "Normal",
       "High"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Double Up Rate",
-    "default": "80%",
+    "default": 0,
     "values": [
       "80%",
       "85%",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Break Max",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Credits Max",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Version",
-    "default": "8.8-",
+    "default": 1,
     "values": [
       "8.8",
       "8.8-"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Hide Gambling",
-    "default": "Chess",
+    "default": 1,
     "values": [
       "Mahjong",
       "Chess"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Credits per Note",
-    "default": "1 Note/10 Credits",
+    "default": 1,
     "values": [
       "1 Note/5 Credits",
       "1 Note/10 Credits",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Show Tiles after Reach",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Pay Out Type",
-    "default": "Coins",
+    "default": 1,
     "values": [
       "Credits",
       "Coins"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Keyboard"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Insert Coin Continue",
-    "default": "30 Seconds",
+    "default": 0,
     "values": [
       "30 Seconds",
       "60 Seconds",
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Tiles Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -287,7 +287,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -295,7 +295,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -303,7 +303,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -311,7 +311,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

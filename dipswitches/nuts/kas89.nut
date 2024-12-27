@@ -1,7 +1,7 @@
 return [
   {
     "name": "Nivelacion (Leveling)",
-    "default": "Creditos IN/OUT (Credits IN/OUT)",
+    "default": 0,
     "values": [
       "Creditos IN/OUT (Credits IN/OUT)",
       "Pagos/Apuestas (Payments/Bets)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Borrado de RAM (RAM Clear)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Limite del Pozo (Jackpot Limit)",
-    "default": "Normal (Normal)",
+    "default": 2,
     "values": [
       "Muy Bajo (Very Low)",
       "Bajo (Low)",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Aparicion del Corazon (Heart Appearance)",
-    "default": "No (No)",
+    "default": 1,
     "values": [
       "n/c",
       "No (No)",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Modo de Juego (Game Mode)",
-    "default": "Normal (Normal)",
+    "default": 1,
     "values": [
       "Facil (easy)",
       "Normal (Normal)",

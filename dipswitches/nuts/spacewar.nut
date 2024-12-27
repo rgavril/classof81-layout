@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "1:00/coin",
+    "default": 1,
     "values": [
       "0:45/coin",
       "1:00/coin",

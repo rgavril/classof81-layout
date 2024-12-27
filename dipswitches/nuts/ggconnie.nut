@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Set",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "100 Yen -> Coin",
-    "default": "10 Coin",
+    "default": 5,
     "values": [
       "0 Coin",
       "5 Coin",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "80%",
+    "default": 7,
     "values": [
       "85%",
       "90%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Easy",
       "Very Hard",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Payout Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Rate",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Few",
       "Most",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Demo Sound",
-    "default": "1/1",
+    "default": 3,
     "values": [
       "Off",
       "3/1",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Start Time",
-    "default": "5 sec",
+    "default": 3,
     "values": [
       "4 sec",
       "8 sec",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "RAM Clear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/2 C 1/5",
+    "default": 1,
     "values": [
       "A 2/1 B 1/1 C 1/3",
       "A 1/1 B 1/2 C 1/5",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "DSW0-3 Unknown",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "01"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "Awards Replay",
+    "default": 0,
     "values": [
       "Awards Replay",
       "Doubles Score"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Displays Replays and Extra Balls",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Clear RAM on Reset",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Adjust Replay",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Replay at / High-score",
-    "default": "800k and 1200k and 8000k / 1410k",
+    "default": 0,
     "values": [
       "800k and 1200k and 8000k / 1410k",
       "1000k and 1400k and 8000k / 1610k",

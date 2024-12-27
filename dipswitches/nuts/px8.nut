@@ -1,7 +1,7 @@
 return [
   {
     "name": "RAM disk check",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "ASCII",
+    "default": 0,
     "values": [
       "ASCII",
       "French",

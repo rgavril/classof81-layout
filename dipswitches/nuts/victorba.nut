@@ -1,7 +1,7 @@
 return [
   {
     "name": "????",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Refresh",
-    "default": "60 Hz",
+    "default": 0,
     "values": [
       "60 Hz",
       "50 Hz"

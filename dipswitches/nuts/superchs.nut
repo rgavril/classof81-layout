@@ -1,7 +1,7 @@
 return [
   {
     "name": "Freeze Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

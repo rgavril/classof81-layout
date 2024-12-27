@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "3",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Linked Cabinets",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Play Rock Smash",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "2 Player Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown 2-2&3*",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown 2-4*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown 2-5*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown 2-6&7*",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Continue?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Debug Text",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA, Canada, Mexico",
+    "default": 1,
     "values": [
       "Japan",
       "USA, Canada, Mexico"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Blood",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Validator",
-    "default": "None",
+    "default": 1,
     "values": [
       "Installed",
       "None"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "1 Counter, 1 count/coin",
+    "default": 2,
     "values": [
       "1 Counter, Totalizing",
       "2 Counters, 1 count/coin",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

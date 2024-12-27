@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tickets",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Win Bonus Tickets",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Punch Power",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Lower",
       "Medium",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Tickets Payout",
-    "default": "Total Power / 50",
+    "default": 2,
     "values": [
       "Total Power / 120",
       "Total Power / 80",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Win Bonus Tickets Payout",
-    "default": "1, 2, 3, 4, 5",
+    "default": 0,
     "values": [
       "1, 2, 3, 4, 5",
       "2, 4, 6, 8, 10",

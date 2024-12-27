@@ -1,7 +1,7 @@
 return [
   {
     "name": "Keyboard Type",
-    "default": "North America",
+    "default": 0,
     "values": [
       "North America",
       "United Kingdom (4A)",

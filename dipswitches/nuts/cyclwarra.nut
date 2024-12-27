@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 2,
     "values": [
       "5",
       "3",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Ticket Dispenser",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Machine Type",
-    "default": "2 Players",
+    "default": 0,
     "values": [
       "2 Players",
       "3 Players",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Very Hard",
       "Hard",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Player Select",
-    "default": "Select SW",
+    "default": 1,
     "values": [
       "Coin Slot",
       "Select SW"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

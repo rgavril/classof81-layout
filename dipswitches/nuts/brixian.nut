@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time Left",
-    "default": "Normal (dupe)",
+    "default": 2,
     "values": [
       "More",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Speed of Elevator",
-    "default": "Slow",
+    "default": 1,
     "values": [
       "Fast",
       "Slow"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Unused",
+    "default": 0,
     "values": [
       "Unused",
       "Unused"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Unused",
+    "default": 0,
     "values": [
       "Unused",
       "Unused"

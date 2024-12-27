@@ -1,7 +1,7 @@
 return [
   {
     "name": "Holes Awarded",
-    "default": "Par Play: 0 Holes/Birdie: 1 Hole/Eagle: 2 Holes/Double Eagle: 4 Holes",
+    "default": 0,
     "values": [
       "Par Play: 0 Holes/Birdie: 1 Hole/Eagle: 2 Holes/Double Eagle: 4 Holes",
       "Par Play: 1 Hole/Birdie: 2 Holes/Eagle: 3 Holes/Double Eagle: 4 Holes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Holes Awarded For Hole-in-One",
-    "default": "9 Holes",
+    "default": 1,
     "values": [
       "3 Holes",
       "9 Holes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Holes Per Play",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Self Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Appearance of Crow",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Crow Flight Pattern",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Coin Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Year Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Check",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Check",
       "Normal"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Coin System",
-    "default": "1 Way",
+    "default": 0,
     "values": [
       "1 Way",
       "2 Way"

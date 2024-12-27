@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Gasoline Count",
-    "default": "10 Up or 10 Down",
+    "default": 0,
     "values": [
       "10 Up or 10 Down",
       "20 Up or 20 Down"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "No Hit (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

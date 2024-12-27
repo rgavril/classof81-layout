@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 9,
     "values": [
       "10 Coins/1 Credit",
       "9 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Count Down",
-    "default": "1 Count - 1 Second",
+    "default": 0,
     "values": [
       "1 Count - 1 Second",
       "1 Count - 56/60 Second"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "1 Player Game Time",
-    "default": "2:00",
+    "default": 2,
     "values": [
       "1:00",
       "1:30",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "2 Players Game Time",
-    "default": "3:00",
+    "default": 4,
     "values": [
       "1:00",
       "1:30",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"

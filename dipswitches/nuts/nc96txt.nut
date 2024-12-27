@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level (Difficulty)",
-    "default": "Level 5",
+    "default": 4,
     "values": [
       "Level 1 (Easiest)",
       "Level 2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "80",
+    "default": 7,
     "values": [
       "8",
       "16",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Minimum Play for Bonus",
-    "default": "24",
+    "default": 2,
     "values": [
       "8",
       "16",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Skill Spinning",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1 Coin/25 Credits",
+    "default": 1,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/25 Credits"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Ticket In Value",
-    "default": "25",
+    "default": 2,
     "values": [
       "10",
       "20",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "8",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Check Account",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Initial Bonus Settings After Reset",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Bonus Accumulation",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Ticket Out By",
-    "default": "Interface",
+    "default": 0,
     "values": [
       "Interface",
       "Direct Drive"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

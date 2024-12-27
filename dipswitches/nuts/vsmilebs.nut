@@ -1,7 +1,7 @@
 return [
   {
     "name": "VTech Intro",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

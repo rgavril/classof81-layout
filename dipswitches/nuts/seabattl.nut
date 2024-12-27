@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Type",
-    "default": "Time Based",
+    "default": 0,
     "values": [
       "Time Based",
       "Lives Based"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 2,
     "values": [
       "Free Play",
       "3",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "90 seconds",
+    "default": 2,
     "values": [
       "Free Play",
       "75 seconds",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Enemies Speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "4000 points",
+    "default": 3,
     "values": [
       "Off",
       "2000 points",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

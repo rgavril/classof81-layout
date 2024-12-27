@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Hardest",
+    "default": 3,
     "values": [
       "Easy",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Coin A=10; B=100",
+    "default": 3,
     "values": [
       "Coin A=10; B=10",
       "Coin A=10; B=20",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Cum",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "100"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Tickets & Tokens",
+    "default": 3,
     "values": [
       "Replay Only",
       "Tokens Only",

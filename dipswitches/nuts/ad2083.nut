@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/2 Credits",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200000",
+    "default": 3,
     "values": [
       "None",
       "150000",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

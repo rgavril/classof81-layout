@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Screen Flip",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "V-Flip"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Start Up Device",
-    "default": "Flash ROM",
+    "default": 1,
     "values": [
       "CD-ROM Drive",
       "Flash ROM"

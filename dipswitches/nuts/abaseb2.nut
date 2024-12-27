@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 2,
     "values": [
       "Hardest",
       "Hard",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

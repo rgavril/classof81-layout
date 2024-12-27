@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Allow Extended Play",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "1500 Points",
+    "default": 0,
     "values": [
       "1500 Points",
       "2500 Points"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

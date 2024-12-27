@@ -1,7 +1,7 @@
 return [
   {
     "name": "Dispense",
-    "default": "Tickets",
+    "default": 0,
     "values": [
       "Tickets",
       "Capsules"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Award per",
-    "default": "Game",
+    "default": 0,
     "values": [
       "Game",
       "Tune"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Tickets/capsules per game/tune",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "1",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Tune bonus tickets/capsules",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "1",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Tune Timer",
-    "default": "25 secs",
+    "default": 4,
     "values": [
       "5 secs",
       "10 secs",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bad note penalty",
-    "default": "1 secs",
+    "default": 1,
     "values": [
       "0 secs",
       "1 secs",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coins per game",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Burn in Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

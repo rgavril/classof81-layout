@@ -45,32 +45,27 @@ class ConfigMenu {
 
 	function key_detect(signal_str) {
 		if (signal_str == "down") {
-			this.move_next();
+			this.down_action();
 			return true;
 		}
 
 		if (signal_str == "up" ) {
-			this.move_prev();
+			this.up_action();
 			return true;
 		}
 
 		if (signal_str == "select") {
-			if (selected_idx == 0) {
-				this.is_active = false;
-				this.hide();
-			} else {
-				print("Config action not yet implemented\n");
-			}
+			this.select_action();
 			return true;
 		}
 
 		if (signal_str == "left") {
-			print("Config action not yet implemented\n");
+			this.left_action();
 			return true;
 		}
 
 		if (signal_str == "right") {
-			print("Config action not yet implemented\n");
+			this.right_action();
 			return true;
 		}
 
@@ -111,6 +106,7 @@ class ConfigMenu {
 
 	function load() {
 		debug();
+		print("LOAD\n");
 
 		local rom = fe.game_info(Info.Name);
 
@@ -129,6 +125,9 @@ class ConfigMenu {
 		foreach (dip_switch in dip_switches) {
 			if (dip_switch["name"] == "Unknown") {  continue; }
 			if (dip_switch["name"] == "Unused")  {  continue; }
+
+			dip_switch["current"] <- dip_switch["default"];
+
 			this.dip_switches.push(dip_switch);
 		}
 
@@ -161,7 +160,7 @@ class ConfigMenu {
 			# If there is a dipswitch to show on this position
 			if (visible_idx-1 < dip_switches.len()) {
 				local dip_switch = this.dip_switches[visible_idx-1];
-				menu_entry.set_label(dip_switch["name"], dip_switch["default"]);
+				menu_entry.set_label(dip_switch["name"], dip_switch["values"][dip_switch["current"]]);
 				menu_entry.show();
 			} else {
 				menu_entry.hide();
@@ -173,7 +172,7 @@ class ConfigMenu {
 		}
 	}
 
-	function move_next() {
+	function down_action() {
 		debug();
 
 		# If we're at the end of the list, no need to move forward
@@ -192,7 +191,7 @@ class ConfigMenu {
 		draw();
 	}
 
-	function move_prev() {
+	function up_action() {
 		debug()
 
 		# If we're at the begining of the list, no need to move back
@@ -209,6 +208,37 @@ class ConfigMenu {
 		}
 
 		draw();
+	}
+
+	function right_action() {
+		if (this.selected_idx == 0) {
+			return;
+		}
+
+		local old_value = dip_switches[this.selected_idx-1]["current"];
+		local new_value = (old_value + 1) % dip_switches[this.selected_idx-1]["values"].len();
+		dip_switches[this.selected_idx-1]["current"] = new_value;
+		draw();
+	}
+
+	function left_action() {
+		if (this.selected_idx == 0) {
+			return;
+		}
+
+		local old_value = dip_switches[this.selected_idx-1]["current"];
+		local new_value = (dip_switches[this.selected_idx-1]["values"].len() + old_value - 1) % dip_switches[this.selected_idx-1]["values"].len();
+		dip_switches[this.selected_idx-1]["current"] = new_value;
+		draw();
+	}
+
+	function select_action() {
+		if (selected_idx == 0) {
+			this.is_active = false;
+			this.hide();
+		} else {
+			print("Config action not yet implemented\n");
+		}
 	}
 
 	function show() {

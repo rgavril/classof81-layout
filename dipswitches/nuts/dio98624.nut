@@ -1,7 +1,7 @@
 return [
   {
     "name": "System Controller",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Interrupt level",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Select code",
-    "default": "8",
+    "default": 8,
     "values": [
       "0",
       "1",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "GPIB Adress",
-    "default": "21",
+    "default": 21,
     "values": [
       "0",
       "1",

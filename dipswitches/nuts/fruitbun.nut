@@ -1,7 +1,7 @@
 return [
   {
     "name": "Maximum Rate",
-    "default": "69",
+    "default": 3,
     "values": [
       "90",
       "83",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "0",
+    "default": 3,
     "values": [
       "3",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "20"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin A setting",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin / 25 Credits"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B setting",
-    "default": "1 Coin/5 Credits",
+    "default": 0,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin / 10 Credits"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Memory Reset",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Analyzer",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Credit Clear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Two Pairs",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

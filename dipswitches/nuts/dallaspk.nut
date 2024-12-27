@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote 1",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "10"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Munzer2",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Munzer1",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Remote 2",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "50"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hopper-Wert",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Score Level Award",
-    "default": "Replay",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Replay"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "S07",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Play Melodies",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Award for Beating Highest Score",
-    "default": "3 Credits",
+    "default": 1,
     "values": [
       "Novelty",
       "3 Credits"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Balls per Game",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S22 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "S23 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "No Free Balls or Games",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "S29 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "S30 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Awards",
-    "default": "Conservative",
+    "default": 0,
     "values": [
       "Conservative",
       "Liberal"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Lane Adjustment",
-    "default": "Conservative",
+    "default": 0,
     "values": [
       "Conservative",
       "Liberal"

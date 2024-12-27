@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Panel Type",
-    "default": "Hanafuda",
+    "default": 1,
     "values": [
       "Mahjong",
       "Hanafuda"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Set Date",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Start with Quiz",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

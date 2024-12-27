@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "RC=3000 / MB=1000",
+    "default": 0,
     "values": [
       "RC=3000 / MB=1000",
       "RC=5000 / MB=2000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

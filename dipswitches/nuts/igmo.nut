@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "40000",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Life (GM PT3)",
-    "default": "None",
+    "default": 3,
     "values": [
       "10000",
       "15000",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage (GM PT3)",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Allow Continue (S PT2)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coinage (S PT2)",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bonus Life (G PT5)",
-    "default": "None",
+    "default": 3,
     "values": [
       "4000",
       "5000",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coinage (G PT5)",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Bonus Life (GC)",
-    "default": "50000",
+    "default": 0,
     "values": [
       "50000",
       "80000"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Coinage (GC)",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

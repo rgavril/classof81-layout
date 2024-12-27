@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 4,
     "values": [
       "Easiest",
       "Very Very Easy",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Invulnerability (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100k and every 200k",
+    "default": 3,
     "values": [
       "30k and every 50k",
       "50k and every 100k",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

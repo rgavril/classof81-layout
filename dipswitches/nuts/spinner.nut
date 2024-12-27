@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -13,7 +13,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "B B'",
+    "default": 3,
     "values": [
       "A A'",
       "A B'",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Spiders to Complete Belt",
-    "default": "16",
+    "default": 1,
     "values": [
       "14",
       "16",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "15K",
+    "default": 1,
     "values": [
       "None",
       "15K",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Giant Spiders",
-    "default": "First Screen",
+    "default": 0,
     "values": [
       "First Screen",
       "Every Screen"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Vertical Adjust",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Horizontal Adjust",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",

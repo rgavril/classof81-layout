@@ -1,7 +1,7 @@
 return [
   {
     "name": "S1-1",
-    "default": "Console mode",
+    "default": 1,
     "values": [
       "Direct boot",
       "Console mode"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S1-2 Boot",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "S1-10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "S1-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "S1-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "S1-7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "S1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "S1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "S1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "S1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

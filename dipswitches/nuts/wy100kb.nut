@@ -1,7 +1,7 @@
 return [
   {
     "name": "Parity",
-    "default": "Space",
+    "default": 2,
     "values": [
       "Odd",
       "Even",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Communications Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "50",
       "75",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "EOL & EOT Sequences",
-    "default": "US, CR",
+    "default": 0,
     "values": [
       "US, CR",
       "CR/LF/NULL, ETX"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Enter & Return Keys",
-    "default": "TAB, CR/LF",
+    "default": 0,
     "values": [
       "TAB, CR/LF",
       "CR Only"
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Auto New Line",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Editing Keys",
-    "default": "Local",
+    "default": 0,
     "values": [
       "Local",
       "Duplex"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Printer Baud Rate",
-    "default": "9600",
+    "default": 15,
     "values": [
       "Diagnostic Self-Test",
       "50",
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Refresh Rate",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Screen Background",
-    "default": "Black",
+    "default": 0,
     "values": [
       "Black",
       "Green"
@@ -118,7 +118,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Blinking",
+    "default": 1,
     "values": [
       "Non-blinking",
       "Blinking"
@@ -126,7 +126,7 @@ return [
   },
   {
     "name": "Memory Pages",
-    "default": "2 (3840 characters)",
+    "default": 1,
     "values": [
       "1 (1920 characters)",
       "2 (3840 characters)"
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -142,7 +142,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -150,7 +150,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full Duplex",
+    "default": 0,
     "values": [
       "Full Duplex",
       "Half Duplex"
@@ -158,7 +158,7 @@ return [
   },
   {
     "name": "Conversation Mode",
-    "default": "Conversation Mode",
+    "default": 0,
     "values": [
       "Conversation Mode",
       "Block Mode"

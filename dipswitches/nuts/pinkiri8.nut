@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Style",
-    "default": "Win / Bet",
+    "default": 0,
     "values": [
       "Win / Bet",
       "Out / In"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Premium Hand",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Payment",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bet Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "20",
+    "default": 3,
     "values": [
       "5",
       "10",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Rate of Win",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "86%",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Odds Type",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "BGM",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Oya (Owner)",
-    "default": "Winner",
+    "default": 1,
     "values": [
       "CPU Only",
       "Winner"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Koi Time Limit",
-    "default": "30 Seconds",
+    "default": 1,
     "values": [
       "15 Seconds",
       "30 Seconds"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Key In Coinage",
-    "default": "1 Coin/5 Credits",
+    "default": 7,
     "values": [
       "1 Coin/500 Credits",
       "1 Coin/200 Credits",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Pinkiri Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Same Month Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Play Time Limit",
-    "default": "12 Seconds",
+    "default": 1,
     "values": [
       "7 Seconds",
       "12 Seconds"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Credit Clear",
-    "default": "300 Seconds",
+    "default": 0,
     "values": [
       "300 Seconds",
       "180 Seconds",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Panel Type",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Hanafuda"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Flip Flop Button",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "1500",
+    "default": 1,
     "values": [
       "1000",
       "1500",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Faster Bombs At",
-    "default": "29 Enemies",
+    "default": 0,
     "values": [
       "29 Enemies",
       "24 Enemies",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

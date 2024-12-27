@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "10 Coins / 1 Credit",
       "5 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Auto Mode After Reach",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Attract Mode",
-    "default": "Partial",
+    "default": 0,
     "values": [
       "Partial",
       "Full"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Open Hands After Noten",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Datsui Count After Continue",
-    "default": "Not Cleared",
+    "default": 0,
     "values": [
       "Not Cleared",
       "Cleared"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Hardest",
       "Hard",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Game Background Music",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Machihai Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

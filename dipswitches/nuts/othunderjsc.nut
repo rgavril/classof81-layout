@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Magazines/Rockets",
-    "default": "5/3",
+    "default": 0,
     "values": [
       "5/3",
       "6/4",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bullets per Magazine",
-    "default": "40",
+    "default": 2,
     "values": [
       "30",
       "35",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Japanese",
+    "default": 1,
     "values": [
       "English",
       "Japanese"

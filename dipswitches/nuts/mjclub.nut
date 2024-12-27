@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "75%",
+    "default": 7,
     "values": [
       "96%",
       "93%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Note Rate",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Data Display",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Double Odds Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Extra Bet",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Color Hai Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Sangenhai Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Coin Needed for Last Chance",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Bonus Rate (5renchan bonus)",
-    "default": "C (15 pts.)",
+    "default": 2,
     "values": [
       "A (5 pts.)",
       "B (10 pts.)",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Bonus Rate (3renchan bonus)",
-    "default": "C (1 2 3 6 pts.)",
+    "default": 2,
     "values": [
       "A (1 2 2 3 pts.)",
       "B (1 2 2 5 pts.)",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "CPU Houjuu Pattern",
-    "default": "100% Free",
+    "default": 0,
     "values": [
       "100% Free",
       "75% Free",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Payout Rate Autochange",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "D (32 24 16 12 8 4 2 1)",
+    "default": 3,
     "values": [
       "A (50 30 15 8 5 4 3 2)",
       "B (100 40 20 10 5 4 3 2)",
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Bonus Awarded at:",
-    "default": "Never",
+    "default": 8,
     "values": [
       "1st Time Only",
       "200 Coins",
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Bonus Occurrence",
-    "default": "Twice",
+    "default": 1,
     "values": [
       "Once",
       "Twice"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Green",
+    "default": 1,
     "values": [
       "White",
       "Green"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

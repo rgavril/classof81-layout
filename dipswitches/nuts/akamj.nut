@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "96%",
+    "default": 0,
     "values": [
       "96%",
       "93%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "First Chance",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Cut",
-    "default": "Yakuman",
+    "default": 3,
     "values": [
       "No",
       "2 Bai",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Yakuman Bonus",
-    "default": "300",
+    "default": 3,
     "values": [
       "32",
       "100",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown 1-4&5*",
-    "default": "6",
+    "default": 3,
     "values": [
       "3",
       "4",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown 1-6*",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown 1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown 2-0*",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Second Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Allow Bets",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown 2-3&4*",
-    "default": "2",
+    "default": 1,
     "values": [
       "No",
       "2",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

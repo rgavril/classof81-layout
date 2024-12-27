@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "3 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Round Time",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Short"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Game mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "2 Players Game",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credits"

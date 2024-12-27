@@ -1,7 +1,7 @@
 return [
   {
     "name": "Set",
-    "default": "Apple can set clock",
+    "default": 1,
     "values": [
       "Apple can't set clock",
       "Apple can set clock"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "TimeMaster",
+    "default": 0,
     "values": [
       "TimeMaster",
       "Mountain AppleClock"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "NMI",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "IRQ",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

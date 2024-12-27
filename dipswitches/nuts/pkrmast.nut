@@ -1,7 +1,7 @@
 return [
   {
     "name": "Freeze Pair On Line",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Out",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Type Of Payout",
-    "default": "Switch",
+    "default": 0,
     "values": [
       "Switch",
       "Automatic"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "W-Up '7'",
-    "default": "Even",
+    "default": 1,
     "values": [
       "Loss",
       "Even"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "W-Up Pay Rate",
-    "default": "70%",
+    "default": 0,
     "values": [
       "70%",
       "80%"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "W-Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "96",
+    "default": 3,
     "values": [
       "16",
       "32",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "70%",
+    "default": 7,
     "values": [
       "30%",
       "40%",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "100 Odds Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Key In Type",
-    "default": "A-Type",
+    "default": 0,
     "values": [
       "A-Type",
       "B-Type"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Type Of Coin D",
-    "default": "C Type",
+    "default": 0,
     "values": [
       "C Type",
       "D Type"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/5 Credits",
+    "default": 4,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/20 Credits",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/5 Credits",
+    "default": 4,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/20 Credits",
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Unlimited",
+    "default": 7,
     "values": [
       "5000",
       "10000",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Display Credit Limit",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Bet Limit For Center Super 7",
-    "default": "Unlimited",
+    "default": 1,
     "values": [
       "Limited",
       "Unlimited"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Bonus Play Min Bet",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Hopper Out By Coin A",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Display Doll On Demo",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "20000",
+    "default": 3,
     "values": [
       "1000",
       "5000",
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Condition For 3 Kind Bonus",
-    "default": "3-2-1",
+    "default": 0,
     "values": [
       "3-2-1",
       "6-3-1",
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Display Doll On Fruit & Cherry Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Coin Out Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Run Cards In W-Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "Card Type",
-    "default": "Missiles",
+    "default": 1,
     "values": [
       "Cards",
       "Missiles"
@@ -269,7 +269,7 @@ return [
   },
   {
     "name": "Type Of W-Up Game",
-    "default": "Red / Black",
+    "default": 1,
     "values": [
       "Big / Small",
       "Red / Black"
@@ -277,7 +277,7 @@ return [
   },
   {
     "name": "Hold After 1st Hold",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -285,7 +285,7 @@ return [
   },
   {
     "name": "Royal Win",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -293,7 +293,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -301,7 +301,7 @@ return [
   },
   {
     "name": "One Pair Win Type",
-    "default": "Ace Pair",
+    "default": 7,
     "values": [
       "No Win",
       "Any Pair",
@@ -315,7 +315,7 @@ return [
   },
   {
     "name": "Minimum Bet To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -325,7 +325,7 @@ return [
   },
   {
     "name": "Keys Panel Type",
-    "default": "A Type",
+    "default": 0,
     "values": [
       "A Type",
       "B Type",
@@ -335,7 +335,7 @@ return [
   },
   {
     "name": "Chance Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -343,7 +343,7 @@ return [
   },
   {
     "name": "Sound At Run & Open Cards",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -351,7 +351,7 @@ return [
   },
   {
     "name": "Main Game Type",
-    "default": "Full Demo Of Both Games",
+    "default": 2,
     "values": [
       "Cherry Master Only - Full Demo",
       "Poker Only - Full Demo",

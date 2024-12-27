@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bullets per Balloon",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "2"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bonus Man Awarded",
-    "default": "At 50000",
+    "default": 0,
     "values": [
       "At 50000",
       "None"

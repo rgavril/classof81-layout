@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bits/char",
-    "default": "8",
+    "default": 3,
     "values": [
       "5",
       "6",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Stop bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Parity enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Parity type",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "2400",
+    "default": 10,
     "values": [
       "50",
       "75",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Remote keyboard",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Continuous self-test",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "HPIB Sys controller",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "CRT refresh rate",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"

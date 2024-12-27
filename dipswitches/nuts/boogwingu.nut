@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Continue Coin",
-    "default": "Normal Coin Credit",
+    "default": 0,
     "values": [
       "Normal Coin Credit",
       "2 Start/1 Continue"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Individual"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Stage Reset",
-    "default": "Point of Termination",
+    "default": 0,
     "values": [
       "Point of Termination",
       "Beginning of Stage"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

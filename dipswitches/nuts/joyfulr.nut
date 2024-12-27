@@ -1,7 +1,7 @@
 return [
   {
     "name": "Continue after Game Over (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "1st Bonus",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "2nd Bonus (1st+)",
-    "default": "30000",
+    "default": 0,
     "values": [
       "30000",
       "40000",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Additional Bonus (2nd Bonus Value)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

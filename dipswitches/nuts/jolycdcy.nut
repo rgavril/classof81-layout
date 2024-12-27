@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Normal Play",
+    "default": 0,
     "values": [
       "Normal Play",
       "Test Mode"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "Without Joker",
+    "default": 0,
     "values": [
       "Without Joker",
       "With Joker"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Credits In",
-    "default": "Allow Credits",
+    "default": 0,
     "values": [
       "Allow Credits",
       "Demo Mode"

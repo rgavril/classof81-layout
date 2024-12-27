@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1  B 1/1",
+    "default": 0,
     "values": [
       "A 1/1  B 1/1",
       "A 1/2  B 2/1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

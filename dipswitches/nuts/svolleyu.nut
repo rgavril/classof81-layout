@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "3 min/1.5 min",
+    "default": 1,
     "values": [
       "2 min/1 min",
       "3 min/1.5 min"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "2P Starting Score",
-    "default": "7-7",
+    "default": 2,
     "values": [
       "0-0",
       "5-5",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "1P Starting Score",
-    "default": "11-11",
+    "default": 3,
     "values": [
       "9-11",
       "10-10",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

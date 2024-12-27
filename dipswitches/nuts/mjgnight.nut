@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bets?",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Pay Out Rate (%)",
-    "default": "71",
+    "default": 7,
     "values": [
       "50",
       "53",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1 2 4 8 12 16 24 32",
+    "default": 0,
     "values": [
       "1 2 4 8 12 16 24 32",
       "1 2 3 5 8 15 30 50",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Max Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus",
-    "default": "Cut",
+    "default": 0,
     "values": [
       "Cut",
       "1 T",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "YAKUMAN Times",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "3 BAI In YAKUMAN Bonus Chance",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Auto Tsumo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Credit Timing",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "In Game Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -188,7 +188,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -196,7 +196,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -204,7 +204,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -212,7 +212,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -220,7 +220,7 @@ return [
   },
   {
     "name": "Computer Strength",
-    "default": "Weak",
+    "default": 0,
     "values": [
       "Weak",
       "Normal",
@@ -230,7 +230,7 @@ return [
   },
   {
     "name": "Game Style",
-    "default": "Credit",
+    "default": 0,
     "values": [
       "Credit",
       "Credit Time"
@@ -238,7 +238,7 @@ return [
   },
   {
     "name": "Start Method (Credit Time)",
-    "default": "?",
+    "default": 0,
     "values": [
       "?",
       "Rate"
@@ -246,7 +246,7 @@ return [
   },
   {
     "name": "Unknown 4-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -254,7 +254,7 @@ return [
   },
   {
     "name": "Unknown 4-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -262,7 +262,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -270,7 +270,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

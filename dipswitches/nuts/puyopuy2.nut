@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Rannyu Off Button",
-    "default": "Use",
+    "default": 0,
     "values": [
       "Use",
       "No Use"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Turn Direction",
-    "default": "1:Right  2:Left",
+    "default": 0,
     "values": [
       "1:Right  2:Left",
       "1:Left  2:Right"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "VS Mode Match/1 Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Battle Start credit",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"

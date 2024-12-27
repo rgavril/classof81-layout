@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Multiple"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Multi Player Mode",
-    "default": "Multi Player Off",
+    "default": 2,
     "values": [
       "Single or Multi Player",
       "Multi Player Game Only",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -69,14 +69,14 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "2 to Start, 1 to Continue",
+    "default": 0,
     "values": [
       "2 to Start, 1 to Continue"
     ]
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Continue Coin",
-    "default": "Normal Coinage",
+    "default": 0,
     "values": [
       "Normal Coinage",
       "On"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -168,7 +168,7 @@ return [
   },
   {
     "name": "Input Method",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Steering Wheel"
@@ -176,7 +176,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "World",
+    "default": 0,
     "values": [
       "World",
       "Japan"
@@ -184,7 +184,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

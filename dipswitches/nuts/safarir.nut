@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Acceleration Rate",
-    "default": "Slow",
+    "default": 1,
     "values": [
       "Slowest",
       "Slow",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "5000",
+    "default": 1,
     "values": [
       "3000",
       "5000",

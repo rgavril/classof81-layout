@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Powerup Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Video Clips",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Dollar Bill Validator",
-    "default": "Not Present",
+    "default": 1,
     "values": [
       "Installed",
       "Not Present"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "4",
+    "default": 1,
     "values": [
       "2",
       "4"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "1 Counter, 1 count/coin",
+    "default": 0,
     "values": [
       "1 Counter, 1 count/coin",
       "1 Counter, Totalizing",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

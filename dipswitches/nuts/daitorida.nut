@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Slower",
       "Normal",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Winning Rounds (Player VS Player)",
-    "default": "2/3",
+    "default": 1,
     "values": [
       "1/1",
       "2/3"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Retry Level",
+    "default": 0,
     "values": [
       "Retry Level",
       "Ask Player",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

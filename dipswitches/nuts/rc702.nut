@@ -1,7 +1,7 @@
 return [
   {
     "name": "S01",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S02",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "S03",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "S04",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "S05",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "S06",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "S07",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Minifloppy",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

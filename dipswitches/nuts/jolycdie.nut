@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "10 Points/Pulse",
+    "default": 0,
     "values": [
       "10 Points/Pulse",
       "100 Points/Pulse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "With Joker",
+    "default": 0,
     "values": [
       "With Joker",
       "Without Joker"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual Payout SW",
+    "default": 1,
     "values": [
       "Hopper",
       "Manual Payout SW"

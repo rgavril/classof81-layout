@@ -1,7 +1,7 @@
 return [
   {
     "name": "Starting Shields",
-    "default": "8",
+    "default": 2,
     "values": [
       "6",
       "7",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Moderate",
+    "default": 1,
     "values": [
       "Easy",
       "Moderate",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus Shields",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Bonus Coin Adder",
-    "default": "None",
+    "default": 5,
     "values": [
       "2 gives 1",
       "4 gives 2",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

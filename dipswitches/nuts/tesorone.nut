@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 1,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin / 10 Credits"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "10000",
+    "default": 1,
     "values": [
       "5000",
       "10000",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "84%",
+    "default": 5,
     "values": [
       "59%",
       "64%",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Double-Up Level",
-    "default": "7 (Easy)",
+    "default": 0,
     "values": [
       "7 (Easy)",
       "6",
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Double-Up Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "100",
+    "default": 1,
     "values": [
       "50",
       "100",
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

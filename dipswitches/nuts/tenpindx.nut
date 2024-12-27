@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Lockup",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Reset",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Beep",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Regulation",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Ticket Dispenser",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Bill Acceptor",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

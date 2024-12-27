@@ -1,7 +1,7 @@
 return [
   {
     "name": "RoweLink Address",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",

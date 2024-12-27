@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage A (\u00a5100)",
-    "default": "1 Coin / 50 Medal",
+    "default": 7,
     "values": [
       "1 Coin / 3 Medal",
       "1 Coin / 4 Medal",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage B (\u00a510)",
-    "default": "3 Coin / 1 Medal",
+    "default": 0,
     "values": [
       "3 Coin / 1 Medal",
       "2 Coin / 1 Medal",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage Config",
-    "default": "\u00a5100 = Credits; Medal In = 2 Credits by Medal",
+    "default": 0,
     "values": [
       "\u00a5100 = Credits; Medal In = 2 Credits by Medal",
       "\u00a5100 = Exchange; Medal In = 1 Credit by Medal"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Manual",
+    "default": 1,
     "values": [
       "Automatic",
       "Manual"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Repeat Last Bet",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "75%",
+    "default": 3,
     "values": [
       "50%",
       "60%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Winwave",
-    "default": "Small",
+    "default": 0,
     "values": [
       "Small",
       "Big"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "M.Medal",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "HG",
-    "default": "10-1",
+    "default": 0,
     "values": [
       "10-1",
       "20-1",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"

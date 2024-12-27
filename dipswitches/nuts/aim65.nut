@@ -1,7 +1,7 @@
 return [
   {
     "name": "KB/TTY",
-    "default": "KB",
+    "default": 1,
     "values": [
       "TTY",
       "KB"

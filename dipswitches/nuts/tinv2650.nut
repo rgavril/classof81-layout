@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lightning Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "1500"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

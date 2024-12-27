@@ -1,7 +1,7 @@
 return [
   {
     "name": "System Terminal",
-    "default": "9600 baud",
+    "default": 1,
     "values": [
       "19200 baud",
       "9600 baud",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Operation Switch",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Stereo",
-    "default": "Stereo",
+    "default": 0,
     "values": [
       "Stereo",
       "Mono"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Stage Set",
-    "default": "6st End",
+    "default": 1,
     "values": [
       "Endless",
       "6st End"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Mirror",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Woofer",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Number of Players",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin Mechanism (2p only)",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Independent"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Award for Beating Highest Score",
-    "default": "2 Credits",
+    "default": 2,
     "values": [
       "Nothing",
       "1 Credit",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Melody Option 1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Score Level Award",
-    "default": "Replay",
+    "default": 2,
     "values": [
       "Nothing",
       "Extra Ball",
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Balls Per Game",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "S22 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "S23 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "S24 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "S29 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "S30 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "S31 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Melody Option 2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

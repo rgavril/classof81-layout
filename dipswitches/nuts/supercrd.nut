@@ -1,7 +1,7 @@
 return [
   {
     "name": "Personal A Settings",
-    "default": "Brief",
+    "default": 0,
     "values": [
       "Brief",
       "Complete"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "10 credits",
+    "default": 0,
     "values": [
       "10 credits",
       "5 credits"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "10 credits",
+    "default": 0,
     "values": [
       "10 credits",
       "5 credits"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "100 Credits / Pulse",
+    "default": 0,
     "values": [
       "100 Credits / Pulse",
       "50 Credits / Pulse"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

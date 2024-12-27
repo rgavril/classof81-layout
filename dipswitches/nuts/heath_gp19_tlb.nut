@@ -1,7 +1,7 @@
 return [
   {
     "name": "Trailing Characters for Tektronix Message",
-    "default": "CR",
+    "default": 1,
     "values": [
       "None",
       "CR",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Shift Key",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Shift key inverts CAPS LOCK"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Terminal Transmission Rate",
-    "default": "Only limited by baud rate",
+    "default": 0,
     "values": [
       "Only limited by baud rate",
       "One character per 16.7 msec"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "Zenith",
+    "default": 1,
     "values": [
       "VT100",
       "Zenith"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "ANSI Mode",
-    "default": "Zenith ANSI",
+    "default": 0,
     "values": [
       "Zenith ANSI",
       "EDT compatible"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Tektronix Character Wrap",
-    "default": "Column 74",
+    "default": 0,
     "values": [
       "Column 74",
       "Column 73"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Blank Screen",
-    "default": "After 10 mins",
+    "default": 0,
     "values": [
       "After 10 mins",
       "Never"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 11,
     "values": [
       "110",
       "150",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Odd",
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Stick"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Keyclick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Auto LF on CR",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Auto CR on LF",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Heath/VT52",
+    "default": 0,
     "values": [
       "Heath/VT52",
       "ANSI"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Automatic Holdscreen",
-    "default": "Disabled (VT100 mode)",
+    "default": 0,
     "values": [
       "Disabled (VT100 mode)",
       "Enabled (Z19 mode)"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "BASIC/terminal mode",
-    "default": "BASIC mode",
+    "default": 1,
     "values": [
       "Terminal mode",
       "BASIC mode"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Interlaced video",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "40-/80-column",
-    "default": "80 chars/line",
+    "default": 1,
     "values": [
       "40 chars/line",
       "80 chars/line"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Video resolution",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Show PF key content",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Terminal duplex",
-    "default": "Full duplex",
+    "default": 0,
     "values": [
       "Full duplex",
       "Half duplex"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Terminal bits",
-    "default": "8 bits/char",
+    "default": 0,
     "values": [
       "8 bits/char",
       "7 bits/char"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Hiragana->Katakana",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

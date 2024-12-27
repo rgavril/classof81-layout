@@ -1,7 +1,7 @@
 return [
   {
     "name": "CRT Type / Resolution",
-    "default": "Medium Res (24Khz)",
+    "default": 0,
     "values": [
       "Medium Res (24Khz)",
       "Standard Res (15Khz)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Blood",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Graphics",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Family"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 0,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

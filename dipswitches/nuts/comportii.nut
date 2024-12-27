@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display Type",
-    "default": "1001 - MDA SECONDARY, EGA HI RES ENHANCED",
+    "default": 9,
     "values": [
       "0000 - MDA PRIMARY, EGA COLOR, 40x25",
       "0001 - MDA PRIMARY, EGA COLOR, 80x25",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Type of 2nd drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Type of 1st drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "IRQ level",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Install ROM?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

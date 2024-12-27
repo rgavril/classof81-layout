@@ -1,7 +1,7 @@
 return [
   {
     "name": "Skip Self Test (IP4)",
-    "default": "Short to GND",
+    "default": 1,
     "values": [
       "Open (VCC)",
       "Short to GND"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown (IP5)",
-    "default": "Open (VCC)",
+    "default": 0,
     "values": [
       "Open (VCC)",
       "Short to GND"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown (IP6)",
-    "default": "Open (VCC)",
+    "default": 0,
     "values": [
       "Open (VCC)",
       "Short to GND"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin 1 (3)",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin 2 (4)",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Starting Coin",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "x2"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Time vs Computer, 1 Player",
-    "default": "2:00",
+    "default": 1,
     "values": [
       "1:30",
       "2:00",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Time Player vs Player, 2 Players",
-    "default": "2:30",
+    "default": 1,
     "values": [
       "2:00",
       "2:30",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Time Player vs Player, 3 Players",
-    "default": "3:00",
+    "default": 1,
     "values": [
       "2:30",
       "3:00",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Time Player vs Player, 4 Players",
-    "default": "3:30",
+    "default": 1,
     "values": [
       "3:00",
       "3:30",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Cabinet Setting",
-    "default": "2 Players",
+    "default": 0,
     "values": [
       "2 Players",
       "4 Players & 4 Coin Slots",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

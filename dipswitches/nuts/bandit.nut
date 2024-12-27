@@ -1,7 +1,7 @@
 return [
   {
     "name": "Analog controls?",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "L/R control related (keep off)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSUNK_2",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Road select (debug)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSUNK_5",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSUNK_6",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Enable enemies",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DSUNK_8",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DSUNK_9",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DSUNK_A",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DSUNK_B",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DSUNK_C",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DSUNK_D",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "DSUNK_E",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "DSUNK_F",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

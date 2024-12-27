@@ -1,7 +1,7 @@
 return [
   {
     "name": "DTR (RS232)",
-    "default": "Tied to RTS",
+    "default": 0,
     "values": [
       "Tied to RTS",
       "Pulled to +12V"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Conversation Mode",
-    "default": "Full Duplex",
+    "default": 1,
     "values": [
       "Half Duplex",
       "Full Duplex"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DCR (RS232)",
-    "default": "DSR",
+    "default": 0,
     "values": [
       "DSR",
       "DCD"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Terminal Mode",
-    "default": "Extension",
+    "default": 0,
     "values": [
       "Extension",
       "Page Print"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Column 80 CRLF",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "End of Send Character",
-    "default": "CR",
+    "default": 0,
     "values": [
       "CR",
       "EOT"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Automatic CRLF",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Modem Port Baud Rate",
-    "default": "9600",
+    "default": 8,
     "values": [
       "75",
       "110",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Refresh Rate",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Printer Port Baud Rate",
-    "default": "9600",
+    "default": 8,
     "values": [
       "75",
       "110",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 3,
     "values": [
       "5",
       "6",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Parity Select",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Even",
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "Cursor Flash",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Alternate"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Address Decode",
-    "default": "A0-A3",
+    "default": 40,
     "values": [
       "00-03",
       "04-07",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bootstrap PROM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "PROM Address Decode",
-    "default": "E000-E7FF",
+    "default": 28,
     "values": [
       "0000-07FF",
       "0800-0FFF",
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "PHANTOM Signal",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Memory Wait State",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "1:10",
+    "default": 3,
     "values": [
       "0:40",
       "0:50",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Fill % to Win",
-    "default": "Majority at Time or 99.9%",
+    "default": 0,
     "values": [
       "Majority at Time or 99.9%",
       "Majority at Time or 90%",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Vs. Matches",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Slide Show",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

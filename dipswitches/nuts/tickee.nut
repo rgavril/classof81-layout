@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time/Diff",
-    "default": "Average/Hard",
+    "default": 2,
     "values": [
       "Very Fast/Very Easy",
       "Fast/Easy",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Last Box Tickets",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "25"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

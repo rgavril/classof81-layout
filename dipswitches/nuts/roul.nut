@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percentage Payout",
-    "default": "50%",
+    "default": 7,
     "values": [
       "94%",
       "88%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Reset Machine",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Doubble Odds",
-    "default": "With",
+    "default": 0,
     "values": [
       "With",
       "Without"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Coin Assistance",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10 / 30 / 30",
+    "default": 0,
     "values": [
       "10 / 30 / 30",
       "20 / 40 / 50",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time Limit",
-    "default": "16 Seconds",
+    "default": 0,
     "values": [
       "16 Seconds",
       "13 Seconds",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin Payment",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bet Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "20",
+    "default": 3,
     "values": [
       "5",
       "10",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Rate of Win",
-    "default": "98%",
+    "default": 0,
     "values": [
       "98%",
       "95%",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Limit Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "No Limit",
+    "default": 7,
     "values": [
       "50000",
       "40000",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Key In Coinage",
-    "default": "1 Coin/5 Credits",
+    "default": 7,
     "values": [
       "1 Coin/500 Credits",
       "1 Coin/200 Credits",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Odds Type",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Special Bonus Odds",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Kind Mark of Back",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "BGM",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Voice",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Double Up Limit",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "No Limit"

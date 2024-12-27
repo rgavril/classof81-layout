@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country",
-    "default": "World",
+    "default": 0,
     "values": [
       "World",
       "USA",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "1"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Continue Coin",
-    "default": "Normal: Start 1C / Continue 1C",
+    "default": 0,
     "values": [
       "Normal: Start 1C / Continue 1C",
       "Half Continue: Start 2C / Continue 1C"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Finals Only",
+    "default": 0,
     "values": [
       "Finals Only",
       "Semi-Finals & Finals"

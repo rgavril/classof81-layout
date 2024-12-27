@@ -1,7 +1,7 @@
 return [
   {
     "name": "Enable Remote Accounts Clear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Quick Start on Max Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin 2 Settings",
-    "default": "Coin 2",
+    "default": 1,
     "values": [
       "Change",
       "Coin 2"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "Enable",
+    "default": 0,
     "values": [
       "Enable",
       "Disable"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Bet Settings",
-    "default": "Deny",
+    "default": 1,
     "values": [
       "Allow",
       "Deny"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Currency",
-    "default": "Credits",
+    "default": 0,
     "values": [
       "Credits",
       "Euro Currency"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Autostop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

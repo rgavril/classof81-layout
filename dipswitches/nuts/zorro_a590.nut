@@ -1,7 +1,7 @@
 return [
   {
     "name": "A590 Auto-Boot",
-    "default": "Disabled",
+    "default": 1,
     "values": [
       "Enabled",
       "Disabled"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "A590 LUN",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "A590 Wait period",
-    "default": "Long",
+    "default": 1,
     "values": [
       "Short",
       "Long"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "A590 Reserved",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "A590 Memory size",
-    "default": "Amnesia",
+    "default": 0,
     "values": [
       "Amnesia",
       "512K",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "A590 Drive LED",
-    "default": "XT Drive",
+    "default": 0,
     "values": [
       "XT Drive",
       "SCSI Drive"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "A590 Interrupt",
-    "default": "INT 2",
+    "default": 0,
     "values": [
       "INT 2",
       "INT 6"

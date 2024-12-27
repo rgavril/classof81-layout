@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Player Ticket",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Off",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Extend Point",
-    "default": "700, 3300, 9000",
+    "default": 0,
     "values": [
       "700, 3300, 9000",
       "800, 3500, 9500",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

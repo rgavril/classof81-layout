@@ -1,7 +1,7 @@
 return [
   {
     "name": "PC-9801-55: SCSI board ID",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "PC-9801-55: Interrupt level",
-    "default": "INT3",
+    "default": 3,
     "values": [
       "INT0",
       "INT1",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "PC-9801-55: DMA channel",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1 (prohibited)",
@@ -39,14 +39,14 @@ return [
   },
   {
     "name": "PC-9801-55: machine ID and ROM base address",
-    "default": "i386, 0xdc000-0xddfff",
+    "default": 0,
     "values": [
       "i386, 0xdc000-0xddfff"
     ]
   },
   {
     "name": "PC-9801-55: ROM accessibility at Power-On",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

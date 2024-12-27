@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "No Hit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2",

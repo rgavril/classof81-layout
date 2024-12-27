@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DMAC installed",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Monochrome",
+    "default": 3,
     "values": [
       "Reserved",
       "Color 40x25",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "SA2.4",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "SA2.5",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

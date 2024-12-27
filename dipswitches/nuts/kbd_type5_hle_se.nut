@@ -1,7 +1,7 @@
 return [
   {
     "name": "Layout",
-    "default": "Sweden (Sweden5.kt)",
+    "default": 10,
     "values": [
       "U.S.A. (US5.kt)",
       "U.S.A./UNIX (US_UNIX5.kt)",

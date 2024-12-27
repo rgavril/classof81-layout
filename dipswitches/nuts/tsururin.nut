@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 9,
     "values": [
       "Free Play",
       "4 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 9,
     "values": [
       "Free Play",
       "4 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Rate of Win",
-    "default": "50%",
+    "default": 3,
     "values": [
       "20%",
       "30%",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Play Timer",
-    "default": "30 sec",
+    "default": 0,
     "values": [
       "30 sec",
       "37 sec",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

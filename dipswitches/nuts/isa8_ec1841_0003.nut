@@ -1,14 +1,14 @@
 return [
   {
     "name": "IRQ line",
-    "default": "IRQ4",
+    "default": 0,
     "values": [
       "IRQ4"
     ]
   },
   {
     "name": "IRQ rate",
-    "default": "30 hz",
+    "default": 1,
     "values": [
       "15 hz",
       "30 hz",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Network Number",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

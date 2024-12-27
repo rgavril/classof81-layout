@@ -1,7 +1,7 @@
 return [
   {
     "name": "GS01",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "GS05",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "GS09",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "GS21",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "GS25",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "GS29",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "GS02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "GS06",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "GS10",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "GS14",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Startup Tune",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Attract-mode Lamps",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "GS26",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "GS30",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "GS03",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "GS07",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "GS11",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "GS15",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "GS19",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "GS23",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "GS27",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "GS31",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "GS08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "GS12",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "GS16",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "GS20",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "GS24",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "GS28",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "GS32",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

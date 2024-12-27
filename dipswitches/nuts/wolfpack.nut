@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "97 seconds",
+    "default": 1,
     "values": [
       "65 seconds",
       "97 seconds",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Score for Extended Play",
-    "default": "16000",
+    "default": 2,
     "values": [
       "8000",
       "12000",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

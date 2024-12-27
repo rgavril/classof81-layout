@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Type",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Medal"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Max Jackpot",
-    "default": "Unlimited",
+    "default": 1,
     "values": [
       "500 coins",
       "Unlimited"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Music During Race",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin Divider?",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin Sensor",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "100%",
+    "default": 0,
     "values": [
       "100%",
       "95%",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Auto Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Skip Race",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

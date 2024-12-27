@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot",
-    "default": "Same",
+    "default": 0,
     "values": [
       "Same",
       "Individual"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Continue Coin",
-    "default": "Start 1 Coin/Continue 1 Coin",
+    "default": 0,
     "values": [
       "Start 1 Coin/Continue 1 Coin",
       "Start 2 Coin/Continue 1 Coin"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200000",
+    "default": 0,
     "values": [
       "200000",
       "300000"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "Japan",
+    "default": 0,
     "values": [
       "Japan",
       "Taiwan"

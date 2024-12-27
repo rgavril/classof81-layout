@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30K only",
+    "default": 0,
     "values": [
       "30K only",
       "30K and 100K"

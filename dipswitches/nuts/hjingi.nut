@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Suggest Move",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game Music",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Gal",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Stage Select",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "Highest",
+    "default": 0,
     "values": [
       "Highest",
       "Higher",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Payout Rate Change",
-    "default": "Big",
+    "default": 0,
     "values": [
       "Big",
       "Small"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Double-Up Game Rate",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Gokou Odds",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Gokou Cut",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "3-Renchan Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10",
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Higi",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Pay Out Type",
-    "default": "Credit",
+    "default": 0,
     "values": [
       "Credit",
       "Hopper"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Hopper Switch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot device",
-    "default": "Floppy 8",
+    "default": 2,
     "values": [
       "None",
       "Floppy 5",

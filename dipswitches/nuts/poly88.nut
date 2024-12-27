@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Range",
-    "default": "F800-FBFF",
+    "default": 62,
     "values": [
       "0000-03FF",
       "0400-07FF",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "RAM Space",
-    "default": "2000-5FFFH",
+    "default": 2,
     "values": [
       "0000-3FFFH",
       "1000-4FFFH",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Moving Control",
-    "default": "Upright/Cockpit",
+    "default": 0,
     "values": [
       "Upright/Cockpit",
       "DX Moving Only"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Motion Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Price to Continue",
-    "default": "Same as Start",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Timer Length",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Rudder Pedal",
-    "default": "Without (Upright)",
+    "default": 0,
     "values": [
       "Without (Upright)",
       "With (Cockpit / DX)"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

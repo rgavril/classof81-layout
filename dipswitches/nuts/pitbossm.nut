@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Solitaire Timer Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Sex Trivia Category",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin Limit",
-    "default": "No Coin Limit",
+    "default": 0,
     "values": [
       "No Coin Limit",
       "4 Coin Limit"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Run 21 and Trivia Whiz 2000: Coins to start",
-    "default": "1 Coin",
+    "default": 1,
     "values": [
       "2 Coins",
       "1 Coin"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Great Solitaire: Coins to start",
-    "default": "1 Coin",
+    "default": 1,
     "values": [
       "2 Coins",
       "1 Coin"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Sync Adjustment (Set by factory)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Sync Adjustment (Set by factory)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "Every 150,000",
+    "default": 0,
     "values": [
       "Every 150,000",
       "Every 200,000",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Easy",
       "Medium Easy",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "???",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

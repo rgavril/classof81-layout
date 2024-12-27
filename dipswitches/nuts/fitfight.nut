@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Select All Players",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Needed Points/Maximum Rounds",
-    "default": "1/2",
+    "default": 1,
     "values": [
       "Endless",
       "1/2",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Easiest",
       "Easier",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Next Credit",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "First Credit",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "8 Coins/1 Credit",
       "7 Coins/1 Credit",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "99",
+    "default": 31,
     "values": [
       "02",
       "05",

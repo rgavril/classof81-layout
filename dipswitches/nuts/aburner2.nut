@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet Type",
-    "default": "Upright 1",
+    "default": 2,
     "values": [
       "Moving Deluxe",
       "Moving Standard",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Throttle Lever",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",

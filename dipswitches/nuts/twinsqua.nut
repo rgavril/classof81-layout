@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Credits to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Buy In",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Seat Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Moving"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

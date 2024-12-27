@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "Off",
       "4 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Obstruction Car",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Time Limit",
-    "default": "1:30",
+    "default": 2,
     "values": [
       "1:10",
       "1:20",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Power Down",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Slow",
       "Normal",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin / Credit",
-    "default": "2 / 50",
+    "default": 3,
     "values": [
       "1 / 50",
       "1 / 40",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Mal Count",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Base Bet",
-    "default": "50",
+    "default": 3,
     "values": [
       "20",
       "30",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "300",
+    "default": 2,
     "values": [
       "150",
       "200",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Score",
-    "default": "1000 1500 2000",
+    "default": 1,
     "values": [
       "800 1200 1600",
       "1000 1500 2000",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bet -> Score",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

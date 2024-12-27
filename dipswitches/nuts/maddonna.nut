@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Girl Pictures",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Invulnerability",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Hard",
+    "default": 2,
     "values": [
       "Easy",
       "Normal",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Time Per Round",
-    "default": "80 Seconds",
+    "default": 0,
     "values": [
       "80 Seconds",
       "90 Seconds",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Hurry Up!",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On - 10",

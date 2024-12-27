@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/10 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Key In/Out",
-    "default": "50 Credits",
+    "default": 0,
     "values": [
       "50 Credits",
       "100 Credits",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "40",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",

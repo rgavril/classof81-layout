@@ -1,7 +1,7 @@
 return [
   {
     "name": "Enable Reset High Score Button",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "70 seconds",
+    "default": 5,
     "values": [
       "60 seconds + 20 extended",
       "70 seconds + 20 extended",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "4000",
+    "default": 3,
     "values": [
       "None",
       "2000",

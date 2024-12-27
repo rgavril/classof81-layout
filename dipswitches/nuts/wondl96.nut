@@ -1,7 +1,7 @@
 return [
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Field Color",
-    "default": "Blue",
+    "default": 0,
     "values": [
       "Blue",
       "Green"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "VS CPU Game Ends",
-    "default": "+10",
+    "default": 0,
     "values": [
       "+10",
       "+7"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "VS Game",
-    "default": "1 Credit / 3 Innings",
+    "default": 1,
     "values": [
       "1 Credit / 2 Innings",
       "1 Credit / 3 Innings"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Full 2 Players Game",
-    "default": "6 Credits",
+    "default": 1,
     "values": [
       "4 Credits",
       "6 Credits"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Level 4",
+    "default": 3,
     "values": [
       "Level 1",
       "Level 2",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

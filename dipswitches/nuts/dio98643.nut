@@ -1,7 +1,7 @@
 return [
   {
     "name": "Select code",
-    "default": "21",
+    "default": 21,
     "values": [
       "0",
       "1",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Interrupt level",
-    "default": "5",
+    "default": 2,
     "values": [
       "3",
       "4",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

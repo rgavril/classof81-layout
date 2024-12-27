@@ -1,7 +1,7 @@
 return [
   {
     "name": "Drop Rate Increases After",
-    "default": "10 Pills",
+    "default": 3,
     "values": [
       "7 Pills",
       "8 Pills",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Virus Level",
-    "default": "3",
+    "default": 1,
     "values": [
       "1",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Drop Speed Up",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Medium",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

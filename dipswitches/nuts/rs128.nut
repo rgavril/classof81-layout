@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country Code",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out",
-    "default": "95%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Wup Level",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "5",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Pay Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Odds Type",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Reset",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "150",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Bakaze",
-    "default": "Move",
+    "default": 0,
     "values": [
       "Move",
       "No Move"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Pai",
-    "default": "Tate",
+    "default": 0,
     "values": [
       "Tate",
       "Normal"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "China",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Hane",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Yaku",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Cut"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "3Bai",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Cut"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Utidome",
-    "default": "Nasi",
+    "default": 0,
     "values": [
       "Nasi",
       "1000"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Bet Skip",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

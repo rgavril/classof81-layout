@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "15000",
+    "default": 1,
     "values": [
       "None",
       "15000"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Endless"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Sound Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "CRT frame frequency",
-    "default": "50 Hz",
+    "default": 0,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Floppy present",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "IOC mode",
-    "default": "On line",
+    "default": 0,
     "values": [
       "On line",
       "Local",
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Keyboard present",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

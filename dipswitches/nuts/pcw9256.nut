@@ -1,7 +1,7 @@
 return [
   {
     "name": "50/60Hz Frame Rate Option",
-    "default": "50Hz",
+    "default": 1,
     "values": [
       "60Hz",
       "50Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Spectravideo Joystick Enabled",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

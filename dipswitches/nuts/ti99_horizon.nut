@@ -1,7 +1,7 @@
 return [
   {
     "name": "SW1 Horizon CRU base",
-    "default": "1200",
+    "default": 2,
     "values": [
       "Off",
       "1000",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "SW1 Phoenix CRU base",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "1400",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "SW2 Hideswitch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "JP4 Split mode",
-    "default": "TI mode",
+    "default": 0,
     "values": [
       "TI mode",
       "Geneve mode"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "JP2 Phoenix split",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

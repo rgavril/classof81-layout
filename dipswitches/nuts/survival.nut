@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "25000",
+    "default": 0,
     "values": [
       "25000",
       "35000",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",

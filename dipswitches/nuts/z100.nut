@@ -1,7 +1,7 @@
 return [
   {
     "name": "Default Auto-boot Device",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Auto-boot",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Monitor",
-    "default": "NTSC 60 Hz",
+    "default": 1,
     "values": [
       "PAL 50 Hz",
       "NTSC 60 Hz"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Video Memory",
-    "default": "64K",
+    "default": 1,
     "values": [
       "32K",
       "64K"

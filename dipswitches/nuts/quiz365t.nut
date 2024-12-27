@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown 1-5*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown 1-6&7",
-    "default": "2",
+    "default": 2,
     "values": [
       "0",
       "1",
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Unknown 2-0&1",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Unknown 2-2&3",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Unknown 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Unknown 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Unknown 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Unknown 3-0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Detailed Tests",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Unknown 3-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

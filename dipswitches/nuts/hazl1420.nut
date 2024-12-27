@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "4800",
+    "default": 6,
     "values": [
       "110",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lead-In",
-    "default": "ESC",
+    "default": 0,
     "values": [
       "ESC",
       "~"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "0",
+    "default": 3,
     "values": [
       "Odd",
       "Even",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Wraparound",
+    "default": 0,
     "values": [
       "Wraparound",
       "No Wrap"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "On Line",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Automatic LF/CR",
-    "default": "Auto LF",
+    "default": 0,
     "values": [
       "Auto LF",
       "Carriage Return"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Communication Mode",
-    "default": "Full Duplex",
+    "default": 1,
     "values": [
       "Half Duplex",
       "Full Duplex"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Font",
-    "default": "Upper/Lower Case",
+    "default": 0,
     "values": [
       "Upper/Lower Case",
       "Upper Case Only"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

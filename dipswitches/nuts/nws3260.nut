@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display",
-    "default": "LCD",
+    "default": 1,
     "values": [
       "Console",
       "LCD"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Boot Device",
-    "default": "Disk",
+    "default": 0,
     "values": [
       "Disk",
       "Network"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Automatic Boot",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Diagnostic Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "RAM",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Console Baud",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "1200"

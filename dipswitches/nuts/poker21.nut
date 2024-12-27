@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Unlimited",
+    "default": 7,
     "values": [
       "5,000",
       "10,000",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Credit Limit Display",
-    "default": "Not Displayed",
+    "default": 0,
     "values": [
       "Not Displayed",
       "Displayed"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Keyin B Rate",
-    "default": "1 Coin/100 Credits",
+    "default": 7,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "5 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Blue",
+    "default": 0,
     "values": [
       "Blue",
       "Green"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Jackpot",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "IN1-10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

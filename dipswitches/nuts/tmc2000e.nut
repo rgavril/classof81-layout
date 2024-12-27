@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display Interface",
-    "default": "PAL",
+    "default": 0,
     "values": [
       "PAL",
       "CDG-80",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Operating System",
-    "default": "TOOL-2000-E",
+    "default": 0,
     "values": [
       "TOOL-2000-E",
       "Load from disk"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Keyboard Type",
-    "default": "ASCII",
+    "default": 0,
     "values": [
       "ASCII",
       "Matrix"

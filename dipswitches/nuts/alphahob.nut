@@ -1,7 +1,7 @@
 return [
   {
     "name": "Missile Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Circuit Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Missile Bonus Life",
-    "default": "10k",
+    "default": 0,
     "values": [
       "10k",
       "15k"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Missile Final UFO Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

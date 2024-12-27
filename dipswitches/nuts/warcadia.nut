@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bombs from UFO (Screens 3+)",
-    "default": "9",
+    "default": 2,
     "values": [
       "3",
       "6",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bombs from UFO (Screens 1 and 2)",
-    "default": "9",
+    "default": 1,
     "values": [
       "6",
       "9"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Voice Volume",
-    "default": "High",
+    "default": 1,
     "values": [
       "Low",
       "High"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bonus Game",
-    "default": "10000",
+    "default": 2,
     "values": [
       "No Bonus Game",
       "5000",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "5000",
+    "default": 1,
     "values": [
       "3000",
       "5000"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Bonus Life Awarded",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Vertical Screen Position",
-    "default": "Neutral",
+    "default": 3,
     "values": [
       "-1",
       "-2",
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Horizontal Screen Position",
-    "default": "Neutral",
+    "default": 3,
     "values": [
       "-1",
       "-2",

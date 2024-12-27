@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "63%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Rate Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Rate Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "10",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Score Pool",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Rate Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Character Display Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

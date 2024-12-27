@@ -1,7 +1,7 @@
 return [
   {
     "name": "Scene",
-    "default": "Ice Field",
+    "default": 2,
     "values": [
       "Volcano",
       "Jungle",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Ticket Dispenser",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Ticket Payout Table",
-    "default": "50 43 36 29 23 16 9 3",
+    "default": 31,
     "values": [
       "3 2 2 1 1 0 0 0",
       "3 2 2 2 1 1 1 1",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Slave ID",
-    "default": "Single",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Chinese",
       "English"

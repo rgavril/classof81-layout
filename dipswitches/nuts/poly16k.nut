@@ -1,7 +1,7 @@
 return [
   {
     "name": "RAM Space",
-    "default": "2000-5FFFH",
+    "default": 2,
     "values": [
       "0000-3FFFH",
       "1000-4FFFH",

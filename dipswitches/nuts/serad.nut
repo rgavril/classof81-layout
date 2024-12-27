@@ -1,7 +1,7 @@
 return [
   {
     "name": "Interrupt",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "0",
@@ -16,7 +16,7 @@ return [
   },
   {
     "name": "Base Address",
-    "default": "EF7000",
+    "default": 0,
     "values": [
       "EF7000",
       "EF6000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "I/O Address",
-    "default": "1000",
+    "default": 1,
     "values": [
       "0F00",
       "1000",

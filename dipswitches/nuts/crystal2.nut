@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -16,7 +16,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "10",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "SANGEN Rush",
-    "default": "Infinite",
+    "default": 3,
     "values": [
       "1",
       "3",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

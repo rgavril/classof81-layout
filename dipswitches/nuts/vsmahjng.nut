@@ -1,7 +1,7 @@
 return [
   {
     "name": "Rules",
-    "default": "Kansai",
+    "default": 0,
     "values": [
       "Kansai",
       "Kantou"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Timer",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Initial Time",
-    "default": "90",
+    "default": 3,
     "values": [
       "30",
       "45",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Additional Time",
-    "default": "20",
+    "default": 3,
     "values": [
       "8",
       "12",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Mawashi",
-    "default": "Tonton",
+    "default": 1,
     "values": [
       "Tonnan",
       "Tonton"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Dora",
-    "default": "Genbutsu",
+    "default": 0,
     "values": [
       "Genbutsu",
       "Next"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Starting Points",
-    "default": "30000",
+    "default": 3,
     "values": [
       "15000",
       "20000",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

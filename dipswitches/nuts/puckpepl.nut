@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "Bonus Chance HI/LO Cards",
+    "default": 0,
     "values": [
       "Bonus Chance HI/LO Cards",
       "Life at Stage 10",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On",
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Strip Mode",
-    "default": "Soft",
+    "default": 0,
     "values": [
       "Soft",
       "Hard"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Clear EEPROM",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

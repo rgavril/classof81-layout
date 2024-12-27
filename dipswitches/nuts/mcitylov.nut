@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out Rate",
-    "default": "95%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Rate Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Rate Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "10",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Open Reach Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "5",
+    "default": 2,
     "values": [
       "0",
       "3",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Last Chance Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Cancel Type",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "3",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Cancel Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Ryuukyoku Renchan",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Score Pool",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

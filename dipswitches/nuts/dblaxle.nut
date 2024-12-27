@@ -1,7 +1,7 @@
 return [
   {
     "name": "Handle Pulse",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Gear shift",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Inverted"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Price to Continue",
-    "default": "Same as Start",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Back Gear",
-    "default": "No Back Gear",
+    "default": 1,
     "values": [
       "Normal",
       "No Back Gear"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Vibration Mode",
-    "default": "Partial Vibration",
+    "default": 0,
     "values": [
       "Partial Vibration",
       "All The Time Vibration"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Steering Wheel Vibration",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Select Round",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Buy-In",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

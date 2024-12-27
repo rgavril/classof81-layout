@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time Setting",
-    "default": "08:30",
+    "default": 0,
     "values": [
       "08:30",
       "09:00",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "60",
+    "default": 1,
     "values": [
       "30",
       "60"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "See Opponent's Tiles (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "PINFU with TSUMO",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4",
+    "default": 3,
     "values": [
       "1 (Easy)",
       "2",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Cabinet Setting",
-    "default": "2 Players & 1 Coin Slot",
+    "default": 0,
     "values": [
       "2 Players & 1 Coin Slot",
       "4 Players & 1 Coin Slot",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Players Start & Join",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "2 Start, 1 Can Join",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

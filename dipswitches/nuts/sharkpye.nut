@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "1 Pulse / 100 Credits",
+    "default": 5,
     "values": [
       "1 Pulse / 1 Credits",
       "1 Pulse / 2 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 2,
     "values": [
       "10",
       "40",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Jokers",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "97%",
+    "default": 5,
     "values": [
       "92%",
       "93%",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Double-Up Rate",
-    "default": "92",
+    "default": 5,
     "values": [
       "82",
       "84",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

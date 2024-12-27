@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Innings Per Game",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

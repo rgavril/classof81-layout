@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "China",
+    "default": 0,
     "values": [
       "China",
       "Taiwan",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "1 Player Starting Score",
-    "default": "12-12",
+    "default": 0,
     "values": [
       "12-12",
       "11-11",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "2 Players Starting Score",
-    "default": "9-9",
+    "default": 0,
     "values": [
       "9-9",
       "7-7",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "2 Players Time Per Credit",
-    "default": "3 min",
+    "default": 0,
     "values": [
       "3 min",
       "2 min"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Debug",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

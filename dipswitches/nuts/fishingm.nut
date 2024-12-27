@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Set",
-    "default": "1 Medal 1 Credit",
+    "default": 1,
     "values": [
       "Off",
       "1 Medal 1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "100 Yen -> Coin",
-    "default": "10 Coin",
+    "default": 5,
     "values": [
       "0 Coin",
       "5 Coin",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "10 Yen Set",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "80%",
+    "default": 7,
     "values": [
       "85%",
       "90%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Start Time",
-    "default": "8 sec",
+    "default": 1,
     "values": [
       "6 sec",
       "8 sec",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Payout Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Demo Sound",
-    "default": "1/1",
+    "default": 3,
     "values": [
       "Off",
       "1/3",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "RAM Clear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

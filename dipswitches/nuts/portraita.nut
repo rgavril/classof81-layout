@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Coin",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Game Play",
-    "default": "Normal Play",
+    "default": 0,
     "values": [
       "Normal Play",
       "Freeplay (255 Cameras)"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "11.350 Points",
+    "default": 0,
     "values": [
       "11.350 Points",
       "1.350 Points"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Extra Camera",
-    "default": "Every 30.000 Points",
+    "default": 3,
     "values": [
       "None",
       "Every 10.000 Points",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Ostrich Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Quick"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Obstacles",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Switch 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Service Switch 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

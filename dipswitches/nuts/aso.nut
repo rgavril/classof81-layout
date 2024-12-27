@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "50k 100k 100k+",
+    "default": 0,
     "values": [
       "50k 100k 100k+",
       "60k 120k 120k+",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "3 Times",
+    "default": 1,
     "values": [
       "No",
       "3 Times"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "All Ships at Start (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Start Area",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

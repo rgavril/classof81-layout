@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot Mode",
-    "default": "Run Game",
+    "default": 0,
     "values": [
       "Run Game",
       "Boot Disk Based Self Test",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Console Enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

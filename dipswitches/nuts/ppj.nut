@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage A (\u00a5100)",
-    "default": "1 Coin / 10 Medal",
+    "default": 6,
     "values": [
       "1 Coin / 1 Medal",
       "1 Coin / 2 Medal",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage Config",
-    "default": "\u00a5100 = Credits",
+    "default": 0,
     "values": [
       "\u00a5100 = Credits",
       "\u00a5100 = Exchange"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Manual",
+    "default": 1,
     "values": [
       "Automatic",
       "Manual"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "75%",
+    "default": 3,
     "values": [
       "50%",
       "60%",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Winwave",
-    "default": "Big",
+    "default": 1,
     "values": [
       "Small",
       "Big"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "M.Medal",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "HG",
-    "default": "20-1",
+    "default": 0,
     "values": [
       "20-1",
       "50-1",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

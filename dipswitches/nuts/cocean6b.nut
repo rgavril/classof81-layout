@@ -1,7 +1,7 @@
 return [
   {
     "name": "Number of 1 Coin Credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "None",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "None"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Type of Tape",
-    "default": "MD (Small)",
+    "default": 3,
     "values": [
       "MT (Big)",
       "invalid?",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Key Switch Credit",
-    "default": "1 Coin 10 Credits",
+    "default": 0,
     "values": [
       "1 Coin 10 Credits",
       "1 Coin 20 Credits",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Game Select",
-    "default": "1 to 8 Lines",
+    "default": 0,
     "values": [
       "1 to 8 Lines",
       "Center Line"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Background Music",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Pay Out %",
-    "default": "Payout 75%",
+    "default": 0,
     "values": [
       "Payout 75%",
       "Payout 85%"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Country Code",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",

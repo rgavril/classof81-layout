@@ -1,7 +1,7 @@
 return [
   {
     "name": "Seconds",
-    "default": "45",
+    "default": 1,
     "values": [
       "30",
       "45",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 9,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",

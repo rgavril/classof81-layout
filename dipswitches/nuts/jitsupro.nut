@@ -1,7 +1,7 @@
 return [
   {
     "name": "2 Player Innings per Credit",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty for Catching Ball",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Franchise (Increase Batting Power)",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "G",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Scroll Is Based On",
-    "default": "Shadow of Baseball",
+    "default": 0,
     "values": [
       "Shadow of Baseball",
       "The Baseball Itself"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

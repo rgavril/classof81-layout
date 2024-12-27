@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Refueling Point",
-    "default": "250 km",
+    "default": 1,
     "values": [
       "200 km",
       "250 km",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Fuel Drop Rate",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

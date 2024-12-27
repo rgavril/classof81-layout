@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Point Thresholds",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Free Timer After",
-    "default": "60 sec",
+    "default": 2,
     "values": [
       "30 sec",
       "45 sec",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Rack Advance (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "100 Points/Pulse",
+    "default": 0,
     "values": [
       "100 Points/Pulse",
       "500 Points/Pulse"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 2,
     "values": [
       "20",
       "40",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "84%",
+    "default": 2,
     "values": [
       "68%",
       "76%",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Double-Up Rate",
-    "default": "86%",
+    "default": 2,
     "values": [
       "74%",
       "80%",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "SW3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Attract Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

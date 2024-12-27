@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "After 10 racks",
+    "default": 1,
     "values": [
       "None",
       "After 10 racks",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Ignore Hardware Failure",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

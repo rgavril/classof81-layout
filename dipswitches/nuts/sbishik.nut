@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 3,
     "values": [
       "Easiest",
       "Very Easy",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "All The Time",
+    "default": 0,
     "values": [
       "All The Time",
       "Loop At 2 Times",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Slack Difficulty",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Title Demo",
-    "default": "At Every Gamedemo",
+    "default": 1,
     "values": [
       "At 1 Loop",
       "At Every Gamedemo"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Gamedemo",
-    "default": "7 Kinds",
+    "default": 1,
     "values": [
       "4 Kinds",
       "7 Kinds"

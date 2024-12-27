@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "Swedish",
+    "default": 0,
     "values": [
       "Swedish",
       "US English",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Keyboard Program",
-    "default": "External PROM",
+    "default": 1,
     "values": [
       "Internal (8048)",
       "External PROM"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Play",
+    "default": 1,
     "values": [
       "Keyboard Test",
       "Play"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "10 Points/Pulse",
+    "default": 0,
     "values": [
       "10 Points/Pulse",
       "100 Points/Pulse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "5 Points/Coin",
+    "default": 0,
     "values": [
       "5 Points/Coin",
       "10 Points/Coin"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "5 Points/Coin",
+    "default": 0,
     "values": [
       "5 Points/Coin",
       "10 Points/Coin"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Insert",
-    "default": "Dattl Insert",
+    "default": 0,
     "values": [
       "Dattl Insert",
       "TAB Insert"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "With Joker",
+    "default": 0,
     "values": [
       "With Joker",
       "Without Joker"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hold",
-    "default": "Auto Hold",
+    "default": 0,
     "values": [
       "Auto Hold",
       "No Auto Hold"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual Payout SW",
+    "default": 1,
     "values": [
       "Hopper",
       "Manual Payout SW"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Rate",
-    "default": "98%",
+    "default": 0,
     "values": [
       "98%",
       "96%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Max. Credits Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "15",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Max. Points Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "15",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Bill Time",
-    "default": "Anytime",
+    "default": 0,
     "values": [
       "Anytime",
       "Zero"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "30000",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Fever Min. Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Skill Mode",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Double Up Rate",
-    "default": "92%",
+    "default": 0,
     "values": [
       "92%",
       "96%"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Take Score Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

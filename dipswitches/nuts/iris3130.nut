@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot Media",
-    "default": "Enter PROM Monitor",
+    "default": 4,
     "values": [
       "Hard Disk (IP, SD, MD)",
       "Cartridge Tape",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Auto-Boot",
-    "default": "Enter PROM Monitor",
+    "default": 0,
     "values": [
       "Enter PROM Monitor",
       "Auto-Boot"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Verbose Boot",
-    "default": "Be Verbose",
+    "default": 0,
     "values": [
       "Be Verbose",
       "Be Quiet"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Enable Dual-Head Display",
-    "default": "Use Primary Display",
+    "default": 0,
     "values": [
       "Use Primary Display",
       "Use Secondary Display"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Display Setting",
-    "default": "60Hz Non-Interlaced / 60Hz Non-Interlaced",
+    "default": 0,
     "values": [
       "60Hz Non-Interlaced / 60Hz Non-Interlaced",
       "60Hz Non-Interlaced / 30Hz Interlaced",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "RS232 Console Speed",
-    "default": "19200 Baud",
+    "default": 3,
     "values": [
       "9600 Baud",
       "300 Baud",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Master/Slave",
-    "default": "Master",
+    "default": 1,
     "values": [
       "Slave",
       "Master"

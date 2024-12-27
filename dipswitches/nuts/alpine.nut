@@ -1,7 +1,7 @@
 return [
   {
     "name": "Jump Bonus",
-    "default": "2000-4000",
+    "default": 3,
     "values": [
       "500-1500",
       "800-2000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "2:30",
+    "default": 3,
     "values": [
       "1:00",
       "1:30",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "End of Race Time Bonus",
-    "default": "0:20",
+    "default": 1,
     "values": [
       "0:10",
       "0:20"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "1st Extended Time",
-    "default": "25000",
+    "default": 3,
     "values": [
       "10000",
       "15000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Extended Time Every",
-    "default": "12000",
+    "default": 7,
     "values": [
       "5000",
       "6000",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Year Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Hit Detection",
-    "default": "Normal Game",
+    "default": 0,
     "values": [
       "Normal Game",
       "No Hit"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "A and B",
+    "default": 0,
     "values": [
       "A and B",
       "A only"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time",
-    "default": "32 seconds / 16 raccoons",
+    "default": 0,
     "values": [
       "32 seconds / 16 raccoons",
       "64 seconds / 32 raccoons",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Select",
-    "default": "Witch Hunt",
+    "default": 1,
     "values": [
       "Hit the Bear",
       "Witch Hunt",
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

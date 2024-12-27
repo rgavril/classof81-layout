@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Japanese",
+    "default": 1,
     "values": [
       "English",
       "Japanese"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Invulnerability (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 1C/1C",
+    "default": 0,
     "values": [
       "A 1C/1C B 1C/1C",
       "A 1C/2C B 2C/1C",
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

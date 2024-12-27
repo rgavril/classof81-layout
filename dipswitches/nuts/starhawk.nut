@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "2:00/4:00",
+    "default": 0,
     "values": [
       "2:00/4:00",
       "1:30/3:00",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "3:00",
+    "default": 3,
     "values": [
       "1:30",
       "2:00",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "2P-Play Continue",
-    "default": "2 Credits",
+    "default": 1,
     "values": [
       "1 Credit",
       "2 Credits"

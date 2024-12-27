@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet Style",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cocktail",
       "Upright"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Coin Switch",
-    "default": "Active High",
+    "default": 1,
     "values": [
       "Active Low",
       "Active High"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Type",
-    "default": "Take Button",
+    "default": 0,
     "values": [
       "Take Button",
       "Automatic"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Double Up Game Pay Rate",
-    "default": "75%",
+    "default": 0,
     "values": [
       "75%",
       "80%",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "Easy",
+    "default": 1,
     "values": [
       "Very Easy",
       "Easy",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "1000",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Sound for 100+ Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins/1 Credit",
       "9 Coins/1 Credit",
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -188,7 +188,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -196,7 +196,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -204,7 +204,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Sound Enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

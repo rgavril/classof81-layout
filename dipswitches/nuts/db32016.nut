@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 1,
     "values": [
       "19200",
       "9600",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "FPU",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "MMU",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "PPI Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

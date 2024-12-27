@@ -1,7 +1,7 @@
 return [
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin In 1",
-    "default": "1-1",
+    "default": 0,
     "values": [
       "1-1",
       "1-2",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Pay Out",
-    "default": "60",
+    "default": 0,
     "values": [
       "60",
       "65",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "60",
+    "default": 3,
     "values": [
       "20",
       "30",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1-10",
+    "default": 0,
     "values": [
       "1-10",
       "1-20",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Coin In 2",
-    "default": "1-1",
+    "default": 0,
     "values": [
       "1-1",
       "1-2",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Payout Switch",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "55",
+    "default": 3,
     "values": [
       "40",
       "45",
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Auto Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000",
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Hopper Active",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unknown Use",
-    "default": "Straight (Normal)",
+    "default": 1,
     "values": [
       "Matrix",
       "Straight (Normal)"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

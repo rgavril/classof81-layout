@@ -1,7 +1,7 @@
 return [
   {
     "name": "Resolution",
-    "default": "Medium",
+    "default": 0,
     "values": [
       "Medium",
       "Low",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "SW5-3",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "SW5-4",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Operator Mode",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "SW51-2",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "SW51-3",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "SW51-4",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Voltage",
-    "default": "OK",
+    "default": 0,
     "values": [
       "OK",
       "Low",

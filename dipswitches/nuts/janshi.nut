@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Round Up Bonus",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Base Score",
-    "default": "5000 / 8000",
+    "default": 0,
     "values": [
       "5000 / 8000",
       "4000 / 8000",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "Easy",
+    "default": 2,
     "values": [
       "Very Hard",
       "Hard",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "10 Seconds",
+    "default": 1,
     "values": [
       "12 Seconds",
       "10 Seconds",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Yakuman Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "BGM",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Voice",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

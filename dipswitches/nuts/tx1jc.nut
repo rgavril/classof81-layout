@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Cost",
-    "default": "1 Coin Unit for 1 Credit",
+    "default": 0,
     "values": [
       "1 Coin Unit for 1 Credit",
       "2 Coin Units for 1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Left Coin Mechanism",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 2 Coin Units"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Right Coin Mechanism",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 4 Coin Units",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "D",
+    "default": 3,
     "values": [
       "A (Easiest)",
       "B",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "C",
+    "default": 2,
     "values": [
       "A (Longest)",
       "B",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Bonus Adder",
-    "default": "No Bonus",
+    "default": 7,
     "values": [
       "No Bonus",
       "2 Coin Units for 1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

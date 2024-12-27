@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "JOYSTICK",
+    "default": 0,
     "values": [
       "JOYSTICK",
       "JAMMASTICK"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Qualify Area",
-    "default": "70%",
+    "default": 0,
     "values": [
       "70%",
       "80%"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

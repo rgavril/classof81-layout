@@ -1,14 +1,14 @@
 return [
   {
     "name": "Coinage",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal"
     ]
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 3,
     "values": [
       "German",
       "French",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "6k 20k 50k",
+    "default": 2,
     "values": [
       "2k 10k 30k",
       "4k 15k 40k",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "One Play Minimum",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Self Adjust Diff",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/1",
+    "default": 2,
     "values": [
       "A 2/1 B 2/1",
       "A 2/1 B 1/3",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30000",
+    "default": 0,
     "values": [
       "30000",
       "50000",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hopper",
-    "default": "Relay Pulse",
+    "default": 0,
     "values": [
       "Relay Pulse",
       "Miser On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Music",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Novelty",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cards After 5th Coin",
-    "default": "Face Up",
+    "default": 0,
     "values": [
       "Face Up",
       "Logo Up"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Currency",
-    "default": "Ike Dollars",
+    "default": 0,
     "values": [
       "Ike Dollars",
       "Other Coins"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Blue",
+    "default": 1,
     "values": [
       "Green",
       "Blue"

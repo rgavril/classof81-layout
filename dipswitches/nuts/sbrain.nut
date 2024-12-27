@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main TX Clock",
-    "default": "Internal",
+    "default": 0,
     "values": [
       "Internal",
       "External"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Main RX Clock",
-    "default": "Internal",
+    "default": 0,
     "values": [
       "Internal",
       "External"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Internal Baud Clock to Main Port",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

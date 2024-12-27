@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Hardest",
       "Hard",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Italian"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Weapon",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "3 Coins/4 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

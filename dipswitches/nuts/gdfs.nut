@@ -1,7 +1,7 @@
 return [
   {
     "name": "Controls",
-    "default": "Light Gun",
+    "default": 1,
     "values": [
       "Joystick",
       "Light Gun"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Light Gun Calibration",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Level Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Save Scores",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Invert X Axis",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Damage From Machine Gun",
-    "default": "Light",
+    "default": 0,
     "values": [
       "Light",
       "Heavy"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Damage From Beam Cannon",
-    "default": "Light",
+    "default": 0,
     "values": [
       "Light",
       "Heavy"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Damage From Missle",
-    "default": "Light",
+    "default": 0,
     "values": [
       "Light",
       "Heavy"

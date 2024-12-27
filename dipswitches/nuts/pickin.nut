@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1C/1C 1C/2C 1C/6C 1C/14C",
+    "default": 1,
     "values": [
       "2C/1C 1C/1C 1C/3C 1C/7C",
       "1C/1C 1C/2C 1C/6C 1C/14C"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30000",
+    "default": 0,
     "values": [
       "30000",
       "40000"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French"

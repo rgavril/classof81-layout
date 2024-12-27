@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out",
-    "default": "95% (Easy)",
+    "default": 0,
     "values": [
       "95% (Easy)",
       "90%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Bet Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "20",
+    "default": 3,
     "values": [
       "8",
       "10",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Hopper Drive",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "W.Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "BONUS ?_?l???? BET MIN",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Character Display Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "?? cut",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "16 - ?H??",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Credit Max",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "3000",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Cancel Hand",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "DIPSW 3-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

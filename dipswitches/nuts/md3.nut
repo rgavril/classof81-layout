@@ -1,7 +1,7 @@
 return [
   {
     "name": "Diagnostics",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

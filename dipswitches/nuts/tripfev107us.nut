@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Non Stop",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Password",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Score Box",
-    "default": "No",
+    "default": 3,
     "values": [
       "10X",
       "10X (duplicate)",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Play Score",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Auto Take",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Hand Count",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Hold Pair",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Regular",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Auto Ticket",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Sw8",
-    "default": "Exec",
+    "default": 0,
     "values": [
       "Exec",
       "User"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Sw7",
-    "default": "PUP",
+    "default": 0,
     "values": [
       "PUP",
       "Reset"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Sw6",
-    "default": "Octal",
+    "default": 1,
     "values": [
       "Hex",
       "Octal"

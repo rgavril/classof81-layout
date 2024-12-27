@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "3000000",
+    "default": 0,
     "values": [
       "3000000",
       "3500000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "4500000",
+    "default": 0,
     "values": [
       "4500000",
       "5000000",

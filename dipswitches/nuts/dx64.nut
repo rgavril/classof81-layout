@@ -1,7 +1,7 @@
 return [
   {
     "name": "Device Address",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "9",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Device Address",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "9",

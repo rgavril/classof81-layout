@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "90 secs",
+    "default": 1,
     "values": [
       "60 secs",
       "90 secs",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Alternate"

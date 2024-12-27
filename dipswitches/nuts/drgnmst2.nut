@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Two credits to start",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Game Pause",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Easiest",
       "Easier",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Korean"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Short"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Stage Skip",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Spit Color",
-    "default": "Grey",
+    "default": 0,
     "values": [
       "Grey",
       "Red"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

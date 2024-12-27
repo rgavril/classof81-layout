@@ -1,7 +1,7 @@
 return [
   {
     "name": "Programming Value",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "01",

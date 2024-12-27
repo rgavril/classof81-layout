@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/10 Credits",
+    "default": 7,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Revolutions",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Max Payout Adjust",
-    "default": "48",
+    "default": 0,
     "values": [
       "48",
       "60"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Extra Payout Control",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Red & Blue Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Winning %",
-    "default": "75%",
+    "default": 4,
     "values": [
       "50%",
       "60%",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

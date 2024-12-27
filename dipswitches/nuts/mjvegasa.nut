@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "71%",
+    "default": 8,
     "values": [
       "96%",
       "93%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1 2 3 5 8 15 30 50",
+    "default": 1,
     "values": [
       "1 2 4 8 12 16 24 32",
       "1 2 3 5 8 15 30 50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Minimum Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Once on Start",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Cycle",
-    "default": "Twice",
+    "default": 1,
     "values": [
       "Once",
       "Twice"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Payout Type",
-    "default": "Credits",
+    "default": 0,
     "values": [
       "Credits",
       "Hopper"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Hopper Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Reversed"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Service Count",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "W-Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Auto Reach",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Auto Tsumo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Yakuman Match",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Show Clock",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Girls",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Background",
-    "default": "Green",
+    "default": 1,
     "values": [
       "Black",
       "Green"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "In Game Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Yakuman Match Frequency",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Wave of Dividends",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Don Den Key",
-    "default": "Flip-Flop",
+    "default": 0,
     "values": [
       "Flip-Flop",
       "Start"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Don Den Times",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "8"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -269,7 +269,7 @@ return [
   },
   {
     "name": "Debug Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -277,7 +277,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

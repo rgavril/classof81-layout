@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character Set",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "CR Code",
-    "default": "CRLF",
+    "default": 1,
     "values": [
       "CR only",
       "CRLF"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Auto Wraparound at 80th Position",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Emulation",
-    "default": "Standard 910",
+    "default": 0,
     "values": [
       "Standard 910",
       "ADM-3A/5",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Refresh Rate",
-    "default": "60 Hz",
+    "default": 0,
     "values": [
       "60 Hz",
       "50 Hz"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cursor Type",
-    "default": "Blinking block",
+    "default": 0,
     "values": [
       "Blinking block",
       "Blinking underline",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Conversation Mode",
-    "default": "Half duplex",
+    "default": 0,
     "values": [
       "Half duplex",
       "Full duplex"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Colors",
-    "default": "Green characters on black screen",
+    "default": 1,
     "values": [
       "Black characters on green screen",
       "Green characters on black screen"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 13,
     "values": [
       "50",
       "75",
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Word Length",
-    "default": "8 data bits",
+    "default": 0,
     "values": [
       "8 data bits",
       "7 data bits"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "No parity",
+    "default": 0,
     "values": [
       "No parity",
       "Send parity"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "10 Credits / Coin",
+    "default": 1,
     "values": [
       "5 Credits / Coin",
       "10 Credits / Coin"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Joker Card (with Jokers)",
+    "default": 1,
     "values": [
       "Multi Card (without Jokers)",
       "Joker Card (with Jokers)"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Allow Autohold",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Hopper",
+    "default": 0,
     "values": [
       "Hopper",
       "Manual Payout SW"

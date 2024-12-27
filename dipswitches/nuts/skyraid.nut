@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "Mode 1",
+    "default": 1,
     "values": [
       "Mode 0",
       "Mode 1",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Score for Extended Play",
-    "default": "High",
+    "default": 1,
     "values": [
       "Low",
       "High"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "80 Seconds",
+    "default": 1,
     "values": [
       "60 Seconds",
       "80 Seconds",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DIP #5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

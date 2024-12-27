@@ -1,7 +1,7 @@
 return [
   {
     "name": "Diagnostic Mode",
-    "default": "0 (Normal)",
+    "default": 0,
     "values": [
       "0 (Normal)",
       "1 (Dump Tables)",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key Repeat",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "1200",
+    "default": 1,
     "values": [
       "300",
       "1200"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Key Click",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Synchronous Output",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Key Repeat Delay/Rate",
-    "default": "0.75s/15cps",
+    "default": 0,
     "values": [
       "0.75s/15cps",
       "0.5s/21cps"

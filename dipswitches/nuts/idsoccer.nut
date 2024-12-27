@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Continuity",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Allow Continue (2P)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Allow Continue (1P)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Real Game Time",
-    "default": "3:00",
+    "default": 3,
     "values": [
       "1:00",
       "2:00",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

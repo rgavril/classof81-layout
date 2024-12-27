@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "1C/1C (2 to start)",
       "1 Coin/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000",

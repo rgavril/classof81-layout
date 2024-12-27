@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Points",
-    "default": "5000",
+    "default": 2,
     "values": [
       "3000",
       "4000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C/1C (1C per player)",
+    "default": 1,
     "values": [
       "1C/1C (2C per player)",
       "1C/1C (1C per player)",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

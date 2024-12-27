@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "180 seconds",
+    "default": 3,
     "values": [
       "60 seconds",
       "90 seconds",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Video Invert",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Marker Size",
-    "default": "Large",
+    "default": 1,
     "values": [
       "Small",
       "Large"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"

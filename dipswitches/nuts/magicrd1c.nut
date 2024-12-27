@@ -1,7 +1,7 @@
 return [
   {
     "name": "Keyboard Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote/Keyboard",
-    "default": "Remote Switch",
+    "default": 0,
     "values": [
       "Remote Switch",
       "Keyboard"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Swap Coin Inputs",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Setting",
-    "default": "Austria 1",
+    "default": 0,
     "values": [
       "Austria 1",
       "Austria 2",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Coin B",
+    "default": 0,
     "values": [
       "Coin B",
       "Coin A"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

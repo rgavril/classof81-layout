@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Option",
-    "default": "1 Player/Coin",
+    "default": 1,
     "values": [
       "1 Game/Coin",
       "1 Player/Coin"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60s",
+    "default": 0,
     "values": [
       "60s",
       "90s",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Extended Play Score",
-    "default": "4000/7000",
+    "default": 1,
     "values": [
       "3000/6000",
       "4000/7000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Extended Play Time",
-    "default": "20s",
+    "default": 1,
     "values": [
       "None",
       "20s",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

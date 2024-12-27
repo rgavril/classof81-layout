@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Display Coinage Settings",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Show only 1P Coinage",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

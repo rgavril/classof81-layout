@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Test Back and Target",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Test I/O and Dip SW",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Extend",
-    "default": "Every 30000000",
+    "default": 0,
     "values": [
       "Every 30000000",
       "Every 50000000",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Rapid",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demosound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "DIPSW2 #8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Player",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Auto Level",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Slow",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Joystick",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "3D"

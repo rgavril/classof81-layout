@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown 1-0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown 1-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown 1-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown 1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Background",
-    "default": "Green",
+    "default": 1,
     "values": [
       "Black",
       "Green"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown 1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unknown 2-0&1",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown 2-4&5",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown 2-6&7",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown 3-0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown 3-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown 3-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown 3-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown 3-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown 3-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown 3-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Full Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

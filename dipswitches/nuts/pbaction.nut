@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "70k 200k",
+    "default": 2,
     "values": [
       "70k 200k 1000k",
       "100k 300k 1000k",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Extra",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Difficulty (Flippers)",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty (Outlanes)",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 3,
     "values": [
       "Easiest",
       "Very Easy",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Volume",
-    "default": "High",
+    "default": 1,
     "values": [
       "Low",
       "High"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Max Stage",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lower RX Baud Rate",
-    "default": "9600 / 38400",
+    "default": 4,
     "values": [
       "110 / 440",
       "300 / 1200",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Upper RX Baud Rate",
-    "default": "9600 / 38400",
+    "default": 4,
     "values": [
       "110 / 440",
       "300 / 1200",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Lower TX Baud Rate",
-    "default": "9600 / 38400",
+    "default": 4,
     "values": [
       "110 / 440",
       "300 / 1200",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Upper TX Baud Rate",
-    "default": "9600 / 38400",
+    "default": 4,
     "values": [
       "110 / 440",
       "300 / 1200",

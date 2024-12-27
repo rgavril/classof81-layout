@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "OK",
+    "default": 1,
     "values": [
       "Lose",
       "OK"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Credit Max",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Enable"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Credit Max Amount",
-    "default": "500",
+    "default": 1,
     "values": [
       "200",
       "500"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "90%",
+    "default": 1,
     "values": [
       "80%",
       "90%"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Port Check",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Coin1 = 1C-10C;  Coin2 = 1C-50C;  Note = 1C-100C",
+    "default": 7,
     "values": [
       "Coin1 = 5C-1C;   Coin2 = 1C-1C;   Note = 1C-2C",
       "Coin1 = 2C-1C;   Coin2 = 1C-3C;   Note = 1C-6C",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "20",
+    "default": 1,
     "values": [
       "10",
       "20"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Game Duty",
-    "default": "Weak",
+    "default": 0,
     "values": [
       "Weak",
       "Strong"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Pay Rate",
-    "default": "90%",
+    "default": 3,
     "values": [
       "60%",
       "70%",

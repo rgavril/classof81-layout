@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Sec/Real Sec",
-    "default": "1.00",
+    "default": 48,
     "values": [
       "0.23 (Longest)",
       "0.24",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 0,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Test"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Show Blood",
-    "default": "Show Blood",
+    "default": 0,
     "values": [
       "Show Blood",
       "Do not show blood"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Counter",
-    "default": "X10",
+    "default": 0,
     "values": [
       "X10",
       "X1"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "With",
+    "default": 0,
     "values": [
       "With",
       "Without"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "5 of a kind",
-    "default": "With",
+    "default": 0,
     "values": [
       "With",
       "Without"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin/Credit ratio",
-    "default": "1 coin 10 credits",
+    "default": 3,
     "values": [
       "1 coin 1 credit",
       "1 coin 1 credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Payout type",
-    "default": "Ticket + Hopper",
+    "default": 3,
     "values": [
       "Ticket + Hopper",
       "Ticket",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4",
+    "default": 4,
     "values": [
       "0 (Easiest)",
       "1",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "4",
+    "default": 4,
     "values": [
       "0 (Slowest)",
       "1",

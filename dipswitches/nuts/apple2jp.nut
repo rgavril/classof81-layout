@@ -1,7 +1,7 @@
 return [
   {
     "name": "Reset",
-    "default": "CTRL-RESET",
+    "default": 0,
     "values": [
       "CTRL-RESET",
       "RESET"

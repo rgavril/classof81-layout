@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base Address",
-    "default": "40000H",
+    "default": 0,
     "values": [
       "40000H",
       "80000H"

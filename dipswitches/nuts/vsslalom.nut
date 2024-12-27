@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Freestyle Points",
-    "default": "Left / Right",
+    "default": 0,
     "values": [
       "Left / Right",
       "Hold Time"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Inverted input",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

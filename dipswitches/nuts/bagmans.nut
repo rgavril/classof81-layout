@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C/1C 1C/2C 1C/6C 1C/14C",
+    "default": 1,
     "values": [
       "2C/1C 1C/1C 1C/3C 1C/7C",
       "1C/1C 1C/2C 1C/6C 1C/14C"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30000",
+    "default": 0,
     "values": [
       "30000",
       "40000"

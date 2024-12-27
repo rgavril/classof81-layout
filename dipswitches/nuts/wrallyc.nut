@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Number of Joysticks",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "1"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Control Configuration",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Pot Wheel",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "3 Coins/4 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Credit configuration",
-    "default": "Start 1C/Continue 1C",
+    "default": 0,
     "values": [
       "Start 1C/Continue 1C",
       "Start 2C/Continue 1C"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

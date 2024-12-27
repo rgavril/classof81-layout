@@ -1,7 +1,7 @@
 return [
   {
     "name": "Ctrl Chars",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Polarity",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Inverse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cursor Type",
-    "default": "Blinking",
+    "default": 0,
     "values": [
       "Blinking",
       "Solid",
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "FF bit 0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "FF bit 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "FF bit 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "FF bit 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "FF bit 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "FF bit 5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "FF bit 6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "FF bit 7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "300",
+    "default": 3,
     "values": [
       "75",
       "110",
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 2,
     "values": [
       "Even",
       "Odd",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 3,
     "values": [
       "5",
       "6",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Half",
+    "default": 0,
     "values": [
       "Half",
       "Full"

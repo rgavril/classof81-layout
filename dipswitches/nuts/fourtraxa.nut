@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Display",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Frozen"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "$2000-1",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "$2000-2",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "$2000-3",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "$2000-4",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "$2000-5",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "$2000-6",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "PortB 0x01",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "PortB 0x02",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "PortB 0x04",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "PortB 0x08",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "PortB 0x10",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "PortB 0x20",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "PortC 0x01",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "PortC 0x02",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "PortC 0x04",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "PortC 0x08",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "PortH 0x01",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "PortH 0x02",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "PortH 0x04",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "PortH 0x08 (onscreen diagnostics)",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "PortH 0x10",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "PortH 0x40",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "PortH 0x80",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"

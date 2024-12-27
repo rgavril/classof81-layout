@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credit Limit?",
-    "default": "9999",
+    "default": 3,
     "values": [
       "500",
       "1000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "3",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Main Game Rate",
-    "default": "90%",
+    "default": 3,
     "values": [
       "60%",
       "70%",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Coinage (A=1; B=5; C=10)",
-    "default": "x10",
+    "default": 3,
     "values": [
       "x1",
       "x2",

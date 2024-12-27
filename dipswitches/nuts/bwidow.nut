@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 5,
     "values": [
       "1 each 5",
       "2 each 4",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Max Start",
-    "default": "Lev 21",
+    "default": 1,
     "values": [
       "Lev 13",
       "Lev 21",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "30000",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

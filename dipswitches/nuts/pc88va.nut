@@ -1,7 +1,7 @@
 return [
   {
     "name": "CRT Mode",
-    "default": "24.8 KHz",
+    "default": 1,
     "values": [
       "15.7 KHz",
       "24.8 KHz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Speed Mode",
-    "default": "H Mode",
+    "default": 0,
     "values": [
       "H Mode",
       "S Mode"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "System Operational Mode",
-    "default": "N88 V2 Mode",
+    "default": 0,
     "values": [
       "N88 V2 Mode",
       "N88 V1 Mode"

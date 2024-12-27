@@ -1,7 +1,7 @@
 return [
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "3:00",
+    "default": 1,
     "values": [
       "3:30",
       "3:00",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Price to Continue",
-    "default": "Same as Start",
+    "default": 1,
     "values": [
       "1 Coin/1 Credit",
       "Same as Start"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

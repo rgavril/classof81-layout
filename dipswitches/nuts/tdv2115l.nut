@@ -1,7 +1,7 @@
 return [
   {
     "name": "ACK/NACK/ENQUIRY lamps",
-    "default": "Reset with CLEAR key",
+    "default": 0,
     "values": [
       "Reset with CLEAR key",
       "Reset with SYN ctrl-char (^V)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Rx handshake source",
-    "default": "DSR",
+    "default": 0,
     "values": [
       "DSR",
       "DCD"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Operating mode",
-    "default": "TTY mode (no CPU)",
+    "default": 0,
     "values": [
       "TTY mode (no CPU)",
       "CPU mode (CPU module required)"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DTR/RTS signals",
-    "default": "Permanently asserted",
+    "default": 0,
     "values": [
       "Permanently asserted",
       "Affected by LINE/TRANS keys"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Require RTS + CTS for ON LINE lamp",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Automatic page-roll after end of page",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "RS-232 data length",
-    "default": "7 data bits",
+    "default": 1,
     "values": [
       "8 data bits",
       "7 data bits"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Horizontal space between chars",
-    "default": "Duplicate edge of previous char",
+    "default": 0,
     "values": [
       "Duplicate edge of previous char",
       "Draw gap"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Automatic CR+LF after end of line",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Display mode",
-    "default": "Attribute mode",
+    "default": 1,
     "values": [
       "Undeline mode",
       "Attribute mode"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Cursor blinking",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Hide Attribute-changes or Underlined chars",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Hide ASCII control characters",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Cursor shape",
-    "default": "Line",
+    "default": 1,
     "values": [
       "Block",
       "Line"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Automatic RTS with DTR",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Current-Loop RxD line (Unused)",
-    "default": "47 Ohm series resistor",
+    "default": 1,
     "values": [
       "10V zener-diode in series",
       "47 Ohm series resistor"

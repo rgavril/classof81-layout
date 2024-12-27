@@ -1,7 +1,7 @@
 return [
   {
     "name": "Condensed characters",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Slashed zero",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Character table",
-    "default": "Italics",
+    "default": 0,
     "values": [
       "Italics",
       "Graphics"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Printer commands",
-    "default": "ESC/P",
+    "default": 0,
     "values": [
       "ESC/P",
       "IBM printer emulation"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Print quality",
-    "default": "Draft",
+    "default": 0,
     "values": [
       "Draft",
       "NLQ"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Int. character set",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Page length",
-    "default": "11 inch",
+    "default": 0,
     "values": [
       "11 inch",
       "12 inch"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Auto. sheet feeder",
-    "default": "Canceled",
+    "default": 0,
     "values": [
       "Canceled",
       "Selected"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Skip-over-perforation",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 inch"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Add LF after CR",
-    "default": "CR only",
+    "default": 0,
     "values": [
       "CR only",
       "CR + LF"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Interface type",
-    "default": "Parallel",
+    "default": 0,
     "values": [
       "Parallel",
       "Serial (odd parity)",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",

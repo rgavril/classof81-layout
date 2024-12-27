@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game port enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "LPT3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "LPT2: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "LPT1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "COM4: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "COM3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "COM2: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "COM1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "HDC2 (CA00:0 port 324-327)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "HDC1 (C800:0 port 320-323)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Protocol selection",
-    "default": "Standard PC and XT",
+    "default": 1,
     "values": [
       "Enhanced XT, AT and PS/2 models",
       "Standard PC and XT"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "IRMA/Native scan code set",
-    "default": "Native scan code set",
+    "default": 0,
     "values": [
       "Native scan code set",
       "IRMA Emulation"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Enhanced 101/Native scan code set",
-    "default": "Enhanced 101 scan code set",
+    "default": 1,
     "values": [
       "Native scan code set",
       "Enhanced 101 scan code set"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Enable E0",
-    "default": "Disable E0",
+    "default": 1,
     "values": [
       "Enable E0",
       "Disable E0"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Code tables",
-    "default": "International code tables",
+    "default": 1,
     "values": [
       "U.S. code tables",
       "International code tables"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Key click",
-    "default": "Key click",
+    "default": 1,
     "values": [
       "No key click",
       "Key click"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "RAM banks",
-    "default": "4 - 64/256/640K",
+    "default": 3,
     "values": [
       "1 - 16/ 64/256K",
       "2 - 32/128/512K",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Color 80x25",
+    "default": 2,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

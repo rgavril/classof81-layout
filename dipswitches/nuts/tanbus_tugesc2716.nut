@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Address",
-    "default": "$BD00 - $BD07",
+    "default": 0,
     "values": [
       "$BD00 - $BD07",
       "$BD08 - $BD0F",

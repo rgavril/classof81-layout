@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "5",
+    "default": 4,
     "values": [
       "1 (Easy)",
       "2",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "First Bonus",
-    "default": "20000",
+    "default": 1,
     "values": [
       "20000",
       "20000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Repeated Bonus",
-    "default": "60000",
+    "default": 5,
     "values": [
       "40000",
       "40000",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Grant Repeated Bonus",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Extra Play",
-    "default": "3000",
+    "default": 1,
     "values": [
       "Never",
       "3000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

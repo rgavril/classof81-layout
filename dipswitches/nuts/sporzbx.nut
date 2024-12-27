@@ -1,7 +1,7 @@
 return [
   {
     "name": "P2:0001",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0001"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "P2:0002",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0002"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "P2:0004",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0004"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "P2:0008",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0008"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "P2:0010",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0010"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "P2:0020",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0020"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "P2:0040",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0040"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "P2:0080",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0080"

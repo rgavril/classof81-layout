@@ -1,7 +1,7 @@
 return [
   {
     "name": "Screen Stop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Timer Stop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Color Bar Display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Round Skip (With Select Buttons)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "CPU Keeps Collected Upgrades Between Races",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 15,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Race Number of Setting Car Functions",
-    "default": "1st Race",
+    "default": 0,
     "values": [
       "1st Race",
       "2nd Race",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Timer Setting",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Display Coins per Credit",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Japanese",
       "English"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Coin System",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Irrespective of Joining In Halfway",
-    "default": "Game Over After Final",
+    "default": 0,
     "values": [
       "Game Over After Final",
       "All Races Playable"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Drag Race",
-    "default": "First One Only",
+    "default": 0,
     "values": [
       "First One Only",
       "Twice"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

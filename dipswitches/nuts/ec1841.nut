@@ -1,14 +1,14 @@
 return [
   {
     "name": "IRQ line",
-    "default": "IRQ4",
+    "default": 0,
     "values": [
       "IRQ4"
     ]
   },
   {
     "name": "IRQ rate",
-    "default": "30 hz",
+    "default": 1,
     "values": [
       "15 hz",
       "30 hz",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Type of 2nd drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Type of 1st drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "IRQ level",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Install ROM?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Floppy type",
-    "default": "40 tracks",
+    "default": 1,
     "values": [
       "80 tracks",
       "40 tracks"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Color 80x25",
+    "default": 2,
     "values": [
       "Reserved",
       "Color 40x25",
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Speech synthesizer",
-    "default": "Not installed",
+    "default": 1,
     "values": [
       "Installed",
       "Not installed"

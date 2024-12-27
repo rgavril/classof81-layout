@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA 1",
+    "default": 5,
     "values": [
       "USA 10",
       "USA 11",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Power Up Test Loop",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Resolution",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "0",
       "Medium",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Graphics Speed",
-    "default": "45 MHz",
+    "default": 0,
     "values": [
       "45 MHz",
       "47 MHz",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Brake",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Power On Self Test",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

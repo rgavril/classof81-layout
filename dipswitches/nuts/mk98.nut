@@ -1,7 +1,7 @@
 return [
   {
     "name": "Protocol selection",
-    "default": "Standard PC and XT",
+    "default": 1,
     "values": [
       "Enhanced XT, AT and PS/2 models",
       "Standard PC and XT"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "IRMA/Native scan code set",
-    "default": "Native scan code set",
+    "default": 0,
     "values": [
       "Native scan code set",
       "IRMA Emulation"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Enhanced 101/Native scan code set",
-    "default": "Enhanced 101 scan code set",
+    "default": 1,
     "values": [
       "Native scan code set",
       "Enhanced 101 scan code set"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Enable E0",
-    "default": "Disable E0",
+    "default": 1,
     "values": [
       "Enable E0",
       "Disable E0"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Code tables",
-    "default": "International code tables",
+    "default": 1,
     "values": [
       "U.S. code tables",
       "International code tables"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Key click",
-    "default": "Key click",
+    "default": 1,
     "values": [
       "No key click",
       "Key click"

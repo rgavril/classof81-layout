@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "B:180/A:160/M:140/BG:120",
+    "default": 0,
     "values": [
       "B:180/A:160/M:140/BG:120",
       "B:160/A:140/M:120/BG:100",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Crash Loss Time",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Background Sound",
-    "default": "Boat Motor",
+    "default": 0,
     "values": [
       "Boat Motor",
       "Music"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Analog Accelerator",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Stop Mode (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Invulnerability (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

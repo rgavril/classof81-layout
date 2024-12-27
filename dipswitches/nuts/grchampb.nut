@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Extra Race",
-    "default": "5th",
+    "default": 1,
     "values": [
       "4th",
       "5th",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "RAM Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin System",
-    "default": "2 Way",
+    "default": 1,
     "values": [
       "1 Way",
       "2 Way"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Display '1981'",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Display Score",
-    "default": "On Screen",
+    "default": 1,
     "values": [
       "LEDs",
       "On Screen"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

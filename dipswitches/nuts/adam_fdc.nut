@@ -1,7 +1,7 @@
 return [
   {
     "name": "Drive Select",
-    "default": "DS1",
+    "default": 0,
     "values": [
       "DS1",
       "DS2"

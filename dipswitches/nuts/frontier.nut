@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "A and C Rollover Lane Lite",
-    "default": "Making A or C Lane Lites Only Puts That Lane Out",
+    "default": 0,
     "values": [
       "Making A or C Lane Lites Only Puts That Lane Out",
       "Making A or C Lane Puts Both Lites Out"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "A-B-C Extra Ball Lite",
-    "default": "A-B-C Extra Ball Lite Comes On After Making A-B-C Lanes",
+    "default": 0,
     "values": [
       "A-B-C Extra Ball Lite Comes On After Making A-B-C Lanes",
       "A-B-C Extra Ball Lite Is On At Start Of Game"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Special Outlane Lite",
-    "default": "1 Lite Comes On Then Alternates",
+    "default": 0,
     "values": [
       "1 Lite Comes On Then Alternates",
       "Both Lites Come On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Special Outlane Lites And Side Targets Adjustment",
-    "default": "Special Lites Come On When Side Drop Target Special Is On",
+    "default": 0,
     "values": [
       "Special Lites Come On When Side Drop Target Special Is On",
       "Special Lites Come On When Side Drop Target 4X Is On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "A-B-C Lane Lites Recall",
-    "default": "Any A-B-C Lite Out Will Come Back For Next Ball",
+    "default": 0,
     "values": [
       "Any A-B-C Lite Out Will Come Back For Next Ball",
       "Any A-B-C Lite Out Will Not Come Back On For Next Ball"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Frontier Bonus Score",
-    "default": "Going In Outhole Frontier Bonus Will Not Be Collected",
+    "default": 0,
     "values": [
       "Going In Outhole Frontier Bonus Will Not Be Collected",
       "Going In Outhole Frontier Bonus Will Be Collected"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "S21 (unused)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "S22 (unused)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Frontier Bonus Lite Adjustment",
-    "default": "Frontier Bonus Will Stop At 60,000",
+    "default": 0,
     "values": [
       "Frontier Bonus Will Stop At 60,000",
       "Frontier Bonus Will Stop At 110,000"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Gate Recall",
-    "default": "Gate Will Stay Down For Next Ball",
+    "default": 0,
     "values": [
       "Gate Will Stay Down For Next Ball",
       "Gate Will Keep Up For Next Ball"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "15",
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "S29 (unused)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Flipper Feed Lane 15,000",
-    "default": "1 Lite Comes On Then Alternates",
+    "default": 0,
     "values": [
       "1 Lite Comes On Then Alternates",
       "Both Lites Come On"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Balls Per Game",
-    "default": "3",
+    "default": 2,
     "values": [
       "5",
       "4",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote 1",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "10"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin 2",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin 1",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Cards Back",
-    "default": "Normal Clean",
+    "default": 0,
     "values": [
       "Normal Clean",
       "Impera Logo"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Remote 2",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "1M"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW 1:2, unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DSW 1:1, unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

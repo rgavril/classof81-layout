@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch 2",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Test Switch 1",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Hold/wild chance",
-    "default": "High (37.5%/14.1%)",
+    "default": 1,
     "values": [
       "Low (31.25%/12.5%)",
       "High (37.5%/14.1%)"

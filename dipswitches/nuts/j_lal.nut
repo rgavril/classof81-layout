@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credit limit",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "50",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Accept multiple coins",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Special symbol block chance",
-    "default": "50%",
+    "default": 7,
     "values": [
       "36%",
       "38%",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Gamble win chance",
-    "default": "50%",
+    "default": 7,
     "values": [
       "36%",
       "38%",
@@ -118,7 +118,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -126,7 +126,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -142,7 +142,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -150,7 +150,7 @@ return [
   },
   {
     "name": "Test Hold",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Currency Type",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Select Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Game Powerup",
-    "default": "NBA Showtime",
+    "default": 1,
     "values": [
       "NFL Blitz",
       "NBA Showtime"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Joysticks",
-    "default": "49-Way",
+    "default": 1,
     "values": [
       "8-Way",
       "49-Way"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Graphics Mode",
-    "default": "Med Res",
+    "default": 0,
     "values": [
       "Med Res",
       "Low Res"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Number of Players",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "4"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Power On Self Test",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

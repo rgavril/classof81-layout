@@ -1,7 +1,7 @@
 return [
   {
     "name": "ROM_EMU",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "MODE",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

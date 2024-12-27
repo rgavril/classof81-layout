@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "2 Coins/1 Credit",
+    "default": 2,
     "values": [
       "1 Coin/1 Credit",
       "Free Play",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Center Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Game",
-    "default": "Easy Super Missile Attack",
+    "default": 1,
     "values": [
       "Missile Command",
       "Easy Super Missile Attack",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Cities",
-    "default": "6",
+    "default": 2,
     "values": [
       "4",
       "5",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bonus Credit for 4 Coins",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Trackball Size",
-    "default": "Mini",
+    "default": 0,
     "values": [
       "Mini",
       "Large"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bonus City",
-    "default": "10000",
+    "default": 1,
     "values": [
       "8000",
       "10000",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

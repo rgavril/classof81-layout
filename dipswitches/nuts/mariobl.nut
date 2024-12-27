@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "2 Players Game",
-    "default": "2 Credits",
+    "default": 1,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20k 50k 30k+",
+    "default": 0,
     "values": [
       "20k 50k 30k+",
       "30k 60k 30k+",

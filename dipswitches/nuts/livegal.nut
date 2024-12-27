@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "65%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Rate Max",
-    "default": "9",
+    "default": 1,
     "values": [
       "1",
       "9"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Rate Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Odds Number",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Last Chance Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Time Speed",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Character Display Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/5 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/1 Credit",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

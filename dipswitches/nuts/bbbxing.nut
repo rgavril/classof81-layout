@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Japanese",
       "English"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "35/60",
+    "default": 3,
     "values": [
       "60/60",
       "50/60",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Grute's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Biff's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Carolde's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Jose's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Thamalatt's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Kim's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Jyoji's Attacking Power",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Harder"

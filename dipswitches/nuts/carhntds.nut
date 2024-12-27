@@ -1,7 +1,7 @@
 return [
   {
     "name": "Car Hunt Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Deep Scan Lives",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

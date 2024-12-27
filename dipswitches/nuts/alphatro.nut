@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character Set",
-    "default": "International",
+    "default": 0,
     "values": [
       "International",
       "German",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Printer Interface (LPRINT)",
-    "default": "Parallel",
+    "default": 0,
     "values": [
       "Parallel",
       "Serial"

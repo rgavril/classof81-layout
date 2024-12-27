@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Key-In Rate",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin Out Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Jackpot Odds",
-    "default": "84%",
+    "default": 0,
     "values": [
       "84%",
       "88%",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Game Odds",
-    "default": "95%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "500"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "Coin Acceptor",
+    "default": 0,
     "values": [
       "Coin Acceptor",
       "Key-In"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Return Coins",
+    "default": 0,
     "values": [
       "Return Coins",
       "Key-Out"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Joystick"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Double Up Odds",
-    "default": "80%",
+    "default": 0,
     "values": [
       "80%",
       "84%",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Jackpot Win",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

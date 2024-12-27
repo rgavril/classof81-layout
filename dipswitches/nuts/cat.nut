@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country code",
-    "default": "United States",
+    "default": 0,
     "values": [
       "United States",
       "Canada",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Diagnostic"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Sync",
-    "default": "-",
+    "default": 0,
     "values": [
       "-",
       "+"
@@ -9,14 +9,14 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright"
     ]
   },
   {
     "name": "Players",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "2"
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

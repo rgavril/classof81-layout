@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "B",
+    "default": 1,
     "values": [
       "A",
       "B",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Player VS CPU Time",
-    "default": "1:30",
+    "default": 1,
     "values": [
       "1:00",
       "1:30",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Player VS Player Time",
-    "default": "2:00",
+    "default": 1,
     "values": [
       "1:30",
       "2:00",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Countdown",
-    "default": "54 sec",
+    "default": 0,
     "values": [
       "54 sec",
       "60 sec"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Start credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"

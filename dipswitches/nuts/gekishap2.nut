@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bet",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Pay Out Rate",
-    "default": "71",
+    "default": 7,
     "values": [
       "50",
       "53",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1 2 4 8 12 16 24 32",
+    "default": 0,
     "values": [
       "1 2 4 8 12 16 24 32",
       "1 2 3 5 8 15 30 50",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown 3-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown 3-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown 3-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unknown 3-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "DonDen Key",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "Flip Flop"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unknown 4-0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unknown 4-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Auto Tsumo after Reach",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown 4-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Girls (Demo)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unknown 4-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Unknown 4-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unit",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "JiffyDOS",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Turbo",
+    "default": 1,
     "values": [
       "Normal",
       "Turbo"

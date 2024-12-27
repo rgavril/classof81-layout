@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Ticket Increment",
-    "default": "+1 Ticket Per Game",
+    "default": 0,
     "values": [
       "+1 Ticket Per Game",
       "Fixed"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Starting Jackpot",
-    "default": "10",
+    "default": 3,
     "values": [
       "0",
       "5",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bonus Screen Setting",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Eggs per Ticket",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",

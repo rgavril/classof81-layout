@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Parameter 2",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Parameter 1",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Ignore keyboard error",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Serial console",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

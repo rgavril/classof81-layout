@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "2 Credits to Start",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Game Time P1",
-    "default": "1Credit 6 Outcounts 8M./2Credits 18 Outcounts 14M.",
+    "default": 3,
     "values": [
       "2 Credits 18 Outcounts 14 Min.",
       "1 Credit 6 Outcounts 7 Min.",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Game Time P2",
-    "default": "2Credits 6 Outcounts 8M./4Credits 18 Outcounts 16M.",
+    "default": 3,
     "values": [
       "4 Credits 18 Outcounts 16 Min.",
       "2 Credits 6 Outcounts 8 Min.",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Easiest",
       "Easy",

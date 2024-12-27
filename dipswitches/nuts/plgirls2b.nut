@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode A",
+    "default": 0,
     "values": [
       "Mode A",
       "Mode B"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "2 Seconds",
+    "default": 0,
     "values": [
       "2 Seconds",
       "3 Seconds"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Lives for Joe/Lady/Jack",
-    "default": "4/3/4",
+    "default": 1,
     "values": [
       "3/2/3",
       "4/3/4",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Character Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

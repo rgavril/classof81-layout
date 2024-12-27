@@ -1,7 +1,7 @@
 return [
   {
     "name": "SC499 I/O base (jumpers A3-A9)",
-    "default": "0200h",
+    "default": 63,
     "values": [
       "008h",
       "010h",
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "SC499 IRQ (jumpers IRQ2-IRQ7)",
-    "default": "IRQ 5",
+    "default": 3,
     "values": [
       "IRQ 2",
       "IRQ 3",
@@ -146,7 +146,7 @@ return [
   },
   {
     "name": "SC499 DMA (jumpers DRQ1-DRQ3)",
-    "default": "DRQ 1",
+    "default": 0,
     "values": [
       "DRQ 1",
       "DRQ 2",

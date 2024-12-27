@@ -1,7 +1,7 @@
 return [
   {
     "name": "High Pair (11-13)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "50hz/60hz",
-    "default": "60hz",
+    "default": 1,
     "values": [
       "50hz",
       "60hz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Auto",
+    "default": 1,
     "values": [
       "Manual",
       "Auto"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

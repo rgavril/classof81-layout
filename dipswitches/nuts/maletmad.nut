@@ -1,7 +1,7 @@
 return [
   {
     "name": "Payout",
-    "default": "1 Hit - 1 Ticket",
+    "default": 0,
     "values": [
       "1 Hit - 1 Ticket",
       "2 Hits - 1 Ticket",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Jackpot Amount",
-    "default": "100 Tickets",
+    "default": 0,
     "values": [
       "100 Tickets",
       "200 Tickets",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "10 seconds",
+    "default": 0,
     "values": [
       "10 seconds",
       "15 seconds",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Jackpot Trigger",
-    "default": "4 Coins",
+    "default": 0,
     "values": [
       "4 Coins",
       "5 Coins",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",

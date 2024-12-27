@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Slot Machine",
-    "default": "Machinery",
+    "default": 0,
     "values": [
       "Machinery",
       "??"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Poker Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5k",
+    "default": 0,
     "values": [
       "5k",
       "10k",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Key-In Limit",
-    "default": "5k",
+    "default": 0,
     "values": [
       "5k",
       "10k",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Open Cards Mode",
-    "default": "Reels",
+    "default": 0,
     "values": [
       "Reels",
       "Turn Over"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "98",
+    "default": 2,
     "values": [
       "96",
       "97",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Double-Up Rate",
-    "default": "96",
+    "default": 3,
     "values": [
       "93",
       "94",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Bonus Bet",
-    "default": "30",
+    "default": 0,
     "values": [
       "30",
       "48"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "48",
+    "default": 0,
     "values": [
       "48",
       "96"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "12",
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Credits Per Coin",
-    "default": "50",
+    "default": 2,
     "values": [
       "10",
       "20",
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Credits Per Key-In",
-    "default": "100",
+    "default": 2,
     "values": [
       "10",
       "50",
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Poker",
+    "default": 0,
     "values": [
       "Poker",
       "Joystick"

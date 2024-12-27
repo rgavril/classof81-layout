@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "25 captures",
+    "default": 0,
     "values": [
       "25 captures",
       "40 captures"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 2,
     "values": [
       "2",
       "3",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

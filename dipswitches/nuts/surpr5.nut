@@ -1,7 +1,7 @@
 return [
   {
     "name": "Screen Refresh",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Pinout",
-    "default": "CJ-S5",
+    "default": 3,
     "values": [
       "Invalid #1",
       "8L7-S5",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Factory Default",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

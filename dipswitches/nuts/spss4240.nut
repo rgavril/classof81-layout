@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hopper Limit 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Limit 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Sound Generator",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game Speed/Bills to Hopper",
-    "default": "Normal/Set in Self Test",
+    "default": 0,
     "values": [
       "Normal/Set in Self Test",
       "Fast/Auto Exchange"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Progressives",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Allow"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "High/Low Progressives",
-    "default": "Single Level Alternating",
+    "default": 0,
     "values": [
       "Single Level Alternating",
       "High/Low"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Double Progressives",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Link Progressives",
-    "default": "Standalone",
+    "default": 0,
     "values": [
       "Standalone",
       "Link"

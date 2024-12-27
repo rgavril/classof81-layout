@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Gameplay",
-    "default": "Basic Player",
+    "default": 0,
     "values": [
       "Basic Player",
       "Avid Golfer"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Shot Time",
-    "default": "Long (15 sec)",
+    "default": 1,
     "values": [
       "Short (12 sec)",
       "Long (15 sec)"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bonus Holes",
-    "default": "More (Par 1,Birdie 2,Eagle 3)",
+    "default": 0,
     "values": [
       "More (Par 1,Birdie 2,Eagle 3)",
       "Less (Par 0,Birdie 1,Eagle 2)"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Play Holes",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

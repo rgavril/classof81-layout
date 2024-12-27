@@ -1,7 +1,7 @@
 return [
   {
     "name": "Data tens",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Data units",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Function",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Sounds",
-    "default": "Set 1",
+    "default": 0,
     "values": [
       "Set 1",
       "Set 2"

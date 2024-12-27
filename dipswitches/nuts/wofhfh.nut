@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Extra Easy",
       "Very Easy",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "Start 2 Continue 2",
+    "default": 6,
     "values": [
       "Start 4 Continue 5",
       "Start 3 Continue 4",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "3 Players 3 Shooters",
+    "default": 2,
     "values": [
       "2 Players 1 Shooter",
       "3 Players 1 Shooter",

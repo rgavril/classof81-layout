@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "50%",
+    "default": 1,
     "values": [
       "40%",
       "50%",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 2,
     "values": [
       "10",
       "20",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Wild Witch",
+    "default": 0,
     "values": [
       "Wild Witch",
       "Witch Game"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Control Type",
-    "default": "12-Button",
+    "default": 1,
     "values": [
       "6-Button",
       "12-Button"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Minimal Hand",
-    "default": "High Pair",
+    "default": 1,
     "values": [
       "Two Pairs",
       "High Pair"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Uncommented 1",
-    "default": "64er",
+    "default": 0,
     "values": [
       "64er",
       "128er"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Uncommented 2",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "10 Credits"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

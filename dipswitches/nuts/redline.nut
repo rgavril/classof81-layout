@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW1",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSW3",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSW4",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "50"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSW6",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "BH",
-    "default": "Dreifachschluessel",
+    "default": 0,
     "values": [
       "Dreifachschluessel",
       "Normalgeraet"

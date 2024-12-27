@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hopper",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin 1 (Muenzen 1)",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin 2 (Muenzen 2)",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DSW5",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Wechsler",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "BH",
-    "default": "Dreifach",
+    "default": 0,
     "values": [
       "Dreifach",
       "Normal"

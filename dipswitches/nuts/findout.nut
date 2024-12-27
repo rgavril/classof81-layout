@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "7 Coins/1 Credit",
       "6 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Game Repetition",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Orientation",
-    "default": "Horizontal",
+    "default": 0,
     "values": [
       "Horizontal",
       "Vertical"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Buy Letter",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Starting Letter",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Letter",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

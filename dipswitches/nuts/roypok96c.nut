@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Rate",
-    "default": "Level 5 - 70%",
+    "default": 4,
     "values": [
       "Level 1 - 90%",
       "Level 2 - 85%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "80",
+    "default": 7,
     "values": [
       "8",
       "16",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Minimum Play for Bonus",
-    "default": "24",
+    "default": 2,
     "values": [
       "8",
       "16",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "8",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1 Coin/10 Credits",
+    "default": 4,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Note In Value",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "16",
+    "default": 2,
     "values": [
       "1",
       "8",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Max Coin In & Note In Point",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Clear / Ticket Unit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Check Account",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Show Coin In Limit",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Initial Bonus Settings After Reset",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Bonus Accumulation",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Auto Ticket Dispense",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Ticket Dispense Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Max 1 Ticket Per Game",
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Unused - leave off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Reset Remaining Score To Zero",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "Count Game To Issue Ticket",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

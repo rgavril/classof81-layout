@@ -1,7 +1,7 @@
 return [
   {
     "name": "IFSEL",
-    "default": "4A",
+    "default": 4,
     "values": [
       "0A",
       "1A",

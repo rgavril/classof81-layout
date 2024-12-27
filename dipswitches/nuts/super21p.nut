@@ -1,7 +1,7 @@
 return [
   {
     "name": "Limit",
-    "default": "3000",
+    "default": 0,
     "values": [
       "3000",
       "5000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "4 Of a Kind",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Cr. Limit",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "W. Point",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Fever Chance",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Play",
+    "default": 0,
     "values": [
       "Play",
       "Port Check"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin1-Coin2-NoteIn",
-    "default": "10-100-50",
+    "default": 0,
     "values": [
       "10-100-50",
       "5-50-25",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "PayOut",
-    "default": "Direct",
+    "default": 0,
     "values": [
       "Direct",
       "Credit"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Win-Up Win",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "80%"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Duty",
-    "default": "Weak",
+    "default": 0,
     "values": [
       "Weak",
       "Strong"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Game Win",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "80%",

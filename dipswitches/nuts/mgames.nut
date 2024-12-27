@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "20 Coins/1 Credit",
       "10 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Game Select",
-    "default": "The Frog Pond",
+    "default": 3,
     "values": [
       "The White Knight",
       "Wild Bulls",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Maximun Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "1",
       "10",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Main Percentage",
-    "default": "90%",
+    "default": 3,
     "values": [
       "75%",
       "80%",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

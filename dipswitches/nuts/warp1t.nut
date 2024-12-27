@@ -1,7 +1,7 @@
 return [
   {
     "name": "High Score Table",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Graphics adapter",
-    "default": "Monochrome",
+    "default": 3,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Obstacle Course Payout Setting",
-    "default": "Medium (0, 2, 3, 4, 8 Tickets)",
+    "default": 3,
     "values": [
       "Highest (0, 3, 5, 7, 15 Tickets)",
       "High (0, 3, 4, 5, 10 Tickets)",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Treasure Hunt Payout Setting",
-    "default": "Medium (3, 5, 7 Tickets)",
+    "default": 3,
     "values": [
       "Highest (5, 10, 15 Tickets)",
       "High (5, 7, 10 Tickets)",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "New Jersey Payout Setting",
-    "default": "Off",
+    "default": 3,
     "values": [
       "Always Payout 5 Tickets",
       "Always Payout 3 Tickets",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Mercy Ticket Payout Setting (Treasure Hunt Only",
-    "default": "1 Ticket",
+    "default": 3,
     "values": [
       "No Payout",
       "3 Tickets",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Vending Style",
-    "default": "Ticket",
+    "default": 0,
     "values": [
       "Ticket",
       "No Vending"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Hardest",
       "Hard",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Payout Setting",
-    "default": "Normal Payout",
+    "default": 0,
     "values": [
       "Normal Payout",
       "No Payout"

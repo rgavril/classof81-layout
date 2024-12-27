@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coins Per Credit",
-    "default": "1 Coin 1 Credit",
+    "default": 0,
     "values": [
       "1 Coin 1 Credit",
       "2 Coins 1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 4 Coin Units",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 2 Coin Units"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Adder",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 Credit for 2 Coin Units",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Minimum Game Time",
-    "default": "None",
+    "default": 1,
     "values": [
       "90 Seconds on Level 1",
       "None"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 1,
     "values": [
       "None",
       "20000",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Demo Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

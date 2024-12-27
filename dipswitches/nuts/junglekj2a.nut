@@ -1,7 +1,7 @@
 return [
   {
     "name": "Finish Bonus",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Timer x1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "None",
+    "default": 3,
     "values": [
       "10000",
       "20000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Year Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Infinite Lives",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "A and B",
+    "default": 0,
     "values": [
       "A and B",
       "A only"

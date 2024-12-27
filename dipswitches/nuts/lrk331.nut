@@ -1,7 +1,7 @@
 return [
   {
     "name": "Drive Addresses",
-    "default": "Primary (1F0h-1F7h, 3F0h-3F7h)",
+    "default": 0,
     "values": [
       "Primary (1F0h-1F7h, 3F0h-3F7h)",
       "Secondary (170h-177h, 370h-377h)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Floppy Drive Speed",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Dual"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Interrupt Delay",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Factory Configured - Do Not Alter",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "BIOS Address",
-    "default": "C800h",
+    "default": 1,
     "values": [
       "Disabled",
       "C800h",
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "IRQ Select",
-    "default": "IRQ 14",
+    "default": 0,
     "values": [
       "IRQ 14",
       "IRQ 15"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Floppy Drive Interface",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 0,
     "values": [
       "Cocktail",
       "Upright"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No Free Play",
+    "default": 0,
     "values": [
       "No Free Play",
       "100",

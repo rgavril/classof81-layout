@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Duration",
-    "default": "2:30",
+    "default": 1,
     "values": [
       "1:50",
       "2:30"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "New game with one coin",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

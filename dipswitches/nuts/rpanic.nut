@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Auto Start",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "5000",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Hopper Switch",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Win Percentage",
-    "default": "95%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Double-Up Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Key In Credit",
-    "default": "1 Coin / 10 Credits",
+    "default": 0,
     "values": [
       "1 Coin / 10 Credits",
       "1 Coin / 20 Credits",
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins / 1 Credit",
       "5 Coins/1 Credit",
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins / 1 Credit",
       "9 Coins/1 Credit",
@@ -176,7 +176,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

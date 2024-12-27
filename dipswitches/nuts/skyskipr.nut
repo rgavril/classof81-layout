@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "A 3/1 B 1/2",
       "2 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium Hard",
+    "default": 4,
     "values": [
       "Easiest",
       "Very Easy",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "15000",
+    "default": 0,
     "values": [
       "15000",
       "30000"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

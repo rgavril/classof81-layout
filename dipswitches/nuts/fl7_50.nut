@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credits Out",
-    "default": "Amusement (no credits out)",
+    "default": 0,
     "values": [
       "Amusement (no credits out)",
       "Ticket Printer",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Fast Game",
+    "default": 0,
     "values": [
       "Fast Game",
       "Slow Game"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lock-Up on 7 or 8 of a kind",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Graphics Type",
-    "default": "Regular Fruit",
+    "default": 0,
     "values": [
       "Regular Fruit",
       "Numbers",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Paytable",
-    "default": "9325 (92.50%)",
+    "default": 0,
     "values": [
       "9325 (92.50%)",
       "9326 (90.45%)",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Pay",
-    "default": "1.00%",
+    "default": 0,
     "values": [
       "1.00%",
       "2.00%",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Internal Progressive",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Coin-In Timeout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Denomination",
-    "default": "$1.00",
+    "default": 0,
     "values": [
       "$1.00",
       "50 Cents",
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Progressive Sign",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Single Level",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Button Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Lockout Polarity",
-    "default": "Active High",
+    "default": 0,
     "values": [
       "Active High",
       "Active Low"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Printer Type",
-    "default": "Epson 267A",
+    "default": 0,
     "values": [
       "Epson 267A",
       "Star 300",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Paper Low Sensor",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Not Used (Leave OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

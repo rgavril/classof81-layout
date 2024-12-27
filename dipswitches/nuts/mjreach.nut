@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "71",
+    "default": 7,
     "values": [
       "50",
       "53",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1 2 3 5 10 25 50 100",
+    "default": 2,
     "values": [
       "1 2 4 8 12 16 24 32",
       "1 2 3 5 8 15 30 50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown 1-0&1",
-    "default": "1:1",
+    "default": 0,
     "values": [
       "1:1",
       "1:2",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus",
-    "default": "Cut",
+    "default": 0,
     "values": [
       "Cut",
       "1 T",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown 1-7",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown 2-0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown 2-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unknown 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unknown 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unknown 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unknown 3-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unknown 3-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "DonDen Key",
-    "default": "Start",
+    "default": 0,
     "values": [
       "Start",
       "Flip Flop"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unknown 3-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unknown 3-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Unknown 3-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Unknown 3-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Unknown top-2&3",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Unknown top-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Unknown top-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Unknown top-6",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "Unknown top-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

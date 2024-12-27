@@ -1,7 +1,7 @@
 return [
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Add-a-ball",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Preset score award allowed",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Preset score",
-    "default": "40k",
+    "default": 0,
     "values": [
       "40k",
       "50k",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coinage Left Slot",
-    "default": "1C_1C",
+    "default": 0,
     "values": [
       "1C_1C",
       "1C_2C",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage Right Slot",
-    "default": "1C_1C",
+    "default": 0,
     "values": [
       "1C_1C",
       "1C_2C",

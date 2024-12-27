@@ -1,7 +1,7 @@
 return [
   {
     "name": "Raise Option",
-    "default": "No Raise",
+    "default": 1,
     "values": [
       "Raise Enabled",
       "No Raise"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Format",
-    "default": "Format M",
+    "default": 1,
     "values": [
       "Format S",
       "Format M"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Second Joker In Deck",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Play 4 Points"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Points Per Coin",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "1"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "Two Plaerys",
+    "default": 1,
     "values": [
       "One Player",
       "Two Plaerys"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "50",
+    "default": 3,
     "values": [
       "1 Point Per Hand",
       "10",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Percentage (Rate of Return)",
-    "default": "85%",
+    "default": 1,
     "values": [
       "80%",
       "85%",

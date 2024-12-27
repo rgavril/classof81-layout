@@ -1,7 +1,7 @@
 return [
   {
     "name": "EPROM",
-    "default": "4K",
+    "default": 1,
     "values": [
       "Disable Auto-Run",
       "4K",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Program",
-    "default": "M/C",
+    "default": 1,
     "values": [
       "BASIC",
       "M/C"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "OS",
-    "default": "1.x",
+    "default": 1,
     "values": [
       "0.1",
       "1.x"

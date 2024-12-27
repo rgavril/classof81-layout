@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "System Limit",
-    "default": "Unlimited",
+    "default": 0,
     "values": [
       "Unlimited",
       "Limited"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "W-Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Quick"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Replay Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Show Table",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Skill",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payment Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Automatic"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Auto Payment",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Enable Payment",
-    "default": "Everything",
+    "default": 0,
     "values": [
       "Everything",
       "1/Tickets",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Select Balls",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Select Cubes",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Select Cans",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Select Cards",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Level Limit",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Background",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

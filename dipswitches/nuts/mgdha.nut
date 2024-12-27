@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Key-In Rate",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "500"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "Coin Acceptor",
+    "default": 0,
     "values": [
       "Coin Acceptor",
       "Key-In"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Return Coins",
+    "default": 0,
     "values": [
       "Return Coins",
       "Key-Out"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Joystick"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Coin Out Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",

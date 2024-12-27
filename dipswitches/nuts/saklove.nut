@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "100",
+    "default": 4,
     "values": [
       "10",
       "20",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Pay Out",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Key In"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "Key In",
+    "default": 1,
     "values": [
       "Coin",
       "Key In"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 3,
     "values": [
       "10",
       "20",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Win Rate (%)",
-    "default": "80",
+    "default": 5,
     "values": [
       "55",
       "60",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "20k",
+    "default": 1,
     "values": [
       "10k",
       "20k",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Double Up Level",
-    "default": "3",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Double Up Limit",
-    "default": "5k",
+    "default": 0,
     "values": [
       "5k",
       "10k",
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Coin Type",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "JAMMA",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

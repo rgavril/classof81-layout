@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Play Graphics",
-    "default": "Play Numbers",
+    "default": 0,
     "values": [
       "Play Numbers",
       "Play Cards"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Abilita",
-    "default": "Sensa Abilita",
+    "default": 0,
     "values": [
       "Sensa Abilita",
       "Con Abilita"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/5 Credits",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

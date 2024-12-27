@@ -1,7 +1,7 @@
 return [
   {
     "name": "Payout Rate",
-    "default": "71%",
+    "default": 7,
     "values": [
       "50%",
       "53%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1 2 3 5 8 15 30 50",
+    "default": 1,
     "values": [
       "1 2 4 8 12 16 24 32",
       "1 2 3 5 8 15 30 50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Cycle",
-    "default": "Every 500 coins",
+    "default": 3,
     "values": [
       "None",
       "First time only",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Yakuman Bonuses Per Cycle",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Key-out",
+    "default": 0,
     "values": [
       "Key-out",
       "Hopper"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Hopper Polarity",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Inverted"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Don Den Button",
-    "default": "Flip Flop",
+    "default": 1,
     "values": [
       "Start",
       "Flip Flop"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Auto Reach",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Slot Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Show Yakuman Table",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Gold Rush Payout Rate",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "In-Game Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Show Renchan Gal",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Japanese",
+    "default": 0,
     "values": [
       "Japanese",
       "Chinese"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Show Statistics (Debug)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "100",
+    "default": 7,
     "values": [
       "5",
       "10",
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "Computer Strength",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Strong"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

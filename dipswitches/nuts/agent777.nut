@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Special lights at",
-    "default": "150000",
+    "default": 3,
     "values": [
       "60000",
       "90000",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Extra Ball",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Remember Saucer Values",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Extra Ball lights at",
-    "default": "100000",
+    "default": 0,
     "values": [
       "100000",
       "150000"
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Remember Bonus Multiplier",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Remember Special and Extra Ball lanes",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Max number of credits",
-    "default": "30",
+    "default": 2,
     "values": [
       "10",
       "20",
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Award",
-    "default": "Replay",
+    "default": 3,
     "values": [
       "None",
       "50000 points",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Credits for exceeding high score",
-    "default": "2",
+    "default": 2,
     "values": [
       "0",
       "1",

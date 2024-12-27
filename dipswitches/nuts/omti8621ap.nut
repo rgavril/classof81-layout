@@ -1,7 +1,7 @@
 return [
   {
     "name": "BIOS control",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "BIOS base",
-    "default": "CA000h",
+    "default": 1,
     "values": [
       "C8000h",
       "CA000h"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "ESDI I/O base",
-    "default": "01A0h",
+    "default": 4,
     "values": [
       "0320h",
       "0324h",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Floppy I/O base",
-    "default": "0370h",
+    "default": 1,
     "values": [
       "03F0h",
       "0370h"

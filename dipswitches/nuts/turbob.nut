@@ -1,7 +1,7 @@
 return [
   {
     "name": "Max Lives During Extended Play",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "Adjustable",
+    "default": 1,
     "values": [
       "Fixed (55 sec)",
       "Adjustable"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Collisions",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off (Cheat)",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Initial Entry",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "90 seconds",
+    "default": 3,
     "values": [
       "60 seconds",
       "70 seconds",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Tachometer",
-    "default": "Digital (LED)",
+    "default": 1,
     "values": [
       "Analog (Meter)",
       "Digital (LED)"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Sound System",
-    "default": "Cockpit",
+    "default": 1,
     "values": [
       "Upright",
       "Cockpit"

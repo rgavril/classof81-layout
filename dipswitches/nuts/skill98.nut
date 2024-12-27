@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level (Difficulty)",
-    "default": "Level 5",
+    "default": 4,
     "values": [
       "Level 1 (Easiest)",
       "Level 2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "80",
+    "default": 7,
     "values": [
       "8",
       "10",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Minimum Play for Bonus",
-    "default": "16",
+    "default": 2,
     "values": [
       "8",
       "10",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Skill Spinning",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1 Coin/10 Credits",
+    "default": 4,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Note In Value",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "8",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Max Coin In & Note In Points",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Clear / Ticket Unit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Check Account",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Show In Confirm Screen",
-    "default": "Level of Difficulty",
+    "default": 0,
     "values": [
       "Level of Difficulty",
       "Percentage"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Initial Bonus Settings After Reset",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Bonus Accumulation",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Auto Ticket Dispense",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Ticket Dispense Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Max 1 Ticket Per Game",
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Limit Score of Each Game to Max 10x Bet or $5.00",
-    "default": "Unused",
+    "default": 2,
     "values": [
       "No",
       "Yes",
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Play Remaining Score when No Credit",
-    "default": "Unused",
+    "default": 2,
     "values": [
       "No",
       "Yes",
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Reset Remaining Score to Zero",
-    "default": "Unused",
+    "default": 2,
     "values": [
       "No",
       "Yes",
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Ticket Dispense from Score",
-    "default": "Unused",
+    "default": 2,
     "values": [
       "Use TDDD",
       "Use Interface",
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Reel Speed (ver 2.3)",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Talking (ver 2.1)",
-    "default": "Full (sounds & speech)",
+    "default": 1,
     "values": [
       "Very Little (only sounds)",
       "Full (sounds & speech)"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Count Game to Issue Ticket",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

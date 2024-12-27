@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW0 - BIT 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DSW0 - BIT 80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "DSW1 - BIT 80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "DSW2 - BIT 80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "DSW3 - BIT 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "DSW3 - BIT 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Game",
-    "default": "Normal Type",
+    "default": 1,
     "values": [
       "Bet Type",
       "Normal Type"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Level Select",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "Memory Reset",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "Analyzer",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -273,7 +273,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -281,7 +281,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -289,7 +289,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -297,7 +297,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -305,7 +305,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -313,7 +313,7 @@ return [
   },
   {
     "name": "DSW4 - BIT 80",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

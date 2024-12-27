@@ -1,7 +1,7 @@
 return [
   {
     "name": "Winning Percentage",
-    "default": "90%",
+    "default": 5,
     "values": [
       "70%",
       "74%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Payment Method",
-    "default": "Coin In/Coin Out",
+    "default": 1,
     "values": [
       "Credit In/Coin Out",
       "Coin In/Coin Out",
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Reset All Switch",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/2 Credits",
       "1 Coin/1 Credit",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Coin C (Service Switch)",
-    "default": "1 Push/1 Credit",
+    "default": 0,
     "values": [
       "1 Push/1 Credit",
       "1 Push/10 Credits"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

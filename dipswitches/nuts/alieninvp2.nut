@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Pence Coinage",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C/1C 50p/5C",
+    "default": 1,
     "values": [
       "2C/1C 50p/3C (+ Bonus Life)",
       "1C/1C 50p/5C"

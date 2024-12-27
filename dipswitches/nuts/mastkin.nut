@@ -1,7 +1,7 @@
 return [
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "5"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Internal speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",

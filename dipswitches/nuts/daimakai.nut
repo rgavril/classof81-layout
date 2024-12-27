@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 0,
     "values": [
       "Upright 1 Player",
       "Upright 2 Players",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "2",
+    "default": 1,
     "values": [
       "1 (Easiest)",
       "2",
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30K, 60K and every 70K",
+    "default": 2,
     "values": [
       "10K, 30K and every 30K",
       "20K, 50K and every 70K",
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Game",
+    "default": 0,
     "values": [
       "Game",
       "Test"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

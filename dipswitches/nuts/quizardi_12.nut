@@ -1,7 +1,7 @@
 return [
   {
     "name": "Settings",
-    "default": "1 Coin, 5 Bonus Limit, 2 Bonus Number",
+    "default": 5,
     "values": [
       "1 Coin, 0 Bonus Limit, 0 Bonus Number",
       "2 Coins, 0 Bonus Limit, 0 Bonus Number",

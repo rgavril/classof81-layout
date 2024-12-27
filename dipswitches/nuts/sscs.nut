@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Pay Out Rate",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Double-Up Game Pay Out Rate",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Double-Up On/Off",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Double-Up Nudity",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Nudity"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Double-Up Win Points",
-    "default": "10,000",
+    "default": 0,
     "values": [
       "10,000",
       "30,000"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Main Game Background Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Coin Rate",
-    "default": "50",
+    "default": 4,
     "values": [
       "5",
       "10",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Coin Rate x Key In Multiplier",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "5",
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Show Title",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Double-Up Win Points Method",
-    "default": "By Key Out",
+    "default": 0,
     "values": [
       "By Key Out",
       "By Pressing Button"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Control Panel",
-    "default": "Amusement/Poker Panel",
+    "default": 0,
     "values": [
       "Amusement/Poker Panel",
       "Mahjong Panel"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Ante Points",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Main Game Win Points",
-    "default": "20,000",
+    "default": 1,
     "values": [
       "10,000",
       "20,000",
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Score Upper Limit",
-    "default": "10,000",
+    "default": 0,
     "values": [
       "10,000",
       "20,000"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Mahjong Numbers",
-    "default": "Show",
+    "default": 1,
     "values": [
       "Don't Show",
       "Show"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Card Display",
-    "default": "Poker Cards",
+    "default": 0,
     "values": [
       "Poker Cards",
       "Mahjong Cards",

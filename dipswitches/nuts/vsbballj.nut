@@ -1,7 +1,7 @@
 return [
   {
     "name": "Player Defense Strength",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Weak",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Player Offense Strength",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Weak",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Computer Defense Strength",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Weak",
       "Normal",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Computer Offense Strength",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Weak",
       "Normal",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Starting Points",
-    "default": "200 Pts",
+    "default": 3,
     "values": [
       "80 Pts",
       "100 Pts",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bonus Play",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Ext Play at",
-    "default": "3.000",
+    "default": 0,
     "values": [
       "3.000",
       "4.000"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bomb Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "1-3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "1-4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "1-5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "1-6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "1-7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

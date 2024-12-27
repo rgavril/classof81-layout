@@ -1,7 +1,7 @@
 return [
   {
     "name": "DIP1-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DIP1-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DIP1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DIP1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DIP1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DIP1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DIP1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DIP1-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DIPA1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DIPA2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DIPA3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DIPA4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DIPA5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DIPA6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "DIPA7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "DIPA8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "DIPB1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "DIPB2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "DIPB3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "DIPB4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "DIPB5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "DIPB6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "DIPB7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "DIPB8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "DIPC1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "DIPC2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "DIPC3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "DIPC4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "DIPC5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "DIPC6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "DIPC7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "DIPC8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "DIPD1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "DIPD2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -273,7 +273,7 @@ return [
   },
   {
     "name": "DIPD3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -281,7 +281,7 @@ return [
   },
   {
     "name": "DIPD4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -289,7 +289,7 @@ return [
   },
   {
     "name": "DIPD5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -297,7 +297,7 @@ return [
   },
   {
     "name": "DIPD6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -305,7 +305,7 @@ return [
   },
   {
     "name": "DIPD8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -313,7 +313,7 @@ return [
   },
   {
     "name": "DIPE1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -321,7 +321,7 @@ return [
   },
   {
     "name": "DIPE2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -329,7 +329,7 @@ return [
   },
   {
     "name": "DIPE3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -337,7 +337,7 @@ return [
   },
   {
     "name": "DIPE4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -345,7 +345,7 @@ return [
   },
   {
     "name": "DIPE5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -353,7 +353,7 @@ return [
   },
   {
     "name": "DIPE6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -361,7 +361,7 @@ return [
   },
   {
     "name": "DIPE7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -369,7 +369,7 @@ return [
   },
   {
     "name": "DIPE8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -377,7 +377,7 @@ return [
   },
   {
     "name": "DIPF1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -385,7 +385,7 @@ return [
   },
   {
     "name": "DIPF2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -393,7 +393,7 @@ return [
   },
   {
     "name": "DIPF4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -401,7 +401,7 @@ return [
   },
   {
     "name": "DIPF5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -409,7 +409,7 @@ return [
   },
   {
     "name": "DIPF6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -417,7 +417,7 @@ return [
   },
   {
     "name": "DIPF7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -425,7 +425,7 @@ return [
   },
   {
     "name": "DIPF8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "High-Low Error",
-    "default": "-500",
+    "default": 0,
     "values": [
       "-500",
       "Lose All"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Minimum Credits",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "100000",
+    "default": 3,
     "values": [
       "10000",
       "30000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bet",
-    "default": "50 Credits",
+    "default": 0,
     "values": [
       "50 Credits",
       "100 Credits",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin 50 Credits",
+    "default": 0,
     "values": [
       "1 Coin 50 Credits",
       "1 Coin 100 Credits",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Winnings",
-    "default": "Credits only",
+    "default": 1,
     "values": [
       "Medals and Credits",
       "Credits only"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Medals Table",
-    "default": "x1.0",
+    "default": 0,
     "values": [
       "x1.0",
       "x1.4",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Payout %",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "85%",

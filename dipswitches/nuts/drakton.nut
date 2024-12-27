@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 2,
     "values": [
       "3",
       "4",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 1,
     "values": [
       "10000",
       "20000",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

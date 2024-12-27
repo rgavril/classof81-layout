@@ -1,7 +1,7 @@
 return [
   {
     "name": "Link Status",
-    "default": "Master",
+    "default": 0,
     "values": [
       "Master",
       "Slave"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Link???",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Linking",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Sitdown"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Enable Motion",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-8",
+    "default": 3,
     "values": [
       "USA-1",
       "USA-3",

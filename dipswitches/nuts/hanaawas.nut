@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "1.5",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Key Time-Out",
-    "default": "25 sec",
+    "default": 2,
     "values": [
       "15 sec",
       "20 sec",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Time Per Coin",
-    "default": "100",
+    "default": 1,
     "values": [
       "50",
       "100"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"

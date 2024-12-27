@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Chance Count",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Play Level",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Play Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Left Count",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Low"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

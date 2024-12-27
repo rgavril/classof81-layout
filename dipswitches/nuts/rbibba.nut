@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "1p/inn, 2p/inn, Time/Min",
-    "default": "2, 2, 4",
+    "default": 1,
     "values": [
       "2, 1, 3",
       "2, 2, 4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "PPU Type",
-    "default": "RP2C04-0001",
+    "default": 0,
     "values": [
       "RP2C04-0001",
       "RP2C03",

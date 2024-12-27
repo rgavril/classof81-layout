@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Very Easy",
       "Easy",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Semi",
       "Full"

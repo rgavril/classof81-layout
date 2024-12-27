@@ -1,7 +1,7 @@
 return [
   {
     "name": "Player Color/Network ID",
-    "default": "Red",
+    "default": 0,
     "values": [
       "Red",
       "Yellow",

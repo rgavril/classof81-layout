@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "7",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Japanese",
+    "default": 1,
     "values": [
       "English",
       "Japanese"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "60000",
+    "default": 0,
     "values": [
       "60000",
       "90000"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Phase 3 Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coin Case",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Very Easy",
+    "default": 0,
     "values": [
       "Very Easy",
       "Easy",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Monsters",
-    "default": "Min",
+    "default": 0,
     "values": [
       "Min",
       "Max"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Play",
+    "default": 1,
     "values": [
       "Stop",
       "Play"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "65%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Rate Max",
-    "default": "5",
+    "default": 1,
     "values": [
       "1",
       "5",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Odds Number",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Rate Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "3",
+    "default": 1,
     "values": [
       "0",
       "3",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Cancel Type",
-    "default": "Tsumo 7",
+    "default": 2,
     "values": [
       "Off",
       "Tsumo 3",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Ryuukoku Renchan",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Cancel Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Last Chance Charge",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Open Reach Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

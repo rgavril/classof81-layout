@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "80%",
+    "default": 7,
     "values": [
       "40%",
       "45%",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "100 Odds Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Key In Type",
-    "default": "A-Type",
+    "default": 0,
     "values": [
       "A-Type",
       "B-Type"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/5 Credits",
+    "default": 1,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/5 Credits"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/20 Credits",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/2 Credits",
+    "default": 1,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "1,000",
+    "default": 0,
     "values": [
       "1,000",
       "5,000",
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Instant W-Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Attract Mode Demo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Bonus Game Type",
-    "default": "Big / Small",
+    "default": 0,
     "values": [
       "Big / Small",
       "Black / Red"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Card Type",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Jets"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Lowest Winning Hand",
-    "default": "2 Pair",
+    "default": 0,
     "values": [
       "2 Pair",
       "Any Pair",
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Number Of Draws",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Joker In Deck",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "1",
       "10",

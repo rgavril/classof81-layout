@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Coin Switch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Payout Switch",
+    "default": 0,
     "values": [
       "Payout Switch",
       "Automatic"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Double-Up Game Pay Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Special Odds",
-    "default": "Limited to x1000 (x10000)",
+    "default": 3,
     "values": [
       "None",
       "Limited to x300 (x1000)",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "80%",
+    "default": 2,
     "values": [
       "60%",
       "70%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Over 100 Bet Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "A - Low",
+    "default": 0,
     "values": [
       "A - Low",
       "B - High"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins/1 Credit",
       "9 Coins/1 Credit",
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "4th Coin",
-    "default": "As Coin A",
+    "default": 0,
     "values": [
       "As Coin A",
       "As Hopper Line"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin /100 Credits",
+    "default": 7,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin /10 Credits",
@@ -158,7 +158,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

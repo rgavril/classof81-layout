@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "96%",
+    "default": 0,
     "values": [
       "96%",
       "93%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "20",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Table Color",
-    "default": "Green",
+    "default": 0,
     "values": [
       "Green",
       "Black"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Debug Mode ?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Winnings",
-    "default": "50 30 15 8 5 3 2 1",
+    "default": 1,
     "values": [
       "32 24 16 12 8 4 2 1",
       "50 30 15 8 5 3 2 1",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Yakuman Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Period Control",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "First time only"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Timing Control",
-    "default": "500",
+    "default": 3,
     "values": [
       "100",
       "200",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Baibai Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Don Den",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "W-Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "Charge",
+    "default": 1,
     "values": [
       "Free",
       "Charge"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "Good",
+    "default": 0,
     "values": [
       "Good",
       "Normal"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Renchan",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Auto Tsumo?",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Full Tests",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

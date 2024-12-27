@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "2 Attackers At Wave",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "8000"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Voices",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

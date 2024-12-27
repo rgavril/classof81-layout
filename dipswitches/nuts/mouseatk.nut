@@ -1,7 +1,7 @@
 return [
   {
     "name": "Number of Extra Cheese",
-    "default": "3 Extra Cheese",
+    "default": 3,
     "values": [
       "None",
       "1 Extra Cheese",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Number of Mice & Cheese",
-    "default": "7 Mice - 8 Cheese",
+    "default": 3,
     "values": [
       "4 Mice - 5 Cheese",
       "5 Mice - 6 Cheese",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus Ticket Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Ticket Payout",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Double"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

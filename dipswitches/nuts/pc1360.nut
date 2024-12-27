@@ -1,7 +1,7 @@
 return [
   {
     "name": "Contrast",
-    "default": "1",
+    "default": 1,
     "values": [
       "0/Low",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Power",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Attract mode language",
-    "default": "Dutch",
+    "default": 0,
     "values": [
       "Dutch",
       "English"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Max number of spins",
-    "default": "99",
+    "default": 0,
     "values": [
       "99",
       "50"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Skill Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "Medium-Low",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Base Pricing on:",
-    "default": "Full Game",
+    "default": 0,
     "values": [
       "Full Game",
       "Individual Rounds"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Credits required:",
-    "default": "1 credit  per round",
+    "default": 2,
     "values": [
       "4 credits per game",
       "2 credits per game",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Attract Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Time bar",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Time bar speed",
-    "default": "1 (fast)",
+    "default": 0,
     "values": [
       "1 (fast)",
       "2",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin 1 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Coin 2 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Coin 3 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin 4 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

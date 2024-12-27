@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "High Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Low Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Target Percentage (if key not fitted)",
-    "default": "Unset (Program Optimum)",
+    "default": 0,
     "values": [
       "Unset (Program Optimum)",
       "70",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin Alarm Inhibit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Allow Multiple Credits",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Demo Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Cancelled @5min"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Odd 10p",
-    "default": "Lost @2min",
+    "default": 0,
     "values": [
       "Lost @2min",
       "Never Lost"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "DIL205",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "DIL205",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "DIL207",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Clear MPU Memory",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

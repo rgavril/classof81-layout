@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "2600000",
+    "default": 0,
     "values": [
       "2600000",
       "3000000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "4800000",
+    "default": 0,
     "values": [
       "4800000",
       "5000000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Especial en Picabolas",
-    "default": "1st Derribo",
+    "default": 0,
     "values": [
       "1st Derribo",
       "2nd Derribo"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Bola Extra En Rampas",
-    "default": "4 dianas",
+    "default": 0,
     "values": [
       "4 dianas",
       "2 dianas"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "High Score Returns??",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "25",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Apagado de dianas",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

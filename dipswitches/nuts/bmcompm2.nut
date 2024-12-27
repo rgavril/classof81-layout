@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1P 2C / 2P 4C / Continue 1C",
+    "default": 27,
     "values": [
       "1P 8C / 2P 16C / Continue 8C",
       "1P 8C / 2P 16C / Continue 7C",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Free Play (Ignore Coinage)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Expert Mode Difficulty",
-    "default": "Level 1",
+    "default": 1,
     "values": [
       "Level 0",
       "Level 1",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Basic / Hard Mode Difficulty",
-    "default": "Level 1",
+    "default": 1,
     "values": [
       "Level 0",
       "Level 1",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Level Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Loud",
+    "default": 0,
     "values": [
       "Loud",
       "Medium",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Event Mode Stages",
-    "default": "4 Stages",
+    "default": 3,
     "values": [
       "1 Stage",
       "2 Stages",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Basic / Hard Mode Stages",
-    "default": "4 / 4 Stages",
+    "default": 1,
     "values": [
       "3 / 3 Stages",
       "4 / 4 Stages",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Event Mode (Ignore Coinage)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

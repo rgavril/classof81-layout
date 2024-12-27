@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Game",
-    "default": "No Bonus",
+    "default": 0,
     "values": [
       "No Bonus",
       "9000",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Balloon Resets",
-    "default": "Each Row",
+    "default": 0,
     "values": [
       "Each Row",
       "All Rows"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "3000",
+    "default": 0,
     "values": [
       "3000",
       "4000"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

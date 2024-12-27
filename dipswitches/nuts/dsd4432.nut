@@ -1,7 +1,7 @@
 return [
   {
     "name": "Starting Register Address",
-    "default": "177170",
+    "default": 3,
     "values": [
       "177140",
       "177150",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bootstrap PROM Address",
-    "default": "173000",
+    "default": 2,
     "values": [
       "166000",
       "171000",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bootstrap PROM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Interrupt Vector",
-    "default": "264",
+    "default": 45,
     "values": [
       "000",
       "004",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Operating Mode",
-    "default": "2 (RX02 Compatible)",
+    "default": 1,
     "values": [
       "1 (RX01 Compatible)",
       "2 (RX02 Compatible)"

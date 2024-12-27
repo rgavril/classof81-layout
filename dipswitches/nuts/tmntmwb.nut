@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easier",
+    "default": 0,
     "values": [
       "Easier",
       "Easy",
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60",
+    "default": 1,
     "values": [
       "99",
       "60",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Unlock Bosses",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Rat King",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast",

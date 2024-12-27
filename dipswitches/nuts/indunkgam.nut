@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin control 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin control 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin control 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin control 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "3600000",
+    "default": 0,
     "values": [
       "3600000",
       "4000000",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "5600000",
+    "default": 0,
     "values": [
       "5600000",
       "6000000",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Dificultad de Especiales",
-    "default": "Varios por partida",
+    "default": 0,
     "values": [
       "Varios por partida",
       "Solo uno por partida"

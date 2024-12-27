@@ -1,7 +1,7 @@
 return [
   {
     "name": "Serial Port A",
-    "default": "300 baud",
+    "default": 5,
     "values": [
       "50 baud",
       "75 baud",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Serial Port B",
-    "default": "9600 baud",
+    "default": 14,
     "values": [
       "50 baud",
       "75 baud",

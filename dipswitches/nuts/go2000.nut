@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin / Credits",
-    "default": "1 Coin / 100 Credits",
+    "default": 1,
     "values": [
       "1 Coin / 50 Credits",
       "1 Coin / 100 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Minimum Coin",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficult-1",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "M1 value",
-    "default": "8000",
+    "default": 6,
     "values": [
       "3000",
       "3500",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Difficult-2",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

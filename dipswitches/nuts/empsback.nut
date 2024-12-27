@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Award",
-    "default": "Free Game",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Free Game"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Credits for exceeding high score",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Game Over Tune",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin Alarm",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "S10 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Background Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "S12 (game Specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "S13 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "S14 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "S15 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "15",
+    "default": 2,
     "values": [
       "5",
       "10",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "S19",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "S20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Remember Bonus Multiplier",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Free Game Sound",
-    "default": "Knocker",
+    "default": 1,
     "values": [
       "Special Tune",
       "Knocker"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Coin Counter reset",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Time out in test mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

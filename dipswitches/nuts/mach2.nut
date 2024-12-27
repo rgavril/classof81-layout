@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin control 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin control 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin control 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin control 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "100 million",
+    "default": 0,
     "values": [
       "100 million",
       "150 million",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "250 million",
+    "default": 0,
     "values": [
       "250 million",
       "300 million",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Time for New Shot",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "10 seconds",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Laps to activate ramp",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Lock",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Aeroplane Special",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Automatic Punctuation",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Rescue",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

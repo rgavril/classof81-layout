@@ -1,7 +1,7 @@
 return [
   {
     "name": "Reel Speed",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Renchan Pattern",
-    "default": "Hard",
+    "default": 0,
     "values": [
       "Hard",
       "Normal"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Key In Value",
-    "default": "10",
+    "default": 3,
     "values": [
       "200",
       "100",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "95%",
+    "default": 6,
     "values": [
       "-- (Invalid 1)",
       "-- (Invalid 2)",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Reset Mode",
-    "default": "Auto",
+    "default": 0,
     "values": [
       "Auto",
       "Manual"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "3",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin Sw Active",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 0,
     "values": [
       "Unlimited",
       "1000",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Panel Type",
-    "default": "A",
+    "default": 3,
     "values": [
       "D",
       "C",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Alt. Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "10 Coins/1 Credit",
+    "default": 0,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/200 Credits",
+    "default": 0,
     "values": [
       "1 Coin/200 Credits",
       "1 Coin/100 Credits",

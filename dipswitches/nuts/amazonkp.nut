@@ -1,7 +1,7 @@
 return [
   {
     "name": "Proporcao Credito",
-    "default": "10",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Proporcao Credito Ele",
-    "default": "10",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Porcentagem Jogo",
-    "default": "90%",
+    "default": 7,
     "values": [
       "55%",
       "60%",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Sistema de Pagamento",
-    "default": "Auto",
+    "default": 1,
     "values": [
       "Normal",
       "Auto"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Demonstracao Musica",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Fim do Sistema",
-    "default": "10000",
+    "default": 1,
     "values": [
       "No",
       "10000"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Cor do Fundo",
-    "default": "Cor",
+    "default": 1,
     "values": [
       "Preto",
       "Cor"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Porcentagem Dobrar",
-    "default": "90%",
+    "default": 3,
     "values": [
       "70%",
       "90%",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Idioma",
-    "default": "Portugues",
+    "default": 1,
     "values": [
       "Espanhol",
       "Portugues"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "KEYIN",
+    "default": 1,
     "values": [
       "COIN",
       "KEYIN"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Panel Mode",
-    "default": "28",
+    "default": 1,
     "values": [
       "36+10",
       "28"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "PORTB",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "PORTC",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -269,7 +269,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -277,7 +277,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -285,7 +285,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Title",
-    "default": "Multi 5",
+    "default": 0,
     "values": [
       "Multi 5",
       "New Multi Game 5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Crocodiles (Tong Boy)",
-    "default": "Pattern 1",
+    "default": 0,
     "values": [
       "Pattern 1",
       "Pattern 2",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "License",
-    "default": "None",
+    "default": 3,
     "values": [
       "New Impeuropex Corp. S.R.L.",
       "BNS Enterprises",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "1P Vs 2P Rounds (Bubble Gum)",
-    "default": "Best of 1",
+    "default": 0,
     "values": [
       "Best of 1",
       "Best of 3"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Coin Type",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Credits To Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Joystick",
+    "default": 1,
     "values": [
       "Trackball",
       "Joystick"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Trackball Type",
-    "default": "24 Counts (USA)",
+    "default": 0,
     "values": [
       "24 Counts (USA)",
       "12 Counts (Japan)"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Number Of Holes",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

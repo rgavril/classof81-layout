@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percentage (initial card symbols)",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Very Low",
       "Low",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Attract mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Accept multiple coins",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

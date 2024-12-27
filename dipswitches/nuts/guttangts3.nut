@@ -1,7 +1,7 @@
 return [
   {
     "name": "IN0:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "IN1:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A: 1C/1C B: 1C/6C",
+    "default": 1,
     "values": [
       "A: 2C/1C B: 1C/3C",
       "A: 1C/1C B: 1C/6C"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "IN1:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "IN2:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "IN2:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "IN2:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "IN2:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "IN2:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60 seconds",
+    "default": 5,
     "values": [
       "45 seconds + 22 extended",
       "60 seconds + 30 extended",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "2.50",
+    "default": 1,
     "values": [
       "2.00",
       "2.50",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "450",
+    "default": 2,
     "values": [
       "350",
       "400",
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Test Modes/Extended Time",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "RAM/ROM Test",

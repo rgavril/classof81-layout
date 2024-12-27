@@ -1,7 +1,7 @@
 return [
   {
     "name": "LF After CR",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "XON/XOFF Handshaking",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "SSC Mode",
-    "default": "Printer",
+    "default": 1,
     "values": [
       "Communications",
       "Printer"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "Undefined",
       "50",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Emulation Mode",
-    "default": "Off (GPI)",
+    "default": 0,
     "values": [
       "Off (GPI)",
       "On (SSC)"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "LF After CR",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "MSB Output",
-    "default": "Pass 8th Bit",
+    "default": 1,
     "values": [
       "Clear 8th Bit",
       "Pass 8th Bit"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Transparent Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Video Echo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Printer Type",
-    "default": "Epson",
+    "default": 1,
     "values": [
       "ImageWriter",
       "Epson",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Line Width",
-    "default": "40 Characters (Echo On)",
+    "default": 0,
     "values": [
       "40 Characters (Echo On)",
       "72 Characters (Echo Off)",
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None (2)",
+    "default": 1,
     "values": [
       "None",
       "None (2)",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "CR Delay",
-    "default": "32 ms",
+    "default": 1,
     "values": [
       "None",
       "32 ms"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -169,14 +169,14 @@ return [
   },
   {
     "name": "DCD Connected",
-    "default": "On",
+    "default": 0,
     "values": [
       "On"
     ]
   },
   {
     "name": "Interrupts",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

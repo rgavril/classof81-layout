@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character set",
-    "default": "ASCII",
+    "default": 0,
     "values": [
       "ASCII",
       "France",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "LST device",
-    "default": "Centronics printer",
+    "default": 3,
     "values": [
       "SIO",
       "Cartridge printer",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Not used",
-    "default": "Enable",
+    "default": 0,
     "values": [
       "Enable",
       "Disable"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Keyboard type",
-    "default": "Standard keyboard",
+    "default": 1,
     "values": [
       "Item keyboard",
       "Standard keyboard"

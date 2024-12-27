@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 5,
     "values": [
       "110",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Data Size",
-    "default": "8-bit",
+    "default": 0,
     "values": [
       "8-bit",
       "7-bit"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Software Handshaking",
-    "default": "Disabled",
+    "default": 1,
     "values": [
       "Enabled",
       "Disabled"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Keyclick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Default Key Values",
-    "default": "HDOS Values",
+    "default": 0,
     "values": [
       "HDOS Values",
       "CP/M Values"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Cursor Blink",
-    "default": "Slow Blink",
+    "default": 3,
     "values": [
       "Steady",
       "Invisible",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Interlace Scan Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

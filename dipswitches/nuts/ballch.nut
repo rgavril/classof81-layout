@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Rate",
-    "default": "96",
+    "default": 5,
     "values": [
       "91",
       "92",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lamp Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Score Feature",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Play Score",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Title",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Key Out Meter",
-    "default": "By Coin",
+    "default": 1,
     "values": [
       "Every 100",
       "By Coin"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Min. Bet",
-    "default": "4",
+    "default": 1,
     "values": [
       "1",
       "4",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Max. Bet",
-    "default": "16",
+    "default": 0,
     "values": [
       "16",
       "32",
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

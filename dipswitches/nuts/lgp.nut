@@ -1,7 +1,7 @@
 return [
   {
     "name": "1st Round",
-    "default": "68 Seconds",
+    "default": 0,
     "values": [
       "68 Seconds",
       "66 Seconds",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "2nd Round",
-    "default": "62 Seconds",
+    "default": 0,
     "values": [
       "62 Seconds",
       "60 Seconds",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "3rd & 4th Rounds",
-    "default": "60 Seconds",
+    "default": 0,
     "values": [
       "60 Seconds",
       "58 Seconds",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Spark Race",
-    "default": "44 Seconds",
+    "default": 0,
     "values": [
       "44 Seconds",
       "42 Seconds",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Coinage Display",
-    "default": "With",
+    "default": 0,
     "values": [
       "With",
       "Without"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Year Display",
-    "default": "With",
+    "default": 0,
     "values": [
       "With",
       "Without"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Hit Detection",
-    "default": "Normal Game",
+    "default": 0,
     "values": [
       "Normal Game",
       "No Hit"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Coin Slot",
-    "default": "1-Way",
+    "default": 0,
     "values": [
       "1-Way",
       "2-Ways"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Points to Win",
-    "default": "Game 1 = 35, Game 2 = 15",
+    "default": 1,
     "values": [
       "Game 1 = 25, Game 2 = 11",
       "Game 1 = 35, Game 2 = 15",
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin per Player",
+    "default": 2,
     "values": [
       "2 Coins per Player",
       "2 Coins/1 or 2 Players",
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Time Limit",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

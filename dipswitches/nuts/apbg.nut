@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 Each 6",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Attract Lights",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Max Continues",
-    "default": "25",
+    "default": 2,
     "values": [
       "3",
       "10",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium Easy",
+    "default": 3,
     "values": [
       "Easiest",
       "Very Easy",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coins Required",
-    "default": "2 To Start, 1 To Continue",
+    "default": 2,
     "values": [
       "3 To Start, 2 To Continue",
       "3 To Start, 1 To Continue",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

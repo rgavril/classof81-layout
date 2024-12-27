@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Range",
-    "default": "6000-7FFF",
+    "default": 2,
     "values": [
       "2000-3FFF",
       "4000-5FFF",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country Code",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "Germany",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Dedicated",
+    "default": 0,
     "values": [
       "Dedicated",
       "Kit"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Seat Motion",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Stand Up",
+    "default": 0,
     "values": [
       "Stand Up",
       "Sit Down"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Wheel Invert",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "ROM Configuration",
-    "default": "32M ROM Normal",
+    "default": 0,
     "values": [
       "32M ROM Normal",
       "16M ROM Split Active"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Link",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Linking I.D.",
-    "default": "Master #1",
+    "default": 0,
     "values": [
       "Master #1",
       "Slave #2",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

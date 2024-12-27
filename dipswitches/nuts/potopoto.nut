@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Credits to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin Chute Type",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Individual"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Credits to Continue",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Buy-In",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Moving Seat",
-    "default": "No Use",
+    "default": 0,
     "values": [
       "No Use",
       "In Use"

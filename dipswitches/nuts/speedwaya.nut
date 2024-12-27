@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Win Rate",
-    "default": "90%",
+    "default": 7,
     "values": [
       "55%",
       "60%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Butterfly Max Mul",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "7",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Reels Speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bonus Score",
-    "default": "32",
+    "default": 1,
     "values": [
       "24",
       "32"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x100"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Refund Coin Limit",
-    "default": "1000",
+    "default": 1,
     "values": [
       "0",
       "1000",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Butterfly Win Rate",
-    "default": "15%",
+    "default": 0,
     "values": [
       "15%",
       "20%",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coinage A, B & C",
-    "default": "1 Coin / 100 Credit",
+    "default": 7,
     "values": [
       "1 Coin / 1 Credit",
       "1 Coin / 5 Credits",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "120000",
+    "default": 0,
     "values": [
       "120000",
       "100000",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Max Win Bonus",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "1 Pulse / 1000 Credits",
+    "default": 7,
     "values": [
       "1 Pulse / 100 Credits",
       "1 Pulse / 110 Credits",
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "High Bet Limit",
-    "default": "32",
+    "default": 0,
     "values": [
       "32",
       "50",
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Coin Lock",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Locked",
       "Normal"

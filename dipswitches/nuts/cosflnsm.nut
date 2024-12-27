@@ -1,7 +1,7 @@
 return [
   {
     "name": "Diag4",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Diag6",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

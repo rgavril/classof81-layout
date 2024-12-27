@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credit Type",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Background Style",
-    "default": "Green",
+    "default": 0,
     "values": [
       "Green",
       "Blue"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Card Speed",
-    "default": "Fast",
+    "default": 0,
     "values": [
       "Fast",
       "Slow"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Card Deal Type",
-    "default": "Slide",
+    "default": 0,
     "values": [
       "Slide",
       "Appear"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Double Up Type",
-    "default": "Without Reel",
+    "default": 0,
     "values": [
       "Without Reel",
       "With Reel"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Card Type",
-    "default": "Standard Deck",
+    "default": 0,
     "values": [
       "Standard Deck",
       "Taito Deck"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Up / Down Credit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "10",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Double Up Reveal Order",
-    "default": "Show Chosen Card First",
+    "default": 0,
     "values": [
       "Show Chosen Card First",
       "Show Chosen Card Last"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Bell",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Credit Pool 500",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

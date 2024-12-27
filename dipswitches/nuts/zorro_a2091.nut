@@ -1,7 +1,7 @@
 return [
   {
     "name": "A2091 Memory size",
-    "default": "0K",
+    "default": 0,
     "values": [
       "0K",
       "512K",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "A2091 Auto-Boot",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "A2091 WD33C93 Clock",
-    "default": "7 MHz",
+    "default": 0,
     "values": [
       "7 MHz",
       "14 MHz"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "A2091 Interrupt",
-    "default": "INT 2",
+    "default": 0,
     "values": [
       "INT 2",
       "INT 6"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "A2091 LUN",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "A2091 Time-Out",
-    "default": "Short",
+    "default": 0,
     "values": [
       "Short",
       "Long"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "A2091 Reserved",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"

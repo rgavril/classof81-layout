@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Space",
-    "default": "&8000-&9FFF",
+    "default": 4,
     "values": [
       "&0000-&1FFF (Invalid - Do Not Use)",
       "&2000-&3FFF",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Inhibit RAM (INHRAM)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Block Enable (BE)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

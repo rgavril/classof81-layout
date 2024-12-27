@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tokens",
-    "default": "OK",
+    "default": 0,
     "values": [
       "OK",
       "ERROR!"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Tickets",
-    "default": "OK",
+    "default": 0,
     "values": [
       "OK",
       "ERROR!"

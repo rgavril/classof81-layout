@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "DIPSW 1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "DIPSW 1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "DIPSW 1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "DIPSW 1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "DIPSW 1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "DIPSW 1-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "10",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "No. of tiles on final match",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "10"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "DIPSW 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "DIPSW 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "SANGEN Rush",
-    "default": "Infinite",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "DIPSW 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Change Rate",
-    "default": "Type-A",
+    "default": 0,
     "values": [
       "Type-A",
       "Type-B",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Open CPU's hand on Player's Reach",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "DIPSW 3-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "DIPSW 3-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "YAKUMAN cut",
-    "default": "10%",
+    "default": 0,
     "values": [
       "10%",
       "30%",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

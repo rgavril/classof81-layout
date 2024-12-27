@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "10P 1 play, 50P 6 plays",
+    "default": 1,
     "values": [
       "20P 1 play, 50P 3 plays",
       "10P 1 play, 50P 6 plays"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cocktail",
       "Upright"

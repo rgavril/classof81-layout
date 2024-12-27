@@ -1,7 +1,7 @@
 return [
   {
     "name": "Device ID",
-    "default": "0x10",
+    "default": 1,
     "values": [
       "0x00",
       "0x10",

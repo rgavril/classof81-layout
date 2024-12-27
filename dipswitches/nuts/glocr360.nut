@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -16,7 +16,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Fight/Experience",
+    "default": 1,
     "values": [
       "Fighting Only",
       "Fight/Experience",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Ever Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Initial Credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

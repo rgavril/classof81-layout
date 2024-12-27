@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty (Stage 1-3)",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty (Stage 4-5)",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "2 Coins/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Disallow Game Over (Cheat)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Starting Stage",
-    "default": "Stage 1",
+    "default": 0,
     "values": [
       "Stage 1",
       "Stage 3",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

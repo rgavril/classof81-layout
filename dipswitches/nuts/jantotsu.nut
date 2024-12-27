@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Player vs. CPU timer decrement speed",
-    "default": "110",
+    "default": 4,
     "values": [
       "30",
       "50",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Player vs. Player timer decrement speed",
-    "default": "180",
+    "default": 4,
     "values": [
       "100",
       "120",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Play BGM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Blue",
+    "default": 2,
     "values": [
       "Purple",
       "Green",

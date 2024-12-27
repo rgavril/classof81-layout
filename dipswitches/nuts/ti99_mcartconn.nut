@@ -1,7 +1,7 @@
 return [
   {
     "name": "Multi-cartridge slot",
-    "default": "Auto",
+    "default": 0,
     "values": [
       "Auto",
       "Slot 1",

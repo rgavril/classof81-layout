@@ -1,7 +1,7 @@
 return [
   {
     "name": "EIA DSR (W1)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "EIA DCD (W2)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "EIA DTR (W3)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "EIA RTS (W4)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "US (W17)",
+    "default": 0,
     "values": [
       "US (W17)",
       "GM (W18)",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Attribute Code Intensity",
-    "default": "Half (W21)",
+    "default": 0,
     "values": [
       "Half (W21)",
       "Full (W22)"

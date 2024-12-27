@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Level Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "Only Twice",
+    "default": 0,
     "values": [
       "Only Twice",
       "Always"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "A 4C/1C B 1C/4C",
       "A 3C/1C B 1C/3C",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Standard",
+    "default": 1,
     "values": [
       "Easy",
       "Standard",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100K 200K",
+    "default": 0,
     "values": [
       "100K 200K",
       "150K 300K",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

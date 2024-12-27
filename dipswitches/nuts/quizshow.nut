@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Duration",
-    "default": "100 sec. / 10 questions",
+    "default": 5,
     "values": [
       "50 sec. / 5 questions",
       "60 sec. / 6 questions",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Duration Mode",
-    "default": "Question Count",
+    "default": 0,
     "values": [
       "Question Count",
       "Timed"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Bonus Questions",
-    "default": "5",
+    "default": 5,
     "values": [
       "0",
       "1",

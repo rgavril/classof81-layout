@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin/Time",
-    "default": "5 min",
+    "default": 0,
     "values": [
       "5 min",
       "8 min",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Modem Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "50",
       "75",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Printer Baud Rate",
-    "default": "1200",
+    "default": 7,
     "values": [
       "50",
       "75",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Break Key",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Refresh Rate",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Modem Port",
-    "default": "8 DB, NP, 1 SB",
+    "default": 5,
     "values": [
       "7 DB, EP, 2 SB",
       "7 DB, OP, 2 SB",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Transmission",
-    "default": "Block Mode",
+    "default": 0,
     "values": [
       "Block Mode",
       "Conversation Mode"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full Duplex",
+    "default": 0,
     "values": [
       "Full Duplex",
       "Half Duplex"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Printer Port",
-    "default": "8 DB, NP, 1 SB",
+    "default": 5,
     "values": [
       "7 DB, EP, 2 SB",
       "7 DB, OP, 2 SB",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Printer Port Buffer",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Polling Address",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "01",
@@ -285,7 +285,7 @@ return [
   },
   {
     "name": "Polling Option",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Enable"

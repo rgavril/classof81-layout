@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Player Initial Score",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Noten penalty after ryukyoku",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Number of ending chance",
-    "default": "5",
+    "default": 2,
     "values": [
       "0",
       "3",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Ending chance requires fee",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Opponent Initial Score",
-    "default": "3000 - 8000",
+    "default": 0,
     "values": [
       "3000 - 8000",
       "5000 - 10000",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Gal select / Continue",
-    "default": "No / Yes",
+    "default": 1,
     "values": [
       "Yes / No",
       "No / Yes"

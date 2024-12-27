@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Left Slot",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coinage Right Slot",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Preset score award",
-    "default": "Replay",
+    "default": 0,
     "values": [
       "Replay",
       "Extra Ball"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Tilt Penalty",
-    "default": "Ball",
+    "default": 0,
     "values": [
       "Ball",
       "Game"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Credits display",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Game start sound",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "S15",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "S16",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Max credits",
-    "default": "15",
+    "default": 3,
     "values": [
       "5",
       "8",
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "S1-4 control both slots",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Ingame sound",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "High game display",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "High game awards 3 credits",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Coin sound",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "S24",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Attract Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Sound or Tones",
-    "default": "Sound",
+    "default": 0,
     "values": [
       "Sound",
       "Tones"

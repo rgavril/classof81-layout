@@ -1,7 +1,7 @@
 return [
   {
     "name": "Attract Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Sound or Tones",
-    "default": "Sound",
+    "default": 0,
     "values": [
       "Sound",
       "Tones"

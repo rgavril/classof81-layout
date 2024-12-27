@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Display Card",
-    "default": "Poker",
+    "default": 0,
     "values": [
       "Poker",
       "Numbers"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Quick"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Double Gate",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Difficult"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "System Limit",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin Setting",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "40",
+    "default": 0,
     "values": [
       "40",
       "50",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Amuse Game",
-    "default": "Free",
+    "default": 0,
     "values": [
       "Free",
       "1 Credit"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Double Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Royal Appear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "5 Kind Appear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Key Out Base",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Open Mode",
-    "default": "Demo",
+    "default": 0,
     "values": [
       "Demo",
       "Amuse"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Quick Get",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Bet Base",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Amuse Coin",
-    "default": "1:1",
+    "default": 0,
     "values": [
       "1:1",
       "5:1"

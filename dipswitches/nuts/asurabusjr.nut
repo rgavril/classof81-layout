@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Blood Color",
-    "default": "Red",
+    "default": 0,
     "values": [
       "Red",
       "Green"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Demo Sounds & Music",
-    "default": "Both On",
+    "default": 0,
     "values": [
       "Both On",
       "Music Off",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Timer",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Slow",
       "Medium",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage Mode",
-    "default": "Joint",
+    "default": 1,
     "values": [
       "Split",
       "Joint"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 4,
     "values": [
       "Easiest",
       "Very Easy",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Damage",
-    "default": "100%",
+    "default": 1,
     "values": [
       "75%",
       "100%",
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Max Rounds",
-    "default": "3",
+    "default": 1,
     "values": [
       "1",
       "3",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "8 Coins/1 Credit",
       "7 Coins/1 Credit",
@@ -174,7 +174,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "8 Coins/1 Credit",
       "7 Coins/1 Credit",

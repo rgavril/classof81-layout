@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "TV Standard",
-    "default": "625 lines/50 Hz",
+    "default": 0,
     "values": [
       "625 lines/50 Hz",
       "525 lines/60 Hz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Startup Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Automatic 80 Column"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "Modified",
+    "default": 0,
     "values": [
       "Modified",
       "Normal"

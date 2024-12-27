@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "40000 and 80000",
+    "default": 0,
     "values": [
       "40000 and 80000",
       "50000 and 100000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "Coin A 2C/1C Coin B 1C/3C",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",

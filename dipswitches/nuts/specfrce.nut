@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Stage Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Guns",
-    "default": "IGS",
+    "default": 0,
     "values": [
       "IGS",
       "Konami"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Ranking Music",
-    "default": "Exciting",
+    "default": 0,
     "values": [
       "Exciting",
       "Tender"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "DIPSW #7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "3"

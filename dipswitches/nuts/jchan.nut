@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Sound",
-    "default": "Stereo",
+    "default": 1,
     "values": [
       "Mono",
       "Stereo"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Blood Mode",
-    "default": "High",
+    "default": 1,
     "values": [
       "Normal",
       "High"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Special Prize Available",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Buttons Layout",
-    "default": "3+1",
+    "default": 0,
     "values": [
       "3+1",
       "2+2"

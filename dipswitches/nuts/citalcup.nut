@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Min Bet to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Min Bet to play Fever",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "50000",
+    "default": 1,
     "values": [
       "50000",
       "50000"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Val Premio",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Auto"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "W-UP Limit",
-    "default": "3000",
+    "default": 0,
     "values": [
       "3000",
       "5000"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "W-UP Pool",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "W-UP Chance",
-    "default": "94%",
+    "default": 0,
     "values": [
       "94%",
       "96%",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "W-UP Type",
-    "default": "High-Low",
+    "default": 1,
     "values": [
       "None",
       "High-Low",
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Strip Girl",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Main Game Chance",
-    "default": "89%",
+    "default": 8,
     "values": [
       "69%",
       "72%",
@@ -154,7 +154,7 @@ return [
   },
   {
     "name": "Five Jokers",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Anytime Key-in",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Payout Select",
-    "default": "Ticket",
+    "default": 1,
     "values": [
       "Hopper",
       "Ticket"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Ticket Rate",
-    "default": "10:1",
+    "default": 0,
     "values": [
       "10:1",
       "20:1",

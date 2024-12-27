@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game port enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "LPT1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "COM2: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "COM1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "HDC2 (CA00:0 port 324-327)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "HDC1 (C800:0 port 320-323)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"

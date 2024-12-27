@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Sw. Function",
-    "default": "Note",
+    "default": 1,
     "values": [
       "Coin",
       "Note"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Pay Sw. Function",
-    "default": "Key-Down",
+    "default": 1,
     "values": [
       "Pay-Out",
       "Key-Down"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game Hint",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Direct Double",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin Acceptor",
-    "default": "Electronic",
+    "default": 1,
     "values": [
       "Mechanical",
       "Electronic"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Keyboard",
+    "default": 0,
     "values": [
       "Keyboard",
       "Joystick"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Key-In Limit",
-    "default": "5000",
+    "default": 1,
     "values": [
       "1000",
       "5000"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Double Lose Pool",
-    "default": "100",
+    "default": 1,
     "values": [
       "50",
       "100"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Double Over / Round Bonus",
-    "default": "200 / 10",
+    "default": 1,
     "values": [
       "100 / 10",
       "200 / 10",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Pay-Out Rate",
-    "default": "85",
+    "default": 2,
     "values": [
       "75",
       "82",
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Double-Up Rate",
-    "default": "98",
+    "default": 3,
     "values": [
       "95",
       "96",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Game Enhance Type",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Small",
       "Big",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "2000",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "3",
+    "default": 1,
     "values": [
       "1",
       "3",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Credits Per Key-In",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Disable Background Collision (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Union Jack Flag",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1  B 1/6",
+    "default": 2,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",

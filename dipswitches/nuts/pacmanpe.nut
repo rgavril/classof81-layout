@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1C/1C, 1C/2C",
+    "default": 3,
     "values": [
       "2C/1C, 1C/1C",
       "1C/2C, 1C/3C",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Rack Test (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

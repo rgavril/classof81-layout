@@ -1,7 +1,7 @@
 return [
   {
     "name": "Monitor Type",
-    "default": "Hi-Res Display (24KHz)",
+    "default": 1,
     "values": [
       "Normal Display (15KHz)",
       "Hi-Res Display (24KHz)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Display Type",
-    "default": "RGB",
+    "default": 0,
     "values": [
       "RGB",
       "Plasma"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Graphic Function",
-    "default": "Expanded (16/4096 Colors)",
+    "default": 1,
     "values": [
       "Basic (8 Colors)",
       "Expanded (16/4096 Colors)"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "GDC clock",
-    "default": "2.5 MHz",
+    "default": 0,
     "values": [
       "2.5 MHz",
       "5 MHz"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "FDD Fix Mode",
-    "default": "Fixed",
+    "default": 1,
     "values": [
       "Auto-Detection",
       "Fixed"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "FDD Density Select",
-    "default": "2HD",
+    "default": 1,
     "values": [
       "2DD",
       "2HD"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "DSW3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Conventional RAM size",
-    "default": "640 KB",
+    "default": 0,
     "values": [
       "640 KB",
       "512 KB"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "CPU Type",
-    "default": "I386",
+    "default": 1,
     "values": [
       "V30",
       "I386"

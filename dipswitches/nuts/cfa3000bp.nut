@@ -1,7 +1,7 @@
 return [
   {
     "name": "Switch 8",
-    "default": "1st level",
+    "default": 1,
     "values": [
       "2nd level",
       "1st level"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Switch 7",
-    "default": "log units",
+    "default": 1,
     "values": [
       "db",
       "log units"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Switch 6",
-    "default": "Supra Threshold",
+    "default": 1,
     "values": [
       "Full Threshold",
       "Supra Threshold"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Switch 5",
-    "default": "do not est. fluct.",
+    "default": 1,
     "values": [
       "est. fluct.",
       "do not est. fluct."
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Switch 4",
-    "default": "do not repeat >4db",
+    "default": 1,
     "values": [
       "repeat >4db",
       "do not repeat >4db"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Switch 3",
-    "default": "Request Send",
+    "default": 1,
     "values": [
       "Auto Send",
       "Request Send"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Switch 2",
-    "default": "not used",
+    "default": 1,
     "values": [
       "not used",
       "not used"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Switch 1",
-    "default": "not used",
+    "default": 1,
     "values": [
       "not used",
       "not used"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Default File System",
-    "default": "DFS",
+    "default": 1,
     "values": [
       "NFS",
       "DFS"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Not Used",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Disc Timings",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Disc Timings",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Boot",
-    "default": "SHIFT-BREAK",
+    "default": 1,
     "values": [
       "BREAK",
       "SHIFT-BREAK"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "4",
+    "default": 1,
     "values": [
       "0",
       "4"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "2",
+    "default": 1,
     "values": [
       "0",
       "2"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Econet ID",
-    "default": "254",
+    "default": 254,
     "values": [
       "0",
       "1",

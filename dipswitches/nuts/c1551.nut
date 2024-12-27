@@ -1,7 +1,7 @@
 return [
   {
     "name": "Device Number",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "9"

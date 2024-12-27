@@ -1,7 +1,7 @@
 return [
   {
     "name": "Serial Communications",
-    "default": "Asynchronous, Single Speed",
+    "default": 0,
     "values": [
       "Asynchronous, Single Speed",
       "Asynchronous, Split Speed",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Interface Type",
-    "default": "ABC 80/800/802/806",
+    "default": 1,
     "values": [
       "ABC 1600",
       "ABC 80/800/802/806"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "RAM Size",
-    "default": "8 KB",
+    "default": 1,
     "values": [
       "2 KB",
       "8 KB"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "5.25\"",
+    "default": 1,
     "values": [
       "8\"",
       "5.25\""
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "RDY Pin",
-    "default": "P2-34 (5.25\")",
+    "default": 1,
     "values": [
       "P2-6 (8\")",
       "P2-34 (5.25\")"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Drive 0 Sides",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Drive 1 Sides",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Drive 0 Density",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Drive 1 Density",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "BASF 6106/08",
+    "default": 0,
     "values": [
       "BASF 6106/08",
       "MPI 51"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Card Address",
-    "default": "45",
+    "default": 0,
     "values": [
       "45"
     ]

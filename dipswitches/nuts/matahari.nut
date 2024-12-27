@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Award for Beating Highest Score",
-    "default": "3 Credits",
+    "default": 3,
     "values": [
       "Nothing",
       "1 Credit",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Play Melodies",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "S15",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Balls per Game",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "S22",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Saucer Award Feature",
-    "default": "Start at 3000 Points",
+    "default": 0,
     "values": [
       "Start at 3000 Points",
       "Start at 2X Bonus"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "A & B Special Award Feature Per Ball",
-    "default": "Award Special Once",
+    "default": 0,
     "values": [
       "Award Special Once",
       "Award Special Alternates"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "S29",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Extra Ball / Specials Award Mode",
-    "default": "Extra Ball / Replay",
+    "default": 2,
     "values": [
       "Novelty / 50,000",
       "Extra Ball / 50,000",
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Score Level Award",
-    "default": "Replay",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Replay"

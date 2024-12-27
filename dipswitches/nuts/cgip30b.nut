@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bet Max",
-    "default": "10",
+    "default": 1,
     "values": [
       "25",
       "10"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Raise Ante",
-    "default": "Random",
+    "default": 1,
     "values": [
       "None",
       "Random"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Type of Game",
-    "default": "Joker Poker",
+    "default": 1,
     "values": [
       "Deluxe Poker",
       "Joker Poker"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Min Bet for Jokers",
-    "default": "4",
+    "default": 1,
     "values": [
       "2",
       "4"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Deal Speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A=5; B=2",
+    "default": 0,
     "values": [
       "A=5; B=2",
       "A=1; B=1"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Sync",
-    "default": "-",
+    "default": 0,
     "values": [
       "-",
       "+"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "One Trackball",
+    "default": 0,
     "values": [
       "One Trackball",
       "Two Trackballs"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

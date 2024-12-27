@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Russian"

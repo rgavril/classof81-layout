@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Award for Beating Highest Score",
-    "default": "3 Credits",
+    "default": 3,
     "values": [
       "Nothing",
       "1 Credit",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Play Melodies",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Drop Target Award Sequence",
-    "default": "5X then Extra Ball",
+    "default": 0,
     "values": [
       "5X then Extra Ball",
       "5X and Extra Ball"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Rollover Button Score",
-    "default": "Conservative - 100 Points",
+    "default": 0,
     "values": [
       "Conservative - 100 Points",
       "Liberal - 1,000 Points"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Balls per Game",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Drop Target Bank Reset",
-    "default": "Reset Both Banks",
+    "default": 0,
     "values": [
       "Reset Both Banks",
       "Reset Completed Bank Only"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Pop Bumper Scores",
-    "default": "Alternate 1,000 Points Top and Bottom",
+    "default": 0,
     "values": [
       "Alternate 1,000 Points Top and Bottom",
       "All score 1,000 Points When Lit"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "No Free Balls or Games",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Top Saucer Specials Feature",
-    "default": "Outlane Specials Alternate",
+    "default": 1,
     "values": [
       "Outlane Specials do Not Light",
       "Outlane Specials Alternate",
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Award Mode",
-    "default": "Extra Ball / Replay",
+    "default": 2,
     "values": [
       "Novelty / 50,000",
       "Extra Ball / 50,000",

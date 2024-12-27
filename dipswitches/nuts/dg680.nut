@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base Address",
-    "default": "F000",
+    "default": 30,
     "values": [
       "0000",
       "0800",

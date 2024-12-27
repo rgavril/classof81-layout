@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Type of Tape",
-    "default": "MD (Small)",
+    "default": 3,
     "values": [
       "MT (Big)",
       "invalid?",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "When Night Star Completed (First 2 Times)",
+    "default": 0,
     "values": [
       "When Night Star Completed (First 2 Times)",
       "When Night Star Completed (First Time Only)",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Number of Missles",
-    "default": "Few",
+    "default": 0,
     "values": [
       "Few",
       "Many"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Enemy's Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Country Code",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",

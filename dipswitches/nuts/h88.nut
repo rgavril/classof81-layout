@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Console Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 11,
     "values": [
       "110",
       "150",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Odd",
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Stick"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Keyclick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Auto LF on CR",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Auto CR on LF",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Heath/VT52",
+    "default": 0,
     "values": [
       "Heath/VT52",
       "ANSI"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Refresh",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"

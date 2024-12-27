@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 21,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/6 Credits",
+    "default": 27,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Arm X, Y-Move",
-    "default": "Each Once",
+    "default": 0,
     "values": [
       "Each Once",
       "Unrestricted"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Initial Mechanism Motion Check",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Setting 1",
+    "default": 0,
     "values": [
       "Setting 1",
       "Setting 2"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Ignore Prize Sensor",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

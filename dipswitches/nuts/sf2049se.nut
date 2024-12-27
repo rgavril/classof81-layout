@@ -1,7 +1,7 @@
 return [
   {
     "name": "PM Dump",
-    "default": "Watchdog resets only",
+    "default": 0,
     "values": [
       "Watchdog resets only",
       "All resets"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Console Enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "EPROM-based Test",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Cabinet Type",
-    "default": "Sit down cabinet",
+    "default": 0,
     "values": [
       "Sit down cabinet",
       "Upright cabinet"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Resolution",
-    "default": "VGA Res 640x480",
+    "default": 2,
     "values": [
       "Standard Res 512x256",
       "Medium Res 512x384",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

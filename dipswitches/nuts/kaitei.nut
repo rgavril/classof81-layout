@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "5",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "4000",
+    "default": 0,
     "values": [
       "4000",
       "6000",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

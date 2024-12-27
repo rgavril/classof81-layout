@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percent",
-    "default": "55%",
+    "default": 0,
     "values": [
       "55%",
       "60%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Break",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Win Mode",
-    "default": "Line",
+    "default": 0,
     "values": [
       "Line",
       "Square"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Control",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Res.",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "10%",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Cycle Bonus",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Limit",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Limit In",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "10",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Memo Safe",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/5 Credits",
+    "default": 0,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin / 10 Credits",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1 Pulse / 5 Credits",
+    "default": 0,
     "values": [
       "1 Pulse / 5 Credits",
       "1 Pulse / 10 Credits",
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",

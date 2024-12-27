@@ -1,7 +1,7 @@
 return [
   {
     "name": "Replay Level",
-    "default": "400 points",
+    "default": 3,
     "values": [
       "200 points",
       "250 points",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Mode H",
+    "default": 7,
     "values": [
       "Mode A",
       "Mode B",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Breakout Replay",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Game Length",
-    "default": "15 points (5 balls)",
+    "default": 1,
     "values": [
       "11 points (3 balls)",
       "15 points (5 balls)"

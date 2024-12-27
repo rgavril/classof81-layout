@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coins",
-    "default": "choice 1",
+    "default": 0,
     "values": [
       "choice 1",
       "choice 2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Sound",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Show high score in attract mode",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Free games for beating high score",
-    "default": "1",
+    "default": 1,
     "values": [
       "2",
       "1"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "700,000",
+    "default": 0,
     "values": [
       "700,000",
       "750,000",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Score for 2nd extra",
-    "default": "800,000",
+    "default": 0,
     "values": [
       "800,000",
       "850,000",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Score for 1st extra",
-    "default": "650,000",
+    "default": 0,
     "values": [
       "650,000",
       "700,000",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Rotate roulette when ball passes 5 upper aisles",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Credit limit",
-    "default": "20",
+    "default": 3,
     "values": [
       "5",
       "10",

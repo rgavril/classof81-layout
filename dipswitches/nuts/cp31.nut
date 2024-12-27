@@ -1,7 +1,7 @@
 return [
   {
     "name": "Clear macros on reset",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "VME bus width",
-    "default": "16 bits",
+    "default": 0,
     "values": [
       "16 bits",
       "32 bits"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Boot into...",
-    "default": "Monitor",
+    "default": 1,
     "values": [
       "UNIX",
       "Monitor"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Console port setup",
-    "default": "Standard",
+    "default": 1,
     "values": [
       "Custom",
       "Standard"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Console port bits",
-    "default": "8N2",
+    "default": 1,
     "values": [
       "7N1",
       "8N2"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Console port speed",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",

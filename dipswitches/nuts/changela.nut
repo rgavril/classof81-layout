@@ -1,7 +1,7 @@
 return [
   {
     "name": "Steering Wheel Ratio",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Ignore Memory Failures",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Steering Wheel",
+    "default": 1,
     "values": [
       "Joystick",
       "Steering Wheel"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Diagnostic",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Max Bonus Fuels",
-    "default": "99",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Game Difficulty",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Very Easy",
       "Easy",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Traffic Difficulty",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Very Easy",
       "Easy",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Land Collisions",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off (Cheat)",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Car Collision",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off (Cheat)",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "Free Play",
       "2 Coins/1 Credit",
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "Free Play",
       "2 Coins/1 Credit",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Right Slot",
-    "default": "On Right (Bottom) Counter",
+    "default": 0,
     "values": [
       "On Right (Bottom) Counter",
       "On Left (Top) Counter"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Left Slot",
-    "default": "On Left (Top) Counter",
+    "default": 1,
     "values": [
       "On Right (Bottom) Counter",
       "On Left (Top) Counter"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Credits For Bonus",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "'King Of The World' Name Length",
-    "default": "Long",
+    "default": 1,
     "values": [
       "3 Letters",
       "Long"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "'King Of The World' Name",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Helps",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Bar Level",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Picture View",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

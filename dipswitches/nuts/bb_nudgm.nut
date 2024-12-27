@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percentage adjustment",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Test Switch 2",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Test Switch 1",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Jackpot amount",
-    "default": "\u00a32",
+    "default": 1,
     "values": [
       "\u00a31",
       "\u00a32"

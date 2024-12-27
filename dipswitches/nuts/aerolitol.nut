@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "Spanish",
+    "default": 3,
     "values": [
       "English",
       "German",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Center Mech",
-    "default": "X 1",
+    "default": 0,
     "values": [
       "X 1",
       "X 2"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Right Mech",
-    "default": "X 1",
+    "default": 0,
     "values": [
       "X 1",
       "X 4",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

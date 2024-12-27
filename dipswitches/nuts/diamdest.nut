@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bank 1 - Denomination Values: Coin Value",
-    "default": "$0.05",
+    "default": 0,
     "values": [
       "$0.05",
       "$0.10",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bank 1 - Denomination Values: Credit Value",
-    "default": "$0.01",
+    "default": 0,
     "values": [
       "$0.01",
       "$0.02",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Bank 2: Gamble",
-    "default": "Gamble Allowed",
+    "default": 1,
     "values": [
       "Gamble Not Allowed",
       "Gamble Allowed"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Bank 2: Max Bet Coin Reject",
-    "default": "Max Bet Coin Reject Not Enabled",
+    "default": 0,
     "values": [
       "Max Bet Coin Reject Not Enabled",
       "Max Bet Coin Reject Enabled"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Bank 2: Cancel Credit Type",
-    "default": "Residual Credit Backout Allowed",
+    "default": 1,
     "values": [
       "Residual Credit Backout Not Allowed",
       "Residual Credit Backout Allowed"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bank 2: Bill Acceptor",
-    "default": "VFM4 - No CRC Check",
+    "default": 1,
     "values": [
       "V2.2 - CRC Check",
       "VFM4 - No CRC Check"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Bank 2: BACC Denomination",
-    "default": "Dollar ($)",
+    "default": 0,
     "values": [
       "Dollar ($)",
       "Soles (S/.)",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bank 2: NOT USED",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Bank 2: NOT USED",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

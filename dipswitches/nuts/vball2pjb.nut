@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Single Player Game Time",
-    "default": "1:15",
+    "default": 0,
     "values": [
       "1:15",
       "1:30",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Start Buttons (4-player)",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Button A",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "PL 1&4 (4-player)",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Rotate 90"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Player Mode",
-    "default": "4 Players",
+    "default": 1,
     "values": [
       "2 Players",
       "4 Players"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

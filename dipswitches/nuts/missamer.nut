@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tel 0",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Tel 1",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Tel 2",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Tel 3",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Switch Right",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Switch Left",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bit 6",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bit 7",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coins (Left)",
-    "default": "1",
+    "default": 15,
     "values": [
       "16",
       "15",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Credits (Left)",
-    "default": "1",
+    "default": 14,
     "values": [
       "15",
       "14",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "1",
+    "default": 7,
     "values": [
       "8",
       "7",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Reflex Chances",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Plots",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Chance: Corner 65-10",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Chance: Corner 78-9",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Chance: 4 Stars As Green 53-12",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Chance: 4 Stars As Green 61-12",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Chance: Stripped Diagonal B",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Chance: Stripped Diagonal C",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Chance: Stripped Diagonal D",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Chance: Extra Card",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Chance: Any 2",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Chance: Any 3",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -235,7 +235,7 @@ return [
   },
   {
     "name": "Chance: Extra Ball 17",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -243,7 +243,7 @@ return [
   },
   {
     "name": "Chance: Extra Ball 16",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -251,7 +251,7 @@ return [
   },
   {
     "name": "Chance: Extra Ball 15",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -259,7 +259,7 @@ return [
   },
   {
     "name": "Chance: Extra Ball 14",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -267,7 +267,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -275,7 +275,7 @@ return [
   },
   {
     "name": "Reflex",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -283,7 +283,7 @@ return [
   },
   {
     "name": "Knock-Off",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -291,7 +291,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -299,7 +299,7 @@ return [
   },
   {
     "name": "32 Points Extra Ball",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -307,7 +307,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Slow",
+    "default": 1,
     "values": [
       "Fast",
       "Slow"
@@ -315,7 +315,7 @@ return [
   },
   {
     "name": "32 Points Selection",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -323,7 +323,7 @@ return [
   },
   {
     "name": "Mixer 2",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -331,7 +331,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -339,7 +339,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -347,7 +347,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -355,7 +355,7 @@ return [
   },
   {
     "name": "Memory Test",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -363,7 +363,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -371,7 +371,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -379,7 +379,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -387,7 +387,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -395,7 +395,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -403,7 +403,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -411,7 +411,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -419,7 +419,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -427,7 +427,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -435,7 +435,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -443,7 +443,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -451,7 +451,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -459,7 +459,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -467,7 +467,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -475,7 +475,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -483,7 +483,7 @@ return [
   },
   {
     "name": "Coins (Right)",
-    "default": "2",
+    "default": 14,
     "values": [
       "16",
       "15",
@@ -505,7 +505,7 @@ return [
   },
   {
     "name": "Credits (Right)",
-    "default": "2",
+    "default": 13,
     "values": [
       "15",
       "14",

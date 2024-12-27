@@ -1,7 +1,7 @@
 return [
   {
     "name": "Stop bits",
-    "default": "1 bit",
+    "default": 1,
     "values": [
       "2 bits",
       "1 bit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Parity bits",
-    "default": "0 bits",
+    "default": 0,
     "values": [
       "0 bits",
       "1 bit"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Parity check",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Interpret controls",
-    "default": "Interpret",
+    "default": 0,
     "values": [
       "Interpret",
       "Display"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Auto wraparound",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Auto repeat",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Auto CR/LF",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Character set",
-    "default": "KOI-8 N0/N1",
+    "default": 0,
     "values": [
       "KOI-8 N0/N1",
       "KOI-8 N2"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "XON/XOFF",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",

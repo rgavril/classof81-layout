@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Shot",
-    "default": "Every 8 Balls",
+    "default": 1,
     "values": [
       "Every 6 Balls",
       "Every 8 Balls",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Initial Shots",
-    "default": "12",
+    "default": 2,
     "values": [
       "8",
       "10",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Players Per Credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "1 Or 2"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "High Scores",
-    "default": "Keep Top 5",
+    "default": 0,
     "values": [
       "Keep Top 5",
       "Keep All"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "2 Coins = 1 Bonus",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Left Coin Mech",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x2"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Right Coin Mech",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x4",

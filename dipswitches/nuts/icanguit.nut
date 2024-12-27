@@ -1,7 +1,7 @@
 return [
   {
     "name": "TV or Guitar Mode",
-    "default": "TV Mode",
+    "default": 0,
     "values": [
       "TV Mode",
       "Guitar Mode"

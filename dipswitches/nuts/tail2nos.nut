@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Multiple"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Control Panel",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Original"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "Overseas",
+    "default": 1,
     "values": [
       "Domestic",
       "Overseas"

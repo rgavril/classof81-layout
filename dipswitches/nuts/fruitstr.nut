@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hopper",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Max. Win",
-    "default": "200",
+    "default": 0,
     "values": [
       "200",
       "300"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin 1 (Muenzen 1)",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin 2 (Muenzen 2)",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "50"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSW6",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off (Aus)",
+    "default": 0,
     "values": [
       "Off (Aus)",
       "On (Ein)"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "BH",
-    "default": "Dreifach",
+    "default": 0,
     "values": [
       "Dreifach",
       "Normalg"

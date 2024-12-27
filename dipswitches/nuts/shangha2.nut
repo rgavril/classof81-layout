@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "2 Players Move Time",
-    "default": "10",
+    "default": 1,
     "values": [
       "8",
       "10"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Time for Making Pair",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Start Time",
-    "default": "90",
+    "default": 2,
     "values": [
       "30",
       "60",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Mystery Tiles",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "4",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",

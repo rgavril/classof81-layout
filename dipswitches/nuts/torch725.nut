@@ -1,7 +1,7 @@
 return [
   {
     "name": "Econet ID",
-    "default": "254",
+    "default": 254,
     "values": [
       "0",
       "1",

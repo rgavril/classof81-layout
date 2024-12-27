@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Screen (DON'T CHANGE)",
-    "default": "Left (correct)",
+    "default": 1,
     "values": [
       "Center (invalid)",
       "Left (correct)",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "DSW5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "PCM ROM",
-    "default": "2M",
+    "default": 0,
     "values": [
       "2M",
       "4M"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Screen Stop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Screen (DON'T CHANGE)",
-    "default": "Center (correct)",
+    "default": 0,
     "values": [
       "Center (correct)",
       "Left (invalid)",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "DSW5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "PCM ROM",
-    "default": "4M",
+    "default": 1,
     "values": [
       "2M",
       "4M"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Screen Stop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "DSW2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Screen (DON'T CHANGE)",
-    "default": "Right (correct)",
+    "default": 2,
     "values": [
       "Center (invalid)",
       "Left (invalid)",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "DSW5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "PCM ROM",
-    "default": "4M",
+    "default": 1,
     "values": [
       "2M",
       "4M"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "DSW7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Screen Stop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

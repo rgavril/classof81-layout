@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Award",
-    "default": "Free Game",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Free Game"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Play melody always",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Award for beating high score",
-    "default": "Novelty",
+    "default": 0,
     "values": [
       "Novelty",
       "3 Free Games"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Rollover lights",
-    "default": "Always on",
+    "default": 0,
     "values": [
       "Always on",
       "Alternate"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "15",
+    "default": 2,
     "values": [
       "5",
       "10",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Credits displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S22",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "S23",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Award a free game for hitting all targets 2nd time",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "S25",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "S26",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "S27",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "S28",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "S29",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "S30",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Award for Special",
-    "default": "Free Game",
+    "default": 2,
     "values": [
       "100000 points",
       "Extra Ball",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character Spacing",
-    "default": "Pica / 10 cpi",
+    "default": 0,
     "values": [
       "Pica / 10 cpi",
       "Compressed / 17 cpi"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Character Spacing",
-    "default": "Pica / 10 cpi",
+    "default": 0,
     "values": [
       "Pica / 10 cpi",
       "Compressed / 17 cpi"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Page Length",
-    "default": "11 inch",
+    "default": 0,
     "values": [
       "11 inch",
       "12 inch"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Character Spacing",
-    "default": "Pica / 10 cpi",
+    "default": 0,
     "values": [
       "Pica / 10 cpi",
       "Compressed / 17 cpi"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Buffer-Full Printing",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Automatic Line Feed",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Print Quality",
-    "default": "Draft",
+    "default": 0,
     "values": [
       "Draft",
       "NLQ"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Auto Carriage Return",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Line Spacing",
-    "default": "1/6 inch",
+    "default": 0,
     "values": [
       "1/6 inch",
       "1/8 inch"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "International Character Set",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "France",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "ASCII Codes 128-159",
-    "default": "High-bit Control Codes",
+    "default": 0,
     "values": [
       "High-bit Control Codes",
       "Line and Block Graphics"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "ASCII Codes 128-159",
-    "default": "High-bit Control Codes",
+    "default": 0,
     "values": [
       "High-bit Control Codes",
       "Accented Characters"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "International Character Set",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "England",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Paper End Detect",
-    "default": "Disabled",
+    "default": 1,
     "values": [
       "Enabled",
       "Disabled"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Zero",
-    "default": "Not Slashed",
+    "default": 0,
     "values": [
       "Not Slashed",
       "Slashed"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Device Number",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "5"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "ASCII Codes 128-159",
-    "default": "High-bit Control Codes",
+    "default": 0,
     "values": [
       "High-bit Control Codes",
       "Line and Block Graphics"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Print Quality",
-    "default": "Draft",
+    "default": 0,
     "values": [
       "Draft",
       "NLQ"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Printer Configuration",
-    "default": "Epson #1",
+    "default": 0,
     "values": [
       "Epson #1",
       "Epson #2",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Control Code Mode",
-    "default": "Commodore",
+    "default": 0,
     "values": [
       "Commodore",
       "Epson FX"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "ASCII Translation",
-    "default": "PET ASCII",
+    "default": 0,
     "values": [
       "PET ASCII",
       "ASCII"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Automatic Line Feed",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Interface",
-    "default": "Commodore Serial IEC",
+    "default": 0,
     "values": [
       "Commodore Serial IEC",
       "Parallel"

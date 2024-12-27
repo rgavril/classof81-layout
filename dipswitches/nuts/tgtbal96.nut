@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time for 1 Player",
-    "default": "1:20",
+    "default": 1,
     "values": [
       "1:00",
       "1:20",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Time?",
-    "default": "20",
+    "default": 1,
     "values": [
       "15",
       "20",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 1,
     "values": [
       "4",
       "5",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Balls Sequence Length",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Game Goal",
-    "default": "Target Score",
+    "default": 0,
     "values": [
       "Target Score",
       "Balls Sequence"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Time for 2 Players",
-    "default": "2:40",
+    "default": 1,
     "values": [
       "2:00",
       "2:40",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Vs. Matches",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Slide Show",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

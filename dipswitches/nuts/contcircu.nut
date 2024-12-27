@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Cockpit",
+    "default": 0,
     "values": [
       "Cockpit",
       "Upright"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Continue Price",
-    "default": "Same as Start",
+    "default": 0,
     "values": [
       "Same as Start",
       "Discount"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty 1 (time/speed)",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty 2 (other cars)",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Steering Wheel",
-    "default": "Locked",
+    "default": 1,
     "values": [
       "Free",
       "Locked"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "3D Effect",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

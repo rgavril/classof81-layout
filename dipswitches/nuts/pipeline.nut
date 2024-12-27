@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "Water Speed",
-    "default": "Slowest",
+    "default": 0,
     "values": [
       "Slowest",
       "Slow",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Continue",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Checkpoints"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Sounds/Music",
-    "default": "On",
+    "default": 3,
     "values": [
       "Off",
       "Attract Mode",

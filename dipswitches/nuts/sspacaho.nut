@@ -1,7 +1,7 @@
 return [
   {
     "name": "Space Attack Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Head On Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Space Attack Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Space Attack Final UFO Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

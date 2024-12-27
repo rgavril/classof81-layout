@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20k and every 100k",
+    "default": 3,
     "values": [
       "80k and every 100k",
       "60k and every 100k",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "6",
       "3",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Training/Difficulty",
-    "default": "On/Every 7 Min.",
+    "default": 1,
     "values": [
       "Off/Every 10 Min.",
       "On/Every 7 Min."
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Japanese",
+    "default": 1,
     "values": [
       "English",
       "Japanese"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Super Chack'n",
-    "default": "pi",
+    "default": 0,
     "values": [
       "pi",
       "1st Chance"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Endless (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Credit Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Show Year",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Infinite (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Way",
+    "default": 0,
     "values": [
       "1 Way",
       "2 Way"

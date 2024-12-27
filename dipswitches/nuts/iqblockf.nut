@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hold Mode",
-    "default": "In Win",
+    "default": 0,
     "values": [
       "In Win",
       "Always"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "100",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Register",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Key Out Base",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Open Mode",
-    "default": "Gaming (Gambling)",
+    "default": 0,
     "values": [
       "Gaming (Gambling)",
       "Amuse"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Number Type",
-    "default": "A,J,Q,K",
+    "default": 0,
     "values": [
       "A,J,Q,K",
       "Number"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "CG Select",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "2 Coins to Start, 1 to Continue",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Sound",
-    "default": "Q Sound",
+    "default": 0,
     "values": [
       "Q Sound",
       "Monaural"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Extra Easy",
       "Very Easy",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Extend",
-    "default": "1800000",
+    "default": 1,
     "values": [
       "800000",
       "1800000",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

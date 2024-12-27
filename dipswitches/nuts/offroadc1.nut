@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Gear Shifter Switch",
-    "default": "Normally Open",
+    "default": 1,
     "values": [
       "Normally Closed",
       "Normally Open"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Added Attractions",
-    "default": "Girls Present",
+    "default": 0,
     "values": [
       "Girls Present",
       "Girls Missing"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Graphic Effects",
-    "default": "Roadkill Present",
+    "default": 0,
     "values": [
       "Roadkill Present",
       "Roadkill Missing"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Link",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Link Machine",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA 1",
+    "default": 0,
     "values": [
       "USA 1",
       "German 1",
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

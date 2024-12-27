@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "VS Mode (link)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "2 Coins/1 Credit",
+    "default": 0,
     "values": [
       "2 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Win Round even when losing (Cheat)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Backup RAM Clear",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "SYSTEM",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

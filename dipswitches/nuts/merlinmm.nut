@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bank 3-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bank 3-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bank 3-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Door Close",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Door Open",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Stake",
-    "default": "10p",
+    "default": 0,
     "values": [
       "10p",
       "20p"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Bank 1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Bank 1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "10p Enabled",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "20p Enabled",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "50p Enabled",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "100p Enabled",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Bank 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Bank 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Bank 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Bank 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Bank 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Bank 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Bank 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Bank 2-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "10P Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "20P Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "50P Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "100P Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"

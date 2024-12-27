@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Jingle",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "\u00a38 Advert?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "High Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Low Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Target Percentage (if key not fitted)",
-    "default": "Unset (Program Optimum)",
+    "default": 0,
     "values": [
       "Unset (Program Optimum)",
       "70",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Clear MPU Memory",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Enable Cash Refill",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Inhibit Win Banking",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "High Prize Payout proportion (if available)",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Halt Payout when Empty",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin Alarm Inhibit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Excess Token Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Single Credit Entry",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

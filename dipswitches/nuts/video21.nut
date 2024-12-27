@@ -1,7 +1,7 @@
 return [
   {
     "name": "41b0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "41b1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "41b2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Win Mode",
-    "default": "Amusement",
+    "default": 0,
     "values": [
       "Amusement",
       "Casino"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "41b4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/10 Credits",
+    "default": 0,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/2 Credits"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/5 Credits",
+    "default": 0,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/1 Credit"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "44b0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "44b1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "44b2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "2"

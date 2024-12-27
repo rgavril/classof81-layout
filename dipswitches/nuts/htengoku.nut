@@ -1,7 +1,7 @@
 return [
   {
     "name": "Show Girls",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Select Stage",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Secret Trick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Secret Character",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "In Game Sounds",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Guide",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "Highest",
+    "default": 7,
     "values": [
       "Lowest",
       "Lower",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Payout Wave",
-    "default": "Big",
+    "default": 1,
     "values": [
       "Small",
       "Big"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Goko Yaku",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Double-Up Win Rate",
-    "default": "80%",
+    "default": 3,
     "values": [
       "65%",
       "70%",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Max Rate",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Min Rate To Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Credits Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Odds For Goko",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Odds For Shiko",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "60",
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Odds For Ameshiko",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "30",
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unknown 4-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unknown 4-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Set Clock",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Unknown 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "Unknown 2-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Pay Out Type",
-    "default": "Credit",
+    "default": 0,
     "values": [
       "Credit",
       "Hopper"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Hopper Switch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Unknown 4-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "Unknown 4-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

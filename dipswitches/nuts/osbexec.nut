@@ -1,7 +1,7 @@
 return [
   {
     "name": "Alpha Lock",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

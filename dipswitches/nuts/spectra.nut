@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch",
-    "default": "Play",
+    "default": 0,
     "values": [
       "Play",
       "Setup",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode Test",
-    "default": "S RAM CHECK",
+    "default": 0,
     "values": [
       "S RAM CHECK",
       "D RAM CHECK F",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10k",
+    "default": 0,
     "values": [
       "10k",
       "30k"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Mode",
-    "default": "Communications Mode",
+    "default": 0,
     "values": [
       "Communications Mode",
       "SIC P8 Emulation Mode",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "Undefined/115200",
       "50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "End of Line",
-    "default": "Don't add LF after CR",
+    "default": 1,
     "values": [
       "Add LF after CR",
       "Don't add LF after CR"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Line Width",
-    "default": "40 Characters",
+    "default": 0,
     "values": [
       "40 Characters",
       "72 Characters",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "None (2)",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Delay After CR",
-    "default": "1/4 sec",
+    "default": 1,
     "values": [
       "None",
       "1/4 sec"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -85,21 +85,21 @@ return [
   },
   {
     "name": "Secondary CTS Connected",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off"
     ]
   },
   {
     "name": "DCD Connected",
-    "default": "On",
+    "default": 0,
     "values": [
       "On"
     ]
   },
   {
     "name": "Interrupts",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

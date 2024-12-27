@@ -1,7 +1,7 @@
 return [
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Win Percentage",
-    "default": "95%",
+    "default": 0,
     "values": [
       "95%",
       "90%",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Hopper Motor",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Hopper Count",
-    "default": "Sensor SW",
+    "default": 0,
     "values": [
       "Sensor SW",
       "Micro SW"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Payout calculation",
-    "default": "Amusement",
+    "default": 1,
     "values": [
       "Gambling",
       "Amusement"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double-Up Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "L/R SW Reverse",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Auto Stop",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Auto Start",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 10,
     "values": [
       "1 Coin /100 Credits",
       "1 Coin /50 Credits",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 10,
     "values": [
       "1 Coin /100 Credits",
       "1 Coin /50 Credits",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "1 Coin /50 Credits",
       "1 Coin/1 Credit",
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "3000",
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Hopper Access",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Hopper Empty",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

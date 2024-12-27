@@ -1,7 +1,7 @@
 return [
   {
     "name": "Keyboard Program",
-    "default": "External PROM",
+    "default": 1,
     "values": [
       "Internal (8048)",
       "External PROM"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "Swedish",
+    "default": 0,
     "values": [
       "Swedish",
       "US ASCII"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "External Encoding PROM",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Keyboard Language",
-    "default": "Spanish",
+    "default": 3,
     "values": [
       "Danish",
       "French",

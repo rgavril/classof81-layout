@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright / Steering Lock",
+    "default": 0,
     "values": [
       "Upright / Steering Lock",
       "Upright / No Steering Lock",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Timer Setting",
-    "default": "60 Seconds",
+    "default": 2,
     "values": [
       "70 Seconds",
       "65 Seconds",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Turbos Stocked",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Continue Price",
-    "default": "Same as Start",
+    "default": 0,
     "values": [
       "Same as Start",
       "Discount"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Clear Damage on Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

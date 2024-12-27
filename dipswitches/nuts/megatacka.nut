@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage P1/P2",
-    "default": "1 Credit/2 Credits",
+    "default": 0,
     "values": [
       "1 Credit/2 Credits",
       "2 Credits/3 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On",
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "30000",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Monitor View",
-    "default": "Direct",
+    "default": 0,
     "values": [
       "Direct",
       "Mirror"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Monitor Orientation",
-    "default": "Horizontal",
+    "default": 0,
     "values": [
       "Horizontal",
       "Vertical"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Sound Test A 0",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Sound Test A 1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -130,7 +130,7 @@ return [
   },
   {
     "name": "Sound Test A 2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -138,7 +138,7 @@ return [
   },
   {
     "name": "Sound Test A 3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -146,7 +146,7 @@ return [
   },
   {
     "name": "Sound Test A 4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -154,7 +154,7 @@ return [
   },
   {
     "name": "Sound Test A 5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Sound Test A 6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Sound Test Enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Sound Test B 0",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Sound Test B 1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Sound Test B 2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Sound Test B 3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Sound Test B 4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -218,7 +218,7 @@ return [
   },
   {
     "name": "Sound Test B 5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -226,7 +226,7 @@ return [
   },
   {
     "name": "Sound Test B 6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -234,7 +234,7 @@ return [
   },
   {
     "name": "Sound Test B 7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

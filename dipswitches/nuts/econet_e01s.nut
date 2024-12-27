@@ -1,7 +1,7 @@
 return [
   {
     "name": "SW3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

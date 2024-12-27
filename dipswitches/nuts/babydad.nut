@@ -1,7 +1,7 @@
 return [
   {
     "name": "Color Sw.",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

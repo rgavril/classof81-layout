@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Address (P)",
-    "default": "330",
+    "default": 1,
     "values": [
       "300",
       "330"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Interrupt",
-    "default": "IRQ2",
+    "default": 0,
     "values": [
       "IRQ2",
       "IRQ3",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Max Credits",
-    "default": "30",
+    "default": 5,
     "values": [
       "5",
       "10",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Special",
-    "default": "Free Game",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Free Game",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Upper Lanes",
-    "default": "Start and Advance",
+    "default": 1,
     "values": [
       "Start only",
       "Start and Advance"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Extra Ball reward",
-    "default": "Extra Ball",
+    "default": 0,
     "values": [
       "Extra Ball",
       "20000 points",
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Coinage L Chute",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "High Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Coinage R Chute",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Ladder Memory",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "Replays for High Score",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

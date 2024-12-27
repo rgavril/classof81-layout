@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DonDen Key",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "Flip Flop"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Draw New Tile",
-    "default": "Manual",
+    "default": 1,
     "values": [
       "Automatic",
       "Manual"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Win Rate?",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "YAKU times",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus",
-    "default": "Cut",
+    "default": 0,
     "values": [
       "Cut",
       "1 T",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty?",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Min Pay?",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Allow Coin Out",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Win A Prize?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Pay Out Rate",
-    "default": "71",
+    "default": 7,
     "values": [
       "50",
       "53",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/5 Credits",
+    "default": 0,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/10 Credits"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Pay Rate?",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Choose Bonus",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "In-Game Bet?",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "In-Game Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Select Girl",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -203,7 +203,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -211,7 +211,7 @@ return [
   },
   {
     "name": "Allow Bets",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

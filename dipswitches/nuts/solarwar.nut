@@ -1,7 +1,7 @@
 return [
   {
     "name": "Replay Level",
-    "default": "300000 (3 balls) / 500000 (5 balls)",
+    "default": 1,
     "values": [
       "180000 (3 balls) / 300000 (5 balls)",
       "300000 (3 balls) / 500000 (5 balls)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Extra Ball",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off (award 50000 points instead)",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Replay",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off (award 80000 points instead)",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Free Play",
+    "default": 3,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

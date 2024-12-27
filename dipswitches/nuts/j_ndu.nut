@@ -1,7 +1,7 @@
 return [
   {
     "name": "Nudge chance",
-    "default": "8%",
+    "default": 7,
     "values": [
       "1%",
       "2%",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Win hold chance",
-    "default": "26%",
+    "default": 7,
     "values": [
       "12%",
       "14%",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Hold chance",
-    "default": "26%",
+    "default": 7,
     "values": [
       "12%",
       "14%",
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Use default hold/nudge chance",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "DSWB",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Disable sprite-tile collision (Cheat)",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail",
+    "default": 1,
     "values": [
       "Upright",
       "Cocktail"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Number of Coin Chutes",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "1"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Year Display",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",

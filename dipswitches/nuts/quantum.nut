@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 each 5",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

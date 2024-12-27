@@ -1,7 +1,7 @@
 return [
   {
     "name": "Interface Type",
-    "default": "ABC 80/800/802/806",
+    "default": 1,
     "values": [
       "ABC 1600",
       "ABC 80/800/802/806"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "RAM Size",
-    "default": "8 KB",
+    "default": 1,
     "values": [
       "2 KB",
       "8 KB"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "5.25\"",
+    "default": 1,
     "values": [
       "8\"",
       "5.25\""
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "RDY Pin",
-    "default": "P2-34 (5.25\")",
+    "default": 1,
     "values": [
       "P2-6 (8\")",
       "P2-34 (5.25\")"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Drive 0 Sides",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Drive 1 Sides",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Drive 0 Tracks",
-    "default": "80",
+    "default": 1,
     "values": [
       "40",
       "80"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Drive 1 Tracks",
-    "default": "80",
+    "default": 1,
     "values": [
       "40",
       "80"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "BASF 6138",
+    "default": 1,
     "values": [
       "TEAC FD55F",
       "BASF 6138"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Card Address",
-    "default": "44",
+    "default": 0,
     "values": [
       "44"
     ]

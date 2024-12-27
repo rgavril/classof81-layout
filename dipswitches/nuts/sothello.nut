@@ -1,7 +1,7 @@
 return [
   {
     "name": "Timer",
-    "default": "30",
+    "default": 3,
     "values": [
       "15",
       "20",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Games for 2 players",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Matta",
-    "default": "2",
+    "default": 2,
     "values": [
       "0",
       "1",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Mode",
-    "default": "16 KB",
+    "default": 2,
     "values": [
       "Off",
       "8 KB",

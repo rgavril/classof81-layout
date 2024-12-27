@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Playing Time",
-    "default": "100",
+    "default": 2,
     "values": [
       "50",
       "75",
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Track Set",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Reverse"
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Bonus Time",
-    "default": "Score = 350",
+    "default": 1,
     "values": [
       "No",
       "Score = 350"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Difficult Bonus",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Difficult"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "8 Coins/1 Credit",
       "7 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Screen",
-    "default": "Horizontal",
+    "default": 0,
     "values": [
       "Horizontal",
       "Vertical"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "Dynamic",
+    "default": 0,
     "values": [
       "Dynamic",
       "Actual"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "If RAM Error",
-    "default": "Play",
+    "default": 0,
     "values": [
       "Play",
       "Freeze"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

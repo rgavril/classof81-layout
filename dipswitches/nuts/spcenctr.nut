@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "4000 8000 16000",
+    "default": 2,
     "values": [
       "2000 4000 8000",
       "3000 6000 12000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus/Test Mode",
-    "default": "Bonus On",
+    "default": 0,
     "values": [
       "Bonus On",
       "Bonus Off",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "60",
+    "default": 1,
     "values": [
       "45",
       "60",

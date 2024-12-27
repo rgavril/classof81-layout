@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "3"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "40000",
+    "default": 0,
     "values": [
       "40000",
       "50000",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Timer",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

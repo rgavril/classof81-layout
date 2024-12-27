@@ -1,7 +1,7 @@
 return [
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Hold Game",
+    "default": 0,
     "values": [
       "Hold Game",
       "Discard Game"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Adult Content",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSW1-08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Minimal Winning Hand",
-    "default": "Jacks or Better",
+    "default": 0,
     "values": [
       "Jacks or Better",
       "2 Pairs"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW1-40 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DSW1-80 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DSW2-01 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DSW2-02 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DSW2-04 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DSW2-08 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DSW2-10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DSW2-20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "DSW2-40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "DSW2-80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1 Pulse/100 Credits",
+    "default": 3,
     "values": [
       "1 Pulse/5 Credits",
       "1 Pulse/10 Credits",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/10 Credits",
+    "default": 5,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "DSW3-40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "DSW3-80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/10 Credits",
+    "default": 11,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "10 Coins/1 Credit",
       "9 Coins/1 Credit",
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "DSW4-80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "DSW5-01 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "DSW5-02 (Do Not Use)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "DSW5-04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Double-Up (Normal)",
+    "default": 0,
     "values": [
       "Double-Up (Normal)",
       "Double-Up Poker",
@@ -251,7 +251,7 @@ return [
   },
   {
     "name": "DSW5-20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -259,7 +259,7 @@ return [
   },
   {
     "name": "DSW5-40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -267,7 +267,7 @@ return [
   },
   {
     "name": "DSW5-80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -275,7 +275,7 @@ return [
   },
   {
     "name": "IN0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -283,7 +283,7 @@ return [
   },
   {
     "name": "IN1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -291,7 +291,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -299,7 +299,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -307,7 +307,7 @@ return [
   },
   {
     "name": "IN2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -315,7 +315,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -323,7 +323,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -331,7 +331,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -339,7 +339,7 @@ return [
   },
   {
     "name": "IN3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -347,7 +347,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -355,7 +355,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -363,7 +363,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

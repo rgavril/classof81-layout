@@ -1,7 +1,7 @@
 return [
   {
     "name": "Type of 2nd drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Type of 1st drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "IRQ level",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Install ROM?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "RAM banks",
-    "default": "4 - 64/256/640K",
+    "default": 3,
     "values": [
       "1 - 16/ 64/256K",
       "2 - 32/128/512K",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "EGA/VGA",
+    "default": 0,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

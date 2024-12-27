@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time",
-    "default": "200 seconds",
+    "default": 14,
     "values": [
       "60 seconds",
       "70 seconds",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

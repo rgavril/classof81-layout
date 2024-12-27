@@ -1,7 +1,7 @@
 return [
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Special",
-    "default": "Free Game",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Free Game",
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Replay score",
-    "default": "Low",
+    "default": 1,
     "values": [
       "High",
       "Low"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Last Ball double bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Spelling Award",
-    "default": "Extra Ball",
+    "default": 0,
     "values": [
       "Extra Ball",
       "20,000 points"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Exceed replay score",
-    "default": "Replay",
+    "default": 2,
     "values": [
       "Nothing",
       "Extra Ball",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Max Credits",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "12",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "High score (bit 0)",
-    "default": "Low",
+    "default": 1,
     "values": [
       "High",
       "Low"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "High score (bit 1)",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "High score (bit 2)",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "High score (bit 3)",
-    "default": "Low",
+    "default": 1,
     "values": [
       "High",
       "Low"

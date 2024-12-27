@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "20k 60k 60k+",
+    "default": 0,
     "values": [
       "20k 60k 60k+",
       "40k 90k 90k+",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "More",
+    "default": 0,
     "values": [
       "More",
       "Less"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "No Opponents (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

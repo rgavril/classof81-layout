@@ -1,7 +1,7 @@
 return [
   {
     "name": "Orientation",
-    "default": "Horizontal",
+    "default": 0,
     "values": [
       "Horizontal",
       "Vertical"

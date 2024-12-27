@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Power Bumpers",
-    "default": "10",
+    "default": 3,
     "values": [
       "4",
       "6",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Bonus Balls",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "8",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Scoring",
-    "default": "800k / 1.4M / 2.0M / 2.6M",
+    "default": 0,
     "values": [
       "800k / 1.4M / 2.0M / 2.6M",
       "1.0M / 1.6M / 2.2M / 2.8M",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Balls/Game",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "25 Pts. = 1, 100 Pts. = 5",
+    "default": 0,
     "values": [
       "25 Pts. = 1, 100 Pts. = 5",
       "25 Pts. = 1, 100 Pts. = 6",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Lottery",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Musica-Reclamo",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Extra Ball/Score",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

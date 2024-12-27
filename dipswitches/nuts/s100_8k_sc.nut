@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Range",
-    "default": "16K to 24K",
+    "default": 2,
     "values": [
       "0 to 8K",
       "8K to 16K",

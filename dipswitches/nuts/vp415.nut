@@ -1,7 +1,7 @@
 return [
   {
     "name": "BRA (unknown purpose)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "BRB (unknown purpose)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DUMP (unknown purpose)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Remote Control IR/Euro",
-    "default": "Euro",
+    "default": 1,
     "values": [
       "IR",
       "Euro"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "REPLAY (unknown purpose)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "RESI (unknown purpose)",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

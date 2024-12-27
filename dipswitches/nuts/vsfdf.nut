@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Health Awarded At",
-    "default": "10k/50k",
+    "default": 2,
     "values": [
       "20k/60k",
       "20k/60k/Every 60k",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Difficulty (Damage)",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Difficulty (Enemy)",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"

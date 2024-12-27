@@ -1,7 +1,7 @@
 return [
   {
     "name": "Composite Sync",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Vertical Sync",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Positive",
+    "default": 1,
     "values": [
       "Negative",
       "Positive"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Keypad",
-    "default": "Numeric",
+    "default": 0,
     "values": [
       "Numeric",
       "Alternate Keyboard"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Horizontal Sync",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "CPU",
-    "default": "Operating",
+    "default": 0,
     "values": [
       "Operating",
       "Reset"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Keyboard strobe",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Beeper",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Silent",
       "Enable"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "300",
+    "default": 5,
     "values": [
       "50",
       "75",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Marking",
+    "default": 2,
     "values": [
       "Odd",
       "Even",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Handshake",
-    "default": "CTS",
+    "default": 0,
     "values": [
       "CTS",
       "XON/XOFF"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Line Feed",
-    "default": "No LF on CR",
+    "default": 0,
     "values": [
       "No LF on CR",
       "Auto"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Display",
-    "default": "80 x 24 15750Hz, 60Hz",
+    "default": 7,
     "values": [
       "96 x 24 15750Hz, 50Hz",
       "80 x 48 15750Hz, 50Hz",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Emulation",
-    "default": "Heath H-19",
+    "default": 3,
     "values": [
       "Adds",
       "Beehive",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Local",
+    "default": 1,
     "values": [
       "Line",
       "Local"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 0,
     "values": [
       "Full",
       "Half"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Wraparound",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"

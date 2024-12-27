@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Won",
-    "default": "11",
+    "default": 0,
     "values": [
       "11",
       "15"

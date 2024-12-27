@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "300 Seconds",
+    "default": 1,
     "values": [
       "400 Seconds",
       "300 Seconds",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Health",
-    "default": "33",
+    "default": 2,
     "values": [
       "17",
       "24",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Continues",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Bullets",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Least",
       "Less",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Enemy Movement",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Slow",
       "Normal",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Enemy Strength",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Less",
       "Normal",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Enemy Weapon Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Game Over Message",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

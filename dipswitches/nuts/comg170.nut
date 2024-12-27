@@ -1,7 +1,7 @@
 return [
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 7,
     "values": [
       "01",
       "02",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Attract",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Lower Pair to Win",
-    "default": "Kings",
+    "default": 2,
     "values": [
       "Jacks",
       "Queens",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin Lockout",
-    "default": "No Lockout",
+    "default": 0,
     "values": [
       "No Lockout",
       "No Lockout",

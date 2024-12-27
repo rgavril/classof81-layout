@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "80 seconds",
+    "default": 4,
     "values": [
       "60 seconds + 30 extended",
       "80 seconds + 40 extended",
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "2.50",
+    "default": 1,
     "values": [
       "2.00",
       "2.50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",

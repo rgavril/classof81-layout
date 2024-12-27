@@ -1,7 +1,7 @@
 return [
   {
     "name": "Dim 21:00 to 05:59",
-    "default": "Row 1 timezone",
+    "default": 1,
     "values": [
       "Disable",
       "Row 1 timezone",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Dim Duty Cycle",
-    "default": "25%",
+    "default": 1,
     "values": [
       "50%",
       "25%"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Row 1 timezone low",
-    "default": "_2",
+    "default": 2,
     "values": [
       "_0",
       "_1",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Row 1 timezone high",
-    "default": "0_",
+    "default": 0,
     "values": [
       "0_",
       "1_",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Row 1 type",
-    "default": "Time",
+    "default": 0,
     "values": [
       "Time",
       "Date"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Row 2 timezone low",
-    "default": "_2",
+    "default": 2,
     "values": [
       "_0",
       "_1",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Row 2 timezone high",
-    "default": "0_",
+    "default": 0,
     "values": [
       "0_",
       "1_",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Row 2 type",
-    "default": "Date",
+    "default": 1,
     "values": [
       "Time",
       "Date"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Row 3 timezone low",
-    "default": "_3",
+    "default": 3,
     "values": [
       "_0",
       "_1",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Row 3 timezone high",
-    "default": "0_",
+    "default": 0,
     "values": [
       "0_",
       "1_",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Row 3 type",
-    "default": "Time",
+    "default": 0,
     "values": [
       "Time",
       "Date"

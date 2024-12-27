@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Type",
-    "default": "Hold",
+    "default": 0,
     "values": [
       "Hold",
       "Discard"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Pay Table",
-    "default": "250/100/25/10/8/5/4/3/2/1",
+    "default": 0,
     "values": [
       "250/100/25/10/8/5/4/3/2/1",
       "500/200/40/10/8/5/4/3/2/1",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Low Winning Pair",
-    "default": "Kings",
+    "default": 2,
     "values": [
       "Jacks",
       "Queens",

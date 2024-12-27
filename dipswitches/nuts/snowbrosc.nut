@@ -1,7 +1,7 @@
 return [
   {
     "name": "Region",
-    "default": "Europe",
+    "default": 0,
     "values": [
       "Europe",
       "America (Romstar license)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100k Only",
+    "default": 1,
     "values": [
       "100k and every 200k",
       "100k Only",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Invulnerability",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

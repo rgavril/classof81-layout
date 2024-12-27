@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "Automatic",
+    "default": 0,
     "values": [
       "Automatic",
       "19200",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "BASE Port Address",
-    "default": "48H",
+    "default": 9,
     "values": [
       "00H",
       "08H",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "FLAG2 Polarity",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "FLAG1 Polarity",
-    "default": "Negative",
+    "default": 0,
     "values": [
       "Negative",
       "Positive"

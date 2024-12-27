@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Show girls in attract mode",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Color Test",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Use Koi Koi local ruleset",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Koi Koi input layout",
-    "default": "A Type",
+    "default": 0,
     "values": [
       "A Type",
       "B Type"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Background type",
-    "default": "Girls in-game and attract",
+    "default": 2,
     "values": [
       "Color in-game and attract",
       "Girls in-game, color in attract",
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Analyzer",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Do not change DSW2 1&2",
-    "default": "3",
+    "default": 3,
     "values": [
       "0",
       "1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Do not Change DSW2 4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Time Rank",
-    "default": "B",
+    "default": 1,
     "values": [
       "A (Longest)",
       "B",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Game Rank",
-    "default": "B",
+    "default": 1,
     "values": [
       "A (Easy)",
       "B",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Do not change DSW1 1-3",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/5 Credits",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/4 Credits",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Sound PCB Jumper",
-    "default": "Buggy Boy/Tatsumi",
+    "default": 8,
     "values": [
       "0",
       "1",

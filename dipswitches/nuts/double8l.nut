@@ -1,7 +1,7 @@
 return [
   {
     "name": "Poke %",
-    "default": "92%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Double %",
-    "default": "Hard",
+    "default": 1,
     "values": [
       "Easy",
       "Hard"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin Credit",
-    "default": "10/1",
+    "default": 1,
     "values": [
       "5/1",
       "10/1"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Held Method",
-    "default": "Held",
+    "default": 1,
     "values": [
       "Discard",
       "Held"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Quick",
+    "default": 1,
     "values": [
       "Slow",
       "Quick"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Limit",
-    "default": "30000",
+    "default": 3,
     "values": [
       "5000",
       "10000",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 3,
     "values": [
       "20",
       "30",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Withdraw",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 2,
     "values": [
       "300",
       "1200",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Mark",
+    "default": 2,
     "values": [
       "Odd",
       "Even",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "U.S.",
+    "default": 0,
     "values": [
       "U.S.",
       "U.K.",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Function Key Sequence Type",
-    "default": "Morrow (FS)",
+    "default": 0,
     "values": [
       "Morrow (FS)",
       "TeleVideo (SOH...CR)"

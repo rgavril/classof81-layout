@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character size",
-    "default": "7",
+    "default": 2,
     "values": [
       "5",
       "6",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Stop bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Parity enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Parity tx",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Auto Handshake",
-    "default": "Ignore",
+    "default": 0,
     "values": [
       "Ignore",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "300",
+    "default": 6,
     "values": [
       "50",
       "75",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time per Credit",
-    "default": "3 min",
+    "default": 0,
     "values": [
       "3 min",
       "5 min",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Enable 2 players",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

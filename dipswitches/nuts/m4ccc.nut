@@ -1,7 +1,7 @@
 return [
   {
     "name": "Profile Type",
-    "default": "Bingo Profile",
+    "default": 0,
     "values": [
       "Bingo Profile",
       "Arcade"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Accept 2 GBP Coin?",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Jackpot",
-    "default": "10 GBP",
+    "default": 1,
     "values": [
       "15 GBP",
       "10 GBP",
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Hold Mode",
-    "default": "Show Hints",
+    "default": 0,
     "values": [
       "Show Hints",
       "Auto Hold"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Coin Mech Type",
-    "default": "6 Coin",
+    "default": 0,
     "values": [
       "6 Coin",
       "5 Coin"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Reel Motor Type",
-    "default": "Slim motor",
+    "default": 0,
     "values": [
       "Slim motor",
       "Fat motor"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Payout Tube",
-    "default": "20p",
+    "default": 0,
     "values": [
       "20p",
       "10p"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Stake Setting",
-    "default": "Not fitted / 5p",
+    "default": 0,
     "values": [
       "Not fitted / 5p",
       "10p",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Out of Credit Display Inhibit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "OCD Audio Enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

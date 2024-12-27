@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Gameplay",
+    "default": 1,
     "values": [
       "Test Mode",
       "Gameplay"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "100 Points/Pulse",
+    "default": 1,
     "values": [
       "10 Points/Pulse",
       "100 Points/Pulse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin / 10 Credits",
+    "default": 1,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin / 10 Credits"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin / 10 Credits",
+    "default": 1,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin / 10 Credits"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Royal Flush / 5 of a Kind Payment",
-    "default": "500 / 1100",
+    "default": 1,
     "values": [
       "150 / 150",
       "500 / 1100"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "Without Joker",
+    "default": 1,
     "values": [
       "With Joker (also enables 5OAK",
       "Without Joker"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hold",
-    "default": "No Auto Hold",
+    "default": 1,
     "values": [
       "Auto Hold",
       "No Auto Hold"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual Payout SW",
+    "default": 1,
     "values": [
       "Hopper",
       "Manual Payout SW"

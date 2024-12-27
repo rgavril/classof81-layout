@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Bonus Bike",
-    "default": "100k and Every 50k",
+    "default": 0,
     "values": [
       "100k and Every 50k",
       "Every 100k",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "1st Half Qualifying Time",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "2nd Half Qualifying Time",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

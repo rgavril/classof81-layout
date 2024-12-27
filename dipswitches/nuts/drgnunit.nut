@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Type",
-    "default": "Coin Mode 1",
+    "default": 0,
     "values": [
       "Coin Mode 1",
       "Coin Mode 2"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Title",
-    "default": "Dragon Unit",
+    "default": 0,
     "values": [
       "Dragon Unit",
       "Castle of Dragon"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "(C) / License",
-    "default": "Athena (Japan)",
+    "default": 0,
     "values": [
       "Athena (Japan)",
       "Athena / Taito (Japan)",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200K, Every 400K",
+    "default": 1,
     "values": [
       "150K, Every 300K",
       "200K, Every 400K",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown 1-8*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "1 of 4 Scenes",
+    "default": 0,
     "values": [
       "1 of 4 Scenes",
       "1 of 8 Scenes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",

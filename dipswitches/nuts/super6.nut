@@ -1,7 +1,7 @@
 return [
   {
     "name": "SIO Channel A Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "50",
       "75",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "SIO Channel B Baud Rate",
-    "default": "1200",
+    "default": 7,
     "values": [
       "50",
       "75",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Disk Drive Type",
-    "default": "Double Sided",
+    "default": 1,
     "values": [
       "Single Sided",
       "Double Sided"

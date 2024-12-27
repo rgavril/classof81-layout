@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "HPIB address",
-    "default": "21",
+    "default": 21,
     "values": [
       "0",
       "1",
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Sys. controller",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

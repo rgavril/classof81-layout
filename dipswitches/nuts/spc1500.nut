@@ -1,7 +1,7 @@
 return [
   {
     "name": "40/80",
-    "default": "40COL",
+    "default": 0,
     "values": [
       "40COL",
       "80COL"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "Korean",
+    "default": 0,
     "values": [
       "Korean",
       "English"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "V-Res",
-    "default": "200",
+    "default": 1,
     "values": [
       "400",
       "200"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "X1",
-    "default": "Compatible Mode",
+    "default": 0,
     "values": [
       "Compatible Mode",
       "Non Compatible"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "SCSI card CRU base",
-    "default": "1200",
+    "default": 12,
     "values": [
       "0600",
       "0700",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Driver LOAD/Parity enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,14 +41,14 @@ return [
   },
   {
     "name": "SCSI card ID",
-    "default": "7",
+    "default": 0,
     "values": [
       "7"
     ]
   },
   {
     "name": "Geneve mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

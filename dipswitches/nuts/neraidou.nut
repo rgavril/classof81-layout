@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hardware Type (could be inverted)",
-    "default": "Rolla",
+    "default": 0,
     "values": [
       "Rolla",
       "Sky"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Main Game Percentage",
-    "default": "91%",
+    "default": 0,
     "values": [
       "91%",
       "92%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Reels Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Bonus Rate",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "40"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x100"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Butterfly Win Rate",
-    "default": "25%",
+    "default": 0,
     "values": [
       "25%",
       "30%",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Coinage A, B & C",
-    "default": "1 Coin / 100 Credit",
+    "default": 7,
     "values": [
       "1 Coin / 1 Credit",
       "1 Coin / 5 Credits",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "50000",
+    "default": 3,
     "values": [
       "120000",
       "100000",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Max Win Bonus",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "1 Pulse / 1000 Credits",
+    "default": 7,
     "values": [
       "1 Pulse / 100 Credits",
       "1 Pulse / 110 Credits",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "High Bet Limit",
-    "default": "240",
+    "default": 3,
     "values": [
       "104",
       "120",
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Bonus? (Left Side)",
-    "default": "x3",
+    "default": 0,
     "values": [
       "x3",
       "No Bonus"

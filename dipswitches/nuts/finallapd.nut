@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Display",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Frozen"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "$2000-1",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "$2000-2",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "$2000-3",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "$2000-4",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "$2000-5",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "$2000-6",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "PortB 0x01",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Car Type(A)",
-    "default": "McLaren/Williams",
+    "default": 0,
     "values": [
       "McLaren/Williams",
       "Lotus/March"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "PortH 0x01",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Automatic Car Select",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "PortH 0x04",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Enable Onscreen Diagnostics",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "PortH 0x10",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "PortH 0x40",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Car Type(B)",
-    "default": "Williams/Lotus",
+    "default": 1,
     "values": [
       "McLaren/March",
       "Williams/Lotus"

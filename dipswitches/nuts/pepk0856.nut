@@ -1,7 +1,7 @@
 return [
   {
     "name": "Line Frequency",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Credit",
-    "default": "Coin Play",
+    "default": 0,
     "values": [
       "Coin Play",
       "Credit Play"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Acceptor",
-    "default": "Optical",
+    "default": 1,
     "values": [
       "Mechanical",
       "Optical"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Progressive",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Max Hopper Pay",
-    "default": "400 Coins",
+    "default": 1,
     "values": [
       "300 Coins",
       "400 Coins",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Show Pay Table",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

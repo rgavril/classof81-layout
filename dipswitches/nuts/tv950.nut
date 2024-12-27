@@ -1,7 +1,7 @@
 return [
   {
     "name": "S01",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S02",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "S03",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "S04",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "S05",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "S06",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "S07",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "S08",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "S09",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "S10",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "S11",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "S12",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "S13",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "S15",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "S16",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "S17",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "S18",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "S19",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S20",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

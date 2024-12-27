@@ -1,7 +1,7 @@
 return [
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Serial Port",
-    "default": "INS8250",
+    "default": 1,
     "values": [
       "Z8530 SCC",
       "INS8250"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "RAM banks",
-    "default": "640K - 512/128",
+    "default": 6,
     "values": [
       "128K",
       "256K",
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "FDD Type",
-    "default": "360K",
+    "default": 0,
     "values": [
       "360K",
       "720K"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "FDD spinup",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "HDD ROM",
-    "default": "External",
+    "default": 1,
     "values": [
       "Internal",
       "External"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Scroll rate",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Color 80x25",
+    "default": 2,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Throw Time",
-    "default": "5 seconds",
+    "default": 1,
     "values": [
       "3 seconds",
       "5 seconds",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Video Invert",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Marker Size",
-    "default": "Small",
+    "default": 0,
     "values": [
       "Small",
       "Large"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"

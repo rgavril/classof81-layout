@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "2P Mode Games",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Speed / Difficulty",
-    "default": "Middle",
+    "default": 1,
     "values": [
       "Slow",
       "Middle",

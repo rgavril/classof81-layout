@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Percentage",
-    "default": "75%",
+    "default": 0,
     "values": [
       "75%",
       "78%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "D-UP Percentage",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Reels Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bonus Score",
-    "default": "32",
+    "default": 0,
     "values": [
       "32",
       "24"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x100"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Payout Limit",
-    "default": "5000",
+    "default": 3,
     "values": [
       "0",
       "1000",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Clown Percentage",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coinage A, B & C",
-    "default": "1 Coin / 100 Credit",
+    "default": 7,
     "values": [
       "1 Coin / 1 Credit",
       "1 Coin / 5 Credits",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Max Win Bonus",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "8",
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "1 Pulse / 1000 Credits",
+    "default": 7,
     "values": [
       "1 Pulse / 100 Credits",
       "1 Pulse / 110 Credits",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "80",
+    "default": 3,
     "values": [
       "32",
       "64",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

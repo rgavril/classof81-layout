@@ -1,7 +1,7 @@
 return [
   {
     "name": "Genmod Turbo mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Genmod TI mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "MEMEX SW1",
-    "default": "LED full-bright",
+    "default": 1,
     "values": [
       "LED half-bright for 0 WS",
       "LED full-bright"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "MEMEX SW2",
-    "default": "Lock out all BA mirrors",
+    "default": 0,
     "values": [
       "Lock out all BA mirrors",
       "Lock out page BA only"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "MEMEX SW3",
-    "default": "Enable pages E8-EB",
+    "default": 0,
     "values": [
       "Enable pages E8-EB",
       "Lock out pages E8-EB"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "MEMEX SW4",
-    "default": "Enable pages EC-EF",
+    "default": 0,
     "values": [
       "Enable pages EC-EF",
       "Lock out pages EC-EF"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "MEMEX SW5",
-    "default": "Enable pages F0-F3",
+    "default": 0,
     "values": [
       "Enable pages F0-F3",
       "Lock out pages F0-F3"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "MEMEX SW6",
-    "default": "Enable pages F4-F7",
+    "default": 0,
     "values": [
       "Enable pages F4-F7",
       "Lock out pages F4-F7"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "MEMEX SW7",
-    "default": "Enable pages F8-FB",
+    "default": 0,
     "values": [
       "Enable pages F8-FB",
       "Lock out pages F8-FB"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "MEMEX SW8",
-    "default": "Enable pages FC-FF",
+    "default": 0,
     "values": [
       "Enable pages FC-FF",
       "Lock out pages FC-FF"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credits For 9-Hole",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Domestic",
+    "default": 0,
     "values": [
       "Domestic",
       "Foreign"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Flight Distance",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "-30 Yards",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Licensed To",
-    "default": "Romstar",
+    "default": 0,
     "values": [
       "Romstar",
       "None (Japan)",

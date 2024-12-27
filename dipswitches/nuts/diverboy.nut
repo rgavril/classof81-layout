@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Display Copyright",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

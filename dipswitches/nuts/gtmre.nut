@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Controller",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Wheel"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "360 degree wheel",
+    "default": 2,
     "values": [
       "1P Side",
       "Both Sides",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Use Brake",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "National Anthem & Flag",
-    "default": "Use Memory",
+    "default": 0,
     "values": [
       "Use Memory",
       "Anthem Only",

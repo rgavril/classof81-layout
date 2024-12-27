@@ -1,7 +1,7 @@
 return [
   {
     "name": "RS-232 console",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Display format",
-    "default": "20 lines of 80 characters",
+    "default": 2,
     "values": [
       "16 lines of 32 characters",
       "16 lines of 64 characters",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Display nationality",
-    "default": "Europe",
+    "default": 1,
     "values": [
       "US",
       "Europe"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "R2 Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Dumb terminal"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Interface Type",
-    "default": "ABC 80/800/802/806",
+    "default": 1,
     "values": [
       "ABC 1600",
       "ABC 80/800/802/806"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "RAM Size",
-    "default": "8 KB",
+    "default": 1,
     "values": [
       "2 KB",
       "8 KB"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "8\"",
+    "default": 0,
     "values": [
       "8\"",
       "5.25\""
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "RDY Pin",
-    "default": "P2-6 (8\")",
+    "default": 0,
     "values": [
       "P2-6 (8\")",
       "P2-34 (5.25\")"
@@ -33,14 +33,14 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Unused",
+    "default": 0,
     "values": [
       "Unused"
     ]
   },
   {
     "name": "Drive Type",
-    "default": "BASF 6105",
+    "default": 0,
     "values": [
       "BASF 6105",
       "BASF 6106"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Card Address",
-    "default": "46",
+    "default": 0,
     "values": [
       "46"
     ]

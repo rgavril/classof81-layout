@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key Coinage",
-    "default": "1 Key / 10 Credits",
+    "default": 3,
     "values": [
       "1 Key / 1 Credits",
       "1 Key / 2 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Pay Out",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Key"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "8",
+    "default": 1,
     "values": [
       "1",
       "8",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "60",
+    "default": 3,
     "values": [
       "10",
       "20",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "40k",
+    "default": 3,
     "values": [
       "10k",
       "20k",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "55%",
+    "default": 0,
     "values": [
       "55%",
       "60%",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Double-Up Rate",
-    "default": "98%",
+    "default": 7,
     "values": [
       "82%",
       "84%",
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "10k",
+    "default": 1,
     "values": [
       "5k",
       "10k"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

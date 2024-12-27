@@ -1,7 +1,7 @@
 return [
   {
     "name": "GK switch 1",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "GK Off",
       "Normal"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "GK switch 2",
-    "default": "Op Sys",
+    "default": 1,
     "values": [
       "GRAM 0",
       "Op Sys"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "GK switch 3",
-    "default": "TI BASIC",
+    "default": 1,
     "values": [
       "GRAM 1-2",
       "TI BASIC"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "GK switch 4",
-    "default": "W/P",
+    "default": 1,
     "values": [
       "Bank 1",
       "W/P",
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "GK switch 5",
-    "default": "Loader On",
+    "default": 0,
     "values": [
       "Loader On",
       "Loader Off"

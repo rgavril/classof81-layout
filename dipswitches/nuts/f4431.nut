@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Country Code",
-    "default": "U.S. (ASCII)",
+    "default": 0,
     "values": [
       "U.S. (ASCII)",
       "Sweden/Finland",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Facit 4431?",
+    "default": 1,
     "values": [
       "Invalid?",
       "Facit 4431?",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Production Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Enable EAROM Save",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

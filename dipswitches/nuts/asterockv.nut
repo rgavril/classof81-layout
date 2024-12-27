@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "Italian",
+    "default": 3,
     "values": [
       "English",
       "French",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Records Table",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Special"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Special"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Coin A 1/1 Coin B 1/1 Coin C 1/2",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

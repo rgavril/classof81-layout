@@ -1,7 +1,7 @@
 return [
   {
     "name": "Speed mode",
-    "default": "High",
+    "default": 1,
     "values": [
       "Slow",
       "High"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Monitor Type",
-    "default": "15 KHz",
+    "default": 0,
     "values": [
       "15 KHz",
       "24 KHz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Auto-boot floppy at start-up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "BASIC",
-    "default": "N88-BASIC",
+    "default": 0,
     "values": [
       "N88-BASIC",
       "N-BASIC"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Terminal mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Text width",
-    "default": "80 chars/line",
+    "default": 1,
     "values": [
       "40 chars/line",
       "80 chars/line"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Text height",
-    "default": "25 lines/screen",
+    "default": 1,
     "values": [
       "20 lines/screen",
       "25 lines/screen"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Enable S parameter",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Enable DEL code",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Memory wait",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Disable CMD SING",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Parity generate",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Parity type",
-    "default": "Even",
+    "default": 0,
     "values": [
       "Even",
       "Odd"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Serial character length",
-    "default": "8 bits/char",
+    "default": 1,
     "values": [
       "7 bits/char",
       "8 bits/char"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Stop bit length",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Enable X parameter",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Half",
+    "default": 0,
     "values": [
       "Half",
       "Full"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "BASIC speed select",
-    "default": "High Speed Mode (V1H, V2)",
+    "default": 0,
     "values": [
       "High Speed Mode (V1H, V2)",
       "Standard Mode (V1S)"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "BASIC Version select",
-    "default": "V2 Mode",
+    "default": 1,
     "values": [
       "V1 Mode",
       "V2 Mode"

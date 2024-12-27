@@ -1,7 +1,7 @@
 return [
   {
     "name": "Drive Number",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Auto Spin Up",
-    "default": "By Controller",
+    "default": 1,
     "values": [
       "By Drive Unit",
       "By Controller"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Terminator",
-    "default": "On (Last Drive)",
+    "default": 1,
     "values": [
       "Off",
       "On (Last Drive)"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Temporary Mode",
-    "default": "1024 Bytes/Sector",
+    "default": 1,
     "values": [
       "512 Bytes/Sector",
       "1024 Bytes/Sector"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Eject Mode",
-    "default": "Eject Button",
+    "default": 0,
     "values": [
       "Eject Button",
       "Controller"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Loading Control",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

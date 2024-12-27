@@ -1,7 +1,7 @@
 return [
   {
     "name": "Key Out",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x100"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Rate",
-    "default": "1/32",
+    "default": 1,
     "values": [
       "1/24",
       "1/32"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Spin Rate",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Double Up Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Game Rate",
-    "default": "50%",
+    "default": 0,
     "values": [
       "50%",
       "60%",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bonus Min Bet",
-    "default": "16",
+    "default": 0,
     "values": [
       "16",
       "32"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Number of Jackpot",
-    "default": "6 3",
+    "default": 1,
     "values": [
       "3 2",
       "6 3"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Payout Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Random"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Number of Clown",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1000 Credits",
+    "default": 7,
     "values": [
       "100 Credits",
       "110 Credits",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Bet Limit",
-    "default": "80 (Limit of Bonus: All)",
+    "default": 3,
     "values": [
       "32 (Limit of Bonus: 1/4)",
       "64 (Limit of Bonus: 1/2)",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Coinage A, B & C",
-    "default": "1 Coin / 100 Credit",
+    "default": 7,
     "values": [
       "1 Coin / 1 Credit",
       "1 Coin / 5 Credits",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Bonus (switch-1)",
-    "default": "40000",
+    "default": 1,
     "values": [
       "20000",
       "40000",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Bonus (switch-2)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Max Bonus",
-    "default": "200000",
+    "default": 1,
     "values": [
       "100000",
       "200000"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "8",
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "DSW5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "DSW6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -287,7 +287,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -295,7 +295,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -303,7 +303,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -311,7 +311,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -319,7 +319,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

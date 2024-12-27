@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage (10 Buttons)",
-    "default": "1P 3C / Continue 2C",
+    "default": 10,
     "values": [
       "1P 5C / Continue 5C",
       "1P 5C / Continue 4C",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Coinage (6 Buttons)",
-    "default": "1P 2C / Continue 1C",
+    "default": 5,
     "values": [
       "1P 4C / Continue 2C",
       "1P 3C / Continue 3C",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Gauge Increment Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Gauge Decrement Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Loud",
+    "default": 0,
     "values": [
       "Loud",
       "Medium",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Enable Secret Mode (step3of3)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Enable Secret Mode (step2of3)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Enable Secret Mode (step1of3)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

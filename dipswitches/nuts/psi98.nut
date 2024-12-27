@@ -1,7 +1,7 @@
 return [
   {
     "name": "SIO B",
-    "default": "Keyboard",
+    "default": 1,
     "values": [
       "RS232",
       "Keyboard"

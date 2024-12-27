@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "100k",
+    "default": 0,
     "values": [
       "100k",
       "200k",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

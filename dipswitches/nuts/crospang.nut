@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus Power (Points)",
-    "default": "5k 20k 15k+",
+    "default": 0,
     "values": [
       "5k 20k 15k+",
       "8k 23k 15k+"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Number of Powers",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Extra Balls per Move",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "6/7",
+    "default": 0,
     "values": [
       "6/7",
       "7/8",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bonus Power (Bomb)",
-    "default": "3 Chain Reactions",
+    "default": 0,
     "values": [
       "3 Chain Reactions",
       "4 Chain Reactions"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Minimum Balls per Row",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

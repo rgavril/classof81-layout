@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage 1",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0001",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coinage 2",
-    "default": "0000",
+    "default": 0,
     "values": [
       "0000",
       "0001",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Rematches",
-    "default": "7",
+    "default": 1,
     "values": [
       "3",
       "7"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

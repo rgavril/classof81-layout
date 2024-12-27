@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Display Mode",
-    "default": "CGA 15.75kHz",
+    "default": 1,
     "values": [
       "VGA 31.5kHz",
       "CGA 15.75kHz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "High Score Saver",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "100",
+    "default": 5,
     "values": [
       "12",
       "17",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "30",
+    "default": 7,
     "values": [
       "2",
       "4",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Time For Super Course",
-    "default": "50 s",
+    "default": 0,
     "values": [
       "50 s",
       "60 s"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 7,
     "values": [
       "110",
       "300",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Mode switch",
-    "default": "Conversational",
+    "default": 0,
     "values": [
       "Conversational",
       "Page edit"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "No Parity",
-    "default": "No Parity",
+    "default": 0,
     "values": [
       "No Parity",
       "Parity"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Parity Select",
-    "default": "Odd or Mark",
+    "default": 0,
     "values": [
       "Odd or Mark",
       "Even or Space"

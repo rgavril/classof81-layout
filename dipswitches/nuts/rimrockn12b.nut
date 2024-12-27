@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "4 players",
+    "default": 3,
     "values": [
       "1 player",
       "2 players",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "Individual",
+    "default": 1,
     "values": [
       "Common",
       "Individual"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Video Sync",
-    "default": "Negative",
+    "default": 1,
     "values": [
       "Positive",
       "Negative"

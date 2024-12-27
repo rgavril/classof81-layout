@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tokens",
-    "default": "OK",
+    "default": 0,
     "values": [
       "OK",
       "ERROR!"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Setup",
-    "default": "Full Tick",
+    "default": 0,
     "values": [
       "Full Tick",
       "104 & 105",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0x00",
+    "default": 1,
     "values": [
       "0x20",
       "0x00"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Tickets",
-    "default": "OK",
+    "default": 0,
     "values": [
       "OK",
       "ERROR!"

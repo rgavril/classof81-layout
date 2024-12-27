@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Initial Display Mode",
-    "default": "Internal ECD350, External MDA/HERC",
+    "default": 2,
     "values": [
       "Internal MD, External CGA80",
       "Internal MD, External CGA40",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "MC6845 Mode",
-    "default": "EGA",
+    "default": 0,
     "values": [
       "EGA",
       "CGA/MDA/HERC"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Font",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Danish",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Default Display Mode",
-    "default": "External EGA",
+    "default": 0,
     "values": [
       "External EGA",
       "External CGA in 40 Column Mode",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Monitor",
-    "default": "ECD (Enhanced RGB)",
+    "default": 1,
     "values": [
       "CD (Standard RGB)",
       "ECD (Enhanced RGB)"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Foreign Fonts",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Internal Graphics Adapter",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Display Type",
-    "default": "1001 - MDA SECONDARY, EGA HI RES ENHANCED",
+    "default": 9,
     "values": [
       "0000 - MDA PRIMARY, EGA COLOR, 40x25",
       "0001 - MDA PRIMARY, EGA COLOR, 80x25",

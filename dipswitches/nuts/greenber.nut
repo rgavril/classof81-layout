@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "2",
       "3 (duplicate)",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Replay",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "7000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",

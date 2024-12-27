@@ -1,7 +1,7 @@
 return [
   {
     "name": "Printer Baud",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Model",
-    "default": "TS803",
+    "default": 0,
     "values": [
       "TS803",
       "TS803H"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Model specific #1",
-    "default": "On - TS803 leave here, TS803H Local",
+    "default": 0,
     "values": [
       "On - TS803 leave here, TS803H Local",
       "Off - TS803H remote"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Model specific #2",
-    "default": "On - TS803 leave here, TS803H 2-head",
+    "default": 0,
     "values": [
       "On - TS803 leave here, TS803H 2-head",
       "Off - TS803H 4-head"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Mains frequency",
-    "default": "60 Hz",
+    "default": 0,
     "values": [
       "60 Hz",
       "50 Hz"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Model specific #3",
-    "default": "Off - TS803H leave here",
+    "default": 1,
     "values": [
       "On",
       "Off - TS803H leave here"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Reverse Video",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Reverse",
       "Normal"

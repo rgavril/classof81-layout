@@ -1,7 +1,7 @@
 return [
   {
     "name": "Board ID",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",

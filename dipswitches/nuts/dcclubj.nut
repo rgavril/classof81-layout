@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Start Credit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Timing Meter",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Initial Balls",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Balls Limit",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Text width",
-    "default": "80 chars/line",
+    "default": 1,
     "values": [
       "40 chars/line",
       "80 chars/line"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "Screen 1",
+    "default": 1,
     "values": [
       "Screen 0",
       "Screen 1"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "FP Mode",
-    "default": "FP-1100",
+    "default": 1,
     "values": [
       "FP-1000",
       "FP-1100"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "CMT Baud Rate",
-    "default": "300 Baud",
+    "default": 1,
     "values": [
       "1200 Baud",
       "300 Baud"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Printer Type",
-    "default": "FP-1012PR",
+    "default": 1,
     "values": [
       "<undefined>",
       "FP-1012PR"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Keyboard Type",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "<undefined>",
       "Normal"

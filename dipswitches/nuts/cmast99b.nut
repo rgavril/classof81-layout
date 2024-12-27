@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Min Bet",
-    "default": "15",
+    "default": 0,
     "values": [
       "15",
       "30",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Double Mode",
-    "default": "Yes (double)",
+    "default": 1,
     "values": [
       "No (collect)",
       "Yes (double)"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "99",
+    "default": 3,
     "values": [
       "15",
       "30",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Double Picture",
-    "default": "Fruit",
+    "default": 0,
     "values": [
       "Fruit",
       "???"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "100",
+    "default": 1,
     "values": [
       "1",
       "100"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "85%",
+    "default": 6,
     "values": [
       "55%",
       "60%",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Double Up Game Pay Rate",
-    "default": "70%",
+    "default": 1,
     "values": [
       "60%",
       "70%"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 1,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/10 Credits",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/100 Credits",
+    "default": 0,
     "values": [
       "1 Coin/100 Credits",
       "1 Coin/110 Credits",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Bonus 2 Poll Mode",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Bonus 3 Poll Mode",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "???",
-    "default": "30-40-50",
+    "default": 0,
     "values": [
       "30-40-50",
       "40-55-70"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "When Watermelon Appear in Center Credit of Bonus Up Mode",
-    "default": "1-3-5",
+    "default": 0,
     "values": [
       "1-3-5",
       "2-4-6"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "When Bet, Credit of Bonus Up Mode",
-    "default": "1-3-5",
+    "default": 0,
     "values": [
       "1-3-5",
       "2-4-6"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "The Max Credit of Bonus 1-3",
-    "default": "999-1999-3999",
+    "default": 0,
     "values": [
       "999-1999-3999",
       "2000-3000-4500"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Start Up Credit of Bonus 1-3",
-    "default": "499-999-1999",
+    "default": 1,
     "values": [
       "330-660-990",
       "499-999-1999"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Start Up Credit of Extra Bonus",
-    "default": "330",
+    "default": 0,
     "values": [
       "330",
       "550"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Max Pay Credit Limit",
-    "default": "100,000",
+    "default": 7,
     "values": [
       "5,000",
       "10,000",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Display Credit Limit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Add On Bonus Poll",
-    "default": "9-5-1",
+    "default": 1,
     "values": [
       "6-3-1",
       "9-5-1"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Add On Bonus Min Bet",
-    "default": "16",
+    "default": 0,
     "values": [
       "16",
       "32"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Alarm Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Key In Limit",
-    "default": "20,000",
+    "default": 3,
     "values": [
       "1,000",
       "5,000",
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Bonus Girl",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Credit Earned, Profit Table Set Zero",
-    "default": "990,000",
+    "default": 7,
     "values": [
       "20,000",
       "30,000",
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Bonus 2 Poll Rate",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Bonus 3 Poll Rate",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -261,7 +261,7 @@ return [
   },
   {
     "name": "0-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -269,7 +269,7 @@ return [
   },
   {
     "name": "0-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -277,7 +277,7 @@ return [
   },
   {
     "name": "0-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -285,7 +285,7 @@ return [
   },
   {
     "name": "0-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -293,7 +293,7 @@ return [
   },
   {
     "name": "0-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -301,7 +301,7 @@ return [
   },
   {
     "name": "0-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -309,7 +309,7 @@ return [
   },
   {
     "name": "0-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -317,7 +317,7 @@ return [
   },
   {
     "name": "0-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -325,7 +325,7 @@ return [
   },
   {
     "name": "1-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -333,7 +333,7 @@ return [
   },
   {
     "name": "1-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -341,7 +341,7 @@ return [
   },
   {
     "name": "1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -349,7 +349,7 @@ return [
   },
   {
     "name": "1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -357,7 +357,7 @@ return [
   },
   {
     "name": "1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -365,7 +365,7 @@ return [
   },
   {
     "name": "1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -373,7 +373,7 @@ return [
   },
   {
     "name": "1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -381,7 +381,7 @@ return [
   },
   {
     "name": "1-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -389,7 +389,7 @@ return [
   },
   {
     "name": "2-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -397,7 +397,7 @@ return [
   },
   {
     "name": "2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -405,7 +405,7 @@ return [
   },
   {
     "name": "2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -413,7 +413,7 @@ return [
   },
   {
     "name": "2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -421,7 +421,7 @@ return [
   },
   {
     "name": "2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -429,7 +429,7 @@ return [
   },
   {
     "name": "2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -437,7 +437,7 @@ return [
   },
   {
     "name": "2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -445,7 +445,7 @@ return [
   },
   {
     "name": "2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

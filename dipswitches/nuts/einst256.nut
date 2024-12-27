@@ -1,7 +1,7 @@
 return [
   {
     "name": "Line Standard",
-    "default": "525 lines 60Hz",
+    "default": 0,
     "values": [
       "525 lines 60Hz",
       "625 lines 50Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Printer",
-    "default": "Parallel",
+    "default": 0,
     "values": [
       "Parallel",
       "Serial"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English (ISO646)",
+    "default": 0,
     "values": [
       "English (ISO646)",
       "ASCII",

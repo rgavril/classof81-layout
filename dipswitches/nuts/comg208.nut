@@ -1,7 +1,7 @@
 return [
   {
     "name": "Black Jack",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Craps",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Red Dog",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Dup",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Pay Table / Win Pair / BJ Wins",
-    "default": "200-40-10-8-5-4-3-2-1 / Kings / 3 to 1",
+    "default": 3,
     "values": [
       "250-50-20-8-6-4-3-2-1 / Jacks / Dealer Keeps Tier",
       "250-50-25-10-8-5-3-2-1 / Aces",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Lockout",
-    "default": "No Lockout",
+    "default": 0,
     "values": [
       "No Lockout",
       "No Lockout",

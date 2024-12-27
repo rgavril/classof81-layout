@@ -1,7 +1,7 @@
 return [
   {
     "name": "Alpha Fighter Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Head On Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Alpha Fighter Bonus Life",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "1500"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Alpha Fighter Final UFO Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

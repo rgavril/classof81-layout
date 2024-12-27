@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Min Bet to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Min Bet to play Fever",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Unlimited",
+    "default": 1,
     "values": [
       "100000",
       "Unlimited"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "W-UP Bonus Target",
-    "default": "1500",
+    "default": 0,
     "values": [
       "1500",
       "3000",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Auto"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "W-UP Bonus Rate",
-    "default": "200",
+    "default": 0,
     "values": [
       "200",
       "300",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "W-UP Chance",
-    "default": "94%",
+    "default": 0,
     "values": [
       "94%",
       "96%",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "W-UP Type",
-    "default": "High-Low",
+    "default": 1,
     "values": [
       "None",
       "High-Low",
@@ -118,7 +118,7 @@ return [
   },
   {
     "name": "Strip Girl",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -126,7 +126,7 @@ return [
   },
   {
     "name": "Ability",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Main Game Chance",
-    "default": "89%",
+    "default": 8,
     "values": [
       "69%",
       "72%",
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Five Jokers",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Payout Select",
-    "default": "Ticket",
+    "default": 0,
     "values": [
       "Ticket",
       "Hopper"
@@ -188,7 +188,7 @@ return [
   },
   {
     "name": "Key Out Rate",
-    "default": "1:1",
+    "default": 0,
     "values": [
       "1:1",
       "10:1",
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Card Select",
-    "default": "Tetris",
+    "default": 1,
     "values": [
       "Poker",
       "Tetris"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Ticket Rate",
-    "default": "1:1",
+    "default": 0,
     "values": [
       "1:1",
       "5:1",
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Win Table",
-    "default": "Change",
+    "default": 0,
     "values": [
       "Change",
       "Fixed"

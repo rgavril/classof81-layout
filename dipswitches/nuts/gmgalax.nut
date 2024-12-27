@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Select",
-    "default": "Ghost Muncher",
+    "default": 0,
     "values": [
       "Ghost Muncher",
       "Galaxian"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Galaxian - Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Galaxian - Bonus Life",
-    "default": "4000",
+    "default": 0,
     "values": [
       "4000",
       "5000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Galaxian - Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Ghost Muncher - Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Ghost Muncher - Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Ghost Muncher - Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",

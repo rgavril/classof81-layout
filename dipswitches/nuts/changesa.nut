@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "Free Play"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "1st Bonus Life",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "40000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "2nd Bonus Life",
-    "default": "50000",
+    "default": 0,
     "values": [
       "50000",
       "100000"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

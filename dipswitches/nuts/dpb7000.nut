@@ -1,7 +1,7 @@
 return [
   {
     "name": "Auto-Start",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Baud Rate for Terminal",
-    "default": "9600",
+    "default": 13,
     "values": [
       "50",
       "75",
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "NTSC/PAL",
-    "default": "PAL",
+    "default": 1,
     "values": [
       "NTSC",
       "PAL"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Diagnostic Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -118,7 +118,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -126,7 +126,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -142,7 +142,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -150,7 +150,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -158,7 +158,7 @@ return [
   },
   {
     "name": "Disc Group 0 Count",
-    "default": "One",
+    "default": 0,
     "values": [
       "One",
       "Two",
@@ -168,7 +168,7 @@ return [
   },
   {
     "name": "Disc Group 0 Type",
-    "default": "Floppy Disc",
+    "default": 3,
     "values": [
       "None",
       "160Mb Fujitsu",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Disc Group 1 Count",
-    "default": "One",
+    "default": 0,
     "values": [
       "One",
       "Two",
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Disc Group 1 Type",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "160Mb Fujitsu",
@@ -204,7 +204,7 @@ return [
   },
   {
     "name": "Disc Group 2 Count",
-    "default": "One",
+    "default": 0,
     "values": [
       "One",
       "Two",
@@ -214,7 +214,7 @@ return [
   },
   {
     "name": "Disc Group 2 Type",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "160Mb Fujitsu",
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Start Up In Dialogue",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -235,7 +235,7 @@ return [
   },
   {
     "name": "TDS Box Encoding",
-    "default": "Binary",
+    "default": 0,
     "values": [
       "Binary",
       "ASCII"
@@ -243,7 +243,7 @@ return [
   },
   {
     "name": "TDS Box Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Monitor"
@@ -251,7 +251,7 @@ return [
   },
   {
     "name": "TDS Box Standard",
-    "default": "PAL",
+    "default": 1,
     "values": [
       "NTSC",
       "PAL"

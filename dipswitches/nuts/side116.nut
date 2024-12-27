@@ -1,7 +1,7 @@
 return [
   {
     "name": "sIDE-1/16 ROM",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "sIDE-1/16 ROM Address",
-    "default": "Range C800h",
+    "default": 0,
     "values": [
       "Range C800h",
       "Range CC00h",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "sIDE-1/16 IDE IRQ",
-    "default": "Level 5",
+    "default": 0,
     "values": [
       "Level 5",
       "Level 2"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "sIDE-1/16 IDE",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"

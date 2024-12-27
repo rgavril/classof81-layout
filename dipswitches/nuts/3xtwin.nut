@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base I/O Address",
-    "default": "320",
+    "default": 9,
     "values": [
       "200",
       "220",

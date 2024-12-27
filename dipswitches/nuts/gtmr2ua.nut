@@ -1,7 +1,7 @@
 return [
   {
     "name": "Linked Operation Board Number",
-    "default": "No Communication",
+    "default": 0,
     "values": [
       "No Communication",
       "Board #1",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Wheel (360)",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Optional Mode Of Pedal Function",
-    "default": "Microswitch",
+    "default": 0,
     "values": [
       "Microswitch",
       "Potentiometer"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

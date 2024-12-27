@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "10000 points",
+    "default": 1,
     "values": [
       "8000 points",
       "10000 points",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Reset Hall of Fame",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Reset Game Data",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

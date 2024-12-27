@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tennis Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Baseball Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Soccer Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "10-Yard Fight Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Golf Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Wild Gunman Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hogan's Alley Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Duck Hunt Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Wrecking Crew Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Excitebike Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Kung Fu Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Super Mario Bros. Mirroring",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "V"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Ice Climber Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Pinball Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Clu Clu Land Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Stack Up Mirroring",
-    "default": "V",
+    "default": 1,
     "values": [
       "H",
       "V"

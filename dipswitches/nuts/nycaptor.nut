@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "50k 150k 200k+",
+    "default": 1,
     "values": [
       "20k 80k 80k+",
       "50k 150k 200k+",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Infinite Bullets",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Training Spot",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Coinage Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Reset Damage",
-    "default": "Every Stage",
+    "default": 0,
     "values": [
       "Every Stage",
       "Every 4 Stages"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "No Hit (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Coin Slots",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"

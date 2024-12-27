@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Service Mode/Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1 Coin/1 Credit B 1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "A 1 Coin/1 Credit B 1 Coin/2 Credits",
       "A 2 Coins/3 Credits B 1 Coin/3 Credits"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "80000",
+    "default": 0,
     "values": [
       "80000",
       "120000"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

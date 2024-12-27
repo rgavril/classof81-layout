@@ -1,7 +1,7 @@
 return [
   {
     "name": "IBM MFC J1: IRQ",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -13,7 +13,7 @@ return [
   },
   {
     "name": "IBM MFC SW1: Base Address",
-    "default": "2A00",
+    "default": 0,
     "values": [
       "2A00",
       "2A10",

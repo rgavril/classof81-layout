@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Counters",
-    "default": "Two",
+    "default": 1,
     "values": [
       "One",
       "Two"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Bill Validator",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Attract Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Powerup Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Head Size",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Large"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "2-player",
+    "default": 0,
     "values": [
       "2-player",
       "4-player"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Super Game Payment Type",
-    "default": "Manual - User Choice 2",
+    "default": 3,
     "values": [
       "Manual - User Choice 1",
       "Manual - Coins",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Direct Payout (tickets)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

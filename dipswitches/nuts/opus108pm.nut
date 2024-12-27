@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base Address",
-    "default": "A0000",
+    "default": 10,
     "values": [
       "00000",
       "10000",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "IRQ",
-    "default": "IRQ 7",
+    "default": 2,
     "values": [
       "IRQ 2",
       "IRQ 3",

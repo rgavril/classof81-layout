@@ -1,7 +1,7 @@
 return [
   {
     "name": "BIOS Address",
-    "default": "C800:0",
+    "default": 1,
     "values": [
       "Disable BIOS",
       "C800:0",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Floppy Controller",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Hard Disk I/O Port Address",
-    "default": "1F0-1F7",
+    "default": 1,
     "values": [
       "170-177",
       "1F0-1F7"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "IRQ Select",
-    "default": "IRQ14",
+    "default": 0,
     "values": [
       "IRQ14",
       "IRQ15"

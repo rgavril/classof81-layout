@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out",
-    "default": "90% (Easy)",
+    "default": 0,
     "values": [
       "90% (Easy)",
       "85%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Bet Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "10",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "DIPSW 1-8",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "DIPSW 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "DIPSW 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "DIPSW 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "DIPSW 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Graphic ROM Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

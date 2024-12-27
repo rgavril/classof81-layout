@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Key-In Rate",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Key-out Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "Coin Acceptor",
+    "default": 0,
     "values": [
       "Coin Acceptor",
       "Key-In"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "25",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Bonus Bet",
-    "default": "75",
+    "default": 0,
     "values": [
       "75",
       "125",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Double Up Jackpot",
-    "default": "50,000",
+    "default": 0,
     "values": [
       "50,000",
       "100,000",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Joystick"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Black and White",
+    "default": 0,
     "values": [
       "Black and White",
       "Color"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Hide Credits",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Number Type",
-    "default": "Numbers",
+    "default": 0,
     "values": [
       "Numbers",
       "Circle Tiles"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Return Coins",
+    "default": 0,
     "values": [
       "Return Coins",
       "Key-Out"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

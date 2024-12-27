@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "2 Medals",
+    "default": 0,
     "values": [
       "2 Medals",
       "3 Medals",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Standard of Payout",
-    "default": "90%",
+    "default": 15,
     "values": [
       "15%",
       "20%",
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Play Timer",
-    "default": "20",
+    "default": 3,
     "values": [
       "8",
       "12",
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Backup Memory",
-    "default": "Keep",
+    "default": 0,
     "values": [
       "Keep",
       "Clear"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

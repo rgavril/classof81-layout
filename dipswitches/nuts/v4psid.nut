@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "High Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Low Token Payout Proportion",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Target Percentage (if key not fitted)",
-    "default": "Unset (Program Optimum)",
+    "default": 0,
     "values": [
       "Unset (Program Optimum)",
       "70",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin Alarm Inhibit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Allow Multiple Credits",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Payout when Empty?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Bank Win",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "Pay Live"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Collect Mode",
-    "default": "Credit and Bank",
+    "default": 0,
     "values": [
       "Credit and Bank",
       "Bank Only"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Hall of Fame Entry",
-    "default": "Full Names",
+    "default": 0,
     "values": [
       "Full Names",
       "Initials"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Long Game",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Clear MPU Memory",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

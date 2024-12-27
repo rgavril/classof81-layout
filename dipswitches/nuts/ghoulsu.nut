@@ -1,7 +1,7 @@
 return [
   {
     "name": "Starting Level",
-    "default": "Level 1 (1st half)",
+    "default": 0,
     "values": [
       "Level 1 (1st half)",
       "Level 1 (2nd half)",
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "Invulnerability",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Slow Motion",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 0,
     "values": [
       "Upright 1 Player",
       "Upright 2 Players",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Starting Weapon",
-    "default": "Spear",
+    "default": 0,
     "values": [
       "Spear",
       "Knife",
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "2",
+    "default": 1,
     "values": [
       "1 (Easiest)",
       "2",
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Armor on New Life",
-    "default": "Silver Armor",
+    "default": 1,
     "values": [
       "Golden Armor",
       "Silver Armor",
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "40K, 70K and every 80K",
+    "default": 3,
     "values": [
       "10K, 30K and every 30K",
       "20K, 50K and every 70K",
@@ -126,7 +126,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -134,7 +134,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -142,7 +142,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -168,7 +168,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -176,7 +176,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -184,7 +184,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -192,7 +192,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Game",
+    "default": 0,
     "values": [
       "Game",
       "Test"
@@ -200,7 +200,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

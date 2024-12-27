@@ -1,7 +1,7 @@
 return [
   {
     "name": "Co-Processor",
-    "default": "65C102 3 MHz",
+    "default": 0,
     "values": [
       "65C102 3 MHz",
       "65C102 4 MHz",

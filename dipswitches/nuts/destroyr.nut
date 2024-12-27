@@ -1,7 +1,7 @@
 return [
   {
     "name": "Extended Play",
-    "default": "2500 points",
+    "default": 1,
     "values": [
       "1500 points",
       "2500 points",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "100 seconds",
+    "default": 2,
     "values": [
       "50 seconds",
       "75 seconds",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 3,
     "values": [
       "German",
       "French",

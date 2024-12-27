@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/1",
+    "default": 4,
     "values": [
       "A 2/1 B 2/1",
       "A 1/1 B 4/1",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Bonus Life at",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "15000"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Additional Bonus Life Every",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "25000"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Sound Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

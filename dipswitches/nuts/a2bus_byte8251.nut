@@ -1,7 +1,7 @@
 return [
   {
     "name": "Data Rate",
-    "default": "9600 bps",
+    "default": 14,
     "values": [
       "50 bps",
       "75 bps",

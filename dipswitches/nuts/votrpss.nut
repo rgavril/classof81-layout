@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Serial Handshaking",
-    "default": "RTS/CTS",
+    "default": 0,
     "values": [
       "RTS/CTS",
       "XON/XOFF"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Parity bit behavior",
-    "default": "Bit 8 ignored/zeroed",
+    "default": 0,
     "values": [
       "Bit 8 ignored/zeroed",
       "Bit 8 treated as data"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Startup Message",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Default Input Port",
-    "default": "Serial/RS-232",
+    "default": 0,
     "values": [
       "Serial/RS-232",
       "Parallel"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Self Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

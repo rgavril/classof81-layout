@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flash ROM Write Protect",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"

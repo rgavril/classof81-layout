@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Base address",
-    "default": "0x530",
+    "default": 166,
     "values": [
       "0x000",
       "0x008",
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "USART ISA IRQ",
-    "default": "IRQ4",
+    "default": 2,
     "values": [
       "IRQ2",
       "IRQ3",

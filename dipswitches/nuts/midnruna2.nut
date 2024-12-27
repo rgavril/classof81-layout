@@ -1,7 +1,7 @@
 return [
   {
     "name": "CG Board Type",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Twin"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Transmission Type",
-    "default": "Button",
+    "default": 1,
     "values": [
       "'T'Gate",
       "Button"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Network ID",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

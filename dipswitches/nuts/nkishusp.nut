@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out (%)",
-    "default": "89",
+    "default": 5,
     "values": [
       "74",
       "77",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1,2,3,4,5,6,7,8",
+    "default": 0,
     "values": [
       "1,2,3,4,5,6,7,8",
       "1,2,3,5,8,15,30,50"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "10"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Credit Timer",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "100"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Money Type",
-    "default": "Coins",
+    "default": 0,
     "values": [
       "Coins",
       "Notes"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Auto Play",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Undress Girl",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "1 : 1",
+    "default": 0,
     "values": [
       "1 : 1",
       "1 : 2",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

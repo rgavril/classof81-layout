@@ -1,7 +1,7 @@
 return [
   {
     "name": "Units of time (coin A/coin B)",
-    "default": "300/0",
+    "default": 0,
     "values": [
       "300/0",
       "300/100",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Timer speed",
-    "default": "1 unit per second",
+    "default": 10,
     "values": [
       "60 units per second",
       "30 units per second",
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2"

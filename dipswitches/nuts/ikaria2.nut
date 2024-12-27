@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "50k 100k 100k+",
+    "default": 0,
     "values": [
       "50k 100k 100k+",
       "60k 120k 120k+",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Allow killing each other",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "P1 & P2 Fire Buttons",
-    "default": "Separate",
+    "default": 0,
     "values": [
       "Separate",
       "Common"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Demo Sounds On",
+    "default": 1,
     "values": [
       "Demo Sounds Off",
       "Demo Sounds On",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

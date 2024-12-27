@@ -1,7 +1,7 @@
 return [
   {
     "name": "Event Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Speed For 100M Dash",
-    "default": "10 Beats For Max Speed",
+    "default": 0,
     "values": [
       "10 Beats For Max Speed",
       "14 Beats For Max Speed"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Computer Demonstration",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 4 Players",
+    "default": 1,
     "values": [
       "Upright 2 Players",
       "Upright 4 Players",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 1C/1C",
+    "default": 0,
     "values": [
       "A 1C/1C B 1C/1C",
       "A 1C/2C B 2C/1C",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

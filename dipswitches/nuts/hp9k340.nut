@@ -1,7 +1,7 @@
 return [
   {
     "name": "Layout",
-    "default": "US",
+    "default": 0,
     "values": [
       "US",
       "German",
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Remote",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "98626 Emulation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Modem line enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Interrupt level",
-    "default": "5",
+    "default": 2,
     "values": [
       "3",
       "4",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Select code",
-    "default": "9",
+    "default": 9,
     "values": [
       "0",
       "1",
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "INT Level",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Select code",
-    "default": "14",
+    "default": 14,
     "values": [
       "0",
       "1",
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "SCSI Address",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -158,7 +158,7 @@ return [
   },
   {
     "name": "SCSI Parity",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

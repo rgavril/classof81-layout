@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bit0",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bit1",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bit2",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bit3",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Boot to Monitor",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

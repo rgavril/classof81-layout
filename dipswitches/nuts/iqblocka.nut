@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hold Mode",
-    "default": "In Win",
+    "default": 0,
     "values": [
       "In Win",
       "Always"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Max Credit",
-    "default": "4000",
+    "default": 0,
     "values": [
       "4000",
       "None"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cigarette Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "100"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Open Mode",
-    "default": "Gaming (Gambling)",
+    "default": 0,
     "values": [
       "Gaming (Gambling)",
       "Amuse"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bonus Base",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Win Up Pool",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Max Double Up",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "30000",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Number Type",
-    "default": "A,J,Q,K",
+    "default": 0,
     "values": [
       "A,J,Q,K",
       "Number"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Show Title",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "CG Select",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Diagnostic",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "SW8 - Zero Audit Tables",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Speech",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Sounds",
-    "default": "Synth",
+    "default": 1,
     "values": [
       "Tones",
       "Synth"

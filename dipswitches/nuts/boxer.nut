@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Number of Rounds",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Round Time",
-    "default": "30 seconds",
+    "default": 1,
     "values": [
       "15 seconds",
       "30 seconds",

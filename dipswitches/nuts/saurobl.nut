@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cocktail",
       "Upright"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 2,
     "values": [
       "Very Hard",
       "Hard",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 3,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/4 Credits",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "5",
       "4",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

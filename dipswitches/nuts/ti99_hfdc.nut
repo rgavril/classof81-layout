@@ -1,7 +1,7 @@
 return [
   {
     "name": "HFDC CRU base",
-    "default": "1100",
+    "default": 1,
     "values": [
       "1000",
       "1100",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "HFDC drive 2 config",
-    "default": "40 track, 8 ms",
+    "default": 1,
     "values": [
       "40 track, 16 ms",
       "40 track, 8 ms",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "HFDC drive 1 config",
-    "default": "40 track, 8 ms",
+    "default": 1,
     "values": [
       "40 track, 16 ms",
       "40 track, 8 ms",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "HFDC drive 4 config",
-    "default": "40 track, 8 ms",
+    "default": 1,
     "values": [
       "40 track, 16 ms",
       "40 track, 8 ms",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "HFDC drive 3 config",
-    "default": "40 track, 8 ms",
+    "default": 1,
     "values": [
       "40 track, 16 ms",
       "40 track, 8 ms",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "HFDC Wait for HD1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

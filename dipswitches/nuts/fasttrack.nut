@@ -1,7 +1,7 @@
 return [
   {
     "name": "Ram Protect",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "U.S.A.",
+    "default": 7,
     "values": [
       "Italy 1",
       "Italy",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Test Game",
-    "default": "Disconnected",
+    "default": 1,
     "values": [
       "Connected",
       "Disconnected"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Dragster",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "F.1.",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Motocross",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

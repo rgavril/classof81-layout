@@ -1,7 +1,7 @@
 return [
   {
     "name": "Printer Data Rate",
-    "default": "9,600",
+    "default": 6,
     "values": [
       "110",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "I/O Data Rate",
-    "default": "9,600",
+    "default": 6,
     "values": [
       "110",
       "300",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Conversation Mode",
-    "default": "Full Duplex",
+    "default": 1,
     "values": [
       "Half Duplex",
       "Full Duplex"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Protected Field Attribute",
-    "default": "Reduced Intensity",
+    "default": 0,
     "values": [
       "Reduced Intensity",
       "Blinking",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Display Null Character",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "8th Bit Transmit",
-    "default": "1 (Mark)",
+    "default": 1,
     "values": [
       "0 (Space)",
       "1 (Mark)"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Word Length",
-    "default": "8 Bits",
+    "default": 3,
     "values": [
       "5 Bits",
       "6 Bits",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Number of Stop Bits",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Even",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Underline",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Cursor Rate",
-    "default": "2 Hz",
+    "default": 2,
     "values": [
       "0 Hz",
       "1 Hz",
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Blinking Rate",
-    "default": "1 Hz",
+    "default": 0,
     "values": [
       "1 Hz",
       "2 Hz",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Protected Video Attribute",
-    "default": "Reduced Intensity",
+    "default": 0,
     "values": [
       "Reduced Intensity",
       "Blinking",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Keyboard Auto Repeat Rate",
-    "default": "7.5 cps",
+    "default": 0,
     "values": [
       "7.5 cps",
       "15 cps",

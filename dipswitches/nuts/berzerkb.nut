@@ -1,7 +1,7 @@
 return [
   {
     "name": "Color Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "5000 and 10000",
+    "default": 0,
     "values": [
       "5000 and 10000",
       "5000",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Input Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Crosshair Pattern",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coin 1",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin 2",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Coin 3",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

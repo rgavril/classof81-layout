@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW1 1",
-    "default": "Reset",
+    "default": 0,
     "values": [
       "Reset",
       "Set"

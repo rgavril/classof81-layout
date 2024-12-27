@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level (Difficulty)",
-    "default": "Level 5 - 70%",
+    "default": 4,
     "values": [
       "Level 1 - 90%",
       "Level 2 - 85%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "80",
+    "default": 7,
     "values": [
       "10",
       "20",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Big Hands Frequency",
-    "default": "Level 3",
+    "default": 2,
     "values": [
       "Level 1 - Lowest",
       "Level 2",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Use Printer",
-    "default": "No (TDDD)",
+    "default": 0,
     "values": [
       "No (TDDD)",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 4,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Note In Value",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "4",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Max Coin In & Note In Point",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Clear / Ticket Unit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Check Account",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Type of Game",
-    "default": "Hold",
+    "default": 1,
     "values": [
       "Discard",
       "Hold"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "Table 1",
+    "default": 0,
     "values": [
       "Table 1",
       "Table 2"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Auto Ticket Dispense",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Ticket Dispense Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Max 1 Ticket Per Game",
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Use Printer",
-    "default": "No (Use TDDD)",
+    "default": 0,
     "values": [
       "No (Use TDDD)",
       "Yes"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Show Game Name & Odds Table",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

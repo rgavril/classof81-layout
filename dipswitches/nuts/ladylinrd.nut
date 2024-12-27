@@ -1,7 +1,7 @@
 return [
   {
     "name": "Remote Credits",
-    "default": "100",
+    "default": 3,
     "values": [
       "Off",
       "10",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "50 Credits",
+    "default": 1,
     "values": [
       "20 credits",
       "50 Credits"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin B & C",
-    "default": "20 credits",
+    "default": 1,
     "values": [
       "10 credits",
       "20 credits"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Reels Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Input Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

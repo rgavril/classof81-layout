@@ -1,7 +1,7 @@
 return [
   {
     "name": "Clock factor",
-    "default": "x64",
+    "default": 2,
     "values": [
       "x1",
       "x16",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Character length",
-    "default": "8",
+    "default": 3,
     "values": [
       "5",
       "6",
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Parity enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Stop bits",
-    "default": "2",
+    "default": 2,
     "values": [
       "1",
       "1.5",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "CTS",
-    "default": "Always active",
+    "default": 1,
     "values": [
       "Device controlled",
       "Always active"

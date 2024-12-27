@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Shortest",
       "Short",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin Chutes",
-    "default": "Common",
+    "default": 1,
     "values": [
       "Individual",
       "Common"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Joystick",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Rotated"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

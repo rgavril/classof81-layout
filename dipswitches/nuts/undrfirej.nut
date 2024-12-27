@@ -1,7 +1,7 @@
 return [
   {
     "name": "Show gun target",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Terminal Baud Rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Host Baud Rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",

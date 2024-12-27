@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Occurrence",
-    "default": "Once",
+    "default": 0,
     "values": [
       "Once",
       "Every"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "Coin A 1/2 Coin B 2/1",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100k",
+    "default": 0,
     "values": [
       "100k",
       "200k"

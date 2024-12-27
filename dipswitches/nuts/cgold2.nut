@@ -1,7 +1,7 @@
 return [
   {
     "name": "HOPCO2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "CBOPT2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "HOPHI2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DOPTI",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "HOPLO1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "HOPLO2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "OPTAUI",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "HOPHI1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "OPTA2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "OPTB2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "PTRTAC",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "PTRHOM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "CREDIT SELECT 1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "CREDIT SELECT 2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "CREDIT SELECT 3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "5005-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "CGDRSW",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "5005-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "5005-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "5005-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "5200-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "5200-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "5200-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "5200-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "5200-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "5200-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "5200-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "5200-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "5201-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "5201-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "5201-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "5201-4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "5201-5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "5201-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -273,7 +273,7 @@ return [
   },
   {
     "name": "5201-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -281,7 +281,7 @@ return [
   },
   {
     "name": "5201-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -289,7 +289,7 @@ return [
   },
   {
     "name": "5300-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -297,7 +297,7 @@ return [
   },
   {
     "name": "5300-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -305,7 +305,7 @@ return [
   },
   {
     "name": "5300-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -313,7 +313,7 @@ return [
   },
   {
     "name": "5300-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -321,7 +321,7 @@ return [
   },
   {
     "name": "5300-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -329,7 +329,7 @@ return [
   },
   {
     "name": "5300-6 Bill Validator",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -337,7 +337,7 @@ return [
   },
   {
     "name": "5300-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -345,7 +345,7 @@ return [
   },
   {
     "name": "5300-8 Mechanical Meters",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -353,7 +353,7 @@ return [
   },
   {
     "name": "DSW1 - Maxbet rejection",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -361,7 +361,7 @@ return [
   },
   {
     "name": "DSW1 - Hopper pay limit - S1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -369,7 +369,7 @@ return [
   },
   {
     "name": "DSW1 - Hopper pay limit - S2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -377,7 +377,7 @@ return [
   },
   {
     "name": "DSW1 - Hopper pay limit - S3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -385,7 +385,7 @@ return [
   },
   {
     "name": "DSW1 - Cash credit option",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -393,7 +393,7 @@ return [
   },
   {
     "name": "DSW1 - Link Jackpot - S1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -401,7 +401,7 @@ return [
   },
   {
     "name": "DSW1 - Link Jackpot - S2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -409,7 +409,7 @@ return [
   },
   {
     "name": "DSW1 - Auto spin",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -417,7 +417,7 @@ return [
   },
   {
     "name": "DSW2 - Maximum credit - S1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -425,7 +425,7 @@ return [
   },
   {
     "name": "DSW2 - Maximum credit - S2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -433,7 +433,7 @@ return [
   },
   {
     "name": "DSW2 - Maximum credit - S3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -441,7 +441,7 @@ return [
   },
   {
     "name": "DSW2 - Jackpot limit - S1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -449,7 +449,7 @@ return [
   },
   {
     "name": "DSW2 - Jackpot limit - S2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -457,7 +457,7 @@ return [
   },
   {
     "name": "DSW2 - Jackpot limit - S3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -465,7 +465,7 @@ return [
   },
   {
     "name": "DSW2 - Auto J/P payout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -473,7 +473,7 @@ return [
   },
   {
     "name": "DSW2 - Unconnected",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -481,7 +481,7 @@ return [
   },
   {
     "name": "Speed Select",
-    "default": "1.5 MHz",
+    "default": 1,
     "values": [
       "3 MHz",
       "1.5 MHz"
@@ -489,7 +489,7 @@ return [
   },
   {
     "name": "Note Selector",
-    "default": "$1",
+    "default": 0,
     "values": [
       "$1",
       "$2",
@@ -502,7 +502,7 @@ return [
   },
   {
     "name": "SW3 - M/C NO",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -518,7 +518,7 @@ return [
   },
   {
     "name": "SW4 - M/C NO",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -534,7 +534,7 @@ return [
   },
   {
     "name": "SW5 - M/C NO",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -550,7 +550,7 @@ return [
   },
   {
     "name": "SW6 - M/C NO",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -566,7 +566,7 @@ return [
   },
   {
     "name": "SW7 - U22 BG COLOR",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -574,7 +574,7 @@ return [
   },
   {
     "name": "SW7 - U47 BG COLOR",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -582,7 +582,7 @@ return [
   },
   {
     "name": "Coin Optic 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -590,7 +590,7 @@ return [
   },
   {
     "name": "Coin Optic 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -598,7 +598,7 @@ return [
   },
   {
     "name": "CBOPT1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

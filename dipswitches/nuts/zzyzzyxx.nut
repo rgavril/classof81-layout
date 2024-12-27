@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "4 Coins/3 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "2 Credits on Reset",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000 50000",
+    "default": 1,
     "values": [
       "None",
       "10000 50000",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "2nd Bonus Given",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Starting Laps",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Difficulty of Pleasing Lola",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Show Intermissions",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Extra Lives",
-    "default": "None",
+    "default": 2,
     "values": [
       "3 under 4000 pts",
       "5 under 4000 pts",

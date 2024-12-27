@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Skin Color",
-    "default": "Light",
+    "default": 0,
     "values": [
       "Light",
       "Dark"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin Meters",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"

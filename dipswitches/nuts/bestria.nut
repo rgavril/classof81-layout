@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Help Penalty (Heuk Sun)",
-    "default": "Constant",
+    "default": 0,
     "values": [
       "Constant",
       "Variable"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Girls",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown (Die Break)",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Time (Penta)",
-    "default": "90",
+    "default": 1,
     "values": [
       "60",
       "90"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

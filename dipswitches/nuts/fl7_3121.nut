@@ -1,7 +1,7 @@
 return [
   {
     "name": "Payout",
-    "default": "Amusement (no credits out)",
+    "default": 0,
     "values": [
       "Amusement (no credits out)",
       "Ticket Printer",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Fast Game",
+    "default": 0,
     "values": [
       "Fast Game",
       "Slow Game"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Graphics Type",
-    "default": "Regular Fruit",
+    "default": 0,
     "values": [
       "Regular Fruit",
       "Graphics Option 1",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Paytable",
-    "default": "9322",
+    "default": 0,
     "values": [
       "9322",
       "9323",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Credits Per Coin A",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Credits Per Coin B",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Credits Per Bill",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin-In Timeout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Denomination",
-    "default": "50 Cents",
+    "default": 0,
     "values": [
       "50 Cents",
       "25 Cents",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Progressive Sign",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Single Level",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "DSW3_80 Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Button Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Lockout Polarity",
-    "default": "Active High",
+    "default": 0,
     "values": [
       "Active High",
       "Active Low"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Printer Type",
-    "default": "Epson 267A",
+    "default": 0,
     "values": [
       "Epson 267A",
       "Star 300",
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "DSW4_10 Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "DSW4_20 Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "DSW4_40 Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "DSW4_80 Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

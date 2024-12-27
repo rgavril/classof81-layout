@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "2 Coins/1 Credit",
+    "default": 1,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Difficulty Mode",
-    "default": "Mode 2",
+    "default": 1,
     "values": [
       "Mode 1",
       "Mode 2"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Engineering mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "2 Credits/Free play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Pay as you go",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Sound Every 8 Attracts",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unlimited Dirks",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Joystick Feedback Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 5,
     "values": [
       "Increase after 5",
       "Increase after 9",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Pay as you go options",
-    "default": "PAYG4",
+    "default": 3,
     "values": [
       "PAYG1",
       "PAYG2",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

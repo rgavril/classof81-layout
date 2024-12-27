@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Continue Coin",
-    "default": "Start 1 Coin/Continue 1 Coin",
+    "default": 0,
     "values": [
       "Start 1 Coin/Continue 1 Coin",
       "Start 2 Coin/Continue 1 Coin"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin Slot",
-    "default": "Individual",
+    "default": 1,
     "values": [
       "Same",
       "Individual"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "3 Players",
+    "default": 1,
     "values": [
       "2 Players",
       "3 Players"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4 (Normal)",
+    "default": 3,
     "values": [
       "1 (Easiest)",
       "2",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200000",
+    "default": 0,
     "values": [
       "200000",
       "300000"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

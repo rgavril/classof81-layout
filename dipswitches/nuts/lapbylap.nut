@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "2500000",
+    "default": 2,
     "values": [
       "2900000",
       "2700000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "4000000",
+    "default": 3,
     "values": [
       "4600000",
       "4400000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Extra Ball Award??",
-    "default": "25000",
+    "default": 1,
     "values": [
       "50000",
       "25000",
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "Extra Ball Derribo??",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Especiales Laterales??",
-    "default": "Derribo Completo Dianas Laterales",
+    "default": 1,
     "values": [
       "Derribo Lateral Dianas",
       "Derribo Completo Dianas Laterales"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "High Score Returns??",
-    "default": "25",
+    "default": 3,
     "values": [
       "40",
       "35",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Bola Extra En Rampa??",
-    "default": "Derribo Lateral",
+    "default": 1,
     "values": [
       "Derribo Completo",
       "Derribo Lateral"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Apagado de dianas",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

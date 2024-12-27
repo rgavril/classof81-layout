@@ -1,7 +1,7 @@
 return [
   {
     "name": "Win Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Test Hold",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

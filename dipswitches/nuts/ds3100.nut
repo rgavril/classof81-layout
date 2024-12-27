@@ -1,7 +1,7 @@
 return [
   {
     "name": "Graphics Mode",
-    "default": "Color",
+    "default": 0,
     "values": [
       "Color",
       "Monochrome",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Manufacturing Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

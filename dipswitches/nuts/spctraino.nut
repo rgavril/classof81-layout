@@ -1,7 +1,7 @@
 return [
   {
     "name": "DIP A1",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DIP A2",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DIP A3",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DIP A4",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DIP A5",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DIP A6",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DIP A7",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DIP B1",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DIP B2",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DIP B3",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DIP B4",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DIP B5",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DIP B6",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DIP B7",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

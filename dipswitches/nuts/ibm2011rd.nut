@@ -1,7 +1,7 @@
 return [
   {
     "name": "IDE Configuration",
-    "default": "Primary",
+    "default": 0,
     "values": [
       "Primary",
       "Secondary"

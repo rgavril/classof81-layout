@@ -1,7 +1,7 @@
 return [
   {
     "name": "Jackpot amount (melons)",
-    "default": "\u00a31",
+    "default": 0,
     "values": [
       "\u00a31",
       "\u00a32",

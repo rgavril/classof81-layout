@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Move Timer (Versus)",
-    "default": "25 Seconds",
+    "default": 1,
     "values": [
       "20 Seconds",
       "25 Seconds",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Move Timer (Puzzle)",
-    "default": "35 Seconds",
+    "default": 1,
     "values": [
       "30 Seconds",
       "35 Seconds",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium Easy",
+    "default": 1,
     "values": [
       "Easy",
       "Medium Easy",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

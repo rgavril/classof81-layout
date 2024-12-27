@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "WEC Le Mans 24 Upright",
+    "default": 1,
     "values": [
       "Konami GT without brake",
       "WEC Le Mans 24 Upright",
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Quantity of Initials",
-    "default": "7",
+    "default": 1,
     "values": [
       "3",
       "7"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Speed Unit",
-    "default": "km/h",
+    "default": 0,
     "values": [
       "km/h",
       "M.P.H."

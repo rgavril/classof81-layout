@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200k/500k",
+    "default": 8,
     "values": [
       "Off",
       "150k/300k",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Damage",
-    "default": "+0",
+    "default": 0,
     "values": [
       "+0",
       "+1",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Very Easy",
       "Easy",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Messages in Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Fixed Ticketing",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Setting",
-    "default": "Custom",
+    "default": 0,
     "values": [
       "Custom",
       "Standard"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Messages",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Tickets",
-    "default": "20",
+    "default": 3,
     "values": [
       "5",
       "10",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

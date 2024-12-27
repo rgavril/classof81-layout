@@ -1,7 +1,7 @@
 return [
   {
     "name": "RED (Interpret controls)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DUP (Full duplex)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "LIN (Online)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

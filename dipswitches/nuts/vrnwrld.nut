@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin control 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin control 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin control 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin control 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "300 million",
+    "default": 0,
     "values": [
       "300 million",
       "400 million",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Selection Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Exhibition"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "700 million",
+    "default": 0,
     "values": [
       "700 million",
       "750 million",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Time for New Travel",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Short",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Very Easy",
+    "default": 0,
     "values": [
       "Very Easy",
       "Easy",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Automatic Punctuation",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Time for 3-ball multiball",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Short",

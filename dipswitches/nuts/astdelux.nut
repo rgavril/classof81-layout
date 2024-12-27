@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2-4",
+    "default": 0,
     "values": [
       "2-4",
       "3-5",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Minimum Plays",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 1,
     "values": [
       "Hard",
       "Easy"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "12000",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "X 1",
+    "default": 3,
     "values": [
       "X 6",
       "X 5",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Center Coin",
-    "default": "X 1",
+    "default": 1,
     "values": [
       "X 2",
       "X 1"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 4,
     "values": [
       "1 Coin Each 5 Coins",
       "2 Coins Each 4 Coins",
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

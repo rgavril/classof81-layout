@@ -1,7 +1,7 @@
 return [
   {
     "name": "Vitality Recovery",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Less",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Gold Sheep at",
-    "default": "50k only",
+    "default": 0,
     "values": [
       "50k only",
       "50k then every 70k"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Magic Energy Loss",
-    "default": "Always Player",
+    "default": 0,
     "values": [
       "Always Player",
       "Player or Magician"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Player Starting Strength",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Full"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Magician appears",
-    "default": "When you get a Crystal",
+    "default": 0,
     "values": [
       "When you get a Crystal",
       "Always"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Rounds",
-    "default": "Normal (10-14, depends on skill)",
+    "default": 0,
     "values": [
       "Normal (10-14, depends on skill)",
       "Long (14)"

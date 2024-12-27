@@ -1,7 +1,7 @@
 return [
   {
     "name": "Payout",
-    "default": "70%",
+    "default": 3,
     "values": [
       "40%",
       "50%",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Limit 1 Coin",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Kings or Better",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

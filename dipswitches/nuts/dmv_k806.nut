@@ -1,7 +1,7 @@
 return [
   {
     "name": "K806 IFSEL",
-    "default": "2A",
+    "default": 4,
     "values": [
       "0A",
       "0B",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "K806 Mouse",
-    "default": "Hawley, Alps",
+    "default": 0,
     "values": [
       "Hawley, Alps",
       "Depraz"

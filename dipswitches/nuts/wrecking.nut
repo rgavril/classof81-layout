@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "1st Bonus Life",
-    "default": "50,000 Pts",
+    "default": 3,
     "values": [
       "20,000 Pts",
       "30,000 Pts",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Additional Bonus Lives",
-    "default": "None",
+    "default": 7,
     "values": [
       "20,000 Pts",
       "30,000 Pts",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Copyright",
-    "default": "Japan",
+    "default": 0,
     "values": [
       "Japan",
       "USA"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

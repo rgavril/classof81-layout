@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Life",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Initial Players",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Timer",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

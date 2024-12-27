@@ -1,7 +1,7 @@
 return [
   {
     "name": "Battery Status",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Low Battery"

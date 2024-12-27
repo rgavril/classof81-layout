@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Percentage",
-    "default": "90%",
+    "default": 7,
     "values": [
       "55%",
       "60%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "D-UP Percentage",
-    "default": "70%",
+    "default": 3,
     "values": [
       "40%",
       "50%",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Reels Speed",
-    "default": "Hi",
+    "default": 1,
     "values": [
       "Low",
       "Hi"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bonus Score",
-    "default": "24",
+    "default": 1,
     "values": [
       "32",
       "24"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x100"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Payout Limit",
-    "default": "1000",
+    "default": 1,
     "values": [
       "0",
       "1000",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Coinage A, B & C",
-    "default": "1 Coin / 100 Credit",
+    "default": 7,
     "values": [
       "1 Coin / 1 Credit",
       "1 Coin / 5 Credits",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Attract / Girls",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Max Bonus",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "20000"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "8",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1 Pulse / 100 Credits",
+    "default": 0,
     "values": [
       "1 Pulse / 100 Credits",
       "1 Pulse / 110 Credits",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "96",
+    "default": 3,
     "values": [
       "64",
       "72",
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Lit",
-    "default": "Yes (50.000)",
+    "default": 1,
     "values": [
       "No",
       "Yes (50.000)"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Control",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Reel Cover",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

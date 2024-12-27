@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Game",
+    "default": 1,
     "values": [
       "Keyboard Test",
       "Game"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "100 Points/Pulse",
+    "default": 1,
     "values": [
       "10 Points/Pulse",
       "100 Points/Pulse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "10 Points/Coin",
+    "default": 1,
     "values": [
       "5 Points/Coin",
       "10 Points/Coin"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "10 Points/Coin",
+    "default": 1,
     "values": [
       "5 Points/Coin",
       "10 Points/Coin"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "With Joker",
+    "default": 0,
     "values": [
       "With Joker",
       "Without Joker"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hold",
-    "default": "Auto Hold",
+    "default": 0,
     "values": [
       "Auto Hold",
       "No Auto Hold"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

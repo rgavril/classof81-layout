@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Default",
+    "default": 1,
     "values": [
       "None",
       "Default"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Base RAM size",
-    "default": "64K",
+    "default": 3,
     "values": [
       "16K",
       "32K",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Monochrome",
+    "default": 3,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Extra RAM size",
-    "default": "576K",
+    "default": 18,
     "values": [
       "None",
       "32K",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Default File System",
-    "default": "DFS",
+    "default": 1,
     "values": [
       "NFS",
       "DFS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Not Used",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Disc Timings",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Disc Timings",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Boot",
-    "default": "SHIFT-BREAK",
+    "default": 1,
     "values": [
       "BREAK",
       "SHIFT-BREAK"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "4",
+    "default": 1,
     "values": [
       "0",
       "4"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "2",
+    "default": 1,
     "values": [
       "0",
       "2"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1"

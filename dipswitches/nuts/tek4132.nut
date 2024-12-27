@@ -1,7 +1,7 @@
 return [
   {
     "name": "Diagnostic",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Boot Device",
-    "default": "Autoboot",
+    "default": 0,
     "values": [
       "Autoboot",
       "Hard disk",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Boot",
-    "default": "UTek",
+    "default": 0,
     "values": [
       "UTek",
       "File"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Console",
-    "default": "9600 baud RS-232-C terminal (port 0)",
+    "default": 1,
     "values": [
       "Display",
       "9600 baud RS-232-C terminal (port 0)",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Service"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Left Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Right Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Match Time",
-    "default": "100s",
+    "default": 4,
     "values": [
       "60s",
       "70s",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Free Match Time",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Short"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "4 Players",
+    "default": 0,
     "values": [
       "4 Players",
       "2 Players"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "RGB Output Sel",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "RGB Input Sel",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Wide",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "R/P E/F",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Rec/Player",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "J U/C",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "NTSC / PAL",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Enable Draw Poker",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Enable Foto Finish",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Enable Black Jack",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Points Per Coin",
-    "default": "1 Point",
+    "default": 0,
     "values": [
       "1 Point",
       "5 Points"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Counter Top",
+    "default": 0,
     "values": [
       "Counter Top",
       "Cocktail"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "50",
+    "default": 3,
     "values": [
       "1",
       "10",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Percentage Out",
-    "default": "85%",
+    "default": 2,
     "values": [
       "80%",
       "85%",

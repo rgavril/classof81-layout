@@ -1,7 +1,7 @@
 return [
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Dipswitch Coinage",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Credits",
-    "default": "1 Start/1 Continue",
+    "default": 5,
     "values": [
       "3 Start/1 Continue",
       "2 Start/2 Continue",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bill Validator",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Two Counters",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "3 Players",
+    "default": 0,
     "values": [
       "3 Players",
       "2 Players"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Rev X",
+    "default": 0,
     "values": [
       "Rev X",
       "Terminator 2"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Video Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

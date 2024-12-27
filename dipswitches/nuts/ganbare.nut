@@ -1,7 +1,7 @@
 return [
   {
     "name": "Medal Setup",
-    "default": "1 Medal 1 Credit",
+    "default": 0,
     "values": [
       "1 Medal 1 Credit",
       "Don't use"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin Setup",
-    "default": "100 Yen",
+    "default": 0,
     "values": [
       "100 Yen",
       "10 Yen"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Change Setup",
-    "default": "10",
+    "default": 2,
     "values": [
       "12",
       "11",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "10 Yen Setup",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Payout Setup",
-    "default": "Credit Mode",
+    "default": 0,
     "values": [
       "Credit Mode",
       "Payout Mode"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Payout Rate Setup",
-    "default": "80%",
+    "default": 2,
     "values": [
       "90%",
       "85%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Every second sound",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Clear RAM",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Tes Mode Display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

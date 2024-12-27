@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bit Rate",
-    "default": "9600",
+    "default": 13,
     "values": [
       "External Rate",
       "50",

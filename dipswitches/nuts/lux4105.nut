@@ -1,7 +1,7 @@
 return [
   {
     "name": "Stepping",
-    "default": "Buffered",
+    "default": 3,
     "values": [
       "Normal",
       "Half (Seagate/Texas)",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Heads",
-    "default": "4",
+    "default": 1,
     "values": [
       "2",
       "4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Drive Type",
-    "default": "Seagate ST412",
+    "default": 3,
     "values": [
       "Seagate ST506",
       "Rodime RO100",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Card Address",
-    "default": "37",
+    "default": 0,
     "values": [
       "37",
       "45"

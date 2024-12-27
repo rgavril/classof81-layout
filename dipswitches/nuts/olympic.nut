@@ -1,7 +1,7 @@
 return [
   {
     "name": "S25",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S29",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Tilt Penalty",
-    "default": "Ball",
+    "default": 1,
     "values": [
       "Game",
       "Ball"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "S21",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "S13",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "S1",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "S5",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "S26",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "S30",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "S18",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "S22",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "S10",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "S2",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "S6",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "S27",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "S31",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "S19",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S23",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "S11",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "S15",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "S3",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "S7",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "S28",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "S32",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "S20",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "S24",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "S12",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "S16",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "S4",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "S8",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

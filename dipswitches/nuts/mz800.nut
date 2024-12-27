@@ -1,7 +1,7 @@
 return [
   {
     "name": "Mode selection",
-    "default": "MZ-800",
+    "default": 1,
     "values": [
       "MZ-700",
       "MZ-800"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Printer selection",
-    "default": "MZ printer",
+    "default": 0,
     "values": [
       "MZ printer",
       "Centronics printer"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cassette polarity",
-    "default": "Unknown",
+    "default": 0,
     "values": [
       "Unknown",
       "Unknown"

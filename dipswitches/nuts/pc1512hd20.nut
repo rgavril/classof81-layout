@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Memory Size",
-    "default": "512 KB",
+    "default": 0,
     "values": [
       "512 KB",
       "640 KB"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "ROM Size",
-    "default": "16 KB",
+    "default": 0,
     "values": [
       "16 KB",
       "32 KB"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Character Set",
-    "default": "Default (Codepage 437)",
+    "default": 0,
     "values": [
       "Default (Codepage 437)",
       "Portuguese (Codepage 865)",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Floppy Ready Line",
-    "default": "Connected",
+    "default": 0,
     "values": [
       "Connected",
       "Not connected"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Type of 2nd drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Type of 1st drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "IRQ level",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Install ROM?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

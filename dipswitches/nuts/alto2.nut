@@ -1,7 +1,7 @@
 return [
   {
     "name": "Ethernet ID",
-    "default": "ID 042",
+    "default": 34,
     "values": [
       "No ether",
       "ID 001",

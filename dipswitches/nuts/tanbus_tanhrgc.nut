@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Space - Red",
-    "default": "&4000-&5FFF",
+    "default": 2,
     "values": [
       "&0000-&1FFF (Invalid - Do Not Use)",
       "&2000-&3FFF",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Inhibit RAM (INHRAM)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Block Enable (BE)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Address Space - Green",
-    "default": "&8000-&9FFF",
+    "default": 4,
     "values": [
       "&0000-&1FFF (Invalid - Do Not Use)",
       "&2000-&3FFF",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Inhibit RAM (INHRAM)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Block Enable (BE)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Address Space - Blue",
-    "default": "&6000-&7FFF",
+    "default": 3,
     "values": [
       "&0000-&1FFF (Invalid - Do Not Use)",
       "&2000-&3FFF",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Inhibit RAM (INHRAM)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Block Enable (BE)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

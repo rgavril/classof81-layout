@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time",
-    "default": "120 seconds",
+    "default": 7,
     "values": [
       "60 seconds",
       "69 seconds",

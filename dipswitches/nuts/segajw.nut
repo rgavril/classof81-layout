@@ -1,7 +1,7 @@
 return [
   {
     "name": "Jumper 1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Jumper 2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Jumper 3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Jumper 4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Jumper 5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Jumper 6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Jumper 7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Jumper 8",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Progressive",
-    "default": "Progressive",
+    "default": 1,
     "values": [
       "Normal",
       "Progressive"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Double Down",
-    "default": "Without D.D",
+    "default": 1,
     "values": [
       "With D.D",
       "Without D.D"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Draw Cards",
-    "default": "No Display",
+    "default": 1,
     "values": [
       "Display",
       "No Display"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Color Change",
-    "default": "No Change",
+    "default": 1,
     "values": [
       "Change",
       "No Change"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "Display",
+    "default": 1,
     "values": [
       "No Display",
       "Display"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Coin/Credit",
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Best Choice",
-    "default": "No Display",
+    "default": 1,
     "values": [
       "Display",
       "No Display"
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Denomination",
-    "default": "$25",
+    "default": 0,
     "values": [
       "$25",
       "$5",
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Max. Pay",
-    "default": "1000",
+    "default": 1,
     "values": [
       "500",
       "1000"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Max. Credit",
-    "default": "1000",
+    "default": 1,
     "values": [
       "5000",
       "1000"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "$1200",
-    "default": "Credit/At. Pay",
+    "default": 1,
     "values": [
       "At. Pay",
       "Credit/At. Pay"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Max. Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5",
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Meter",
-    "default": "Nevada",
+    "default": 0,
     "values": [
       "Nevada",
       "New Jersey"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Card Face",
-    "default": "Changeable",
+    "default": 0,
     "values": [
       "Changeable",
       "Original"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Card Back",
-    "default": "Changeable",
+    "default": 0,
     "values": [
       "Changeable",
       "Original"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -218,7 +218,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -226,7 +226,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

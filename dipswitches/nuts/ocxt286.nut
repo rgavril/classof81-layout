@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display Type",
-    "default": "1001 - MDA SECONDARY, EGA HI RES ENHANCED",
+    "default": 9,
     "values": [
       "0000 - MDA PRIMARY, EGA COLOR, 40x25",
       "0001 - MDA PRIMARY, EGA COLOR, 80x25",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "IDE Configuration",
-    "default": "Primary",
+    "default": 0,
     "values": [
       "Primary",
       "Secondary"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Screen Orientation",
-    "default": "Normal Screen",
+    "default": 0,
     "values": [
       "Normal Screen",
       "Inverted Screen"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "Two Players",
+    "default": 0,
     "values": [
       "Two Players",
       "One Player"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Time for Round",
-    "default": "60 Seconds per Round",
+    "default": 3,
     "values": [
       "Free Time per Round",
       "30 Seconds per Round",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Very Hard",
       "Hard",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Test Type",
-    "default": "Easy Test",
+    "default": 0,
     "values": [
       "Easy Test",
       "Advanced Test"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 15,
     "values": [
       "5 Coins/2 Credits",
       "5 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 15,
     "values": [
       "5 Coins/2 Credits",
       "5 Coins/1 Credit",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

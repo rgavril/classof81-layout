@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "20",
+    "default": 3,
     "values": [
       "5",
       "10",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Difficulty?",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Energy",
-    "default": "48",
+    "default": 2,
     "values": [
       "24",
       "32",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Bonus?",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",

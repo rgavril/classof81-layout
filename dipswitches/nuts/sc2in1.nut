@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Game Setup",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Power On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Game Password",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Power On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Connector",
-    "default": "Joystick",
+    "default": 0,
     "values": [
       "Joystick",
       "Joystick"

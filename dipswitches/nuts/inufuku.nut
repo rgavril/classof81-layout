@@ -1,7 +1,7 @@
 return [
   {
     "name": "3P/4P",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

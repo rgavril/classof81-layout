@@ -1,7 +1,7 @@
 return [
   {
     "name": "Editing Control Unit Select",
-    "default": "BVE-900",
+    "default": 2,
     "values": [
       "BVE-600",
       "ONE-GPI",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Freeze Timing",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Freeze (When changing the crosspoint)",
-    "default": "2 Frames",
+    "default": 0,
     "values": [
       "2 Frames",
       "0 Frame"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Set up",
-    "default": "0%",
+    "default": 1,
     "values": [
       "7.5%",
       "0%"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Color-Matte Compensation",
-    "default": "Limit compensation",
+    "default": 1,
     "values": [
       "Illegal compensation",
       "Limit compensation"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Field freeze",
-    "default": "Even Freeze",
+    "default": 1,
     "values": [
       "Odd Field",
       "Even Freeze"

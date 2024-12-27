@@ -1,7 +1,7 @@
 return [
   {
     "name": "Power-on Jump Address (High)",
-    "default": "F0XXh",
+    "default": 240,
     "values": [
       "00XXh",
       "01XXh",
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "Power-on Jump Address (Low)",
-    "default": "XX00h",
+    "default": 0,
     "values": [
       "XX00h",
       "XX01h",
@@ -525,7 +525,7 @@ return [
   },
   {
     "name": "Enable Power-on Jump",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -533,7 +533,7 @@ return [
   },
   {
     "name": "Enable On-board ROM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -541,7 +541,7 @@ return [
   },
   {
     "name": "Serial Address Select",
-    "default": "20h-27h",
+    "default": 4,
     "values": [
       "00h-07h",
       "08h-0Fh",
@@ -579,7 +579,7 @@ return [
   },
   {
     "name": "Enable Serial Port",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

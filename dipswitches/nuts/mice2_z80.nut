@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "2400",
+    "default": 4,
     "values": [
       "150",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "7",
+    "default": 0,
     "values": [
       "7",
       "8"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Even",
+    "default": 1,
     "values": [
       "None",
       "Even",

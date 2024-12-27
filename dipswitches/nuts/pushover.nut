@@ -1,7 +1,7 @@
 return [
   {
     "name": "IN0-02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "IN0-04",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Percentage 02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "IN0-80",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "IN1-02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "IN1-08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Percentage 04",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "IN1-80",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Token Refill",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "IN2-02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "IN2-08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "IN2-10",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "IN2-20",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Percentage 08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "IN2-80",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "IN3-02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "IN3-04",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Percentage 16",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "IN3-80",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

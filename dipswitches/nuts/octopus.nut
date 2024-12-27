@@ -1,7 +1,7 @@
 return [
   {
     "name": "Number of floppy drives",
-    "default": "2 Floppies",
+    "default": 2,
     "values": [
       "None",
       "1 Floppy",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Quad drives",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Winchester drive type",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "RO201",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Colour monitor connected",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

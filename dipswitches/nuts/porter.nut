@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "10000 only",
+    "default": 0,
     "values": [
       "10000 only",
       "30000 only"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C  B 1C/6C",
+    "default": 1,
     "values": [
       "A 2C/1C  B 1C/3C",
       "A 1C/1C  B 1C/6C"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",

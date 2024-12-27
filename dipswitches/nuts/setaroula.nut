@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credit Meter",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Accept Coins",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Accept Note/Coupon",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Menu 3:Log 4:RS232",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Play Jingle?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Use Hopper",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "SW1:2?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "SW1:1?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Check Door 1?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Check Door 2?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Check Door 3?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "SW2:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "SW2:4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Menu 5:RS323? 6:Sound 7:Gfx 8:Clock",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "SW2:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Payout %",
-    "default": "97.3",
+    "default": 3,
     "values": [
       "65",
       "75",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Menu 1:Time 2:Payout",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Payout Key",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Hopper Divider",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Hopper Sensor",
-    "default": "Active High",
+    "default": 1,
     "values": [
       "Active Low (Error)",
       "Active High"

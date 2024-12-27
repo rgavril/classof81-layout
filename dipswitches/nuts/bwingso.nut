@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Diagnostics",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Invincibility",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Infinite",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "5",
       "3"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000 40000",
+    "default": 3,
     "values": [
       "40000",
       "20000 80000",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Enemy Crafts",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Hard",
       "Normal"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Enemy Missiles",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Hard",
       "Normal"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "Japan/US",
+    "default": 0,
     "values": [
       "Japan/US",
       "Japan Only"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "RGB",
-    "default": "Default",
+    "default": 0,
     "values": [
       "Default",
       "More Red",

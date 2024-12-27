@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown DSW1 7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Energy Loss",
-    "default": "Normal",
+    "default": 7,
     "values": [
       "Slowest",
       "-6 Slower",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown DSW2 7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown DSW2 8",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

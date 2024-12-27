@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "2800000",
+    "default": 0,
     "values": [
       "2800000",
       "3200000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "4800000",
+    "default": 0,
     "values": [
       "4800000",
       "5000000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bola Extra En Pasillos Inferiores",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Quita bola extra al 2nd derribo",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Apagado de dianas",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

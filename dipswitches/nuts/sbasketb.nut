@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60",
+    "default": 3,
     "values": [
       "30",
       "40",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Starting Score",
-    "default": "70-78",
+    "default": 0,
     "values": [
       "70-78",
       "100-115"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Ranking",
-    "default": "Data Remaining",
+    "default": 0,
     "values": [
       "Data Remaining",
       "Data Initialized"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

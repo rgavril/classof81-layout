@@ -1,7 +1,7 @@
 return [
   {
     "name": "Card Address",
-    "default": "45 (ABC 830)",
+    "default": 1,
     "values": [
       "44 (ABC 832/834/850)",
       "45 (ABC 830)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Shift Clock",
-    "default": "4 MHz",
+    "default": 1,
     "values": [
       "2 MHz",
       "4 MHz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Write Precompensation",
-    "default": "Programmable",
+    "default": 1,
     "values": [
       "Always On",
       "Programmable"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Drive 0 Sided",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Drive 1 Sided",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Double"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Drive 0 Density",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Drive 1 Density",
-    "default": "Double",
+    "default": 1,
     "values": [
       "Single",
       "Double"

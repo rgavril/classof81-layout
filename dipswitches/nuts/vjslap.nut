@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "P1 2 coins, P2 4 coins, 1 coin continue",
+    "default": 0,
     "values": [
       "P1 2 coins, P2 4 coins, 1 coin continue",
       "P1/P2 1 coin, 1 coin continue",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "DIPSW 1-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "DIPSW 1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Volume Level",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "DIPSW 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "DIPSW 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Volume",
-    "default": "MID",
+    "default": 1,
     "values": [
       "MAX",
       "MID",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "DIPSW 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

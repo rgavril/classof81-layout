@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficult",
-    "default": "Normal (with gas cans, trucks and cars)",
+    "default": 1,
     "values": [
       "Easy (with gas cans, only trucks)",
       "Normal (with gas cans, trucks and cars)",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "1:00",
+    "default": 0,
     "values": [
       "1:00",
       "1:20",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cycle / Car",
-    "default": "Cycle",
+    "default": 0,
     "values": [
       "Cycle",
       "Car"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

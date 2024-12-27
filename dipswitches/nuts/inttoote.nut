@@ -1,7 +1,7 @@
 return [
   {
     "name": "Max Bet (Per Horse)",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown SW1:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown SW1:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown SW1:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown SW2:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown SW2:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unknown SW2:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Betting Clock Speed",
-    "default": "Slowest",
+    "default": 0,
     "values": [
       "Slowest",
       "Slower",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "80%",
+    "default": 0,
     "values": [
       "80%",
       "81%",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown SW3:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Hopper Payout",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Horses",
-    "default": "Random (6 Out Of 100)",
+    "default": 0,
     "values": [
       "Random (6 Out Of 100)",
       "Cyclic (8 Set Races)"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Odds",
-    "default": "Lower",
+    "default": 0,
     "values": [
       "Lower",
       "Higher"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown SW3:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown SW3:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown SW3:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

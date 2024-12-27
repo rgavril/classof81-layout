@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Min Bet to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Min Bet to play Fever",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "10000",
+    "default": 1,
     "values": [
       "5000",
       "10000"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Key Out Rate",
-    "default": "1:1",
+    "default": 0,
     "values": [
       "1:1",
       "10:1",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Auto"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "W-UP Bonus Target",
-    "default": "3000",
+    "default": 0,
     "values": [
       "3000",
       "5000"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "W-UP Bonus Rate",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "W-UP Chance",
-    "default": "94%",
+    "default": 0,
     "values": [
       "94%",
       "96%",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "W-UP Type",
-    "default": "High-Low",
+    "default": 1,
     "values": [
       "None",
       "High-Low",
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Card Select",
-    "default": "Poker",
+    "default": 0,
     "values": [
       "Poker",
       "Symbols"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Main Game Chance",
-    "default": "89%",
+    "default": 8,
     "values": [
       "69%",
       "72%",
@@ -154,7 +154,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Anytime Key-in",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Payout Select",
-    "default": "Ticket",
+    "default": 1,
     "values": [
       "Hopper",
       "Ticket"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Ticket Rate",
-    "default": "10:1",
+    "default": 0,
     "values": [
       "10:1",
       "20:1",
@@ -196,7 +196,7 @@ return [
   },
   {
     "name": "Ability",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

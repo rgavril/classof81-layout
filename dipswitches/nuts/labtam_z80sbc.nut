@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Low",
-    "default": "00f0h",
+    "default": 15,
     "values": [
       "0000h",
       "0010h",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "I/O Middle",
-    "default": "0000h",
+    "default": 0,
     "values": [
       "0000h",
       "0100h",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "I/O High",
-    "default": "0000h",
+    "default": 0,
     "values": [
       "0000h",
       "1000h",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Memory Bank 1",
-    "default": "f0000h",
+    "default": 15,
     "values": [
       "00000h",
       "10000h",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Memory Bank 0",
-    "default": "e0000h",
+    "default": 14,
     "values": [
       "00000h",
       "10000h",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "FD0 is 5.25\"",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "FD1 is 5.25\"",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "FD2 is 5.25\"",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "FD3 is 5.25\"",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

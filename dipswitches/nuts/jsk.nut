@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Minutes",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Difficulty A",
-    "default": "5 (Medium)",
+    "default": 4,
     "values": [
       "1 (Novice)",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty Switch",
-    "default": "A (8 Levels)",
+    "default": 0,
     "values": [
       "A (8 Levels)",
       "B (4 Levels)"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Difficulty B",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Campaign",
-    "default": "Available",
+    "default": 0,
     "values": [
       "Available",
       "Finished"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

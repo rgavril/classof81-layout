@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Chance Rate",
-    "default": "98",
+    "default": 7,
     "values": [
       "84",
       "86",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Credit/Coin",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Credit/Keyin",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "D-Up Chance Rate",
-    "default": "98",
+    "default": 7,
     "values": [
       "84",
       "86",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bet Min/Max",
-    "default": "Min 02 - Max 10",
+    "default": 0,
     "values": [
       "Min 02 - Max 10",
       "Min 02 - Max 20",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Decks",
-    "default": "3",
+    "default": 3,
     "values": [
       "6",
       "5",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Limit Over",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Credit/Keyout",
-    "default": "1",
+    "default": 1,
     "values": [
       "100",
       "1"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

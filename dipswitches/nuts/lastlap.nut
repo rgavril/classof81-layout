@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "1 game",
+    "default": 1,
     "values": [
       "3 games",
       "1 game"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Special award",
-    "default": "Free game",
+    "default": 0,
     "values": [
       "Free game",
       "Extra ball"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage for slot 2",
-    "default": "1 Coin/2 Credits",
+    "default": 3,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coinage for slot 3",
-    "default": "1 Coin/3 Credits",
+    "default": 0,
     "values": [
       "1 Coin/3 Credits",
       "1 Coin/4 Credits",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Time Per Coin",
-    "default": "1:30",
+    "default": 0,
     "values": [
       "1:30",
       "2:00",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Atari Logo",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "IRQ-A",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "IRQ-B",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

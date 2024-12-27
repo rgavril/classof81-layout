@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "PINFU with TSUMO",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4",
+    "default": 3,
     "values": [
       "1 (Easy)",
       "2",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Time Setting",
-    "default": "08:30",
+    "default": 0,
     "values": [
       "08:30",
       "09:00",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Time Service",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "TEL Display",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "GAL mode",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Select Special Item",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Debug",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

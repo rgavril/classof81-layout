@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Very Easy",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Picture Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Adult"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "1",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Unit of Players",
-    "default": "9",
+    "default": 0,
     "values": [
       "9",
       "1",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit  1/1",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit  1/1",
       "2 Coin/1 Credit  2/1",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Card Dispenser",
-    "default": "Used",
+    "default": 0,
     "values": [
       "Used",
       "Unused"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

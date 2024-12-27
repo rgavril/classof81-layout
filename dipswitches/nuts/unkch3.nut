@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Mid 1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Punti Unit",
-    "default": "1000",
+    "default": 1,
     "values": [
       "500",
       "1000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Ticket Dispenser",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 6,
     "values": [
       "10 (5)",
       "20 (10)",
@@ -104,7 +104,7 @@ return [
   },
   {
     "name": "Min. Bet For Bonus Play",
-    "default": "16",
+    "default": 1,
     "values": [
       "8",
       "16"
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Coin B Enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -168,7 +168,7 @@ return [
   },
   {
     "name": "Coin B Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -176,7 +176,7 @@ return [
   },
   {
     "name": "Max Bet Type",
-    "default": "Individual",
+    "default": 1,
     "values": [
       "Total",
       "Individual"
@@ -184,7 +184,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -192,7 +192,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -200,7 +200,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -208,7 +208,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -216,7 +216,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Enable"
@@ -224,7 +224,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -232,7 +232,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -240,7 +240,7 @@ return [
   },
   {
     "name": "Cherry/Bell Bonus",
-    "default": "x6 / x3",
+    "default": 0,
     "values": [
       "x6 / x3",
       "x9 / x5"
@@ -248,7 +248,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -256,7 +256,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

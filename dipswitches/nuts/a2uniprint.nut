@@ -1,7 +1,7 @@
 return [
   {
     "name": "Default Page Length",
-    "default": "No Length",
+    "default": 0,
     "values": [
       "No Length",
       "54 Lines",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Default Page Width",
-    "default": "No Width",
+    "default": 0,
     "values": [
       "No Width",
       "80 Columns",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Printer Type",
-    "default": "Apple DMP/C. Itoh 8510/NEC 8023A/Leading Edge Prowriter",
+    "default": 0,
     "values": [
       "Apple DMP/C. Itoh 8510/NEC 8023A/Leading Edge Prowriter",
       "Epson MX, FX, RX/Mannesman Tally 160L, Sprit-80",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Strobe Polarity",
-    "default": "Negative",
+    "default": 1,
     "values": [
       "Positive",
       "Negative"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Acknowledge Polarity",
-    "default": "Negative",
+    "default": 1,
     "values": [
       "Positive",
       "Negative"

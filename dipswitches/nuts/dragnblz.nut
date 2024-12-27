@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tilt (Enables Debug Mode)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "International Ver B.",
+    "default": 2,
     "values": [
       "Japan",
       "International Ver A.",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Player",
+    "default": 2,
     "values": [
       "2 Coins/1 Player",
       "2 Coins/1 or 2 Players",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "120 Sec",
+    "default": 3,
     "values": [
       "75 Sec",
       "90 Sec",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

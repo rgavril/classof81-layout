@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW1 Unknown 0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW1 Unknown 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "DSW1 Unknown 5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "DSW1 Unknown 6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "DSW1 Unknown 7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "9 Coins/1 Credit",
       "8 Coins/1 Credit",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "DSW3 Unknown 1",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "02"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Invulnerability (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "DSW3 Unknown 3",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "08"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Copyright Notice",
-    "default": "(C) 1985 Taito Corporation",
+    "default": 0,
     "values": [
       "(C) 1985 Taito Corporation",
       "(C) Taito Corporation",
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Coinage Display",
-    "default": "Coins/Credits",
+    "default": 1,
     "values": [
       "Insert Coin",
       "Coins/Credits"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A and B",
+    "default": 0,
     "values": [
       "A and B",
       "A only"

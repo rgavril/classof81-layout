@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Type of Tape",
-    "default": "MD (Small)",
+    "default": 3,
     "values": [
       "MT (Big)",
       "invalid?",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "1"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "Every 1set",
+    "default": 1,
     "values": [
       "None",
       "Every 1set",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Speed Level",
-    "default": "Low Speed",
+    "default": 0,
     "values": [
       "Low Speed",
       "High Speed"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Attack Level",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Difficult"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Country Code",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",

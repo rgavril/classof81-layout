@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Short",
       "Normal"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Level",
-    "default": "3",
+    "default": 5,
     "values": [
       "0 (duplicate 1)",
       "0 (duplicate 2)",

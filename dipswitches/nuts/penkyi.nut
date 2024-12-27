@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "1:00",
+    "default": 3,
     "values": [
       "0:30",
       "0:40",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Fill % to Win",
-    "default": "Majority at Time or 99.9%",
+    "default": 0,
     "values": [
       "Majority at Time or 99.9%",
       "Majority at Time or 90%",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Redemption"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Points/Tickets",
-    "default": "50.000 points/1 ticket",
+    "default": 0,
     "values": [
       "50.000 points/1 ticket",
       "100.000 points/1 ticket",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Vs. Matches",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Slide Show",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

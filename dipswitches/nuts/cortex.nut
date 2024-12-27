@@ -1,7 +1,7 @@
 return [
   {
     "name": "DISK SIZE",
-    "default": "13cm",
+    "default": 1,
     "values": [
       "20cm",
       "13cm"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DISK DENSITY",
-    "default": "Double",
+    "default": 0,
     "values": [
       "Double",
       "Single"

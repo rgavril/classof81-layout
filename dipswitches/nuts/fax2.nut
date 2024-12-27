@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Time",
-    "default": "13000",
+    "default": 1,
     "values": [
       "8000",
       "13000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "Coin A 2C/1C Coin B 1C/3C",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game/Bonus Times",
-    "default": ":48/:36",
+    "default": 1,
     "values": [
       ":32/:24",
       ":48/:36",

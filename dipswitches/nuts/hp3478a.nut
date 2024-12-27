@@ -1,7 +1,7 @@
 return [
   {
     "name": "HP-IB Bus Address",
-    "default": "23",
+    "default": 23,
     "values": [
       "0",
       "1",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "PWR ON SRQ",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "50/60Hz AC",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "TSUMIPAI ENCHOU",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Last chance needs 1,000points",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Graphic ROM Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Play fee display",
-    "default": "100 Yen",
+    "default": 0,
     "values": [
       "100 Yen",
       "50 Yen"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Character Display Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

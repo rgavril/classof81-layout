@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Advertise Sound Interval",
-    "default": "2 Cycle",
+    "default": 3,
     "values": [
       "Off",
       "No Interval",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Advertise Coin Indication",
-    "default": "100 - 400 Yen",
+    "default": 1,
     "values": [
       "Coin",
       "100 - 400 Yen"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Short",
       "Normal"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Music",
-    "default": "End of game",
+    "default": 0,
     "values": [
       "End of game",
       "High score only"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Credits",
-    "default": "1p/2p = 1 credit",
+    "default": 0,
     "values": [
       "1p/2p = 1 credit",
       "1p = 1, 2p = 2",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "3 credits/2 coins",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Diag Step",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cocktail (no overlay)",
+    "default": 1,
     "values": [
       "Upright (overlay)",
       "Cocktail (no overlay)"

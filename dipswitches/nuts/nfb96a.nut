@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level (Difficulty)",
-    "default": "Level 5",
+    "default": 4,
     "values": [
       "Level 1 (Easiest)",
       "Level 2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "80",
+    "default": 11,
     "values": [
       "10",
       "20",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Minimum Play for Bonus",
-    "default": "24",
+    "default": 6,
     "values": [
       "10",
       "20",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Skill Spinning",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1 Coin/10 Credits",
+    "default": 4,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Note In Value",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "16",
+    "default": 5,
     "values": [
       "1",
       "10",
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Max Coin In & Note In Points",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -118,7 +118,7 @@ return [
   },
   {
     "name": "Clear / Ticket Unit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "Check Account",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "Show In Confirm Screen",
-    "default": "Level of Difficulty",
+    "default": 0,
     "values": [
       "Level of Difficulty",
       "Percentage"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Initial Bonus Settings After Reset",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Bonus Accumulation",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "Auto Ticket Dispense",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -180,7 +180,7 @@ return [
   },
   {
     "name": "Ticket Dispense Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Max 1 Ticket Per Game",
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Limit Score of Each Game to Max 10x Bet or $5.00",
-    "default": "Unused when DSW4-5 OFF",
+    "default": 2,
     "values": [
       "No",
       "Yes",
@@ -212,7 +212,7 @@ return [
   },
   {
     "name": "Use Printer",
-    "default": "No (Use TDDD)",
+    "default": 0,
     "values": [
       "No (Use TDDD)",
       "Yes"
@@ -220,7 +220,7 @@ return [
   },
   {
     "name": "Show Game Name & Odds Table",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -228,7 +228,7 @@ return [
   },
   {
     "name": "Min-Max Bet Type",
-    "default": "Base 8",
+    "default": 0,
     "values": [
       "Base 8",
       "Base 10"
@@ -236,7 +236,7 @@ return [
   },
   {
     "name": "Play Score when no point left",
-    "default": "Unused",
+    "default": 2,
     "values": [
       "No",
       "Yes",
@@ -246,7 +246,7 @@ return [
   },
   {
     "name": "Reset Remaining Score when Game Over",
-    "default": "Unused",
+    "default": 3,
     "values": [
       "No",
       "Yes",
@@ -256,7 +256,7 @@ return [
   },
   {
     "name": "Advanced Count Game",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

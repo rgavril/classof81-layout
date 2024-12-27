@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "YAKUMAN cut",
-    "default": "10%",
+    "default": 0,
     "values": [
       "10%",
       "30%",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Number of last chance",
-    "default": "10",
+    "default": 3,
     "values": [
       "0",
       "3",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Hanahai",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Chonbo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Open Reach of CPU",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Open Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Cansel Type",
-    "default": "HAIPAI",
+    "default": 3,
     "values": [
       "Off",
       "TSUMO 3",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "SCSI Port 0 ID",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Base Address",
-    "default": "0x0000",
+    "default": 0,
     "values": [
       "0x0000",
       "0x0800",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Permit User Access",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

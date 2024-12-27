@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Credits needed",
-    "default": "1 to start, 1 to continue",
+    "default": 0,
     "values": [
       "1 to start, 1 to continue",
       "2 to start, 1 to continue"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Switch to Start",
-    "default": "Start",
+    "default": 0,
     "values": [
       "Start",
       "Attack"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin Chute",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Individual"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Player Start/Continue",
-    "default": "3/3",
+    "default": 0,
     "values": [
       "3/3",
       "2/3",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",

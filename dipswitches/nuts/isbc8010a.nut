@@ -1,7 +1,7 @@
 return [
   {
     "name": "i8251 Baud Rate",
-    "default": "4800",
+    "default": 0,
     "values": [
       "4800",
       "2400",

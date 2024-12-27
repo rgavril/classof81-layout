@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 0,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Video Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "4 Players",
+    "default": 0,
     "values": [
       "4 Players",
       "3 Players",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "One",
+    "default": 0,
     "values": [
       "One",
       "Two"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Power-Up Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

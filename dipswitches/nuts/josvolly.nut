@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "982E",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "982A",
-    "default": "150",
+    "default": 3,
     "values": [
       "60",
       "90",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "TEST_MODE",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "982C",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "9827",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

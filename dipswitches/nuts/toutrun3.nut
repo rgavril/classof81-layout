@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Cockpit",
+    "default": 3,
     "values": [
       "Unused",
       "Unused",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Turbo",
-    "default": "Use Turbo Shifter",
+    "default": 1,
     "values": [
       "Unused",
       "Use Turbo Shifter"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Credits",
-    "default": "1 to Start/1 to Continue",
+    "default": 2,
     "values": [
       "3 to Start/2 to Continue",
       "2 to Start/1 to Continue",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",

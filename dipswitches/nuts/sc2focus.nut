@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin play",
-    "default": "Multi coin",
+    "default": 0,
     "values": [
       "Multi coin",
       "Single coin"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "CashPot Freq",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DIL08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin Jam Alarm",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DIL11",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DIL12",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DIL13",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Percentage setting",
-    "default": "78%",
+    "default": 2,
     "values": [
       "72%",
       "75%",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "PERCENTAGE KEY",
-    "default": "Key 7",
+    "default": 7,
     "values": [
       "No key",
       "Key 1",
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "DIL02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Attract Hi/Lo reel",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Acceptor type",
-    "default": "Mars",
+    "default": 0,
     "values": [
       "Mars",
       "Sentinel"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "DIL05",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

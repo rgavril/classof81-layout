@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A (EU FR)",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/3 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin A (JP US)",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin B (EU FR)",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin B (JP US)",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Free Play (EU & FR)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "Europe",
+    "default": 2,
     "values": [
       "Japan",
       "USA",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Infinite Time (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Choose Race (US EU FR)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -132,7 +132,7 @@ return [
   },
   {
     "name": "Vibrations",
-    "default": "Torque",
+    "default": 0,
     "values": [
       "Torque",
       "Shake"
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "This Unit Is",
-    "default": "Slave",
+    "default": 0,
     "values": [
       "Slave",
       "Master"
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "Unit ID",
-    "default": "1 (McLaren)",
+    "default": 0,
     "values": [
       "1 (McLaren)",
       "2 (Williams)",
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

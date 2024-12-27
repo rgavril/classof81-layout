@@ -1,7 +1,7 @@
 return [
   {
     "name": "Z80 Memory and Port location",
-    "default": "RAM: E0000  I/O: 31c",
+    "default": 14,
     "values": [
       "Invalid?",
       "RAM: 10000  I/O: 302",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Device Module Ports",
-    "default": "0x07",
+    "default": 7,
     "values": [
       "0x00",
       "0x01",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "RAM Module Page",
-    "default": "0x0e",
+    "default": 14,
     "values": [
       "0x00",
       "0x01",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "RAM Bank III",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "RAM Bank II",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "RAM Bank I",
-    "default": "Disabled",
+    "default": 1,
     "values": [
       "Enabled",
       "Disabled"

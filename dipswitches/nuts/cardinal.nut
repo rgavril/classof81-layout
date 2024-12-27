@@ -1,7 +1,7 @@
 return [
   {
     "name": "Keyboard Baud Rate",
-    "default": "600",
+    "default": 1,
     "values": [
       "300",
       "600"

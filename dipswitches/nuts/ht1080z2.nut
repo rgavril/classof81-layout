@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 6,
     "values": [
       "110",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "1"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bits",
-    "default": "8",
+    "default": 3,
     "values": [
       "5",
       "6",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Odd",

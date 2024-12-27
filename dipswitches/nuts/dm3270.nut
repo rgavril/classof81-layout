@@ -1,7 +1,7 @@
 return [
   {
     "name": "Switch A",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Switch B",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Switch C",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

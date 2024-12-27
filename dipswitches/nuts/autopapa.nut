@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "42 seconds",
+    "default": 0,
     "values": [
       "42 seconds",
       "56 seconds",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "25 Pesetas",
+    "default": 0,
     "values": [
       "25 Pesetas",
       "100 Pesetas",

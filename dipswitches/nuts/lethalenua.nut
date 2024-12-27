@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Spanish"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Arcade",
+    "default": 1,
     "values": [
       "Street",
       "Arcade"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Mechanism",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Independent"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Sound Output",
-    "default": "Stereo",
+    "default": 1,
     "values": [
       "Mono",
       "Stereo"

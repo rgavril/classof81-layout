@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Invulnerability",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Continues",
-    "default": "6",
+    "default": 1,
     "values": [
       "3",
       "6"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 0,
     "values": [
       "Upright 1 Player",
       "Upright 1 Player",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Level Select (Cheat)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Timer value",
-    "default": "150 secs",
+    "default": 1,
     "values": [
       "120 secs",
       "150 secs"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "70k, 200k",
+    "default": 0,
     "values": [
       "70k, 200k",
       "100k, 300k"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"

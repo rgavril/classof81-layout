@@ -1,7 +1,7 @@
 return [
   {
     "name": "INT",
-    "default": "Direct",
+    "default": 1,
     "values": [
       "Indirect",
       "Direct"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "AC/INT",
-    "default": "AC",
+    "default": 1,
     "values": [
       "INT",
       "AC"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Switch A",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Switch B",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Switch C",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Switch D",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Switch E",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Switch F",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Switch G",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Switch H",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Extra Hand On Natural",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Number of Chips",
-    "default": "40 Chips",
+    "default": 7,
     "values": [
       "5 Chips",
       "10 Chips",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Number of Hands",
-    "default": "5 Hands",
+    "default": 0,
     "values": [
       "5 Hands",
       "10 Hands",

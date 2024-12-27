@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Number of Rockets",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Collisions included",
+    "default": 1,
     "values": [
       "Collisions excluded",
       "Collisions included"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "Normal H.S.",
+    "default": 1,
     "values": [
       "No H.S.",
       "Normal H.S.",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "5500",
+    "default": 0,
     "values": [
       "5500",
       "7500",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Full Screen Rocket",
-    "default": "Stop at edge",
+    "default": 0,
     "values": [
       "Stop at edge",
       "Wrap Around"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Sound Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "REAL TIME CLOCK (CLIKCLOK)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "CORVUS HARD DISKS (#2 to #5)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DEC HARD DISK (#1)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "GRAPHICS OPTION",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "J17 DRIVE SELECT (A => C and B => D)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "MONITOR CONFIGURATION",
-    "default": "AUTODETECT",
+    "default": 0,
     "values": [
       "AUTODETECT",
       "MONO ONLY / 4 to 16 monochrome shades (single VR-201)",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "MONO MONITOR TYPE",
-    "default": "AMBER (VR201-C)",
+    "default": 2,
     "values": [
       "WHITE (VR201-A)",
       "GREEN (VR201-B)",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "W13 (FACTORY TEST A, LEAVE OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "W14 (FACTORY TEST B, LEAVE OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "W15 (FACTORY TEST C, LEAVE OFF)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "W18 (FACTORY TEST D, LEAVE OFF) (8251A: DSR)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "WATCHDOG ENABLED (MHFU)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Mid 1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Punti",
-    "default": "Ticket",
+    "default": 0,
     "values": [
       "Ticket",
       "Gettoni"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Ticket Dispenser",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Super Jackpot",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "5%",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Bet Step On 8",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Main/Bonus Game Rate",
-    "default": "83% / 88%",
+    "default": 11,
     "values": [
       "50% / 55%",
       "53% / 58%",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 3,
     "values": [
       "8",
       "16",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Min. Bet For Bonus Play",
-    "default": "16",
+    "default": 1,
     "values": [
       "8",
       "16"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "5x Coin A",
+    "default": 0,
     "values": [
       "5x Coin A",
       "10x Coin A",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/250 Credits",
+    "default": 14,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/10 Credits",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Coin B Rate",
-    "default": "1x Coin C",
+    "default": 0,
     "values": [
       "1x Coin C",
       "2x Coin C"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Cherry/Bell Bonus",
-    "default": "x6 / x3",
+    "default": 0,
     "values": [
       "x6 / x3",
       "x9 / x5"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

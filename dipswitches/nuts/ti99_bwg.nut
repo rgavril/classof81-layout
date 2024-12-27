@@ -1,7 +1,7 @@
 return [
   {
     "name": "BwG step rate",
-    "default": "6 ms",
+    "default": 0,
     "values": [
       "6 ms",
       "20 ms"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "BwG date/time display",
-    "default": "Hide",
+    "default": 0,
     "values": [
       "Hide",
       "Show"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "BwG drives",
-    "default": "DSK1-DSK4",
+    "default": 3,
     "values": [
       "DSK1 only",
       "DSK1-DSK2",

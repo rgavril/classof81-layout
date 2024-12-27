@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "2000",
+    "default": 1,
     "values": [
       "1000",
       "2000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

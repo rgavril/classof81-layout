@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display Logo",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Disable Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Clear NVRAM",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 2,
     "values": [
       "Hardest",
       "Hard",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Notes Settings",
-    "default": "Note A: 10 - Note B: 20 - Note C: 50 - Note D: 100",
+    "default": 0,
     "values": [
       "Note A: 10 - Note B: 20 - Note C: 50 - Note D: 100",
       "Note A: 20 - Note B: 40 - Note C: 100 - Note D: 200",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "1 Play Won",
-    "default": "Every 10 Score",
+    "default": 3,
     "values": [
       "Every 10 Score",
       "Every 10 Score",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "1 Ticket Won",
-    "default": "Every 100 Score",
+    "default": 3,
     "values": [
       "Every 100 Score",
       "Every 100 Score",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Lots At",
-    "default": "500 1000 2000 4000 8000",
+    "default": 3,
     "values": [
       "50 200 500 1000 2000",
       "100 300 1000 3000 5000",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Dispenser Type",
-    "default": "Lots Dispenser",
+    "default": 3,
     "values": [
       "MKII Hopper - Supergame",
       "10 Tokens",

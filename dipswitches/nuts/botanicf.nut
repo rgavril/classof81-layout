@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C/1C 1C/2C 1C/6C 1C/14C",
+    "default": 0,
     "values": [
       "1C/1C 1C/2C 1C/6C 1C/14C",
       "2C/1C 1C/2C 1C/3C 1C/7C"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Invulnerability Fruits",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "None"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "System Mode",
-    "default": "Word Processor",
+    "default": 1,
     "values": [
       "Typewriter",
       "Word Processor"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Screen Refresh",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "1st Bonus Life",
-    "default": "100k",
+    "default": 3,
     "values": [
       "40k",
       "50k",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "2nd & 3rd Bonus Life",
-    "default": "750k 1500k",
+    "default": 3,
     "values": [
       "150k 250k",
       "250k 500k",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Credit(s)/Ships",
-    "default": "1C/3S 2C/7S",
+    "default": 3,
     "values": [
       "1C/2S 2C/4S",
       "1C/2S 2C/5S",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

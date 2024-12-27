@@ -1,7 +1,7 @@
 return [
   {
     "name": "Girls Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "China Tiles",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Alpha-Numeric"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Very Hard",
       "Hard",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Very Hard",
       "Hard",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Title Screen",
-    "default": "Match It II",
+    "default": 0,
     "values": [
       "Match It II",
       "Shisensho II"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 8,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",

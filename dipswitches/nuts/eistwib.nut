@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Base address",
-    "default": "0x380",
+    "default": 56,
     "values": [
       "0x000",
       "0x010",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "ISA IRQ2",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "8274 INT"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "ISA IRQ3",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "8274 INT"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "ISA IRQ4",
-    "default": "8274 INT",
+    "default": 1,
     "values": [
       "no jumper",
       "8274 INT"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "ISA IRQ5",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "8274 INT"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "ISA IRQ6",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "8274 INT"

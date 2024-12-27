@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Boot"

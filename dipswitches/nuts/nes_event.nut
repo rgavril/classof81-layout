@@ -1,7 +1,7 @@
 return [
   {
     "name": "Timer",
-    "default": "6:15.5",
+    "default": 4,
     "values": [
       "5:00.4",
       "5:19.2",

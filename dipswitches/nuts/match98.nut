@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Level (Difficulty)",
-    "default": "Level 5",
+    "default": 4,
     "values": [
       "Level 1",
       "Level 2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "100",
+    "default": 7,
     "values": [
       "8",
       "10",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Minimum Play for Bonus",
-    "default": "20",
+    "default": 2,
     "values": [
       "8",
       "10",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1 Coin/10 Credits",
+    "default": 4,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Note In Value",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "WARNING: Always Off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Minimum Play to Start",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "8",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Max Coin In & Note In Point",
-    "default": "10000",
+    "default": 2,
     "values": [
       "1000",
       "5000",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Clear / Ticket Unit",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Auto Ticket Dispense",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Ticket Dispense Mode",
-    "default": "Continuous",
+    "default": 0,
     "values": [
       "Continuous",
       "Max 1 Ticket Per Game",

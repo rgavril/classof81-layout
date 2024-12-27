@@ -1,7 +1,7 @@
 return [
   {
     "name": "Copyright / License",
-    "default": "Seta USA / Romstar",
+    "default": 3,
     "values": [
       "Seta USA / Taito America",
       "Seta / Jordan I.S.",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Hard",
+    "default": 2,
     "values": [
       "Normal",
       "Easy",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "600k & 900k",
+    "default": 2,
     "values": [
       "None",
       "600K Only",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Licensor Option",
-    "default": "Option 1",
+    "default": 0,
     "values": [
       "Option 1",
       "Option 2"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coinage Type",
-    "default": "Coin Mode 1",
+    "default": 0,
     "values": [
       "Coin Mode 1",
       "Coin Mode 2"

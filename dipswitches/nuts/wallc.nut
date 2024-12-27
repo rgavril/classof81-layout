@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "5",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "Off",
+    "default": 3,
     "values": [
       "100K/200K/400K/800K",
       "80K/160K/320K/640K",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Curve Effect",
-    "default": "More",
+    "default": 1,
     "values": [
       "Normal",
       "More"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Normal",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Service",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Free Play With Level Select",
       "Normal"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

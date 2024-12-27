@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "300",
+    "default": 1,
     "values": [
       "110",
       "300"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "IRQ-A",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "IRQ-B",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Address mode",
-    "default": "4 address",
+    "default": 0,
     "values": [
       "4 address",
       "16 address"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Interrupt select",
-    "default": "N/C",
+    "default": 0,
     "values": [
       "N/C",
       "IRQ",
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Two control registers",
-    "default": "No, DC4 compatible",
+    "default": 0,
     "values": [
       "No, DC4 compatible",
       "Yes, DC5 extension"

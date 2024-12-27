@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pay Out Rate",
-    "default": "71%",
+    "default": 8,
     "values": [
       "96%",
       "93%",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "50-30-15-8-5-3-2-1",
+    "default": 1,
     "values": [
       "32-24-16-12-8-4-2-1",
       "50-30-15-8-5-3-2-1",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Minimum Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Yakuman Bonus",
-    "default": "Every 500 Coins",
+    "default": 3,
     "values": [
       "No",
       "Once on Start",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Yakuman Bonus Cycle",
-    "default": "Once",
+    "default": 0,
     "values": [
       "Once",
       "Twice"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Payout Type",
-    "default": "Credits",
+    "default": 0,
     "values": [
       "Credits",
       "Hopper"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Hopper Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Reversed"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "W-Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Good Time Timer",
-    "default": "3 Minutes",
+    "default": 0,
     "values": [
       "3 Minutes",
       "5 Minutes"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Quiz Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Quiz Bonus Points",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "BGM during Gameplay",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Don Den Button",
-    "default": "F/F Button",
+    "default": 1,
     "values": [
       "Start Button",
       "F/F Button"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Auto Reach",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Full Test",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Background",
-    "default": "Green",
+    "default": 1,
     "values": [
       "Black",
       "Green"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Book (Stage) Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "Yakuman Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -213,7 +213,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Quiz Questions Table",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B",
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Yakuman Match Frequency",
-    "default": "Often",
+    "default": 1,
     "values": [
       "Normal",
       "Often"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "4 Koma Comic Type",
-    "default": "B",
+    "default": 1,
     "values": [
       "A",
       "B"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Level",
-    "default": "4",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Double-Up Level",
-    "default": "8",
+    "default": 7,
     "values": [
       "1",
       "2",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "50",
+    "default": 3,
     "values": [
       "10",
       "20",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Magnification",
-    "default": "B Type",
+    "default": 1,
     "values": [
       "A Type",
       "B Type"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Key In - Hopper Out",
-    "default": "1000",
+    "default": 7,
     "values": [
       "1",
       "10",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin-In",
-    "default": "250",
+    "default": 7,
     "values": [
       "1",
       "5",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Service-In",
-    "default": "100",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "30000",
+    "default": 6,
     "values": [
       "1000",
       "2000",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "50000",
+    "default": 6,
     "values": [
       "1000",
       "3000",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Out Coin Counter",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Credit Cut",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "4 Card Fever",
-    "default": "D Type",
+    "default": 3,
     "values": [
       "A Type",
       "B Type",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Hopper Sub-Board",
-    "default": "Use",
+    "default": 1,
     "values": [
       "Off",
       "Use"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Title Type",
-    "default": "A Type: Umi de Poker",
+    "default": 0,
     "values": [
       "A Type: Umi de Poker",
       "B Type: Marine Paradise"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "First Bet",
-    "default": "20",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Fever Initialize",
-    "default": "B Type",
+    "default": 1,
     "values": [
       "A Type",
       "B Type"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

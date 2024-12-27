@@ -1,7 +1,7 @@
 return [
   {
     "name": "Replay at / High-score",
-    "default": "2200k and 2800k / 3500k",
+    "default": 1,
     "values": [
       "1900k and 2500k / 3500k",
       "2200k and 2800k / 3500k",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/2 C 1/5",
+    "default": 1,
     "values": [
       "A 2/1 B 1/1 C 1/3",
       "A 1/1 B 1/2 C 1/5",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "DSW0-1 Unknown",
-    "default": "FF",
+    "default": 1,
     "values": [
       "00",
       "FF"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Displays Replays and Extra Balls",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Background Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "When hitting nothing",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Clear RAM on Reset",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Medium Left Lane",
-    "default": "Lit Value",
+    "default": 0,
     "values": [
       "Lit Value",
       "100k when 100k Lit"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Extra Ball Light",
-    "default": "Flashing",
+    "default": 0,
     "values": [
       "Flashing",
       "Always Lit"

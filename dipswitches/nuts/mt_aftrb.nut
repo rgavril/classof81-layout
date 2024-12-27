@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin slot 4",
-    "default": "Accept",
+    "default": 1,
     "values": [
       "Inhibit",
       "Accept"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin slot 3",
-    "default": "Accept",
+    "default": 1,
     "values": [
       "Inhibit",
       "Accept"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin slot 3/4 value",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Coin slot 2 value",
-    "default": "1 Coin/2 Credits",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coin Slot 1 value",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "Inhibit",
       "1 Coin/1 Credit",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Time per credit",
-    "default": "3:00",
+    "default": 10,
     "values": [
       "Free Play",
       "7:30",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

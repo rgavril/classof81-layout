@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin 2 Multiplier",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin 1 Multiplier",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Credits",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "5 Coins/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "60K, 100K",
+    "default": 2,
     "values": [
       "None",
       "30K, 100K",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

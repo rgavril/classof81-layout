@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "1:30",
+    "default": 2,
     "values": [
       "3:00",
       "2:00",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C/1C (1C per player)",
+    "default": 1,
     "values": [
       "1C/1C (3C per player)",
       "1C/1C (1C per player)",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

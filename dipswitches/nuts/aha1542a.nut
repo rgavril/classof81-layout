@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Automatic Request Sense",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "BIOS Base Address",
-    "default": "0DC000h",
+    "default": 3,
     "values": [
       "0C8000h",
       "0CC000h",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "System BIOS",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "BIOS Wait State",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "100 ns",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "SCSI Address ID",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "DMA Channel",
-    "default": "5",
+    "default": 1,
     "values": [
       "0",
       "5",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Interrupt Channel",
-    "default": "11",
+    "default": 2,
     "values": [
       "9",
       "10",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DMA Acknowledge",
-    "default": "Channel 5",
+    "default": 1,
     "values": [
       "Channel 0",
       "Channel 5",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "DMA Request",
-    "default": "Channel 5",
+    "default": 1,
     "values": [
       "Channel 0",
       "Channel 5",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "FDC Secondary Address",
-    "default": "3F0h-3F7h",
+    "default": 1,
     "values": [
       "370h-377h",
       "3F0h-3F7h"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Flexible Disk Controller",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "FDC DMA Acknowledge",
-    "default": "Channel 2",
+    "default": 0,
     "values": [
       "Channel 2",
       "Channel 3"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "FDC DMA Request",
-    "default": "Channel 2",
+    "default": 0,
     "values": [
       "Channel 2",
       "Channel 3"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "FDC Interrupt",
-    "default": "Channel 6",
+    "default": 0,
     "values": [
       "Channel 6",
       "Channel 10"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Interrupt",
-    "default": "IRQ 11",
+    "default": 2,
     "values": [
       "IRQ 9",
       "IRQ 10",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "I/O Port Address",
-    "default": "330h",
+    "default": 4,
     "values": [
       "130h",
       "134h",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Synchronous Negotiation",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Diagnostic Test Loop",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "SCSI Parity Checking",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -205,7 +205,7 @@ return [
   },
   {
     "name": "DMA Transfer Speed",
-    "default": "5.0 MB/s",
+    "default": 0,
     "values": [
       "5.0 MB/s",
       "5.7 MB/s",

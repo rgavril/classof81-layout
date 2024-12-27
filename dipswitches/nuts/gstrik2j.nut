@@ -1,7 +1,7 @@
 return [
   {
     "name": "Player Vs Com",
-    "default": "1:00",
+    "default": 0,
     "values": [
       "1:00",
       "1:30",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "1P Vs 2P",
-    "default": "0:45",
+    "default": 0,
     "values": [
       "0:45",
       "1:00",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extra Time",
-    "default": "0:30",
+    "default": 0,
     "values": [
       "0:30",
       "0:45",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Time Period",
-    "default": "Sudden Death",
+    "default": 0,
     "values": [
       "Sudden Death",
       "Full"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "Very Easy",
       "Easier",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 9,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "Same as Coin A",
+    "default": 7,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Credits to Start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Credits to Continue",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Playmode",
-    "default": "1 Credit for 1 Player",
+    "default": 0,
     "values": [
       "1 Credit for 1 Player",
       "1 Credit for 2 Players"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

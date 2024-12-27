@@ -1,7 +1,7 @@
 return [
   {
     "name": "Drive Code",
-    "default": "No. 1",
+    "default": 0,
     "values": [
       "No. 1",
       "No. 2",

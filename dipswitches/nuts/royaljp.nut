@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Main Game",
+    "default": 1,
     "values": [
       "Keyboard Test",
       "Main Game"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "50 Points/Coin",
+    "default": 0,
     "values": [
       "50 Points/Coin",
       "20 Points/Coin"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "10 Points/Coin",
+    "default": 0,
     "values": [
       "10 Points/Coin",
       "1 Point/Coin"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Insert",
-    "default": "Royal Jackpot",
+    "default": 1,
     "values": [
       "Dattl Insert",
       "Royal Jackpot"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Profit",
-    "default": "Hohes Paar",
+    "default": 0,
     "values": [
       "Hohes Paar",
       "2 Kings or Aces"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Autohold",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Hopper Payout",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

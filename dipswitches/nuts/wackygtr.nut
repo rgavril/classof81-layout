@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Test",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Test",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

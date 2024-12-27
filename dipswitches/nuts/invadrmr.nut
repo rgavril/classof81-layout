@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "1500",
+    "default": 0,
     "values": [
       "1500",
       "3000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin Info",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

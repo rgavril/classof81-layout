@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Rate",
-    "default": "70%",
+    "default": 4,
     "values": [
       "50%",
       "55%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Bonus Rate",
-    "default": "30%",
+    "default": 1,
     "values": [
       "20%",
       "30%"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Tile Arrangement",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Bad"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Customer Service",
-    "default": "Big",
+    "default": 3,
     "values": [
       "None",
       "Small",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "1,2,3,5,8,12,24,60 / 2,3,5,8,12,18,36,100",
+    "default": 1,
     "values": [
       "1,2,3,5,8,12,24,36 / 2,3,5,8,12,18,36,58",
       "1,2,3,5,8,12,24,60 / 2,3,5,8,12,18,36,100",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Coin Limit",
-    "default": "9999",
+    "default": 3,
     "values": [
       "100",
       "300",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "9999",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Notes",
-    "default": "1 Note/10 Credits",
+    "default": 7,
     "values": [
       "10 Notes/1 Credit",
       "5 Notes/1 Credit",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Pay Out Type",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Note"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Pay Out Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "8 Renso Initial Setting",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Every 2 Bets",
+    "default": 0,
     "values": [
       "Every 2 Bets",
       "Every 3 Bets"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Credit Timer",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -195,7 +195,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

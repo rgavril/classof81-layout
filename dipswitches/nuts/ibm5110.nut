@@ -1,7 +1,7 @@
 return [
   {
     "name": "Feature ROS",
-    "default": "Absent",
+    "default": 0,
     "values": [
       "Absent",
       "Present"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Model",
-    "default": "5110-X1X",
+    "default": 0,
     "values": [
       "5110-X1X",
       "5110-X2X"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "L2_2",
-    "default": "Unknown",
+    "default": 0,
     "values": [
       "Unknown"
     ]

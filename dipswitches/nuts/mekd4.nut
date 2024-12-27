@@ -1,7 +1,7 @@
 return [
   {
     "name": "RS-232 console (D4B)",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "MEK68R2 present (D4C)",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Cassette baud rate",
-    "default": "1200",
+    "default": 0,
     "values": [
       "1200",
       "300"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Keypad and display present (D4A)",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Display format",
-    "default": "20 lines of 80 characters",
+    "default": 2,
     "values": [
       "16 lines of 32 characters",
       "16 lines of 64 characters",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Display nationality",
-    "default": "Europe",
+    "default": 1,
     "values": [
       "US",
       "Europe"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "R2 Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Dumb terminal"

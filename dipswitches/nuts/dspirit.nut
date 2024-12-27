@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step1of7)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step2of7)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step3of7)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step4of7)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step5of7)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step6of7)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Open 3rd Life (step7of7)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"

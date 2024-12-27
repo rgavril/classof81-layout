@@ -1,7 +1,7 @@
 return [
   {
     "name": "K235 INT7",
-    "default": "Slot 5",
+    "default": 0,
     "values": [
       "Slot 5",
       "Slot 6"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "K235 INT5",
-    "default": "Slot 2a",
+    "default": 0,
     "values": [
       "Slot 2a",
       "Slot 2"

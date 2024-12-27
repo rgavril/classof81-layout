@@ -1,7 +1,7 @@
 return [
   {
     "name": "Price Per Play",
-    "default": "5p",
+    "default": 0,
     "values": [
       "5p",
       "10p"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Max Prize",
-    "default": "200p (cash)",
+    "default": 2,
     "values": [
       "400p (cash + tokens)",
       "300p (cash + tokens)",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "80%",
+    "default": 1,
     "values": [
       "76%",
       "80%",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": " Unknown 1-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": " Unknown 1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": " Unknown 1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Show Results",
-    "default": "Last Race",
+    "default": 0,
     "values": [
       "Last Race",
       "Last 6 Races"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": " Unknown 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": " Unknown 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": " Unknown 2-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": " Unknown 2-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": " Unknown 2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": " Unknown 2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": " Unknown 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Out Coin 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Out Coin 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Out Coin 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

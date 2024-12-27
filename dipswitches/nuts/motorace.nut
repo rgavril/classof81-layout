@@ -1,7 +1,7 @@
 return [
   {
     "name": "Fuel Reduced on Collision",
-    "default": "8/120 Dots",
+    "default": 0,
     "values": [
       "8/120 Dots",
       "10/120 Dots",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Fuel Consumption",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C_1C / B 1C_2C",
+    "default": 23,
     "values": [
       "Not Used",
       "Not Used",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Coin Mode",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Speed Type",
-    "default": "mph",
+    "default": 0,
     "values": [
       "mph",
       "km/h"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Stop Mode (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Invulnerability (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

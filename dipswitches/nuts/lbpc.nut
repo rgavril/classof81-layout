@@ -1,7 +1,7 @@
 return [
   {
     "name": "SCSI Initiator ID",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Drive B Type",
-    "default": "360K, 5-1/4\"",
+    "default": 0,
     "values": [
       "360K, 5-1/4\"",
       "1.2M, 5-1/4\"",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Drive A Type",
-    "default": "360K, 5-1/4\"",
+    "default": 0,
     "values": [
       "360K, 5-1/4\"",
       "1.2M, 5-1/4\"",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Display Type",
-    "default": "1001 - MDA SECONDARY, EGA HI RES ENHANCED",
+    "default": 9,
     "values": [
       "0000 - MDA PRIMARY, EGA COLOR, 40x25",
       "0001 - MDA PRIMARY, EGA COLOR, 80x25",

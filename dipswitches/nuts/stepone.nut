@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Display Mode",
-    "default": "36CH 10 raster",
+    "default": 3,
     "values": [
       "80CH 8 raster",
       "80CH 16 raster",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Expansion Unit",
-    "default": "None",
+    "default": 1,
     "values": [
       "Attached",
       "None"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Flexible Disk Drive for boot",
-    "default": "Drive A",
+    "default": 0,
     "values": [
       "Drive A",
       "Drive B",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Flexible Disk Drive type for boot",
-    "default": "5.25-inch Flexible Disk Drive",
+    "default": 1,
     "values": [
       "8-inch Flexible Disk Unit",
       "5.25-inch Flexible Disk Drive"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Check mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Always off",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Number of disk drive(s)",
-    "default": "2 drives",
+    "default": 0,
     "values": [
       "2 drives",
       "1 drive"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Initial setting of basic RS-232C Adapter",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "01",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "I/O Base address",
-    "default": "0x530",
+    "default": 166,
     "values": [
       "0x000",
       "0x008",
@@ -373,7 +373,7 @@ return [
   },
   {
     "name": "USART ISA IRQ",
-    "default": "IRQ4",
+    "default": 2,
     "values": [
       "IRQ2",
       "IRQ3",

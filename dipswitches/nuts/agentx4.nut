@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credits",
-    "default": "1 Credit/1 Game",
+    "default": 0,
     "values": [
       "1 Credit/1 Game",
       "1 Credit/2 Games",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/4 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Freeze Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

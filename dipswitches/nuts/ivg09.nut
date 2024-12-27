@@ -1,7 +1,7 @@
 return [
   {
     "name": "IRQ PTM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "IRQ ACIA",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Terminal",
-    "default": "IVG09 (mc6845)",
+    "default": 3,
     "values": [
       "110 baud",
       "300 baud",

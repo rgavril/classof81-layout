@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credits at start",
-    "default": "0",
+    "default": 1,
     "values": [
       "500",
       "0"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Key Up / Clear",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "30",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Card Character",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Player Character",
-    "default": "B",
+    "default": 1,
     "values": [
       "A",
       "B"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Credit",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

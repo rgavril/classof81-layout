@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Time Limit",
-    "default": "4:00",
+    "default": 3,
     "values": [
       "1:00",
       "2:00",

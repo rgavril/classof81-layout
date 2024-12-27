@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Missile appears at",
-    "default": "10000",
+    "default": 1,
     "values": [
       "5000",
       "10000",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "15k and 100k",
+    "default": 0,
     "values": [
       "15k and 100k",
       "25k and 100k",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "2 Coins/1 Credit",
+    "default": 0,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "3 credits/2 coins",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

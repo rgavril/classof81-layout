@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "6",
+    "default": 5,
     "values": [
       "2",
       "3",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Extended Play At",
-    "default": "4000",
+    "default": 0,
     "values": [
       "4000",
       "6000",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Hard",
+    "default": 2,
     "values": [
       "Easy",
       "Normal",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Start with 20000 Pts",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/2 Credits",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "2 Coins/1 Credit",
       "2 Coins/2 Credits",

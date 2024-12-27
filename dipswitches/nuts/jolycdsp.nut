@@ -1,7 +1,7 @@
 return [
   {
     "name": "State",
-    "default": "Play",
+    "default": 1,
     "values": [
       "Keyboard Test",
       "Play"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Remote Value",
-    "default": "10 Points/Pulse",
+    "default": 0,
     "values": [
       "10 Points/Pulse",
       "50 Points/Pulse"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "2 Coins/1 Credit",
+    "default": 0,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Joker",
-    "default": "With Joker",
+    "default": 0,
     "values": [
       "With Joker",
       "Without Joker"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Hold",
-    "default": "Auto Hold",
+    "default": 0,
     "values": [
       "Auto Hold",
       "No Auto Hold"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Manual Payout SW",
+    "default": 1,
     "values": [
       "Hopper",
       "Manual Payout SW"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "On-Board I/O Ports",
-    "default": "00-07",
+    "default": 0,
     "values": [
       "00-07",
       "08-0F",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "On-Board RAM Address",
-    "default": "DC00-DFFF",
+    "default": 55,
     "values": [
       "0000-03FF",
       "0400-07FF",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "On-Board EPROM Address",
-    "default": "5000-57FF",
+    "default": 74,
     "values": [
       "0000-03FF",
       "0400-07FF",
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "EPROM Phantom Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "On-Board EPROM",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -235,7 +235,7 @@ return [
   },
   {
     "name": "Power-On Jump",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -243,7 +243,7 @@ return [
   },
   {
     "name": "On-Board EPROM Size",
-    "default": "2K x 8 (2716)",
+    "default": 1,
     "values": [
       "1K x 8 (2708)",
       "2K x 8 (2716)"

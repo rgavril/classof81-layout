@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Key-In Rate",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "2000",
+    "default": 0,
     "values": [
       "2000",
       "Unlimited"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "Coin Acceptor",
+    "default": 0,
     "values": [
       "Coin Acceptor",
       "Key-In"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Return Coins",
+    "default": 0,
     "values": [
       "Return Coins",
       "Key-Out"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Hide Credits",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Game Title",
-    "default": "Maque Wangchao",
+    "default": 0,
     "values": [
       "Maque Wangchao",
       "Chaoji Da Manguan 2 - Jiaqiang Ban"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Double Up Jackpot",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Double Up Game Name",
-    "default": "Continue Play",
+    "default": 0,
     "values": [
       "Continue Play",
       "Double Up"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Mahjong",
+    "default": 0,
     "values": [
       "Mahjong",
       "Joystick"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Number Type",
-    "default": "Numbers",
+    "default": 0,
     "values": [
       "Numbers",
       "Blocks"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

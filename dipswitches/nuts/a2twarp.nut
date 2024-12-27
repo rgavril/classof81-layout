@@ -1,7 +1,7 @@
 return [
   {
     "name": "Slot 1",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Slot 2",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Slot 3",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Slot 4",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Slot 5",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Slot 6",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Slot 7",
-    "default": "Non-LC",
+    "default": 1,
     "values": [
       "Language Card",
       "Non-LC"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Full acceleration",
+    "default": 0,
     "values": [
       "Full acceleration",
       "Half acceleration"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Slot 1",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Slot 2",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Slot 3",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Slot 4",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Slot 5",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Slot 6",
-    "default": "Stock speed",
+    "default": 0,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Slot 7",
-    "default": "Accelerated",
+    "default": 1,
     "values": [
       "Stock speed",
       "Accelerated"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Transwarp Enable",
-    "default": "Acceleration enabled",
+    "default": 0,
     "values": [
       "Acceleration enabled",
       "Acceleration disabled"

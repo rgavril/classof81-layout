@@ -1,7 +1,7 @@
 return [
   {
     "name": "RAM size",
-    "default": "64kw",
+    "default": 2,
     "values": [
       "4kw",
       "32kw",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Hardware multiply",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Hardware divide",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Type 20 sequence break system",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "Type 32 light pen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Sense Switch 6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Sense Switch 5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Sense Switch 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Sense Switch 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Sense Switch 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Sense Switch 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

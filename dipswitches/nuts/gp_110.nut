@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "S06",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -46,7 +46,7 @@ return [
   },
   {
     "name": "S07",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -84,7 +84,7 @@ return [
   },
   {
     "name": "S13",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "S14",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "S15",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Play Tunes",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S22",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "S23",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "S24",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Max number of credits",
-    "default": "15",
+    "default": 2,
     "values": [
       "5",
       "10",
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Award",
-    "default": "Replay",
+    "default": 1,
     "values": [
       "Extra Ball",
       "Replay"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Credits for exceeding high score",
-    "default": "2",
+    "default": 2,
     "values": [
       "0",
       "1",

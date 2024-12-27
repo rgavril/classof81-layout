@@ -1,7 +1,7 @@
 return [
   {
     "name": "Card Address",
-    "default": "36 (ABC 850)",
+    "default": 4,
     "values": [
       "32",
       "33",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "PROM Size",
-    "default": "2 KB",
+    "default": 0,
     "values": [
       "2 KB",
       "8 KB"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "RAM Size",
-    "default": "2 KB",
+    "default": 0,
     "values": [
       "2 KB",
       "8 KB"

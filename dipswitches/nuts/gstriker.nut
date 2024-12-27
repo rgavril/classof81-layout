@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "2 Players VS CPU Game",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Player VS Player Game",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "New Challenger",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Cabinet Type",
-    "default": "2 Players",
+    "default": 1,
     "values": [
       "1 Player",
       "2 Players"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Player(s) VS CPU Time",
-    "default": "2:00",
+    "default": 1,
     "values": [
       "1:30",
       "2:00",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Player VS Player Time",
-    "default": "3:00",
+    "default": 1,
     "values": [
       "2:00",
       "3:00",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Communication Mode",
-    "default": "Master",
+    "default": 0,
     "values": [
       "Master",
       "Slave"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

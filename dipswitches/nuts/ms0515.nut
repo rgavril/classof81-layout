@@ -1,7 +1,7 @@
 return [
   {
     "name": "Refresh rate",
-    "default": "50 Hz",
+    "default": 0,
     "values": [
       "50 Hz",
       "60 Hz",

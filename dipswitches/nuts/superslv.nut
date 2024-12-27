@@ -1,7 +1,7 @@
 return [
   {
     "name": "Slave Address",
-    "default": "70H (0)",
+    "default": 0,
     "values": [
       "70H (0)",
       "72H (1)",

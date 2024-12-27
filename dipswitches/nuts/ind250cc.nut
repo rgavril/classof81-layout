@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coins",
-    "default": "Slot1 1coin/1game; Slot2 1coin/4games",
+    "default": 0,
     "values": [
       "Slot1 1coin/1game; Slot2 1coin/4games",
       "Slot1 2coins/1game; Slot2 1coin/3games"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Points for free game",
-    "default": "3000000",
+    "default": 0,
     "values": [
       "3000000",
       "3300000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "5000000",
+    "default": 0,
     "values": [
       "5000000",
       "5200000",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Quita bola extra en passillos 1,2,y 3",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

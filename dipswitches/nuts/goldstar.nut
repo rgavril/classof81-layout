@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Style",
-    "default": "Tokens",
+    "default": 0,
     "values": [
       "Tokens",
       "Tickets"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Out Switch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Payout Switch",
+    "default": 0,
     "values": [
       "Payout Switch",
       "Automatic"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "'7' In Double Up Game",
-    "default": "Lose",
+    "default": 0,
     "values": [
       "Lose",
       "Even"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Double Up Game Pay Rate",
-    "default": "60%",
+    "default": 0,
     "values": [
       "60%",
       "70%"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "50",
+    "default": 3,
     "values": [
       "8",
       "16",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "75%",
+    "default": 7,
     "values": [
       "40%",
       "45%",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "100 Odds Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Key-In Type",
-    "default": "A-Type",
+    "default": 1,
     "values": [
       "B-Type",
       "A-Type"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Center Super 7 Bet Limit",
-    "default": "Limited",
+    "default": 1,
     "values": [
       "Unlimited",
       "Limited"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/10 Credits",
+    "default": 0,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/20 Credits",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Coin C",
-    "default": "1 Coin/2 Credits",
+    "default": 1,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5,000",
+    "default": 0,
     "values": [
       "5,000",
       "10,000",
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Display Of Payout Limit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Min. Bet For Bonus Play",
-    "default": "16",
+    "default": 1,
     "values": [
       "8",
       "16"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Ticket Payment",
-    "default": "Pay All",
+    "default": 1,
     "values": [
       "1 Ticket/100",
       "Pay All"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Show Woman",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

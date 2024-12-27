@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character spacing",
-    "default": "10 cpi",
+    "default": 0,
     "values": [
       "10 cpi",
       "12 cpi"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Shape of zero",
-    "default": "Not slashed",
+    "default": 0,
     "values": [
       "Not slashed",
       "Slashed"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Page length",
-    "default": "11\"",
+    "default": 1,
     "values": [
       "8.5\"",
       "11\"",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Character table",
-    "default": "Italics",
+    "default": 0,
     "values": [
       "Italics",
       "Graphics"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "International character set",
-    "default": "USA (PC 437)",
+    "default": 0,
     "values": [
       "USA (PC 437)",
       "France (PC 850)",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Short tear-off",
-    "default": "Invalid",
+    "default": 0,
     "values": [
       "Invalid",
       "Valid"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Cut-sheet feeder mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Skip over perforation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "1\""
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Auto line feed",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

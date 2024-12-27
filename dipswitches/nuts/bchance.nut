@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bet Max",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "50"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "French",
+    "default": 0,
     "values": [
       "French",
       "English"

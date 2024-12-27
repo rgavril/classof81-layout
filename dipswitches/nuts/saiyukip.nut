@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Level",
-    "default": "8",
+    "default": 7,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Double-Up Level",
-    "default": "8",
+    "default": 7,
     "values": [
       "1",
       "2",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Percentage Wide",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "One Game Timer",
-    "default": "50 Sec.",
+    "default": 1,
     "values": [
       "20 Sec.",
       "50 Sec."
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Key In - Hopper Out",
-    "default": "1000",
+    "default": 7,
     "values": [
       "1",
       "5",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coin-In",
-    "default": "250",
+    "default": 7,
     "values": [
       "1",
       "5",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Service-In",
-    "default": "100",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Coin In Max",
-    "default": "30000",
+    "default": 6,
     "values": [
       "1000",
       "2000",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Limit Over",
-    "default": "50000",
+    "default": 6,
     "values": [
       "1000",
       "3000",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Demo Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "BGM",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "First Bet",
-    "default": "15",
+    "default": 3,
     "values": [
       "1",
       "5",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "50",
+    "default": 3,
     "values": [
       "1",
       "10",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Medal Sub-Board",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Out Counter",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Credit Over Cut",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

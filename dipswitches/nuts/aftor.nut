@@ -1,7 +1,7 @@
 return [
   {
     "name": "Chute 1",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Release Targets Spot Wico",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Saving Top Lane Lights",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Fast Ride Lights Extra Ball",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Chute 2",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Drain eject hole on outhole",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "2x multi during multiball",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Credits for new High score",
-    "default": "2",
+    "default": 1,
     "values": [
       "3",
       "2",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Reset left outlane gate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Maximum credits",
-    "default": "15",
+    "default": 1,
     "values": [
       "10",
       "15",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Extra ball allowed",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Level pass payout",
-    "default": "Free Game",
+    "default": 0,
     "values": [
       "Free Game",
       "Extra Ball"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Capture ball in multiball",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Saves multi-lights",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "One extra ball per ball",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Special bonus",
-    "default": "Free Game",
+    "default": 0,
     "values": [
       "Free Game",
       "Extra Ball",
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Flip special lights",
-    "default": "Alternate",
+    "default": 0,
     "values": [
       "Alternate",
       "Both on"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Disable Credits display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Disable Match display",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

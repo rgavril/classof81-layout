@@ -1,7 +1,7 @@
 return [
   {
     "name": "ID Number",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "PC Board Mode",
-    "default": "Single",
+    "default": 0,
     "values": [
       "Single",
       "Linking"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Wiring Diagram",
-    "default": "36+10",
+    "default": 0,
     "values": [
       "36+10",
       "28-pin"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Odds Table",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Back Color",
-    "default": "Color",
+    "default": 1,
     "values": [
       "Black",
       "Color"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Password",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Auto Stop",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Score Box",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Play Score",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Show Title",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Symbols",
-    "default": "Legend",
+    "default": 1,
     "values": [
       "Fruit",
       "Legend",
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

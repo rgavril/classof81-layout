@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1P 2C / Continue 1C",
+    "default": 29,
     "values": [
       "1P 8C / Continue 8C",
       "1P 8C / Continue 7C",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Normal Mode Jamming",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Jamming Gauge Blocks",
-    "default": "6",
+    "default": 1,
     "values": [
       "5",
       "6",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Gauge Increment Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Gauge Decrement Level",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Loud",
+    "default": 0,
     "values": [
       "Loud",
       "Medium",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "All Song Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

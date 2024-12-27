@@ -1,7 +1,7 @@
 return [
   {
     "name": "Printer command set",
-    "default": "CPA-80/FX-85/Gemini",
+    "default": 0,
     "values": [
       "CPA-80/FX-85/Gemini",
       "Mera D100"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Printer character set",
-    "default": "KOI-8",
+    "default": 0,
     "values": [
       "KOI-8",
       "GOST",

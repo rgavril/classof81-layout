@@ -1,7 +1,7 @@
 return [
   {
     "name": "XT-IDE ROM base segment",
-    "default": "C800",
+    "default": 2,
     "values": [
       "C000",
       "C400",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "XT-IDE I/O address",
-    "default": "300",
+    "default": 8,
     "values": [
       "200",
       "220",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "XT-IDE IRQ",
-    "default": "IRQ 5",
+    "default": 3,
     "values": [
       "IRQ 2",
       "IRQ 3",

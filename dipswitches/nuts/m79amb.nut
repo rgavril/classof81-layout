@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "60 Seconds",
+    "default": 0,
     "values": [
       "60 Seconds",
       "90 Seconds",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Points for Extended Time",
-    "default": "2500",
+    "default": 1,
     "values": [
       "1500",
       "2500",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",

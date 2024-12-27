@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "Chinese",
+    "default": 1,
     "values": [
       "English",
       "Chinese"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",

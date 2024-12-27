@@ -1,7 +1,7 @@
 return [
   {
     "name": "R-EDIT REF",
-    "default": "TC",
+    "default": 0,
     "values": [
       "TC",
       "RTC",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "P2-EDIT REF",
-    "default": "TC",
+    "default": 0,
     "values": [
       "TC",
       "RTC",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "P1-EDIT REF",
-    "default": "TC",
+    "default": 0,
     "values": [
       "TC",
       "RTC",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "SYNCHRO",
-    "default": "ON/CF",
+    "default": 0,
     "values": [
       "ON/CF",
       "ON",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "PREROLL",
-    "default": "7",
+    "default": 0,
     "values": [
       "7",
       "5",

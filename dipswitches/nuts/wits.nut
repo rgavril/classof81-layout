@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown 3-4*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown 3-5*",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "License",
-    "default": "Visco (Japan Only)",
+    "default": 2,
     "values": [
       "Romstar",
       "Seta U.S.A",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200k, 500k",
+    "default": 1,
     "values": [
       "150k, 350k",
       "200k, 500k",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "2 Players",
+    "default": 0,
     "values": [
       "2 Players",
       "4 Players"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "CPU Player During Multi-Player Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Every 3rd Loop",
+    "default": 0,
     "values": [
       "Every 3rd Loop",
       "Every 7th Loop"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",

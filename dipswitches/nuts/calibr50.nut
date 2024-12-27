@@ -1,7 +1,7 @@
 return [
   {
     "name": "Copyright / License",
-    "default": "Seta USA / Taito America",
+    "default": 3,
     "values": [
       "Seta (Japan only)",
       "Seta USA / Romstar",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 4,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Easiest",
       "Easy",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Score Digits",
-    "default": "7",
+    "default": 0,
     "values": [
       "7",
       "3"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Display Score",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Erase Backup Ram",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Licensor Option",
-    "default": "Option 1",
+    "default": 0,
     "values": [
       "Option 1",
       "Option 2"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Coinage Type",
-    "default": "Coin Mode 1",
+    "default": 0,
     "values": [
       "Coin Mode 1",
       "Coin Mode 2"

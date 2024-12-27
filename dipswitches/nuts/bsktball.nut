@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time per Credit",
-    "default": "1:00",
+    "default": 7,
     "values": [
       "Free Play",
       "2:30",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/4 Credits",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cost",
-    "default": "One Coin Minimum",
+    "default": 1,
     "values": [
       "Two Coin Minimum",
       "One Coin Minimum"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 3,
     "values": [
       "German",
       "French",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

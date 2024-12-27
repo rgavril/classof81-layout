@@ -1,7 +1,7 @@
 return [
   {
     "name": "Timer 1 length",
-    "default": "30s",
+    "default": 7,
     "values": [
       "135s",
       "120s",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Timer 2 length",
-    "default": "10s",
+    "default": 3,
     "values": [
       "25s",
       "20s",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Select Timer",
-    "default": "Timer 1",
+    "default": 1,
     "values": [
       "Timer 2",
       "Timer 1"

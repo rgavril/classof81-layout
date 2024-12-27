@@ -1,7 +1,7 @@
 return [
   {
     "name": "NORMAL/ACTION",
-    "default": "NORMAL",
+    "default": 0,
     "values": [
       "NORMAL",
       "ACTION"

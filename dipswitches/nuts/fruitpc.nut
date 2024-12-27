@@ -1,7 +1,7 @@
 return [
   {
     "name": "CONFIGURATION",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "STATISTICHE",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

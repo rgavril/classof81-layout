@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unit Frequency",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Receiving Speed",
-    "default": "9600 Baud",
+    "default": 6,
     "values": [
       "Match (Bell 103) (RCLK = XCLK)",
       "Match (Bell 103), Local Copy (RCLK = XCLK)",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Transmitting Speed",
-    "default": "Off-Line (XCLK = RCLK)",
+    "default": 0,
     "values": [
       "Off-Line (XCLK = RCLK)",
       "Full Duplex (XCLK = RCLK)",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8 (no parity)",
+    "default": 1,
     "values": [
       "7 (with parity)",
       "8 (no parity)"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Even",
+    "default": 0,
     "values": [
       "Even",
       "Odd"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Data Bit 7",
-    "default": "Spacing",
+    "default": 0,
     "values": [
       "Spacing",
       "Marking"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

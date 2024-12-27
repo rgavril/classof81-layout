@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "W-Up Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Min Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "8"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Spin Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Quick"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Strip Girl",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Player's Panel",
-    "default": "Type A",
+    "default": 1,
     "values": [
       "Type A",
       "Type A",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Main Game Rate (%)",
-    "default": "55",
+    "default": 0,
     "values": [
       "55",
       "60",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "W-Up Chance (%)",
-    "default": "93",
+    "default": 0,
     "values": [
       "93",
       "94",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Key In Limit",
-    "default": "1k",
+    "default": 0,
     "values": [
       "1k",
       "3k",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Coin 1 Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "System Limit",
-    "default": "5k",
+    "default": 0,
     "values": [
       "5k",
       "10k",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Min Play For Fever",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "16",
+    "default": 0,
     "values": [
       "16",
       "32"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Coin 2 Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Key Out Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "10",
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Play Line",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Maximum Play",
-    "default": "64",
+    "default": 0,
     "values": [
       "64",
       "32",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Skill Stop",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Hands Count",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Hands Coin Rate",
-    "default": "25",
+    "default": 0,
     "values": [
       "25",
       "10",
@@ -219,7 +219,7 @@ return [
   },
   {
     "name": "Hands Coin Value",
-    "default": "20",
+    "default": 1,
     "values": [
       "40",
       "20"
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"

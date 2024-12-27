@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game time (actual game)",
-    "default": "0:30",
+    "default": 7,
     "values": [
       "1:00",
       "2:00",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 1C/5C",
+    "default": 0,
     "values": [
       "A 1C/1C B 1C/5C",
       "A 1C/2C B 2C/1C"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "2 Player",
-    "default": "1C",
+    "default": 0,
     "values": [
       "1C",
       "2C"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Game time (tsumeshougi)",
-    "default": "2:00",
+    "default": 1,
     "values": [
       "1:00",
       "2:00"

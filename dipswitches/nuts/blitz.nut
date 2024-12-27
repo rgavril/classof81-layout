@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Mode 1",
+    "default": 0,
     "values": [
       "Mode 1",
       "Mode 2",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Currency Type",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Power Up Test Loop",
-    "default": "One Time",
+    "default": 0,
     "values": [
       "One Time",
       "Continuous"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Joysticks",
-    "default": "8-Way",
+    "default": 0,
     "values": [
       "8-Way",
       "49-Way"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Resolution",
-    "default": "512x385 @ 25KHz",
+    "default": 0,
     "values": [
       "512x385 @ 25KHz",
       "512x256 @ 15KHz"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Graphics Speed",
-    "default": "51 MHz",
+    "default": 3,
     "values": [
       "45 MHz",
       "47 MHz",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bill Validator",
-    "default": "One",
+    "default": 1,
     "values": [
       "None",
       "One"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Power On Self Test",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

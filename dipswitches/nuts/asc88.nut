@@ -1,7 +1,7 @@
 return [
   {
     "name": "BIOS Segment Address",
-    "default": "CC00h",
+    "default": 3,
     "values": [
       "C000h",
       "C400h",

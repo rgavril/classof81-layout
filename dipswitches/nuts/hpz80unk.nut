@@ -1,7 +1,7 @@
 return [
   {
     "name": "UART selection",
-    "default": "In UART1, Out UART1",
+    "default": 0,
     "values": [
       "In UART1, Out UART1",
       "In UART1, Out UART2",

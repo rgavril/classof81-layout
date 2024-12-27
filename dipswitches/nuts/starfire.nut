@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "90 Sec",
+    "default": 0,
     "values": [
       "90 Sec",
       "80 Sec",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Fuel per Coin",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "600"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus",
-    "default": "300 points",
+    "default": 0,
     "values": [
       "300 points",
       "500 points",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Score Table Hold",
-    "default": "fixed length",
+    "default": 0,
     "values": [
       "fixed length",
       "fixed length+fire"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

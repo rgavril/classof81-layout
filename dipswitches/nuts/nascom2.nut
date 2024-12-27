@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cassette Baud Rate",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "1200"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Restart address",
-    "default": "0000H",
+    "default": 0,
     "values": [
       "0000H",
       "1000H",

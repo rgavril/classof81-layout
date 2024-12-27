@@ -1,7 +1,7 @@
 return [
   {
     "name": "Jacks or Better",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "50hz/60hz",
-    "default": "60hz",
+    "default": 1,
     "values": [
       "50hz",
       "60hz"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Auto",
+    "default": 1,
     "values": [
       "Manual",
       "Auto"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

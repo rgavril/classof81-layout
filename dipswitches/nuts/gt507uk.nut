@@ -1,7 +1,7 @@
 return [
   {
     "name": "If Ram Error",
-    "default": "Play",
+    "default": 1,
     "values": [
       "Freeze",
       "Play"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Payout Hardware",
-    "default": "Hopper",
+    "default": 0,
     "values": [
       "Hopper",
       "Solenoid"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "N/A",
+    "default": 1,
     "values": [
       "Bank",
       "N/A",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

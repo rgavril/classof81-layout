@@ -1,7 +1,7 @@
 return [
   {
     "name": "Not used",
-    "default": "OFF - Factory Setting",
+    "default": 1,
     "values": [
       "ON - Don't use",
       "OFF - Factory Setting"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Not used",
-    "default": "OFF - Factory Setting",
+    "default": 1,
     "values": [
       "ON - Don't care",
       "OFF - Factory Setting"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Not used",
-    "default": "ON - Factory Setting",
+    "default": 0,
     "values": [
       "ON - Factory Setting",
       "OFF - Don't use"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Main monitor",
-    "default": "3111 HR Monochrome",
+    "default": 3,
     "values": [
       "Not used",
       "Optional 1020 color",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "IRQ2",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "LPT",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "IRQ3",
-    "default": "no jumper",
+    "default": 0,
     "values": [
       "no jumper",
       "LPT",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "IRQ4",
-    "default": "COM",
+    "default": 2,
     "values": [
       "no jumper",
       "LPT",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "IRQ7",
-    "default": "LPT",
+    "default": 1,
     "values": [
       "no jumper",
       "LPT",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Keyboard Clock/Reset pin",
-    "default": "PB6",
+    "default": 0,
     "values": [
       "PB6",
       "4.8kHz"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Color emulation",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

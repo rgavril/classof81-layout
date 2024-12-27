@@ -1,7 +1,7 @@
 return [
   {
     "name": "Console",
-    "default": "Serial Terminal",
+    "default": 0,
     "values": [
       "Serial Terminal",
       "Bitmap"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bitmap Disable",
-    "default": "Enable Built-in Bitmap",
+    "default": 0,
     "values": [
       "Enable Built-in Bitmap",
       "Disable Built-in Bitmap"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Abort/Resume Enable",
-    "default": "Disable Abort/Resume",
+    "default": 0,
     "values": [
       "Disable Abort/Resume",
       "Enable Abort/Resume"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Clear NVRAM",
-    "default": "Normal Operation (No Clear)",
+    "default": 0,
     "values": [
       "Normal Operation (No Clear)",
       "Clear NVRAM"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Auto Boot",
-    "default": "Auto Boot Disable",
+    "default": 0,
     "values": [
       "Auto Boot Disable",
       "Auto Boot Enable"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Run Diagnostic Test",
-    "default": "No Diagnostic Test",
+    "default": 0,
     "values": [
       "No Diagnostic Test",
       "Run Diagnostic Test"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "External APbus Slot Probe Disable",
-    "default": "Disable External Slot Probe",
+    "default": 1,
     "values": [
       "Enable External Slot Probe",
       "Disable External Slot Probe"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "No Memory Mode",
-    "default": "Main Memory Enabled",
+    "default": 0,
     "values": [
       "Main Memory Enabled",
       "Main Memory Disabled"

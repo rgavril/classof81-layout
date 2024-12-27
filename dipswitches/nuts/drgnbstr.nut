@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Round Skip",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bonus Level",
-    "default": "Full",
+    "default": 0,
     "values": [
       "Full",
       "Partial"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Bonus Vitality",
-    "default": "None",
+    "default": 3,
     "values": [
       "64",
       "48/64",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Starting Vitality",
-    "default": "128",
+    "default": 1,
     "values": [
       "160",
       "128",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Level of Monster",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Difficult"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Spurt Time",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Difficult"

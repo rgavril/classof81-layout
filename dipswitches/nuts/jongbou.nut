@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 1C/5C",
+    "default": 0,
     "values": [
       "A 1C/1C B 1C/5C",
       "A 1C/2C B 1C/3C"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "30000 - 60000",
+    "default": 0,
     "values": [
       "30000 - 60000",
       "Every 30000"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Show Girls",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

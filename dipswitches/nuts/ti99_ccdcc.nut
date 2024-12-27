@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSK1 head step time",
-    "default": "6 ms",
+    "default": 2,
     "values": [
       "15 ms",
       "10 ms",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "DSK2 head step time",
-    "default": "6 ms",
+    "default": 2,
     "values": [
       "15 ms",
       "10 ms",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "DSK3 head step time",
-    "default": "6 ms",
+    "default": 2,
     "values": [
       "15 ms",
       "10 ms",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "DSK4 head step time",
-    "default": "6 ms",
+    "default": 2,
     "values": [
       "15 ms",
       "10 ms",

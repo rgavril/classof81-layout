@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Coin A: 100 - Coin B: 100",
+    "default": 3,
     "values": [
       "Coin A: 50 - Coin B: 50",
       "Coin A: 50 - Coin B: 50",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Bonus?",
-    "default": "1000= 1 Play; 2000= 2 Play; 3000= 3 Play",
+    "default": 0,
     "values": [
       "1000= 1 Play; 2000= 2 Play; 3000= 3 Play",
       "2000= 1 Play; 4000= 2 Play; 6000= 3 Play",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Score",
-    "default": "No Play Score",
+    "default": 1,
     "values": [
       "Play Score",
       "No Play Score"

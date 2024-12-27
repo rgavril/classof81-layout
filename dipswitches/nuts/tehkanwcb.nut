@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "60/60",
+    "default": 0,
     "values": [
       "60/60",
       "55/60"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Start Credits (P1&P2)/Extra",
-    "default": "1&2/100%",
+    "default": 1,
     "values": [
       "1&1/200%",
       "1&2/100%",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "1P Game Time",
-    "default": "1:30",
+    "default": 2,
     "values": [
       "2:30",
       "2:00",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "2P Game Time",
-    "default": "3:30/2:00 Extra",
+    "default": 9,
     "values": [
       "5:00/3:00 Extra",
       "5:00/2:45 Extra",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Timer In",
+    "default": 0,
     "values": [
       "Timer In",
       "Credit In"

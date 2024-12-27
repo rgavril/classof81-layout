@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage A (100 Yen)",
-    "default": "1 Coin / 10 Medal",
+    "default": 4,
     "values": [
       "1 Coin / 3 Medal",
       "1 Coin / 4 Medal",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage B (10 Yen)",
-    "default": "1 Coin / 1 Medal",
+    "default": 2,
     "values": [
       "3 Coin / 1 Medal",
       "2 Coin / 1 Medal",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Service Coinage",
-    "default": "1 Pulse / 1 Medal",
+    "default": 0,
     "values": [
       "1 Pulse / 1 Medal",
       "1 Pulse / 2 Medal"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage A Lock",
-    "default": "Unlocked",
+    "default": 0,
     "values": [
       "Unlocked",
       "Locked"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Automatic"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "60%",
+    "default": 1,
     "values": [
       "50%",
       "60%",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

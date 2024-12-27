@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step1of6)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step2of6)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step3of6)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step4of6)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step5of6)",
-    "default": "Yes (off)",
+    "default": 0,
     "values": [
       "Yes (off)",
       "No (on)"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Draw Debug Lines (step6of6)",
-    "default": "No (off)",
+    "default": 0,
     "values": [
       "No (off)",
       "Yes (on)"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

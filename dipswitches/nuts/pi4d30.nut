@@ -1,7 +1,7 @@
 return [
   {
     "name": "Layout",
-    "default": "us",
+    "default": 0,
     "values": [
       "us",
       "de",

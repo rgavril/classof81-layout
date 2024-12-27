@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "3 Coins/1 Credit",
+    "default": 2,
     "values": [
       "1 Coin/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Max Reversal Cubes",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "36"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Reversal Cube Cost",
-    "default": "1 Coins / 2 Cubes",
+    "default": 2,
     "values": [
       "1 Coin / 1 Cube",
       "2 Coins / 1 Cube",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Level Select",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Devil Behavior",
-    "default": "Devil Can Take Lives",
+    "default": 0,
     "values": [
       "Devil Can Take Lives",
       "Devil Never Takes Lives",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 0,
     "values": [
       "Medium",
       "Easy",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "LaserDisc Player Protocol",
-    "default": "Pioneer LDV-4200",
+    "default": 0,
     "values": [
       "Pioneer LDV-4200",
       "Sony LDP-1450"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Bill Multiplier",
-    "default": "4",
+    "default": 2,
     "values": [
       "1",
       "2",

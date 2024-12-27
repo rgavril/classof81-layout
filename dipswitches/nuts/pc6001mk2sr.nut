@@ -1,7 +1,7 @@
 return [
   {
     "name": "Mode 4 GFX colors",
-    "default": "Monochrome",
+    "default": 0,
     "values": [
       "Monochrome",
       "Red/Blue",

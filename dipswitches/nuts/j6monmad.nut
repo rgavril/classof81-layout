@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW 0x01",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW 0x02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSW 0x04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSW 0x08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DSW 0x10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSW 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DSW 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "J10_1: 0x01",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "J10_1: 0x02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "J10_1: 0x04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "J10_1: 0x08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "J10_1: 0x10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "J10_1: 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "J10_1: 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "J10_1: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "J10_2: 0x08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "J10_2: 0x10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "J10_2: 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "J10_2: 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "J10_2: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "J9_0: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "J9_1: 0x01",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "J9_1: 0x02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "J9_1: 0x04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "J9_1: 0x08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "J9_1: 0x10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "J9_1: 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "J9_1: 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "J9_1: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "J9_2: 0x02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "J9_2: 0x04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "J9_2: 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "J9_2: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -273,7 +273,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x01 (20p cash low)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -281,7 +281,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x02 (token f low)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -289,7 +289,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x04 (token b low)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -297,7 +297,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x08 (100p cash low)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -305,7 +305,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x10 (token b full)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -313,7 +313,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x20",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -321,7 +321,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x40 (20p cash full)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -329,7 +329,7 @@ return [
   },
   {
     "name": "PAYCOIN_LEVEL: 0x80 (100p cash full)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -337,7 +337,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x01",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -345,7 +345,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -353,7 +353,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -361,7 +361,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x08",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -369,7 +369,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -377,7 +377,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -385,7 +385,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -393,7 +393,7 @@ return [
   },
   {
     "name": "PIA_PORTB: 0x80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -401,7 +401,7 @@ return [
   },
   {
     "name": "PIA_PORTC: 0x01",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -409,7 +409,7 @@ return [
   },
   {
     "name": "PIA_PORTC: 0x02",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -417,7 +417,7 @@ return [
   },
   {
     "name": "PIA_PORTC: 0x04",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -425,7 +425,7 @@ return [
   },
   {
     "name": "PIA_PORTC: 0x08",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -433,7 +433,7 @@ return [
   },
   {
     "name": "Top Up Switch 0x20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

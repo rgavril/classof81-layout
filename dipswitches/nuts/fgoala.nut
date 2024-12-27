@@ -1,7 +1,7 @@
 return [
   {
     "name": "Initial Extra Credit Score",
-    "default": "65000",
+    "default": 5,
     "values": [
       "9000",
       "17000",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Options",
-    "default": "Default",
+    "default": 3,
     "values": [
       "Clear All Helmets",
       "No Extra Ball",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Display Coinage Settings",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Japanese",
       "English"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"

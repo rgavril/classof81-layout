@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bonus Type",
-    "default": "Good Luck!",
+    "default": 0,
     "values": [
       "Good Luck!",
       "55/77/99 Bonus"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "5 Points/Coin",
+    "default": 0,
     "values": [
       "5 Points/Coin",
       "10 Points/Coin"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "D-UP Type",
-    "default": "Forced, Red-Low-High-Black",
+    "default": 0,
     "values": [
       "Forced, Red-Low-High-Black",
       "Classic Hi-Lo"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Hold",
-    "default": "Auto Hold",
+    "default": 0,
     "values": [
       "Auto Hold",
       "No Auto Hold"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Hopper",
+    "default": 0,
     "values": [
       "Hopper",
       "Manual Payout SW"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty Vs. Computer",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty Vs. Player",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Raquet Size",
-    "default": "Large",
+    "default": 0,
     "values": [
       "Large",
       "Small"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Extra Score",
-    "default": "1 Set",
+    "default": 0,
     "values": [
       "1 Set",
       "1 Game"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Court Color",
-    "default": "Green",
+    "default": 0,
     "values": [
       "Green",
       "Blue"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Copyright",
-    "default": "Japan",
+    "default": 0,
     "values": [
       "Japan",
       "USA"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Game Mode - Credits: 1VsC/2VsC/1Vs1/2Vs2",
-    "default": "C - 1/1/2/4",
+    "default": 2,
     "values": [
       "A - 1/1/2/2",
       "B - 1/2/2/2",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Rackets Per Game",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

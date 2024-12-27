@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 2,
     "values": [
       "French",
       "Italian",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Right Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Left Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

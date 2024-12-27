@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "8 Coins/1 Credit",
       "7 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Time (Players)",
-    "default": "1:00",
+    "default": 23,
     "values": [
       "7:00",
       "6:00",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Extra Time (Players)",
-    "default": "None",
+    "default": 3,
     "values": [
       "0:30",
       "0:20",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Slowest",
       "Slow",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Hi-Score Reset",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Time (Quarter)",
-    "default": "4:00",
+    "default": 2,
     "values": [
       "8:00",
       "5:00",
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Bonus Frequency",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Most",
       "More",

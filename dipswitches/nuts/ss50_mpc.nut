@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "300",
+    "default": 1,
     "values": [
       "110",
       "300"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"

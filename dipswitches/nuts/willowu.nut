@@ -1,7 +1,7 @@
 return [
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 0,
     "values": [
       "Upright 1 Player",
       "Upright 2 Players"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Maximum magic/sword power",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 0,
     "values": [
       "Upright 1 Player",
       "Upright 2 Players",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Slow Motion Delay",
-    "default": "2 Frames",
+    "default": 0,
     "values": [
       "2 Frames",
       "3 Frames",
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "4 (Normal)",
+    "default": 3,
     "values": [
       "1 (Easiest)",
       "2",
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Nando Speed",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Slow",
       "Normal",
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -124,7 +124,7 @@ return [
   },
   {
     "name": "Starting Level",
-    "default": "Level 1",
+    "default": 0,
     "values": [
       "Level 1",
       "Level 2",
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Stage Magic Continue",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -152,7 +152,7 @@ return [
   },
   {
     "name": "Turbo Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -160,7 +160,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -168,7 +168,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Slow Motion",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Invulnerability",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Vitality",
-    "default": "4",
+    "default": 2,
     "values": [
       "2",
       "3",
@@ -204,7 +204,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -212,7 +212,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -220,7 +220,7 @@ return [
   },
   {
     "name": "Display Debug Infos",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -228,7 +228,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -236,7 +236,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Game",
+    "default": 0,
     "values": [
       "Game",
       "Test"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Controls",
-    "default": "Whirly-gigs",
+    "default": 0,
     "values": [
       "Whirly-gigs",
       "Joysticks"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

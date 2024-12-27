@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "1 Player",
+    "default": 0,
     "values": [
       "1 Player",
       "2 Players"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Payout Percentage",
-    "default": "35%",
+    "default": 2,
     "values": [
       "25%",
       "30%",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Maximum Payout Points",
-    "default": "200",
+    "default": 1,
     "values": [
       "0",
       "200",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Maximum Bet Points",
-    "default": "30",
+    "default": 3,
     "values": [
       "5",
       "10",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Deal Play Last Amount",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Allow Raise",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Red/Black Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Minimum Winning Hand",
-    "default": "Jacks or Better",
+    "default": 0,
     "values": [
       "Jacks or Better",
       "Two Pair or Better"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Deal Speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Flash Buttons",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Cards Deck Type",
-    "default": "English Cards",
+    "default": 0,
     "values": [
       "English Cards",
       "French Cards"

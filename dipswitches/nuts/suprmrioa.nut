@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "200 Coins",
+    "default": 2,
     "values": [
       "100 Coins",
       "150 Coins",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Timer",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Continue Lives",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4"

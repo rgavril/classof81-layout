@@ -1,7 +1,7 @@
 return [
   {
     "name": "K803 IFSEL",
-    "default": "4B",
+    "default": 9,
     "values": [
       "0A",
       "0B",

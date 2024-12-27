@@ -1,7 +1,7 @@
 return [
   {
     "name": "Char Speed",
-    "default": "Fast",
+    "default": 0,
     "values": [
       "Fast",
       "Slow"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Monsters Speed",
-    "default": "Fast",
+    "default": 0,
     "values": [
       "Fast",
       "Slow"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Monsters: Time before go out",
-    "default": "Long",
+    "default": 0,
     "values": [
       "Long",
       "Medium-Long",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000 Points",
+    "default": 0,
     "values": [
       "10000 Points",
       "15000 Points",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Monsters",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "5"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Vitamin Time",
-    "default": "Long",
+    "default": 0,
     "values": [
       "Long",
       "Medium-Long",

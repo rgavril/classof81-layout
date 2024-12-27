@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Port Address",
-    "default": "0x180",
+    "default": 8,
     "values": [
       "0x100",
       "0x110",

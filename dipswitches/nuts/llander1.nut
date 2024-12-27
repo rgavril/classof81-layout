@@ -1,7 +1,7 @@
 return [
   {
     "name": "Right Coin",
-    "default": "X 1",
+    "default": 0,
     "values": [
       "X 1",
       "X 4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Free Play"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Fuel units",
-    "default": "750",
+    "default": 2,
     "values": [
       "450",
       "600",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

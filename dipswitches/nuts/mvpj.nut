@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Credits To Start",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Innings",
-    "default": "1 Credit 1 Inning",
+    "default": 0,
     "values": [
       "1 Credit 1 Inning",
       "2 Credits 3 Innings"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Time Limits",
-    "default": "1 Normal",
+    "default": 0,
     "values": [
       "1 Normal",
       "2",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Easy",
       "Hard",

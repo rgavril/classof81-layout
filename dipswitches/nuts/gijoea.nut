@@ -1,7 +1,7 @@
 return [
   {
     "name": "Sound",
-    "default": "Stereo",
+    "default": 1,
     "values": [
       "Mono",
       "Stereo"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin mechanism",
-    "default": "Common",
+    "default": 0,
     "values": [
       "Common",
       "Independent"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "4"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

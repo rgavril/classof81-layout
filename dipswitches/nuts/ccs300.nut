@@ -1,7 +1,7 @@
 return [
   {
     "name": "Model",
-    "default": "CCS-300",
+    "default": 1,
     "values": [
       "CCS-400",
       "CCS-300"

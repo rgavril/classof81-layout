@@ -1,7 +1,7 @@
 return [
   {
     "name": "Printer Type",
-    "default": "Epson Series",
+    "default": 0,
     "values": [
       "Epson Series",
       "NEC 8023/C. Itoh 8510/DMP 85",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Most Significant Bit",
-    "default": "Software Control",
+    "default": 0,
     "values": [
       "Software Control",
       "Not Transmitted"

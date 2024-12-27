@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Shots per Coin",
-    "default": "30",
+    "default": 1,
     "values": [
       "25",
       "30",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Rate",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "83%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Max. Play",
-    "default": "40",
+    "default": 0,
     "values": [
       "40",
       "80"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "10 Times Feature",
-    "default": "Yes (Normal)",
+    "default": 3,
     "values": [
       "No (Win Points to Points)",
       "No (Win Points to Score)",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "4",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Pay Out",
-    "default": "10",
+    "default": 1,
     "values": [
       "1",
       "10",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "50000",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "One Start One Ticket",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Reel Auto Stop",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Game Count",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Count"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Take Score Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Min. Play For Bonus",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Must Off",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Play Score",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Pay Out Mode",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Auto"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Lose & Win Mode",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

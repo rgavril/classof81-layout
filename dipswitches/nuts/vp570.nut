@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Range",
-    "default": "1000 thru 1FFF",
+    "default": 1,
     "values": [
       "0000 thru 0FFF",
       "1000 thru 1FFF",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Write Protect",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

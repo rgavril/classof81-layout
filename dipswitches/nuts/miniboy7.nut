@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Bartop",
+    "default": 0,
     "values": [
       "Bartop",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Turns per Coin",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Turns",
-    "default": "50000 100000",
+    "default": 0,
     "values": [
       "50000 100000",
       "100000 200000",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "DSW2-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "DSW2-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "DSW2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

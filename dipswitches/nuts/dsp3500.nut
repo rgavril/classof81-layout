@@ -1,7 +1,7 @@
 return [
   {
     "name": "BIOS control",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "BIOS base",
-    "default": "CA000h",
+    "default": 1,
     "values": [
       "C8000h",
       "CA000h"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "ESDI I/O base",
-    "default": "01A0h",
+    "default": 4,
     "values": [
       "0320h",
       "0324h",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Floppy I/O base",
-    "default": "0370h",
+    "default": 1,
     "values": [
       "03F0h",
       "0370h"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "SC499 I/O base (jumpers A3-A9)",
-    "default": "0200h",
+    "default": 63,
     "values": [
       "008h",
       "010h",
@@ -172,7 +172,7 @@ return [
   },
   {
     "name": "SC499 IRQ (jumpers IRQ2-IRQ7)",
-    "default": "IRQ 5",
+    "default": 3,
     "values": [
       "IRQ 2",
       "IRQ 3",
@@ -184,7 +184,7 @@ return [
   },
   {
     "name": "SC499 DMA (jumpers DRQ1-DRQ3)",
-    "default": "DRQ 1",
+    "default": 0,
     "values": [
       "DRQ 1",
       "DRQ 2",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "I/O Base",
-    "default": "0300h",
+    "default": 47,
     "values": [
       "010h",
       "020h",
@@ -262,7 +262,7 @@ return [
   },
   {
     "name": "IRQ",
-    "default": "IRQ 10",
+    "default": 6,
     "values": [
       "IRQ 3",
       "IRQ 4",
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "DRQ",
-    "default": "DRQ 6",
+    "default": 4,
     "values": [
       "none",
       "DRQ 1",
@@ -291,7 +291,7 @@ return [
   },
   {
     "name": "ROM Enable",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -299,7 +299,7 @@ return [
   },
   {
     "name": "ROM Base",
-    "default": "80000h",
+    "default": 0,
     "values": [
       "80000h",
       "82000h",
@@ -332,7 +332,7 @@ return [
   },
   {
     "name": "TEST Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

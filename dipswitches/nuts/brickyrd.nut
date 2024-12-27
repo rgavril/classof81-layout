@@ -1,7 +1,7 @@
 return [
   {
     "name": "Points Per Game",
-    "default": "8 Points",
+    "default": 7,
     "values": [
       "1 Point",
       "2 Points",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Game Speed",
-    "default": "Fast Fast",
+    "default": 0,
     "values": [
       "Fast Fast",
       "7",

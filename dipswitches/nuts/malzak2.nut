@@ -1,7 +1,7 @@
 return [
   {
     "name": "POT switch position",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

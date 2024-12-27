@@ -1,7 +1,7 @@
 return [
   {
     "name": "Tracks on Demo",
-    "default": "Easy Track Only",
+    "default": 0,
     "values": [
       "Easy Track Only",
       "Cycle 12 Tracks"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Oil Slicks",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "150 seconds",
+    "default": 3,
     "values": [
       "60 seconds",
       "90 seconds",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

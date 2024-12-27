@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "50k, 150k, every 150k",
+    "default": 0,
     "values": [
       "50k, 150k, every 150k",
       "70k, 200k, every 200k"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Hidden Password Screen",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "PPU Type",
-    "default": "RP2C04-0001",
+    "default": 0,
     "values": [
       "RP2C04-0001",
       "RP2C04-0002",

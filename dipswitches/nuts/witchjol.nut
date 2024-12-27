@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "100",
+    "default": 3,
     "values": [
       "10",
       "20",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Game Type",
-    "default": "Jolli Witch",
+    "default": 0,
     "values": [
       "Jolli Witch",
       "Witch Card"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Control Type",
-    "default": "12-Button",
+    "default": 1,
     "values": [
       "6-Button",
       "12-Button"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Minimal Hand",
-    "default": "High Pair",
+    "default": 1,
     "values": [
       "Two Pairs",
       "High Pair"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Uncommented 1",
-    "default": "1 DM - 10 PKT",
+    "default": 1,
     "values": [
       "1 DM - 1 PKT",
       "1 DM - 10 PKT"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

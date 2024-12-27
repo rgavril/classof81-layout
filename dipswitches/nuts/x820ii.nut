@@ -1,7 +1,7 @@
 return [
   {
     "name": "LUN 3 Drive Type",
-    "default": "SA850",
+    "default": 3,
     "values": [
       "SA1002",
       "SA1004",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "LUN 2 Drive Type",
-    "default": "SA850",
+    "default": 3,
     "values": [
       "SA1002",
       "SA1004",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "LUN 1 Drive Type",
-    "default": "SA850",
+    "default": 3,
     "values": [
       "SA1002",
       "SA1004",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "LUN 0 Drive Type",
-    "default": "SA1004",
+    "default": 1,
     "values": [
       "SA1002",
       "SA1004",

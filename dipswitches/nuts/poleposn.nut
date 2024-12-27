@@ -1,7 +1,7 @@
 return [
   {
     "name": "Replay at / High-score",
-    "default": "1500k 2200k and 8000k / 3000k",
+    "default": 0,
     "values": [
       "1500k 2200k and 8000k / 3000k",
       "1700k 2400k and 8000k / 3200k",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/2 C 1/5",
+    "default": 1,
     "values": [
       "A 2/1 B 1/1 C 1/3",
       "A 1/1 B 1/2 C 1/5",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Double Playfield",
-    "default": "When Bonus x3",
+    "default": 0,
     "values": [
       "When Bonus x3",
       "When Bonus x3 and x6",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Clear RAM on Reset",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

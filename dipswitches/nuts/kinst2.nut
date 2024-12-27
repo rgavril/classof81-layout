@@ -1,7 +1,7 @@
 return [
   {
     "name": "Blood Level",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Medium",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Finishing Moves",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Display Warning",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 0,
     "values": [
       "Dipswitch",
       "Disk"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Joker",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Dutch"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "Medium-Low",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Winlines to go",
-    "default": "6",
+    "default": 0,
     "values": [
       "6",
       "7",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Attract mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Timebar speed",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coin 1 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Coin 2 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Coin 3 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Coin 4 Lockout",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cassette Baud",
-    "default": "2400",
+    "default": 0,
     "values": [
       "2400",
       "600"

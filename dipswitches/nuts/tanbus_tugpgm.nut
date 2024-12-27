@@ -1,7 +1,7 @@
 return [
   {
     "name": "Address Select",
-    "default": "$8400 - $87FF",
+    "default": 4,
     "values": [
       "$0400 - $07FF (Not Recommended)",
       "$2400 - $27FF",

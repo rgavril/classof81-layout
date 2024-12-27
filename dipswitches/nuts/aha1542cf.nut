@@ -1,7 +1,7 @@
 return [
   {
     "name": "Floppy Disk Controller",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "I/O Port Address",
-    "default": "330-333h",
+    "default": 0,
     "values": [
       "330-333h",
       "334-337h",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "SCSI Termination",
-    "default": "Software Controlled",
+    "default": 1,
     "values": [
       "Installed",
       "Software Controlled"
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "BIOS Address",
-    "default": "DC000h",
+    "default": 6,
     "values": [
       "Disabled",
       "C8000h",

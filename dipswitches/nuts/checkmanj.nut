@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "A 1C/1C  B 1C/6C",
+    "default": 1,
     "values": [
       "A 2C/1C  B 1C/3C",
       "A 1C/1C  B 1C/6C"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100000",
+    "default": 0,
     "values": [
       "100000",
       "200000"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Difficulty Increases At Level",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5"

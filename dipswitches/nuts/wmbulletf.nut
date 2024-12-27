@@ -1,7 +1,7 @@
 return [
   {
     "name": "SCSI Bus Termination",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Boot ROM Device",
-    "default": "EPROM",
+    "default": 1,
     "values": [
       "Onboard",
       "EPROM"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Floppy Type",
-    "default": "5.25\" SD",
+    "default": 1,
     "values": [
       "3\" DD",
       "5.25\" SD",

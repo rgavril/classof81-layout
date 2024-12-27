@@ -1,7 +1,7 @@
 return [
   {
     "name": "HSGPL mode",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Flash",
       "Normal"

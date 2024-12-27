@@ -1,7 +1,7 @@
 return [
   {
     "name": "Button Layout",
-    "default": "Triangular",
+    "default": 0,
     "values": [
       "Triangular",
       "Linear"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Start Set At",
-    "default": "4-4",
+    "default": 1,
     "values": [
       "0-0",
       "4-4"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Sets Per Match",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Game Duratiob",
-    "default": "6 Lost Points",
+    "default": 1,
     "values": [
       "5 Lost Points",
       "6 Lost Points",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Right Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "6 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Left Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

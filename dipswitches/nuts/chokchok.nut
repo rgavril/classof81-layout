@@ -1,7 +1,7 @@
 return [
   {
     "name": "Winning Rounds",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Ball Speed",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Slow",
       "Normal",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Energy Decrease",
-    "default": "Normal",
+    "default": 2,
     "values": [
       "Very Small",
       "Small",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60 Seconds",
+    "default": 0,
     "values": [
       "60 Seconds",
       "90 Seconds"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Starting Balls",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 1,
     "values": [
       "Korean",
       "English"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

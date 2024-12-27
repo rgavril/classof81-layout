@@ -1,7 +1,7 @@
 return [
   {
     "name": "Pence Coinage",
-    "default": "10P/1P, 50P Coin/6P",
+    "default": 0,
     "values": [
       "10P/1P, 50P Coin/6P",
       "2x10P/1P, 50P Coin/3P"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Top Score Award",
-    "default": "Credit",
+    "default": 0,
     "values": [
       "Credit",
       "Extended Play"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Quarter Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Currency",
-    "default": "Quarters",
+    "default": 0,
     "values": [
       "Quarters",
       "Pence"

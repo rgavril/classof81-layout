@@ -1,7 +1,7 @@
 return [
   {
     "name": "Double-Up Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Difficult"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Stage-Up Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Score Limit",
-    "default": "200, 1000, 10000, 70000",
+    "default": 0,
     "values": [
       "200, 1000, 10000, 70000",
       "250, 2000, 10000, 70000",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Stages",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "3"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coin 1 (Score)",
-    "default": "1 Coin/25 Score",
+    "default": 4,
     "values": [
       "1 Coin/75 Score",
       "1 Coin/50 Score",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin 2 (Credits)",
-    "default": "1 Coin/5 Credits",
+    "default": 0,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/8 Credits"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown (Aumit?)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Speech",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

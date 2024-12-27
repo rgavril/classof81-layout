@@ -1,7 +1,7 @@
 return [
   {
     "name": "Allow Bets",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown 1-0&1&2",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Unknown 1-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unknown 1-4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Unknown 1-5&6",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unknown 1-7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Unknown 2-0&1",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown 2-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Odds Rate",
-    "default": "2 5 6 20 50 100",
+    "default": 0,
     "values": [
       "2 5 6 20 50 100",
       "2 5 6 20 50 200",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown 2-6&7",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "60",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Unknown 3-0&1",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Unknown 3-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Unknown 3-3&4",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Unknown 3-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Unknown 3-6&7",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unknown 4-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Girls",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Unknown 4-3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Hint",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "Unknown 4-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -197,7 +197,7 @@ return [
   },
   {
     "name": "Unknown 4-6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On",
@@ -206,7 +206,7 @@ return [
   },
   {
     "name": "Cards Labels",
-    "default": "Letters",
+    "default": 1,
     "values": [
       "Numbers",
       "Letters"
@@ -214,7 +214,7 @@ return [
   },
   {
     "name": "Keyboard",
-    "default": "Mahjong",
+    "default": 1,
     "values": [
       "Hanafuda",
       "Mahjong"
@@ -222,7 +222,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -230,7 +230,7 @@ return [
   },
   {
     "name": "Unknown 2-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -238,7 +238,7 @@ return [
   },
   {
     "name": "Unknown 2-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -246,7 +246,7 @@ return [
   },
   {
     "name": "Unknown 3-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -254,7 +254,7 @@ return [
   },
   {
     "name": "Unknown 3-9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -262,7 +262,7 @@ return [
   },
   {
     "name": "Unknown 4-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -270,7 +270,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

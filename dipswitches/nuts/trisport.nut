@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Pool Turns",
-    "default": "7",
+    "default": 2,
     "values": [
       "5",
       "6",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bowling Difficulty",
-    "default": "Standard",
+    "default": 0,
     "values": [
       "Standard",
       "Advanced"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Shot Timer",
-    "default": "Standard",
+    "default": 1,
     "values": [
       "Slower",
       "Standard"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Golf Holes",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

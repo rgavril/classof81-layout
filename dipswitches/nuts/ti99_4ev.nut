@@ -1,7 +1,7 @@
 return [
   {
     "name": "EVPC video mode",
-    "default": "PAL",
+    "default": 0,
     "values": [
       "PAL",
       "NTSC"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "EVPC charset",
-    "default": "International",
+    "default": 0,
     "values": [
       "International",
       "German"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "EVPC VDP RAM",
-    "default": "shifted",
+    "default": 0,
     "values": [
       "shifted",
       "not shifted"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "EVPC Configuration",
-    "default": "DIP",
+    "default": 0,
     "values": [
       "DIP",
       "NOVRAM"

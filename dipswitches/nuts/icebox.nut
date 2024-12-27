@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate for Terminal",
-    "default": "9600",
+    "default": 13,
     "values": [
       "50",
       "75",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Baud Rate for Printer",
-    "default": "1200",
+    "default": 7,
     "values": [
       "50",
       "75",

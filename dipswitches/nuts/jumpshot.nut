@@ -1,7 +1,7 @@
 return [
   {
     "name": "Time",
-    "default": "4 Minutes",
+    "default": 2,
     "values": [
       "2 Minutes",
       "3 Minutes",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Player 1 Skin Tone",
-    "default": "Lighter",
+    "default": 0,
     "values": [
       "Lighter",
       "Darker"
@@ -18,7 +18,7 @@ return [
   },
   {
     "name": "Player 2 Skin Tone",
-    "default": "Lighter",
+    "default": 0,
     "values": [
       "Lighter",
       "Darker"
@@ -26,7 +26,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -34,7 +34,7 @@ return [
   },
   {
     "name": "2 Players Game",
-    "default": "2 Credits",
+    "default": 1,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credits",
-    "default": "1 Start/1 Continue",
+    "default": 4,
     "values": [
       "2 Start/1 Continue",
       "4 Start/1 Continue",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "Dipswitch",
+    "default": 1,
     "values": [
       "CMOS",
       "Dipswitch"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Display",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Mirrored"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Video Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Cabinet?",
-    "default": "Dedicated",
+    "default": 0,
     "values": [
       "Dedicated",
       "Kit"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "2 Players",
+    "default": 0,
     "values": [
       "2 Players",
       "1 Player"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Counters",
-    "default": "One",
+    "default": 0,
     "values": [
       "One",
       "Two"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Power-Up Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

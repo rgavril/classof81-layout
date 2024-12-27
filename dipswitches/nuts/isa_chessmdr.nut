@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Port Address",
-    "default": "0x250",
+    "default": 9,
     "values": [
       "0x010 (Invalid)",
       "0x050 (Invalid)",

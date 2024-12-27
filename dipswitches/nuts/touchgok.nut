@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Credit configuration",
-    "default": "1 Credit Start/1 Credit Continue",
+    "default": 0,
     "values": [
       "1 Credit Start/1 Credit Continue",
       "2 Credits Start/1 Credit Continue"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin Slot",
-    "default": "Independent",
+    "default": 0,
     "values": [
       "Independent",
       "Common"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Monitor Type",
-    "default": "Double monitor, 4 players",
+    "default": 0,
     "values": [
       "Double monitor, 4 players",
       "Single monitor, 4 players",
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "Disabled or Free Play (if Coin B too)",
       "4 Coins/1 Credit",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "Disabled or Free Play (if Coin A too)",
       "4 Coins/1 Credit",

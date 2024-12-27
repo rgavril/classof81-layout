@@ -1,7 +1,7 @@
 return [
   {
     "name": "Layout",
-    "default": "U.S.",
+    "default": 0,
     "values": [
       "U.S.",
       "U.S. Dvorak"

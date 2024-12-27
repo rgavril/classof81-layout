@@ -1,7 +1,7 @@
 return [
   {
     "name": "Allow Continue",
-    "default": "Up To Stage 6",
+    "default": 6,
     "values": [
       "Off",
       "Up To Stage 1",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -24,7 +24,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "90",
+    "default": 0,
     "values": [
       "90",
       "120"
@@ -32,7 +32,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Unused - Leave OFF",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Background Music",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",

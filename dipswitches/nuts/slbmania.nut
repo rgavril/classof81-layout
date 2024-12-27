@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -38,7 +38,7 @@ return [
   },
   {
     "name": "High Score Feature",
-    "default": "Replay",
+    "default": 2,
     "values": [
       "No Award",
       "Extra Ball",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "S8 (game specific)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coin Slot 3",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/3 Credits",
       "1 Coin/1 Credit",
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "S14 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "S15 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "S16 (game specific)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -116,7 +116,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "Same as Slot 1",
+    "default": 0,
     "values": [
       "Same as Slot 1",
       "1 Coin/1 Credit",
@@ -138,7 +138,7 @@ return [
   },
   {
     "name": "Score Level Award",
-    "default": "2 Credits",
+    "default": 2,
     "values": [
       "Nothing",
       "1 Credit",
@@ -148,7 +148,7 @@ return [
   },
   {
     "name": "S23 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "S24 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -164,7 +164,7 @@ return [
   },
   {
     "name": "Maximum Credits",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "15",
@@ -174,7 +174,7 @@ return [
   },
   {
     "name": "Credits Displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -182,7 +182,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -190,7 +190,7 @@ return [
   },
   {
     "name": "Sound Option",
-    "default": "Option 1",
+    "default": 0,
     "values": [
       "Option 1",
       "Option 2",
@@ -200,7 +200,7 @@ return [
   },
   {
     "name": "Balls Per Game",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -208,7 +208,7 @@ return [
   },
   {
     "name": "S32 (game specific)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

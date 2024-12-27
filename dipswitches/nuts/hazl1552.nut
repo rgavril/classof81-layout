@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "1800",
+    "default": 3,
     "values": [
       "110",
       "300",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Even",
+    "default": 0,
     "values": [
       "Even",
       "Odd",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Auto",
-    "default": "CR",
+    "default": 1,
     "values": [
       "LF",
       "CR"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Case",
-    "default": "Upper",
+    "default": 1,
     "values": [
       "Upper and Lower",
       "Upper"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Video",
-    "default": "Reverse",
+    "default": 1,
     "values": [
       "Standard",
       "Reverse"

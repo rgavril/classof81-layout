@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Counters",
-    "default": "Two",
+    "default": 1,
     "values": [
       "One",
       "Two"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-1",
+    "default": 0,
     "values": [
       "USA-1",
       "USA-2",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Circuit Boards",
-    "default": "1",
+    "default": 1,
     "values": [
       "2",
       "1"
@@ -58,7 +58,7 @@ return [
   },
   {
     "name": "Powerup Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -66,7 +66,7 @@ return [
   },
   {
     "name": "Bill Validator",
-    "default": "Not Present",
+    "default": 1,
     "values": [
       "Installed",
       "Not Present"
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Comic Book Offer",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "Attract Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Low Blows",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Blood",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Violence",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

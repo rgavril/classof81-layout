@@ -1,7 +1,7 @@
 return [
   {
     "name": "Games Per Coin for slots 1/2/3",
-    "default": "1/1/4",
+    "default": 2,
     "values": [
       "2/2/8",
       "1/2/4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Multiple Coins Accepted Per Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Operator Settings Mode 1/2",
-    "default": "Changes Allowed/Preset #2",
+    "default": 0,
     "values": [
       "Changes Allowed/Preset #2",
       "Changes Locked/Preset #1"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Operator Settings Mode 2/2",
-    "default": "Changes Allowed/Preset #1",
+    "default": 0,
     "values": [
       "Changes Allowed/Preset #1",
       "Changes Locked/Preset #2"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Dwarf's Den Gfx",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Large Character Gfx",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Full Card Gfx",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

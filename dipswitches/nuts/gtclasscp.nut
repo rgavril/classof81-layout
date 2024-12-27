@@ -1,7 +1,7 @@
 return [
   {
     "name": "Trackball Orientation",
-    "default": "Normal Mount",
+    "default": 0,
     "values": [
       "Normal Mount",
       "45 Degree Angle"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "One Trackball",
+    "default": 0,
     "values": [
       "One Trackball",
       "Two Trackballs"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Adaptive Difficulty",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "100000",
+    "default": 1,
     "values": [
       "50000",
       "100000",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3 (2 in Free Play)",
+    "default": 0,
     "values": [
       "3 (2 in Free Play)",
       "4 (3 in Free Play)",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Right Coin Mechanism",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x4",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Left Coin Mechanism",
-    "default": "x1",
+    "default": 0,
     "values": [
       "x1",
       "x2"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Bonus Credits",
-    "default": "None",
+    "default": 4,
     "values": [
       "2 each 4",
       "1 each 3",
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Credit to start",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

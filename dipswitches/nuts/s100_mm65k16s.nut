@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bank Select Data Bit 0B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 1B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 2B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 3B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 4B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 5B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 6B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit 7B",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Bank Select Port",
-    "default": "40H",
+    "default": 1,
     "values": [
       "00H",
       "40H",
@@ -74,7 +74,7 @@ return [
   },
   {
     "name": "Extended Addressing",
-    "default": "000000H",
+    "default": 0,
     "values": [
       "000000H",
       "FF0000H"
@@ -82,7 +82,7 @@ return [
   },
   {
     "name": "First 16K Memory Addressing",
-    "default": "Block 0 (0000H-3FFFH)",
+    "default": 0,
     "values": [
       "Block 0 (0000H-3FFFH)",
       "Block 1 (4000H-7FFFH)",
@@ -92,7 +92,7 @@ return [
   },
   {
     "name": "Second 16K Memory Addressing",
-    "default": "Block 1 (4000H-7FFFH)",
+    "default": 1,
     "values": [
       "Block 0 (0000H-3FFFH)",
       "Block 1 (4000H-7FFFH)",
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Third 16K Memory Addressing",
-    "default": "Block 2 (8000H-BFFFH)",
+    "default": 2,
     "values": [
       "Block 0 (0000H-3FFFH)",
       "Block 1 (4000H-7FFFH)",
@@ -112,7 +112,7 @@ return [
   },
   {
     "name": "Fourth 16K Memory Addressing",
-    "default": "Block 3 (C000H-FFFFH",
+    "default": 3,
     "values": [
       "Block 0 (0000H-3FFFH)",
       "Block 1 (4000H-7FFFH)",
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A0",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1"
@@ -130,7 +130,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A1",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -138,7 +138,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A2",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -146,7 +146,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A3",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -154,7 +154,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A4",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A5",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -170,7 +170,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A6",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Bank Select Data Bit A7",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "Bank B Recognizes Phantom",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "Bank A Recognizes Phantom",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Addressing Mode",
-    "default": "Extended Addressing",
+    "default": 0,
     "values": [
       "Extended Addressing",
       "Bank Select"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "Bank A Lower 32K",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -218,7 +218,7 @@ return [
   },
   {
     "name": "Bank A Upper 32K",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -226,7 +226,7 @@ return [
   },
   {
     "name": "Bank B Lower 32K",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -234,7 +234,7 @@ return [
   },
   {
     "name": "Bank B Upper 32K",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -242,7 +242,7 @@ return [
   },
   {
     "name": "2K Segment Disable",
-    "default": "Page 0",
+    "default": 1,
     "values": [
       "Off",
       "Page 0",

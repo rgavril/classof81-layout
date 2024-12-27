@@ -1,7 +1,7 @@
 return [
   {
     "name": "Beer Frame Message",
-    "default": "Break Time",
+    "default": 0,
     "values": [
       "Break Time",
       "Beer Frame"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Price to Continue",
-    "default": "Same as Start",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "30 sec",
+    "default": 1,
     "values": [
       "20 sec",
       "30 sec",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Innings",
-    "default": "3 per Credit",
+    "default": 0,
     "values": [
       "3 per Credit",
       "9 per Credit"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Bonus Advantage",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Scoring Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Grip/Angle Select",
-    "default": "2 Buttons",
+    "default": 0,
     "values": [
       "2 Buttons",
       "1 Button"

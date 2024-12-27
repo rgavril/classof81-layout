@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 6,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Speed Unit",
-    "default": "KM",
+    "default": 0,
     "values": [
       "KM",
       "M.P.H."
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Motor Control",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Driving Technique",
-    "default": "High Technique Required",
+    "default": 1,
     "values": [
       "Normal",
       "High Technique Required"
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Steering and Seat Vibration",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Steering Wheel Specifications",
-    "default": "Potentiometer",
+    "default": 0,
     "values": [
       "Potentiometer",
       "Optical Sensor"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

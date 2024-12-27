@@ -1,7 +1,7 @@
 return [
   {
     "name": "PC-9801-86: Port Base",
-    "default": "0x188",
+    "default": 0,
     "values": [
       "0x188",
       "0x288"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "PC-9801-86: Enable sound ROM",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "PC-9801-86: Interrupt level",
-    "default": "IRQ 5",
+    "default": 2,
     "values": [
       "IRQ 0",
       "IRQ 4",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "PC-9801-86: Interrupt enable",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "PC-9801-86: ID number",
-    "default": "4",
+    "default": 4,
     "values": [
       "0",
       "1",

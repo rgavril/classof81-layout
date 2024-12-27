@@ -1,7 +1,7 @@
 return [
   {
     "name": "IDE CRU base",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "1100",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Map at boot time",
-    "default": "SRAM",
+    "default": 1,
     "values": [
       "RTC",
       "SRAM"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Card mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Geneve",

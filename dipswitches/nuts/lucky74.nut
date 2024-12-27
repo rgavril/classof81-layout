@@ -1,7 +1,7 @@
 return [
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Jackpot",
-    "default": "Bet x 100",
+    "default": 0,
     "values": [
       "Bet x 100",
       "Bet x 150"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Ceiling Bonus Point",
-    "default": "Bet x 40",
+    "default": 0,
     "values": [
       "Bet x 40",
       "Bet x 50"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Percentage",
-    "default": "66%",
+    "default": 8,
     "values": [
       "90%",
       "87%",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Panties",
-    "default": "With",
+    "default": 1,
     "values": [
       "Without",
       "With"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coinage A, B & Remote",
-    "default": "A: 1 Coin/10 Credits; B: 1 Coin/50 Credits;  R: 1 Pulse/100 Credits",
+    "default": 15,
     "values": [
       "A: 20 Coins/1 Credit; B: 4 Coins/1 Credit;   R: 2 Pulses/1 Credit",
       "A: 15 Coins/1 Credit; B: 3 Coins/1 Credit;   R: 15 Pulses/10 Credits",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Coinage C",
-    "default": "1 Coin/50 Credits",
+    "default": 15,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "40",
+    "default": 1,
     "values": [
       "20",
       "40"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Limit",
-    "default": "No Limit",
+    "default": 0,
     "values": [
       "No Limit",
       "10000",
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Woman's figure in Main Game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Type of Poker",
-    "default": "A - Without Wild Card",
+    "default": 0,
     "values": [
       "A - Without Wild Card",
       "B - Joker Wild Poker"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Kinds of Poker",
-    "default": "A - Hold",
+    "default": 0,
     "values": [
       "A - Hold",
       "B - Discard"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Hopper Coin SW",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Coin Payment",
-    "default": "Auto by PAYOUT SW",
+    "default": 1,
     "values": [
       "Auto",
       "Auto by PAYOUT SW"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Hopper Capacity",
-    "default": "Unlimited",
+    "default": 1,
     "values": [
       "700",
       "Unlimited"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Woman's figure in D-UP game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Double-Up game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Stop by 6th Double-Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Double-Up difficulty",
-    "default": "Easy",
+    "default": 3,
     "values": [
       "Hardest",
       "Hard",

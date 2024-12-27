@@ -1,7 +1,7 @@
 return [
   {
     "name": "Poker: Discard Cards",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Poker: Pay on",
-    "default": "any Pair",
+    "default": 0,
     "values": [
       "any Pair",
       "Pair of Eights or better",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 1,
     "values": [
       "30",
       "10"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Poker: Credits needed for 2 Jokers",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "4"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Payout Percentage",
-    "default": "50",
+    "default": 3,
     "values": [
       "35",
       "40",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Credit Clear-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Credit Clear-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Rate",
-    "default": "96%",
+    "default": 15,
     "values": [
       "50%",
       "53%",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Start Chance",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Bet Up",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bonus Credit",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "50"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Note",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Analyzer",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

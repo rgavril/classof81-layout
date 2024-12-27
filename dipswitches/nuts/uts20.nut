@@ -1,7 +1,7 @@
 return [
   {
     "name": "National Layout",
-    "default": "USA/UK English",
+    "default": 0,
     "values": [
       "USA/UK English",
       "German (QWERTZ)",

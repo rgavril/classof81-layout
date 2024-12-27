@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "2 Coins/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "2 Coins/1 Credit",
+    "default": 2,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Fast"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Damage Level",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "High"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Fatal Damage",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Light",
       "Normal",

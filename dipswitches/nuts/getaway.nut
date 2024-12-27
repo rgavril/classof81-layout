@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "Max I",
+    "default": 2,
     "values": [
       "Min I",
       "Min II",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "3000",
+    "default": 2,
     "values": [
       "None",
       "2000",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Extra Play",
-    "default": "6000",
+    "default": 5,
     "values": [
       "None",
       "2000",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Japanese"

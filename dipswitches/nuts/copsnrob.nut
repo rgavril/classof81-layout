@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Player",
+    "default": 0,
     "values": [
       "1 Coin/1 Player",
       "1 Coin/2 Players",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Time Limit",
-    "default": "3min",
+    "default": 3,
     "values": [
       "1min",
       "1min 45sec",

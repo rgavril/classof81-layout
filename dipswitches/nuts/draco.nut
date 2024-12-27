@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 2,
     "values": [
       "Very Hard",
       "Hard",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "10000",
+    "default": 2,
     "values": [
       "5000",
       "7000",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "Slot A: 1  Slot B: 2",
+    "default": 2,
     "values": [
       "Slot A: 0.5  Slot B: 0.5",
       "Slot A: 0.6  Slot B: 3",

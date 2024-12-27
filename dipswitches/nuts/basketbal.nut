@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "Preset Time",
+    "default": 0,
     "values": [
       "Preset Time",
       "Preset + 10sec",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Team Names",
-    "default": "Default",
+    "default": 0,
     "values": [
       "Default",
       "Hometown Heroes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

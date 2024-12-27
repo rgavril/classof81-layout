@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 4,
     "values": [
       "5 Coins/1 Credit",
       "4 Coins/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "80000",
+    "default": 3,
     "values": [
       "20000",
       "40000",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Initial Entry",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Motion",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Stop",
       "Normal"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Screen",
-    "default": "Mono",
+    "default": 0,
     "values": [
       "Mono",
       "Stereo"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Game",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Endless",
       "Normal"

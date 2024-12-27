@@ -1,7 +1,7 @@
 return [
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Credit/Time",
-    "default": "Each Coin Buys Time",
+    "default": 0,
     "values": [
       "Each Coin Buys Time",
       "Fixed Time"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Game Length",
-    "default": "1:30 Minutes",
+    "default": 2,
     "values": [
       "0:30 Minutes",
       "1:00 Minutes",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Monitor Type",
-    "default": "24KHz",
+    "default": 0,
     "values": [
       "24KHz",
       "15KHz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DIP7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Harness",
-    "default": "JAMMA",
+    "default": 1,
     "values": [
       "JVS",
       "JAMMA"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DIP5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DIP4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Screen Flip (V)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Screen Flip (H)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Skip Post",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

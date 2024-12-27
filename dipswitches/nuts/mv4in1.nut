@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hands per Game",
-    "default": "3",
+    "default": 3,
     "values": [
       "6",
       "5",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "2 Coins/2 Credits",
       "1 Coin/2 Credits",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin Limit",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "60 Cycle",
+    "default": 1,
     "values": [
       "50 Cycle",
       "60 Cycle"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Topten",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Free Hand",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Autoplay",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Keyboard",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Enable 21",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Enable Dice",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Enable Poker",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Enable Red-Dog",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

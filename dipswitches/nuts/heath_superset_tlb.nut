@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 12,
     "values": [
       "75",
       "110",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Word Length",
-    "default": "8-bit",
+    "default": 0,
     "values": [
       "8-bit",
       "7-bit"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Even"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Enabled",
+    "default": 1,
     "values": [
       "Disabled",
       "Enabled"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Keyclick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Auto LF on CR",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Auto CR on LF",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Heath/VT52",
+    "default": 0,
     "values": [
       "Heath/VT52",
       "ANSI"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Refresh",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Credit 1 Health Pack",
+    "default": 0,
     "values": [
       "1 Credit 1 Health Pack",
       "1 Credit 2 Health Packs",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Credit 1 Health Pack",
+    "default": 0,
     "values": [
       "1 Credit 1 Health Pack",
       "1 Credit 2 Health Packs",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Easy",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Credits For Extra Hitpoints",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Lever Type",
-    "default": "Digital",
+    "default": 0,
     "values": [
       "Digital",
       "Analog"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Health Pack",
-    "default": "32 Hitpoints",
+    "default": 0,
     "values": [
       "32 Hitpoints",
       "40 Hitpoints"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Life Restoration",
-    "default": "10 Points",
+    "default": 0,
     "values": [
       "10 Points",
       "5 Points"

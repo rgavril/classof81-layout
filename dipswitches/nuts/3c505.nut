@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Base",
-    "default": "0300h",
+    "default": 47,
     "values": [
       "010h",
       "020h",
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "IRQ",
-    "default": "IRQ 10",
+    "default": 6,
     "values": [
       "IRQ 3",
       "IRQ 4",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "DRQ",
-    "default": "DRQ 5",
+    "default": 3,
     "values": [
       "none",
       "DRQ 1",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "ROM Enable",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "ROM Base",
-    "default": "80000h",
+    "default": 0,
     "values": [
       "80000h",
       "82000h",
@@ -140,7 +140,7 @@ return [
   },
   {
     "name": "TEST Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

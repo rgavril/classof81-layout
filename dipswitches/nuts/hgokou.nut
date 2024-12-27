@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty",
-    "default": "1 (Easy)",
+    "default": 0,
     "values": [
       "1 (Easy)",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Level Increase",
-    "default": "Often",
+    "default": 0,
     "values": [
       "Often",
       "Rarely"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Biggest Bonus Enabled",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "W-Up Win Percentage",
-    "default": "80%",
+    "default": 0,
     "values": [
       "80%",
       "75%",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Key-in Rate ?",
-    "default": "x10",
+    "default": 0,
     "values": [
       "x10",
       "x5"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Start Level",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Gokou Odds",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "200",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Shikou Odds",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "60",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Machine",
-    "default": "Credit Type",
+    "default": 0,
     "values": [
       "Credit Type",
       "Hopper Type",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Hopper Microswitch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Hopper Type",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Automatic"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Shikou Limit",
-    "default": "Set 1",
+    "default": 0,
     "values": [
       "Set 1",
       "Set 2",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "In-Game Music",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Girls",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Secret Technique ?",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Hint",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Win Bonus",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Panel",
-    "default": "Hanafuda",
+    "default": 0,
     "values": [
       "Hanafuda",
       "Mahjong",
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "SW4-9",
-    "default": "Amusement Seal",
+    "default": 0,
     "values": [
       "Amusement Seal",
       "Lever"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Show Girl at Game Start",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "In-Game Voice",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "Ameshikou Odds",
-    "default": "20",
+    "default": 0,
     "values": [
       "20",
       "30",
@@ -235,7 +235,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "5"
@@ -243,7 +243,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

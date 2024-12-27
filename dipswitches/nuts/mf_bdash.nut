@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin/Time",
-    "default": "300 sec",
+    "default": 9,
     "values": [
       "30 sec",
       "60 sec",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Key-In Rate",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Credit Mode",
-    "default": "Coin Acceptor",
+    "default": 0,
     "values": [
       "Coin Acceptor",
       "Key-In"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Return Coins",
+    "default": 0,
     "values": [
       "Return Coins",
       "Key-Out"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Double Up Jackpot",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "1 (1)",
+    "default": 0,
     "values": [
       "1 (1)",
       "1 (2)",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Double Up Game Name",
-    "default": "Continue Play",
+    "default": 0,
     "values": [
       "Continue Play",
       "Double Up"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Number Type",
-    "default": "Numbers",
+    "default": 0,
     "values": [
       "Numbers",
       "Blocks"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Show Credits",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

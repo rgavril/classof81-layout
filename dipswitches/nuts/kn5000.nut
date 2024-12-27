@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main CPU Checking Device",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Sub CPU Checking Device",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Computer Interface Selection",
-    "default": "MIDI",
+    "default": 0,
     "values": [
       "MIDI",
       "PC1",

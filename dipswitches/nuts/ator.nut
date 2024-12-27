@@ -1,7 +1,7 @@
 return [
   {
     "name": "Replay at / High-score",
-    "default": "1400k 2200k and 9000k / 3300k",
+    "default": 0,
     "values": [
       "1400k 2200k and 9000k / 3300k",
       "1700k 2500k and 9000k / 3600k",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/5 C 1/5",
+    "default": 3,
     "values": [
       "A 3/1 B 1/2 C 1/2",
       "A 2/1 B 1/3 C 1/3",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Match Feature",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Extra Ball",
-    "default": "4 Stars",
+    "default": 3,
     "values": [
       "1 Star",
       "2 Stars",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Special",
-    "default": "4 Attacks",
+    "default": 3,
     "values": [
       "1 Attack",
       "2 Attacks",
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Clear RAM on Reset",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

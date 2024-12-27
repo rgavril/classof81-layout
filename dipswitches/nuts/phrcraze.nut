@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "5",
+    "default": 2,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "XXX-Rated Sex Topic",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Bonus Phraze",
-    "default": "1M",
+    "default": 2,
     "values": [
       "None",
       "800K",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Random Sex Category",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright 1 Player",
+    "default": 1,
     "values": [
       "Upright 1 Player",
       "Upright 1 Player",

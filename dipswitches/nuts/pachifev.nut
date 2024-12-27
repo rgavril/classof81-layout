@@ -1,7 +1,7 @@
 return [
   {
     "name": "Difficulty ?",
-    "default": "-8",
+    "default": 0,
     "values": [
       "-8",
       "-6",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "200",
+    "default": 3,
     "values": [
       "25",
       "50",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Time",
-    "default": "180",
+    "default": 0,
     "values": [
       "180",
       "120",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Limit (Level 4)",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "1000",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Limit (Levels 1 to 3)",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Bonus Time",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "8",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Bonus Ball",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",

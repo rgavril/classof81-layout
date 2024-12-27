@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Mode?",
-    "default": "5 - 1152x904 @72",
+    "default": 5,
     "values": [
       "0",
       "1 - 1152x904 @72",

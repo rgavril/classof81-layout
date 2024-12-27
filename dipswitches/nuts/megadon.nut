@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Fuel Consumption",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Rotation",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "ERG",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Enemy Fire Rate",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Arcade",
+    "default": 0,
     "values": [
       "Arcade",
       "Contest"

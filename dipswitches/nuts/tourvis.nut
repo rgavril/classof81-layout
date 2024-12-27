@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coins needed 1",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Time units 1",
-    "default": "900",
+    "default": 0,
     "values": [
       "900",
       "720",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Coins needed 2",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Time units 2",
-    "default": "1500",
+    "default": 0,
     "values": [
       "1500",
       "1200",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

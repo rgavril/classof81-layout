@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "300",
       "500",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Unlimited",
+    "default": 7,
     "values": [
       "5,000",
       "10,000",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Credit Limit Display",
-    "default": "Not Displayed",
+    "default": 0,
     "values": [
       "Not Displayed",
       "Displayed"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Keyin B Rate",
-    "default": "1 Coin/100 Credits",
+    "default": 7,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "5 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "95%",
+    "default": 15,
     "values": [
       "50%",
       "53%",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Double Up Pay Rate",
-    "default": "90%",
+    "default": 1,
     "values": [
       "80%",
       "90%"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Double Up 7 Player Value",
-    "default": "Loss",
+    "default": 0,
     "values": [
       "Loss",
       "Draw"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Double Up Girl Display",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 3,
     "values": [
       "8",
       "16",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Min Bet for Any Bonus",
-    "default": "16",
+    "default": 1,
     "values": [
       "8",
       "16"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Bonus Games Entry Condition",
-    "default": "1-6-1-8-1",
+    "default": 3,
     "values": [
       "1-3-1-5-1",
       "1-4-1-6-1",
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -179,7 +179,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "IN1-10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

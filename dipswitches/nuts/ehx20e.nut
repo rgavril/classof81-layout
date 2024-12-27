@@ -1,7 +1,7 @@
 return [
   {
     "name": "Country",
-    "default": "Sweden (ASCII)",
+    "default": 0,
     "values": [
       "Sweden (ASCII)",
       "Germany (ASCII)",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Floppy Drive TF-20",
-    "default": "Installed",
+    "default": 0,
     "values": [
       "Installed",
       "Not Installed"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Drive extension",
-    "default": "A & B Drive",
+    "default": 0,
     "values": [
       "A & B Drive",
       "C & D Drive"

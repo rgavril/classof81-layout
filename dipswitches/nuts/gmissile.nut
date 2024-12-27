@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin per Player",
+    "default": 2,
     "values": [
       "2 Coins per Player",
       "2 Coins/1 or 2 Players",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "70 seconds + 35 extended",
+    "default": 1,
     "values": [
       "60 seconds + 30 extended",
       "70 seconds + 35 extended",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "1000",
+    "default": 2,
     "values": [
       "500",
       "700",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Hopper Out Switch",
-    "default": "Active Low",
+    "default": 0,
     "values": [
       "Active Low",
       "Active High"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout Mode",
-    "default": "Payout Switch",
+    "default": 0,
     "values": [
       "Payout Switch",
       "Automatic"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "'7' In Double Up Game",
-    "default": "Lose",
+    "default": 0,
     "values": [
       "Lose",
       "Even"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Double Up Game Pay Rate",
-    "default": "80%",
+    "default": 0,
     "values": [
       "80%",
       "90%"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "90%",
+    "default": 7,
     "values": [
       "55%",
       "60%",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "100+ Odds Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Key In Type",
-    "default": "A-Type",
+    "default": 0,
     "values": [
       "A-Type",
       "B-Type"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Center Super 7 Bet Limit",
-    "default": "Limited",
+    "default": 1,
     "values": [
       "Unlimited",
       "Limited"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/20 Credits",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "5 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5,000",
+    "default": 0,
     "values": [
       "5,000",
       "10,000",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Display Of Payout Limit",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Type Of Coin D",
-    "default": "C-Type",
+    "default": 0,
     "values": [
       "C-Type",
       "D-Type"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Min. Bet For Bonus Play",
-    "default": "16",
+    "default": 1,
     "values": [
       "8",
       "16"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "Hopper Out By Coin A",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Display Of Doll On Demo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "1,000",
+    "default": 0,
     "values": [
       "1,000",
       "5,000",
@@ -227,7 +227,7 @@ return [
   },
   {
     "name": "Condition For 3 Kind Of Bonus",
-    "default": "12-7-1",
+    "default": 0,
     "values": [
       "12-7-1",
       "9-5-1",
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Display Of Doll At All Fr. Bonus",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -245,7 +245,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -253,7 +253,7 @@ return [
   },
   {
     "name": "Test Mode For Disp. Of Doll",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

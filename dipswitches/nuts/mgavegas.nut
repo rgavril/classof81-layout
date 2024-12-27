@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percentage",
-    "default": "72%",
+    "default": 2,
     "values": [
       "70%",
       "70%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Sound",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Speech",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Jackpot",
-    "default": "Jackpot 5%",
+    "default": 2,
     "values": [
       "Jackpot 1%",
       "Jackpot 2,5%",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Reset",
-    "default": "Normal Gameplay",
+    "default": 0,
     "values": [
       "Normal Gameplay",
       "Reset"

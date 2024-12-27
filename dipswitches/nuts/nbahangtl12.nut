@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Powerup Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Bill Validator",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "2-player",
+    "default": 0,
     "values": [
       "2-player",
       "4-player"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Counters",
-    "default": "One, 1/1",
+    "default": 0,
     "values": [
       "One, 1/1",
       "One, Totalizing",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Country",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "French",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Coinage Source",
-    "default": "CMOS",
+    "default": 1,
     "values": [
       "Dipswitch",
       "CMOS"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

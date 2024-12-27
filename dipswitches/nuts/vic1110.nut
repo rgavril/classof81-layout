@@ -1,7 +1,7 @@
 return [
   {
     "name": "Memory Location",
-    "default": "$2000-$3FFF",
+    "default": 0,
     "values": [
       "$2000-$3FFF",
       "$4000-$5FFF",

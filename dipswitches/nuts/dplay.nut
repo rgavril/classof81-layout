@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin per Inning",
+    "default": 4,
     "values": [
       "2 Coins/1 Inning/1 Player, 4 Coins/1 Inning/2 Players, 8 Coins/3 Innings/2 Players",
       "1 Coin/1 Inning/1 Player, 2 Coins/1 Inning/2 Players, 4 Coins/3 Innings/2 Players",
@@ -13,7 +13,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

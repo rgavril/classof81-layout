@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cockpit",
       "Upright"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Price to Continue",
-    "default": "Same as Start",
+    "default": 3,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bonus Shields",
-    "default": "1",
+    "default": 2,
     "values": [
       "3",
       "2",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Shields",
-    "default": "5",
+    "default": 2,
     "values": [
       "3",
       "4",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Allow Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Trigger Turbo",
-    "default": "7 Shots / Second",
+    "default": 0,
     "values": [
       "7 Shots / Second",
       "10 Shots / Second"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Adjust Stick H (VARIABLE REGISTER)",
-    "default": "+00",
+    "default": 128,
     "values": [
       "-80",
       "-7F",
@@ -361,7 +361,7 @@ return [
   },
   {
     "name": "Adjust Stick V (VARIABLE REGISTER)",
-    "default": "+00",
+    "default": 128,
     "values": [
       "-80",
       "-7F",

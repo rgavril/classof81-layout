@@ -1,7 +1,7 @@
 return [
   {
     "name": "IO Mode",
-    "default": "Internal",
+    "default": 1,
     "values": [
       "Terminal",
       "Internal"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Columns",
-    "default": "80",
+    "default": 1,
     "values": [
       "40",
       "80"

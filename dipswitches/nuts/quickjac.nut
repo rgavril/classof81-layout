@@ -1,7 +1,7 @@
 return [
   {
     "name": "Low Battery",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

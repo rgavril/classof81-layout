@@ -1,7 +1,7 @@
 return [
   {
     "name": "Display",
-    "default": "Console",
+    "default": 0,
     "values": [
       "Console",
       "NWB-512",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Boot Device",
-    "default": "SCSI",
+    "default": 0,
     "values": [
       "SCSI",
       "Floppy"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Automatic Boot",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Diagnostic Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

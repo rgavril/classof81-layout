@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Fire Truck (2 Players)",
+    "default": 1,
     "values": [
       "Smokey Joe (1 Player)",
       "Fire Truck (2 Players)"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "90 Seconds",
+    "default": 1,
     "values": [
       "60 Seconds",
       "90 Seconds",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Liberal",
       "Medium",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "60 seconds",
+    "default": 6,
     "values": [
       "40 seconds + 20 extended",
       "50 seconds + 25 extended",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin per Player",
+    "default": 0,
     "values": [
       "1 Coin per Player",
       "1 Coin/1 or 2 Players",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "5000",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Springboard Alignment",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

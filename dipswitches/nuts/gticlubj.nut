@@ -1,7 +1,7 @@
 return [
   {
     "name": "Network ID",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "DIP3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "DIP4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

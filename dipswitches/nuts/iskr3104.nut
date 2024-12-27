@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game port enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "LPT3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "LPT2: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "LPT1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "COM4: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "COM3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "COM2: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "COM1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "HDC2 (CA00:0 port 324-327)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "HDC1 (C800:0 port 320-323)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Display Type",
-    "default": "1001 - MDA SECONDARY, EGA HI RES ENHANCED",
+    "default": 9,
     "values": [
       "0000 - MDA PRIMARY, EGA COLOR, 40x25",
       "0001 - MDA PRIMARY, EGA COLOR, 80x25",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "RAM banks",
-    "default": "4 - 64/256/640K",
+    "default": 3,
     "values": [
       "1 - 16/ 64/256K",
       "2 - 32/128/512K",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "EGA/VGA",
+    "default": 0,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

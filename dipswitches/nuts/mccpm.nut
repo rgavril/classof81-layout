@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate B (Printer)",
-    "default": "9600",
+    "default": 12,
     "values": [
       "50",
       "75",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Baud Rate A (Terminal)",
-    "default": "9600",
+    "default": 12,
     "values": [
       "50",
       "75",

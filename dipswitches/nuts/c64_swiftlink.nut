@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base Address",
-    "default": "$DE00",
+    "default": 1,
     "values": [
       "$D700 (C128)",
       "$DE00",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Interrupt",
-    "default": "NMI",
+    "default": 1,
     "values": [
       "IRQ",
       "NMI"

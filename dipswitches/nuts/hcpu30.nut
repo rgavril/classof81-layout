@@ -1,7 +1,7 @@
 return [
   {
     "name": "Console Port Speed",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Boot Mode",
-    "default": "Monitor",
+    "default": 1,
     "values": [
       "UNIX",
       "Monitor"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Undefined 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "VME Bus Width",
-    "default": "32 bits",
+    "default": 0,
     "values": [
       "32 bits",
       "16 bits"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "VME Bus Free",
-    "default": "ROR",
+    "default": 0,
     "values": [
       "ROR",
       "REC"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Cache Burst Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Undefined 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

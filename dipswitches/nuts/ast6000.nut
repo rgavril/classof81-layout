@@ -1,7 +1,7 @@
 return [
   {
     "name": "IDE Configuration",
-    "default": "Primary",
+    "default": 0,
     "values": [
       "Primary",
       "Secondary"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Base address",
-    "default": "0x378",
+    "default": 0,
     "values": [
       "0x378",
       "0x278"

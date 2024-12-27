@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Rate",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "85%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Min. Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "8",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Max. Bet",
-    "default": "32",
+    "default": 0,
     "values": [
       "32",
       "64",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Coin In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "5",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Pay Out",
-    "default": "10",
+    "default": 1,
     "values": [
       "1",
       "10",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Strip Girl Available",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Min. Bet For Bonus",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Double Up Rate",
-    "default": "85%",
+    "default": 3,
     "values": [
       "70%",
       "75%",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Pay Out Mode",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Auto"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Pay Out Limit",
-    "default": "Normal",
+    "default": 3,
     "values": [
       "300",
       "400",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Key Out",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "50",
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

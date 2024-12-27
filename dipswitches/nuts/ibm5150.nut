@@ -1,7 +1,7 @@
 return [
   {
     "name": "Type of 2nd drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Type of 1st drive",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "IRQ level",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Install ROM?",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Protocol selection",
-    "default": "Standard PC and XT",
+    "default": 1,
     "values": [
       "Enhanced XT, AT and PS/2 models",
       "Standard PC and XT"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "IRMA/Native scan code set",
-    "default": "Native scan code set",
+    "default": 0,
     "values": [
       "Native scan code set",
       "IRMA Emulation"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Enhanced 101/Native scan code set",
-    "default": "Enhanced 101 scan code set",
+    "default": 1,
     "values": [
       "Native scan code set",
       "Enhanced 101 scan code set"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Enable E0",
-    "default": "Disable E0",
+    "default": 1,
     "values": [
       "Enable E0",
       "Disable E0"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Code tables",
-    "default": "International code tables",
+    "default": 1,
     "values": [
       "U.S. code tables",
       "International code tables"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Key click",
-    "default": "Key click",
+    "default": 1,
     "values": [
       "No key click",
       "Key click"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Base RAM size",
-    "default": "64K",
+    "default": 3,
     "values": [
       "16K",
       "32K",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Color 80x25",
+    "default": 2,
     "values": [
       "EGA/VGA",
       "Color 40x25",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Extra RAM size",
-    "default": "576K",
+    "default": 18,
     "values": [
       "None",
       "32K",
@@ -156,7 +156,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

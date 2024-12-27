@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "6",
+    "default": 3,
     "values": [
       "3",
       "4",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "2500",
+    "default": 1,
     "values": [
       "1500",
       "2500"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Laser Bonus Info",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

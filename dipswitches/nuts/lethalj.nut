@@ -1,7 +1,7 @@
 return [
   {
     "name": "Left Gun Offset",
-    "default": "0",
+    "default": 4,
     "values": [
       "-4",
       "-3",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Right Gun Offset",
-    "default": "0",
+    "default": 4,
     "values": [
       "-4",
       "-3",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DIP E",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Global Gun Offset",
-    "default": "+0",
+    "default": 1,
     "values": [
       "-2.5",
       "+0"

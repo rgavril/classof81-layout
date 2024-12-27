@@ -1,7 +1,7 @@
 return [
   {
     "name": "KRX: BASIC[on]/MSX[off]",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "KBI: AUTOSTART",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "KBI: 32kb only",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

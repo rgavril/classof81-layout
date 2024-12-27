@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot from floppy",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "8087 installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Floppy type",
-    "default": "40 tracks",
+    "default": 1,
     "values": [
       "80 tracks",
       "40 tracks"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Graphics adapter",
-    "default": "Color 80x25",
+    "default": 2,
     "values": [
       "Reserved",
       "Color 40x25",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Number of floppy drives",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Speech synthesizer",
-    "default": "Not installed",
+    "default": 1,
     "values": [
       "Installed",
       "Not installed"

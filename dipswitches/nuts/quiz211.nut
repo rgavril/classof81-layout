@@ -1,7 +1,7 @@
 return [
   {
     "name": "Questions",
-    "default": "5",
+    "default": 1,
     "values": [
       "4",
       "5",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Show Answer",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Max Coins",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "30"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Timeout",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "No Coins",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

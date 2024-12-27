@@ -1,7 +1,7 @@
 return [
   {
     "name": "Switch A",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "BASIC",
+    "default": 1,
     "values": [
       "DOS",
       "BASIC"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Switch C",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "FM-8 Compatibility mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

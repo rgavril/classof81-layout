@@ -1,7 +1,7 @@
 return [
   {
     "name": "Dev Skip RAM Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Dev Debug",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

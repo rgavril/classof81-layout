@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 7,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/100 Credits",
+    "default": 7,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/10 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coin C Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 3,
     "values": [
       "1 Coin/5 Credits",
       "1 Coin/10 Credits",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Main Game Level",
-    "default": "0 - 72%",
+    "default": 4,
     "values": [
       "+4 - 56%",
       "+3 - 60%",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Nudity / Strip",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Coin In Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "1000",
       "2000",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Hopper Switch",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Coin D Rate",
-    "default": "1 Coin/1 Credit",
+    "default": 10,
     "values": [
       "10 Coins/1 Credit",
       "5 Coins/1 Credit",
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "Unlimited",
+    "default": 3,
     "values": [
       "1000",
       "500",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 3,
     "values": [
       "8",
       "16",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "Unlimited",
+    "default": 7,
     "values": [
       "5000",
       "10000",
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

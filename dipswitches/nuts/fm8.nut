@@ -1,7 +1,7 @@
 return [
   {
     "name": "Boot mode",
-    "default": "BASIC",
+    "default": 1,
     "values": [
       "DOS",
       "BASIC"

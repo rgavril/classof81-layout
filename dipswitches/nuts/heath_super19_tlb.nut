@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 11,
     "values": [
       "110",
       "150",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "8 bit mode",
-    "default": "Mode A/0 - 8th bit ignored, sent as 0",
+    "default": 0,
     "values": [
       "Mode A/0 - 8th bit ignored, sent as 0",
       "Mode B/1 - 8th bit ignored, sent as 1",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Transmit mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Slow"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Auto LF on CR",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Auto CR on LF",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Heath/VT52",
+    "default": 0,
     "values": [
       "Heath/VT52",
       "ANSI"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "DEC Keypad Codes",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

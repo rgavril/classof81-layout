@@ -1,7 +1,7 @@
 return [
   {
     "name": "2K block $0800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "2K block $1800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "2K block $2800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "2K block $3800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "2K block $4800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "2K block $5800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "2K block $6800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "2K block $7800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "2K block $0000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "2K block $1000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "2K block $2000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "2K block $3000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "2K block $4000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "2K block $5000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "2K block $6000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "2K block $7000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Address Selection",
-    "default": "$0000-$7FFF",
+    "default": 0,
     "values": [
       "$0000-$7FFF",
       "$1000-$8FFF",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "2K block $0800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "2K block $1800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "2K block $2800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -175,7 +175,7 @@ return [
   },
   {
     "name": "2K block $3800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "2K block $4800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "2K block $5800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "2K block $6800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "2K block $7800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "2K block $0000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "2K block $1000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "2K block $2000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "2K block $3000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "2K block $4000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "2K block $5000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "2K block $6000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "2K block $7000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "Address Selection",
-    "default": "$8000-$FFFF",
+    "default": 8,
     "values": [
       "$0000-$7FFF",
       "$1000-$8FFF",
@@ -301,7 +301,7 @@ return [
   },
   {
     "name": "2K block $0800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -309,7 +309,7 @@ return [
   },
   {
     "name": "2K block $1800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -317,7 +317,7 @@ return [
   },
   {
     "name": "2K block $2800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -325,7 +325,7 @@ return [
   },
   {
     "name": "2K block $3800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -333,7 +333,7 @@ return [
   },
   {
     "name": "2K block $4800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -341,7 +341,7 @@ return [
   },
   {
     "name": "2K block $5800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -349,7 +349,7 @@ return [
   },
   {
     "name": "2K block $6800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -357,7 +357,7 @@ return [
   },
   {
     "name": "2K block $7800",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -365,7 +365,7 @@ return [
   },
   {
     "name": "2K block $0000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -373,7 +373,7 @@ return [
   },
   {
     "name": "2K block $1000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -381,7 +381,7 @@ return [
   },
   {
     "name": "2K block $2000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -389,7 +389,7 @@ return [
   },
   {
     "name": "2K block $3000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -397,7 +397,7 @@ return [
   },
   {
     "name": "2K block $4000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -405,7 +405,7 @@ return [
   },
   {
     "name": "2K block $5000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -413,7 +413,7 @@ return [
   },
   {
     "name": "2K block $6000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -421,7 +421,7 @@ return [
   },
   {
     "name": "2K block $7000",
-    "default": "Enable",
+    "default": 1,
     "values": [
       "Disable",
       "Enable"
@@ -429,7 +429,7 @@ return [
   },
   {
     "name": "Address Selection",
-    "default": "$0000-$7FFF",
+    "default": 0,
     "values": [
       "$0000-$7FFF",
       "$1000-$8FFF",

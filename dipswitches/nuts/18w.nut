@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Extended Time",
-    "default": "20 seconds at 10000",
+    "default": 12,
     "values": [
       "20 seconds at 4000",
       "30 seconds at 8000",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "60 seconds",
+    "default": 0,
     "values": [
       "60 seconds",
       "70 seconds",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "I/O Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "I/O Address Block",
-    "default": "B0-B1",
+    "default": 44,
     "values": [
       "00-01",
       "04-05",
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Interrupt Line",
-    "default": "VI1",
+    "default": 2,
     "values": [
       "None",
       "VI0",

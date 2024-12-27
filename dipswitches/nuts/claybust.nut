@@ -1,7 +1,7 @@
 return [
   {
     "name": "Shots",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "2"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Number of Flings",
-    "default": "10",
+    "default": 1,
     "values": [
       "8",
       "10"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

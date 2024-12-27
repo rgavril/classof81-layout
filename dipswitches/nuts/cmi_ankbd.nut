@@ -1,7 +1,7 @@
 return [
   {
     "name": "Speed (baud)",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "4800",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Odd",
+    "default": 2,
     "values": [
       "Even",
       "None, bit 7 is 0",

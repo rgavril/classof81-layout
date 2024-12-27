@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Life Type",
-    "default": "Every",
+    "default": 0,
     "values": [
       "Every",
       "Second Only"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "60000 / 150000",
+    "default": 1,
     "values": [
       "20000 / 50000",
       "60000 / 150000",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Demo Sound / Video Freeze",
-    "default": "Demo Sound On",
+    "default": 0,
     "values": [
       "Demo Sound On",
       "Never Finish",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "2",
+    "default": 1,
     "values": [
       "1",
       "2",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Character Spacing",
-    "default": "Pica / 10 cpi",
+    "default": 0,
     "values": [
       "Pica / 10 cpi",
       "Compressed / 17 cpi"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Automatic Line Feed",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Paper End Detect",
-    "default": "Disabled",
+    "default": 1,
     "values": [
       "Enabled",
       "Disabled"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Page Length",
-    "default": "11 inch",
+    "default": 0,
     "values": [
       "11 inch",
       "12 inch"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Print Quality",
-    "default": "Draft",
+    "default": 0,
     "values": [
       "Draft",
       "NLQ"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Control Code Mode",
-    "default": "Commodore",
+    "default": 0,
     "values": [
       "Commodore",
       "Epson FX"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "ASCII Translation",
-    "default": "PET ASCII",
+    "default": 0,
     "values": [
       "PET ASCII",
       "ASCII"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Device Number",
-    "default": "4",
+    "default": 0,
     "values": [
       "4",
       "5"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "International Character Set",
-    "default": "US/UK/Netherlands",
+    "default": 0,
     "values": [
       "US/UK/Netherlands",
       "Switzerland",

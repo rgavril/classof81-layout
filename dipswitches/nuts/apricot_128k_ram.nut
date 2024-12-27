@@ -1,7 +1,7 @@
 return [
   {
     "name": "Base Address",
-    "default": "256K - 384K",
+    "default": 1,
     "values": [
       "512K",
       "256K - 384K",

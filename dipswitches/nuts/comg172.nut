@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Double Deal",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Lower Pair to Win + Pay Table",
-    "default": "Jacks, 250/50/20/8/6/4/3/2/1",
+    "default": 0,
     "values": [
       "Jacks, 250/50/20/8/6/4/3/2/1",
       "Queens, 200/40/10/8/5/4/3/2/1",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin Lockout",
-    "default": "No Lockout",
+    "default": 0,
     "values": [
       "No Lockout",
       "No Lockout",

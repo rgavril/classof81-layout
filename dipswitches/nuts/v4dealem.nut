@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet Set Up Mode",
-    "default": "Stop The Clock",
+    "default": 0,
     "values": [
       "Stop The Clock",
       "Hit the Top",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Target Payout Percentage",
-    "default": "72%",
+    "default": 0,
     "values": [
       "72%",
       "74%",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Display Switch Settings on Monitor",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Payout Limit",
-    "default": "200p (All Cash)",
+    "default": 0,
     "values": [
       "200p (All Cash)",
       "200p (Cash)+400p (Token)"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "10p Payout Priority",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Clear Credits and bank at power on?",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "50p Payout Solenoid fitted?",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "100p Payout Solenoid fitted?",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Coin alarms active?",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Price of Play",
-    "default": "10p 1 Game",
+    "default": 0,
     "values": [
       "10p 1 Game",
       "10p 2 Games"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Coin Entry",
-    "default": "Multi",
+    "default": 0,
     "values": [
       "Multi",
       "Single"

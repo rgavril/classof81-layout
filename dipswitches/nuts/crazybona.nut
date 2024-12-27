@@ -1,7 +1,7 @@
 return [
   {
     "name": "Hold Pair",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Double Up Jack",
-    "default": "Poker",
+    "default": 0,
     "values": [
       "Poker",
       "Missile"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Out Rate",
-    "default": "500",
+    "default": 4,
     "values": [
       "1",
       "10",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "'7' In Double Up Game",
-    "default": "Win",
+    "default": 1,
     "values": [
       "Even",
       "Win"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Double Up Game Pay Rate",
-    "default": "90%",
+    "default": 1,
     "values": [
       "80%",
       "90%"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Double Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 2,
     "values": [
       "16",
       "32",
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Main Game Pay Rate",
-    "default": "90%",
+    "default": 7,
     "values": [
       "55%",
       "60%",
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Game",
+    "default": 0,
     "values": [
       "Game",
       "Stealth"
@@ -94,7 +94,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -102,7 +102,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Key In Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 1,
     "values": [
       "1 Coin/10 Credits",
       "1 Coin/50 Credits",
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Coin A Rate",
-    "default": "1 Coin/50 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/5 Credits",
@@ -130,7 +130,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -138,7 +138,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -146,7 +146,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -154,7 +154,7 @@ return [
   },
   {
     "name": "Lock Into Stealth Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -162,7 +162,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "100,000",
+    "default": 6,
     "values": [
       "5,000",
       "10,000",
@@ -176,7 +176,7 @@ return [
   },
   {
     "name": "Limit Credit",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -184,7 +184,7 @@ return [
   },
   {
     "name": "Fast Take With",
-    "default": "Take",
+    "default": 0,
     "values": [
       "Take",
       "Start"
@@ -192,7 +192,7 @@ return [
   },
   {
     "name": "Bonus Min Bet",
-    "default": "16",
+    "default": 0,
     "values": [
       "16",
       "32"
@@ -200,7 +200,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "High",
+    "default": 1,
     "values": [
       "Low",
       "High"
@@ -208,7 +208,7 @@ return [
   },
   {
     "name": "C.B",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -216,7 +216,7 @@ return [
   },
   {
     "name": "Print",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -224,7 +224,7 @@ return [
   },
   {
     "name": "Max Key In",
-    "default": "1,000",
+    "default": 0,
     "values": [
       "1,000",
       "5,000",
@@ -234,7 +234,7 @@ return [
   },
   {
     "name": "Condition For 3 Fruit Bonus",
-    "default": "5-3-2",
+    "default": 3,
     "values": [
       "5-<-7",
       "5-9-5",
@@ -244,7 +244,7 @@ return [
   },
   {
     "name": "Game Min Bet",
-    "default": "16",
+    "default": 2,
     "values": [
       "1",
       "8",
@@ -254,7 +254,7 @@ return [
   },
   {
     "name": "Card Shuffle Animation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

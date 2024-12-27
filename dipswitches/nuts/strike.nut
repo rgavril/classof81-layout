@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -22,7 +22,7 @@ return [
   },
   {
     "name": "Coinage Slot 2",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "High Score",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Beat High Score",
-    "default": "Super Bonus",
+    "default": 0,
     "values": [
       "Super Bonus",
       "Game"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Beat High/Random Score",
-    "default": "Extra Game",
+    "default": 2,
     "values": [
       "500000 points",
       "Extra Ball",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Reward for Special",
-    "default": "Extra Game",
+    "default": 2,
     "values": [
       "500000 points",
       "Extra Ball",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Random",
-    "default": "Enabled",
+    "default": 0,
     "values": [
       "Enabled",
       "Disabled"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 1,
     "values": [
       "1",
       "3",
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Strikes to get special",
-    "default": "3",
+    "default": 2,
     "values": [
       "1",
       "2",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unlimited Specials",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Bonus Ball Award",
-    "default": "Extra Ball",
+    "default": 0,
     "values": [
       "Extra Ball",
       "200000 points"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "SW24",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

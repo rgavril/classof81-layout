@@ -1,7 +1,7 @@
 return [
   {
     "name": "Computer network ID",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "16",

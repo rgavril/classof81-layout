@@ -1,7 +1,7 @@
 return [
   {
     "name": "Initial Input",
-    "default": "Parallel Keyboard",
+    "default": 1,
     "values": [
       "Serial Keyboard",
       "Parallel Keyboard"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Initial Output",
-    "default": "Video Monitor",
+    "default": 1,
     "values": [
       "Serial Terminal",
       "Video Monitor"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Step Rate",
-    "default": "6ms",
+    "default": 1,
     "values": [
       "30ms",
       "6ms"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Auto Boot",
-    "default": "Monitor",
+    "default": 1,
     "values": [
       "FLEX",
       "Monitor"

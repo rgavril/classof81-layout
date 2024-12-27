@@ -1,7 +1,7 @@
 return [
   {
     "name": "Interrupt",
-    "default": "IRQ 7",
+    "default": 3,
     "values": [
       "IRQ 3",
       "IRQ 4",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "IO Address",
-    "default": "250h-257h",
+    "default": 0,
     "values": [
       "250h-257h",
       "280h-287h",

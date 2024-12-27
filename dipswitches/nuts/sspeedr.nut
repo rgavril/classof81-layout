@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "80 seconds",
+    "default": 2,
     "values": [
       "60 seconds",
       "70 seconds",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "20 seconds",
+    "default": 0,
     "values": [
       "20 seconds",
       "30 seconds"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Play Mode",
+    "default": 0,
     "values": [
       "Play Mode",
       "RAM/ROM Test",

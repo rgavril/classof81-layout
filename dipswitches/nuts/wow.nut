@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "Foreign (NEED ROM)"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3 for 1 Credit / 7 for 2 Credits",
+    "default": 1,
     "values": [
       "2 for 1 Credit / 5 for 2 Credits",
       "3 for 1 Credit / 7 for 2 Credits"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "After 3rd Level",
+    "default": 0,
     "values": [
       "After 3rd Level",
       "After 4th Level"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Always On",
+    "default": 1,
     "values": [
       "On only when controls are touched",
       "Always On"

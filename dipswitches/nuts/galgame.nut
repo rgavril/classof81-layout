@@ -1,7 +1,7 @@
 return [
   {
     "name": "Players",
-    "default": "Two Players",
+    "default": 0,
     "values": [
       "Two Players",
       "One Player"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Speed",
-    "default": "Slow Speed",
+    "default": 0,
     "values": [
       "Slow Speed",
       "Fast Speed"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Sun",
-    "default": "Sun (& Gravity)",
+    "default": 0,
     "values": [
       "Sun (& Gravity)",
       "No Sun (& No Gravity)"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Gravity",
-    "default": "Positive Gravity",
+    "default": 0,
     "values": [
       "Positive Gravity",
       "Negative Gravity"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Player's Bullet Speed",
-    "default": "Fast",
+    "default": 1,
     "values": [
       "Slow",
       "Fast"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "4 Coins/5 Credits",
+    "default": 3,
     "values": [
       "1 Coin/2 Credits",
       "2 Coins/3 Credits",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",

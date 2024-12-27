@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "3:15",
+    "default": 15,
     "values": [
       "2:00",
       "2:05",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Blinking Brick Awards 30 Seconds",
-    "default": "No Limit",
+    "default": 1,
     "values": [
       "Once Only",
       "No Limit"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "Infinite",
+    "default": 3,
     "values": [
       "3",
       "5",
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Oil Zones",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Game Mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hit 5 Bricks Then Game Over"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Enemies",
-    "default": "Yes",
+    "default": 3,
     "values": [
       "No",
       "Show When 40 Bricks Remaining",
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Enemy Delay",
-    "default": "Appear In Last 30 Seconds",
+    "default": 0,
     "values": [
       "Appear In Last 30 Seconds",
       "Disable"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Oil Zone Delay",
-    "default": "Appear In Last 30 Seconds",
+    "default": 0,
     "values": [
       "Appear In Last 30 Seconds",
       "Disable"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "1-01",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "1-02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "1-03",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "1-04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

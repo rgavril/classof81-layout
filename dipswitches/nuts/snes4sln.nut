@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Time",
-    "default": "5 Minutes",
+    "default": 0,
     "values": [
       "5 Minutes",
       "15 Minutes",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Credit/Timer",
+    "default": 0,
     "values": [
       "Credit/Timer",
       "Timer"

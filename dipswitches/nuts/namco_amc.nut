@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "JVS Timeout",
-    "default": "Continue",
+    "default": 1,
     "values": [
       "Stop",
       "Continue"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Output Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Interface",
-    "default": "JVS",
+    "default": 0,
     "values": [
       "JVS",
       "RS232"

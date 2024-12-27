@@ -1,7 +1,7 @@
 return [
   {
     "name": "Self Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Coin timeout period",
-    "default": "10 min",
+    "default": 0,
     "values": [
       "10 min",
       "20 min"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Logo attract time",
-    "default": "5 sec",
+    "default": 0,
     "values": [
       "5 sec",
       "10 sec"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Game attract time",
-    "default": "10 sec",
+    "default": 1,
     "values": [
       "5 sec",
       "10 sec",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Operational mode",
-    "default": "COIN MODE",
+    "default": 2,
     "values": [
       "KEY MODE",
       "CATV MODE",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Key switch",
-    "default": "On",
+    "default": 2,
     "values": [
       "Game Count",
       "Off",

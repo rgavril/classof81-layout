@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Environmental",
       "Upright"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coin Meters",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"

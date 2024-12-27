@@ -1,7 +1,7 @@
 return [
   {
     "name": "Number of Cans",
-    "default": "15",
+    "default": 1,
     "values": [
       "10",
       "15",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin per Player",
+    "default": 2,
     "values": [
       "2 Coins per Player",
       "2 Coins/1 or 2 Players",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extended Time Reward",
-    "default": "3 extra cans",
+    "default": 0,
     "values": [
       "3 extra cans",
       "5 extra cans"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Extended Time At",
-    "default": "225",
+    "default": 2,
     "values": [
       "150",
       "175",

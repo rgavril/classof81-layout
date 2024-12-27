@@ -1,7 +1,7 @@
 return [
   {
     "name": "Region",
-    "default": "Japan",
+    "default": 0,
     "values": [
       "Japan",
       "World"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

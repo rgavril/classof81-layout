@@ -1,7 +1,7 @@
 return [
   {
     "name": "Left Difficulty Switch",
-    "default": "A - Right Position",
+    "default": 0,
     "values": [
       "A - Right Position",
       "B - Left Position"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Right Difficulty Switch",
-    "default": "A - Right Position",
+    "default": 0,
     "values": [
       "A - Right Position",
       "B - Left Position"

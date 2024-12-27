@@ -1,7 +1,7 @@
 return [
   {
     "name": "Players",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

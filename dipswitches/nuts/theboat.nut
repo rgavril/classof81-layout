@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin 1 Credit / 1 Pulse 10 Credits",
+    "default": 0,
     "values": [
       "1 Coin 1 Credit / 1 Pulse 10 Credits",
       "1 Coin 2 Credit / 1 Pulse 20 Credits",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Payment",
-    "default": "Pay Out",
+    "default": 0,
     "values": [
       "Pay Out",
       "Hopper"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Clear Memory",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

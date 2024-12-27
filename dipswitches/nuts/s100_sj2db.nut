@@ -1,7 +1,7 @@
 return [
   {
     "name": "Interrupt",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "VI0",
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Generate PHANTOM Signal",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Bank Select",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "DATA 0",
@@ -40,7 +40,7 @@ return [
   },
   {
     "name": "Power Up",
-    "default": "Inactive",
+    "default": 0,
     "values": [
       "Inactive",
       "Active"
@@ -48,7 +48,7 @@ return [
   },
   {
     "name": "Power-On Jump",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -56,7 +56,7 @@ return [
   },
   {
     "name": "Bus Speed",
-    "default": "2 MHz",
+    "default": 0,
     "values": [
       "2 MHz",
       "4/6 MHz"
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Phantom Line",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Power-On Jump Address",
-    "default": "F800H",
+    "default": 0,
     "values": [
       "F800H",
       "F000H",
@@ -110,7 +110,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "19200",
+    "default": 3,
     "values": [
       "110",
       "1200",
@@ -120,7 +120,7 @@ return [
   },
   {
     "name": "Word Length",
-    "default": "7 Bits",
+    "default": 1,
     "values": [
       "8 Bits",
       "7 Bits"
@@ -128,7 +128,7 @@ return [
   },
   {
     "name": "Stop Bit Count",
-    "default": "2 Stop Bits",
+    "default": 0,
     "values": [
       "2 Stop Bits",
       "1 Stop Bit"
@@ -136,7 +136,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Even Parity",
+    "default": 0,
     "values": [
       "Even Parity",
       "Odd Parity"
@@ -144,7 +144,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

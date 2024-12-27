@@ -1,7 +1,7 @@
 return [
   {
     "name": "Clear NVRAM",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Use Medal Sensor",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Force Hopper?",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Freeze Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Bonus Multiplier? (Low Hex Digit)",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Bonus Multiplier? (High Hex Digit)",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Use Bonus Multiplier?",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"

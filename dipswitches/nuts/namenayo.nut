@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bonus Life",
-    "default": "30,000",
+    "default": 3,
     "values": [
       "None",
       "20,000",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/2",
+    "default": 0,
     "values": [
       "A 1/1 B 1/2",
       "A 1/3 B 2/1"

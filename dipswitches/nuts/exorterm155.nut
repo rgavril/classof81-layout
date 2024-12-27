@@ -1,7 +1,7 @@
 return [
   {
     "name": "Stop bits",
-    "default": "1",
+    "default": 1,
     "values": [
       "2",
       "1"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Even",
+    "default": 1,
     "values": [
       "Odd",
       "Even"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Word size",
-    "default": "8-bit",
+    "default": 0,
     "values": [
       "8-bit",
       "7-bit"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Connection",
-    "default": "Direct",
+    "default": 0,
     "values": [
       "Direct",
       "Modem"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Modem Type",
-    "default": "103",
+    "default": 1,
     "values": [
       "202",
       "103"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Turnaround",
-    "default": "S-chan",
+    "default": 1,
     "values": [
       "Code",
       "S-chan"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Code",
-    "default": "EOT",
+    "default": 1,
     "values": [
       "ETX",
       "EOT"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Spare 1",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Spare 2",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Spare 3",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Display special characters",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Transparent mode",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Video invert",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Invert",
       "Normal"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Disable FAC codes",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Display FAC codes",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "RS232 Baud Rate",
-    "default": "9600",
+    "default": 8,
     "values": [
       "110",
       "150",

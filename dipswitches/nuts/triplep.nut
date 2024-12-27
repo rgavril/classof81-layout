@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 2/1 C 1/1",
+    "default": 2,
     "values": [
       "A 1/2 B 1/1 C 1/2",
       "A 1/3 B 3/1 C 1/3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Rack Test (Cheat)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

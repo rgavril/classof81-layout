@@ -1,7 +1,7 @@
 return [
   {
     "name": "Bet Max",
-    "default": "10",
+    "default": 3,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 10/1",
+    "default": 3,
     "values": [
       "A 1/1 B 1/10",
       "A 1/1 B 1/5",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Unknown 1-5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown 1-8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Unknown 2-1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unknown 2-2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Gal Bonus Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Gal Bonus",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "16",
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Pay Setting",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "80%",

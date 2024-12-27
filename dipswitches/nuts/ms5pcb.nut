@@ -1,7 +1,7 @@
 return [
   {
     "name": "Setting Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "VS Mode"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Region",
-    "default": "Asia",
+    "default": 0,
     "values": [
       "Asia",
       "Japan"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "COMM Setting (Cabinet No.)",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "COMM Setting (Link Enable)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

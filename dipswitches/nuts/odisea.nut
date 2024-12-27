@@ -1,7 +1,7 @@
 return [
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW0-7 Unknown",
-    "default": "14",
+    "default": 0,
     "values": [
       "14",
       "28"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Balls",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1/1 B 1/2 C 1/5",
+    "default": 1,
     "values": [
       "A 2/1 B 1/1 C 1/3",
       "A 1/1 B 1/2 C 1/5",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "DSW0-3 Unknown",
-    "default": "00",
+    "default": 0,
     "values": [
       "00",
       "01"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Match",
-    "default": "Awards Replay",
+    "default": 0,
     "values": [
       "Awards Replay",
       "Doubles Score"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "DSW0-1 Unknown",
-    "default": "02",
+    "default": 0,
     "values": [
       "02",
       "01"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Displays Coins",
@@ -100,7 +100,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -108,7 +108,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

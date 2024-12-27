@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 1,
     "values": [
       "Cockpit",
       "Upright"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/2 Credits",
+    "default": 0,
     "values": [
       "1 Coin/2 Credits",
       "1 Coin/3 Credits",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium",
+    "default": 1,
     "values": [
       "Easy",
       "Medium",
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Timer Setting",
-    "default": "60 Seconds",
+    "default": 2,
     "values": [
       "70 Seconds",
       "65 Seconds",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Turbos Stocked",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Steering Radius",
-    "default": "360 Degree",
+    "default": 1,
     "values": [
       "270 Degree",
       "360 Degree"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Clear Damage on Continue",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Siren Volume",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Low"

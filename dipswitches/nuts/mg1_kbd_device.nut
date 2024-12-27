@@ -1,7 +1,7 @@
 return [
   {
     "name": "Baud Rate",
-    "default": "1200",
+    "default": 1,
     "values": [
       "300",
       "1200",

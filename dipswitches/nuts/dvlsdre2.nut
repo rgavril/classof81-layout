@@ -1,7 +1,7 @@
 return [
   {
     "name": "SW 08",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "SW 07",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "SW 06",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "SW 05",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "SW 04",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "SW 03",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "SW 02",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "SW 01",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "SW 16",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "SW 15",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "SW 14",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "SW 13",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "SW 12",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "SW 11",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "SW 10",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "SW 09",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "SW 24",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "SW 23",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "SW 22",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "SW 21",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "SW 20",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "SW 19",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "SW 18",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "SW 17",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "SW 32",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "SW 31",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "SW 30",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "SW 29",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "SW 28",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "SW 27",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "SW 26",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "SW 25",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "Attract Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "Sound or Tones",
-    "default": "Sound",
+    "default": 0,
     "values": [
       "Sound",
       "Tones"

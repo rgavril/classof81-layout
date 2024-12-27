@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "5 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Jackpot",
-    "default": "300",
+    "default": 0,
     "values": [
       "300",
       "500",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Max Pay",
-    "default": "400",
+    "default": 0,
     "values": [
       "400",
       "500",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Max Payout",
-    "default": "65%",
+    "default": 0,
     "values": [
       "65%",
       "70%",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Button Time",
-    "default": "15 Seconds",
+    "default": 0,
     "values": [
       "15 Seconds",
       "20 Seconds",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Backup Memory",
-    "default": "Clear",
+    "default": 0,
     "values": [
       "Clear",
       "Keep"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

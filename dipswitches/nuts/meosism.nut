@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Medal/1 Credit",
+    "default": 0,
     "values": [
       "1 Medal/1 Credit",
       "1 Medal/5 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Attendant Pay",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Medals Payout",
-    "default": "400",
+    "default": 0,
     "values": [
       "400",
       "800"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Max Credits",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "9999"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Game Rate",
-    "default": "90%",
+    "default": 2,
     "values": [
       "80%",
       "85%",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Controls",
-    "default": "Complex",
+    "default": 1,
     "values": [
       "Simple",
       "Complex"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Coin Sensor",
-    "default": "Active Low",
+    "default": 1,
     "values": [
       "Active High",
       "Active Low"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Hopper Sensor",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

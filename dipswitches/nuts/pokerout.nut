@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "100 Credits",
+    "default": 3,
     "values": [
       "10 Credits",
       "20 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Arcade Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "50k, 100k then every 100k",
+    "default": 0,
     "values": [
       "50k, 100k then every 100k",
       "50k, 200k then every 100k"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 2C/1C",
+    "default": 1,
     "values": [
       "A 2C/1C B 3C/1C",
       "A 1C/1C B 2C/1C",

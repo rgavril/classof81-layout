@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "5",
+    "default": 1,
     "values": [
       "3",
       "5",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Replay",
-    "default": "399",
+    "default": 1,
     "values": [
       "Off",
       "399"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unknown 0_10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Unknown 0_20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unknown 0_40",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unknown 0_80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Obstacles",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Barriers",
-    "default": "Off",
+    "default": 1,
     "values": [
       "481, 1441",
       "Off",
@@ -76,7 +76,7 @@ return [
   },
   {
     "name": "Oil",
-    "default": "Off",
+    "default": 2,
     "values": [
       "Off",
       "961",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown 1_80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Paddles",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Unknown 3_80",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

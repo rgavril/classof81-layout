@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Royal Flush",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "5 of a Kind",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1C-10C",
+    "default": 0,
     "values": [
       "1C-10C",
       "1C-1C",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Payment Type",
-    "default": "Ticket + Hopper",
+    "default": 3,
     "values": [
       "Ticket + Hopper",
       "Ticket",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Pagamenti (Payment)",
-    "default": "Pagamenti (Payment) A",
+    "default": 0,
     "values": [
       "Pagamenti (Payment) A",
       "Pagamenti (Payment) B"

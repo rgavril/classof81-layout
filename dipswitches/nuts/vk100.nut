@@ -1,7 +1,7 @@
 return [
   {
     "name": "Power Frequency",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Default Serial Port",
-    "default": "EIA port",
+    "default": 0,
     "values": [
       "EIA port",
       "20ma port"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Default US/UK",
-    "default": "US",
+    "default": 0,
     "values": [
       "US",
       "UK"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Default Parity",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "Even",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Default Baud Rate",
-    "default": "110",
+    "default": 0,
     "values": [
       "110",
       "300",

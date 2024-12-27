@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 3,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Hole Size",
-    "default": "Large",
+    "default": 0,
     "values": [
       "Large",
       "Small"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Points per Stroke",
-    "default": "Easier",
+    "default": 0,
     "values": [
       "Easier",
       "Harder"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Starting Points",
-    "default": "500",
+    "default": 2,
     "values": [
       "300",
       "400",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Difficulty Vs. Computer",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"

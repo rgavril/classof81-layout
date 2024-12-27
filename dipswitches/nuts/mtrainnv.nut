@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin / 10 Credits",
+    "default": 3,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Remote Credits",
-    "default": "1 Pulse / 100 Credits",
+    "default": 7,
     "values": [
       "1 Pulse / 1 Credits",
       "1 Pulse / 2 Credits",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Pay-out",
-    "default": "Coin",
+    "default": 0,
     "values": [
       "Coin",
       "Key"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Hold Function",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Minimum Bet",
-    "default": "8",
+    "default": 1,
     "values": [
       "1",
       "8",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "64",
+    "default": 2,
     "values": [
       "16",
       "32",
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Game Limit",
-    "default": "20000",
+    "default": 1,
     "values": [
       "10000",
       "20000",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Double Up",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Win Rate",
-    "default": "92%",
+    "default": 5,
     "values": [
       "84%",
       "84%",
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Control Panel",
-    "default": "Type A (No Hold)",
+    "default": 0,
     "values": [
       "Type A (No Hold)",
       "Type B"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Max Bonus",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "2000",
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Gather Rate of Bonus",
-    "default": "1.0%",
+    "default": 0,
     "values": [
       "1.0%",
       "0.5%"
@@ -131,7 +131,7 @@ return [
   },
   {
     "name": "Reel Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"
@@ -139,7 +139,7 @@ return [
   },
   {
     "name": "Double-Up Level",
-    "default": "7 (Easy)",
+    "default": 0,
     "values": [
       "7 (Easy)",
       "6",
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Double-Up Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Double-Up Game",
-    "default": "Dancers / Panties Colors",
+    "default": 0,
     "values": [
       "Dancers / Panties Colors",
       "Cards / Seven-Bingo"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Clear Ticket Unit",
-    "default": "1",
+    "default": 7,
     "values": [
       "500",
       "100",

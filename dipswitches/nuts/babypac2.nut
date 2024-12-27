@@ -1,7 +1,7 @@
 return [
   {
     "name": "S01",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "S02",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "S03",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "S04",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "S05",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Remember centre arrows",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Cherry at start of game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Side tunnel open at start of game",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "S09",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "S10",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "S11",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "S12",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "S13",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "After 3 balls without score the ball is lost",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Remember energisers",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Disable video",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "S17",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "S18",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "S19",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "S20",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "S21",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Special after x mazes",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4",
@@ -178,7 +178,7 @@ return [
   },
   {
     "name": "Remember centre arrows",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -186,7 +186,7 @@ return [
   },
   {
     "name": "S25",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -194,7 +194,7 @@ return [
   },
   {
     "name": "S26",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -202,7 +202,7 @@ return [
   },
   {
     "name": "Credits displayed",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -210,7 +210,7 @@ return [
   },
   {
     "name": "S28",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -218,7 +218,7 @@ return [
   },
   {
     "name": "S29",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -226,7 +226,7 @@ return [
   },
   {
     "name": "Free Play",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -234,7 +234,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "5",
+    "default": 3,
     "values": [
       "2",
       "3",

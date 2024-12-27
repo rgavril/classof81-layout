@@ -1,7 +1,7 @@
 return [
   {
     "name": "CRU base",
-    "default": "1800",
+    "default": 8,
     "values": [
       "1000",
       "1100",

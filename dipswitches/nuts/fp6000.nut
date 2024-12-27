@@ -1,7 +1,7 @@
 return [
   {
     "name": "Printer type",
-    "default": "1",
+    "default": 1,
     "values": [
       "0",
       "1",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Installed RAM banks",
-    "default": "5",
+    "default": 5,
     "values": [
       "0",
       "1",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Floppy type?",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

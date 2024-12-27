@@ -1,7 +1,7 @@
 return [
   {
     "name": "Econet ID",
-    "default": "254",
+    "default": 254,
     "values": [
       "0",
       "1",
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "H",
-    "default": "FPU",
+    "default": 0,
     "values": [
       "FPU",
       "No FPU"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "G",
-    "default": "No MMU",
+    "default": 1,
     "values": [
       "MMU",
       "No MMU"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "F",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"
@@ -287,7 +287,7 @@ return [
   },
   {
     "name": "E",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"
@@ -295,7 +295,7 @@ return [
   },
   {
     "name": "D",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"
@@ -303,7 +303,7 @@ return [
   },
   {
     "name": "C",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"
@@ -311,7 +311,7 @@ return [
   },
   {
     "name": "B",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"
@@ -319,7 +319,7 @@ return [
   },
   {
     "name": "A",
-    "default": "Reserved",
+    "default": 1,
     "values": [
       "Reserved",
       "Reserved"

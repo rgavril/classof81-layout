@@ -1,7 +1,7 @@
 return [
   {
     "name": "Screen Refresh Rate",
-    "default": "50 Hz",
+    "default": 0,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 14,
     "values": [
       "50",
       "75",
@@ -30,7 +30,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Even",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Terminal Mode",
-    "default": "Online",
+    "default": 1,
     "values": [
       "Local/Test",
       "Online"

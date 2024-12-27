@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Difficulty 1",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Difficulty 2",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Medium",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "1",
       "3",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Striptease",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

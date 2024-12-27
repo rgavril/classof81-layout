@@ -1,7 +1,7 @@
 return [
   {
     "name": "Video Display",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Frozen"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "$2000-1",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "$2000-2",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "$2000-3",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "$2000-4",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "$2000-5",
-    "default": "H",
+    "default": 0,
     "values": [
       "H",
       "L"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Show Winners Don't Use Drugs",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

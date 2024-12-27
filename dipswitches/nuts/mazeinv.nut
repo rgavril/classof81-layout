@@ -1,7 +1,7 @@
 return [
   {
     "name": "Doors for bonus",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "12",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Extra life at",
-    "default": "20000",
+    "default": 0,
     "values": [
       "20000",
       "25000",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 1,
     "values": [
       "Easiest",
       "Easy",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Coin 2",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin 3",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "3 credits/2 coins",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German",
@@ -90,7 +90,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -98,7 +98,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -106,7 +106,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -114,7 +114,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -122,7 +122,7 @@ return [
   },
   {
     "name": "Minimum credits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -130,7 +130,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -138,7 +138,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

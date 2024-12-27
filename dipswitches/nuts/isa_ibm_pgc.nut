@@ -1,7 +1,7 @@
 return [
   {
     "name": "Communication area",
-    "default": "C6000",
+    "default": 0,
     "values": [
       "C6000",
       "C6400"

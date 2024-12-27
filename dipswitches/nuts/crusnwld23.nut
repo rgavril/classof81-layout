@@ -1,7 +1,7 @@
 return [
   {
     "name": "Link Number",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Linking",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Games Linked",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Sitdown"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -52,7 +52,7 @@ return [
   },
   {
     "name": "Coin Counters",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "USA-8",
+    "default": 3,
     "values": [
       "USA-1",
       "USA-3",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Serial Low Digit",
-    "default": "6",
+    "default": 6,
     "values": [
       "0",
       "1",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Timer C",
-    "default": "70",
+    "default": 1,
     "values": [
       "50",
       "70",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Timer M",
-    "default": "150",
+    "default": 1,
     "values": [
       "120",
       "150",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Test Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

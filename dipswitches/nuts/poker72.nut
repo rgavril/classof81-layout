@@ -1,7 +1,7 @@
 return [
   {
     "name": "Operation Mode",
-    "default": "Game / Analyzer",
+    "default": 3,
     "values": [
       "Input Test",
       "Cross Hatch",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Back of Cards",
-    "default": "Type 4",
+    "default": 3,
     "values": [
       "Type 1",
       "Type 2",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Keyboard",
-    "default": "A",
+    "default": 0,
     "values": [
       "A",
       "B"
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Minimal Bet",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "100",
+    "default": 0,
     "values": [
       "100",
       "500"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Main Game",
-    "default": "Type 1",
+    "default": 0,
     "values": [
       "Type 1",
       "Type 2",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "Erotic Mode",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -141,7 +141,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -149,7 +149,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Type 4",
+    "default": 3,
     "values": [
       "Type 1",
       "Type 2",
@@ -159,7 +159,7 @@ return [
   },
   {
     "name": "Super Jackpot Percent",
-    "default": "0%",
+    "default": 0,
     "values": [
       "0%",
       "2%",
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5000",
+    "default": 7,
     "values": [
       "None",
       "500000",
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Coin In Rate",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -221,7 +221,7 @@ return [
   },
   {
     "name": "Coin In Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -229,7 +229,7 @@ return [
   },
   {
     "name": "Hopper Switch Level",
-    "default": "Low",
+    "default": 0,
     "values": [
       "Low",
       "High"
@@ -237,7 +237,7 @@ return [
   },
   {
     "name": "Hopper Limit",
-    "default": "None",
+    "default": 3,
     "values": [
       "400",
       "800",
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Pay Out Mode",
-    "default": "Manual",
+    "default": 0,
     "values": [
       "Manual",
       "Automatic"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Network Number ID",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -287,7 +287,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -295,7 +295,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -303,7 +303,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -311,7 +311,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -319,7 +319,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

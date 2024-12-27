@@ -1,7 +1,7 @@
 return [
   {
     "name": "Name/Language",
-    "default": "English",
+    "default": 7,
     "values": [
       "English/less checks",
       "Italian",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "37a 0x40",
-    "default": "0x00",
+    "default": 0,
     "values": [
       "0x00",
       "0x08"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Integrated Graphics Adapter",
-    "default": "CGA 1",
+    "default": 0,
     "values": [
       "CGA 1",
       "CGA 2",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Startup Mode",
-    "default": "Color 80 Columns",
+    "default": 2,
     "values": [
       "external Color 80 Columns",
       "Color 40 Columns",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Game port enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "LPT3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "LPT1: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "COM4: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "COM3: enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "COM2: enable",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "HDC2 (CA00:0 port 324-327)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "HDC1 (C800:0 port 320-323)",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

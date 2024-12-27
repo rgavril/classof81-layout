@@ -1,7 +1,7 @@
 return [
   {
     "name": "P-Code activation switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

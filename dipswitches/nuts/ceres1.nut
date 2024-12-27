@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "MMU",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "FPU",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Diagnostic",
-    "default": "On",
+    "default": 0,
     "values": [
       "On",
       "Off"

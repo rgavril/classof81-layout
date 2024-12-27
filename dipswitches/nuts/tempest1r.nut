@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*4",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "*1",
+    "default": 0,
     "values": [
       "*1",
       "*2"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Coins",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 each 5",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Minimum",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credit"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Language",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "French",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": "20000",
+    "default": 1,
     "values": [
       "10000",
       "20000",
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Medium1",
+    "default": 1,
     "values": [
       "Easy",
       "Medium1",
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Rating",
-    "default": "1, 3, 5, 7, 9",
+    "default": 0,
     "values": [
       "1, 3, 5, 7, 9",
       "tied to high score"

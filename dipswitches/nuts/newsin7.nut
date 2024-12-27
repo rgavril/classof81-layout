@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": " A 1C/1C  B 2C/1C",
+    "default": 0,
     "values": [
       " A 1C/1C  B 2C/1C",
       " A 1C/3C  B 3C/1C",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"

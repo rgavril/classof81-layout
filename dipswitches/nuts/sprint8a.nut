@@ -1,7 +1,7 @@
 return [
   {
     "name": "Play Time",
-    "default": "216 seconds",
+    "default": 2,
     "values": [
       "54 seconds",
       "108 seconds",
@@ -10,7 +10,7 @@ return [
   },
   {
     "name": "Play Mode",
-    "default": "Tag",
+    "default": 1,
     "values": [
       "Chase",
       "Tag"

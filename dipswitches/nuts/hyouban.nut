@@ -1,7 +1,7 @@
 return [
   {
     "name": "Game Out",
-    "default": "95% (Easy)",
+    "default": 0,
     "values": [
       "95% (Easy)",
       "90%",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "W Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Girl Presentation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Character Display Test",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Bet Min",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Bet Max",
-    "default": "8",
+    "default": 0,
     "values": [
       "8",
       "10",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Bet1 Only",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Score Pool",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Odds Number",
-    "default": "B",
+    "default": 1,
     "values": [
       "A",
       "B"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

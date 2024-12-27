@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives (Mad Ball)",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "1P Vs 2P Rounds",
-    "default": "Best of 3",
+    "default": 1,
     "values": [
       "Best of 1",
       "Best of 3"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Nudity",
-    "default": "Soft and Hard",
+    "default": 1,
     "values": [
       "Soft only",
       "Soft and Hard"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Normal",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Timer Speed (Magic Eye)",
-    "default": "Slowest",
+    "default": 0,
     "values": [
       "Slowest",
       "Slow",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Lives (Magic Eye)",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "4"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Timer Speed (Box Logic)",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Fast"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -23,7 +23,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/1 Credit",
+    "default": 5,
     "values": [
       "4 Coins/1 Credit",
       "3 Coins/1 Credit",
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Demo Sound Interval",
-    "default": "On",
+    "default": 3,
     "values": [
       "Off",
       "Every 4 Minutes",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Lighting Time",
-    "default": "Advertise & Playtime",
+    "default": 0,
     "values": [
       "Advertise & Playtime",
       "Playtime Only"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Light",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Screen Display",
-    "default": "Insert 100-400 Yen",
+    "default": 0,
     "values": [
       "Insert 100-400 Yen",
       "Insert Money"
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -87,7 +87,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

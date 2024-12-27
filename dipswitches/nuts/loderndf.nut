@@ -1,7 +1,7 @@
 return [
   {
     "name": "Region",
-    "default": "World (Does Not Show Version Number)",
+    "default": 1,
     "values": [
       "Japan (Shows Version Number)",
       "World (Does Not Show Version Number)"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Debug",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

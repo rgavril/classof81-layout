@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "1P 2C / 2P 4C / Continue 1C",
+    "default": 27,
     "values": [
       "1P 8C / 2P 16C / Continue 8C",
       "1P 8C / 2P 16C / Continue 7C",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "Free Play (Ignore Coinage)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Level 5",
+    "default": 5,
     "values": [
       "Level 0",
       "Level 1",
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "Loud",
+    "default": 0,
     "values": [
       "Loud",
       "Medium",
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Score Display",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -111,7 +111,7 @@ return [
   },
   {
     "name": "Free Hidden Songs (step2of2)",
-    "default": "No (Off)",
+    "default": 0,
     "values": [
       "No (Off)",
       "Yes (On)"
@@ -119,7 +119,7 @@ return [
   },
   {
     "name": "Unused (Used if not Event Mode)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -127,7 +127,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Free Hidden Songs (step1of2)",
-    "default": "No (Off)",
+    "default": 0,
     "values": [
       "No (Off)",
       "Yes (On)"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Event Mode Stages",
-    "default": "1 Stage",
+    "default": 0,
     "values": [
       "1 Stage",
       "2 Stages",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Unused (Used if Event Mode)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Event Mode (Ignore Coinage)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

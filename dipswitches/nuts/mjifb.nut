@@ -1,7 +1,7 @@
 return [
   {
     "name": "Automatic Rate Change",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Service Count",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Renchan Rate",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "W-Bet",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Bye-Bye Bonus",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Last Chance",
-    "default": "Charge",
+    "default": 1,
     "values": [
       "Free",
       "Charge"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Auto Tsumo",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Background Color",
-    "default": "Blue",
+    "default": 1,
     "values": [
       "Black",
       "Blue"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Double-tile exchange",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Double hand-tile game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "Blind-tile game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Don Den Button",
-    "default": "A Button",
+    "default": 1,
     "values": [
       "F/F Button",
       "A Button"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "Animation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Full Tests",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Pay Out Rate",
-    "default": "71%",
+    "default": 8,
     "values": [
       "96%",
       "93%",
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Maximum Bet",
-    "default": "10",
+    "default": 2,
     "values": [
       "1",
       "5",
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Minimum Rate to Play",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Winnings",
-    "default": "50 30 15 8 5 3 2 1",
+    "default": 1,
     "values": [
       "32 24 16 12 8 4 2 1",
       "50 30 15 8 5 3 2 1",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Credits Per Note",
-    "default": "10",
+    "default": 1,
     "values": [
       "5",
       "10"
@@ -189,7 +189,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus",
-    "default": "Every 500 coins",
+    "default": 3,
     "values": [
       "None",
       "Once at start",
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "YAKUMAN Bonus Frequency",
-    "default": "Twice",
+    "default": 1,
     "values": [
       "Once",
       "Twice"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

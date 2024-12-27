@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 0,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Unk1",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Unk2",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Unk3",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Unk4",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Unk5",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unk 6",
-    "default": "Pos 2",
+    "default": 1,
     "values": [
       "Pos 1",
       "Pos 2",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Unk7",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Unk8",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Unk9",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "UnkA",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -101,7 +101,7 @@ return [
   },
   {
     "name": "UnkB",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -109,7 +109,7 @@ return [
   },
   {
     "name": "UnkC",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Switch 0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Switch 1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Disk I/O #2",
-    "default": "H-88-1 (Not yet implemented)",
+    "default": 0,
     "values": [
       "H-88-1 (Not yet implemented)",
       "H/Z-47 (Not yet implemented)",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Disk I/O #2",
-    "default": "H-88-1",
+    "default": 0,
     "values": [
       "H-88-1",
       "H/Z-47",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Disk I/O #2",
-    "default": "H-88-1",
+    "default": 0,
     "values": [
       "H-88-1",
       "H/Z-47 (Not yet implemented)",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Switch 2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Switch 3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Disk I/O #1",
-    "default": "H-89-37",
+    "default": 0,
     "values": [
       "H-89-37",
       "H/Z-47 (Not yet implemented)",
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "Disk I/O #1",
-    "default": "Unused",
+    "default": 0,
     "values": [
       "Unused",
       "H/Z-47",
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Disk I/O #1",
-    "default": "H-89-37",
+    "default": 0,
     "values": [
       "H-89-37",
       "H/Z-47 (Not yet implemented)",
@@ -93,7 +93,7 @@ return [
   },
   {
     "name": "Default Boot Device",
-    "default": "H-17 hard-sectored 5\" floppy units 0-2",
+    "default": 0,
     "values": [
       "H-17 hard-sectored 5\" floppy units 0-2",
       "H-37 soft-sectored 5\" floppy units 0-3",
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Default Boot Device",
-    "default": "H-17 hard-sectored 5\" floppy",
+    "default": 0,
     "values": [
       "H-17 hard-sectored 5\" floppy",
       "H-37 soft-sectored 5\" floppy",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Default Boot Device",
-    "default": "H-17 hard-sectored 5\" floppy",
+    "default": 0,
     "values": [
       "H-17 hard-sectored 5\" floppy",
       "H-47 8\" floppy at port 0x78/0170",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Disk I/O #2",
-    "default": "H-88-1",
+    "default": 0,
     "values": [
       "H-88-1",
       "H/Z-47",
@@ -157,7 +157,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -165,7 +165,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -173,7 +173,7 @@ return [
   },
   {
     "name": "Disk I/O #1",
-    "default": "H-89-37",
+    "default": 0,
     "values": [
       "H-89-37",
       "H/Z-47",
@@ -183,7 +183,7 @@ return [
   },
   {
     "name": "Switch 4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Primary Boot from",
-    "default": "Disk I/O #2",
+    "default": 0,
     "values": [
       "Disk I/O #2",
       "Disk I/O #1"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Primary Boot from",
-    "default": "Disk I/O #2",
+    "default": 0,
     "values": [
       "Disk I/O #2",
       "Disk I/O #1"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Map ROM into RAM on boot",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "? Map ROM into RAM on boot",
-    "default": "? Yes",
+    "default": 0,
     "values": [
       "? Yes",
       "? No"
@@ -223,7 +223,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -231,7 +231,7 @@ return [
   },
   {
     "name": "Primary Boot from",
-    "default": "Disk I/O #2",
+    "default": 0,
     "values": [
       "Disk I/O #2",
       "Disk I/O #1"
@@ -239,7 +239,7 @@ return [
   },
   {
     "name": "Switch 5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -247,7 +247,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -255,7 +255,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -263,7 +263,7 @@ return [
   },
   {
     "name": "Switch 6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -271,7 +271,7 @@ return [
   },
   {
     "name": "Console Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200"
@@ -279,7 +279,7 @@ return [
   },
   {
     "name": "Console Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200"
@@ -287,7 +287,7 @@ return [
   },
   {
     "name": "Default Boot Device",
-    "default": "MMS 77316 Dbl Den 5\"",
+    "default": 0,
     "values": [
       "MMS 77316 Dbl Den 5\"",
       "MMS 77316 Dbl Den 8\"",
@@ -301,7 +301,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -309,7 +309,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -317,7 +317,7 @@ return [
   },
   {
     "name": "Perform memory test at start",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -325,7 +325,7 @@ return [
   },
   {
     "name": "Reserved",
-    "default": "Must be selected",
+    "default": 0,
     "values": [
       "Must be selected",
       "Must not be selected"
@@ -333,7 +333,7 @@ return [
   },
   {
     "name": "Have a LLL controller installed",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -341,7 +341,7 @@ return [
   },
   {
     "name": "? Have a LLL controller installed",
-    "default": "? No",
+    "default": 0,
     "values": [
       "? No",
       "? Yes"
@@ -349,7 +349,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -357,7 +357,7 @@ return [
   },
   {
     "name": "Console Baud rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200"
@@ -365,7 +365,7 @@ return [
   },
   {
     "name": "Switch 7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -373,7 +373,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -381,7 +381,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -389,7 +389,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -397,7 +397,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -405,7 +405,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -413,7 +413,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 0,
     "values": [
       "9600",
       "19200"
@@ -421,7 +421,7 @@ return [
   },
   {
     "name": "Boot mode",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Auto"
@@ -429,7 +429,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 11,
     "values": [
       "110",
       "150",
@@ -448,7 +448,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "Odd",
@@ -458,7 +458,7 @@ return [
   },
   {
     "name": "Parity Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Stick"
@@ -466,7 +466,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Full",
+    "default": 1,
     "values": [
       "Half",
       "Full"
@@ -474,7 +474,7 @@ return [
   },
   {
     "name": "Cursor",
-    "default": "Underline",
+    "default": 0,
     "values": [
       "Underline",
       "Block"
@@ -482,7 +482,7 @@ return [
   },
   {
     "name": "Keyclick",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -490,7 +490,7 @@ return [
   },
   {
     "name": "Wrap at EOL",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -498,7 +498,7 @@ return [
   },
   {
     "name": "Auto LF on CR",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -506,7 +506,7 @@ return [
   },
   {
     "name": "Auto CR on LF",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -514,7 +514,7 @@ return [
   },
   {
     "name": "Mode",
-    "default": "Heath/VT52",
+    "default": 0,
     "values": [
       "Heath/VT52",
       "ANSI"
@@ -522,7 +522,7 @@ return [
   },
   {
     "name": "Keypad Shifted",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -530,7 +530,7 @@ return [
   },
   {
     "name": "Refresh",
-    "default": "60Hz",
+    "default": 0,
     "values": [
       "60Hz",
       "50Hz"

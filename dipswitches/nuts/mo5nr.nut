@@ -1,7 +1,7 @@
 return [
   {
     "name": "Extension selection",
-    "default": "Internal networking",
+    "default": 1,
     "values": [
       "Extension port",
       "Internal networking"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Network ID",
-    "default": "1",
+    "default": 1,
     "values": [
       "0 (Master)",
       "1",

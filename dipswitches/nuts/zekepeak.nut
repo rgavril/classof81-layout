@@ -1,7 +1,7 @@
 return [
   {
     "name": "Automatic Attract Mode",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Rounds to Complete to Light Star",
-    "default": "1 Frame",
+    "default": 0,
     "values": [
       "1 Frame",
       "2 Frames"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Automatic Attract Mode Delay",
-    "default": "1 Min",
+    "default": 0,
     "values": [
       "1 Min",
       "5 Min",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Manual Attract Mode Delay",
-    "default": "0 Min",
+    "default": 0,
     "values": [
       "0 Min",
       "2 Min",
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Difficulty (Prompt Time)",
-    "default": "Easy (5, 4, 2, 1)",
+    "default": 0,
     "values": [
       "Easy (5, 4, 2, 1)",
       "Factory (4, 2, 1, 1)",
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "Dispense Option",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "2 Tickets after Hole 6, 3 Tickets after Hole 10",
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Score for Extra Ball",
-    "default": "No Extra Ball",
+    "default": 0,
     "values": [
       "No Extra Ball",
       "2000",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Bonus Countdown Speed",
-    "default": "Slow",
+    "default": 0,
     "values": [
       "Slow",
       "Factory",

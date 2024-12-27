@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin Slot 1",
-    "default": "1 Coin/1 Credit",
+    "default": 7,
     "values": [
       "5 Coins/2 Credits",
       "5 Coins/1 Credit",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Coin Slot 2",
-    "default": "15 Medals",
+    "default": 7,
     "values": [
       "4 Medals",
       "5 Medals",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -37,7 +37,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -45,7 +45,7 @@ return [
   },
   {
     "name": "Standard of Payout",
-    "default": "90%",
+    "default": 0,
     "values": [
       "90%",
       "80%",
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Play Timer",
-    "default": "20 sec",
+    "default": 1,
     "values": [
       "15 sec",
       "20 sec"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Backup Memory",
-    "default": "Keep",
+    "default": 0,
     "values": [
       "Keep",
       "Clear"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Demo Sound",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

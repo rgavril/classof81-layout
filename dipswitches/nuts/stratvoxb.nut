@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 0,
     "values": [
       "3",
       "5"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Replenish Astronauts",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "2 Attackers At Wave",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "3",
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Astronauts Kidnapped",
-    "default": "Less Often",
+    "default": 0,
     "values": [
       "Less Often",
       "More Often"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Demo Voices",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

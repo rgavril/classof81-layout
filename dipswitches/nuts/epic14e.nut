@@ -1,7 +1,7 @@
 return [
   {
     "name": "Modem Parity",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Odd",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Modem Baud Rate",
-    "default": "9600",
+    "default": 13,
     "values": [
       "50",
       "75",
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Modem Protocol",
-    "default": "X-ON/X-OFF",
+    "default": 0,
     "values": [
       "X-ON/X-OFF",
       "CTS"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Modem Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Modem Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Auxiliary Parity",
-    "default": "Disable",
+    "default": 0,
     "values": [
       "Disable",
       "Odd",
@@ -68,7 +68,7 @@ return [
   },
   {
     "name": "Auxiliary Baud Rate",
-    "default": "9600",
+    "default": 13,
     "values": [
       "50",
       "75",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Auxiliary Protocol",
-    "default": "X-ON/X-OFF",
+    "default": 0,
     "values": [
       "X-ON/X-OFF",
       "DTR"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "Auxiliary Data Bits",
-    "default": "8",
+    "default": 1,
     "values": [
       "7",
       "8"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "Auxiliary Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "CRT Saver",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Return Key",
-    "default": "CR",
+    "default": 0,
     "values": [
       "CR",
       "CR/LF"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "Edit Keys",
-    "default": "Transmitted",
+    "default": 0,
     "values": [
       "Transmitted",
       "Local"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Page/Line Attributes",
-    "default": "Page",
+    "default": 0,
     "values": [
       "Page",
       "Line"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Terminal Emulation",
-    "default": "Epic 14E",
+    "default": 0,
     "values": [
       "Epic 14E",
       "Other"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "Screen Refresh",
-    "default": "60 Hz",
+    "default": 1,
     "values": [
       "50 Hz",
       "60 Hz"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "Key Click",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "Screen Mode",
-    "default": "Green on Black",
+    "default": 0,
     "values": [
       "Green on Black",
       "Black on Green"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Communications Mode",
-    "default": "Full Duplex",
+    "default": 0,
     "values": [
       "Full Duplex",
       "Half Duplex",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Layout",
-    "default": "U.S.A. (US4.kt)",
+    "default": 0,
     "values": [
       "U.S.A. (US4.kt)",
       "U.S.A. (US4.kt)",
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -62,7 +62,7 @@ return [
   },
   {
     "name": "Identify as",
-    "default": "Type 4",
+    "default": 0,
     "values": [
       "Type 4",
       "Type 3"

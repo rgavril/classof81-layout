@@ -1,7 +1,7 @@
 return [
   {
     "name": "Test Switch 2",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Test Switch 1",
-    "default": "Run",
+    "default": 0,
     "values": [
       "Run",
       "Test"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Hold/nudge chance",
-    "default": "Medium (15.6%/7.8%)",
+    "default": 2,
     "values": [
       "Low (31.2%/6.25%)",
       "High (31.2%/7.8%)",

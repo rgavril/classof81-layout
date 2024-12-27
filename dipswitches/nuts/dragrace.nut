@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "5.9 seconds",
+    "default": 1,
     "values": [
       "6.9 seconds",
       "5.9 seconds",
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Number Of Heats",
-    "default": "4",
+    "default": 1,
     "values": [
       "3",
       "4",
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",

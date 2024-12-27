@@ -1,7 +1,7 @@
 return [
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Shot Speed",
-    "default": "Slow",
+    "default": 1,
     "values": [
       "Fast",
       "Slow"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Dogfight",
-    "default": "1 Credit",
+    "default": 0,
     "values": [
       "1 Credit",
       "2 Credits"

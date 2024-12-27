@@ -1,7 +1,7 @@
 return [
   {
     "name": "Expected Payout",
-    "default": "92%",
+    "default": 2,
     "values": [
       "86%",
       "89%",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "10 Bet Royal",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "3000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Double Up Limit",
-    "default": "10000",
+    "default": 0,
     "values": [
       "10000",
       "5000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Hopper",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Hopper Pay Max",
-    "default": "400",
+    "default": 0,
     "values": [
       "400",
       "800"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Credit Max",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "100000"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Use Joker",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"

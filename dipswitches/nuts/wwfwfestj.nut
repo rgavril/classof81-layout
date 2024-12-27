@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin A",
-    "default": "1 Coin/1 Credit",
+    "default": 2,
     "values": [
       "3 Coins/1 Credit",
       "2 Coins/1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Buy In Price",
-    "default": "1 Coin",
+    "default": 0,
     "values": [
       "1 Coin",
       "As start price"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Regain Power Price",
-    "default": "1 Coin",
+    "default": 0,
     "values": [
       "1 Coin",
       "As start price"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Continue Price",
-    "default": "As start price",
+    "default": 1,
     "values": [
       "1 Coin",
       "As start price"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Flip Screen",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "FBI Logo",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -69,7 +69,7 @@ return [
   },
   {
     "name": "Players",
-    "default": "4",
+    "default": 2,
     "values": [
       "2",
       "3",
@@ -78,7 +78,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -86,7 +86,7 @@ return [
   },
   {
     "name": "Clear Stage Power Up",
-    "default": "24",
+    "default": 2,
     "values": [
       "0",
       "12",
@@ -96,7 +96,7 @@ return [
   },
   {
     "name": "Championship Game",
-    "default": "5th",
+    "default": 1,
     "values": [
       "4th",
       "5th"

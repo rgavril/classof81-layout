@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coin/Time",
-    "default": "3 min",
+    "default": 0,
     "values": [
       "3 min",
       "5 min",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Game",
-    "default": "Pacman",
+    "default": 0,
     "values": [
       "Pacman",
       "Super Mario Bros",

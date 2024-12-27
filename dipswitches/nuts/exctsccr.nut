@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coinage",
-    "default": "A 1C/1C B 3C/1C",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "A 1C/1C B 3C/1C",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Cabinet",
-    "default": "Upright",
+    "default": 0,
     "values": [
       "Upright",
       "Cocktail"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Hard"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "Game Time",
-    "default": "2 Min.",
+    "default": 1,
     "values": [
       "1 Min.",
       "2 Min.",

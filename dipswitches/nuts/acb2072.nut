@@ -1,7 +1,7 @@
 return [
   {
     "name": "BIOS Address",
-    "default": "C800",
+    "default": 1,
     "values": [
       "Disabled",
       "C800",
@@ -12,7 +12,7 @@ return [
   },
   {
     "name": "Port Address",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Alternate (324)"
@@ -20,7 +20,7 @@ return [
   },
   {
     "name": "Reserved",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -28,7 +28,7 @@ return [
   },
   {
     "name": "Reserved",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -36,7 +36,7 @@ return [
   },
   {
     "name": "Reserved",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -44,7 +44,7 @@ return [
   },
   {
     "name": "Drive 0 Defaults",
-    "default": "4 Heads, 615 Cylinders (20 MB)",
+    "default": 3,
     "values": [
       "4 Heads, 612 Cylinders (30 MB)",
       "2 Heads, 612 Cylinders (15 MB)",
@@ -54,7 +54,7 @@ return [
   },
   {
     "name": "Drive 1 Defaults",
-    "default": "4 Heads, 615 Cylinders (20 MB)",
+    "default": 3,
     "values": [
       "4 Heads, 612 Cylinders (30 MB)",
       "2 Heads, 612 Cylinders (15 MB)",
@@ -64,7 +64,7 @@ return [
   },
   {
     "name": "Drive 0 Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Syquest"
@@ -72,7 +72,7 @@ return [
   },
   {
     "name": "Drive 1 Type",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Syquest"
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Self Diagnostics",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "IEEE-488 Bus Address",
-    "default": "7",
+    "default": 7,
     "values": [
       "0",
       "1",
@@ -39,7 +39,7 @@ return [
   },
   {
     "name": "IEEE-488 TALK",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -47,7 +47,7 @@ return [
   },
   {
     "name": "IEEE-488 LISTEN",
-    "default": "Disabled",
+    "default": 0,
     "values": [
       "Disabled",
       "Enabled"
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "IEEE-488 Consecutive Addresses",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Terminal Baud Rate",
-    "default": "19200",
+    "default": 0,
     "values": [
       "19200",
       "9600",
@@ -77,7 +77,7 @@ return [
   },
   {
     "name": "Parity Control",
-    "default": "Even Parity",
+    "default": 0,
     "values": [
       "Even Parity",
       "Disabled"
@@ -85,7 +85,7 @@ return [
   },
   {
     "name": "Boot Device",
-    "default": "Floppy Drive 0",
+    "default": 1,
     "values": [
       "Debugger",
       "Floppy Drive 0",
@@ -95,7 +95,7 @@ return [
   },
   {
     "name": "Floppy Configuration",
-    "default": "96 TPI",
+    "default": 0,
     "values": [
       "96 TPI",
       "48 TPI"
@@ -103,7 +103,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

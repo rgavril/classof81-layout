@@ -1,7 +1,7 @@
 return [
   {
     "name": "Running Mode",
-    "default": "Product",
+    "default": 0,
     "values": [
       "Product",
       "Check"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Drive System",
-    "default": "Off",
+    "default": 1,
     "values": [
       "On",
       "Off"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Network ID",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSK1 head step time",
-    "default": "6ms",
+    "default": 0,
     "values": [
       "6ms",
       "20ms/2ms"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSK2 head step time",
-    "default": "6ms",
+    "default": 0,
     "values": [
       "6ms",
       "20ms/2ms"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSK3 head step time",
-    "default": "6ms",
+    "default": 0,
     "values": [
       "6ms",
       "20ms/2ms"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSK4 head step time",
-    "default": "6ms",
+    "default": 0,
     "values": [
       "6ms",
       "20ms/2ms"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Turbo switch",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

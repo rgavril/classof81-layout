@@ -1,7 +1,7 @@
 return [
   {
     "name": "System bus address",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "System source",
-    "default": "Sys bus",
+    "default": 0,
     "values": [
       "Sys bus",
       "Local storage-talk only",
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "System controller",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "RS232 mode",
-    "default": "Terminal",
+    "default": 0,
     "values": [
       "Terminal",
       "Modem"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Upper bus address (N/U)",
-    "default": "0",
+    "default": 0,
     "values": [
       "0",
       "1",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "E9-1 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "E9-2 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "E9-3 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "E9-4 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "E9-5 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "E9-6 jumper",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Baud rate factor",
-    "default": "1x",
+    "default": 0,
     "values": [
       "1x",
       "16x"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Char length",
-    "default": "5",
+    "default": 0,
     "values": [
       "5",
       "6",
@@ -117,7 +117,7 @@ return [
   },
   {
     "name": "Parity enable",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -125,7 +125,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Odd",
+    "default": 0,
     "values": [
       "Odd",
       "Even"
@@ -133,7 +133,7 @@ return [
   },
   {
     "name": "Stop bits",
-    "default": "Invalid",
+    "default": 0,
     "values": [
       "Invalid",
       "1",
@@ -143,7 +143,7 @@ return [
   },
   {
     "name": "Duplex",
-    "default": "Half duplex",
+    "default": 0,
     "values": [
       "Half duplex",
       "Full duplex"
@@ -151,7 +151,7 @@ return [
   },
   {
     "name": "Baud rate",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "75",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "DSW-0:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "DSW-0:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "DSW-0:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "DSW-0:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "DSW-0:4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "DSW-0:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "DSW-0:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "DSW-0:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "DSW-1:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -73,7 +73,7 @@ return [
   },
   {
     "name": "DSW-1:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -81,7 +81,7 @@ return [
   },
   {
     "name": "DSW-1:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "DSW-1:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -97,7 +97,7 @@ return [
   },
   {
     "name": "DSW-1:4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -105,7 +105,7 @@ return [
   },
   {
     "name": "DSW-1:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -113,7 +113,7 @@ return [
   },
   {
     "name": "DSW-1:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "DSW-1:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -129,7 +129,7 @@ return [
   },
   {
     "name": "DSW-2:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "DSW-2:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "DSW-2:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -153,7 +153,7 @@ return [
   },
   {
     "name": "DSW-2:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -161,7 +161,7 @@ return [
   },
   {
     "name": "DSW-2:4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -169,7 +169,7 @@ return [
   },
   {
     "name": "DSW-2:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "DSW-2:6 (keep off)",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -185,7 +185,7 @@ return [
   },
   {
     "name": "DSW-2:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -193,7 +193,7 @@ return [
   },
   {
     "name": "DSW-3:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -201,7 +201,7 @@ return [
   },
   {
     "name": "DSW-3:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -209,7 +209,7 @@ return [
   },
   {
     "name": "DSW-3:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -217,7 +217,7 @@ return [
   },
   {
     "name": "DSW-3:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -225,7 +225,7 @@ return [
   },
   {
     "name": "DSW-3:4",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -233,7 +233,7 @@ return [
   },
   {
     "name": "DSW-3:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -241,7 +241,7 @@ return [
   },
   {
     "name": "DSW-3:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -249,7 +249,7 @@ return [
   },
   {
     "name": "DSW-3:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -257,7 +257,7 @@ return [
   },
   {
     "name": "IN-0:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -265,7 +265,7 @@ return [
   },
   {
     "name": "IN-0:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -273,7 +273,7 @@ return [
   },
   {
     "name": "IN-0:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -281,7 +281,7 @@ return [
   },
   {
     "name": "IN-0:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -289,7 +289,7 @@ return [
   },
   {
     "name": "IN-0:4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -297,7 +297,7 @@ return [
   },
   {
     "name": "IN-0:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -305,7 +305,7 @@ return [
   },
   {
     "name": "IN-0:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -313,7 +313,7 @@ return [
   },
   {
     "name": "IN-0:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -321,7 +321,7 @@ return [
   },
   {
     "name": "IN-0:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -329,7 +329,7 @@ return [
   },
   {
     "name": "IN-0:9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -337,7 +337,7 @@ return [
   },
   {
     "name": "IN-0:a",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -345,7 +345,7 @@ return [
   },
   {
     "name": "IN-0:b",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -353,7 +353,7 @@ return [
   },
   {
     "name": "IN-0:c",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -361,7 +361,7 @@ return [
   },
   {
     "name": "IN-0:d",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -369,7 +369,7 @@ return [
   },
   {
     "name": "IN-0:e",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -377,7 +377,7 @@ return [
   },
   {
     "name": "IN-0:f",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -385,7 +385,7 @@ return [
   },
   {
     "name": "IN-1:0",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -393,7 +393,7 @@ return [
   },
   {
     "name": "IN-1:1",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -401,7 +401,7 @@ return [
   },
   {
     "name": "IN-1:2",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -409,7 +409,7 @@ return [
   },
   {
     "name": "IN-1:3",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -417,7 +417,7 @@ return [
   },
   {
     "name": "IN-1:4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -425,7 +425,7 @@ return [
   },
   {
     "name": "IN-1:5",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -433,7 +433,7 @@ return [
   },
   {
     "name": "IN-1:6",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -441,7 +441,7 @@ return [
   },
   {
     "name": "IN-1:7",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -449,7 +449,7 @@ return [
   },
   {
     "name": "IN-1:8",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -457,7 +457,7 @@ return [
   },
   {
     "name": "IN-1:9",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -465,7 +465,7 @@ return [
   },
   {
     "name": "IN-1:a",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -473,7 +473,7 @@ return [
   },
   {
     "name": "IN-1:b",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -481,7 +481,7 @@ return [
   },
   {
     "name": "IN-1:c",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -489,7 +489,7 @@ return [
   },
   {
     "name": "IN-1:d",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -497,7 +497,7 @@ return [
   },
   {
     "name": "IN-1:e",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -505,7 +505,7 @@ return [
   },
   {
     "name": "IN-1:f",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -513,7 +513,7 @@ return [
   },
   {
     "name": "IN-6:0",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -521,7 +521,7 @@ return [
   },
   {
     "name": "IN-6:1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -529,7 +529,7 @@ return [
   },
   {
     "name": "IN-6:2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -537,7 +537,7 @@ return [
   },
   {
     "name": "IN-6:3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -545,7 +545,7 @@ return [
   },
   {
     "name": "IN-6:4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -553,7 +553,7 @@ return [
   },
   {
     "name": "IN-6:5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -561,7 +561,7 @@ return [
   },
   {
     "name": "IN-6:6 (dip info)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -569,7 +569,7 @@ return [
   },
   {
     "name": "IN-6:7 (info)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -577,7 +577,7 @@ return [
   },
   {
     "name": "IN-7:0",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -585,7 +585,7 @@ return [
   },
   {
     "name": "IN-7:1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -593,7 +593,7 @@ return [
   },
   {
     "name": "IN-7:2 (red)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -601,7 +601,7 @@ return [
   },
   {
     "name": "IN-7:3 (double)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -609,7 +609,7 @@ return [
   },
   {
     "name": "IN-7:4 (take)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -617,7 +617,7 @@ return [
   },
   {
     "name": "IN-7:6 (blue)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -625,7 +625,7 @@ return [
   },
   {
     "name": "IN-8:0",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -633,7 +633,7 @@ return [
   },
   {
     "name": "IN-8:1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -641,7 +641,7 @@ return [
   },
   {
     "name": "IN-8:2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -649,7 +649,7 @@ return [
   },
   {
     "name": "IN-8:3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -657,7 +657,7 @@ return [
   },
   {
     "name": "IN-8:4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -665,7 +665,7 @@ return [
   },
   {
     "name": "IN-8:5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -673,7 +673,7 @@ return [
   },
   {
     "name": "IN-8:6",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -681,7 +681,7 @@ return [
   },
   {
     "name": "IN-8:7",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -689,7 +689,7 @@ return [
   },
   {
     "name": "IN-8:8",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -697,7 +697,7 @@ return [
   },
   {
     "name": "IN-8:9",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -705,7 +705,7 @@ return [
   },
   {
     "name": "IN-8:a",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -713,7 +713,7 @@ return [
   },
   {
     "name": "IN-8:b",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -721,7 +721,7 @@ return [
   },
   {
     "name": "IN-8:c",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -729,7 +729,7 @@ return [
   },
   {
     "name": "IN-8:d",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -737,7 +737,7 @@ return [
   },
   {
     "name": "IN-8:e",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -745,7 +745,7 @@ return [
   },
   {
     "name": "IN-8:f",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -753,7 +753,7 @@ return [
   },
   {
     "name": "IN-9:0 (reset)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -761,7 +761,7 @@ return [
   },
   {
     "name": "IN-9:1",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -769,7 +769,7 @@ return [
   },
   {
     "name": "IN-9:2",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -777,7 +777,7 @@ return [
   },
   {
     "name": "IN-9:3",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -785,7 +785,7 @@ return [
   },
   {
     "name": "IN-9:4",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -793,7 +793,7 @@ return [
   },
   {
     "name": "IN-9:5",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -801,7 +801,7 @@ return [
   },
   {
     "name": "IN-9:6 (keyin)",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

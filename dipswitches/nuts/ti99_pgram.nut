@@ -1,7 +1,7 @@
 return [
   {
     "name": "CRU base",
-    "default": "1000",
+    "default": 0,
     "values": [
       "1000",
       "1200",
@@ -14,7 +14,7 @@ return [
   },
   {
     "name": "Activate switch",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

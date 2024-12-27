@@ -1,7 +1,7 @@
 return [
   {
     "name": "Start Credits (P1&P2)/Extra",
-    "default": "1&2/100%",
+    "default": 1,
     "values": [
       "1&1/200%",
       "1&2/100%",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Formation Time (Defense)",
-    "default": "Same as Offense",
+    "default": 0,
     "values": [
       "Same as Offense",
       "7",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Timer Speed",
-    "default": "60/60",
+    "default": 0,
     "values": [
       "60/60",
       "57/60",
@@ -31,7 +31,7 @@ return [
   },
   {
     "name": "Formation Time (Offense)",
-    "default": "15",
+    "default": 2,
     "values": [
       "25",
       "20",
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "1P Game Time",
-    "default": "1:30",
+    "default": 2,
     "values": [
       "2:30",
       "2:00",
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "2P Game Time",
-    "default": "2:30/1:45 Extra",
+    "default": 16,
     "values": [
       "5:00/3:00 Extra",
       "5:00/2:45 Extra",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

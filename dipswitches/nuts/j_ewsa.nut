@@ -1,7 +1,7 @@
 return [
   {
     "name": "Percentage Stabiliser",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

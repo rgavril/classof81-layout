@@ -1,7 +1,7 @@
 return [
   {
     "name": "OFF Fixed",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Screen Direction",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Up Down"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Payout",
-    "default": "Automatic",
+    "default": 0,
     "values": [
       "Automatic",
       "Manual"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Hopper SW Active",
-    "default": "High",
+    "default": 0,
     "values": [
       "High",
       "Low"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Auto Max Bet",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Hold Cancel",
-    "default": "No",
+    "default": 0,
     "values": [
       "No",
       "Yes"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Auto Hold",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Fever Mode",
-    "default": "Yes",
+    "default": 1,
     "values": [
       "No",
       "Yes"
@@ -65,7 +65,7 @@ return [
   },
   {
     "name": "Payout %",
-    "default": "95%",
+    "default": 7,
     "values": [
       "60%",
       "65%",
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Min Bet Size for Fever",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "3",
@@ -89,7 +89,7 @@ return [
   },
   {
     "name": "D-UP Game Difficulty",
-    "default": "0 (Weak)",
+    "default": 0,
     "values": [
       "0 (Weak)",
       "1",
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "OFF Fixed",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Key In",
-    "default": "50 Credits / Pulse",
+    "default": 5,
     "values": [
       "5 Credits / Pulse",
       "10 Credits / Pulse",
@@ -121,7 +121,7 @@ return [
   },
   {
     "name": "Coin A",
-    "default": "1 Coin/5 Credits",
+    "default": 2,
     "values": [
       "1 Coin/1 Credit",
       "1 Coin/2 Credits",
@@ -135,7 +135,7 @@ return [
   },
   {
     "name": "Credit Limit",
-    "default": "5000",
+    "default": 0,
     "values": [
       "5000",
       "10000",
@@ -145,7 +145,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "1 Coin/50 Credits",
+    "default": 14,
     "values": [
       "20 Coins/1 Credit",
       "10 Coins/1 Credit",
@@ -167,7 +167,7 @@ return [
   },
   {
     "name": "Max Bet",
-    "default": "20",
+    "default": 1,
     "values": [
       "10",
       "20",
@@ -177,7 +177,7 @@ return [
   },
   {
     "name": "Credit-In Limit",
-    "default": "No Limit",
+    "default": 0,
     "values": [
       "No Limit",
       "1000",
@@ -187,7 +187,7 @@ return [
   },
   {
     "name": "Freeze",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

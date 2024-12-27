@@ -1,7 +1,7 @@
 return [
   {
     "name": "Coins Per Credit",
-    "default": "1 Coin 1 Credit",
+    "default": 0,
     "values": [
       "1 Coin 1 Credit",
       "2 Coins 1 Credit",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Right Coin",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 4 Coin Units",
@@ -21,7 +21,7 @@ return [
   },
   {
     "name": "Left Coin",
-    "default": "1 Coin for 1 Coin Unit",
+    "default": 0,
     "values": [
       "1 Coin for 1 Coin Unit",
       "1 Coin for 2 Coin Units"
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Bonus Adder",
-    "default": "None",
+    "default": 0,
     "values": [
       "None",
       "1 Credit for 2 Coin Units",
@@ -42,7 +42,7 @@ return [
   },
   {
     "name": "Missions",
-    "default": "All .50",
+    "default": 0,
     "values": [
       "All .50",
       ".50 .75"
@@ -50,7 +50,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Moderate",
@@ -60,7 +60,7 @@ return [
   },
   {
     "name": "Gas Usage",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Moderate",
@@ -70,7 +70,7 @@ return [
   },
   {
     "name": "Bonus Gas",
-    "default": "Easy",
+    "default": 0,
     "values": [
       "Easy",
       "Moderate",
@@ -80,7 +80,7 @@ return [
   },
   {
     "name": "Pro Limit",
-    "default": "Moderate",
+    "default": 0,
     "values": [
       "Moderate",
       "Hardest"
@@ -88,7 +88,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

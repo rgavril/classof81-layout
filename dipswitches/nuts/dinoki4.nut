@@ -1,7 +1,7 @@
 return [
   {
     "name": "ROM Board type",
-    "default": "M4-type",
+    "default": 1,
     "values": [
       "other",
       "M4-type"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "BIOS Debug mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Monitor",
-    "default": "31 kHz",
+    "default": 0,
     "values": [
       "31 kHz",
       "15 kHz"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

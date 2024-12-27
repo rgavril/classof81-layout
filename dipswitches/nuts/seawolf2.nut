@@ -1,7 +1,7 @@
 return [
   {
     "name": "Language 1",
-    "default": "Language 2",
+    "default": 0,
     "values": [
       "Language 2",
       "French"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Language 2",
-    "default": "English",
+    "default": 0,
     "values": [
       "English",
       "German"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Coinage",
-    "default": "1 Coin/1 Credit",
+    "default": 1,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Play Time",
-    "default": "1P 70s/2P 90s",
+    "default": 3,
     "values": [
       "1P 40s/2P 45s",
       "1P 50s/2P 60s",
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "2 Players Game",
-    "default": "2 Credits",
+    "default": 1,
     "values": [
       "1 Credit",
       "2 Credits"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Extended Play",
-    "default": "None",
+    "default": 3,
     "values": [
       "5000",
       "6000",
@@ -53,7 +53,7 @@ return [
   },
   {
     "name": "Monitor",
-    "default": "Color",
+    "default": 0,
     "values": [
       "Color",
       "B/W"
@@ -61,7 +61,7 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

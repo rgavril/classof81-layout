@@ -1,7 +1,7 @@
 return [
   {
     "name": "Typeface",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Condensed"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Shape of zero",
-    "default": "Not slashed",
+    "default": 0,
     "values": [
       "Not slashed",
       "Slashed"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Character table",
-    "default": "Italics",
+    "default": 0,
     "values": [
       "Italics",
       "Graphics"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Paper-out detection",
-    "default": "Invalid",
+    "default": 0,
     "values": [
       "Invalid",
       "Valid"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Printing quality",
-    "default": "Draft",
+    "default": 0,
     "values": [
       "Draft",
       "NLQ"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "International character set",
-    "default": "USA",
+    "default": 0,
     "values": [
       "USA",
       "France",
@@ -55,7 +55,7 @@ return [
   },
   {
     "name": "Page length",
-    "default": "11\"",
+    "default": 0,
     "values": [
       "11\"",
       "12\""
@@ -63,7 +63,7 @@ return [
   },
   {
     "name": "Cut-sheet feeder mode",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -71,7 +71,7 @@ return [
   },
   {
     "name": "Skip over perforation",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "1\""
@@ -79,7 +79,7 @@ return [
   },
   {
     "name": "Auto line feed",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

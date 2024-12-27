@@ -1,7 +1,7 @@
 return [
   {
     "name": "Lives",
-    "default": "3",
+    "default": 1,
     "values": [
       "2",
       "3",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Difficulty",
-    "default": "Normal",
+    "default": 0,
     "values": [
       "Normal",
       "Hard"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin B",
-    "default": "2 Coins/1 Credit",
+    "default": 0,
     "values": [
       "2 Coins/1 Credit",
       "1 Coin/1 Credit",
@@ -29,7 +29,7 @@ return [
   },
   {
     "name": "Initial Bonus Points",
-    "default": "500",
+    "default": 0,
     "values": [
       "500",
       "850",

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Main Game Rate",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal",
@@ -11,7 +11,7 @@ return [
   },
   {
     "name": "Limit Over Score",
-    "default": "100.000",
+    "default": 0,
     "values": [
       "100.000",
       "200.000"
@@ -19,7 +19,7 @@ return [
   },
   {
     "name": "Coin/Key In Over Score",
-    "default": "30.000",
+    "default": 0,
     "values": [
       "30.000",
       "50.000"
@@ -27,7 +27,7 @@ return [
   },
   {
     "name": "W-Up Game",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -35,7 +35,7 @@ return [
   },
   {
     "name": "W-Up Game Rate",
-    "default": "Normal",
+    "default": 1,
     "values": [
       "Easy",
       "Normal"
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Auto Mode",
-    "default": "Hits",
+    "default": 1,
     "values": [
       "Good",
       "Hits"
@@ -51,7 +51,7 @@ return [
   },
   {
     "name": "Five Bars",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -59,7 +59,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -67,7 +67,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -75,7 +75,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -83,7 +83,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -91,7 +91,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -99,7 +99,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -107,7 +107,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -115,7 +115,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -123,7 +123,7 @@ return [
   },
   {
     "name": "Coin Rate",
-    "default": "50",
+    "default": 4,
     "values": [
       "5",
       "10",
@@ -137,7 +137,7 @@ return [
   },
   {
     "name": "Coin x Times Rate",
-    "default": "2",
+    "default": 0,
     "values": [
       "2",
       "5",
@@ -147,7 +147,7 @@ return [
   },
   {
     "name": "Demo Sounds",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -155,7 +155,7 @@ return [
   },
   {
     "name": "Counter Jumping",
-    "default": "By Coin Rate",
+    "default": 1,
     "values": [
       "By Keyin Rate",
       "By Coin Rate"
@@ -163,7 +163,7 @@ return [
   },
   {
     "name": "Cards Voice",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"
@@ -171,7 +171,7 @@ return [
   },
   {
     "name": "Min. Bet",
-    "default": "10",
+    "default": 0,
     "values": [
       "10",
       "20",
@@ -181,7 +181,7 @@ return [
   },
   {
     "name": "Max. Bet",
-    "default": "50",
+    "default": 0,
     "values": [
       "50",
       "100",
@@ -191,7 +191,7 @@ return [
   },
   {
     "name": "Connector",
-    "default": "JAMMA",
+    "default": 1,
     "values": [
       "JAMMA",
       "JAMMA"
@@ -199,7 +199,7 @@ return [
   },
   {
     "name": "Card Choice",
-    "default": "Poker",
+    "default": 1,
     "values": [
       "Car",
       "Poker"
@@ -207,7 +207,7 @@ return [
   },
   {
     "name": "Last Game Mode",
-    "default": "Only 6 Card",
+    "default": 1,
     "values": [
       "Rechoice Card",
       "Only 6 Card"
@@ -215,7 +215,7 @@ return [
   },
   {
     "name": "Unknown",
-    "default": "On",
+    "default": 1,
     "values": [
       "Off",
       "On"

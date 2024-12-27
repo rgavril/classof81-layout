@@ -1,7 +1,7 @@
 return [
   {
     "name": "Switch 8",
-    "default": "1st level",
+    "default": 1,
     "values": [
       "2nd level",
       "1st level"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Switch 7",
-    "default": "log units",
+    "default": 1,
     "values": [
       "db",
       "log units"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Switch 6",
-    "default": "Supra Threshold",
+    "default": 1,
     "values": [
       "Full Threshold",
       "Supra Threshold"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Switch 5",
-    "default": "do not est. fluct.",
+    "default": 1,
     "values": [
       "est. fluct.",
       "do not est. fluct."
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Switch 4",
-    "default": "do not repeat >4db",
+    "default": 1,
     "values": [
       "repeat >4db",
       "do not repeat >4db"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Switch 3",
-    "default": "Request Send",
+    "default": 1,
     "values": [
       "Auto Send",
       "Request Send"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Switch 2",
-    "default": "not used",
+    "default": 1,
     "values": [
       "not used",
       "not used"
@@ -57,7 +57,7 @@ return [
   },
   {
     "name": "Switch 1",
-    "default": "not used",
+    "default": 1,
     "values": [
       "not used",
       "not used"

@@ -1,7 +1,7 @@
 return [
   {
     "name": "Terminal Mode",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Init NVRAM",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Keyboard Select 0",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Keyboard Select 1",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Disable Graphics",
-    "default": "Yes",
+    "default": 0,
     "values": [
       "Yes",
       "No"
@@ -41,7 +41,7 @@ return [
   },
   {
     "name": "Killer Enable",
-    "default": "No",
+    "default": 1,
     "values": [
       "Yes",
       "No"
@@ -49,7 +49,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"

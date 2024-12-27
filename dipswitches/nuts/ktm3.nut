@@ -1,7 +1,7 @@
 return [
   {
     "name": "Columns",
-    "default": "80",
+    "default": 1,
     "values": [
       "40",
       "80"
@@ -9,7 +9,7 @@ return [
   },
   {
     "name": "Unused",
-    "default": "Off",
+    "default": 0,
     "values": [
       "Off",
       "On"
@@ -17,7 +17,7 @@ return [
   },
   {
     "name": "Conversation Mode",
-    "default": "Full Duplex",
+    "default": 1,
     "values": [
       "Half Duplex",
       "Full Duplex"
@@ -25,7 +25,7 @@ return [
   },
   {
     "name": "Stop Bits",
-    "default": "1",
+    "default": 0,
     "values": [
       "1",
       "2"
@@ -33,7 +33,7 @@ return [
   },
   {
     "name": "Parity",
-    "default": "Space",
+    "default": 3,
     "values": [
       "Even",
       "Odd",
@@ -43,7 +43,7 @@ return [
   },
   {
     "name": "Baud Rate",
-    "default": "9600",
+    "default": 6,
     "values": [
       "109.92",
       "300",
