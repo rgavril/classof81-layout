@@ -106,31 +106,12 @@ class ConfigMenu {
 
 	function load() {
 		debug();
-		print("LOAD\n");
 
 		local rom = fe.game_info(Info.Name);
 
 		# Load the load dip switches for the current game
-		local dip_switches = [];
-		try {
-			dip_switches = dofile(fe.script_dir + "/dipswitches/nuts/"+rom+".nut");
-
-		# If the dip switches list was not loaded correctly (ex: missing or bad format)
-		} catch(e) {
-			dip_switches = []
-		}
-
-		# Add only valid dip switches
-		this.dip_switches = [];
-		foreach (dip_switch in dip_switches) {
-			if (dip_switch["name"] == "Unknown") {  continue; }
-			if (dip_switch["name"] == "Unused")  {  continue; }
-
-			dip_switch["current"] <- dip_switch["default"];
-
-			this.dip_switches.push(dip_switch);
-		}
-
+		dip_switches = FBNeoDipSwitches(rom);
+		print("DIPS FOR " + rom + " = " + dip_switches.len()+ " \n\n\n");
 
 		# Reset the offset and selected index
 		this.selected_idx = 0;
@@ -159,8 +140,8 @@ class ConfigMenu {
 
 			# If there is a dipswitch to show on this position
 			if (visible_idx-1 < dip_switches.len()) {
-				local dip_switch = this.dip_switches[visible_idx-1];
-				menu_entry.set_label(dip_switch["name"], dip_switch["values"][dip_switch["current"]]);
+				local dip_switch = this.dip_switches.get(visible_idx-1);
+				menu_entry.set_label(dip_switch.name, dip_switch.current_value());
 				menu_entry.show();
 			} else {
 				menu_entry.hide();
@@ -215,9 +196,9 @@ class ConfigMenu {
 			return;
 		}
 
-		local old_value = dip_switches[this.selected_idx-1]["current"];
-		local new_value = (old_value + 1) % dip_switches[this.selected_idx-1]["values"].len();
-		dip_switches[this.selected_idx-1]["current"] = new_value;
+		local dip_switch = dip_switches.get(this.selected_idx-1);
+		dip_switch.move_to_next_value();
+
 		draw();
 	}
 
@@ -226,9 +207,9 @@ class ConfigMenu {
 			return;
 		}
 
-		local old_value = dip_switches[this.selected_idx-1]["current"];
-		local new_value = (dip_switches[this.selected_idx-1]["values"].len() + old_value - 1) % dip_switches[this.selected_idx-1]["values"].len();
-		dip_switches[this.selected_idx-1]["current"] = new_value;
+		local dip_switch = dip_switches.get(this.selected_idx-1);
+		dip_switch.move_to_prev_value();
+
 		draw();
 	}
 

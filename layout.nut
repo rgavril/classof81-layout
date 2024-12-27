@@ -6,6 +6,9 @@
 fe.load_module("file");
 fe.load_module("animate");
 
+dofile(fe.script_dir + "/modules/fb-neo-dipswitches/module.nut");
+
+
 dofile(fe.script_dir + "utils.nut");
 dofile(fe.script_dir + "BottomText.nut");
 dofile(fe.script_dir + "GameButton.nut");
