@@ -6,6 +6,19 @@ function max(a,b) {
 	return a > b ? a : b;
 }
 
+function str_replace(search, replace, subject) {
+	local value = "";
+
+	foreach (position, segment in split(subject, search))  {
+		if (position != 0) {
+			value += replace;
+		}
+		value += segment;
+	}
+
+	return value;
+}
+
 function debug(msg = "") {
 	return;
 	local func = getstackinfos(2).func;

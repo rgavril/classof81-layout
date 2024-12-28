@@ -6,7 +6,8 @@
 fe.load_module("file");
 fe.load_module("animate");
 
-dofile(fe.script_dir + "/modules/fb-neo-dipswitches/module.nut");
+dofile(fe.script_dir + "/modules/retroarch-config.nut");
+dofile(fe.script_dir + "/modules/fbneo-dipswitches.nut");
 
 
 dofile(fe.script_dir + "utils.nut");
