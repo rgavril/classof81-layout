@@ -1,5 +1,4 @@
 class FBNeoDipSwitch {
-	FBNEO_CONFIG_FILE = "/Users/rgavril/Library/Application Support/RetroArch/config/FinalBurn Neo/FinalBurn Neo.opt"
 	rom = "";
 	name = "";
 	values = "";
@@ -13,7 +12,7 @@ class FBNeoDipSwitch {
 		this.default_idx = default_idx;
 		this.current_idx = default_idx;
 
-		local saved_value = retroarch_config_read(FBNEO_CONFIG_FILE, this.key());
+		local saved_value = retroarch_config_read(AM_CONFIG["fbneo_config_file"], this.key());
 		foreach(idx, value in this.values) {
 			if (saved_value == value) {
 				this.current_idx = idx;
@@ -48,7 +47,7 @@ class FBNeoDipSwitch {
 	}
 
 	function write() {
-		retroarch_config_write(FBNEO_CONFIG_FILE, this.key(), this.value());
+		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.value());
 	}
 }
 

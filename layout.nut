@@ -3,6 +3,13 @@
 # http://www.squirrel-lang.org/doc/sqstdlib3.pdf
 # https://github.com/mickelson/attract/blob/master/config/plugins/History.dat/plugin.nut
 
+class UserConfig {
+	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
+	fbneo_config_file="/opt/retropie/configs/all/retroarch-core-options.cfg";
+}
+
+::AM_CONFIG <- fe.get_config();
+
 fe.load_module("file");
 fe.load_module("animate");
 
