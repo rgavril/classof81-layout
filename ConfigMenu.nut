@@ -6,7 +6,7 @@ class ConfigMenu {
 	selected_idx = 0;
 
 	surface = [];
-	menu_entrie = [];
+	menu_buttons = [];
 	is_active = false;
 
 	constructor() {
@@ -19,9 +19,9 @@ class ConfigMenu {
 		this.surface.add_image("images/config_menu.png", 0, 0);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
-			//local menu_entry = ConfigMenuEntry(fe, 70, 310+90*i);
-			local menu_entry = ConfigMenuEntry(this.surface, 70, 110+90*i);
-			this.menu_entrie.push(menu_entry);
+			//local menu_button = ConfigMenuButton(fe, 70, 310+90*i);
+			local menu_button = ConfigMenuButton(this.surface, 70, 110+90*i);
+			this.menu_buttons.push(menu_button);
 		}
 
 		this.load(); 
@@ -121,29 +121,29 @@ class ConfigMenu {
 		debug();
 
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local menu_entry = this.menu_entrie[i]
+			local menu_button = this.menu_buttons[i]
 			local visible_idx = i + this.first_idx;
 
 			# Mark menu item if is selected
 			 if (this.selected_idx == visible_idx) {
- 				menu_entry.select();
+ 				menu_button.select();
  			} else {
- 				menu_entry.deselect();
+ 				menu_button.deselect();
  			}
 
  			# Add the special 'hide' menu entry on position 0
 			if (visible_idx == 0) {
-				menu_entry.set_label("HIDE THIS MENU");
+				menu_button.set_label("HIDE THIS MENU");
 				continue;
 			}
 
 			# If there is a dipswitch to show on this position
 			if (visible_idx-1 < dip_switches.len()) {
 				local dip_switch = this.dip_switches.get(visible_idx-1);
-				menu_entry.set_label(dip_switch.name, dip_switch.value());
-				menu_entry.show();
+				menu_button.set_label(dip_switch.name, dip_switch.value());
+				menu_button.show();
 			} else {
-				menu_entry.hide();
+				menu_button.hide();
 			}
 		}
 

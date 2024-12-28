@@ -1,4 +1,4 @@
-class ConfigMenuEntry {
+class ConfigMenuButton {
 	title = "";
 	value = "";
 

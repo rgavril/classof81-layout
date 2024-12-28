@@ -24,7 +24,7 @@ dofile(fe.script_dir + "GameButtons.nut");
 dofile(fe.script_dir + "AchievementEntry.nut");
 dofile(fe.script_dir + "AchievementEntries.nut");
 dofile(fe.script_dir + "ConfigMenu.nut");
-dofile(fe.script_dir + "ConfigMenuEntry.nut");
+dofile(fe.script_dir + "ConfigMenuButton.nut");
 dofile(fe.script_dir + "SoundEngine.nut");
 
 fe.layout.preserve_aspect_ratio=true;
