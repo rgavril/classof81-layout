@@ -1,15 +1,5 @@
 return [
   {
-    "name": "Coinage",
-    "default": 1,
-    "values": [
-      "2C 1C",
-      "1C 1C",
-      "1C 2C",
-      "Free Play"
-    ]
-  },
-  {
     "name": "Difficulty",
     "default": 0,
     "values": [
@@ -43,6 +33,16 @@ return [
     "values": [
       "Normal",
       "Alternate"
+    ]
+  },
+  {
+    "name": "Coinage",
+    "default": 1,
+    "values": [
+      "2C 1C",
+      "1C 1C",
+      "1C 2C",
+      "Free Play"
     ]
   },
   {

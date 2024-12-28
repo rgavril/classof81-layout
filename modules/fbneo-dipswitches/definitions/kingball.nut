@@ -11,10 +11,18 @@ return [
     "name": "Bonus Life",
     "default": 0,
     "values": [
-      "7000",
       "10000",
       "12000",
-      "20000"
+      "15000",
+      "None"
+    ]
+  },
+  {
+    "name": "Speech",
+    "default": 1,
+    "values": [
+      "Off",
+      "On"
     ]
   },
   {
@@ -28,19 +36,19 @@ return [
     ]
   },
   {
-    "name": "Cabinet",
-    "default": 0,
-    "values": [
-      "Upright",
-      "Cocktail"
-    ]
-  },
-  {
     "name": "Service Mode",
     "default": 0,
     "values": [
       "Off",
       "On"
+    ]
+  },
+  {
+    "name": "Cabinet",
+    "default": 0,
+    "values": [
+      "Upright",
+      "Cocktail"
     ]
   }
 ]

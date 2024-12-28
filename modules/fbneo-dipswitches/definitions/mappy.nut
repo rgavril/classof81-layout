@@ -1,20 +1,16 @@
 return [
   {
-    "name": "Allow Continue",
-    "default": 1,
-    "values": [
-      "No",
-      "Yes"
-    ]
-  },
-  {
     "name": "Difficulty",
     "default": 0,
     "values": [
-      "Easy",
-      "Medium",
-      "Hard",
-      "Hardest"
+      "Rank A",
+      "Rank B",
+      "Rank C",
+      "Rank D",
+      "Rank E",
+      "Rank F",
+      "Rank G",
+      "Rank H"
     ]
   },
   {
@@ -28,17 +24,17 @@ return [
     ]
   },
   {
-    "name": "Bonus Life (1,2,3) / (5)",
-    "default": 0,
+    "name": "Bonus Life",
+    "default": 2,
     "values": [
-      "10K & Every 40K / 20K & Every 60K",
-      "10K & Every 50K / 30K & Every 80K",
-      "20K & Every 60K / 20K & 50K Only",
-      "20K & Every 70K / 20K & 60K Only",
-      "10K & 40K Only / 30K & 70K Only",
-      "20K & 60K Only / 20K Only",
-      "10K Only        / 30K Only",
-      "None            / None"
+      "20k Only",
+      "20k & 60k Only",
+      "20k & 70k Only",
+      "20k, 70k & Every 70k",
+      "20k & 80k Only",
+      "20k, 80k & Every 80k",
+      "30k & 100k Only",
+      "None"
     ]
   },
   {
@@ -51,25 +47,25 @@ return [
   },
   {
     "name": "Coin A",
-    "default": 1,
-    "values": [
-      "2 Coins 1 Credit",
-      "1 Coin 1 Credit",
-      "2 Coins 3 Credits",
-      "1 Coin 2 Credits"
-    ]
-  },
-  {
-    "name": "Coin B",
-    "default": 2,
+    "default": 3,
     "values": [
       "3 Coins 1 Credit",
       "2 Coins 1 Credit",
+      "3 Coins 2 Credits",
       "1 Coin 1 Credit",
       "2 Coins 3 Credits",
       "1 Coin 2 Credits",
       "1 Coin 3 Credits",
-      "1 Coin 6 Credits",
+      "1 Coin 6 Credits"
+    ]
+  },
+  {
+    "name": "Coin B",
+    "default": 1,
+    "values": [
+      "2 Coins 1 Credit",
+      "1 Coin 1 Credit",
+      "1 Coin 5 Credits",
       "1 Coin 7 Credits"
     ]
   },
@@ -82,7 +78,7 @@ return [
     ]
   },
   {
-    "name": "Freeze",
+    "name": "Service",
     "default": 0,
     "values": [
       "Off",
@@ -90,7 +86,15 @@ return [
     ]
   },
   {
-    "name": "Service Mode",
+    "name": "Rack Test (Cheat)",
+    "default": 0,
+    "values": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Freeze",
     "default": 0,
     "values": [
       "Off",

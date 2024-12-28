@@ -1,15 +1,5 @@
 return [
   {
-    "name": "Coinage",
-    "default": 1,
-    "values": [
-      "2 Coins 1 Play",
-      "1 Coin 1 Play",
-      "1 Coin 2 Plays",
-      "Freeplay"
-    ]
-  },
-  {
     "name": "Difficulty",
     "default": 5,
     "values": [
@@ -31,6 +21,16 @@ return [
       "30000",
       "40000",
       "None"
+    ]
+  },
+  {
+    "name": "Coinage",
+    "default": 1,
+    "values": [
+      "2 Coins 1 Play",
+      "1 Coin 1 Play",
+      "1 Coin 2 Plays",
+      "Freeplay"
     ]
   },
   {
