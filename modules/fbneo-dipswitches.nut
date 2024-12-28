@@ -68,6 +68,14 @@ class FBNeoDipSwitches {
 			print("WARNING: Cannot find dip switch definitnion file from rom '"+rom+"'.\n");
 		}
 
+		if (dip_switches_definition.len() == 0) {
+			try {
+				dip_switches_definition = dofile(fe.script_dir + "/modules/fbneo-dipswitches/definitions.auto/"+rom+".nut");
+			} catch(e) {
+				print("WARNING: Cannot find auto dip switch definitnion file from rom '"+rom+"'.\n");
+			}
+		}
+
 		foreach (definition in dip_switches_definition) {
 			if (definition["name"] == "Unknown") {  continue; }
 			if (definition["name"] == "Unused")  {  continue; }
