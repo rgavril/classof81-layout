@@ -9,6 +9,7 @@ function max(a,b) {
 function str_replace(search, replace, subject) {
 	local value = "";
 
+	if (subject == null)  return;
 	foreach (position, segment in split(subject, search))  {
 		if (position != 0) {
 			value += replace;
