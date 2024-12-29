@@ -136,6 +136,15 @@ class ConfigMenu {
 			local menu_button = this.menu_buttons[i]
 			local visible_idx = i + this.offset_idx;
 
+			# Calculate the button vertical position
+			local y = 105 + 90*i;
+			if (menu_entries.len() < PAGE_SIZE) {
+				local unused_space = (PAGE_SIZE - menu_entries.len()) * 90;
+				local extra_padding = unused_space / (menu_entries.len()-1);
+				y += extra_padding * i;
+			}
+			menu_button.set_y(y);
+
 			# Mark menu item if is selected
 			 if (this.select_idx == visible_idx) {
  				menu_button.select();

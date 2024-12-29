@@ -70,6 +70,10 @@ class ConfigMenuButton {
 		draw();
 	}
 
+	function set_y(value) {
+		this.surface.y = value; 
+	}
+
 	function hide() {
 		this.surface.visible = false;
 	}
