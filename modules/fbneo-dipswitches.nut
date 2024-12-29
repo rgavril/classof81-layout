@@ -1,7 +1,7 @@
 class FBNeoDipSwitch {
 	rom = "";
 	name = "";
-	values = "";
+	values = [];
 	current_idx = "";
 	default_idx = "";
 
@@ -48,6 +48,19 @@ class FBNeoDipSwitch {
 
 	function write() {
 		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.value());
+	}
+
+	function set(index) {
+		if (index < 0 || index > this.values.len() - 1) {
+			return;
+		}
+
+		this.current_idx = index;
+		write();
+	}
+
+	function reset() {
+		this.set(this.default_idx);
 	}
 }
 

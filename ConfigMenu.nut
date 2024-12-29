@@ -112,7 +112,7 @@ class ConfigMenu {
 		# Clear old menu entries
 		this.menu_entries = [];
 
-		# Add hide menu entry
+		# Add 'Hide this Menu' menu entry
 		this.menu_entries.push({ "type": "hide" });
 
 		# Add dipswitch menu entries
@@ -120,6 +120,9 @@ class ConfigMenu {
 		for (local i=0; i<dipswitches.len(); i++) {
 			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitches.get(i) });
 		}
+
+		# Add 'Reset to Defaults' menu entry
+		this.menu_entries.push({"type": "reset"})
 
 		# Reset the offset and selected index
 		this.select_idx = 0;
@@ -152,7 +155,11 @@ class ConfigMenu {
  			local menu_entry = menu_entries[visible_idx];
  			switch (menu_entry["type"]) {
  				case "hide":
- 					menu_button.set_label("HIDE THIS MENU");
+ 					menu_button.set_label("Hide this Menu");
+ 					break;
+
+ 				case "reset":
+ 					menu_button.set_label("Reset to Default");
  					break;
 
  				case "dipswitch":
@@ -209,6 +216,7 @@ class ConfigMenu {
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
+			case "reset":
 				break;
 
 			case "dipswitch":
@@ -225,6 +233,7 @@ class ConfigMenu {
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
+			case "reset":
 				break;
 
 			case "dipswitch":
@@ -241,8 +250,11 @@ class ConfigMenu {
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
-				this.is_active = false;
 				this.hide();
+				break;
+
+			case "reset":
+				this.reset();
 				break;
 
 			case "dipswitch":
@@ -253,6 +265,19 @@ class ConfigMenu {
 				print("Config action not yet implemented\n");
 		}
 	}
+
+	function reset() {
+		foreach (menu_entry in this.menu_entries) {
+			if (menu_entry["type"] != "dipswitch") {
+				continue;
+			}
+
+			local dipswitch = menu_entry["dipswitch"];
+			dipswitch.reset();
+		}
+
+		this.draw();
+	} 
 
 	function show() {
 		this.is_active = true;
