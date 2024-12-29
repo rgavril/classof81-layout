@@ -13,14 +13,14 @@ class ConfigMenu {
 		debug();
 
 		this.surface = fe.add_surface(1000, 1000);
-		this.surface.set_pos(0, 200);
+		this.surface.set_pos(0, 245);
 
 		# Background
 		this.surface.add_image("images/config_menu.png", 0, 0);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			//local menu_button = ConfigMenuButton(fe, 70, 310+90*i);
-			local menu_button = ConfigMenuButton(this.surface, 70, 110+90*i);
+			local menu_button = ConfigMenuButton(this.surface, 90, 110+90*i);
 			this.menu_buttons.push(menu_button);
 		}
 

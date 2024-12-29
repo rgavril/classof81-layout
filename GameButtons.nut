@@ -6,13 +6,13 @@ class GameButtons {
 
 	is_config_mode = false;
 
-	constructor(x, y) {
+	constructor() {
 		debug()
 
 		# Create the game buttons
 		this.buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local button = GameButton(x, y+125*i);
+			local button = GameButton(20, 295+130*i);
 			this.buttons.push(button);
 		}
 

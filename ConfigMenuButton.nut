@@ -25,16 +25,18 @@ class ConfigMenuButton {
 		this.background_image = this.surface.add_image("images/config_menu_entry.png", 0, 0);
 
 		# Title
-		this.name_label = this.surface.add_text(title, this.background_image.x + 25, this.background_image.y - 1, this.background_image.texture_width - 50, this.background_image.texture_height);
+		this.name_label = this.surface.add_text(title, this.background_image.x, this.background_image.y, this.background_image.texture_width, this.background_image.texture_height);
 		name_label.align = Align.MiddleLeft;
-		name_label.char_size = 32;
+		name_label.margin = 45;
+		name_label.char_size = 29;
 		name_label.style = Style.Bold;
 		name_label.set_rgb(255, 255, 255);
 
 		# Value
-		this.value_label = this.surface.add_text(value, this.background_image.x + 25, this.background_image.y - 1, this.background_image.texture_width - 50, this.background_image.texture_height);
+		this.value_label = this.surface.add_text(value, this.background_image.x, this.background_image.y, this.background_image.texture_width, this.background_image.texture_height);
 		value_label.align = Align.MiddleRight;
-		value_label.char_size = 32;
+		value_label.char_size = 29;
+		value_label.margin = 45;
 		value_label.style = Style.Bold;
 		value_label.set_rgb(255, 255, 255);
 	}

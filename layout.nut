@@ -74,7 +74,7 @@ title.align = Align.TopCentre;
 
 bottom_text <- BottomText();
 local sound_engine = SoundEngine()
-local game_buttons = GameButtons(20, 305);
+local game_buttons = GameButtons();
 local achivement_entries = AchievementEntries(475, 310);
 local config_menu = ConfigMenu();
 
