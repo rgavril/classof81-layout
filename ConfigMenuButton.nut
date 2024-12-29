@@ -22,7 +22,7 @@ class ConfigMenuButton {
 		this.surface.set_pos(x, y);
 		
 		# Background
-		this.background_image = this.surface.add_image("images/config_menu_entry.png", 0, 0);
+		this.background_image = this.surface.add_image("images/config_menu_button.png", 0, 0);
 
 		# Title
 		this.name_label = this.surface.add_text(title, this.background_image.x, this.background_image.y, this.background_image.texture_width, this.background_image.texture_height);
@@ -55,11 +55,11 @@ class ConfigMenuButton {
 		}
 
 		if (this.is_selected) {
-			this.background_image.file_name = "images/config_menu_entry_selected.png"
+			this.background_image.file_name = "images/config_menu_button_selected.png"
 			this.name_label.set_rgb(100, 71, 145)
 			this.value_label.set_rgb(100, 71, 145)
 		} else {
-			this.background_image.file_name = "images/config_menu_entry.png"
+			this.background_image.file_name = "images/config_menu_button.png"
 			this.name_label.set_rgb(255, 255, 255)
 			this.value_label.set_rgb(255, 255, 255)
 		}
