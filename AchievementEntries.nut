@@ -1,52 +1,65 @@
 class AchievementEntries {
 	PAGE_SIZE = 9;       # Number of achivements visible on screen
 
-	list = [];           # Array containing all the achivements
-	selected_idx = 0;    # The index of the selected achivement
-	first_idx = 0;       # The index of the first visible achivement
+	achievements = [];   # Array containing all the achivements
+	select_idx = 0;    # The index of the selected achivement
+	offset_idx = 0;       # The index of the first visible achivement
 
 	entries = [];        # Array containing the achivement entries
 	border_image = null; # Achivements Box Boder
 	is_active = false;   # Whether the list is active or not
 
-	constructor(x, y) {
-		debug()
-
+	constructor()
+	{
 		# Create the achivement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(x, y+80*i);
+			local entry = AchievementEntry(475, 310+80*i);
 			this.entries.push(entry)
 		}
+
+		# Title Shadow
+		local title_shadow = fe.add_text("Retro Achievements", 470+1, 238+1, 460, 50);
+		title_shadow.font = "CriqueGrotesk-Bold.ttf";
+		title_shadow.set_rgb(0,0,0);
+		title_shadow.char_size = 36;
+		title_shadow.align = Align.TopCentre;
+
+		# Title
+		local title = fe.add_text("Retro Achievements", 470, 238, 460, 50);
+		title.font = "CriqueGrotesk-Bold.ttf";
+		title.set_rgb(255,104,181);
+		title.char_size = 36;
+		title.align = Align.TopCentre;
 
 		# Sidebox Border
 		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
 		this.border_image.visible = false;
 
 		# Load and draw the achivements for the current game
-		load(); draw(); desactivate();
+		load(); draw();
 
 		# Add a callback to refresh the list when events take place
 		fe.add_transition_callback(this, "transition_callback");
 		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
-	function transition_callback(ttype, var, transition_time) {
-		debug()
-
+	function transition_callback(ttype, var, transition_time)
+	{
 		if (ttype == Transition.FromOldSelection) {
 			load(); draw();
 		}
 	}
 
-	function key_detect(signal_str) {
+	function key_detect(signal_str)
+	{
 		if (signal_str == "down") {
-			this.move_next();
+			this.down_action();
 			return true;
 		}
 
 		if (signal_str == "up" ) {
-			this.move_prev();
+			this.up_action();
 			return true;
 		}
 
@@ -59,7 +72,8 @@ class AchievementEntries {
 	}
 
 	down_hold_start = 0; up_hold_start = 0;
-	function ticks_callback( tick_time ) {
+	function ticks_callback( tick_time )
+	{
 		# Don't register keys if we're not active
 		if (! this.is_active) { return; }
 
@@ -91,140 +105,130 @@ class AchievementEntries {
 	}
 
 	# Loads the achivements info for the current game
-	function load() {
-		debug()
-
+	function load()
+	{
 		local rom = fe.game_info(Info.Name);
 
 		# Load the load achievements from the list
 		try {
 			local temp = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
-			this.list = temp.Achievements;
+			this.achievements = temp.Achievements;
 			sort();
 
 		# If the achivements list was not loaded correctly (ex: missing or bad format)
 		} catch(e) {
-			this.list = []
+			this.achievements = []
 			hide();
 		}
 
 		# Reset the offset and selected index
-		this.selected_idx = 0;
-		this.first_idx = 0;
+		this.select_idx = 0;
+		this.offset_idx = 0;
 	}
 
 	# Sort the list of achivements
-	function sort() {
-		debug()
-
+	function sort()
+	{
 		local sorted_list = [];
 		local keys = [];
 
-		foreach (key, value in this.list) {
+		foreach (key, value in this.achievements) {
 	    	keys.push(key);
 		}
 		keys.sort();
 
 		for (local i=0; i<keys.len(); i++) {
-			sorted_list.push(this.list[keys[i]]);
+			sorted_list.push(this.achievements[keys[i]]);
 		}
 
-		this.list = sorted_list;
+		this.achievements = sorted_list;
 	}
 
-	function draw() {
-		debug()
-
+	function draw()
+	{
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
-			local list_idx = this.first_idx + i;
+			local visible_idx = this.offset_idx + i;
 
-			# Load the achivement info if there is one
-			if (list_idx < this.list.len()) {
-				local info = this.list[list_idx];
-				entry.load(info);
-
-			# Else hide it from screen
-			} else {
+			# Hide achivement entry if it points to a non existing achivement
+			if (visible_idx >= this.achievements.len()) {
 				entry.hide();
+				continue;
 			}
 
-			# Mark entry as selected, but only when the sidebox is active
-			if (this.is_active && this.selected_idx == list_idx) {
+			# Set the achivement information to the entry
+			local achivement = this.achievements[visible_idx];
+			entry.set_achivement(achivement);
+
+			# Mark entry as selected, but only when the achivements are active
+			if (this.is_active && this.select_idx == visible_idx) {
 				entry.select()
 			} else {
 				entry.deselect();
 			}
-
-			# Toggle background border based on activity
-			this.border_image.visible = this.is_active;
 		}
 
+		# Toggle background border based on activity
+		this.border_image.visible = this.is_active;
+
+		# Update the instrutions bottom text
 		if (this.is_active) {
 			bottom_text.set("Move up or down to browse the Achievements. Press any button to view this Achivement. Move left to play [Title] or a different game.");
 		}
 	}
 
-	function move_next() {
-		debug()
-
+	function down_action()
+	{
 		# If we're at the end of the list, no need to move forward
-		if (this.selected_idx == this.list.len() - 1) {
+		if (this.select_idx == this.achievements.len() - 1) {
 			return;
 		}
 
 		# Select the next element in list
-		this.selected_idx++;
+		this.select_idx++;
 
 		# Scroll the list down if the selection is not visible
-		if (this.selected_idx > this.first_idx + (PAGE_SIZE - 1)) {
-			this.first_idx++;
+		if (this.select_idx > this.offset_idx + (PAGE_SIZE - 1)) {
+			this.offset_idx++;
 		}
 
 		draw();
 	}
 
-	function move_prev() {
-		debug()
-
+	function up_action()
+	{
 		# If we're at the begining of the list, no need to move back
-		if (this.selected_idx == 0) {
+		if (this.select_idx == 0) {
 			return;
 		}
 
 		# Select the previous element in the list
-		this.selected_idx--;
+		this.select_idx--;
 
 		# Scroll the list up if the selection is not visible
-		if (this.selected_idx < this.first_idx) {
-			this.first_idx--;
+		if (this.select_idx < this.offset_idx) {
+			this.offset_idx--;
 		}
 
 		draw();
 	}
 
-	# Hide the achivements
-	function hide() {
-		debug()
-
+	# Hide the achivement entries
+	function hide()
+	{
 		foreach(entry in this.entries) {
 			entry.hide();
 		}
 	}
 
-	function activate() {
-		debug()
-
+	function activate()
+	{
 		this.is_active = true;
-
 		draw();
 	}
 
 	function desactivate() {
-		debug()
-
 		this.is_active = false;
-
 		draw();
 	}
 }

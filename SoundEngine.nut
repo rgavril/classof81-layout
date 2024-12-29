@@ -4,9 +4,8 @@ class SoundEngine {
 	m_click_sounds = [];
 	m_click_channel = 0;
 	
-	constructor() {
-		debug()
-		
+	constructor()
+	{
 		# Initialize the click sounds
 		for (local channel=0; channel<10; channel++) {
 			m_click_sounds.push(fe.add_sound("sounds/click.mp3", false))
@@ -14,9 +13,8 @@ class SoundEngine {
 	}
 
 	# Play a click sound
-	function click() {
-		debug()
-
+	function click()
+	{
 		m_click_sounds[m_click_channel].playing = true;
 		
 		# Rotate to the next channel

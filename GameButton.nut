@@ -15,9 +15,8 @@ class GameButton {
 	is_active = true;
 	is_config_mode = false;
 
-	constructor(x=0, y=0) {
-		debug()
-
+	constructor(x=0, y=0)
+	{
 		# Create surface for drawing onto and position it
 		m_surface = fe.add_surface(500, 300);
 		m_surface.set_pos(x, y);
@@ -63,9 +62,8 @@ class GameButton {
 		draw();
 	}
 
-	function setLogo(filename) {
-		debug()
-
+	function setLogo(filename)
+	{
 		m_logo.file_name = filename
 
 		# Resize the logo
@@ -99,9 +97,8 @@ class GameButton {
 		draw();
 	}
 
-	function draw() {
-		debug()
-
+	function draw()
+	{
 		m_logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
 		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
 
@@ -148,52 +145,43 @@ class GameButton {
 		}
 	}
 
-	function select() {
-		debug()
-
+	function select()
+	{
 		this.is_selected = true;
 		draw();
 	}
 
-	function deselect() {
-		debug()
-
+	function deselect()
+	{
 		this.is_selected = false;
 		draw();
-
 	}
 
-	function hide() {
-		debug()
-
+	function hide()
+	{
 		m_surface.visible = false;
 	}
 
-	function show() {
-		debug()
-
+	function show()
+	{
 		m_surface.visible = true;
 	}
 
-	function activate() {
-		debug()
-
+	function activate()
+	{
 		this.is_active = true;
 		draw();
 	}
 
-	function desactivate() {
-		debug()
-
+	function desactivate()
+	{
 		this.is_active = false;
 		draw();
 	}
 
-	function set_config_mode(is_config_mode) {
-		debug();
-
+	function set_config_mode(is_config_mode)
+	{
 		this.is_config_mode = is_config_mode;
-
 		draw();
 	}
 }

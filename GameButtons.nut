@@ -6,9 +6,8 @@ class GameButtons {
 
 	is_config_mode = false;
 
-	constructor() {
-		debug()
-
+	constructor() 
+	{
 		# Create the game buttons
 		this.buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -24,16 +23,16 @@ class GameButtons {
 		fe.add_transition_callback(this, "transition_callback");
 	}
 
-	function transition_callback(ttype, var, transition_time) {
-		debug()
-
+	function transition_callback(ttype, var, transition_time)
+	{
 		if (ttype == Transition.FromOldSelection) {
 			this.is_config_mode = false;
 			draw();
 		}
 	}
 
-	function key_detect(signal_str) {
+	function key_detect(signal_str)
+	{
 		if (signal_str == "left" && !is_config_mode) {
 			is_config_mode = true;
 			draw();
@@ -50,9 +49,8 @@ class GameButtons {
 		return false;
 	}
 
-	function draw() {
-		debug()
-
+	function draw()
+	{
 		# Calculate the page number
 		local page_number = fe.list.index / PAGE_SIZE
 
@@ -97,17 +95,14 @@ class GameButtons {
 		}
 	}
 
-	function activate() {
-		debug()
-
-		this.is_active = true;
-		
+	function activate()
+	{
+		this.is_active = true;		
 		draw();
 	}
 
-	function desactivate() {
-		debug()
-		
+	function desactivate()
+	{
 		this.is_active = false;
 		draw();
 	}

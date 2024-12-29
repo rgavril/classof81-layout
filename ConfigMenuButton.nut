@@ -17,7 +17,8 @@ class ConfigMenuButton {
 		"method": null
 	}
 
-	constructor(parent_surface, x, y) {
+	constructor(parent_surface, x, y)
+	{
 		this.surface = parent_surface.add_surface(1000, 100);
 		this.surface.set_pos(x, y);
 		
@@ -51,7 +52,8 @@ class ConfigMenuButton {
 		value_label.set_rgb(255, 255, 255);
 	}
 
-	function draw() {
+	function draw() 
+	{
 		this.name_label.msg = name.toupper();
 		this.name_label.align = Align.MiddleCentre;
 		this.value_label.visible = false;
@@ -85,31 +87,37 @@ class ConfigMenuButton {
 		}
 	}
 
-	function set_label(name, value=null) {
+	function set_label(name, value=null)
+	{
 		this.name = name;
 		this.value = value;
 
 		draw();
 	}
 
-	function set_y(value) {
+	function set_y(value)
+	{
 		this.surface.y = value; 
 	}
 
-	function hide() {
+	function hide()
+	{
 		this.surface.visible = false;
 	}
 
-	function show() {
+	function show()
+	{
 		this.surface.visible = true;
 	}
 
-	function select() {
+	function select()
+	{
 		this.is_selected = true;
 		draw();
 	}
 
-	function deselect() {
+	function deselect()
+	{
 		this.is_selected = false;
 		draw();
 	}

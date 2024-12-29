@@ -9,9 +9,8 @@ class ConfigMenu {
 	menu_buttons = [];
 	is_active = false;
 
-	constructor() {
-		debug();
-
+	constructor()
+	{
 		this.surface = fe.add_surface(1000, 1000);
 		this.surface.set_pos(0, 245);
 
@@ -35,15 +34,15 @@ class ConfigMenu {
 		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
-	function transition_callback(ttype, var, transition_time) {
-		debug()
-
+	function transition_callback(ttype, var, transition_time)
+	{
 		if (ttype == Transition.FromOldSelection) {
 			load(); draw();
 		}
 	}
 
-	function key_detect(signal_str) {
+	function key_detect(signal_str)
+	{
 		if (signal_str == "down") {
 			this.down_action();
 			return true;
@@ -74,7 +73,8 @@ class ConfigMenu {
 
 	# We use this callback to move trough menu buttons when a key is hold
 	down_hold_start = 0; up_hold_start = 0;
-	function ticks_callback( tick_time ) {
+	function ticks_callback( tick_time ) 
+	{
 		# Don't register keys if we're not active
 		if (! this.is_active) { return; }
 
@@ -105,8 +105,8 @@ class ConfigMenu {
 		}
 	}
 
-	function load() {
-		debug();
+	function load() 
+	{
 		local rom = fe.game_info(Info.Name);
 
 		# Clear old menu entries
@@ -129,9 +129,8 @@ class ConfigMenu {
 		this.offset_idx = 0;
 	}
 
-	function draw() {
-		debug();
-
+	function draw() 
+	{
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local menu_button = this.menu_buttons[i]
 			local visible_idx = i + this.offset_idx;
@@ -183,9 +182,8 @@ class ConfigMenu {
 		}
 	}
 
-	function down_action() {
-		debug();
-
+	function down_action() 
+	{
 		# If we're at the end of the list, no need to move forward
 		if (this.select_idx + 1 == this.menu_entries.len()) {
 			return;
@@ -202,9 +200,8 @@ class ConfigMenu {
 		draw();
 	}
 
-	function up_action() {
-		debug()
-
+	function up_action()
+	{
 		# If we're at the begining of the list, no need to move back
 		if (this.select_idx == 0) {
 			return;
@@ -221,7 +218,8 @@ class ConfigMenu {
 		draw();
 	}
 
-	function right_action() {
+	function right_action()
+	{
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
@@ -238,7 +236,8 @@ class ConfigMenu {
 		draw();
 	}
 
-	function left_action() {
+	function left_action()
+	{
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
@@ -255,7 +254,8 @@ class ConfigMenu {
 		draw();
 	}
 
-	function select_action() {
+	function select_action()
+	{
 		local menu_entry = menu_entries[select_idx];
 		switch (menu_entry["type"]) {
 			case "hide":
@@ -275,7 +275,8 @@ class ConfigMenu {
 		}
 	}
 
-	function reset() {
+	function reset()
+	{
 		foreach (menu_entry in this.menu_entries) {
 			if (menu_entry["type"] != "dipswitch") {
 				continue;
@@ -288,7 +289,8 @@ class ConfigMenu {
 		this.draw();
 	} 
 
-	function show() {
+	function show()
+	{
 		this.is_active = true;
 		this.surface.visible = true;
 
@@ -298,7 +300,8 @@ class ConfigMenu {
         draw();
 	}
 
-	function hide() {
+	function hide()
+	{
 		this.is_active = false;
 		this.surface.visible = false;
 	}
