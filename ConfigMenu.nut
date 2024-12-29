@@ -107,8 +107,10 @@ class ConfigMenu {
 
 	function load() {
 		debug();
-
 		local rom = fe.game_info(Info.Name);
+
+		# Clear old menu entries
+		this.menu_entries = [];
 
 		# Add hide menu entry
 		this.menu_entries.push({ "type": "hide" });
