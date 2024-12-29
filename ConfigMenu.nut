@@ -1,9 +1,9 @@
 class ConfigMenu {
 	PAGE_SIZE = 7;
 
-	dip_switches = [];
-	first_idx = 0;
-	selected_idx = 0;
+	menu_entries = [];
+	offset_idx = 0;
+	select_idx = 0;
 
 	surface = [];
 	menu_buttons = [];
@@ -72,6 +72,7 @@ class ConfigMenu {
 		return false;
 	}
 
+	# We use this callback to move trough menu buttons when a key is hold
 	down_hold_start = 0; up_hold_start = 0;
 	function ticks_callback( tick_time ) {
 		# Don't register keys if we're not active
@@ -109,12 +110,18 @@ class ConfigMenu {
 
 		local rom = fe.game_info(Info.Name);
 
-		# Load the load dip switches for the current game
-		dip_switches = FBNeoDipSwitches(rom);
+		# Add hide menu entry
+		this.menu_entries.push({ "type": "hide" });
+
+		# Add dipswitch menu entries
+		local dipswitches = FBNeoDipSwitches(rom);
+		for (local i=0; i<dipswitches.len(); i++) {
+			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitches.get(i) });
+		}
 
 		# Reset the offset and selected index
-		this.selected_idx = 0;
-		this.first_idx = 0;
+		this.select_idx = 0;
+		this.offset_idx = 0;
 	}
 
 	function draw() {
@@ -122,29 +129,35 @@ class ConfigMenu {
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local menu_button = this.menu_buttons[i]
-			local visible_idx = i + this.first_idx;
+			local visible_idx = i + this.offset_idx;
 
 			# Mark menu item if is selected
-			 if (this.selected_idx == visible_idx) {
+			 if (this.select_idx == visible_idx) {
  				menu_button.select();
  			} else {
  				menu_button.deselect();
  			}
 
- 			# Add the special 'hide' menu entry on position 0
-			if (visible_idx == 0) {
-				menu_button.set_label("HIDE THIS MENU");
-				continue;
-			}
+ 			# Hide menu buttons that don't have a menu entry assigned
+ 			if (visible_idx >= menu_entries.len()) {
+ 				menu_button.hide();
+ 				continue;
+ 			} else {
+ 				menu_button.show();
+ 			}
 
-			# If there is a dipswitch to show on this position
-			if (visible_idx-1 < dip_switches.len()) {
-				local dip_switch = this.dip_switches.get(visible_idx-1);
-				menu_button.set_label(dip_switch.name, dip_switch.value());
-				menu_button.show();
-			} else {
-				menu_button.hide();
-			}
+ 			# Change the menu button to reflect visible menu entries
+ 			local menu_entry = menu_entries[visible_idx];
+ 			switch (menu_entry["type"]) {
+ 				case "hide":
+ 					menu_button.set_label("HIDE THIS MENU");
+ 					break;
+
+ 				case "dipswitch":
+ 					local dipswitch = menu_entry.dipswitch;
+ 					menu_button.set_label(dipswitch.name, dipswitch.value());
+ 					break;
+ 			}
 		}
 
 		if (this.is_active) {
@@ -156,16 +169,16 @@ class ConfigMenu {
 		debug();
 
 		# If we're at the end of the list, no need to move forward
-		if (this.selected_idx == this.dip_switches.len()) {
+		if (this.select_idx + 1 == this.menu_entries.len()) {
 			return;
 		}
 
 		# Select the next element in list
-		this.selected_idx++;
+		this.select_idx++;
 
 		# Scroll the list down if the selection is not visible
-		if (this.selected_idx > this.first_idx + PAGE_SIZE - 1) {
-			this.first_idx++;
+		if (this.select_idx > this.offset_idx + PAGE_SIZE - 1) {
+			this.offset_idx++;
 		}
 
 		draw();
@@ -175,49 +188,67 @@ class ConfigMenu {
 		debug()
 
 		# If we're at the begining of the list, no need to move back
-		if (this.selected_idx == 0) {
+		if (this.select_idx == 0) {
 			return;
 		}
 
 		# Select the previous element in the list
-		this.selected_idx--;
+		this.select_idx--;
 
 		# Scroll the list up if the selection is not visible
-		if (this.selected_idx < this.first_idx) {
-			this.first_idx--;
+		if (this.select_idx < this.offset_idx) {
+			this.offset_idx--;
 		}
 
 		draw();
 	}
 
 	function right_action() {
-		if (this.selected_idx == 0) {
-			return;
+		local menu_entry = menu_entries[select_idx];
+		switch (menu_entry["type"]) {
+			case "hide":
+				break;
+
+			case "dipswitch":
+				menu_entry["dipswitch"].move_to_next_value();
+				break;
+				
+			default:
+				print("Config action not yet implemented\n");
 		}
-
-		local dip_switch = dip_switches.get(this.selected_idx-1);
-		dip_switch.move_to_next_value();
-
 		draw();
 	}
 
 	function left_action() {
-		if (this.selected_idx == 0) {
-			return;
+		local menu_entry = menu_entries[select_idx];
+		switch (menu_entry["type"]) {
+			case "hide":
+				break;
+
+			case "dipswitch":
+				menu_entry["dipswitch"].move_to_prev_value();
+				break;
+				
+			default:
+				print("Config action not yet implemented\n");
 		}
-
-		local dip_switch = dip_switches.get(this.selected_idx-1);
-		dip_switch.move_to_prev_value();
-
 		draw();
 	}
 
 	function select_action() {
-		if (selected_idx == 0) {
-			this.is_active = false;
-			this.hide();
-		} else {
-			print("Config action not yet implemented\n");
+		local menu_entry = menu_entries[select_idx];
+		switch (menu_entry["type"]) {
+			case "hide":
+				this.is_active = false;
+				this.hide();
+				break;
+
+			case "dipswitch":
+				print("Config action not yet implemented\n");
+				break;
+
+			default:
+				print("Config action not yet implemented\n");
 		}
 	}
 
