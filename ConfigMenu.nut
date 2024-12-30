@@ -267,7 +267,10 @@ class ConfigMenu {
 				break;
 
 			case "dipswitch":
-				print("Config action not yet implemented\n");
+				local dipswitch = menu_entry["dipswitch"]; 
+				popup_options.set_options(dipswitch.values, dipswitch.current_idx);
+				popup_options.set_title(dipswitch.name);
+				popup_options.show();
 				break;
 
 			default:

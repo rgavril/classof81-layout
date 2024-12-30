@@ -13,18 +13,18 @@ fe.layout.font = "CriqueGrotesk.ttf";
 fe.load_module("file");
 fe.load_module("animate");
 
-dofile(fe.script_dir + "/modules/retroarch-config.nut");
-dofile(fe.script_dir + "/modules/fbneo-dipswitches.nut");
-dofile(fe.script_dir + "utils.nut");
-dofile(fe.script_dir + "BottomText.nut");
-dofile(fe.script_dir + "GameButton.nut");
-dofile(fe.script_dir + "GameButtons.nut");
-dofile(fe.script_dir + "AchievementEntry.nut");
-dofile(fe.script_dir + "AchievementEntries.nut");
-dofile(fe.script_dir + "ConfigMenu.nut");
-dofile(fe.script_dir + "ConfigMenuButton.nut");
-dofile(fe.script_dir + "PopupOptions.nut");
-dofile(fe.script_dir + "SoundEngine.nut");
+fe.do_nut("modules/retroarch-config.nut");
+fe.do_nut("modules/fbneo-dipswitches.nut");
+fe.do_nut("utils.nut");
+fe.do_nut("BottomText.nut");
+fe.do_nut("GameButton.nut");
+fe.do_nut("GameButtons.nut");
+fe.do_nut("AchievementEntry.nut");
+fe.do_nut("AchievementEntries.nut");
+fe.do_nut("ConfigMenu.nut");
+fe.do_nut("ConfigMenuButton.nut");
+fe.do_nut("PopupOptions.nut");
+fe.do_nut("SoundEngine.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -48,53 +48,15 @@ local sound_engine = SoundEngine()
 local game_buttons = GameButtons();
 local achivement_entries = AchievementEntries();
 local config_menu = ConfigMenu();
-local popup_options = PopupOptions();
-
-function test_design() {
-	// local marquee = fe.add_artwork("flyer", 480+50, 540);
-	// marquee.width = 440-100;
-	// // marquee.height = 177;
-	// marquee.preserve_aspect_ratio = true;
-
-	// local snap = fe.add_artwork("snap", 480+15, 240+120);
-	// snap.width = 440-30;
-	// snap.height = snap.width*4/3;
-	// snap.height = 830-177;
-	// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
-	// snap.alpha = 100;
-	// snap.preserve_aspect_ratio = true;
-
-	// local snap2 = fe.add_artwork("snap", 480+15, 240+120);
-	// snap2.width = 440-30;
-	// snap2.height = snap2.width*4/3;
-	// snap2.alpha = 50;
-	// snap2.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
-
-	local lines = [
-		// {"title": "Title", "value": "[Title]"},
-		// {"title": "Year", "value": "[Year] [Manufacturer]"},
-		// {"title": "By", "value": "[Manufacturer]"},
-		// {"title": "PlayedTime", "value": "[PlayedTime]"},
-		// {"title": "PlayedCount", "value": "[PlayedCount]"},
-		// {"title": "ListEntry", "value": "[ListEntry] / [ListSize]"},
-	];
-	foreach (i,line in lines) {
-		local title = fe.add_text(line["value"], 480, 290+35*i, 440, 42);
-		title.set_rgb(255,252,103);
-		title.char_size = 28;
-		title.align = Align.TopCentre;
-
-		// local padding = 100;
-		// local value = fe.add_text(line["value"], 480+padding, 350+35*i, 440-padding, 42);
-		// value.set_rgb(255,255,255);
-		// value.char_size = 28;
-		// value.align = Align.TopRight;
-	}
-}
-test_design();
+popup_options <- PopupOptions();
 
 function key_detect(signal_str) {
 	// sound_engine.click(); <-- This fucker gives us segfaults ?
+	if (popup_options.is_active) {
+		if (popup_options.key_detect(signal_str)) {
+			return true;
+		}
+	}
 
 	# If Achivements is Active
 	if (achivement_entries.is_active) {

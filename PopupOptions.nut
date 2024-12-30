@@ -13,6 +13,7 @@ class PopupOptions {
 		// "20,000 and every 80,000",
 		// "None"
 	];
+	select_idx = 0;
 
 	surface = null;
 	background_top = null;
@@ -23,14 +24,20 @@ class PopupOptions {
 	options_background = [];
 	options_text = [];
 
+	is_active = true;
+
 	function constructor()
 	{
 		this.surface = fe.add_surface(1000, 1280);
 		this.surface.set_pos(0, 0);
+		this.surface.visible = false;
+
+		this.select_idx = 0;
+		this.options = [];
+		this.is_active = false;
 
 		# Background
 		this.background_top = this.surface.add_image("images/popup_menu.png", 0, 0);
-
 		this.background_bottom = this.surface.add_clone(this.background_top);
 
 		# Title
@@ -60,6 +67,26 @@ class PopupOptions {
 		draw();
 	}
 
+	function key_detect(signal_str)
+	{
+		if (signal_str == "down") {
+			this.down_action();
+			return true;
+		}
+
+		if (signal_str == "up" ) {
+			this.up_action();
+			return true;
+		}
+
+		if (signal_str == "select") {
+			this.select_action();
+			return true;
+		}
+
+		return true;
+	}
+
 	function draw()
 	{
 		# Update title
@@ -77,6 +104,13 @@ class PopupOptions {
 			options_text[idx].visible = true;
 
 			options_background[idx].visible = true;
+
+			# Draw Selections
+			if (this.select_idx == idx) {
+				this.options_text[idx].set_rgb(0,0,0);
+			} else {
+				this.options_text[idx].set_rgb(255, 255, 255);
+			}
 		}
 
 		# Hide the unused top backgroun image
@@ -87,7 +121,57 @@ class PopupOptions {
 		this.background_bottom.subimg_y = this.background_bottom.texture_height - 75;
 		this.background_bottom.y = visible_height;
 
-		# Set surface hieght so we can center it
+		# Set surface origin so that is centered
 		this.surface.origin_y = (visible_height+75-1280)/2;
+	}
+
+	function set_options(options, select_idx) {
+		this.options = options;
+		this.select_idx = select_idx;
+	}
+
+	function set_title(title)
+	{
+		this.title = title;
+	}
+
+	function show()
+	{
+		this.surface.visible = true;
+		this.is_active = true;
+
+		draw();
+	}
+
+	function down_action()
+	{
+		# If we're at the end of the list, no need to move forward
+		if (this.select_idx + 1 == this.options.len()) {
+			return;
+		}
+
+		# Select the next element in list
+		this.select_idx++;
+
+		draw();
+	}
+
+	function up_action()
+	{
+		# If we're at the begining of the list, no need to move back
+		if (this.select_idx == 0) {
+			return;
+		}
+
+		# Select the previous element in the list
+		this.select_idx--;
+
+		draw();
+	}
+
+	function select_action()
+	{
+		this.surface.visible = false;
+		this.is_active = false;
 	}
 }
