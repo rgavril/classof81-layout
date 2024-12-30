@@ -33,37 +33,18 @@ class ConfigMenu {
 
 	function key_detect(signal_str)
 	{
-		if (signal_str == "down") {
-			this.down_action();
-			return true;
+		switch (signal_str)
+		{
+			case "down"   : this.down_action()   ; break;
+			case "up"     : this.up_action()     ; break;
+			case "select" : this.select_action() ; break;
+			case "left"   : this.left_action()   ; break;
+			case "right"  : this.right_action()  ; break;
+			case "custom1": this.custom1_action() ;break;
+			default:
+				return false;
 		}
-
-		if (signal_str == "up" ) {
-			this.up_action();
-			return true;
-		}
-
-		if (signal_str == "select") {
-			this.select_action();
-			return true;
-		}
-
-		if (signal_str == "left") {
-			this.left_action();
-			return true;
-		}
-
-		if (signal_str == "right") {
-			this.right_action();
-			return true;
-		}
-
-		if (signal_str == "custom1") {
-			this.custom1_action();
-			return true;
-		}
-
-		return false;
+		return true;
 	}
 
 	# We use this callback to move trough menu buttons when a key is hold
