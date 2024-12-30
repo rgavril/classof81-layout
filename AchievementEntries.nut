@@ -1,5 +1,5 @@
 class AchievementEntries {
-	PAGE_SIZE = 9;       # Number of achivements visible on screen
+	PAGE_SIZE = 8;       # Number of achivements visible on screen
 
 	achievements = [];   # Array containing all the achivements
 	select_idx = 0;    # The index of the selected achivement
@@ -7,6 +7,7 @@ class AchievementEntries {
 
 	entries = [];        # Array containing the achivement entries
 	border_image = null; # Achivements Box Boder
+	missing_message = null;
 	is_active = false;   # Whether the list is active or not
 
 	constructor()
@@ -14,27 +15,41 @@ class AchievementEntries {
 		# Create the achivement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(475, 310+80*i);
+			local entry = AchievementEntry(475, 360+80*i);
 			this.entries.push(entry)
 		}
 
 		# Title Shadow
-		local title_shadow = fe.add_text("Retro Achievements", 470+1, 238+1, 460, 50);
+		local title_shadow = fe.add_text("[!TitleFormated]", 470+1, 238+1, 460, 50);
 		title_shadow.font = "CriqueGrotesk-Bold.ttf";
 		title_shadow.set_rgb(0,0,0);
 		title_shadow.char_size = 36;
 		title_shadow.align = Align.TopCentre;
 
 		# Title
-		local title = fe.add_text("Retro Achievements", 470, 238, 460, 50);
+		local title = fe.add_text("[!TitleFormated]", 470, 238, 460, 50);
 		title.font = "CriqueGrotesk-Bold.ttf";
 		title.set_rgb(255,104,181);
 		title.char_size = 36;
 		title.align = Align.TopCentre;
 
+		# Subtitle
+		local subtitle = fe.add_text("[Year] [Manufacturer]", 480, 290, 440, 42);
+		subtitle.set_rgb(255,252,103);
+		subtitle.char_size = 28;
+		subtitle.align = Align.TopCentre;
+
 		# Sidebox Border
 		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
 		this.border_image.visible = false;
+
+		# No Achivements Message
+		this.missing_message = fe.add_text("This game has no\nRetro Achivements!", 480, 450, 440, 320);
+		this.missing_message.char_size = 30;
+		this.missing_message.line_spacing = 1.2;
+		this.missing_message.align = Align.MiddleCentre;
+		this.missing_message.word_wrap = true;
+		this.missing_message.visible = false;
 
 		# Load and draw the achivements for the current game
 		load(); draw();
@@ -147,6 +162,8 @@ class AchievementEntries {
 	function draw()
 	{
 		for (local i=0; i<PAGE_SIZE; i++) {
+			//continue;
+			
 			local entry = this.entries[i];
 			local visible_idx = this.offset_idx + i;
 
@@ -166,6 +183,12 @@ class AchievementEntries {
 			} else {
 				entry.deselect();
 			}
+		}
+
+		if (this.achievements.len() == 0) {
+			this.missing_message.visible = true;
+		} else {
+			this.missing_message.visible = false;
 		}
 
 		# Toggle background border based on activity

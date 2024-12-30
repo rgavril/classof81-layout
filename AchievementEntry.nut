@@ -31,14 +31,12 @@ class AchievementEntry {
 		# Description of the achievement
 		this.description_label = this.surface.add_text("", text_x, text_y, 370, 85);
 		this.description_label.char_size = 26;
-		this.description_label.char_spacing = 0.8;
 		this.description_label.align = Align.TopLeft;
 		this.description_label.word_wrap = true;
 
 		# Title of the achievement
 		this.title_label = this.surface.add_text("", text_x, text_y, 370, 85);
 		this.title_label.char_size = 26;
-		this.title_label.char_spacing = 0.8;
 		this.title_label.align = Align.TopLeft;
 		this.title_label.word_wrap = false;
 		this.title_label.set_rgb(255,252,103);

@@ -21,3 +21,8 @@ function str_replace(search, replace, subject)
 	}
 	return value;
 }
+
+function TitleFormated() {
+	local title = fe.game_info( Info.Title );
+	return split(title, "(")[0];
+}
