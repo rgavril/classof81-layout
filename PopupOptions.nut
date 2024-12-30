@@ -107,7 +107,7 @@ class PopupOptions {
 
 			# Draw Selections
 			if (this.select_idx == idx) {
-				this.options_text[idx].set_rgb(0,0,0);
+				this.options_text[idx].set_rgb(100, 71, 145);
 			} else {
 				this.options_text[idx].set_rgb(255, 255, 255);
 			}
@@ -173,5 +173,7 @@ class PopupOptions {
 	{
 		this.surface.visible = false;
 		this.is_active = false;
+
+		fe.signal("custom1");
 	}
 }

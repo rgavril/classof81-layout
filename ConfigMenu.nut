@@ -68,6 +68,11 @@ class ConfigMenu {
 			return true;
 		}
 
+		if (signal_str == "custom1") {
+			this.custom1_action();
+			return true;
+		}
+
 		return false;
 	}
 
@@ -173,6 +178,7 @@ class ConfigMenu {
  				case "dipswitch":
  					local dipswitch = menu_entry.dipswitch;
  					menu_button.set_label(dipswitch.name, dipswitch.value());
+ 					// print(dipswitch.name + " : " + dipswitch.value() + "\n");
  					break;
  			}
 		}
@@ -273,6 +279,19 @@ class ConfigMenu {
 				popup_options.show();
 				break;
 
+			default:
+				print("Config action not yet implemented\n");
+		}
+	}
+
+	function custom1_action()
+	{
+		local menu_entry = menu_entries[select_idx];
+		switch (menu_entry["type"]) {
+			case "dipswitch":
+				menu_entry["dipswitch"].set(popup_options.select_idx);
+				draw();
+				break;
 			default:
 				print("Config action not yet implemented\n");
 		}
