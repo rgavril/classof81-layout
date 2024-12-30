@@ -23,6 +23,7 @@ dofile(fe.script_dir + "AchievementEntry.nut");
 dofile(fe.script_dir + "AchievementEntries.nut");
 dofile(fe.script_dir + "ConfigMenu.nut");
 dofile(fe.script_dir + "ConfigMenuButton.nut");
+dofile(fe.script_dir + "PopupOptions.nut");
 dofile(fe.script_dir + "SoundEngine.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
@@ -47,6 +48,7 @@ local sound_engine = SoundEngine()
 local game_buttons = GameButtons();
 local achivement_entries = AchievementEntries();
 local config_menu = ConfigMenu();
+local popup_options = PopupOptions();
 
 function test_design() {
 	// local marquee = fe.add_artwork("flyer", 480+50, 540);
