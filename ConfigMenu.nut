@@ -23,22 +23,12 @@ class ConfigMenu {
 			this.menu_buttons.push(menu_button);
 		}
 
-		this.load(); 
+		this.load();
 		this.draw();
-		this.hide();		
-
-		# Add a callback to refresh the list when events take place
-		fe.add_transition_callback(this, "transition_callback");
+		this.hide();
 
 		# Add a tick call back to resend key events as long as a key is pressed
 		fe.add_ticks_callback(this, "ticks_callback");
-	}
-
-	function transition_callback(ttype, var, transition_time)
-	{
-		if (ttype == Transition.FromOldSelection) {
-			load(); draw();
-		}
 	}
 
 	function key_detect(signal_str)
@@ -316,10 +306,11 @@ class ConfigMenu {
 		this.is_active = true;
 		this.surface.visible = true;
 
+		load();
+		draw();
+
         local enlarge = {property = "scale", start=0.1, end=1, time = 300, 	tween = Tween.Quart}
         animation.add(PropertyAnimation(this.surface, enlarge));
-		
-        draw();
 	}
 
 	function hide()
