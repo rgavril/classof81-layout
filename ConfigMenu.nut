@@ -287,8 +287,8 @@ class ConfigMenu {
 		this.is_active = true;
 		this.surface.visible = true;
 
-		load();
-		draw();
+		this.load();
+		this.draw();
 
         local enlarge = {property = "scale", start=0.1, end=1, time = 300, 	tween = Tween.Quart}
         animation.add(PropertyAnimation(this.surface, enlarge));

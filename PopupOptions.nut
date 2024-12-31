@@ -1,18 +1,7 @@
 
 class PopupOptions {
-	title = "BONUS";
-	options = [
-		"Yes",
-		"No"
-		// "20,000 and 70,000",
-		// "20,000 and 60,000",
-		// "20,000 and 80,000",
-		// "30,000 and 100,000",
-		// "20,000",
-		// "20,000 and every 70,000",
-		// "20,000 and every 80,000",
-		// "None"
-	];
+	title = "";
+	options = [];
 	select_idx = 0;
 
 	surface = null;
@@ -20,7 +9,7 @@ class PopupOptions {
 	background_bottom = null;
 	title_label = null;
 
-	MAX_OPTIONS = 10;
+	MAX_OPTIONS = 15;
 	options_background = [];
 	options_text = [];
 
@@ -65,25 +54,18 @@ class PopupOptions {
 		}
 
 		draw();
+
+		fe.add_ticks_callback(this, "ticks_animate");
 	}
 
 	function key_detect(signal_str)
 	{
-		if (signal_str == "down") {
-			this.down_action();
-			return true;
+		switch (signal_str)
+		{
+			case "down"   : this.down_action()   ; break;
+			case "up"     : this.up_action()     ; break;
+			case "select" : this.select_action() ; break;	
 		}
-
-		if (signal_str == "up" ) {
-			this.up_action();
-			return true;
-		}
-
-		if (signal_str == "select") {
-			this.select_action();
-			return true;
-		}
-
 		return true;
 	}
 
@@ -100,12 +82,19 @@ class PopupOptions {
 
 		# Now create and show options that are active
 		foreach(idx,option in this.options) {
+			if (idx >= this.MAX_OPTIONS) {
+				print("WARNING: Popup cannot display all options.");
+				break;
+			}
+
+			# Set the text of the option
 			options_text[idx].msg = option;
 			options_text[idx].visible = true;
 
+			# Show the option
 			options_background[idx].visible = true;
 
-			# Draw Selections
+			# Set it as seletion state of the option
 			if (this.select_idx == idx) {
 				this.options_text[idx].set_rgb(100, 71, 145);
 			} else {
@@ -137,42 +126,43 @@ class PopupOptions {
 
 	function show()
 	{
-		this.surface.visible = true;
 		this.is_active = true;
+		this.draw();
 
-		draw();
+		local startY = (this.options.len() * 50 + 170) / 2;
+        animation.add(PropertyAnimation(this.surface, {property = "y", start=startY, time = 300, tween = Tween.Quart}));
+        animation.add(PropertyAnimation(this.surface, {property = "height", start=0, time = 300, center={x=0,y=500}, tween = Tween.Quart}));
+
+		this.surface.visible = true;
+	}
+
+	function hide()
+	{
+		this.is_active = false;
+		this.surface.visible = false;
+
+        //animation.add(PropertyAnimation(this.surface,{property = "y", start=0, end=-1000, time = 300, tween = Tween.Quart}));
 	}
 
 	function down_action()
 	{
-		# If we're at the end of the list, no need to move forward
-		if (this.select_idx + 1 == this.options.len()) {
-			return;
+		if (this.select_idx + 1 in this.options) {
+			this.select_idx += 1;
+			draw();
 		}
-
-		# Select the next element in list
-		this.select_idx++;
-
-		draw();
 	}
 
 	function up_action()
 	{
-		# If we're at the begining of the list, no need to move back
-		if (this.select_idx == 0) {
-			return;
+		if (this.select_idx - 1 in this.options) {
+			this.select_idx -= 1;
+			draw();
 		}
-
-		# Select the previous element in the list
-		this.select_idx--;
-
-		draw();
 	}
 
 	function select_action()
 	{
-		this.surface.visible = false;
-		this.is_active = false;
+		this.hide();
 
 		fe.signal("custom1");
 	}
