@@ -97,8 +97,10 @@ class PopupOptions {
 			# Set it as seletion state of the option
 			if (this.select_idx == idx) {
 				this.options_text[idx].set_rgb(100, 71, 145);
+				this.options_background[idx].file_name = "images/popup_option_selected.png";
 			} else {
 				this.options_text[idx].set_rgb(255, 255, 255);
+				this.options_background[idx].file_name = "images/popup_option.png";
 			}
 		}
 
@@ -130,8 +132,9 @@ class PopupOptions {
 		this.draw();
 
 		local startY = (this.options.len() * 50 + 170) / 2;
-        animation.add(PropertyAnimation(this.surface, {property = "y", start=startY, time = 300, tween = Tween.Quart}));
-        animation.add(PropertyAnimation(this.surface, {property = "height", start=0, time = 300, center={x=0,y=500}, tween = Tween.Quart}));
+        animation.add(PropertyAnimation(this.surface, {property = "y", start=startY, time = 150, tween = Tween.Quart}));
+        animation.add(PropertyAnimation(this.surface, {property = "height", start=0, time = 150, center={x=0,y=500}, tween = Tween.Quart}));
+        animation.add(PropertyAnimation(this.surface, {property = "alpha", start=0, end=255, time = 150, tween = Tween.Quart}));
 
 		this.surface.visible = true;
 	}
@@ -139,9 +142,9 @@ class PopupOptions {
 	function hide()
 	{
 		this.is_active = false;
-		this.surface.visible = false;
+		// this.surface.visible = false;
 
-        //animation.add(PropertyAnimation(this.surface,{property = "y", start=0, end=-1000, time = 300, tween = Tween.Quart}));
+        animation.add(PropertyAnimation(this.surface,{property = "alpha", start=255, end=0, time = 200, tween = Tween.Quart}));
 	}
 
 	function down_action()
