@@ -149,7 +149,6 @@ class ConfigMenu {
  				case "dipswitch":
  					local dipswitch = menu_entry.dipswitch;
  					menu_button.set_label(dipswitch.name, dipswitch.value());
- 					// print(dipswitch.name + " : " + dipswitch.value() + "\n");
  					break;
  			}
 		}
@@ -248,6 +247,7 @@ class ConfigMenu {
 				popup_options.set_options(dipswitch.values, dipswitch.current_idx);
 				popup_options.set_title(dipswitch.name);
 				popup_options.show();
+				this.draw();
 				break;
 
 			default:

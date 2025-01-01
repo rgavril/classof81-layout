@@ -123,7 +123,7 @@ class PopupOptions {
 
 	function set_title(title)
 	{
-		this.title = title;
+		this.title = title.toupper();
 	}
 
 	function show()

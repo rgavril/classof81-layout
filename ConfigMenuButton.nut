@@ -12,11 +12,6 @@ class ConfigMenuButton {
 
 	is_selected = false;
 
-	on_select = {
-		"obj": null,
-		"method": null
-	}
-
 	constructor(parent_surface, x, y)
 	{
 		this.surface = parent_surface.add_surface(1000, 100);
@@ -78,8 +73,13 @@ class ConfigMenuButton {
 
 		if (this.is_selected) {
 			this.background_image.file_name = "images/config_menu_button_selected.png"
-			this.name_label.set_rgb(100, 71, 145)
-			this.value_label.set_rgb(100, 71, 145)
+			if (popup_options && popup_options.is_active) {
+				this.name_label.set_rgb(255, 255, 255)
+				this.value_label.set_rgb(255, 255, 255)
+			} else {
+				this.name_label.set_rgb(100, 71, 145)
+				this.value_label.set_rgb(100, 71, 145)
+			}
 		} else {
 			this.background_image.file_name = "images/config_menu_button.png"
 			this.name_label.set_rgb(255, 255, 255)

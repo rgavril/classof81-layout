@@ -43,6 +43,7 @@ fe.do_nut("SoundEngine.nut");
 # Background Image
 fe.add_image("images/background.png", 0, 0);
 
+popup_options <- null;
 bottom_text <- BottomText();
 local sound_engine = SoundEngine()
 local game_buttons = GameButtons();
