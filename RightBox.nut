@@ -4,6 +4,10 @@ class RightBox
 	border_image = null;
 	connection_bar = null;
 
+	overview_surface = null;
+	overview_window = null;
+	overview_text = null;
+
 	constructor()
 	{
 
@@ -13,7 +17,7 @@ class RightBox
 		snap.height = snap.width * 4/3;
 		snap.x = 475;
 		snap.y = 235+840 - snap.height;
-		snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
+		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		fe.add_image("images/test.png", 475, 235);
 
 
@@ -46,28 +50,26 @@ class RightBox
 		this.connection_bar.origin_x = this.connection_bar.texture_width;
 		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
 		this.connection_bar.visible = true;
-		
-		# Add a callback to refresh the buttons when events take place
-		fe.add_transition_callback(this, "transition_callback");
-
-
-		# Shadow
-		local shadow = fe.add_text("[Overview]", 475+2, 235+80+2, 450, 600);
-		shadow.align = Align.TopLeft;
-		shadow.char_size = 26;
-		shadow.word_wrap = true;
-		shadow.margin = 20;
-		shadow.set_rgb(0, 0, 0);
 
 		# Overview
-		local overview = fe.add_text(shadow.msg, 475, 235+80, 450, 600);
-		overview.align = Align.TopLeft;
-		overview.char_size = 26;
-		overview.word_wrap = true;
-		overview.margin = 20;
-		overview.set_rgb(255, 252, 103);
+		this.overview_window = fe.add_surface(450, 840-60-50);
+		this.overview_window.set_pos(475, 235+60);
+
+		this.overview_surface = this.overview_window.add_surface(450, 5000);
+		this.overview_text = this.overview_surface.add_text("[Overview]", 0, 0, 450, this.overview_window.height);
+		overview_text.align = Align.TopLeft;
+		overview_text.char_size = 26;
+		overview_text.word_wrap = true;
+		overview_text.margin = 20;
+		overview_text.set_rgb(255, 252, 103);
 
 		draw();
+
+		# Add a callback to refresh the buttons when events take place
+		fe.add_transition_callback(this, "transition_callback");
+		
+		# Add a tick call back to resend key events as long as a key is pressed
+		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
 	function transition_callback(ttype, var, transition_time)
@@ -79,7 +81,48 @@ class RightBox
 
 	function key_detect(signal_str)
 	{
+		switch (signal_str)
+		{
+			case "down"   : this.down_action()   ; break;
+			case "up"     : this.up_action()     ; break;
+			default:
+				return false;
+		}
+		return true;
+	}
 
+	# We use this callback to move trough menu buttons when a key is hold
+	down_hold_start = 0; up_hold_start = 0;
+	function ticks_callback( tick_time ) 
+	{
+		# Don't register keys if we're not active
+		if (! this.is_active) { return; }
+
+		if (fe.get_input_state("down")) { 
+			if (down_hold_start == 0) {
+				down_hold_start = tick_time + 500;
+			}
+
+			if (tick_time - down_hold_start > 100) {
+				down_hold_start = tick_time;
+				this.key_detect("down");
+			}
+		} else {
+			down_hold_start = 0;
+		}
+
+		if (fe.get_input_state("up")) { 
+			if (up_hold_start == 0) {
+				up_hold_start = tick_time + 500;
+			}
+
+			if (tick_time - up_hold_start > 100) {
+				up_hold_start = tick_time;
+				this.key_detect("up");
+			}
+		} else {
+			up_hold_start = 0;
+		}
 	}
 
 	function draw()
@@ -87,14 +130,54 @@ class RightBox
 		# Sidebox Border
 		this.border_image.visible = this.is_active;
 
-		# Connection Bar
+		# Connection Bar Image
 		if (this.is_active) {
 			this.connection_bar.file_name = "images/connection_bar_active.png";
 		} else {
 			this.connection_bar.file_name = "images/connection_bar_inactive.png";
 		}
 
+		# Connection Bar Location
 		this.connection_bar.y = 340 + (fe.list.index % 6) * 130;
+
+		# Reset overview scroll
+		this.overview_surface.y = 0;
+		this.overview_text.height = this.overview_window.height;
+		animation.add(PropertyAnimation(this.overview_text, { property = "height", end="+0", time = 100, tween = Tween.Linear }));
+		animation.add(PropertyAnimation(this.overview_surface, { property = "y"  , end=0   , time = 100, tween = Tween.Linear }));
+	}
+
+	function down_action()
+	{
+		local offset = 26*2;
+		if (this.overview_surface.y + offset > 0) {
+			offset = 0 - this.overview_surface.y;
+		}
+		
+		// this.overview_text.height -= offset;
+		// this.overview_surface.y += offset;
+		animation.add(PropertyAnimation(this.overview_text   , { property = "height", end="-"+offset, time = 100, tween = Tween.Linear }));
+		animation.add(PropertyAnimation(this.overview_surface, { property = "y"     , end="+"+offset, time = 100, tween = Tween.Linear }));
+	}
+
+	function up_action()
+	{
+		local offset = 26*2;
+		
+		this.overview_text.height += offset;
+		local new_message = this.overview_text.msg_wrapped;
+
+		this.overview_text.height -= offset;
+		local old_message = this.overview_text.msg_wrapped;
+
+		if (new_message == old_message) {
+			offset = 0;
+		}
+
+		// this.overview_text.height += offset;
+		// this.overview_surface.y -= offset;
+		animation.add(PropertyAnimation(this.overview_text   , { property = "height", end="+"+offset, time = 100, tween = Tween.Linear }));
+		animation.add(PropertyAnimation(this.overview_surface, { property = "y"     , end="-"+offset, time = 100, tween = Tween.Linear }));
 	}
 
 	function activate()
