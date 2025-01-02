@@ -57,10 +57,11 @@ class GameButtons {
 
 		if (old_page_number != page_number) {
 			foreach (button in buttons) {
-				button.m_logo.alpha = 0
-				button.m_logo_shadow.alpha = 0
-				animation.add(PropertyAnimation(button.m_logo, {property = "alpha", end="+255", time = 500, tween = Tween.Cubic}));
-				animation.add(PropertyAnimation(button.m_logo_shadow, {property = "alpha", end="+255", time = 500, tween = Tween.Cubic}));
+				if (page_number > old_page_number) {
+					animation.add(PropertyAnimation(button.m_surface, {property = "rotation", end="+360", time = 200, tween = Tween.Cubic}));
+				} else {
+					animation.add(PropertyAnimation(button.m_surface, {property = "rotation", end="-360", time = 200, tween = Tween.Cubic}));
+				}
 			}
 			old_page_number = page_number;
 		}
