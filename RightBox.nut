@@ -6,7 +6,17 @@ class RightBox
 
 	constructor()
 	{
-		//475, 235, 450, 840
+
+		# Snap
+		local snap = fe.add_artwork("snap", 0, 0);
+		snap.width = 450;
+		snap.height = snap.width * 4/3;
+		snap.x = 475;
+		snap.y = 235+840 - snap.height;
+		snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
+		fe.add_image("images/test.png", 475, 235);
+
+
 		# Title Shadow
 		local title_shadow = fe.add_text("[!TitleFormated]", 475+1, 235+1, 450, 50)
 		title_shadow.font = "CriqueGrotesk-Bold.ttf"
@@ -41,6 +51,8 @@ class RightBox
 		fe.add_transition_callback(this, "transition_callback");
 
 		draw();
+
+		Overview()
 	}
 
 	function transition_callback(ttype, var, transition_time)
@@ -66,10 +78,8 @@ class RightBox
 		} else {
 			this.connection_bar.file_name = "images/connection_bar_inactive.png";
 		}
-		// this.connection_bar.set_pos(460, 340 + (fe.list.index % 6) * 130);
-		local end_y = 340 + (fe.list.index % 6) * 130
-		local enlarge = { property = "y", end=end_y, time = 300, tween = Tween.Quart }
-        animation.add(PropertyAnimation(this.connection_bar, enlarge));
+
+		this.connection_bar.y = 340 + (fe.list.index % 6) * 130;
 	}
 
 	function activate()

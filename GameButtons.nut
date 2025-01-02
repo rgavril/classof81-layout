@@ -5,7 +5,6 @@ class GameButtons {
 	is_active = true;  # Whether the list is active or not
 
 	is_config_mode = false;
-	old_page_number = 0;
 
 	constructor() 
 	{
@@ -54,17 +53,6 @@ class GameButtons {
 	{
 		# Calculate the page number
 		local page_number = fe.list.index / PAGE_SIZE
-
-		if (old_page_number != page_number) {
-			foreach (button in buttons) {
-				if (page_number > old_page_number) {
-					animation.add(PropertyAnimation(button.m_surface, {property = "rotation", end="+360", time = 200, tween = Tween.Cubic}));
-				} else {
-					animation.add(PropertyAnimation(button.m_surface, {property = "rotation", end="-360", time = 200, tween = Tween.Cubic}));
-				}
-			}
-			old_page_number = page_number;
-		}
 
 		foreach(index,button in this.buttons) {
 			# Calculate the index relative to current selected game
