@@ -10,19 +10,34 @@ function max(a,b)
 
 function str_replace(search, replace, subject)
 {
-	if (subject == null)  return null;
+	if (subject == null) return null;
 
-	local value = "";
-	foreach (position, segment in split(subject, search))  {
-		if (position != 0) {
-			value += replace;
-		}
-		value += segment;
+	local text = subject;
+
+	local position = text.find(search);
+
+	while (position != null) {
+		local slice1 = text.slice(0, position);
+		local slice2 = text.slice(position + search.len());
+
+		text = slice1 + replace + slice2;
+
+		position = text.find(search);
 	}
-	return value;
+
+	return text;
 }
 
 function TitleFormated() {
 	local title = fe.game_info( Info.Title );
 	return split(title, "(")[0];
+}
+
+function OverviewFormated() {
+	local text = fe.game_info( Info.Overview );
+	text = str_replace(". ", ".\n\n", text);
+	text = str_replace("Mr.\n\n", "Mr. ", text);
+	text = str_replace("Ms.\n\n", "Ms. ", text);
+	text = str_replace("\n ", "\n", text);
+	return text;
 }
