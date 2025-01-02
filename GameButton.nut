@@ -5,7 +5,6 @@ class GameButton {
 	m_logo = null;
 	m_logo_shadow = null;	
 	gear_icon = null;
-	connection_bar = null;
 
 	m_desaturize_shader = null;
 	m_shadow_shader = null;
@@ -25,15 +24,6 @@ class GameButton {
 		# Draw the button background image on the surface
 		m_background = m_surface.add_image("images/button_background_inactive.png");
 		m_background.y = m_surface.texture_height / 2;
-
-		# Connection Bar
-		this.connection_bar = m_surface.add_image("images/connection_bar_inactive.png", 0, 0);
-		this.connection_bar.origin_x = this.connection_bar.texture_width;
-		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
-		this.connection_bar.x = 441;
-		this.connection_bar.y = m_background.y + m_background.texture_height / 2;
-		this.connection_bar.zorder = -1;
-		this.connection_bar.visible = false;
 
 		# Create the the selection rectangle
 		this.game_select_box = m_surface.add_image("images/game_select_box_active.png", 0, 0);
@@ -82,8 +72,6 @@ class GameButton {
 		# Align it verticaly to the middle of the button background image
 		m_logo.y = m_background.y + m_background.texture_height/2;
 
-
-
 		m_logo_shadow.file_name = filename;
 		m_logo_shadow.preserve_aspect_ratio = true;
 		m_logo_shadow.width = m_logo.width;
@@ -101,18 +89,6 @@ class GameButton {
 	{
 		m_logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
 		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
-
-
-		# Connection Bar Logic
-		if (this.is_selected && this.is_active) {
-			this.connection_bar.visible = true;
-			this.connection_bar.file_name = "images/connection_bar_inactive.png";
-		} else if (this.is_selected && !this.is_active) {
-			this.connection_bar.visible = true;
-			this.connection_bar.file_name = "images/connection_bar_active.png";
-		} else {
-			this.connection_bar.visible = false;
-		}
 
 		# Gear Icon Logic
 		if (this.is_selected && this.is_config_mode) {

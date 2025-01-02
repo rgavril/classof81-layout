@@ -19,9 +19,10 @@ fe.do_nut("utils.nut");
 fe.do_nut("BottomText.nut");
 fe.do_nut("GameButton.nut");
 fe.do_nut("GameButtons.nut");
+fe.do_nut("RightBox.nut");
 fe.do_nut("Overview.nut");
-// fe.do_nut("AchievementEntry.nut");
-// fe.do_nut("AchievementEntries.nut");
+fe.do_nut("AchievementEntry.nut");
+fe.do_nut("AchievementEntries.nut");
 fe.do_nut("ConfigMenu.nut");
 fe.do_nut("ConfigMenuButton.nut");
 fe.do_nut("PopupOptions.nut");
@@ -47,8 +48,8 @@ fe.add_image("images/background.png", 0, 0);
 popup_options <- null;
 bottom_text <- BottomText();
 local sound_engine = SoundEngine()
+local right_box = RightBox();
 local game_buttons = GameButtons();
-Overview();
 // local achivement_entries = AchievementEntries();
 local config_menu = ConfigMenu();
 popup_options <- PopupOptions();
@@ -62,19 +63,19 @@ function key_detect(signal_str) {
 	}
 
 	# If Achivements is Active
-	// if (achivement_entries.is_active) {
-	// 	# Send the keypress for processing
-	// 	if ( achivement_entries.key_detect(signal_str) ) {
-	// 		return true;
-	// 	};
+	if (right_box.is_active) {
+		# Send the keypress for processing
+		if ( right_box.key_detect(signal_str) ) {
+			return true;
+		};
 
-	// 	# If Right is pressed, activate Game Buttons
-	// 	if (signal_str == "left") {
-	// 		game_buttons.activate();
-	// 		achivement_entries.desactivate();
-	// 		return true;
-	// 	}
-	// }
+		# If Right is pressed, activate Game Buttons
+		if (signal_str == "left") {
+			game_buttons.activate();
+			right_box.desactivate();
+			return true;
+		}
+	}
 
 	# Config Menu is active
 	if (config_menu.is_active) {
@@ -107,11 +108,11 @@ function key_detect(signal_str) {
 		}
 
 		# If Right is pressed, activate Achivements
-		// if (signal_str == "right") {
-		// 	achivement_entries.activate();
-		// 	game_buttons.desactivate();
-		// 	return false;
-		// }
+		if (signal_str == "right") {
+			right_box.activate();
+			game_buttons.desactivate();
+			return false;
+		}
 	}
 
 	# print("SIGNAL : " + signal_str + "\n"); return true;

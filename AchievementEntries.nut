@@ -6,7 +6,6 @@ class AchievementEntries {
 	offset_idx = 0;       # The index of the first visible achivement
 
 	entries = [];        # Array containing the achivement entries
-	border_image = null; # Achivements Box Boder
 	missing_message = null;
 	is_active = false;   # Whether the list is active or not
 
@@ -18,30 +17,6 @@ class AchievementEntries {
 			local entry = AchievementEntry(475, 360+80*i);
 			this.entries.push(entry)
 		}
-
-		# Title Shadow
-		local title_shadow = fe.add_text("[!TitleFormated]", 470+1, 238+1, 460, 50);
-		title_shadow.font = "CriqueGrotesk-Bold.ttf";
-		title_shadow.set_rgb(0,0,0);
-		title_shadow.char_size = 36;
-		title_shadow.align = Align.TopCentre;
-
-		# Title
-		local title = fe.add_text("[!TitleFormated]", 470, 238, 460, 50);
-		title.font = "CriqueGrotesk-Bold.ttf";
-		title.set_rgb(255,104,181);
-		title.char_size = 36;
-		title.align = Align.TopCentre;
-
-		# Subtitle
-		local subtitle = fe.add_text("[Year] [Manufacturer]", 480, 290, 440, 42);
-		subtitle.set_rgb(255,252,103);
-		subtitle.char_size = 28;
-		subtitle.align = Align.TopCentre;
-
-		# Sidebox Border
-		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
-		this.border_image.visible = false;
 
 		# No Achivements Message
 		this.missing_message = fe.add_text("This game has no\nRetro Achivements!", 480, 450, 440, 320);
@@ -190,9 +165,6 @@ class AchievementEntries {
 		} else {
 			this.missing_message.visible = false;
 		}
-
-		# Toggle background border based on activity
-		this.border_image.visible = this.is_active;
 
 		# Update the instrutions bottom text
 		if (this.is_active) {
