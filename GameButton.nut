@@ -27,7 +27,7 @@ class GameButton {
 		m_background.y = m_surface.texture_height / 2;
 
 		# Connection Bar
-		this.connection_bar = m_surface.add_image("images/connection_bar_active.png", 0, 0);
+		this.connection_bar = m_surface.add_image("images/connection_bar_inactive.png", 0, 0);
 		this.connection_bar.origin_x = this.connection_bar.texture_width;
 		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
 		this.connection_bar.x = 441;
@@ -106,10 +106,10 @@ class GameButton {
 		# Connection Bar Logic
 		if (this.is_selected && this.is_active) {
 			this.connection_bar.visible = true;
-			this.connection_bar.file_name = "images/connection_bar_active.png";
+			this.connection_bar.file_name = "images/connection_bar_inactive.png";
 		} else if (this.is_selected && !this.is_active) {
 			this.connection_bar.visible = true;
-			this.connection_bar.file_name = "images/connection_bar_inactive.png";
+			this.connection_bar.file_name = "images/connection_bar_active.png";
 		} else {
 			this.connection_bar.visible = false;
 		}
