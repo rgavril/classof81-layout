@@ -20,9 +20,6 @@ fe.do_nut("BottomText.nut");
 fe.do_nut("GameButton.nut");
 fe.do_nut("GameButtons.nut");
 fe.do_nut("RightBox.nut");
-fe.do_nut("Overview.nut");
-fe.do_nut("AchievementEntry.nut");
-fe.do_nut("AchievementEntries.nut");
 fe.do_nut("ConfigMenu.nut");
 fe.do_nut("ConfigMenuButton.nut");
 fe.do_nut("PopupOptions.nut");
@@ -50,7 +47,6 @@ bottom_text <- BottomText();
 local sound_engine = SoundEngine()
 local right_box = RightBox();
 local game_buttons = GameButtons();
-// local achivement_entries = AchievementEntries();
 local config_menu = ConfigMenu();
 popup_options <- PopupOptions();
 

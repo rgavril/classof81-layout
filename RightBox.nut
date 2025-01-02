@@ -32,10 +32,10 @@ class RightBox
 		title.align = Align.TopCentre;
 
 		# Subtitle
-		local subtitle = fe.add_text("[Year] [Manufacturer]", 475, 235+50, 450, 50);
-		subtitle.set_rgb(255,252,103);
-		subtitle.char_size = 26;
-		subtitle.align = Align.TopCentre;
+		// local subtitle = fe.add_text("[Year] [Manufacturer]", 475, 235+50, 450, 50);
+		// subtitle.set_rgb(255,252,103);
+		// subtitle.char_size = 26;
+		// subtitle.align = Align.TopCentre;
 
 		# Sidebox Border
 		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
@@ -50,9 +50,24 @@ class RightBox
 		# Add a callback to refresh the buttons when events take place
 		fe.add_transition_callback(this, "transition_callback");
 
-		draw();
 
-		Overview()
+		# Shadow
+		local shadow = fe.add_text("[Overview]", 475+2, 235+80+2, 450, 600);
+		shadow.align = Align.TopLeft;
+		shadow.char_size = 26;
+		shadow.word_wrap = true;
+		shadow.margin = 20;
+		shadow.set_rgb(0, 0, 0);
+
+		# Overview
+		local overview = fe.add_text(shadow.msg, 475, 235+80, 450, 600);
+		overview.align = Align.TopLeft;
+		overview.char_size = 26;
+		overview.word_wrap = true;
+		overview.margin = 20;
+		overview.set_rgb(255, 252, 103);
+
+		draw();
 	}
 
 	function transition_callback(ttype, var, transition_time)
