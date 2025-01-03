@@ -31,7 +31,7 @@ class PopupOptions {
 
 		# Title
 		this.title_label = this.surface.add_text("", this.background_top.texture_width/2 - 250, 80, 500,200);
-		this.title_label.font = "CriqueGrotesk-Bold.ttf";
+		this.title_label.font = "fonts/CriqueGrotesk-Bold.ttf";
 		this.title_label.set_rgb(255, 255, 255);
 		this.title_label.char_size = 26;
 		this.title_label.word_wrap = true;
@@ -46,7 +46,7 @@ class PopupOptions {
 			local text = this.surface.add_text("", background.x, background.y+background.texture_height/2, background.texture_width, background.height);
 			text.set_rgb(255, 255, 255);
 			text.char_size = 26;
-			text.font = "CriqueGrotesk-Bold.ttf";
+			text.font = "fonts/CriqueGrotesk-Bold.ttf";
 			text.align = Align.MiddleLeft;
 			text.margin = 40;
 			text.visible = false;

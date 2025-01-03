@@ -8,7 +8,7 @@ fe.layout.preserve_aspect_ratio=true;
 fe.layout.width = 960;
 fe.layout.height = 1280;
 fe.layout.page_size = 6;
-fe.layout.font = "CriqueGrotesk.ttf";
+fe.layout.font = "fonts/CriqueGrotesk.ttf";
 
 fe.load_module("file");
 fe.load_module("animate");
