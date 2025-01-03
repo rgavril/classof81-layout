@@ -1,0 +1,3 @@
+A classic arcade game where players control a chef named Peter Pepper, who must assemble burgers by walking over the ingredients while avoiding enemies like hot dogs, eggs, and pickles.
+
+The goal is to complete each burger by making the ingredients fall into place while navigating platforms and avoiding hazards.

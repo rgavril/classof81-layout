@@ -1,0 +1,5 @@
+Pac-Man is a classic arcade game where players navigate a yellow, circular character through a maze, eating dots while avoiding ghosts.
+
+Collecting power pellets temporarily allows Pac-Man to eat the ghosts for bonus points.
+
+The goal is to clear the maze while surviving as long as possible.

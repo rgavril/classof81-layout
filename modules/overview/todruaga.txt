@@ -1,0 +1,3 @@
+The player control a knight named Gilgamesh, who must navigate through a series of floors in a tower filled with hidden items and enemies.
+
+The objective is to find keys, defeat monsters, and solve puzzles to reach the top and rescue the princess.

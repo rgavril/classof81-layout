@@ -1,0 +1,3 @@
+In this arcade game, players control a miner who must collect bags of gold from a mine and transport them to the top while avoiding various hazards, including falling rocks and enemies.
+
+The challenge lies in managing the bags of gold while avoiding dangers and navigating the mine’s complex layout.

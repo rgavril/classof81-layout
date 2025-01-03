@@ -15,6 +15,7 @@ fe.load_module("animate");
 
 fe.do_nut("modules/retroarch-config.nut");
 fe.do_nut("modules/fbneo-dipswitches.nut");
+fe.do_nut("modules/overview.nut");
 fe.do_nut("utils.nut");
 fe.do_nut("BottomText.nut");
 fe.do_nut("GameButton.nut");

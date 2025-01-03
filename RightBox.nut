@@ -4,6 +4,9 @@ class RightBox
 	border_image = null;
 	connection_bar = null;
 
+	overview_text = null;
+	overview_shadow = null;
+
 	constructor()
 	{
 
@@ -42,19 +45,19 @@ class RightBox
 		this.connection_bar.visible = true;
 
 		# Overview Short
-		local overview_shadow = fe.add_text("[!OverviewShort]", 475+2, 235+65+2, 450, 840-65);
-		overview_shadow.align = Align.TopCentre;
-		overview_shadow.char_size = 26;
-		overview_shadow.word_wrap = true;
-		overview_shadow.margin = 20;
-		overview_shadow.set_rgb(0, 0, 0);
+		this.overview_shadow = fe.add_text("", 475+2, 235+65+2, 450, 840-65);
+		this.overview_shadow.align = Align.TopCentre;
+		this.overview_shadow.char_size = 26;
+		this.overview_shadow.word_wrap = true;
+		this.overview_shadow.margin = 20;
+		this.overview_shadow.set_rgb(0, 0, 0);
 
-		local overview_text = fe.add_text("[!OverviewShort]", 475, 235+65, 450, 840-65);
-		overview_text.align = Align.TopCentre;
-		overview_text.char_size = 26;
-		overview_text.word_wrap = true;
-		overview_text.margin = 20;
-		overview_text.set_rgb(255, 252, 103);
+		this.overview_text = fe.add_text("", 475, 235+65, 450, 840-65);
+		this.overview_text.align = Align.TopCentre;
+		this.overview_text.char_size = 26;
+		this.overview_text.word_wrap = true;
+		this.overview_text.margin = 20;
+		this.overview_text.set_rgb(255, 252, 103);
 
 		draw();
 
@@ -132,6 +135,10 @@ class RightBox
 
 		# Connection Bar Location
 		this.connection_bar.y = 340 + (fe.list.index % 6) * 130;
+
+		# Overview Text
+		this.overview_text.msg = short_overview();
+		this.overview_shadow.msg = this.overview_text.msg;
 	}
 
 	function down_action()
@@ -153,31 +160,4 @@ class RightBox
 		this.is_active = false;
 		draw();
 	}
-}
-
-function OverviewShort()
-{
-	local sumary = "";
-
-	local overview = fe.game_info(Info.Overview);
-	local chunks = split(overview, "."); 
-	local skip_newline = true;
-	foreach (chunk in chunks) {
-		if (skip_newline) {
-			skip_newline = false;
-		} else {
-			sumary += "\n\n";
-		}
-
-		sumary += strip(chunk)+".";
-		if (chunk.len() >= 2 && chunk.slice(-2) == "Mr")  { skip_newline = true; }
-		if (chunk.len() >= 2 && chunk.slice(-2) == "Ms")  { skip_newline = true; }
-		if (chunk.len() >= 2 && chunk.slice(-2) == "Dr")  { skip_newline = true; }
-
-		if (sumary.len() > 228) {
-			break;
-		}
-	}
-
-	return sumary;
 }

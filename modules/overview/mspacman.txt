@@ -1,0 +1,5 @@
+A sequel to the classic arcade game Pac-Man, featuring a female protagonist.
+
+The game introduces moving fruit bonuses and enhanced gameplay with four distinct maze designs.
+
+The goal is to clear the mazes and score high while dodging ghosts.

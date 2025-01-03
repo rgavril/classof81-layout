@@ -1,0 +1,3 @@
+A platformer where players control a hero named Jack, who must collect bombs scattered across multiple levels while avoiding enemies.
+
+The game features power-ups, and the goal is to gather all bombs to advance to the next stage.

@@ -1,0 +1,3 @@
+A maze-based arcade game where players control a gorilla to paint sections of the screen while avoiding enemies.
+
+The goal is to fill up the screen with color, all while avoiding the patrolling enemies and collecting bonus items.
