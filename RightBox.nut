@@ -4,10 +4,6 @@ class RightBox
 	border_image = null;
 	connection_bar = null;
 
-	overview_surface = null;
-	overview_window = null;
-	overview_text = null;
-
 	constructor()
 	{
 
@@ -22,14 +18,14 @@ class RightBox
 
 
 		# Title Shadow
-		local title_shadow = fe.add_text("[!TitleFormated]", 475+1, 235+1, 450, 50)
+		local title_shadow = fe.add_text("[!TitleFormated]", 475+1, 235+10+1, 450, 50)
 		title_shadow.font = "CriqueGrotesk-Bold.ttf"
 		title_shadow.set_rgb(0,0,0)
 		title_shadow.char_size = 36
 		title_shadow.align = Align.TopCentre
 
 		# Title
-		local title = fe.add_text("[!TitleFormated]", 475, 235, 450, 50)
+		local title = fe.add_text("[!TitleFormated]", 475, 235+10, 450, 50)
 		title.font = "CriqueGrotesk-Bold.ttf";
 		title.set_rgb(255,104,181);
 		title.char_size = 36;
@@ -46,7 +42,14 @@ class RightBox
 		this.connection_bar.visible = true;
 
 		# Overview Short
-		this.overview_text = fe.add_text("[!OverviewShort]", 475, 235+60, 450, 840-60);
+		local overview_shadow = fe.add_text("[!OverviewShort]", 475+2, 235+65+2, 450, 840-65);
+		overview_shadow.align = Align.TopCentre;
+		overview_shadow.char_size = 26;
+		overview_shadow.word_wrap = true;
+		overview_shadow.margin = 20;
+		overview_shadow.set_rgb(0, 0, 0);
+
+		local overview_text = fe.add_text("[!OverviewShort]", 475, 235+65, 450, 840-65);
 		overview_text.align = Align.TopCentre;
 		overview_text.char_size = 26;
 		overview_text.word_wrap = true;
