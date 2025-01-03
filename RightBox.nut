@@ -19,16 +19,15 @@ class RightBox
 		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		fe.add_image("images/test.png", 475, 235);
 
-
 		# Title Shadow
-		local title_shadow = fe.add_text("[!TitleFormated]", 475+1, 235+10+1, 450, 50)
+		local title_shadow = fe.add_text("[Title]", 475+1, 235+10+1, 450, 50)
 		title_shadow.font = "CriqueGrotesk-Bold.ttf"
 		title_shadow.set_rgb(0,0,0)
 		title_shadow.char_size = 36
 		title_shadow.align = Align.TopCentre
 
 		# Title
-		local title = fe.add_text("[!TitleFormated]", 475, 235+10, 450, 50)
+		local title = fe.add_text("[Title]", 475, 235+10, 450, 50)
 		title.font = "CriqueGrotesk-Bold.ttf";
 		title.set_rgb(255,104,181);
 		title.char_size = 36;
@@ -46,14 +45,14 @@ class RightBox
 
 		# Overview Short
 		this.overview_shadow = fe.add_text("", 475+2, 235+65+2, 450, 840-65);
-		this.overview_shadow.align = Align.TopCentre;
+		this.overview_shadow.align = Align.TopLeft;
 		this.overview_shadow.char_size = 26;
 		this.overview_shadow.word_wrap = true;
 		this.overview_shadow.margin = 20;
 		this.overview_shadow.set_rgb(0, 0, 0);
 
 		this.overview_text = fe.add_text("", 475, 235+65, 450, 840-65);
-		this.overview_text.align = Align.TopCentre;
+		this.overview_text.align = Align.TopLeft;
 		this.overview_text.char_size = 26;
 		this.overview_text.word_wrap = true;
 		this.overview_text.margin = 20;
