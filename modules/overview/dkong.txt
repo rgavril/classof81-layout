@@ -1,0 +1,3 @@
+Players control Mario, who must rescue Princess Peach from the giant ape, Donkey Kong, by avoiding obstacles and climbing platforms to reach her.
+
+Each level presents new challenges with moving platforms, barrels, and fire hazards.

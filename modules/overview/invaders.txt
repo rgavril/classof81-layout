@@ -1,0 +1,5 @@
+Control a laser base to defend Earth from relentless waves of descending aliens.
+
+Hide behind destructible shields for cover, but beware as both enemy and player fire can destroy them.
+
+The aliens speed up as their numbers dwindle, and a bonus saucer occasionally appears for extra points.

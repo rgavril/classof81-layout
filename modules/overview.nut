@@ -25,10 +25,11 @@ function short_overview()
     try {
         local filename = format("%s/modules/overview/%s.txt",fe.script_dir, fe.game_info(Info.Name));
         sumary = read_file(filename);
-        return sumary;
     } catch (e) {
         sumary = "";
     }
+    
+    return sumary;
 
     local overview = fe.game_info(Info.Overview);
     local chunks = split(overview, "."); 

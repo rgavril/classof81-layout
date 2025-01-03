@@ -1,0 +1,5 @@
+Guide Pac-Man through key-filled mazes to unlock gates and eat special items instead of pellets.
+
+Power-pills make him invincible, while Super-Power pills let him grow, move faster, and smash through gates without keys.
+
+Dodge ghosts and clear each maze to advance!

@@ -1,0 +1,5 @@
+Defend the King from being carried away by descending balloons in this unique shooter.
+
+Control two soldiers with a cannon, aiming to destroy balloons before they snatch the King.
+
+The game ends after the King is captured three times, not when the cannon is hit.

@@ -1,0 +1,3 @@
+In Dig Dug, players dig through the earth to defeat enemies by inflating them until they burst or by dropping rocks on them. 
+
+The goal is to clear each level of enemies while avoiding being caught.

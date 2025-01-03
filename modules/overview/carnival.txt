@@ -1,0 +1,5 @@
+In Carnival, players shoot at moving targets in a carnival gallery, aiming to clear rounds and score points. 
+
+Features include hitting pipes for bonuses, avoiding ducks that eat bullets, and the "shoot the bear" sequence for extra points. 
+
+The game ends when bullets run out.

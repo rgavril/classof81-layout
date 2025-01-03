@@ -1,0 +1,3 @@
+Navigate a maze-like course in your car, collecting flags while avoiding enemy vehicles and obstacles.
+
+Use smoke screens to escape pursuers and strategize your route to gather all the flags before running out of fuel.

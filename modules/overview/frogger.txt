@@ -1,0 +1,3 @@
+In Frogger, players control a frog trying to safely cross a busy road and a hazardous river to reach its home.
+
+Navigate traffic, avoid obstacles, and hop across logs and turtles in this fast-paced, classic arcade game.

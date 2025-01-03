@@ -1,0 +1,5 @@
+Navigate isometric 3D mazes, eating pellets and avoiding ghosts while using Pac-Man's new ability to jump over enemies.
+
+Choose from different worlds of varying difficulty, grab power-pills to eat ghosts, and collect bonuses for extra points.
+
+Face new challenges, including the bouncing ghost Funky!

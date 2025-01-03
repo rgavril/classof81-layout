@@ -1,0 +1,5 @@
+Control a spaceship to defend Earth from waves of alien invaders.
+
+Shoot down enemies, dodge their attacks, and rescue captured ships for extra firepower.
+
+Each level introduces more challenging enemies and faster action, testing your skills and reflexes.
