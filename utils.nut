@@ -32,12 +32,3 @@ function TitleFormated() {
 	local title = fe.game_info( Info.Title );
 	return split(title, "(")[0];
 }
-
-function OverviewFormated() {
-	local text = fe.game_info( Info.Overview );
-	text = str_replace(". ", ".\n\n", text);
-	text = str_replace("Mr.\n\n", "Mr. ", text);
-	text = str_replace("Ms.\n\n", "Ms. ", text);
-	text = str_replace("\n ", "\n", text);
-	return text;
-}

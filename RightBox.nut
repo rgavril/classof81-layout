@@ -35,12 +35,6 @@ class RightBox
 		title.char_size = 36;
 		title.align = Align.TopCentre;
 
-		# Subtitle
-		// local subtitle = fe.add_text("[Year] [Manufacturer]", 475, 235+50, 450, 50);
-		// subtitle.set_rgb(255,252,103);
-		// subtitle.char_size = 26;
-		// subtitle.align = Align.TopCentre;
-
 		# Sidebox Border
 		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
 		this.border_image.visible = false;
@@ -51,13 +45,9 @@ class RightBox
 		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
 		this.connection_bar.visible = true;
 
-		# Overview
-		this.overview_window = fe.add_surface(450, 840-60-50);
-		this.overview_window.set_pos(475, 235+60);
-
-		this.overview_surface = this.overview_window.add_surface(450, 5000);
-		this.overview_text = this.overview_surface.add_text("[Overview]", 0, 0, 450, this.overview_window.height);
-		overview_text.align = Align.TopLeft;
+		# Overview Short
+		this.overview_text = fe.add_text("[!OverviewShort]", 475, 235+60, 450, 840-60);
+		overview_text.align = Align.TopCentre;
 		overview_text.char_size = 26;
 		overview_text.word_wrap = true;
 		overview_text.margin = 20;
@@ -139,45 +129,14 @@ class RightBox
 
 		# Connection Bar Location
 		this.connection_bar.y = 340 + (fe.list.index % 6) * 130;
-
-		# Reset overview scroll
-		this.overview_surface.y = 0;
-		this.overview_text.height = this.overview_window.height;
-		animation.add(PropertyAnimation(this.overview_text, { property = "height", end="+0", time = 100, tween = Tween.Linear }));
-		animation.add(PropertyAnimation(this.overview_surface, { property = "y"  , end=0   , time = 100, tween = Tween.Linear }));
 	}
 
 	function down_action()
 	{
-		local offset = 26*2;
-		if (this.overview_surface.y + offset > 0) {
-			offset = 0 - this.overview_surface.y;
-		}
-		
-		// this.overview_text.height -= offset;
-		// this.overview_surface.y += offset;
-		animation.add(PropertyAnimation(this.overview_text   , { property = "height", end="-"+offset, time = 100, tween = Tween.Linear }));
-		animation.add(PropertyAnimation(this.overview_surface, { property = "y"     , end="+"+offset, time = 100, tween = Tween.Linear }));
 	}
 
 	function up_action()
 	{
-		local offset = 26*2;
-		
-		this.overview_text.height += offset;
-		local new_message = this.overview_text.msg_wrapped;
-
-		this.overview_text.height -= offset;
-		local old_message = this.overview_text.msg_wrapped;
-
-		if (new_message == old_message) {
-			offset = 0;
-		}
-
-		// this.overview_text.height += offset;
-		// this.overview_surface.y -= offset;
-		animation.add(PropertyAnimation(this.overview_text   , { property = "height", end="+"+offset, time = 100, tween = Tween.Linear }));
-		animation.add(PropertyAnimation(this.overview_surface, { property = "y"     , end="-"+offset, time = 100, tween = Tween.Linear }));
 	}
 
 	function activate()
@@ -191,4 +150,31 @@ class RightBox
 		this.is_active = false;
 		draw();
 	}
+}
+
+function OverviewShort()
+{
+	local sumary = "";
+
+	local overview = fe.game_info(Info.Overview);
+	local chunks = split(overview, "."); 
+	local skip_newline = true;
+	foreach (chunk in chunks) {
+		if (skip_newline) {
+			skip_newline = false;
+		} else {
+			sumary += "\n\n";
+		}
+
+		sumary += strip(chunk)+".";
+		if (chunk.len() >= 2 && chunk.slice(-2) == "Mr")  { skip_newline = true; }
+		if (chunk.len() >= 2 && chunk.slice(-2) == "Ms")  { skip_newline = true; }
+		if (chunk.len() >= 2 && chunk.slice(-2) == "Dr")  { skip_newline = true; }
+
+		if (sumary.len() > 228) {
+			break;
+		}
+	}
+
+	return sumary;
 }
