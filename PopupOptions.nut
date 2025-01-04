@@ -9,7 +9,7 @@ class PopupOptions {
 	background_bottom = null;
 	title_label = null;
 
-	MAX_OPTIONS = 15;
+	MAX_OPTIONS = 20;
 	options_background = [];
 	options_text = [];
 

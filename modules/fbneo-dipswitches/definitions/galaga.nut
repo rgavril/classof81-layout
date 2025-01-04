@@ -48,10 +48,10 @@ return [
       "4 Coins 1 Play",
       "3 Coins 1 Play",
       "2 Coins 1 Play",
-      "1 Coin 1 Play",
+      "1 Coin  1 Play",
       "2 Coins 3 Plays",
-      "1 Coin 2 Plays",
-      "1 Coin 3 Plays",
+      "1 Coin  2 Plays",
+      "1 Coin  3 Plays",
       "Freeplay"
     ]
   },

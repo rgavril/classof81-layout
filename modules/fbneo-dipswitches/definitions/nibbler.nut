@@ -4,21 +4,21 @@ return [
     "default": 0,
     "values": [
       "3",
-      "5"
+      "4",
+      "5",
+      "6"
     ]
   },
   {
-    "name": "Bonus Life",
+    "name": "Difficulty",
     "default": 0,
     "values": [
-      "30k 80k and ...",
-      "30k 100k and ...",
-      "30k 120k and ...",
-      "30k 150k and..."
+      "Easy",
+      "Hard"
     ]
   },
   {
-    "name": "Level Select",
+    "name": "Free Play",
     "default": 0,
     "values": [
       "Off",
@@ -27,12 +27,12 @@ return [
   },
   {
     "name": "Coinage",
-    "default": 0,
+    "default": 2,
     "values": [
+      "2 Coins 1 Credits",
+      "2 Coins/1 Credit 4/3",
       "1 Coin  1 Credit",
-      "2 Coins 1 Credit",
-      "1 Coin  2 Credits",
-      "3 Coins 1 Credit"
+      "1 Coin/1 Credit 2/3"
     ]
   },
   {
@@ -45,22 +45,6 @@ return [
   },
   {
     "name": "Service Mode",
-    "default": 0,
-    "values": [
-      "Off",
-      "On"
-    ]
-  },
-  {
-    "name": "Freeze",
-    "default": 0,
-    "values": [
-      "Off",
-      "On"
-    ]
-  },
-  {
-    "name": "Service",
     "default": 0,
     "values": [
       "Off",

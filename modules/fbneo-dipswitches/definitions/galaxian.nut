@@ -22,8 +22,8 @@ return [
     "default": 1,
     "values": [
       "2 Coins 1 Play",
-      "1 Coin 1 Play",
-      "1 Coin 2 Plays",
+      "1 Coin  1 Play",
+      "1 Coin  2 Plays",
       "Freeplay"
     ]
   },

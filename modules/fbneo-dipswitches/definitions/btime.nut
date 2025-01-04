@@ -37,20 +37,20 @@ return [
     "name": "Coin A",
     "default": 1,
     "values": [
-      "2 Coins 1 Credit",
-      "1 Coin 1 Credit",
-      "1 Coin 2 Credits",
-      "1 Coin 3 Credits"
+      "2 Coins  1 Credit",
+      "1 Coin  1 Credit",
+      "1 Coin  2 Credits",
+      "1 Coin  3 Credits"
     ]
   },
   {
     "name": "Coin B",
     "default": 1,
     "values": [
-      "2 Coins 1 Credit",
-      "1 Coin 1 Credit",
-      "1 Coin 2 Credits",
-      "1 Coin 3 Credits"
+      "2 Coins  1 Credit",
+      "1 Coin  1 Credit",
+      "1 Coin  2 Credits",
+      "1 Coin  3 Credits"
     ]
   },
   {

@@ -4,19 +4,25 @@ return [
     "default": 0,
     "values": [
       "3",
-      "5",
-      "7",
-      "256"
+      "5"
+    ]
+  },
+  {
+    "name": "Demo Sounds",
+    "default": 1,
+    "values": [
+      "Off",
+      "On"
     ]
   },
   {
     "name": "Coinage",
-    "default": 2,
+    "default": 0,
     "values": [
-      "A 2C/1P  B 2C/1P  C 2C/1P",
-      "A 2C/1P  B 1C/3P  C 2C/1P",
-      "A 1C/1P  B 1C/1P  C 1C/1P",
-      "A 1C/1P  B 1C/6P  C 1C/1P"
+      "1 Coin 1 Play"
+      "A 1C/2P  B 2C/1P",
+      "A 1C/3P  B 3C/1P",
+      "A 1C/4P  B 4C/1P"
     ]
   },
   {
