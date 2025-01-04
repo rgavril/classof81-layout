@@ -126,6 +126,8 @@ class PopupMenu {
 
 	function show()
 	{
+		::sound_engine.play_enter_sound();
+
 		this.is_active = true;
 		this.draw();
 
@@ -148,6 +150,7 @@ class PopupMenu {
 	function down_action()
 	{
 		if (this.select_idx + 1 in this.options) {
+			::sound_engine.play_click_sound();
 			this.select_idx += 1;
 			draw();
 		}
@@ -156,6 +159,7 @@ class PopupMenu {
 	function up_action()
 	{
 		if (this.select_idx - 1 in this.options) {
+			::sound_engine.play_click_sound();
 			this.select_idx -= 1;
 			draw();
 		}
@@ -163,6 +167,8 @@ class PopupMenu {
 
 	function select_action()
 	{
+		::sound_engine.play_enter_sound();
+
 		this.hide();
 
 		fe.signal("custom1");

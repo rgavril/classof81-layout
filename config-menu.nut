@@ -13,19 +13,21 @@ class ConfigMenu {
 	{
 		this.surface = fe.add_surface(1000, 1000);
 		this.surface.set_pos(0, 245);
+		this.surface.visible = false;
+
+		this.is_active = false;
 
 		# Background
 		this.surface.add_image("images/config_menu.png", 0, 0);
 
+		# Config Button Placeholders
 		for (local i=0; i<PAGE_SIZE; i++) {
-			//local menu_button = ConfigMenuButton(fe, 70, 310+90*i);
 			local menu_button = ConfigMenuButton(this.surface, 90, 110+90*i);
 			this.menu_buttons.push(menu_button);
 		}
 
 		this.load();
 		this.draw();
-		this.hide();
 	}
 
 	function key_detect(signal_str)
@@ -128,6 +130,9 @@ class ConfigMenu {
 			return;
 		}
 
+		# Play a sound
+		::sound_engine.play_click_sound();
+
 		# Select the next element in list
 		this.select_idx++;
 
@@ -145,6 +150,9 @@ class ConfigMenu {
 		if (this.select_idx == 0) {
 			return;
 		}
+
+		# Play a sound
+		::sound_engine.play_click_sound();
 
 		# Select the previous element in the list
 		this.select_idx--;
@@ -166,6 +174,7 @@ class ConfigMenu {
 				break;
 
 			case "dipswitch":
+				::sound_engine.play_click_sound();
 				menu_entry["dipswitch"].move_to_next_value();
 				break;
 				
@@ -184,6 +193,7 @@ class ConfigMenu {
 				break;
 
 			case "dipswitch":
+				::sound_engine.play_click_sound();
 				menu_entry["dipswitch"].move_to_prev_value();
 				break;
 				
@@ -259,6 +269,8 @@ class ConfigMenu {
 
 	function show()
 	{
+		::sound_engine.play_enter_sound();
+
 		this.is_active = true;
 		this.surface.visible = true;
 
@@ -271,6 +283,8 @@ class ConfigMenu {
 
 	function hide()
 	{
+		::sound_engine.play_exit_sound();
+
 		this.is_active = false;
 		this.surface.visible = false;
 	}

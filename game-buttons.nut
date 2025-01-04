@@ -27,6 +27,7 @@ class GameButtons {
 	{
 		if (ttype == Transition.FromOldSelection) {
 			this.is_config_mode = false;
+			::sound_engine.play_click_sound();
 			draw();
 		}
 	}
@@ -35,6 +36,7 @@ class GameButtons {
 	{
 		if (signal_str == "left" && !is_config_mode) {
 			is_config_mode = true;
+			::sound_engine.play_click_sound();
 			draw();
 			return true;
 		}
@@ -42,6 +44,7 @@ class GameButtons {
 		if (signal_str == "right" && is_config_mode) {
 			this.buttons[0].set_config_mode(false);
 			is_config_mode = false;
+			::sound_engine.play_click_sound();
 			draw();
 			return true;
 		}

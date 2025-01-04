@@ -19,6 +19,7 @@ fe.do_nut("modules/fbneo-dipswitches.nut");
 fe.do_nut("modules/overview.nut");
 fe.do_nut("utils.nut");
 
+fe.do_nut("sound-engine.nut");
 fe.do_nut("bottom-text.nut");
 fe.do_nut("game-button.nut");
 fe.do_nut("game-buttons.nut");
@@ -26,7 +27,6 @@ fe.do_nut("right-box.nut");
 fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
-fe.do_nut("sound-engine.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -58,7 +58,6 @@ signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
 
 function key_detect(signal_str) {
-	// sound_engine.click(); <-- This fucker gives us segfaults ?
 	if (popup_menu.is_active) {
 		if (popup_menu.key_detect(signal_str)) {
 			return true;
