@@ -30,6 +30,17 @@ class GameButtons {
 			::sound_engine.play_click_sound();
 			draw();
 		}
+
+		if (ttype == Transition.ToGame) {
+			if (transition_time == 0) {
+				::sound_engine.play_enter_sound();
+				return true;
+			}
+			if (transition_time < 270) {
+				return true;
+			}
+			return false;
+		}
 	}
 
 	function key_detect(signal_str)
