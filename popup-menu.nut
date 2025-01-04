@@ -70,7 +70,7 @@ class PopupMenu {
 	function draw()
 	{
 		# Update title
-		this.title_label.msg = "Choose a new setting for\n"+this.title+":";
+		this.title_label.msg = this.title;
 
 		# First hide all options
 		for (local idx=0; idx<MAX_OPTIONS; idx++) {
@@ -121,7 +121,7 @@ class PopupMenu {
 
 	function set_title(title)
 	{
-		this.title = title.toupper();
+		this.title = title;
 	}
 
 	function show()

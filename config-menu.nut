@@ -203,7 +203,7 @@ class ConfigMenu {
 				break;
 
 			case "reset":
-				popup_menu.set_title("Reset to Default");
+				popup_menu.set_title("Are you sure you want to reset to Default Settings ?");
 				popup_menu.set_options(["Yes", "No"], 1);
 				popup_menu.show();
 				this.draw();
@@ -211,8 +211,8 @@ class ConfigMenu {
 
 			case "dipswitch":
 				local dipswitch = menu_entry["dipswitch"]; 
+				popup_menu.set_title("Choose a new setting for\n" + dipswitch.name.toupper());
 				popup_menu.set_options(dipswitch.values, dipswitch.current_idx);
-				popup_menu.set_title(dipswitch.name);
 				popup_menu.show();
 				this.draw();
 				break;
