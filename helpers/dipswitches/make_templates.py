@@ -31,7 +31,7 @@ def extract_dip_switches(xml_file):
             })
 
         # Create a JSON file for the machine
-        output_filename = f"definitions.auto/{machine_name}.nut"
+        output_filename = f"templates/{machine_name}.nut"
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json_file.write("return ")
             json.dump(dip_switches, json_file, indent=2)
