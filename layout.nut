@@ -13,10 +13,12 @@ fe.layout.font = "fonts/CriqueGrotesk.ttf";
 fe.load_module("file");
 fe.load_module("animate");
 
+fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/retroarch-config.nut");
 fe.do_nut("modules/fbneo-dipswitches.nut");
 fe.do_nut("modules/overview.nut");
 fe.do_nut("utils.nut");
+
 fe.do_nut("BottomText.nut");
 fe.do_nut("GameButton.nut");
 fe.do_nut("GameButtons.nut");
@@ -43,13 +45,17 @@ fe.do_nut("SoundEngine.nut");
 # Background Image
 fe.add_image("images/background.png", 0, 0);
 
-popup_options <- null;
-bottom_text <- BottomText();
-local sound_engine = SoundEngine()
-local right_box = RightBox();
-local game_buttons = GameButtons();
-local config_menu = ConfigMenu();
-popup_options <- PopupOptions();
+sound_engine    <- SoundEngine()
+signal_repeater <- SignalRepeater()
+popup_options   <- null;
+bottom_text     <- BottomText();
+right_box       <- RightBox();
+game_buttons    <- GameButtons();
+config_menu     <- ConfigMenu();
+popup_options   <- PopupOptions();
+
+signal_repeater.enable_for("down");
+signal_repeater.enable_for("up");
 
 function key_detect(signal_str) {
 	// sound_engine.click(); <-- This fucker gives us segfaults ?

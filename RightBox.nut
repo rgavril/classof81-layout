@@ -62,9 +62,6 @@ class RightBox
 
 		# Add a callback to refresh the buttons when events take place
 		fe.add_transition_callback(this, "transition_callback");
-		
-		# Add a tick call back to resend key events as long as a key is pressed
-		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
 	function transition_callback(ttype, var, transition_time)
@@ -84,40 +81,6 @@ class RightBox
 				return false;
 		}
 		return true;
-	}
-
-	# We use this callback to move trough menu buttons when a key is hold
-	down_hold_start = 0; up_hold_start = 0;
-	function ticks_callback( tick_time ) 
-	{
-		# Don't register keys if we're not active
-		if (! this.is_active) { return; }
-
-		if (fe.get_input_state("down")) { 
-			if (down_hold_start == 0) {
-				down_hold_start = tick_time + 500;
-			}
-
-			if (tick_time - down_hold_start > 100) {
-				down_hold_start = tick_time;
-				this.key_detect("down");
-			}
-		} else {
-			down_hold_start = 0;
-		}
-
-		if (fe.get_input_state("up")) { 
-			if (up_hold_start == 0) {
-				up_hold_start = tick_time + 500;
-			}
-
-			if (tick_time - up_hold_start > 100) {
-				up_hold_start = tick_time;
-				this.key_detect("up");
-			}
-		} else {
-			up_hold_start = 0;
-		}
 	}
 
 	function draw()

@@ -54,8 +54,6 @@ class PopupOptions {
 		}
 
 		draw();
-
-		fe.add_ticks_callback(this, "ticks_animate");
 	}
 
 	function key_detect(signal_str)
