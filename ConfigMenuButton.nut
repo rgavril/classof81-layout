@@ -73,7 +73,7 @@ class ConfigMenuButton {
 
 		if (this.is_selected) {
 			this.background_image.file_name = "images/config_menu_button_selected.png"
-			if (popup_options && popup_options.is_active) {
+			if (popup_menu && popup_menu.is_active) {
 				this.name_label.set_rgb(255, 255, 255)
 				this.value_label.set_rgb(255, 255, 255)
 			} else {

@@ -196,20 +196,24 @@ class ConfigMenu {
 	function select_action()
 	{
 		local menu_entry = menu_entries[select_idx];
+
 		switch (menu_entry["type"]) {
 			case "hide":
 				this.hide();
 				break;
 
 			case "reset":
-				this.reset();
+				popup_menu.set_title("Reset to Default");
+				popup_menu.set_options(["Yes", "No"], 1);
+				popup_menu.show();
+				this.draw();
 				break;
 
 			case "dipswitch":
 				local dipswitch = menu_entry["dipswitch"]; 
-				popup_options.set_options(dipswitch.values, dipswitch.current_idx);
-				popup_options.set_title(dipswitch.name);
-				popup_options.show();
+				popup_menu.set_options(dipswitch.values, dipswitch.current_idx);
+				popup_menu.set_title(dipswitch.name);
+				popup_menu.show();
 				this.draw();
 				break;
 
@@ -221,17 +225,25 @@ class ConfigMenu {
 	function custom1_action()
 	{
 		local menu_entry = menu_entries[select_idx];
+
 		switch (menu_entry["type"]) {
+			case "reset":
+				if (popup_menu.last_selected_value() == "Yes") {
+					this.reset_all_options();
+				}
+				break;
+
 			case "dipswitch":
-				menu_entry["dipswitch"].set(popup_options.select_idx);
+				menu_entry["dipswitch"].set(popup_menu.last_selected_idx());
 				draw();
 				break;
+
 			default:
 				print("Config action not yet implemented\n");
 		}
 	}
 
-	function reset()
+	function reset_all_options()
 	{
 		foreach (menu_entry in this.menu_entries) {
 			if (menu_entry["type"] != "dipswitch") {

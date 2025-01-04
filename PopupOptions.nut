@@ -167,4 +167,14 @@ class PopupOptions {
 
 		fe.signal("custom1");
 	}
+
+	function last_selected_idx()
+	{
+		return this.select_idx;
+	}
+
+	function last_selected_value()
+	{
+		return this.options[this.select_idx];
+	}
 }

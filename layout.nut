@@ -47,20 +47,20 @@ fe.add_image("images/background.png", 0, 0);
 
 sound_engine    <- SoundEngine()
 signal_repeater <- SignalRepeater()
-popup_options   <- null;
+popup_menu      <- null;
 bottom_text     <- BottomText();
 right_box       <- RightBox();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
-popup_options   <- PopupOptions();
+popup_menu      <- PopupOptions();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
 
 function key_detect(signal_str) {
 	// sound_engine.click(); <-- This fucker gives us segfaults ?
-	if (popup_options.is_active) {
-		if (popup_options.key_detect(signal_str)) {
+	if (popup_menu.is_active) {
+		if (popup_menu.key_detect(signal_str)) {
 			return true;
 		}
 	}
