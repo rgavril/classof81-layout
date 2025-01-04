@@ -1,5 +1,5 @@
 
-class PopupOptions {
+class PopupMenu {
 	title = "";
 	options = [];
 	select_idx = 0;

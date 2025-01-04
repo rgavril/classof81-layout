@@ -19,14 +19,14 @@ fe.do_nut("modules/fbneo-dipswitches.nut");
 fe.do_nut("modules/overview.nut");
 fe.do_nut("utils.nut");
 
-fe.do_nut("BottomText.nut");
-fe.do_nut("GameButton.nut");
-fe.do_nut("GameButtons.nut");
-fe.do_nut("RightBox.nut");
-fe.do_nut("ConfigMenu.nut");
-fe.do_nut("ConfigMenuButton.nut");
-fe.do_nut("PopupOptions.nut");
-fe.do_nut("SoundEngine.nut");
+fe.do_nut("bottom-text.nut");
+fe.do_nut("game-button.nut");
+fe.do_nut("game-buttons.nut");
+fe.do_nut("right-box.nut");
+fe.do_nut("config-menu.nut");
+fe.do_nut("config-menu-button.nut");
+fe.do_nut("popup-menu.nut");
+fe.do_nut("sound-engine.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -52,7 +52,7 @@ bottom_text     <- BottomText();
 right_box       <- RightBox();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
-popup_menu      <- PopupOptions();
+popup_menu      <- PopupMenu();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
