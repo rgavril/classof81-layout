@@ -203,17 +203,17 @@ class ConfigMenu {
 				break;
 
 			case "reset":
-				popup_menu.set_title("Are you sure you want to reset to Default Settings ?");
-				popup_menu.set_options(["Yes", "No"], 1);
-				popup_menu.show();
+				::popup_menu.set_message("Are you sure you want to reset to Default Settings ?");
+				::popup_menu.set_options(["Yes", "No"], 1);
+				::popup_menu.show();
 				this.draw();
 				break;
 
 			case "dipswitch":
 				local dipswitch = menu_entry["dipswitch"]; 
-				popup_menu.set_title("Choose a new setting for\n" + dipswitch.name.toupper());
-				popup_menu.set_options(dipswitch.values, dipswitch.current_idx);
-				popup_menu.show();
+				::popup_menu.set_message("Choose a new setting for\n" + dipswitch.name.toupper());
+				::popup_menu.set_options(dipswitch.values, dipswitch.current_idx);
+				::popup_menu.show();
 				this.draw();
 				break;
 
@@ -228,13 +228,13 @@ class ConfigMenu {
 
 		switch (menu_entry["type"]) {
 			case "reset":
-				if (popup_menu.last_selected_value() == "Yes") {
+				if (::popup_menu.last_selected_value() == "Yes") {
 					this.reset_all_options();
 				}
 				break;
 
 			case "dipswitch":
-				menu_entry["dipswitch"].set(popup_menu.last_selected_idx());
+				menu_entry["dipswitch"].set(::popup_menu.last_selected_idx());
 				draw();
 				break;
 

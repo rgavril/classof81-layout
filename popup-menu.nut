@@ -1,13 +1,13 @@
 
 class PopupMenu {
-	title = "";
+	message = "";
 	options = [];
 	select_idx = 0;
 
 	surface = null;
 	background_top = null;
 	background_bottom = null;
-	title_label = null;
+	message_label = null;
 
 	MAX_OPTIONS = 20;
 	options_background = [];
@@ -29,13 +29,13 @@ class PopupMenu {
 		this.background_top = this.surface.add_image("images/popup_menu.png", 0, 0);
 		this.background_bottom = this.surface.add_clone(this.background_top);
 
-		# Title
-		this.title_label = this.surface.add_text("", this.background_top.texture_width/2 - 250, 80, 500,200);
-		this.title_label.font = "fonts/CriqueGrotesk-Bold.ttf";
-		this.title_label.set_rgb(255, 255, 255);
-		this.title_label.char_size = 26;
-		this.title_label.word_wrap = true;
-		this.title_label.align = Align.TopCentre;
+		# Message
+		this.message_label = this.surface.add_text("", this.background_top.texture_width/2 - 250, 80, 500,200);
+		this.message_label.font = "fonts/CriqueGrotesk-Bold.ttf";
+		this.message_label.set_rgb(255, 255, 255);
+		this.message_label.char_size = 26;
+		this.message_label.word_wrap = true;
+		this.message_label.align = Align.TopCentre;
 
 		# Popup Option Buttons
 		for (local idx=0; idx<MAX_OPTIONS; idx++) {
@@ -69,8 +69,8 @@ class PopupMenu {
 
 	function draw()
 	{
-		# Update title
-		this.title_label.msg = this.title;
+		# Update message
+		this.message_label.msg = this.message;
 
 		# First hide all options
 		for (local idx=0; idx<MAX_OPTIONS; idx++) {
@@ -119,9 +119,9 @@ class PopupMenu {
 		this.select_idx = select_idx;
 	}
 
-	function set_title(title)
+	function set_message(message)
 	{
-		this.title = title;
+		this.message = message;
 	}
 
 	function show()
