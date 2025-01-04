@@ -277,6 +277,7 @@ class ConfigMenu {
 		this.load();
 		this.draw();
 
+		animation.add(PropertyAnimation(this.surface, {property = "alpha", start=0, end=255, time = 150, tween = Tween.Quart}));
         local enlarge = {property = "scale", start=0.1, end=1, time = 300, 	tween = Tween.Quart}
         animation.add(PropertyAnimation(this.surface, enlarge));
 	}
@@ -286,6 +287,8 @@ class ConfigMenu {
 		::sound_engine.play_exit_sound();
 
 		this.is_active = false;
-		this.surface.visible = false;
+		// this.surface.visible = false;
+
+		animation.add(PropertyAnimation(this.surface, {property = "alpha", start=255, end=0, time = 200, tween = Tween.Quart}));
 	}
 }
