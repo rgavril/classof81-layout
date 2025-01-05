@@ -28,16 +28,15 @@ function str_replace(search, replace, subject)
 	return text;
 }
 
-function ini_read(filename, section, variable)
+function ini_section(filename, section)
 {
 	local file = ReadTextFile("/", filename);
+	local map = {};
 	
-
-	local value = null;
 	local section_found = false;
 	while(!file.eos()) {
 		local line = file.read_line();
-		
+
 		if (line == "["+section+"]") {
 			section_found = true;
 			continue;
@@ -47,21 +46,20 @@ function ini_read(filename, section, variable)
 			continue;
 		}
 
-		if (section_found && line.len()>0 && line.slice(0, 1) == "[") {
+		if (line.len()>0 && line.slice(0, 1) == "[") {
 			break;
 		}
 
 		local parts = split(line, "=");
 		if (parts.len() == 2) {
 			local key = strip(parts[0]);
+			local value = strip(parts[1]);
+			value = str_replace("\"", "", value);
 
-			if (key == variable) {
-				value = strip(parts[1]);
-				value = str_replace("\"", "", value);
-				break;
-			}
+			map[key] <- value;
 		}
 	}
 
-	return value;
+	// file.close();
+	return map;
 }
