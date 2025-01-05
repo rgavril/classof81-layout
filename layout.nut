@@ -27,6 +27,7 @@ fe.do_nut("right-box.nut");
 fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
+fe.do_nut("startup-page.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -53,11 +54,21 @@ right_box       <- RightBox();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
+starup_page     <- StartupPage();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
 
 function key_detect(signal_str) {
+
+	if (starup_page.is_active) {
+		if (starup_page.key_detect(signal_str)) {
+			return true;
+		}
+		
+		return false;
+	}
+
 	if (popup_menu.is_active) {
 		if (popup_menu.key_detect(signal_str)) {
 			return true;
@@ -106,6 +117,11 @@ function key_detect(signal_str) {
 		if (signal_str == "select" && game_buttons.is_config_mode) {
 			config_menu.show();
 			// game_buttons.desactivate();
+			return true;
+		}
+
+		if (signal_str == "select" && !game_buttons.is_config_mode) {
+			starup_page.show();
 			return true;
 		}
 
