@@ -5,10 +5,22 @@ return {
         "buttons": [ "Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
+    "raiden": {
+        "players": 2,
+        "alternating": 0,
+        "buttons": ["Shot", "Bomb"],
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rompers": {
+        "players": 2,
+        "alternating": 1,
+        "buttons": ["Push"],
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
     "88games": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Run" ],
+        "buttons": [ "Run", "Jump", "Run" ],
         "joystick": [ "", "", "", "" ]
     },
     "005": {
@@ -20,7 +32,7 @@ return {
     "10yardj": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Pass / Hike" ],
+        "buttons": [ "Pass / Hike", "Lateral" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gtmr": {
@@ -32,55 +44,55 @@ return {
     "1941": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Loop" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "1942": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Loop" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "1943kai": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "1943": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "1944": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "19xx": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "openice": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Turbo" ],
+        "buttons": [ "Turbo", "Shoot / Block", "Pass / Steal" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "39in1": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "4enraya": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Down" ],
+        "buttons": [ "Down", "Shot" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "4in1": {
@@ -92,19 +104,19 @@ return {
     "4dwarrio": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "64street": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "720": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Jump" ],
         "joystick": [ "", "", "", "" ]
     },
     "7jigen": {
@@ -122,67 +134,67 @@ return {
     "acrobatm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "actfancr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hatena": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "aerofgt": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aburner2": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Vulcan", "Unknown" ],
         "joystick": [ "", "", "", "" ]
     },
     "koshien": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "airbustr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "airduel": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Gun" ],
+        "buttons": [ "Gun", "Guided Bomb", "Unknown", "Unknown" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "airwolf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ajax": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Missle", "Super Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "alexkidd": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Unknown" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "alibaba": {
@@ -194,7 +206,7 @@ return {
     "astorm": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Roll", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aliensyn": {
@@ -206,19 +218,19 @@ return {
     "avsp": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Attack", "Jump (Dash)" ],
         "joystick": [ "Up", "Down", "Move Left", "Move Right" ]
     },
     "alien3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Secondary Weapon" ],
         "joystick": [ "", "", "", "" ]
     },
     "aliens": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot 1" ],
+        "buttons": [ "Shoot 1", "Shoot 2" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aafb": {
@@ -230,7 +242,7 @@ return {
     "alleymas": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Left" ],
+        "buttons": [ "Left", "Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "alphaho": {
@@ -242,7 +254,7 @@ return {
     "alpinerd": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Decision" ],
+        "buttons": [ "Decision", "Left (Select)", "Right (Select)" ],
         "joystick": [ "", "", "", "" ]
     },
     "alpine": {
@@ -254,7 +266,7 @@ return {
     "altbeast": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "maze": {
@@ -266,7 +278,7 @@ return {
     "horshoes": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Angle" ],
+        "buttons": [ "Angle", "Grip" ],
         "joystick": [ "", "", "", "" ]
     },
     "amspdwy": {
@@ -302,7 +314,7 @@ return {
     "apb": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Siren / Start" ],
+        "buttons": [ "Siren / Start", "Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "apparel": {
@@ -314,13 +326,13 @@ return {
     "aquajack": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Jump", "Vulcan", "Thrust" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aquarium": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate Right" ],
+        "buttons": [ "Rotate Right", "Rotate Left" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "arabian": {
@@ -332,19 +344,19 @@ return {
     "arbalest": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "arcadecl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire / Left Missile" ],
+        "buttons": [ "Fire / Left Missile", "Fire / Center Missile", "Fire / Right Missile" ],
         "joystick": [ "", "", "", "" ]
     },
     "archrivl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot/Jump" ],
+        "buttons": [ "Shoot/Jump", "Pass/Punch" ],
         "joystick": [ "", "", "", "" ]
     },
     "area51": {
@@ -368,13 +380,13 @@ return {
     "argus": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Laser" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "arkarea": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Direction" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "arkanoid": {
@@ -392,7 +404,7 @@ return {
     "arlingtn": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "WIN" ],
+        "buttons": [ "WIN", "PLACE", "SHOW", "COLLECT" ],
         "joystick": [ "Up", "Down", "", "" ]
     },
     "armwrest": {
@@ -404,31 +416,31 @@ return {
     "armedf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special", "Unknown" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "armora": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Forward" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "armorcar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sawhorse" ],
+        "buttons": [ "Sawhorse", "2nd Gear" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ashura": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aso": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Laser" ],
+        "buttons": [ "Laser", "Missile", "Power Up" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "assault": {
@@ -440,25 +452,25 @@ return {
     "asterix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "asteroid": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "FIRE" ],
+        "buttons": [ "FIRE", "THRUST", "HYPER SPACE" ],
         "joystick": [ "", "", "Rotate Left", "Rotate Right" ]
     },
     "astdelux": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "FIRE" ],
+        "buttons": [ "FIRE", "THRUST", "SHIELDS" ],
         "joystick": [ "", "", "ROTATE LEFT", "ROTATE RIGHT" ]
     },
     "astrob": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Warp" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "astrof": {
@@ -476,13 +488,13 @@ return {
     "asuka": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "asylum": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "abaseb": {
@@ -506,31 +518,31 @@ return {
     "athena": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "atehate": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "atomicp": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate" ],
+        "buttons": [ "Rotate", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "robokid": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Weapon Select" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aurail": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Sepcial", "Shield" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "av2mj1bb": {
@@ -554,19 +566,19 @@ return {
     "avengers": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "avspirit": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "aztarac": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Radar" ],
         "joystick": [ "", "", "", "" ]
     },
     "azurian": {
@@ -578,13 +590,13 @@ return {
     "baddudes": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "badlands": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Gas" ],
+        "buttons": [ "Gas", "Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "bagman": {
@@ -596,13 +608,13 @@ return {
     "bkrtmaq": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "bakutotu": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire", "Fire" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ballbomb": {
@@ -614,7 +626,7 @@ return {
     "ballbros": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate" ],
+        "buttons": [ "Rotate", "Unknown", "Unknown" ],
         "joystick": [ "Up", "", "Left", "Right" ]
     },
     "baluba": {
@@ -638,7 +650,7 @@ return {
     "bankp": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot Door 1" ],
+        "buttons": [ "Shoot Door 1", "Shoot Door 2", "Shoot Door 3" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "baraduke": {
@@ -656,7 +668,7 @@ return {
     "barrier": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Beginner" ],
+        "buttons": [ "Beginner", "Intermediate", "Expert" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bsktball": {
@@ -668,13 +680,13 @@ return {
     "batman": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Action" ],
+        "buttons": [ "Action", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "batsugun": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "battlnts": {
@@ -686,7 +698,7 @@ return {
     "bkraidj": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "battlex": {
@@ -704,25 +716,25 @@ return {
     "btlkroad": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Jump", "Duck", "Left", "Right" ]
     },
     "battlane": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "atlantis": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "battlera": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bshark": {
@@ -734,7 +746,7 @@ return {
     "btoads": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Start / Attack" ],
+        "buttons": [ "Start / Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bzone": {
@@ -746,7 +758,7 @@ return {
     "bayroute": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "beaminv": {
@@ -758,67 +770,67 @@ return {
     "bbusters": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "beathead": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Big Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bm1stmix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bm2ndmix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bm4thmix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bm5thmix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bm6thmix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bmcompmx": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bmcompm2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bmcorerm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "bmdct": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "White 1" ],
+        "buttons": [ "White 1", "Black 1", "White 2", "Black 2", "White 3" ],
         "joystick": [ "", "", "", "" ]
     },
     "beezer": {
@@ -830,25 +842,25 @@ return {
     "bel": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "blswhstl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "berabohm": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Hard Attack", "Jump", "High Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bermudat": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "berzerk": {
@@ -860,25 +872,25 @@ return {
     "bigevglf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Club Select" ],
+        "buttons": [ "Club Select", "Club Select (2P)" ],
         "joystick": [ "", "", "", "" ]
     },
     "bigkarnk": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shot" ],
+        "buttons": [ "Shot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bigrun": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "Low", "High", "Horn" ],
         "joystick": [ "", "", "", "" ]
     },
     "bigstrik": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bigtwin": {
@@ -914,25 +926,25 @@ return {
     "bioship": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Cursor" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "biofreak": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Left Punch" ],
+        "buttons": [ "Left Punch", "Right Punch", "Fire/Shield", "Left Kick", "Right Kick", "Hover" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "biomtoy": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bionicc": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bionic Reach" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bking": {
@@ -956,7 +968,7 @@ return {
     "birdtry": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Swing" ],
+        "buttons": [ "Swing", "Options" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "psailor1": {
@@ -974,7 +986,7 @@ return {
     "blkheart": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire A" ],
+        "buttons": [ "Fire A", "Fire B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blkhole": {
@@ -986,13 +998,13 @@ return {
     "blkpnthr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blktiger": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Mace" ],
+        "buttons": [ "Mace", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bwidow": {
@@ -1004,25 +1016,25 @@ return {
     "bmaster": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bladestl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Pass / Face-Off", "FIGHT!" ],
         "joystick": [ "", "", "", "" ]
     },
     "blandia": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack High" ],
+        "buttons": [ "Attack High", "Attack Middle", "Attack Low" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blastoff": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Change Weapon", "NA" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blasted": {
@@ -1034,13 +1046,13 @@ return {
     "blaster": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Blast" ],
+        "buttons": [ "Blast", "Thrust", "Unknown" ],
         "joystick": [ "", "", "", "" ]
     },
     "blstroid": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Transform:  Armor, Shots, Speed" ],
         "joystick": [ "", "", "", "" ]
     },
     "blasto": {
@@ -1052,13 +1064,13 @@ return {
     "blazeon": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Normal Shot" ],
+        "buttons": [ "Normal Shot", "Special Weapon / Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blockout": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A Button" ],
+        "buttons": [ "A Button", "B Button", "C Button", "Drop" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "blockade": {
@@ -1070,7 +1082,7 @@ return {
     "bloodbro": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Roll", "Dynamite" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bloxeed": {
@@ -1094,13 +1106,13 @@ return {
     "bodyslam": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Help" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bogeyman": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bombjack": {
@@ -1112,7 +1124,7 @@ return {
     "boogwing": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "boothill": {
@@ -1130,7 +1142,7 @@ return {
     "bottom9": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bouldash": {
@@ -1142,31 +1154,31 @@ return {
     "bowler": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Straight/Hook" ],
+        "buttons": [ "Straight/Hook", "??" ],
         "joystick": [ "", "", "", "" ]
     },
     "boxingb": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Rocket" ],
+        "buttons": [ "Rocket", "Punch" ],
         "joystick": [ "", "", "", "" ]
     },
     "bradley": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Magnification Toggle", "Armor Piercing (Single Shot)", "High Explosive (Single Shot)", "Armor Piercing (Low Rate)", "High Explosive (Low Rate)", "Armor Piercing (High Rate)", "High Explosive (High Rate)", "Select Tow Missiles", "7.62 mm Machine Gun" ],
         "joystick": [ "", "", "", "" ]
     },
     "brkthru": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Fire" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bublbobl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Bubble" ],
+        "buttons": [ "Bubble", "Jump" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "bubbles": {
@@ -1178,13 +1190,13 @@ return {
     "buckrog": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Slow", "Fast" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "buggychl": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "H / L" ],
         "joystick": [ "", "", "", "" ]
     },
     "btime": {
@@ -1202,25 +1214,25 @@ return {
     "cabal": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "cadash": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dino": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "calibr50": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rapid Fire" ],
+        "buttons": [ "Rapid Fire", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cameltry": {
@@ -1238,25 +1250,25 @@ return {
     "capbowl": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Hook Left" ],
+        "buttons": [ "Hook Left", "Hook Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "captaven": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Start / Attack" ],
+        "buttons": [ "Start / Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "captcomm": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "carnevil": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Trigger" ],
+        "buttons": [ "Trigger", "Reload" ],
         "joystick": [ "", "", "", "" ]
     },
     "carnival": {
@@ -1268,19 +1280,19 @@ return {
     "cawing": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cavelon": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Magic Sword" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cninja": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Aim Up", "Duck", "Left", "Right" ]
     },
     "centiped": {
@@ -1292,13 +1304,13 @@ return {
     "challeng": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb", "Warp" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "champbas": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "A: Change Batter, Pitcher" ],
+        "buttons": [ "A: Change Batter, Pitcher", "B: Bat, Extra Bases - Pitch, Throw Ball", "C: Steal, Run Back" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "csprint": {
@@ -1310,7 +1322,7 @@ return {
     "checkman": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Slide left" ],
+        "buttons": [ "Slide left", "Slide right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "checkmat": {
@@ -1334,7 +1346,7 @@ return {
     "cshift": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Blue Things" ],
+        "buttons": [ "Blue Things", "Red Things" ],
         "joystick": [ "", "", "", "" ]
     },
     "chiller": {
@@ -1352,7 +1364,7 @@ return {
     "chopper": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Special Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "circus": {
@@ -1370,13 +1382,13 @@ return {
     "cischeat": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "Low", "Hi", "Horn" ],
         "joystick": [ "", "", "", "" ]
     },
     "citycon": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "citylove": {
@@ -1400,13 +1412,13 @@ return {
     "cltchitr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "colony7": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Mega - Blaster", "Eradicator" ],
         "joystick": [ "Control Up", "Control Down", "Control Left", "Control Right" ]
     },
     "columns": {
@@ -1424,13 +1436,13 @@ return {
     "commsega": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "commando": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "comotion": {
@@ -1448,7 +1460,7 @@ return {
     "contra": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cosmica": {
@@ -1460,13 +1472,13 @@ return {
     "cavenger": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cchasm": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Shields" ],
         "joystick": [ "", "", "", "" ]
     },
     "cosmicg": {
@@ -1490,7 +1502,7 @@ return {
     "crater": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire (Trigger)" ],
+        "buttons": [ "Fire (Trigger)", "Shield", "??" ],
         "joystick": [ "Forward", "Reverse", "", "" ]
     },
     "cclimber": {
@@ -1514,13 +1526,13 @@ return {
     "crimec": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "crimfght": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "crossbow": {
@@ -1532,13 +1544,13 @@ return {
     "crgolf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Swing" ],
+        "buttons": [ "Swing", "Address Up", "Address Down", "Address Left", "Address Right", "Club Select" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "cbuster": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fight" ],
+        "buttons": [ "Fight", "Jump", "Pick Up" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "crush": {
@@ -1550,7 +1562,7 @@ return {
     "cryptklr": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Reload" ],
         "joystick": [ "", "", "", "" ]
     },
     "ccastles": {
@@ -1574,13 +1586,13 @@ return {
     "curvebal": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Swing" ],
+        "buttons": [ "Swing", "Bunt" ],
         "joystick": [ "", "", "", "" ]
     },
     "cybsled": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile", "View Point", "unknown" ],
         "joystick": [ "", "", "", "" ]
     },
     "cyberbal": {
@@ -1592,25 +1604,25 @@ return {
     "cybots": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack 1" ],
+        "buttons": [ "Attack 1", "Attack 2", "Boost", "Weapons" ],
         "joystick": [ "Jump", "Duck", "Back / Defense", "Forward" ]
     },
     "daioh": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Laser Shot" ],
+        "buttons": [ "Laser Shot", "Ion Shot", "Missile Shot", "Fire Bomb", "Mega Beam", "Atomic Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dangar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Transform", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dangerz": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Heat - Seaking Missile" ],
         "joystick": [ "", "", "", "" ]
     },
     "indyheat": {
@@ -1622,25 +1634,25 @@ return {
     "darkplnt": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Laser" ],
         "joystick": [ "", "", "", "" ]
     },
     "darkseal": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dstlk": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "deadang": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "Aim Up", "Aim Down", "Aim Left", "Aim Right" ]
     },
     "redufo": {
@@ -1652,19 +1664,19 @@ return {
     "defender": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "FIRE" ],
+        "buttons": [ "FIRE", "THRUST", "SMART BOMB", "HYPERSPACE", "REVERSE" ],
         "joystick": [ "Up", "Down", "", "" ]
     },
     "demoderb": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Forward" ],
+        "buttons": [ "Forward", "Reverse" ],
         "joystick": [ "", "", "", "" ]
     },
     "depthch": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire Left Charge" ],
+        "buttons": [ "Fire Left Charge", "Fire Right Charge" ],
         "joystick": [ "", "", "Move Ship Left", "Move Ship Right" ]
     },
     "desertgu": {
@@ -1676,13 +1688,13 @@ return {
     "destroyr": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Release Charge" ],
+        "buttons": [ "Release Charge", "Slow" ],
         "joystick": [ "", "", "", "" ]
     },
     "devstors": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Weapon" ],
         "joystick": [ "Forward", "Backward", "Left", "Right" ]
     },
     "devilfsh": {
@@ -1706,19 +1718,19 @@ return {
     "digdug2": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Pump" ],
+        "buttons": [ "Pump", "Drill" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "digger": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Dig" ],
+        "buttons": [ "Dig", "Fill" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dimahoo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "otatidai": {
@@ -1730,7 +1742,7 @@ return {
     "dotron": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Throw" ],
+        "buttons": [ "Throw", "Deflect", "Aim Up", "Aim Down" ],
         "joystick": [ "Move Tron", "Move Tron", "Move Tron", "Move Tron" ]
     },
     "dorunrun": {
@@ -1778,85 +1790,85 @@ return {
     "ddragon": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Jump", "Punch" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ddragon3": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Jump", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ddragon2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack Left" ],
+        "buttons": [ "Attack Left", "Jump", "Attack Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ddribble": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Dribble" ],
+        "buttons": [ "Dribble", "Shoot", "Pass" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "downtown": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dragrace": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "dragngun": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Dragon Bomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "dspirit": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb", "Unknown" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "drgnunit": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Shield" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ddsom": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Select", "Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ddtod": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Magic", "Select" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "dynamcop": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "eswat": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump", "Special Weapons" ],
         "joystick": [ "Shoot Upward", "Kneel", "Left", "Right" ]
     },
     "ecofghtr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate CCW" ],
+        "buttons": [ "Rotate CCW", "Shot", "Rotate CW" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "eggventr": {
@@ -1868,37 +1880,37 @@ return {
     "elevator": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump/Kick" ],
         "joystick": [ "", "Kneel", "Left", "Right" ]
     },
     "elim2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust" ],
         "joystick": [ "", "", "Rotate Left", "Rotate Right" ]
     },
     "enigma2": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "eprom": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump / Start", "Duck" ],
         "joystick": [ "", "", "", "" ]
     },
     "exerion": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fast Fire" ],
+        "buttons": [ "Fast Fire", "Fire" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "exterm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire / Grap" ],
+        "buttons": [ "Fire / Grap", "Pound" ],
         "joystick": [ "Move Up", "Move Down", "Move Left", "Move Right" ]
     },
     "eyes": {
@@ -1910,13 +1922,13 @@ return {
     "f1dream": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "1st Gear" ],
+        "buttons": [ "1st Gear", "2nd Gear" ],
         "joystick": [ "Turn", "Turn", "Turn", "Turn" ]
     },
     "f1en": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Gear Down" ],
+        "buttons": [ "Gear Down", "Gear Up" ],
         "joystick": [ "", "", "", "" ]
     },
     "fantasy": {
@@ -1934,7 +1946,7 @@ return {
     "fax": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C", "D" ],
         "joystick": [ "", "", "", "" ]
     },
     "fgoal": {
@@ -1946,25 +1958,25 @@ return {
     "fghtatck": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "fvipers": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Guard" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "finalb": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Weak" ],
+        "buttons": [ "Weak", "Medium Strength", "Duck" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ffight": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "finalap2": {
@@ -1982,13 +1994,13 @@ return {
     "firetrk": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Horn", "Track Select" ],
         "joystick": [ "", "", "", "" ]
     },
     "fshark": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "foodf": {
@@ -2006,7 +2018,7 @@ return {
     "formatz": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Laser / Hold for Energy" ],
+        "buttons": [ "Laser / Hold for Energy", "Jump Button / Hold to Transform" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "frenzy": {
@@ -2024,44 +2036,44 @@ return {
     "frogs": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Tongue" ],
+        "buttons": [ "Tongue", "Jump" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "frontlin": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Tank/Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "futspy": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire (Bomb)" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gloc": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Vulcan - Gun" ],
+        "buttons": [ "Vulcan - Gun", "Missile", "Afterburner" ],
         "joystick": [ "", "", "", "" ]
     },
     "gijoe": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Super Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gground": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Magic Weapon" ],
+        "buttons": [ "Magic Weapon", "special Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "galaga88": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
-        "joystick": [ "", "", "Left", "Right" ]
+        "buttons": [ "Fire", "Fire", "N/A" ],
+        "joystick": [ "N/A", "N/A", "Left", "Right" ]
     },
     "galaga": {
         "players": 2,
@@ -2078,7 +2090,7 @@ return {
     "gforce2": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile" ],
         "joystick": [ "", "", "", "" ]
     },
     "galxwars": {
@@ -2108,13 +2120,13 @@ return {
     "gauntlet": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Magic / Start" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gaunt2": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Magic / Start" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "geebee": {
@@ -2126,85 +2138,85 @@ return {
     "gng": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ghouls": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gigawing": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shot / Hold for Reflect Barrier" ],
+        "buttons": [ "Shot / Hold for Reflect Barrier", "Force Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "goldmedl": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Button A" ],
+        "buttons": [ "Button A", "Button B", "Button C" ],
         "joystick": [ "", "", "", "" ]
     },
     "goldnaxe": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ga2": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gt97": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt98": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt99": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt2k": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt3d": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "gtg2": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Face Left" ],
+        "buttons": [ "Face Left", "Face Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "glfgreat": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Stance" ],
+        "buttons": [ "Stance", "Shot", "N/A", "N/A" ],
         "joystick": [ "Select longer distance club", "Select shorter distance club", "Rotate Left", "Rotate Right" ]
     },
     "golgo13": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Trigger" ],
+        "buttons": [ "Trigger", "Zoom In / Zoom Out", "Enter" ],
         "joystick": [ "Select Up", "Select Down", "", "" ]
     },
     "gollygho": {
@@ -2216,7 +2228,7 @@ return {
     "gondo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Character Weapon" ],
+        "buttons": [ "Character Weapon", "Airbike Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gorf": {
@@ -2234,13 +2246,13 @@ return {
     "f1gpstar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "Lo", "Hi" ],
         "joystick": [ "", "", "", "" ]
     },
     "gravitar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thurst", "Tractor/Shield" ],
         "joystick": [ "", "", "Rotate Left", "Rotate Right" ]
     },
     "greatgun": {
@@ -2252,7 +2264,7 @@ return {
     "gberet": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Weapon" ],
+        "buttons": [ "Weapon", "Shoot" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gridiron": {
@@ -2270,31 +2282,31 @@ return {
     "guardian": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fast Punch" ],
+        "buttons": [ "Fast Punch", "Fast Kick", "Defense", "Strong Punch", "Strong Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gwar": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gunsmoke": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire - Left" ],
+        "buttons": [ "Fire - Left", "Fire - Center", "Fire - Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gunbird": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gunbustr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Trigger" ],
+        "buttons": [ "Trigger", "Bomb" ],
         "joystick": [ "Move Forward", "move Backward", "Move Left", "Move Right" ]
     },
     "gyruss": {
@@ -2306,13 +2318,13 @@ return {
     "halleys": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Warp" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hardyard": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Pass / Jump" ],
+        "buttons": [ "Pass / Jump", "Dive" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hattrick": {
@@ -2324,13 +2336,13 @@ return {
     "hcastle": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hbarrel": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hiimpact": {
@@ -2342,25 +2354,25 @@ return {
     "hippodrm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hitme": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Stand" ],
+        "buttons": [ "Stand", "Hit", "Ante" ],
         "joystick": [ "", "", "", "" ]
     },
     "hitice": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Shoot / Check" ],
+        "buttons": [ "Shoot / Check", "Pass / Save" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "holo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Quick Tricks" ],
+        "buttons": [ "Quick Tricks", "Fierce Tricks" ],
         "joystick": [ "Jump", "Crouch", "Backward / Defend", "Forward" ]
     },
     "hotrod": {
@@ -2372,7 +2384,7 @@ return {
     "hstennis": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Hard" ],
+        "buttons": [ "Hard", "Soft" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "housemnq": {
@@ -2396,19 +2408,19 @@ return {
     "hng64": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C", "D" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hyperspt": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Go (Left)" ],
+        "buttons": [ "Go (Left)", "Up", "Go (Right)" ],
         "joystick": [ "", "", "", "" ]
     },
     "irobot": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "??-not used-??" ],
         "joystick": [ "", "", "", "" ]
     },
     "47pie2": {
@@ -2444,13 +2456,13 @@ return {
     "ikari3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Punch", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ikari": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Gun" ],
+        "buttons": [ "Gun", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "imekura": {
@@ -2498,13 +2510,13 @@ return {
     "jackal": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Machine Gun" ],
+        "buttons": [ "Machine Gun", "Hand Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "jailbrek": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Select" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "teamqb": {
@@ -2534,7 +2546,7 @@ return {
     "joust2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Flap" ],
+        "buttons": [ "Flap", "Start Player 1 / Transform" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "joyfulr": {
@@ -2576,7 +2588,7 @@ return {
     "kageki": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab" ],
+        "buttons": [ "Jab", "Punch" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "kanatuen": {
@@ -2594,7 +2606,7 @@ return {
     "kaos": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "??", "??" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "kchamp": {
@@ -2606,7 +2618,7 @@ return {
     "karnov": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump", "Option" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "kick": {
@@ -2618,7 +2630,7 @@ return {
     "kicker": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mayumi": {
@@ -2630,19 +2642,19 @@ return {
     "killcom": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Left" ],
+        "buttons": [ "Fire Left", "Fire Up", "Fire Right", "Hyperspace" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "kinst": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Quick (High Attack)" ],
+        "buttons": [ "Quick (High Attack)", "Medium (High Attack)", "Fierce (High Attack)", "Quick (Low Attack)", "Medium (Low Attack)", "Fierce (Low Attack)" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "kinst2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Quick (High Attack)" ],
+        "buttons": [ "Quick (High Attack)", "Medium (High Attack)", "Fierce (High Attack)", "Quick (Low Attack)", "Medium (Low Attack)", "Fierce (Low Attack)" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "kingball": {
@@ -2654,7 +2666,7 @@ return {
     "kingofb": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Uppercut" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "klax": {
@@ -2666,25 +2678,25 @@ return {
     "knights": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "konamigt": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "High / Low" ],
         "joystick": [ "", "", "", "" ]
     },
     "kroozr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Zap!" ],
+        "buttons": [ "Zap!", "Shield" ],
         "joystick": [ "Krooz Up", "Krooz Down", "Krooz Left", "Krooz Right" ]
     },
     "kram": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Wall" ],
+        "buttons": [ "Wall", "Breakout" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "krull": {
@@ -2696,13 +2708,13 @@ return {
     "kungfum": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Punch" ],
         "joystick": [ "Jump", "Stoop Down", "Left", "Right" ]
     },
     "kurikint": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch / Kick" ],
+        "buttons": [ "Punch / Kick", "Jump (higher)" ],
         "joystick": [ "Jump", "Duck", "Left", "Right" ]
     },
     "ladybug": {
@@ -2720,13 +2732,13 @@ return {
     "lghost": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Laser Gun" ],
+        "buttons": [ "Laser Gun", "Special Weapon" ],
         "joystick": [ "", "", "", "" ]
     },
     "lastduel": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Button 1" ],
+        "buttons": [ "Button 1", "Button 2" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "lethalen": {
@@ -2744,7 +2756,7 @@ return {
     "liberatr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "", "", "", "" ]
     },
     "lnc": {
@@ -2756,7 +2768,7 @@ return {
     "lockon": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Machine Gun Fire (1)" ],
+        "buttons": [ "Machine Gun Fire (1)", "Machine Gun Fire (2)", "Hover Aircraft", "Lock-On Missiles" ],
         "joystick": [ "", "", "", "" ]
     },
     "locomotn": {
@@ -2768,13 +2780,13 @@ return {
     "ldrun": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Dig Left" ],
+        "buttons": [ "Dig Left", "Dig Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "looping": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Accelerator" ],
         "joystick": [ "Up", "Down", "", "" ]
     },
     "losttomb": {
@@ -2810,7 +2822,7 @@ return {
     "m4": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Reload" ],
         "joystick": [ "Up", "Down", "", "" ]
     },
     "mplanets": {
@@ -2822,7 +2834,7 @@ return {
     "msword": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "magspot": {
@@ -3167,23 +3179,11 @@ return {
         "buttons": [],
         "joystick": [ "", "", "", "" ]
     },
-    "raiden": {
-        "players": 2,
-        "alternating": 0,
-        "buttons": ["Shot", "Bomb"],
-        "joystick": [ "Up", "Down", "Left", "Right" ]
-    },
     "renaiclb": {
         "players": 1,
         "alternating": 1,
         "buttons": [],
         "joystick": [ "", "", "", "" ]
-    },
-    "rompers": {
-        "players": 2,
-        "alternating": 1,
-        "buttons": ["Push"],
-        "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mrokumei": {
         "players": 1,
@@ -3296,13 +3296,13 @@ return {
     "mhavoc": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire/Jump" ],
+        "buttons": [ "Fire/Jump", "Shield" ],
         "joystick": [ "", "", "", "" ]
     },
     "maniach": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mappy": {
@@ -3332,37 +3332,37 @@ return {
     "mmatrix": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "msh": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Forward Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Duck", "Back  / Defense", "Forward" ]
     },
     "mshvsf": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch - Jab" ],
+        "buttons": [ "Punch - Jab", "Punch - Strong", "Punch - Fierce", "Kick - Short", "Kick - Forward", "Kick - Roundhouse" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mvsc": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch - Jab" ],
+        "buttons": [ "Punch - Jab", "Punch - Strong", "Punch - Fierce", "Kick - Short", "Kick - Forward", "Kick - Round-House" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "matmania": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Action Punch" ],
+        "buttons": [ "Action Punch", "Action Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "maxrpm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shift Up" ],
+        "buttons": [ "Shift Up", "Shift Down" ],
         "joystick": [ "", "", "", "" ]
     },
     "maxforce": {
@@ -3374,13 +3374,13 @@ return {
     "mayday": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Front" ],
+        "buttons": [ "Fire Front", "Mayday", "Back" ],
         "joystick": [ "Up", "Down", "", "Right" ]
     },
     "mechatt": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "mmehyou": {
@@ -3398,7 +3398,7 @@ return {
     "megaman2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump", "Weapon Change" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "megazone": {
@@ -3410,13 +3410,13 @@ return {
     "mercs": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "metamrph": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "metrocrs": {
@@ -3428,19 +3428,19 @@ return {
     "mwalk": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Dance" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "midres": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "gtmr2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "milliped": {
@@ -3476,7 +3476,7 @@ return {
     "missile": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire - Alpha Base" ],
+        "buttons": [ "Fire - Alpha Base", "Fire - Delta Base", "Fire - Omega Base" ],
         "joystick": [ "", "", "", "" ]
     },
     "gmissile": {
@@ -3494,7 +3494,7 @@ return {
     "mole": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack 1" ],
+        "buttons": [ "Attack 1", "Attack 2", "Attack 3", "Attack 4", "Attack 5", "Attack 6", "Attack 7", "Attack 8", "Attack 9" ],
         "joystick": [ "", "", "", "" ]
     },
     "monymony": {
@@ -3512,7 +3512,7 @@ return {
     "montecar": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Gear 1", "Gear 2", "Gear 3", "Gear 4", "Track Select" ],
         "joystick": [ "", "", "", "" ]
     },
     "mooncrst": {
@@ -3524,43 +3524,43 @@ return {
     "mpatrol": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "", "", "Slower", "Faster" ]
     },
     "moonwar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Missile" ],
+        "buttons": [ "Fire Missile", "Warp Drive", "Shields" ],
         "joystick": [ "", "", "", "" ]
     },
     "mk": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "High Punch" ],
+        "buttons": [ "High Punch", "Block", "High Kick", "Low Punch", "Low Kick" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "mk3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "High Punch" ],
+        "buttons": [ "High Punch", "Block", "High Kick", "Low Punch", "Low Kick", "Run" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "mk4": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "High Punch" ],
+        "buttons": [ "High Punch", "Block", "High Kick", "Low Punch", "Low Kick", "Run" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "mk2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "High Punch" ],
+        "buttons": [ "High Punch", "Block", "High Kick", "Low Punch", "Low Kick" ],
         "joystick": [ "Jump", "Duck", "Move Left", "Move Right" ]
     },
     "mtrap": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Dog" ],
+        "buttons": [ "Dog", "Doors - Yellow", "Doors - Red", "Doors - Blue" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mrdo": {
@@ -3596,13 +3596,13 @@ return {
     "mvp": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Red" ],
+        "buttons": [ "Red", "Yellow", "Blue" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mx5000": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Air - to - Air" ],
+        "buttons": [ "Air - to - Air", "Air - to - Ground" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "mysticm": {
@@ -3614,25 +3614,25 @@ return {
     "mystwarr": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump", "NA" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nametune": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "narc": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump", "Crouch", "Rocket Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nastar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "natodef": {
@@ -3650,19 +3650,19 @@ return {
     "nbahangt": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Turbo" ],
+        "buttons": [ "Turbo", "Shoot / Block", "Pass / Steal" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nbajam": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Turbo" ],
+        "buttons": [ "Turbo", "Shoot / Block", "Pass / Steal" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "neckneck": {
         "players": 6,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4", "5", "6" ],
         "joystick": [ "", "", "", "" ]
     },
     "ngpgal": {
@@ -3680,7 +3680,7 @@ return {
     "neogeo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C", "D" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nyny": {
@@ -3692,7 +3692,7 @@ return {
     "blitz": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Turbo" ],
+        "buttons": [ "Turbo", "Jump/Tackle", "Pass/Change Player" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nibbler": {
@@ -3704,7 +3704,7 @@ return {
     "nss": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "Y", "A", "X", "L", "R" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "nomnlnd": {
@@ -3716,7 +3716,7 @@ return {
     "nova2001": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Pause" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ojankoc": {
@@ -3758,7 +3758,7 @@ return {
     "omegrace": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust" ],
         "joystick": [ "", "", "", "" ]
     },
     "oneshot": {
@@ -3770,19 +3770,19 @@ return {
     "othunder": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "opwolf": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Rocket Gun" ],
         "joystick": [ "", "", "", "" ]
     },
     "opwolf3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "orangec": {
@@ -3806,13 +3806,13 @@ return {
     "overdriv": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "High / Low" ],
         "joystick": [ "", "", "", "" ]
     },
     "pow": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Kick" ],
+        "buttons": [ "Kick", "Jump", "Punch" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pacland": {
@@ -3830,7 +3830,7 @@ return {
     "pacmania": {
         "players": 1,
         "alternating": 1,
-        "buttons": [ "Bounce" ],
+        "buttons": [ "Bounce", "Bounce", "Bounce" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "paddlema": {
@@ -3848,7 +3848,7 @@ return {
     "paperboy": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Throw" ],
+        "buttons": [ "Throw", "Throw" ],
         "joystick": [ "", "", "", "" ]
     },
     "pastelg": {
@@ -3872,31 +3872,31 @@ return {
     "peterpak": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Throw" ],
+        "buttons": [ "Throw", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "phoenix": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Force Field" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "pigout": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Throw" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pigskin": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Pass", "Team Attitude" ],
         "joystick": [ "", "", "", "" ]
     },
     "pbaction": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Left Flipper Button" ],
+        "buttons": [ "Left Flipper Button", "Right Flipper Button", "Shake and Start Button (Left)", "Shake and Start Button (Right)" ],
         "joystick": [ "", "", "", "" ]
     },
     "piratetr": {
@@ -3908,7 +3908,7 @@ return {
     "pitfight": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Start / Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pitfall2": {
@@ -3920,13 +3920,13 @@ return {
     "playch10": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pleiads": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Warp" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "plotting": {
@@ -4004,13 +4004,13 @@ return {
     "powerdrv": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Back Tire" ],
+        "buttons": [ "Back Tire", "Front Tire", "Wheelie", "2wd/4wd" ],
         "joystick": [ "", "", "", "" ]
     },
     "pclubj": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Ok / Print" ],
+        "buttons": [ "Ok / Print", "Cancel" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "kiwame": {
@@ -4022,13 +4022,13 @@ return {
     "profpac": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "", "", "", "" ]
     },
     "psychos": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Primary Fire" ],
+        "buttons": [ "Primary Fire", "Secondary Fire" ],
         "joystick": [ "Move Up", "Move Down", "Move Left", "Move Right" ]
     },
     "puckman": {
@@ -4046,13 +4046,13 @@ return {
     "punchout": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Left Blow To Head/Body" ],
+        "buttons": [ "Left Blow To Head/Body", "Right Blow to Head/Body", "Hook Uppercut" ],
         "joystick": [ "Guard Up", "Guard Down", "Dodge Left", "Dodge Right" ]
     },
     "punkshot": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Pass / Hit" ],
+        "buttons": [ "Pass / Hit", "Shoot / Block" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pbobble": {
@@ -4064,13 +4064,13 @@ return {
     "pbobble2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "NA", "NA", "NA" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "pbobble3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "NA", "NA", "NA" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "qbert": {
@@ -4088,7 +4088,7 @@ return {
     "qix": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fast Draw" ],
+        "buttons": [ "Fast Draw", "Slow Draw" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "quantum": {
@@ -4100,31 +4100,31 @@ return {
     "quarterb": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Action A" ],
+        "buttons": [ "Action A", "Action B" ],
         "joystick": [ [     "Up",     "Up" ], [     "Down",     "Down" ], [     "Left",     "Left" ], [     "Right",     "Right" ] ]
     },
     "quartet": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Jump / Start" ],
+        "buttons": [ "Jump / Start", "Shoot" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "quasar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Forward" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "qad": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "qndream": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "qmhayaku": {
@@ -4136,7 +4136,7 @@ return {
     "rtype": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Force" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "radarscp": {
@@ -4160,7 +4160,7 @@ return {
     "rainbow": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Rainbow" ],
+        "buttons": [ "Rainbow", "Jump" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "rallyx": {
@@ -4172,31 +4172,31 @@ return {
     "rampage": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Jump" ],
         "joystick": [ "Climb", "Down", "Left", "Right" ]
     },
     "rmpgwt": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rampart": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Place Piece/Fire/Start" ],
+        "buttons": [ "Place Piece/Fire/Start", "Rotate Piece/Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "rastan": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "reactor": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Energy" ],
+        "buttons": [ "Energy", "Decoy" ],
         "joystick": [ "", "", "", "" ]
     },
     "rmhaihai": {
@@ -4226,13 +4226,13 @@ return {
     "regulus": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "renegade": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack Left" ],
+        "buttons": [ "Attack Left", "Jump", "Attack Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rescue": {
@@ -4256,37 +4256,37 @@ return {
     "jedi": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire / Rotate Left" ],
+        "buttons": [ "Fire / Rotate Left", "Fire", "Fire / Rotate Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "revx": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "ripoff": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Forward" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "roadblst": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire Lasers" ],
+        "buttons": [ "Fire Lasers", "Activate Special Weapon" ],
         "joystick": [ "", "", "", "" ]
     },
     "roadf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Low Gear" ],
+        "buttons": [ "Low Gear", "High Gear" ],
         "joystick": [ "Speed Up", "Slow Down", "Left", "Right" ]
     },
     "roadrunn": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Hop" ],
+        "buttons": [ "Hop", "??not used", "??not used" ],
         "joystick": [ "", "", "", "" ]
     },
     "robby": {
@@ -4298,13 +4298,13 @@ return {
     "robocop": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot/Punch" ],
+        "buttons": [ "Shoot/Punch", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "robocop2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot Left" ],
+        "buttons": [ "Shoot Left", "Shoot Right", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "robotron": {
@@ -4316,25 +4316,25 @@ return {
     "rocnrope": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Rope" ],
+        "buttons": [ "Rope", "Flash" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rollerg": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rthunder": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rranger": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Shoot" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "roundup": {
@@ -4352,13 +4352,13 @@ return {
     "rungun": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "runaway": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Switcher" ],
+        "buttons": [ "Switcher", "Jump", "Forward / Reverse" ],
         "joystick": [ "", "", "", "" ]
     },
     "kirarast": {
@@ -4370,37 +4370,37 @@ return {
     "stunrun": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire (left)" ],
+        "buttons": [ "Fire (left)", "Fire (right)" ],
         "joystick": [ "", "", "", "" ]
     },
     "salamand": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "searchar": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sarge": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Trigger Switch" ],
+        "buttons": [ "Trigger Switch", "Thumb Button" ],
         "joystick": [ "", "", "", "" ]
     },
     "satansat": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Firing Button" ],
+        "buttons": [ "Firing Button", "Laser Beam" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "shollow": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "scandal": {
@@ -4412,7 +4412,7 @@ return {
     "scramble": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Laser" ],
+        "buttons": [ "Laser", "Bombs" ],
         "joystick": [ "Up", "Down", "Slow", "Fast" ]
     },
     "sdi": {
@@ -4454,19 +4454,19 @@ return {
     "shdancer": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Ninja Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "shadoww": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Grab" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sharkatt": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Munch" ],
+        "buttons": [ "Munch", "Thrust" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sshooter": {
@@ -4484,13 +4484,13 @@ return {
     "shinobi": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Ninja Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "shootout": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "shootbul": {
@@ -4508,13 +4508,13 @@ return {
     "shufshot": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Zoom" ],
+        "buttons": [ "Zoom", "Wax" ],
         "joystick": [ "", "", "", "" ]
     },
     "sidearms": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire Left" ],
+        "buttons": [ "Fire Left", "Fire Right", "Power" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sidetrac": {
@@ -4526,49 +4526,49 @@ return {
     "sinistar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Sinibomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "skullxbo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Sword" ],
+        "buttons": [ "Sword", "Turn" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "skydiver": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Open Chute" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "skysoldr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Cannon" ],
+        "buttons": [ "Cannon", "Missle" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "slapfigh": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Weapon Select" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "slikshot": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Yellow" ],
+        "buttons": [ "Yellow", "Green", "Red" ],
         "joystick": [ "", "", "", "" ]
     },
     "slither": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Down" ],
+        "buttons": [ "Fire Down", "Fire Up" ],
         "joystick": [ "", "", "", "" ]
     },
     "slyspy": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "smashtv": {
@@ -4592,37 +4592,37 @@ return {
     "snowbros": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot and Kick Snowball" ],
-        "joystick": [ "", "", "Left", "Right" ]
+        "buttons": [ "Shoot and Kick Snowball", "Jump" ],
+        "joystick": [ "N/A", "N/A", "Left", "Right" ]
     },
     "solarfox": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Speed Control" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "solarq": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Hyper Space", "Nova" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "amazon": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sbm": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sensor 1" ],
+        "buttons": [ "Sensor 1", "Sensor 2", "Sensor 3", "Sensor 4" ],
         "joystick": [ "Aim Up", "Aim Down", "Aim Left", "Aim Right" ]
     },
     "souledge": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack A" ],
+        "buttons": [ "Attack A", "Attack B", "Kick", "Guard" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sspaceat": {
@@ -4634,31 +4634,31 @@ return {
     "spacduel": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Shield" ],
         "joystick": [ "", "", "Rotate Left", "Rotate Right" ]
     },
     "spacefb": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Warp" ],
         "joystick": [ "", "", "Port (Left)", "Starboard (Right)" ]
     },
     "spacfury": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust" ],
         "joystick": [ "", "", "Rotate Left", "Rotate Right" ]
     },
     "spacegun": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Trigger" ],
+        "buttons": [ "Trigger", "Bomb Select", "Back Up" ],
         "joystick": [ "", "", "", "" ]
     },
     "sharrier": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Shot" ],
+        "buttons": [ "Shot", "Shot", "Shot" ],
         "joystick": [ "", "", "", "" ]
     },
     "invaders": {
@@ -4688,13 +4688,13 @@ return {
     "spaceod": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Laser" ],
+        "buttons": [ "Laser", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "panic": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Holing" ],
+        "buttons": [ "Holing", "Closing" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "spacezap": {
@@ -4730,13 +4730,13 @@ return {
     "speedrcr": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C" ],
         "joystick": [ "", "", "", "" ]
     },
     "spidman": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "spiders": {
@@ -4748,13 +4748,13 @@ return {
     "sprint1": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "1", "2", "3", "4" ],
         "joystick": [ "", "", "", "" ]
     },
     "starcas": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "starforc": {
@@ -4772,43 +4772,43 @@ return {
     "starhawk": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Slow", "Medium", "Fast" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "starjack": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "startrek": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Photons", "Warp" ],
         "joystick": [ "", "", "", "" ]
     },
     "starwars": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire", "Fire", "Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "stargate": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "FIRE" ],
+        "buttons": [ "FIRE", "THRUST", "SMART BOMB", "REVERSE", "INVISO", "HYPERSPACE" ],
         "joystick": [ "Up", "Down", "", "" ]
     },
     "sgunner": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile" ],
         "joystick": [ "", "", "", "" ]
     },
     "sgunner2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Missile" ],
         "joystick": [ "", "", "", "" ]
     },
     "stocker": {
@@ -4820,79 +4820,79 @@ return {
     "stratab": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Hook Left" ],
+        "buttons": [ "Hook Left", "Hook Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "stratgyx": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Tank Fire" ],
+        "buttons": [ "Tank Fire", "Turrent Rotate Left", "Turrent Rotate Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sf": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfa2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfa3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfa": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sf2ce": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sf2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfiii2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfiii3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sfiii": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sftm": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Light Punch" ],
+        "buttons": [ "Light Punch", "Middle Punch", "Heavy Punch", "Light Kick", "Middle Kick", "Heavy Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "strider": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Sword" ],
+        "buttons": [ "Sword", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sbowling": {
@@ -4904,19 +4904,19 @@ return {
     "strkforc": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Weapon Select" ],
+        "buttons": [ "Weapon Select", "Fire", "Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "s1945": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "s1945iii": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Loop", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "subs": {
@@ -4928,7 +4928,7 @@ return {
     "ssriders": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sbagman": {
@@ -4940,31 +4940,31 @@ return {
     "sbrkout": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Serve" ],
+        "buttons": [ "Serve", "Progressive", "Double", "Cavity" ],
         "joystick": [ "", "", "", "" ]
     },
     "scobra": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sidewinder Missile" ],
+        "buttons": [ "Sidewinder Missile", "Bombs" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "scontra": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "spdodgeb": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Offensive Throw / Defensive Catch" ],
+        "buttons": [ "Offensive Throw / Defensive Catch", "offensive Pass / Defensive Duck" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "sgemf": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "shimpact": {
@@ -4982,7 +4982,7 @@ return {
     "smgp": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Shift Down" ],
+        "buttons": [ "Shift Down", "Shift Up" ],
         "joystick": [ "", "", "", "" ]
     },
     "superpac": {
@@ -4994,13 +4994,13 @@ return {
     "spbactn": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Left Flipper" ],
+        "buttons": [ "Left Flipper", "Right Flipper", "Plunger" ],
         "joystick": [ "", "", "", "" ]
     },
     "spnchout": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Left Blow to Head/Body" ],
+        "buttons": [ "Left Blow to Head/Body", "Right Blow to Head/Body", "Uppercut / Hook / Knock Out Blow" ],
         "joystick": [ "Guard Up", "Guard Down", "Dodge Left", "Dodge Right" ]
     },
     "sqix": {
@@ -5048,13 +5048,13 @@ return {
     "ssf2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Jab Punch" ],
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Strong Kick", "Roundhouse Kick" ],
         "joystick": [ "Jump", "Crouch", "Left", "Right" ]
     },
     "sstrike": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Right Hook" ],
+        "buttons": [ "Right Hook", "Left Hook" ],
         "joystick": [ "", "", "", "" ]
     },
     "szaxxon": {
@@ -5066,7 +5066,7 @@ return {
     "superman": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "swimmer": {
@@ -5078,7 +5078,7 @@ return {
     "tnk3": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Cannon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ttmahjng": {
@@ -5090,7 +5090,7 @@ return {
     "tailg": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "", "", "", "" ]
     },
     "hotgmck": {
@@ -5156,25 +5156,25 @@ return {
     "tazmania": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Zapper" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tbowl": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Start / Jump" ],
+        "buttons": [ "Start / Jump", "Snap / Pass / Tackle / Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tmnt": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tmnt2": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Jump" ],
+        "buttons": [ "Jump", "Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tehkanwc": {
@@ -5186,19 +5186,19 @@ return {
     "tekken": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Left Punch" ],
+        "buttons": [ "Left Punch", "Right Punch", "Left Kick", "Right Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tekken2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Left Punch" ],
+        "buttons": [ "Left Punch", "Right Punch", "Left Kick", "Right Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tekken3": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Left Punch" ],
+        "buttons": [ "Left Punch", "Right Punch", "Left Kick", "Right Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "telmahjn": {
@@ -5210,31 +5210,31 @@ return {
     "tempest": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Super Zapper" ],
         "joystick": [ "", "", "", "" ]
     },
     "tengai": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "term2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Trigger" ],
+        "buttons": [ "Trigger", "Bomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "terracre": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Formation" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "terraf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Formation" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "atetris": {
@@ -5252,19 +5252,19 @@ return {
     "tetrisp": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate" ],
+        "buttons": [ "Rotate", "Rotate" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tetrisp2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Rotate Clockwise" ],
+        "buttons": [ "Rotate Clockwise", "Rotate Anti Clockwise", "Bomb" ],
         "joystick": [ "", "Drop", "Left", "Right" ]
     },
     "ctribe": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "elecyoyo": {
@@ -5276,7 +5276,7 @@ return {
     "esb": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire / Shoot TOW Cable", "Fire / Shoot TOW Cable", "Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "theend": {
@@ -5288,7 +5288,7 @@ return {
     "lkage": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sword" ],
+        "buttons": [ "Sword", "Star Knives" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "themj": {
@@ -5300,13 +5300,13 @@ return {
     "mainevt": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Action" ],
+        "buttons": [ "Action", "Tag" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ninjaw": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Dagger" ],
+        "buttons": [ "Dagger", "Ninja Star" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "thepit": {
@@ -5318,25 +5318,25 @@ return {
     "punisher": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "ghostb": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot / Start" ],
+        "buttons": [ "Shoot / Start", "Beam" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "simpsons": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "srumbler": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Escape" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "3stooges": {
@@ -5360,25 +5360,25 @@ return {
     "3wonders": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "thndrbld": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "", "", "", "" ]
     },
     "thundfox": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "thunderj": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tickee": {
@@ -5390,31 +5390,31 @@ return {
     "tigerh": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Mini-Gun" ],
+        "buttons": [ "Mini-Gun", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tigeroad": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "timber": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Chop Left" ],
+        "buttons": [ "Chop Left", "Chop Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "timecris": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Step on It!" ],
         "joystick": [ "", "", "", "" ]
     },
     "timekill": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Left Arm" ],
+        "buttons": [ "Left Arm", "Right Arm", "Left Leg", "Right Leg", "Head" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "timeplt": {
@@ -5426,7 +5426,7 @@ return {
     "timesold": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Hyper Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "titlef": {
@@ -5438,7 +5438,7 @@ return {
     "toki": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tmmjprd": {
@@ -5480,13 +5480,13 @@ return {
     "toobin": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Throw Can / Start" ],
+        "buttons": [ "Throw Can / Start", "Paddle Forward (Right)", "Paddle Forward (Left)", "Back Paddle (Left)", "Back Paddle (Right)" ],
         "joystick": [ "", "", "", "" ]
     },
     "topspeed": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "Nitro", "Hi / Lo" ],
         "joystick": [ "", "", "", "" ]
     },
     "totcarn": {
@@ -5498,7 +5498,7 @@ return {
     "tdfever": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Run" ],
+        "buttons": [ "Run", "Pass" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "toypop": {
@@ -5510,7 +5510,7 @@ return {
     "trackfld": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Run" ],
+        "buttons": [ "Run", "Jump/Throw", "Run" ],
         "joystick": [ "", "", "", "" ]
     },
     "tranqgun": {
@@ -5522,7 +5522,7 @@ return {
     "trisport": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Set / Start" ],
+        "buttons": [ "Set / Start", "Select" ],
         "joystick": [ "", "", "", "" ]
     },
     "triplhnt": {
@@ -5534,61 +5534,61 @@ return {
     "statriv2": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C", "D" ],
         "joystick": [ "", "", "", "" ]
     },
     "gtsers8": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4", "5" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt507uk": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4", "5" ],
         "joystick": [ "", "", "", "" ]
     },
     "gt5": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4", "5" ],
         "joystick": [ "", "", "", "" ]
     },
     "trvgns": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B", "C", "D" ],
         "joystick": [ "", "", "", "" ]
     },
     "triviasp": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Correct" ],
+        "buttons": [ "Correct", "Incorrect" ],
         "joystick": [ "", "", "", "" ]
     },
     "triviabb": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Correct" ],
+        "buttons": [ "Correct", "Incorrect" ],
         "joystick": [ "", "", "", "" ]
     },
     "triviag1": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Correct" ],
+        "buttons": [ "Correct", "Incorrect" ],
         "joystick": [ "", "", "", "" ]
     },
     "triviag2": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Correct" ],
+        "buttons": [ "Correct", "Incorrect" ],
         "joystick": [ "", "", "", "" ]
     },
     "triviayp": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Correct" ],
+        "buttons": [ "Correct", "Incorrect" ],
         "joystick": [ "", "", "", "" ]
     },
     "trog": {
@@ -5612,13 +5612,13 @@ return {
     "tunhunt": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "", "", "", "" ]
     },
     "turbo": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Lo", "Hi" ],
         "joystick": [ "", "", "", "" ]
     },
     "turbofrc": {
@@ -5630,61 +5630,61 @@ return {
     "toutrun": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "High / Low" ],
+        "buttons": [ "High / Low", "Turbo" ],
         "joystick": [ "", "", "", "" ]
     },
     "tshoot": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade", "Gobble!" ],
         "joystick": [ "", "", "", "" ]
     },
     "tutankhm": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Left" ],
+        "buttons": [ "Fire Left", "Fire Right", "Flash" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "twincobr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "twineagl": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Missile" ],
+        "buttons": [ "Missile", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "twineag2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "twotiger": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Bomb", "Speed" ],
         "joystick": [ "", "", "", "" ]
     },
     "earthjkr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A-Shoot" ],
+        "buttons": [ "A-Shoot", "B-Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "unsquad": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special Weapon" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vball": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "usclssic": {
@@ -5708,13 +5708,13 @@ return {
     "utoukond": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "undrfire": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "", "", "", "" ]
     },
     "uniwars": {
@@ -5732,31 +5732,31 @@ return {
     "valkyrie": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vandyke": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vanguard": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire Back" ],
+        "buttons": [ "Fire Back", "Fire Forward", "Fire Down", "Fire Up" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "varth": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vendetta": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "venture": {
@@ -5768,13 +5768,13 @@ return {
     "victory": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Thrust", "Shields", "Doomsday" ],
         "joystick": [ "", "", "", "" ]
     },
     "victroad": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Grenade" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "hustler": {
@@ -5786,127 +5786,127 @@ return {
     "videopin": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Left Flipper" ],
+        "buttons": [ "Left Flipper", "Right Flipper", "Nudge" ],
         "joystick": [ "", "Pull plunger", "", "" ]
     },
     "vigilant": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Jump", "Duck", "Left", "Right" ]
     },
     "vimana": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Circle Bomb", "??" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vindictr": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Special" ],
+        "buttons": [ "Special", "Rotate left", "Fire", "Rotate right" ],
         "joystick": [ "", "", "", "" ]
     },
     "vindctr2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "special" ],
+        "buttons": [ "special", "rotate left", "fire", "rotate right" ],
         "joystick": [ "", "", "", "" ]
     },
     "viofight": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Jump", "Kick" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "viper": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Fire" ],
         "joystick": [ "", "", "", "" ]
     },
     "vf": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Defense" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vf2": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick", "Defense" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsgongf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "rbibb": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "balonfgt": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsbball": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "btlecity": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cstlevna": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "cluclu": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "drmario": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "duckhunt": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "excitebk": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsfdf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsgradus": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsgshoe": {
@@ -5930,19 +5930,19 @@ return {
     "iceclimb": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "iceclmrj": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "machridr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsmahjng": {
@@ -5954,31 +5954,31 @@ return {
     "mightybj": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "jajamaru": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vspinbal": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "platoon": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "bnglngby": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsslalom": {
@@ -5990,73 +5990,73 @@ return {
     "vssoccer": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "starlstr": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "smgolf": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "suprmrio": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vsskykid": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "supxevs": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "tkoboxng": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vstennis": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "vstetris": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "goonies": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "topgun": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wrecking": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "B" ],
+        "buttons": [ "B", "A" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wacko": {
@@ -6074,13 +6074,13 @@ return {
     "wargods": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "High Punch" ],
+        "buttons": [ "High Punch", "Block", "High Kick", "Low Punch", "Low Kick", "3D" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wotw": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "warlords": {
@@ -6110,7 +6110,7 @@ return {
     "wecleman": {
         "players": 1,
         "alternating": 0,
-        "buttons": [ "Accelerate" ],
+        "buttons": [ "Accelerate", "Brake", "Low Gear", "High Gear" ],
         "joystick": [ "", "", "", "" ]
     },
     "wfortune": {
@@ -6128,25 +6128,25 @@ return {
     "wildfang": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Special" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "moo": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Shoot" ],
+        "buttons": [ "Shoot", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "willow": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wizdfire": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Magic" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wow": {
@@ -6164,43 +6164,43 @@ return {
     "wboy": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Speed / Attack" ],
+        "buttons": [ "Speed / Attack", "Jump" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "wbml": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sword" ],
+        "buttons": [ "Sword", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wbeachvl": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Hit" ],
+        "buttons": [ "Hit", "Jump", "Unknown" ],
         "joystick": [ "Up-Left", "Down-Right", "Left-Down", "Right-Up" ]
     },
     "wcbowl": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Hook Left" ],
+        "buttons": [ "Hook Left", "Hook Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "wcbowldx": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Hook Left" ],
+        "buttons": [ "Hook Left", "Hook Right" ],
         "joystick": [ "", "", "", "" ]
     },
     "wseries": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Go Back" ],
+        "buttons": [ "Go Back", "Xtra Base", "Aim" ],
         "joystick": [ "", "", "", "" ]
     },
     "wsf": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wtennis": {
@@ -6212,73 +6212,73 @@ return {
     "wwfsstar": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wwfwfest": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "A" ],
+        "buttons": [ "A", "B" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "wwfmania": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Defense", "Power Punch", "Kick", "Power Kick" ],
         "joystick": [ "Move Up", "Move Down", "Move Left", "Move Right" ]
     },
     "xmen": {
         "players": 4,
         "alternating": 0,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Jump", "Mutant Power" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xmvsf": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch - Light" ],
+        "buttons": [ "Punch - Light", "Punch - Medium", "Punch - Heavy", "Kick - Light", "Kick - Medium", "Kick - Heavy" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xmcota": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Punch - Jab" ],
+        "buttons": [ "Punch - Jab", "Punch - Strong", "Punch - Fierce", "Kick - Short", "Kick - Forward", "Kick - Roundhouse" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xsleena": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Jump" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xenophob": {
         "players": 3,
         "alternating": 0,
-        "buttons": [ "Fire / Punch" ],
+        "buttons": [ "Fire / Punch", "Left Button", "Right Button" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xevious": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Zapper" ],
+        "buttons": [ "Zapper", "Blaster" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "xybots": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Turn Left", "Turn Right" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "yesnoj": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Yes" ],
+        "buttons": [ "Yes", "No" ],
         "joystick": [ "", "", "", "" ]
     },
     "yiear": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Punch" ],
+        "buttons": [ "Punch", "Kick" ],
         "joystick": [ "Jump", "Stoop Down", "Left", "Right" ]
     },
     "yosakdon": {
@@ -6290,7 +6290,7 @@ return {
     "yuyugogo": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "1" ],
+        "buttons": [ "1", "2", "3", "4", "??" ],
         "joystick": [ "", "", "", "" ]
     },
     "zaxxon": {
@@ -6320,7 +6320,7 @@ return {
     "zerowing": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Shield" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "zerozone": {
@@ -6338,13 +6338,13 @@ return {
     "zingzip": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Bomb" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "zoar": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "High Missile" ],
+        "buttons": [ "High Missile", "Low Missile", "Top Speed" ],
         "joystick": [ "Gain Altitude", "Lose Altitude", "Left", "Right" ]
     },
     "zodiack": {
@@ -6356,7 +6356,7 @@ return {
     "zombraid": {
         "players": 2,
         "alternating": 0,
-        "buttons": [ "Fire" ],
+        "buttons": [ "Fire", "Reload" ],
         "joystick": [ "", "", "", "" ]
     },
     "zookeep": {
@@ -6368,13 +6368,13 @@ return {
     "zunkyou": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Attack" ],
+        "buttons": [ "Attack", "Special Attack" ],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "zwackery": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Sword" ],
+        "buttons": [ "Sword", "Shield", "Pick Up", "Cast Spell" ],
         "joystick": [ "Up", "Down", "Run Left", "Run Right" ]
     },
     "zzyzzyxx": {
