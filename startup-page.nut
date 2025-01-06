@@ -21,7 +21,7 @@ class StartupPage
 	{
 		this.surface = fe.add_surface(960, 1280);
 		this.surface.set_pos(0, 0);
-		// this.surface.visible = false;	
+		this.surface.visible = false;
 
 		this.background_image = this.surface.add_image("images/controls.png", 0, 0);
 
@@ -77,7 +77,7 @@ class StartupPage
 			}
 
 			# Start Player 2
-			if (controls["players"] >= 2 && controls["alternating"] == 1)
+			if (controls["players"] >= 2)
 			{
 				this.set_info_label("start2", "2 PLAYERS START");
 			} else {

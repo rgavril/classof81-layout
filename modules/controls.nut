@@ -2848,8 +2848,10 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
-    "omegafFire": {
-        "buttons": [ "Special Weapon" ]
+    "omegaf": {
+        "players": 2,
+        "buttons": [ "Fire", "Special Weapon" ],
+        "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "onna34ro": {
         "buttons": [ "Attack", "Thow/Jump" ],
@@ -3842,8 +3844,10 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
-    "skyadvntFire": {
-        "buttons": [ "Weapon", "Ship" ]
+    "skyadvnt": {
+        "players": 2,
+        "buttons": [ "Fire", "Weapon"],
+        "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "skyalert": {
         "buttons": [ "Fire", "Bomb" ],
@@ -4268,8 +4272,10 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
-    "stmbladeFire": {
-        "buttons": [ "Bomb/Missile" ]
+    "stmblade": {
+        "players": 2,
+        "buttons": [ "Shoot", "Bomb/Missile" ],
+        "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "stonebal": {
         "buttons": [ "Shoot/Fight", "Pass/Tackle", "Push" ],
@@ -5047,9 +5053,6 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
-    "youjyudnmFire": {
-        "buttons": [ "Powerful Shot" ]
-    },
     "zaviga": {
         "buttons": [ "Fire", "Dive/Climb" ],
         "players": 2,
@@ -5064,7 +5067,7 @@ return {
         "buttons": [ "Fire", "Thrust" ],
         "players": 1
     },
-    
+
     "88games": {
         "players": 2,
         "alternating": 0,
