@@ -1,0 +1,7 @@
+Players navigate their ship through alien squadrons, shoot enemies, and manage fuel and laser temperature.
+
+Using a special warp ability, they slow enemy fire.
+
+The goal is to dock with the mother ship to refuel.
+
+The game ends when fuel or ships run out.

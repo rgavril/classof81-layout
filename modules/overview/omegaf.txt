@@ -1,0 +1,5 @@
+In this vertical scrolling shooter, you battle through a massive space cruiser.
+
+Collect power-ups to upgrade two weapons: the Ion Laser for close combat and the Wide Shot for long-range attacks.
+
+Special items like Silver slow down enemies, while Gold destroys them, with points based on proximity.
