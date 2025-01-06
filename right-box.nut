@@ -17,6 +17,8 @@ class RightBox
 		snap.x = 475;
 		snap.y = 235+840 - snap.height;
 		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
+
+		# Snap Fade
 		fe.add_image("images/test.png", 475, 235);
 
 		# Title Shadow
