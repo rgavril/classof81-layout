@@ -1,5 +1,10 @@
 return {
-"10yard": {
+    "viprp1": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "10yard": {
         "buttons": [ "Pass/Hike", "Lateral" ],
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]

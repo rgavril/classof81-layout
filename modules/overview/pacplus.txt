@@ -1,0 +1,5 @@
+Navigate mazes, eat all the dots, and avoid ghosts.
+
+New twists include unpredictable ghost behavior and a green power pellet that makes ghosts disappear entirely.
+
+Use strategy and quick reflexes to master each maze and rack up points.
