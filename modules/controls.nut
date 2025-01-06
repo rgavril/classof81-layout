@@ -1,22 +1,5070 @@
 return {
-    "todruaga": {
+"10yard": {
+        "buttons": [ "Pass/Hike", "Lateral" ],
         "players": 2,
-        "alternating": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "280zzzap": {
+        "buttons": [ "Accel", "Shift" ],
+        "players": 1
+    },
+    "40love": {
+        "buttons": [ "Back Hand", "Light Swing", "??", "Hard Swing" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "8ballact": {
+        "buttons": [ "Cue Ball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "abcop": {
+        "buttons": [ "Accel", "Jump" ],
+        "players": 1
+    },
+    "aceattaca": {
+        "buttons": [ "1", "2", "3", "4", "5", "6" ],
+        "players": 4
+    },
+    "adarvzon": {
+        "buttons": [ "Drop Gap" ]
+    },
+    "afighter": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "agallet": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aliensec": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ambush": {
+        "buttons": [ "Fire", "Thruster" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aodk": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aof": {
+        "buttons": [ "Punch", "Kick", "Strong Attack", "Taunt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aof2": {
+        "buttons": [ "Punch", "Kick", "Attack", "Taunt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aof3": {
+        "buttons": [ "Punch", "Kick", "Blow Away Attack", "Taunt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "appoooh": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "aquarush": {
+        "buttons": [ "Left", "Middle", "Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "arabfgt": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "arabianm": {
+        "buttons": [ "Attack", "Jump", "Magic" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "arkretrn": {
+        "buttons": [ "Serve" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "astyanax": {
+        "buttons": [ "Attack", "Jump", "Thunder Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "asurabld": {
+        "buttons": [ "Quick Attack", "Medium Attack", "Strong Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "avengrs": {
+        "buttons": [ "Light Punch", "Heavy Punch", "Light Kick", "Heavy Kick" ]
+    },
+    "batrider": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "battlcry": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "battleg": {
+        "buttons": [ "Fire", "Special", "Tail Gun" ]
+    },
+    "battroad": {
+        "buttons": [ "FrontGun", "Side Guns", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bbakraid": {
+        "buttons": [ "Fire", "Special", "Tail Gun" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bbbxing": {
+        "buttons": [ "Head", "Body", "UpperCut" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bbmanw": {
+        "buttons": [ "Bomb", "??" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bchopper": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "benberob": {
+        "buttons": [ "Water", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "berlwall": {
+        "buttons": [ "Dig", "Fill", "Mystery" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bigprowr": {
+        "buttons": [ "Execute Manuver", "Move Selection" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bjtwin": {
+        "buttons": [ "Jump", "Flap" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "blazer": {
+        "buttons": [ "Gun", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "block": {
+        "buttons": [ "Serve" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "blockhl": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bloodstm": {
+        "buttons": [ "LightPunch", "HardPunch", "LightKick", "HardKick", "Dodge", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bluehawk": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "blzntrnd": {
+        "buttons": [ "Quick", "Powerful", "Ropes" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bnzabros": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bombbee": {
+        "buttons": [ "Serve" ],
+        "players": 2
+    },
+    "bonzeadv": {
+        "buttons": [ "Throw", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "boomrang": {
+        "buttons": [ "Throw", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "borench": {
+        "buttons": [ "SetBumper", "Speed" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bounty": {
+        "buttons": [ "Accelerate", "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "boxyboy": {
+        "buttons": [ "Yes/No", "Pull" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "brain": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "brival": {
+        "buttons": [ "Quick Punch", "Middle Punch", "Fierce Punch", "Quick Kick", "Middle Kick", "Fierce Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "brutforc": {
+        "buttons": [ "Action", "Jump" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bssoccer": {
+        "buttons": [ "Shoot", "Short Pass", "Long Pass" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bubblem": {
+        "buttons": [ "Bubble", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bublbob2": {
+        "buttons": [ "Bubble", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bucky": {
+        "buttons": [ "Fire", "Jump", "Special Weapons" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bullet": {
+        "buttons": [ "Dual Joysticks" ],
+        "players": 3
+    },
+    "bullfgt": {
+        "buttons": [ "Cape", "Stab" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "burglarx": {
+        "buttons": [ "Fart", "Head Butt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "burnforc": {
+        "buttons": [ "Fire", "Missle", "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "butasan": {
+        "buttons": [ "Throw", "Duck" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "bwing": {
+        "buttons": [ "Fire", "Special" ]
+    },
+    "cachat": {
+        "buttons": [ "-90deg", "+90deg" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cairblad": {
+        "buttons": [ "Fire", "Missle", "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "calipso": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "calorie": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "carjmbre": {
+        "buttons": [ "Speed Up" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cbasebal": {
+        "buttons": [ "Swing/Throw", "Look/Run", "Time" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cbombers": {
+        "buttons": [ "Accelerate", "Brake", "Nitro", "Change Gear" ],
+        "players": 1
+    },
+    "cdiscon1": {
+        "buttons": [ "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cgangpzl": {
+        "buttons": [ "RotateCCW", "RotateCW", "??" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chaknpop": {
+        "buttons": [ "Bomb", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chameleo": {
+        "buttons": [ "Tongue" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "champwr": {
+        "buttons": [ "Kick", "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "changes": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chasehq": {
+        "buttons": [ "Accel", "Brakes", "Nitro", "Low Gear" ],
+        "players": 1
+    },
+    "chboxing": {
+        "buttons": [ "Punch", "Change Punch Type" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cheesech": {
+        "buttons": [ "Spray", "Turbo" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chelnov": {
+        "buttons": [ "Shoot", "Jump", "Twist" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chimerab": {
+        "buttons": [ "Fire", "Super Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chinagat": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chinatwn": {
+        "buttons": [ "Select/Pump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chinhero": {
+        "buttons": [ "Punch", "Tumbling Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "choplift": {
+        "buttons": [ "Fire", "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chplft": {
+        "buttons": [ "Fire", "Rotate" ]
+    },
+    "chqflag": {
+        "buttons": [ "Accel", "Brake", "Shift" ],
+        "players": 1
+    },
+    "chukatai": {
+        "buttons": [ "Fire", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "chwrestl": {
+        "buttons": [ "Execute Manuver", "Move Selection" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "citybomb": {
+        "buttons": [ "Fire", "Jump", "Brakes" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cleopatr": {
+        "buttons": [ "Rotate" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cloud9": {
+        "buttons": [ "Fire" ],
+        "players": 1
+    },
+    "clshroad": {
+        "buttons": [ "Punch", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cobracom": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "columns2": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "combasc": {
+        "buttons": [ "Attack", "Jump" ]
+    },
+    "combatsct": {
+        "buttons": [ "1", "2" ],
+        "players": 2
+    },
+    "commandw": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "complexx": {
+        "buttons": [ "Jump" ],
+        "players": 1
+    },
+    "contcirc": {
+        "buttons": [ "Accel", "Brakes", "Low Gear" ],
+        "players": 1
+    },
+    "cookbib2": {
+        "buttons": [ "Shoot", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cop01": {
+        "buttons": [ "Shoot", "Thrust" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cosmccop": {
+        "buttons": [ "Fire", "Laser" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cosmogng": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cosmos": {
+        "buttons": [ "Fire", "SlowMo" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "countryc": {
+        "buttons": [ "Select Club" ],
+        "players": 2
+    },
+    "cprogolf": {
+        "buttons": [ "Take Shot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "crbaloon": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "crkdown": {
+        "buttons": [ "Machine Gun", "Super Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "crospang": {
+        "buttons": [ "Pick/Place", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "crshrace": {
+        "buttons": [ "Gas Pedal", "Brakes", "Horn" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "crzrally": {
+        "buttons": [ "Low Gear", "High Gear" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "csilver": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cuebrick": {
+        "buttons": [ "Move", "Speed Up", "Stop Ball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "cutieq": {
+        "buttons": [ "Serve" ],
+        "players": 2
+    },
+    "cybattlr": {
+        "buttons": [ "Fire", "Spin" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dadandrn": {
+        "buttons": [ "Light", "Meduim", "Heavy" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "daikaiju": {
+        "buttons": [ "Laser", "Breath Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "daitorid": {
+        "buttons": [ "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dangseed": {
+        "buttons": [ "Fire", "Smart Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darius": {
+        "buttons": [ "Missle", "Bomb", "Arm" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darius2": {
+        "buttons": [ "Missle", "Bomb", "Arm" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dariusg": {
+        "buttons": [ "Normal Attack", "Special Attack" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darkedge": {
+        "buttons": [ "Light Punch", "Heavy Punch", "Jump", "Light Kick", "Heavy Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darkmist": {
+        "buttons": [ "Attack", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darktowr": {
+        "buttons": [ "Swing Club", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "darkwar": {
+        "buttons": [ "Fire", "??" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "darwin": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dazzler": {
+        "buttons": [ "Snake" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dblaxle": {
+        "buttons": [ "Accel", "Brakes", "Nitro", "Low Gear" ],
+        "players": 1
+    },
+    "dbreed": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dbz": {
+        "buttons": [ "Punch", "Kick", "SpecialAttack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dbz2": {
+        "buttons": [ "LowPunch", "HighPunch", "LowKick", "HighKick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dbzvrvs": {
+        "buttons": [ "Left Punch", "Right Punch", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dcon": {
+        "buttons": [ "Fire", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ddcrew2": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ddonpach": {
+        "buttons": [ "Shots/Laser", "Bomber" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ddungeon": {
+        "buttons": [ "??", "Dynamite", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ddux": {
+        "buttons": [ "Action", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "deadconx": {
+        "buttons": [ "Shoot", "Dive-n-Roll" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "demon": {
+        "buttons": [ "Fire", "Walk", "Panic Bomb" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "demoneye": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "demonwld": {
+        "buttons": [ "Single Shot", "Jump", "Rapid Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "desertbr": {
+        "buttons": [ "Fire", "Invincible Running" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "desertwr": {
+        "buttons": [ "Fire", "Up/Dn" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "devilw": {
+        "buttons": [ "??", "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dfeveron": {
+        "buttons": [ "Fire", "Disco Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dharma": {
+        "buttons": [ "Push" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "diamond": {
+        "buttons": [ "??" ],
+        "players": 1
+    },
+    "dingo": {
+        "buttons": [ "Fruit" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dinorex": {
+        "buttons": [ "Bite", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dirtfoxj": {
+        "buttons": [],
+        "players": 1
+    },
+    "disco": {
+        "buttons": [ "Freeze Ruffian" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "diverboy": {
+        "buttons": [ "Dive", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dleague": {
+        "buttons": [ "Pitch/Throw", "Bat", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dockman": {
+        "buttons": [ "Catch/Throw" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dogfgt": {
+        "buttons": [ "Fire", "Jump", "Parachute" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dogfight": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "dogpatch": {
+        "buttons": [ "Fire" ],
+        "players": 2
+    },
+    "dogyuun": {
+        "buttons": [ "Shot", "Bomb/SpeedUp", "UnitBeam/Separate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dokaben": {
+        "buttons": [ "PickTile", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dokidoki": {
+        "buttons": [ "Melt Ice", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dommy": {
+        "buttons": [ "Shot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dondokod": {
+        "buttons": [ "Hammer/Toss", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "donpachi": {
+        "buttons": [ "Shots", "Bombers" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dorodon": {
+        "buttons": [ "??", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dotrikun": {
+        "buttons": [ "Speed Up", "Pause" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dplay": {
+        "buttons": [ "Hit", "Outfield Left", "Outfield Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dragnblz": {
+        "buttons": [ "Shot", "Magic Bomb", "Dragon      " ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dremshpr": {
+        "buttons": [ "Pick Square" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "drgnbstr": {
+        "buttons": [ "Attack", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "drgnmst": {
+        "buttons": [ "Quick Punch", "Hard Punch", "Quick Kick", "Hard Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "drifto94": {
+        "buttons": [ "Accel", "Reverse" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "drivfrcp": {
+        "buttons": [ "Accel" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "drmicro": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "drtoppel": {
+        "buttons": [ "Fire", "Select " ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dsaber": {
+        "buttons": [ "Shots", "Bombs" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dsoccr94": {
+        "buttons": [ "Shoot", "Pass" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dungeonm": {
+        "buttons": [ "Attack", "Jump", "??", "??" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dunkmnia": {
+        "buttons": [ "??", "Shoot/Block", "Pass" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dunkshot": {
+        "buttons": [ "Shoot/Jump", "Pass/Steal" ],
+        "players": 4
+    },
+    "dyger": {
+        "buttons": [ "Guns", "Bombs", "Bombs" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dynablst": {
+        "buttons": [ "Bomb", "Remote Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "dynamski": {
+        "buttons": [ "Speed Up", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "dynduke": {
+        "buttons": [ "Fire", "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ebases": {
+        "buttons": [ "Bat/Throw/Pitch" ],
+        "players": 2
+    },
+    "edf": {
+        "buttons": [ "Fire", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "edrandy": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "eggor": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "eightfrc": {
+        "buttons": [ "Shots", "Special Bombs" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "einning": {
+        "buttons": [ "Hit", "Outfield Left", "Outfield Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "elvactr": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "emeralda": {
+        "buttons": [ "Rotate", "Rotate", "Rotate" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "empcity": {
+        "buttons": [ "Shoot", "Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "enduror": {
+        "buttons": [ "Accelerate", "Brake" ],
+        "players": 1
+    },
+    "enforce": {
+        "buttons": [ "Cannon", "Machine Gun" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "equites": {
+        "buttons": [ "Fire(Ground)", "Fire(Air)" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "esckids": {
+        "buttons": [ "Run", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "espial": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "esprade": {
+        "buttons": [ "Fire", "Special Weapon", "Force Field" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "eto": {
+        "buttons": [ "Rotate left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "evilston": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "exctleag": {
+        "buttons": [ "1", "2", "3", "4", "5", "6", "7" ],
+        "players": 2
+    },
+    "exctsccr": {
+        "buttons": [ "Pass", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "exedexes": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "exprraid": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "extdwnhl": {
+        "buttons": [ "Action" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "extrmatn": {
+        "buttons": [ "Fire", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "exvania": {
+        "buttons": [ "Chain", "Bomb", "??" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "exzisus": {
+        "buttons": [ "Fire", "Launch Robots" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "f1gp": {
+        "buttons": [ "Accelerator", "Brakes" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "f1gp2": {
+        "buttons": [ "Accelerator", "Brakes" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "faceoff": {
+        "buttons": [ "Stick" ],
+        "players": 2
+    },
+    "fantland": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fantzn2x": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fantzone": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fastlane": {
+        "buttons": [ "Speed", "Bonus Action" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fatfursp": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fatfury1": {
+        "buttons": [ "Punch", "Kick", "Throw" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fatfury2": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fatfury3": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fghthist": {
+        "buttons": [ "Light Punch", "Meduim Punch", "Heavy Punch", "Light Kick", "Meduim Kick", "Heavy Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fhawk": {
+        "buttons": [ "Guns", "Missles" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fieldday": {
+        "buttons": [ "Left", "Action", "Right" ],
+        "players": 4
+    },
+    "fightrol": {
+        "buttons": [ "Jump", "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "finalap3": {
+        "buttons": [ "High/Low" ],
+        "players": 1
+    },
+    "finalapr": {
+        "buttons": [ "High/Low" ],
+        "players": 1
+    },
+    "finalizr": {
+        "buttons": [ "Fire", "Shield" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "finallap": {
+        "buttons": [ "High/Low" ],
+        "players": 1
+    },
+    "finehour": {
+        "buttons": [ "Fire", "??", "Jet Pack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "firebarr": {
+        "buttons": [ "Fire", "Super Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "firebatl": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "firebeas": {
+        "buttons": [ "Left", "Right" ],
+        "players": 1
+    },
+    "fireshrk": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fitegolf": {
+        "buttons": [ "Swing", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fiveside": {
+        "buttons": [ "1" ],
+        "players": 2
+    },
+    "flashgal": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "flicky": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "flower": {
+        "buttons": [ "Fire", "??", "Cutter" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "flstory": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "fncywld": {
+        "buttons": [ "Fire", "Jump", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fnkyfish": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "footchmp": {
+        "buttons": [ "Pass/Steal", "Kick" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fourtrax": {
+        "buttons": [ "High/Low" ],
+        "players": 1
+    },
+    "fpoint": {
+        "buttons": [ "Left", "Right", "Left" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "freeze": {
+        "buttons": [ "Flame Thrower", "Jet Pack" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "freezeat": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "friskyt": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fround": {
+        "buttons": [ "Face", "Body", "Guard" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "fspiderb": {
+        "buttons": [ "Fire", "Jump", "??" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "fstarfrc": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "funkyjet": {
+        "buttons": [ "Knockout", "Change Position" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "funnymou": {
+        "buttons": [ "Balloon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gaia": {
+        "buttons": [ "Punch", "Kick", "Jump", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gaiapols": {
+        "buttons": [ "Attack", "Ally Attack", "Special" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "galastrm": {
+        "buttons": [ "Fire", "Fire", "D Weapon", "D Weapon" ],
+        "players": 1
+    },
+    "galaxygn": {
+        "buttons": [ "Fire", "Loop" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "galivan": {
+        "buttons": [ "Punch/Fire", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "galmedes": {
+        "buttons": [ "Fire", "Select Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gametngk": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gangwars": {
+        "buttons": [ "Kick", "Jump", "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "garou": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "garyoret": {
+        "buttons": [ "Attack", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gaunt22p": {
+        "buttons": [ "Fire", "Magic" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gauntlet2p": {
+        "buttons": [ "Fire", "Magic" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gaxeduel": {
+        "buttons": [ "Attack", "Jump", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gbusters": {
+        "buttons": [ "Shoot", "Super Shot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gekirido": {
+        "buttons": [ "Fire", "Skull Bomb" ]
+    },
+    "gemini": {
+        "buttons": [ "Shoot", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "genix": {
+        "buttons": [ "Shoot", "Jump", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "genpeitd": {
+        "buttons": [ "Slice", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ghostlop": {
+        "buttons": [ "Orange", "Blue" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gigandes": {
+        "buttons": [ "Fire", "Rotate", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gimeabrk": {
+        "buttons": [ "Position Cue Ball" ],
+        "players": 2
+    },
+    "ginganin": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ginkun": {
+        "buttons": [ "??", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gladiatr": {
+        "buttons": [ "Attack Up", "Attack Middle", "Attack Down" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gogomile": {
+        "buttons": [ "Unhatch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gokuparo": {
+        "buttons": [ "A", "B", "C" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "goldbug": {
+        "buttons": [ "Instructions" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gpilots": {
+        "buttons": [ "Shoot", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gradius3": {
+        "buttons": [ "Select", "Fire", "Missile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gratia": {
+        "buttons": [ "Fire", "Laser Bomb", "Super Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "grdians": {
+        "buttons": [ "Attack", "Jump", "Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "grdnstrm": {
+        "buttons": [ "Fire", "Super Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "grobda": {
+        "buttons": [ "Fire", "Shield" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "groundfx": {
+        "buttons": [ "Brake", "Down Shift", "Up Shift" ],
+        "players": 1
+    },
+    "growl": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gseeker": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gslgr94u": {
+        "buttons": [ "A", "B", "C" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gslugrsj": {
+        "buttons": [ "A", "B", "C" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gstrik2": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gstriker": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gsword": {
+        "buttons": [ "Upward Attack", "Middle Attack", "Downward Attack" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "gtg": {
+        "buttons": [ "Swing" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gulfstrm": {
+        "buttons": [ "Fire", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gulfwar2": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunbird2": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gundhara": {
+        "buttons": [ "Fire", "Melee", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunfight": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunforc2": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunforce": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunfront": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunlock": {
+        "buttons": [ "Fire", "Laser" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gunnail": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "guwange": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "guzzler": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gwarrior": {
+        "buttons": [ "Attack", "Select Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "gyrodine": {
+        "buttons": [ "Fire/Missle", "Bomb/Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hacham": {
+        "buttons": [ "Fire", "Bomb" ]
+    },
+    "hachamf": {
+        "buttons": [ "Fire", "Big" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hachoo": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hal21": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hanagumi": {
+        "buttons": [ "Jewels Position", "Special" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hangon": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 1
+    },
+    "hangonjr": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 1
+    },
+    "harddriv": {
+        "buttons": [ "Key/Accelerate", "Brake/Clutch" ],
+        "players": 1
+    },
+    "harddunk": {
+        "buttons": [ "Pass", "Shoot" ],
+        "players": 6,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hardhat": {
+        "buttons": [],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hardhead": {
+        "buttons": [ "Jump", "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hasamu": {
+        "buttons": [ "Select", "Cancel" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hatris": {
+        "buttons": [ "Rotate Hats", "Sale" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hcrash": {
+        "buttons": [ "Accelerate", "Brake", "Flip Car" ],
+        "players": 1
+    },
+    "hdrivair": {
+        "buttons": [ "Wings", "Wings" ],
+        "players": 1
+    },
+    "headon": {
+        "buttons": [ "Speed" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "headon2": {
+        "buttons": [ "Accelerate" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "heartatk": {
+        "buttons": [ "Drop Plug", "Freeze Enemy" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "heberpop": {
+        "buttons": [ "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hedpanic": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "helifire": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hellfire": {
+        "buttons": [ "Fire", "Change Weapon Direction" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hero": {
+        "buttons": [ "Instructions" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hexion": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hharry": {
+        "buttons": [ "Hammer", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "higemaru": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "highsplt": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "hoccer": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "holeland": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "homerun": {
+        "buttons": [ "Swing" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hook": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hoops96": {
+        "buttons": [ "Shoot/Jump", "Pass/Steal" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hopmappy": {
+        "buttons": [ "Hop" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hopprobo": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "horekid": {
+        "buttons": [ "Dig/Fill Hole", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "horizon": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hotchase": {
+        "buttons": [ "Pedal" ],
+        "players": 1
+    },
+    "hotdogst": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hotshock": {
+        "buttons": [ "fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "htchctch": {
+        "buttons": [ "Draw", "Change Color" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hunchbak": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "huncholy": {
+        "buttons": [ "Sprint" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hvoltage": {
+        "buttons": [ "Fire", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hvymetal": {
+        "buttons": [ "Fire", "Mortar" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hwchamp": {
+        "buttons": [ "Left Punch", "Right Punch" ],
+        "players": 2
+    },
+    "hwrace": {
+        "buttons": [ "Jump", "Brake" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hydra": {
+        "buttons": [ "Pedal", "Fire", "Boost" ],
+        "players": 1
+    },
+    "hyperath": {
+        "buttons": [ "A", "B" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hyperpac": {
+        "buttons": [ "Jump", "Helmet Laser" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "hyprduel": {
+        "buttons": [ "Fire/Max Fire", "Change/Max Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ichidant": {
+        "buttons": [ "Button" ]
+    },
+    "iganinju": {
+        "buttons": [ "1", "2" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "igmo": {
+        "buttons": [ "Move", "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ikki": {
         "buttons": [ "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "imago": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "imgfight": {
+        "buttons": [ "Fire", "Change Speed" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "imsorry": {
+        "buttons": [ "Punch", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "indianbt": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "insector": {
+        "buttons": [ "Blast" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "insectx": {
+        "buttons": [ "Shoot", "Extra Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "inthunt": {
+        "buttons": [ "Torpedo", "Missle/Depth Charges" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "intrepid": {
+        "buttons": [ "Action" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "invds": {
+        "buttons": [ "Fire Left", "Fire Right", "Change Game" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "invinco": {
+        "buttons": [ "Fire", "Rotate Left", "Rotate Right" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "iqblock": {
+        "buttons": [ "Special Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ironhors": {
+        "buttons": [ "Attack", "Crouch", "Special Weapon " ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ixion": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jack": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jackrabt": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jcross": {
+        "buttons": [ "1", "2" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jdreddp": {
+        "buttons": [ "Kick", "Jump", "Punch", "Crouch" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jitsupro": {
+        "buttons": [ "Swing/Throw", "Look", "TimeOut" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jjack": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jjsquawk": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jollyjgr": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "joyjoy": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jumpcoas": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jumpkids": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "jumpshot": {
+        "buttons": [ "Shoot/Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "junofrst": {
+        "buttons": [ "Fire", "Warp" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kaiserkn": {
+        "buttons": [ "Light Punch", "Meduim Punch", "Heavy Punch", "Light Kick", "Meduim Kick", "Heavy Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kamenrid": {
+        "buttons": [ "Accelerate", "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kamikcab": {
+        "buttons": [ "Brake" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "karatblz": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "karatour": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "karianx": {
+        "buttons": [ "Left", "Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "karnovr": {
+        "buttons": [ "Light Punch", "Heavy Punch", "Light Kick", "Heavy Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kbash": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kengo": {
+        "buttons": [ "Slash", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kickgoal": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kicknrun": {
+        "buttons": [ "Kick", "Pass", "Tackle" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kickoff": {
+        "buttons": [ "Shoot", "Pass/Tackle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kickridr": {
+        "buttons": [ "Accelerate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kidniki": {
+        "buttons": [ "Sword", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kikcubic": {
+        "buttons": [ "Freeze/Push", "Drop Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kikikai": {
+        "buttons": [ "Fire", "Flag" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kikstart": {
+        "buttons": [ "Accelerate", "1st Gear", "2nd Gear", "3rd Gear" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "kittenk": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kizuna": {
+        "buttons": [ "Punch", "Kick", "Weapon", "Tag" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "knckhead": {
+        "buttons": [ "High Attack", "Low Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kncljoe": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kodure": {
+        "buttons": [ "Slash", "Defend", "Jump" ]
+    },
+    "kof2000": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof94": {
+        "buttons": [ "Punch", "Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof95": {
+        "buttons": [ "Light Punch", "Light Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof96": {
+        "buttons": [ "Light Punch", "Light Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof97": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof98": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kof99": {
+        "buttons": [ "Punch", "Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kong": {
+        "buttons": [ "Jump" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kotm": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kotm2": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kouyakyu": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ksayaku": {
+        "buttons": [ "Action" ]
+    },
+    "ktiger2": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kungfut": {
+        "buttons": [ "Knock on Door", "Jump", "Summon Cloud" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "kyros": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kyukaidk": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "kyustrkr": {
+        "buttons": [ "Shoot", "Pass", "Tackle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ladygolf": {
+        "buttons": [ "B", "A" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "landmakr": {
+        "buttons": [ "Release Block" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lasso": {
+        "buttons": [ "Lasso", "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lastblad": {
+        "buttons": [ "Weak Slash", "Strong Slash", "Weak Kick", "Repel" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lastbld2": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lastday": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lastfort": {
+        "buttons": [ "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lastmisn": {
+        "buttons": [ "Fire", "Bomb", "Weapon Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "laststar": {
+        "buttons": [],
+        "players": 1
+    },
+    "lbgrande": {
+        "buttons": [ "Receive/Tackle", "Pass", "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lbowling": {
+        "buttons": [ "Bowl" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ldrun2": {
+        "buttons": [ "Dig Left", "Dig Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ldrun3": {
+        "buttons": [ "Dig Left", "Dig Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ldrun4": {
+        "buttons": [ "Dig Left", "Dig Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "legend": {
+        "buttons": [ "Attack/Throw", "Select Item" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "legendos": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "legion": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "leprechn": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lethalth": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "levers": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lgtnfght": {
+        "buttons": [ "Fire", "Super Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "liberate": {
+        "buttons": [ "Fire", "Take Off/Land" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "liblrabl": {
+        "buttons": [],
+        "players": 2
+    },
+    "lifefrce": {
+        "buttons": [ "Shoot", "Missile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lightbr": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "liquidk": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lizwiz": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "loderndf": {
+        "buttons": [ "Dig Left", "Dig Right" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "logger": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "logicpr2": {
+        "buttons": [ "Draw", "Cross", "Item Helper" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "logicpro": {
+        "buttons": [ "Draw", "Cross", "Item Helper" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "loht": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lomakai": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lotlot": {
+        "buttons": [ "Swap" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lottofun": {
+        "buttons": [],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lresort": {
+        "buttons": [ "Fire", "Adjust Pod Movement" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lsasquad": {
+        "buttons": [ "Fire", "Grenade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "lunarbat": {
+        "buttons": [ "Fire", "Thrust", "Shield/Tractor Beam" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "lwings": {
+        "buttons": [ "Shoot", "Bomb/Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "m660": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "machbrkr": {
+        "buttons": [ "LeftMiddle", "Right" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "machomou": {
+        "buttons": [ "Action" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "macross": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "macross2": {
+        "buttons": [ "Fire", "SmartBomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "macrossp": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "madalien": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "madcrash": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "madgear": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "madmotor": {
+        "buttons": [ "Wheelie", "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "madshark": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "magdrop2": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "magdrop3": {
+        "buttons": [ "Top", "Throw", "Lower" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "magicbub": {
+        "buttons": [ "Launch Ball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "magmax": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mahoudai": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mainsnk": {
+        "buttons": [ "Move", "Move", "Left Uppercut", "Right Uppercut" ],
+        "players": 2
+    },
+    "majtitl2": {
+        "buttons": [ "Play shot", "Options" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "majtitle": {
+        "buttons": [ "Play shot", "Options" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "maniacsq": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "manybloc": {
+        "buttons": [ "Spin Reels", "Help" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "marineb": {
+        "buttons": [ "Net" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mariner": {
+        "buttons": [ "Gun/Torpedo" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "markham": {
+        "buttons": [ "Fire", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "marvins": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "marvland": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "masterw": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mastkin": {
+        "buttons": [ "High Attack", "Low Attack" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mayhem": {
+        "buttons": [ "Shoot", "Block left", "Block Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mazeinv": {
+        "buttons": [ "Fire" ],
+        "players": 2
+    },
+    "mazinger": {
+        "buttons": [ "Shoot/Supercharge", "Whip", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mcatadv": {
+        "buttons": [ "Fire", "Jump/Throw" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "megab": {
+        "buttons": [ "1", "2" ]
+    },
+    "megablst": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "megadon": {
+        "buttons": [ "Ion Bomb", "Trunt" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "megatack": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "meosism": {
+        "buttons": [ "Stop", "Stop", "Stop" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "metafox": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "metalb": {
+        "buttons": [ "Fire", "Beam" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "metlclsh": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "metlhawk": {
+        "buttons": [ "Trigger", "Thumb" ],
+        "players": 1
+    },
+    "metmqstr": {
+        "buttons": [ "Light", "Meduin", "Heavy", "Long Range Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mgcrystl": {
+        "buttons": [ "1", "2" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mia": {
+        "buttons": [ "Knife", "Extra Weapon", "Choose Extra Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mikie": {
+        "buttons": [ "Open Door", "Headbutt/Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mimonkey": {
+        "buttons": [ "Fire", "Transform" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "minivadr": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "mirninja": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mjleague": {
+        "buttons": [ "1", "2", "3", "4", "5" ],
+        "players": 2
+    },
+    "mmaulers": {
+        "buttons": [ "Punch", "Kick", "Special" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mmaze": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mmonkey": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mnight": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mofflott": {
+        "buttons": [ "Fire A", "FireB" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mogura": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "momoko": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "moonal2": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "moonqsr": {
+        "buttons": [ "Fire/Thrust" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "mosaic": {
+        "buttons": [ "Rotate", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "motos": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mouja": {
+        "buttons": [ "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mouser": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mp_gaxe2": {
+        "buttons": [ "Attack", "Jump", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mp_sonic": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mrflea": {
+        "buttons": [ "Jump" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mrgoemon": {
+        "buttons": [ "Swing", "Throw" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mrjong": {
+        "buttons": [ "Magic Ball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mrkougar": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "mrtnt": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mrviking": {
+        "buttons": [ "Fire", "Throw" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "msgundam": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mshuttle": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "msisaac": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mslider": {
+        "buttons": [ "Rotate Left", "Rotate Right", "Tilt Board" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mslug2": {
+        "buttons": [ "Shoot/Stab", "Jump", "Grenades/Cannon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mslug3": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mslugx": {
+        "buttons": [ "Fire", "Jump", "Grenade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mspacmnf": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mtlchamp": {
+        "buttons": [ "Low Attack", "Medium Attack", "High Attack" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mugsmash": {
+        "buttons": [ "Punch", "Jump", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "multchmp": {
+        "buttons": [ "A", "B" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mustache": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mustang": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mutantf": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mutnat": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "myhero": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mysticri": {
+        "buttons": [ "Shoot", "Broomerang" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "mystston": {
+        "buttons": [ "Shoot", "Hammer" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nam1975": {
+        "buttons": [ "Machine Gun", "Grenade", "Run/Flip" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "naname": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "navarone": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "nbajamte": {
+        "buttons": [ "Shoot", "Pass", "Turbo" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nbapbp": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nbbatman": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ncv1": {
+        "buttons": [ "A", "B" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nebulray": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nemesis": {
+        "buttons": [ "Fire", "Bomb", "Select Power-Up" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "neobattl": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "neocup98": {
+        "buttons": [ "Shoot/Low Pass/Slide", "High Pass/Rough Play-Tackle", "Short Pass/Action Player Shift" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "netwars": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "newsin7": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nightstr": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ninclown": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ninjak": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ninjakd2": {
+        "buttons": [ "Throw/Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ninjakun": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "ninjamas": {
+        "buttons": [ "Weak Punch/Slash", "Strong Punch/Slash", "Weak Kick", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ninjemak": {
+        "buttons": [ "Fire", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nitrobal": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nmouse": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nost": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nrallyx": {
+        "buttons": [ "Smoke" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nslasher": {
+        "buttons": [ "Punch/Kick", "Jump", "Special Move" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nspirit": {
+        "buttons": [ "Attack", "Jump", "Change Weapons" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "numanath": {
+        "buttons": [ "Punch/Kick", "Jump", "Special Move" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "nunchaku": {
+        "buttons": [ "Open Door", "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "offtwall": {
+        "buttons": [ "Start", "Action" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ohmygod": {
+        "buttons": [ "Drop Faster" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "oisipuzl": {
+        "buttons": [ "1", "2" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "omegafFire": {
+        "buttons": [ "Special Weapon" ]
+    },
+    "onna34ro": {
+        "buttons": [ "Attack", "Thow/Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "orbit": {
+        "buttons": [ "Fire", "Thrust", "Hyperspace" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "orbitron": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ordyne": {
+        "buttons": [ "Shoot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "orunners": {
+        "buttons": [ "Accelerate", "Brake", "Shift" ],
+        "players": 2
+    },
+    "oscar": {
+        "buttons": [ "Shoot", "Jump", "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "outfxies": {
+        "buttons": [ "Left Attack", "Jump", "Right Attack" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "outzone": {
+        "buttons": [ "Shoot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ozmawars": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "ozon1": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "p47": {
+        "buttons": [ "Fire", "Bombs/Missles" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "p47aces": {
+        "buttons": [ "Fire", "Bombs" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pacnpal": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "palamed": {
+        "buttons": [ "Throw", "Choice" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pang": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pangpoms": {
+        "buttons": [ "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "parodius": {
+        "buttons": [ "Power-up", "Fire", "Bell-power" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pass": {
+        "buttons": [ "Retract Tongue" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pballoon": {
+        "buttons": [ "Drop Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pbancho": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pbillrd": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pbobbl2n": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pbobble4": {
+        "buttons": [ "Fire" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pbobblen": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "penbros": {
+        "buttons": [ "Bomb", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "percuss": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "perfman": {
+        "buttons": [ "Tunnel", "Fire" ]
+    },
+    "perfrman": {
+        "buttons": [ "Tunnel/Surface", "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pettanp": {
+        "buttons": [ "WallUp" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "phantom2": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "phelios": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "phozon": {
+        "buttons": [ "Reject Molecule" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pickin": {
+        "buttons": [ "Grab/Release" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pignewt": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pinbo": {
+        "buttons": [ "Right Flipper", "Left Flipper" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pingpong": {
+        "buttons": [ "Backhand", "Serve/Smash" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "pipedrm": {
+        "buttons": [ "Lay Pipe", "Speed Up" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pirates": {
+        "buttons": [ "Fire", "Dodge", "Grenade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pisces": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "pistoldm": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pitnrun": {
+        "buttons": [ "Accel" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pkunwar": {
+        "buttons": [ "Pick Up/Throw" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "playball": {
+        "buttons": [],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "plumppop": {
+        "buttons": [ "Fire" ],
+        "players": 2
+    },
+    "plusalph": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pocketrc": {
+        "buttons": [ "Accelerate" ],
+        "players": 1
+    },
+    "poitto": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pollux": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "popflame": {
+        "buttons": [ "Flame" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "popnpop": {
+        "buttons": [ "Release", "Rotate" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "porky": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "potopoto": {
+        "buttons": [ "Detonate Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "poundfor": {
+        "buttons": [ "Punch", "Block" ],
+        "players": 2
+    },
+    "powerins": {
+        "buttons": [ "Punch High", "Punch Low", "Kick High", "Kick Low", "Block High", "Block Low" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "powrplay": {
+        "buttons": [ "Hard Kick", "Light Kick", "Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "prehisle": {
+        "buttons": [ "Shoot", "Option" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "primglex": {
+        "buttons": [ "Pass/Tackle", "Shoot", "Tackle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "primrage": {
+        "buttons": [ "Lunge", "Kick", "Tail" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "prmrsocr": {
+        "buttons": [ "Shoot/Tackle", "Pass" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "progolf": {
+        "buttons": [ "Take Shot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "progress": {
+        "buttons": [ "Fire", "Missle", "Aim Missle" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "propcycl": {
+        "buttons": [ "Left", "Right", "Ascend", "Descend" ],
+        "players": 1
+    },
+    "prosport": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pspikes": {
+        "buttons": [ "Serve/Spike/Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "psurge": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "psychic5": {
+        "buttons": [ "Hammer", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puchicar": {
+        "buttons": [ "Start", "Right", "Left" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puckpkmn": {
+        "buttons": [ "Speed Up" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pulirula": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pulstar": {
+        "buttons": [ "Fire", "Drone Control" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "punkshot2": {
+        "buttons": [ "Shoot", "Pass", "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pururun": {
+        "buttons": [ "Place Critter/Bomb", "Activate Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puyopuy2": {
+        "buttons": [ "Rotate Right", "Rotate Left" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puyopuyo": {
+        "buttons": [ "Rotate" ]
+    },
+    "puzlclub": {
+        "buttons": [ "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puzldama": {
+        "buttons": [ "Rotate", "??", "??" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puzzledp": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "puzzli": {
+        "buttons": [ "Exchange Fish", "Drop Fish" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pwrgoal": {
+        "buttons": [ "SHoot/Slide", "Pass/Rough Play", "Special Moves" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pwrinst2": {
+        "buttons": [ "Weak Punch", "Weak Kick", "Strong Punch", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "pzlbowl": {
+        "buttons": [ "Angle Left", "Throw", "Angle Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "qb3": {
+        "buttons": [ "Dual Joysticks" ],
+        "players": 1
+    },
+    "qcrayon2": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "quester": {
+        "buttons": [ "Fire/Release Ball" ],
+        "players": 2
+    },
+    "qwak": {
+        "buttons": [ "Slide" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "r2dtank": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rabiolepv": {
+        "buttons": [ "Fire", "Punch" ]
+    },
+    "raflesia": {
+        "buttons": [ "Fire" ],
+        "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
     "raiden": {
+        "buttons": [ "Fire", "Bomb" ],
         "players": 2,
-        "alternating": 0,
-        "buttons": ["Shot", "Bomb"],
         "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "raiders5": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "raimais": {
+        "buttons": [ "Fire", "Accelrate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rallybik": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rambo3": {
+        "buttons": [ "Fire", "Grenade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "raphero": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "raystorm": {
+        "buttons": [ "Fire", "Homing-Missles" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "razmataz": {
+        "buttons": [ "Shoot" ],
+        "players": 2
+    },
+    "rbff1": {
+        "buttons": [ "Punch", "Kick", "Special", "Line Change" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rbff2": {
+        "buttons": [ "Punch", "Kick", "Special", "Line Change" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rbffspec": {
+        "buttons": [ "Punch", "Kick", "Special", "Line Change" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "recalh": {
+        "buttons": [ "Attack", "Jump", "Special" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "recordbr": {
+        "buttons": [ "A", "B", "C" ],
+        "players": 2
+    },
+    "redalert": {
+        "buttons": [ "Fire", "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "redbaron": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "redclash": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "redrobin": {
+        "buttons": [ "Jump" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "reikaids": {
+        "buttons": [ "Punch", "Kick", "jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "relief": {
+        "buttons": [ "Fast Ball", "Curve Ball", "Special Pitch", "Swing", "PowerSwing", "Bunt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "repulse": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "retofinv": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "rezon": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ribbit": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ridhero": {
+        "buttons": [ "Accelerate", "Brake", "Turbo" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ridingf": {
+        "buttons": [ "Punch", "Jump", "Power Attack" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ridleofp": {
+        "buttons": [ "Launch" ],
+        "players": 2
+    },
+    "rimrockn": {
+        "buttons": [ "Shoot/Jump/Block", "Pass/Swat" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ringrage": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "riotcity": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rjammer": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "roadriot": {
+        "buttons": [ "Pedal", "Fire" ],
+        "players": 1
+    },
+    "roboarmy": {
+        "buttons": [ "Attack", "Jump", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "robocop2j": {
+        "buttons": [ "Fire", "Jump", "Direction Left/Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rockclim": {
+        "buttons": [ "Dual Joystick" ],
+        "players": 2
+    },
+    "rockrage": {
+        "buttons": [ "Fire", "Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rodland": {
+        "buttons": [ "Rod", "Ladder" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rohga": {
+        "buttons": [ "Fiew", "Jump", "Sub Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "roishtar": {
+        "buttons": [ "Attack/Use", "Select" ],
+        "players": 1
     },
     "rompers": {
+        "buttons": [ "Push" ],
         "players": 2,
-        "alternating": 1,
-        "buttons": ["Push"],
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
+    "roughrac": {
+        "buttons": [ "Nitro", "Accelerate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "route16": {
+        "buttons": [ "Speed" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rsgun": {
+        "buttons": [ "Vulcan Laser", "Homing Shot", "Spread Shot" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rshark": {
+        "buttons": [ "A", "B", "C" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rthun2": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rtype2": {
+        "buttons": [ "Fire", "Shield Detach" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rtypeleo": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rungun2": {
+        "buttons": [ "Shoot/Jump", "Steal/Pass", "Turbo" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rushhero": {
+        "buttons": [ "Red", "Grn" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "rygar": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ryujin": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "s1945ii": {
+        "buttons": [ "Fire", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "s1945p": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sabotenb": {
+        "buttons": [ "Throw/Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "safarir": {
+        "buttons": [ "Speed" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "sailormn": {
+        "buttons": [ "Attack", "Jump", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "salmndr2": {
+        "buttons": [ "Shoot", "Missile" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samsho": {
+        "buttons": [ "Light Slash/Hard Slash", "Medium Slash/Hard Slash", "Light Kick/Hard Kick", "Medium Kick/Hard Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samsho2": {
+        "buttons": [ "Light Slash", "Medium Slash", "Light Kick", "Medium Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samsho3": {
+        "buttons": [ "Light Slash", "Medium Slash", "Strong Slash", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samsho4": {
+        "buttons": [ "Weak Slash", "Medium Slash", "Strong Slash", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samurai": {
+        "buttons": [ "Sword" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "samuraia": {
+        "buttons": [ "Shot", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sandscrp": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sasuke": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "saturn": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sauro": {
+        "buttons": [ "Fire(Air)", "Fire(Ahead)" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "savagere": {
+        "buttons": [ "Punch", "Kick", "Weapon Attack", "3D Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sbasebal": {
+        "buttons": [ "Swing/Pitch/Field", "Steal/Pick Off/Run", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sbasketb": {
+        "buttons": [ "Dribble", "Shoot", "Pass" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sbishi": {
+        "buttons": [ "Red", "Green", "Blue" ],
+        "players": 2
+    },
+    "sbomberb": {
+        "buttons": [ "Fire" ]
+    },
+    "scessjoe": {
+        "buttons": [ "Left Punch", "Right Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "scfinals": {
+        "buttons": [ "Kick", "Pass", "Special Motion" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "schaser": {
+        "buttons": [ "Speed Boost" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sci": {
+        "buttons": [ "Pedal", "Fire", "Low/High", "Turbo" ],
+        "players": 1
+    },
+    "scion": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "scorpnmc": {
+        "buttons": [ "Missle", "Fire" ]
+    },
+    "scotrsht": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "scregg": {
+        "buttons": [ "Kick/Throw Eyes" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "scross": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sdgndmps": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sdtennis": {
+        "buttons": [ "Swing" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sdungeon": {
+        "buttons": [ "Robotron" ],
+        "players": 2
+    },
+    "secretag": {
+        "buttons": [ "Shoot/Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sectionz": {
+        "buttons": [ "Shoot", "Turn Around" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "seganinj": {
+        "buttons": [ "Throw Forward", "Throw Upwards", "Ninja Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "seicross": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "selfeena": {
+        "buttons": [ "Stun Shot/Pick Up Chest/Throw Chest", "Stun Blast" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sengekis": {
+        "buttons": [ "Shot", "Bomber" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sengoku": {
+        "buttons": [ "Attack", "Special Attack", "Change Character" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sengoku2": {
+        "buttons": [ "Attack", "Special Attack", "Change Character" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "senjyo": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sf1": {
+        "buttons": [ "Jab Punch", "Strong Punch", "Fierce Punch", "Short Kick", "Forward Kick", "Roundhouse Kick" ]
+    },
+    "sflush": {
+        "buttons": [],
+        "players": 1
+    },
+    "sfposeid": {
+        "buttons": [ "Harpoon/Torpedo", "Dismount" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sfx": {
+        "buttons": [ "Fire Left", "Fire Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sgladiat": {
+        "buttons": [ "Crop", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sgmastc": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 1
+    },
+    "shackled": {
+        "buttons": [ "Shoot", "Select Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shadfrce": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shadowld": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shangha2": {
+        "buttons": [ "Select Tile", "Deselect Tile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shangha3": {
+        "buttons": [ "Select Tile", "Deselect Tile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shanghai": {
+        "buttons": [ "Select Tile", "Deselect Tile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shangkid": {
+        "buttons": [ "Kick", "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shangon": {
+        "buttons": [ "Throttle", "Brake", "Turbo/Nitro" ],
+        "players": 1
+    },
+    "shienryu": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shippumd": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shocking": {
+        "buttons": [ "Attack/Activate Item" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "shtngmste": {
+        "buttons": [ "??", "??" ]
+    },
+    "shtrider": {
+        "buttons": [ "Accelerate", "Brake" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "shuuz": {
+        "buttons": [ "Next" ],
+        "players": 1
+    },
+    "sidepckt": {
+        "buttons": [ "Shoot", "Spin" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "silentd": {
+        "buttons": [ "Attack", "Jump", "Trick" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "silkroad": {
+        "buttons": [ "Attack", "Jump", "Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "silkworm": {
+        "buttons": [ "Fire", "Bomb/Jump", "Tilt/Shoot Backwards" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sindbadm": {
+        "buttons": [ "Dig/Fill Hole" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skyadvntFire": {
+        "buttons": [ "Weapon", "Ship" ]
+    },
+    "skyalert": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skyarmy": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skybase": {
+        "buttons": [ "Fire", "Missles" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "skybump": {
+        "buttons": [ "Fire", "Accelerate" ],
+        "players": 2
+    },
+    "skychut": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "skyfox": {
+        "buttons": [ "Fire", "Missle" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skykid": {
+        "buttons": [ "Fire", "Loop/Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skykiddx": {
+        "buttons": [ "Fire", "Loop/Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skylancr": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skyraid": {
+        "buttons": [ "Fire" ],
+        "players": 1
+    },
+    "skyskipr": {
+        "buttons": [ "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "skysmash": {
+        "buttons": [ "Accelerate", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "slapshot": {
+        "buttons": [ "Shoot", "Slice" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "snowboar": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "snowbro2": {
+        "buttons": [ "Shoot/Kick", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "socbrawl": {
+        "buttons": [ "Shoot/Punch", "Pass/Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sokonuke": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "soldamj": {
+        "buttons": [ "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "soldivid": {
+        "buttons": [ "Shot", "Slash", "Magic Selection" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "solfigtr": {
+        "buttons": [ "Punch", "Jump", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "solomon": {
+        "buttons": [ "Wand", "Fireball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "solvalou": {
+        "buttons": [ "Ion", "Blaster" ],
+        "players": 1
+    },
+    "sonic": {
+        "buttons": [ "Jump" ],
+        "players": 3
+    },
+    "sonicbom": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sonicwi2": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sonicwi3": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sonofphx": {
+        "buttons": [ "Fire", "Shield" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sonson": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sotsugyo": {
+        "buttons": [ "Jump Left", "Jump Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spacbeam": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spacecr": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spacefev": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spacefrt": {
+        "buttons": [ "Fire", "Thrust" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spaceskr": {
+        "buttons": [ "Fire", "Fire/Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spacetrk": {
+        "buttons": [ "Fire", "Barrier/Shield" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spacewar": {
+        "buttons": [ "Forward", "Fire", "Hyperspace" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spang": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sparkz": {
+        "buttons": [ "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spatter": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spcenctr": {
+        "buttons": [ "Fire" ],
+        "players": 1
+    },
+    "spcfrcii": {
+        "buttons": [ "Fire", "Melee" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spcinv95": {
+        "buttons": [ "Fire", "Special Weapon" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spcking2": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spclaser": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "spclforc": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spcpostn": {
+        "buttons": [ "Accelerate", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spdball": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "speedspn": {
+        "buttons": [ "Topspin", "Sidespin", "Backspin" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spelunk2": {
+        "buttons": [ "Shoot/Set Bomb", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spelunkr": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spidey": {
+        "buttons": [ "Attack", "Jump" ]
+    },
+    "spinlbrk": {
+        "buttons": [ "Fire", "Grenade", "Dodge" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spinmast": {
+        "buttons": [ "Fire", "Jump", "Super Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "splat": {
+        "buttons": [ "Dual Joysticks" ],
+        "players": 2
+    },
+    "splatter": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "splndrbt": {
+        "buttons": [ "Accelerate", "Missle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sprcros2": {
+        "buttons": [ "Power", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "springer": {
+        "buttons": [ "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "spy": {
+        "buttons": [ "Punch/Kick", "Shoot/Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "srdarwin": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "srdmissn": {
+        "buttons": [ "Lasers", "Missles" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssi": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssideki": {
+        "buttons": [ "Shoot/Slide", "Pass/Tackle" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssideki2": {
+        "buttons": [ "A", "B", "C", "D" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssideki3": {
+        "buttons": [ "Shoot/Low Pass/Sliding Tackle", "High Pass/Rough Play/Tackle", "Short Pass/Select Main Player" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssideki4": {
+        "buttons": [ "Shoot/Low Pass/Sliding", "High Pass/Rough Play", "Short Pass/Action Player Shift" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sslam": {
+        "buttons": [ "Swing", "Swing", "Lob" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssmissin": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssoldier": {
+        "buttons": [ "Soft Punch", "Medium Punch", "Heavy Punch", "Soft Kick", "Medium Kick", "Heavy Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssozumo": {
+        "buttons": [ "Slap", "Grab" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sspirits": {
+        "buttons": [ "Fire", "Attack", "Air/Ground" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssridersubc": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ssrj": {
+        "buttons": [ "1", "2" ],
+        "players": 1
+    },
+    "sss": {
+        "buttons": [ "Jump", "Tricks" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sstingry": {
+        "buttons": [ "Fire", "Secondary Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stactics": {
+        "buttons": [ "Fire", "Shield Renewal", "Base 1", "Base 2", "Base 3", "Base 4", "Base 5" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stadhero": {
+        "buttons": [ "Throw/Steal", "Pitch/Swing/Return/Throw", "Relief Pitcher/Play Deep/Relief Batter" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stagger1": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "starblad": {
+        "buttons": [ "1", "2", "3", "4" ],
+        "players": 1
+    },
+    "starshp1": {
+        "buttons": [ "Fire", "Photon Torpedo" ],
+        "players": 1
+    },
+    "starswep": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stdragon": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "steeltal": {
+        "buttons": [ "Trigger", "Thumb", "Zoom", "Real Heli Flight" ],
+        "players": 2
+    },
+    "stg": {
+        "buttons": [ "Fire", "Use Secondary Item" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stinger": {
+        "buttons": [ "Fire", "Special Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stkclmns": {
+        "buttons": [ "Rotate", "Use Coins" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stlforce": {
+        "buttons": [ "Fire", "Grenade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stmbladeFire": {
+        "buttons": [ "Bomb/Missile" ]
+    },
+    "stonebal": {
+        "buttons": [ "Shoot/Fight", "Pass/Tackle", "Push" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "strahl": {
+        "buttons": [ "Fire/Rotate", "Special/Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "stratofb": {
+        "buttons": [ "Fire", "Reverse Ship" ]
+    },
+    "streakng": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "streetsm": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "strhoop": {
+        "buttons": [ "Jump/Block/Shoot/Dunk", "Cut Off/Steal/Pass" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "strkfgtr": {
+        "buttons": [ "Vulcan Gun", "Missile", "??", "Afterburner" ],
+        "players": 1
+    },
+    "strnskil": {
+        "buttons": [ "A", "B" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "subroc3d": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "supbtime": {
+        "buttons": [ "Pepper", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "superbik": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "superbug": {
+        "buttons": [ "Gas", "1st", "2nd", "3rd", "4th", "Track Select" ],
+        "players": 1
+    },
+    "superchs": {
+        "buttons": [ "Accelerate", "Brak", "Nitro", "Change Gear" ],
+        "players": 1
+    },
+    "superspy": {
+        "buttons": [ "Attack", "Guard", "Change Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "supertnk": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "superx": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "suprglob": {
+        "buttons": [ "Ceiling", "Tickler" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "suprleag": {
+        "buttons": [ "1", "2", "3", "4", "5", "6", "7" ],
+        "players": 2
+    },
+    "suprloco": {
+        "buttons": [ "Steam", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "suprridr": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "suprslam": {
+        "buttons": [ "Pass/Steal", "Shoot/Jump", "Technical Move" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "surpratk": {
+        "buttons": [ "Shoot", "Jump" ]
+    },
+    "survarts": {
+        "buttons": [ "Light Punch", "Medium Punch", "Strong Punch", "Light Kick", "Medium Kick", "Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "suzuk8h2": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 1
+    },
+    "suzuka8h": {
+        "buttons": [ "Throttle", "Brake" ],
+        "players": 1
+    },
+    "svf": {
+        "buttons": [ "Shoot", "Pass-A", "Pass-B" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "svolley": {
+        "buttons": [ "Hit", "Block" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "swat": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "swcourt": {
+        "buttons": [ "Swing", "Swing", "Swing" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws92": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws93": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws95": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws96": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws97": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws98": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "sws99": {
+        "buttons": [ "Throw To Bases", "Pitch/Swing", "Time Out" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "syvalion": {
+        "buttons": [ "Fire" ],
+        "players": 2
+    },
+    "tacscan": {
+        "buttons": [ "Fire", "Add Ship" ],
+        "players": 1
+    },
+    "tactcian": {
+        "buttons": [ "Fire", "Barricade" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tail2nos": {
+        "buttons": [ "Accel", "Brake" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "tankbust": {
+        "buttons": [ "Fire", "Rotate Gun Turret" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tankfrce": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tantr": {
+        "buttons": [ "Action" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "taotaido": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tattass": {
+        "buttons": [ "Punch High", "Kick High", "Block High", "Punch Low", "Kick Low", "Block Low" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tceptor": {
+        "buttons": [ "Fire/Thrust", "Missle", "Fire", "Missle" ],
+        "players": 1
+    },
+    "tdragon2": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "teddybb": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tekipaki": {
+        "buttons": [ "Rotate Left", "Rotate Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tenkomor": {
+        "buttons": [ "1", "2", "3", "4", "5", "6" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tfrceac": {
+        "buttons": [ "Fire", "Change Speed", "Change Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tgtpanic": {
+        "buttons": [ "1" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thedeep": {
+        "buttons": [ "Bomb Left", "Bomb Right" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thehustl": {
+        "buttons": [ "Select", "Switch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thndrx2": {
+        "buttons": [ "Shoot", "Option Proximity" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thndzone": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thoop2": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "thunderx": {
+        "buttons": [ "Shoot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "timefgtr": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "timelimt": {
+        "buttons": [ "Fire" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "timescan": {
+        "buttons": [ "Left Flipper", "Right Flipper" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "timetunl": {
+        "buttons": [ "Switch" ],
+        "players": 2
+    },
+    "timscanr": {
+        "buttons": [ "Left Flipper", "Right Flipper" ]
+    },
+    "tinklpit": {
+        "buttons": [ "Stretch Line", "Throw Power Ball" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tmek": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tmnt22p": {
+        "buttons": [ "Attack", "Jump" ]
+    },
+    "tmnt22pu": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tmnt2po": {
+        "buttons": [ "Jump", "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tndrcade": {
+        "buttons": [ "Shoot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tnexspce": {
+        "buttons": [ "Fire", "Special Weapon" ]
+    },
+    "tnzs": {
+        "buttons": [ "Attack", "Jump/Speed" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "todruaga": {
+        "buttons": [ "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "toffy": {
+        "buttons": [ "??", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "toggle": {
+        "buttons": [ "Shoot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tokisens": {
+        "buttons": [ "Attack", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tomcat": {
+        "buttons": [ "Fire" ],
+        "players": 1
+    },
+    "tophuntr": {
+        "buttons": [ "Punch", "Jump", "Change Planes" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "toryumon": {
+        "buttons": [ "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "toukon3": {
+        "buttons": [ "1", "2", "3", "4", "5", "6" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tp84": {
+        "buttons": [ "Fire", "Missile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "transfrm": {
+        "buttons": [ "Fire", "Transform" ],
+        "players": 1,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "travrusa": {
+        "buttons": [ "Low", "High" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "trckydoc": {
+        "buttons": [ "Jump", "Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tricktrp": {
+        "buttons": [ "Shoot", "Change Weapons" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "triothep": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "triplep": {
+        "buttons": [ "Punch" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "troangel": {
+        "buttons": [ "Speed Up", "Backwards" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "trojan": {
+        "buttons": [ "Attack", "Shield" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "trstar": {
+        "buttons": [ "Weak", "Meduim", "Punch" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "truxton": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "truxton2": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tryout": {
+        "buttons": [ "1", "2" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tsamurai": {
+        "buttons": [ "Low Attack", "High Attack" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tshingen": {
+        "buttons": [ "Attack Left", "Attack Right", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tturf": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "tugboat": {
+        "buttons": [ "Horn" ],
+        "players": 1,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "tumblep": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "turtles": {
+        "buttons": [ "Bug Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "turtship": {
+        "buttons": [ "Single Shot", "Missle", "Super Thunder" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "twinbee": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "twinhawk": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "twinqixv": {
+        "buttons": [ "Draw Faster" ]
+    },
+    "twinsqua": {
+        "buttons": [ "Launch" ],
+        "players": 2
+    },
+    "uballoon": {
+        "buttons": [ "Balloon", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "uccops": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 3,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ufosensi": {
+        "buttons": [ "Shoot", "Jump", "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ultennis": {
+        "buttons": [ "Serve 1/Normal Shot", "Serve 2/Lob Shot", "Serve 3/Smash" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ultraman": {
+        "buttons": [ "Punch", "Kick", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ultrax": {
+        "buttons": [ "Fire", "Grenade/Mine", "Smartbomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "umanclub": {
+        "buttons": [ "Laser", "Fire Ball" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "umk3": {
+        "buttons": [ "Run", "Low Punch", "High Punch", "Block", "Low Kick", "High Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "uopoko": {
+        "buttons": [],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "valtric": {
+        "buttons": [ "Fire", "Extra Weapon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vangrd2": {
+        "buttons": [ "Fire", "Missile" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vanvan": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vaportra": {
+        "buttons": [ "Fire", "Special" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vasara": {
+        "buttons": [ "Shot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vastar": {
+        "buttons": [ "Fire", "Shield" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vendetta2pu": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vfive": {
+        "buttons": [ "Shoot", "Power-up" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "victnine": {
+        "buttons": [ "Fire", "Smart Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "viewpoin": {
+        "buttons": [ "Fire", "Smart Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "viostorm": {
+        "buttons": [ "Attack", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "volfied": {
+        "buttons": [ "Action" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vshoot": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vulcan": {
+        "buttons": [ "1", "2", "3" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "vulgus": {
+        "buttons": [ "Fire", "Cannon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wanted": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wardner": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "warofbug": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "warriorb": {
+        "buttons": [ "Fight", "Jump", "Pause", "??" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "waterski": {
+        "buttons": [ "Slow", "Jump" ],
+        "players": 2,
+        "joystick": [ "", "", "Left", "Right" ]
+    },
+    "wb3": {
+        "buttons": [ "Shoot", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wc90": {
+        "buttons": [ "Slide Tackle/Low Pass", "Header/High Pass" ]
+    },
+    "welltris": {
+        "buttons": [ "Rotate", "Drop" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wh2j": {
+        "buttons": [ "Punch", "Kick", "Taunt" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "whp": {
+        "buttons": [ "Weak/Strong Punch", "Medium/Strong Punch", "Weak/Strong Kick", "Medium/Strong Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wildplt": {
+        "buttons": [ "Fire" ],
+        "players": 2
+    },
+    "wilytowr": {
+        "buttons": [ "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wiping": {
+        "buttons": [ "Fire" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wits": {
+        "buttons": [ "Speed Up", "Jump" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wiz": {
+        "buttons": [ "Action", "Select Magic" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wldcourt": {
+        "buttons": [ "Swing", "Swing" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wmatch": {
+        "buttons": [ "Start" ],
+        "players": 2
+    },
+    "wndrmomo": {
+        "buttons": [ "Attack/Transform", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wndrplnt": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "worldwar": {
+        "buttons": [ "Fire", "Select" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wrestwar": {
+        "buttons": [ "Punch", "Kick" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wrofaero": {
+        "buttons": [ "Fire", "Option" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "ws": {
+        "buttons": [ "Run/Steal/Pickoff", "Swing/Pitch/Field", "Timeout" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "wwestern": {
+        "buttons": [ "Fire", "Jump", "DUAL JOYSTICKS" ],
+        "players": 2
+    },
+    "wwjgtin": {
+        "buttons": [ "Jump", "Whip" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "xevi3dg": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 4,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "xexex": {
+        "buttons": [ "Fire", "Flint Control" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "xmultipl": {
+        "buttons": [ "Shot" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "xorworld": {
+        "buttons": [ "Drop", "Rotate" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "xyonix": {
+        "buttons": [ "Rotate", "Drop" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "yamagchi": {
+        "buttons": [ "Fire", "Jump" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "yamato": {
+        "buttons": [ "Fire", "Cannon" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "yamyam": {
+        "buttons": [ "Push One Space", "Push As Far As Available" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "youjyudnmFire": {
+        "buttons": [ "Powerful Shot" ]
+    },
+    "zaviga": {
+        "buttons": [ "Fire", "Dive/Climb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "zedblade": {
+        "buttons": [ "Shoot", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
+    "zektor": {
+        "buttons": [ "Fire", "Thrust" ],
+        "players": 1
+    },
+    
     "88games": {
         "players": 2,
         "alternating": 0,
@@ -2073,7 +7121,7 @@ return {
         "players": 2,
         "alternating": 1,
         "buttons": [ "Fire", "Fire", "N/A" ],
-        "joystick": [ "N/A", "N/A", "Left", "Right" ]
+        "joystick": [ "", "", "Left", "Right" ]
     },
     "galaga": {
         "players": 2,
@@ -4593,7 +9641,7 @@ return {
         "players": 2,
         "alternating": 0,
         "buttons": [ "Shoot and Kick Snowball", "Jump" ],
-        "joystick": [ "N/A", "N/A", "Left", "Right" ]
+        "joystick": [ "", "", "Left", "Right" ]
     },
     "solarfox": {
         "players": 2,
