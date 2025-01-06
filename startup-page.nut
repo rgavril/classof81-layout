@@ -4,6 +4,7 @@ class StartupPage
 	background_image = null;
 	wheel = null;
 	is_active = false;
+	warning_message = null;
 
 	controls = {}
 
@@ -40,6 +41,13 @@ class StartupPage
 
 		this.controls = dofile(fe.script_dir + "/modules/controls.nut");
 
+		this.warning_message = this.surface.add_text("WARNING:\nThis game requires more than 2 buttons. Controls may be limited!", 40, 360, 900, 100);
+		this.warning_message.char_size = 26;
+		this.warning_message.word_wrap = true;
+		this.warning_message.style = Style.Bold;
+		this.warning_message.set_rgb(255, 50, 50);
+		this.warning_message.visible = false;
+
 		draw();
 	}
 
@@ -51,6 +59,14 @@ class StartupPage
 		if (this.wheel.texture_width > 400) {
 			this.wheel.width = 400;
 		}
+
+		# Unset all labels
+		foreach(label,info_label in this.info_label) {
+			this.set_info_label(label, "");
+		}
+
+		# Hide Warning message
+		this.warning_message.visible = false;
 
 		local rom = fe.game_info(Info.Name);
 		if (rom in this.controls) {
@@ -83,10 +99,9 @@ class StartupPage
 			} else {
 				this.set_info_label("start2", "");
 			}
-		} else {
-			# Unset all labels
-			foreach(label,info_label in this.info_label) {
-				this.set_info_label(label, "");
+
+			if (controls["buttons"].len() > 2) {
+				this.warning_message.visible = true;
 			}
 		}
 	}

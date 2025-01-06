@@ -25,14 +25,14 @@ class RightBox
 		local title_shadow = fe.add_text("[Title]", 475+1, 235+10+1, 450, 50)
 		title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title_shadow.set_rgb(0,0,0)
-		title_shadow.char_size = 36
+		title_shadow.char_size = 32
 		title_shadow.align = Align.TopCentre
 
 		# Title
 		local title = fe.add_text("[Title]", 475, 235+10, 450, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf";
 		title.set_rgb(255,104,181);
-		title.char_size = 36;
+		title.char_size = 32;
 		title.align = Align.TopCentre;
 
 		# Sidebox Border

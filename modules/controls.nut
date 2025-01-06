@@ -7128,7 +7128,7 @@ return {
     "galaga88": {
         "players": 2,
         "alternating": 1,
-        "buttons": [ "Fire", "Fire", "N/A" ],
+        "buttons": [ "Fire", "Fire" ],
         "joystick": [ "", "", "Left", "Right" ]
     },
     "galaga": {
@@ -7266,7 +7266,7 @@ return {
     "glfgreat": {
         "players": 4,
         "alternating": 1,
-        "buttons": [ "Stance", "Shot", "N/A", "N/A" ],
+        "buttons": [ "Stance", "Shot" ],
         "joystick": [ "Select longer distance club", "Select shorter distance club", "Rotate Left", "Rotate Right" ]
     },
     "golgo13": {
