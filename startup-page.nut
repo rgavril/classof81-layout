@@ -5,42 +5,40 @@ class StartupPage
 	wheel = null;
 	is_active = false;
 
+	controls = {}
+
 	info_label = {
-		"P1_JOYSTICK_LEFT"   : {"line": null, "tag": null },
-		"P1_JOYSTICK_RIGHT"  : {"line": null, "tag": null },
-		"P1_JOYSTICK_UP"     : {"line": null, "tag": null },
-		"P1_JOYSTICK_DOWN"   : {"line": null, "tag": null },
-		"P1_BUTTON1"         : {"line": null, "tag": null },
-		"P1_BUTTON2"         : {"line": null, "tag": null },
-		"P2_START"           : {"line": null, "tag": null },
+		"left"    : {"line": null, "tag": null },
+		"right"   : {"line": null, "tag": null },
+		"up"      : {"line": null, "tag": null },
+		"down"    : {"line": null, "tag": null },
+		"button1" : {"line": null, "tag": null },
+		"button2" : {"line": null, "tag": null },
+		"start2"  : {"line": null, "tag": null },
 	};
 
 	constructor()
 	{
 		this.surface = fe.add_surface(960, 1280);
 		this.surface.set_pos(0, 0);
-		this.surface.visible = false;	
+		// this.surface.visible = false;	
 
 		this.background_image = this.surface.add_image("images/controls.png", 0, 0);
 
 		this.wheel = this.surface.add_artwork("wheel", 30, 190);
 		this.wheel.preserve_aspect_ratio = true;
 
-		// local title = this.surface.add_text("[Title]", 30, 190, 500, 100);
-		// title.align = Align.MiddleLeft;
-		// title.char_size = 50;
-		// title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		// title.margin = 0;
-
-		construct_control("P1_BUTTON1"       , 667, 695, 150);
-		construct_control("P1_BUTTON2"       , 761, 695, 115);
-		construct_control("P1_JOYSTICK_UP"   , 485, 502, 114); this.info_label["P1_JOYSTICK_UP"]["tag"].y = 485 - 15;
-		construct_control("P1_JOYSTICK_DOWN" , 485, 743, 150);
-		construct_control("P1_JOYSTICK_LEFT" , 432, 688, 155);
-		construct_control("P1_JOYSTICK_RIGHT", 541, 688, 122);
-		construct_control("P2_START"         , 200, 749, 101);
+		construct_control("button1", 667, 695, 150);
+		construct_control("button2", 761, 695, 115);
+		construct_control("up"     , 485, 502, 114); this.info_label["up"]["tag"].y = 485 - 15;
+		construct_control("down"   , 485, 743, 150);
+		construct_control("left"   , 432, 688, 155);
+		construct_control("right"  , 541, 688, 122);
+		construct_control("start2" , 200, 749, 101);
 		
 		fe.add_transition_callback(this, "transition_callback");
+
+		this.controls = dofile(fe.script_dir + "/modules/controls.nut");
 
 		draw();
 	}
@@ -48,37 +46,62 @@ class StartupPage
 	function draw()
 	{
 
+		# Resize the game logo
 		this.wheel.height = 120;
 		if (this.wheel.texture_width > 400) {
 			this.wheel.width = 400;
 		}
 
 		local rom = fe.game_info(Info.Name);
-		local info = ini_section(fe.script_dir+"/controls.ini", rom);
+		if (rom in this.controls) {
+			local controls = this.controls[rom];
 
-		foreach (name, label in info_label) {	
-			local tag_msg = "";
-			
-			try { tag_msg = info[name] } catch (e) {}
+			# Joystick
+			this.set_info_label("up"   , controls["joystick"][0]);
+			this.set_info_label("down" , controls["joystick"][1]);
+			this.set_info_label("left" , controls["joystick"][2]);
+			this.set_info_label("right", controls["joystick"][3]);
 
-			if (tag_msg == "" || tag_msg == "N/A") {
-				label["tag"].visible = false;
-				label["line"].visible = false;
-				continue;
+			# Button 1
+			if (controls["buttons"].len() >= 1) {
+				this.set_info_label("button1", controls["buttons"][0]);
+			} else {
+				this.set_info_label("button1", "");
 			}
 
-			label["tag"].visible = true;
-			label["line"].visible = true;
-			label["tag"].msg = tag_msg.toupper();
-		}
+			# Button 2
+			if (controls["buttons"].len() >= 2) {
+				this.set_info_label("button2", controls["buttons"][1]);
+			} else {
+				this.set_info_label("button2", "");
+			}
 
-		if ("numPlayers" in info && info["numPlayers"] == "2") {
-			this.info_label["P2_START"]["tag"].visible = true;
-			this.info_label["P2_START"]["line"].visible = true;
-			this.info_label["P2_START"]["tag"].msg = "2 PLAYER START";
+			# Start Player 2
+			if (controls["players"] >= 2 && controls["alternating"] == 1)
+			{
+				this.set_info_label("start2", "2 PLAYERS START");
+			} else {
+				this.set_info_label("start2", "");
+			}
+		} else {
+			# Unset all labels
+			foreach(label,info_label in this.info_label) {
+				this.set_info_label(label, "");
+			}
 		}
 	}
 
+	function set_info_label(label, value) {
+		info_label[label]["tag"].msg = value.toupper();
+
+		if (value != "") {
+			info_label[label]["tag"].visible = true;
+			info_label[label]["line"].visible = true;
+		} else {
+			info_label[label]["tag"].visible = false;
+			info_label[label]["line"].visible = false;
+		}
+	}
 
 	function construct_control(name, x, y, height) {
 		local line = this.surface.add_image("images/line.png", x, y);
