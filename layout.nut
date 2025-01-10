@@ -28,6 +28,7 @@ fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
 fe.do_nut("startup-page.nut");
+fe.do_nut("splash-screen.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -55,11 +56,19 @@ game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
 starup_page     <- StartupPage();
+splash_screen   <- SplashScreen();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
 
 function key_detect(signal_str) {
+	if (splash_screen.is_active) {
+		if (splash_screen.key_detect(signal_str)) {
+			return true;
+		}
+
+		return false;
+	}
 
 	if (starup_page.is_active) {
 		if (starup_page.key_detect(signal_str)) {
