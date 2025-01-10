@@ -8,7 +8,7 @@ class SplashScreen
 	{
 		is_active = false;
 
-		this.video = fe.add_image("videos/splash.mp4", 0, 0, 960, 1280);
+		this.video = fe.add_image("", 0, 0, 960, 1280);
 		this.video.video_playing = false;
 		this.video.video_flags = Vid.NoLoop;
 
@@ -27,8 +27,10 @@ class SplashScreen
 		if (!this.is_active) 
 			return;
 
-		if (this.video.video_time > this.video.video_duration) {
+		// if (this.video.video_time >= this.video.video_duration) { # This doesn't work
+		if (tick_time >= this.video.video_duration) {
 			this.stop();
+			this.hide();
 		}
 	}
 
@@ -43,6 +45,7 @@ class SplashScreen
 	{
 		this.is_active = true;
 		this.video.video_playing = true;
+		this.video.file_name = "videos/splash.mp4";
 	}
 
 	function stop()
