@@ -146,7 +146,6 @@ class StartupPage
 	{
 		if (ttype == Transition.ToGame) {
 			if (transition_time == 0) {
-				print("transition_callback\n\n");
 				::sound_engine.play_enter_sound();
 				return true;
 			}

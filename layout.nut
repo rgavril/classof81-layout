@@ -13,12 +13,14 @@ fe.layout.font = "fonts/CriqueGrotesk.ttf";
 fe.load_module("file");
 fe.load_module("animate");
 
+fe.do_nut("splash-screen.nut");
+splash_screen   <- SplashScreen();
+
 fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/retroarch-config.nut");
 fe.do_nut("modules/fbneo-dipswitches.nut");
 fe.do_nut("modules/overview.nut");
 fe.do_nut("utils.nut");
-
 fe.do_nut("sound-engine.nut");
 fe.do_nut("bottom-text.nut");
 fe.do_nut("game-button.nut");
@@ -28,7 +30,6 @@ fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
 fe.do_nut("startup-page.nut");
-fe.do_nut("splash-screen.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -56,7 +57,6 @@ game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
 starup_page     <- StartupPage();
-splash_screen   <- SplashScreen();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
