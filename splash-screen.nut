@@ -6,6 +6,7 @@ class SplashScreen
 	
 	constructor()
 	{
+		print("SPLASH CONSTRUCTOR\n");
 		is_active = true;
 
 		this.video = fe.add_image("videos/splash.mp4", 0, 0, 960, 1280);
@@ -35,10 +36,27 @@ class SplashScreen
 		}
 	}
 
+	function transition_callback(ttype, var, transition_time)
+	{
+		if (ttype == Transition.StartLayout && var == FromTo.Frontend) {
+			this.start();
+		}
+	}
+
+	function start()
+	{
+		print("SPLASH START\n");
+		this.video.file_name = "videos/splash.mp4"
+		this.is_active = true;
+		this.video.video_playing = true;
+	}
+
 	function stop()
 	{
+		print("SPLASH STOP\n");
 		this.is_active = false;
 		this.video.video_playing = false;
+		this.video.file_name = "";
 	}
 
 	function hide()

@@ -13,9 +13,6 @@ fe.layout.font = "fonts/CriqueGrotesk.ttf";
 fe.load_module("file");
 fe.load_module("animate");
 
-fe.do_nut("splash-screen.nut");
-splash_screen   <- SplashScreen();
-
 fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/retroarch-config.nut");
 fe.do_nut("modules/fbneo-dipswitches.nut");
@@ -30,6 +27,7 @@ fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
 fe.do_nut("startup-page.nut");
+fe.do_nut("splash-screen.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -45,9 +43,10 @@ fe.do_nut("startup-page.nut");
 // }	
 // animation.add( PropertyAnimation( snap, snap_cfg ) );
 
+
 # Background Image
 fe.add_image("images/background.png", 0, 0);
-
+splash_screen   <- SplashScreen();
 sound_engine    <- SoundEngine()
 signal_repeater <- SignalRepeater()
 popup_menu      <- null;
