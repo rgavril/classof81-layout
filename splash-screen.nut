@@ -35,22 +35,8 @@ class SplashScreen
 		}
 	}
 
-	function transition_callback(ttype, var, transition_time)
-	{
-		// if (ttype == Transition.StartLayout && var == FromTo.Frontend) {
-		// 	this.start();
-		// }
-	}
-
-	function start()
-	{
-		this.is_active = true;
-		this.video.video_playing = true;
-	}
-
 	function stop()
 	{
-		print("SPLASH STOP \n");
 		this.is_active = false;
 		this.video.video_playing = false;
 	}
