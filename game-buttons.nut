@@ -22,10 +22,12 @@ class GameButtons {
 		this.letter.height = 195;
 		this.letter.margin = 0;
 		this.letter.x = 960/2 - this.letter.width/2 + 220;
+		this.letter.font = "fonts/CriqueGrotesk-Bold.ttf"
 		// this.letter.set_rgb(0xFF, 0x68, 0xB5);
 		this.letter.style = Style.Bold;
 		this.letter.align = Align.MiddleCentre;
-		this.letter.char_size = 195;
+		this.letter.char_size = 205;
+		// this.letter.outline = 10;
 
 		# Draw the buttons
 		draw();
@@ -70,8 +72,8 @@ class GameButtons {
 		}
 
 		if (signal_str = "up" || signal_str == "down") {
-			if (signal_repeater.hold_time["up"] > 0 || signal_repeater.hold_time["down"] > 0) {
-				animation.add(PropertyAnimation(this.letter, {property = "alpha", end=255, time = 1, tween = Tween.Linear}));
+			if (signal_repeater.hold_time["up"] > 500 || signal_repeater.hold_time["down"] > 500) {
+				animation.add(PropertyAnimation(this.letter, {property = "alpha", end=200, time = 100, tween = Tween.Linear}));
 			}
 		}
 
@@ -84,6 +86,7 @@ class GameButtons {
 		local y_min = 251;
 		local y_max = 1111 - this.letter.height;
 		local y_current = y_min + (y_max - y_min) * ((fe.list.index-1).tofloat() / fe.list.size)
+		// local y_current = 200;
 		this.letter.msg = fe.game_info(Info.Title).slice(0,1).toupper();
 		animation.add(PropertyAnimation(this.letter, {property = "y",  end=y_current, time = 150, tween = Tween.Quart}));
 

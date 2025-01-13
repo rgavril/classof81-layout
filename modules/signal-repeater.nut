@@ -34,11 +34,14 @@ class SignalRepeater
 					
 					# Mark it as started, but also add a 500ms delay
 					this.last_repeat_time[signal_str] = tick_time + 500;
+
+					# Update Hold Time
+					this.hold_time[signal_str] = 500;
 				}
 
 				# If the signal was repeated more that 100ms ago 
 				if (tick_time - this.last_repeat_time[signal_str] > 100) {
-					# Update hold time
+					# Update Hold Time
 					this.hold_time[signal_str] += (tick_time - this.last_repeat_time[signal_str]);
 
 					# Send a repeat signal
