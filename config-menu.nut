@@ -7,6 +7,7 @@ class ConfigMenu {
 
 	surface = [];
 	menu_buttons = [];
+	missing_file_warning = null;
 	is_active = false;
 
 	constructor()
@@ -19,6 +20,12 @@ class ConfigMenu {
 
 		# Background
 		this.surface.add_image("images/config_menu.png", 0, 0);
+
+		# Missing File Warning
+		this.missing_file_warning = this.surface.add_text("Missing Dipswitch Definition File", 80, 200, 780, 30);
+		this.missing_file_warning.align = Align.TopCentre;
+		this.missing_file_warning.char_size = 29;
+		this.missing_file_warning.visible = false;
 
 		# Config Button Placeholders
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -66,6 +73,10 @@ class ConfigMenu {
 
 			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitch });
 		}
+
+		# Add warning if dipswitches were not defined
+		this.missing_file_warning.visible = dipswitches.is_missing_file ? true : false;
+
 
 		# Add 'Reset to Defaults' menu entry
 		this.menu_entries.push({"type": "reset"})
