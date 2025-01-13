@@ -26,7 +26,7 @@ fe.do_nut("right-box.nut");
 fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
-fe.do_nut("startup-page.nut");
+fe.do_nut("game-startup-page.nut");
 fe.do_nut("splash-screen.nut");
 
 // fe.layout.base_rotation = RotateScreen.Right;
@@ -55,7 +55,7 @@ right_box       <- RightBox();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
-starup_page     <- StartupPage();
+starup_page     <- GameStartupPage();
 
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");

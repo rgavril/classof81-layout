@@ -1,4 +1,4 @@
-class StartupPage
+class GameStartupPage
 {
 	surface = null;
 	background_image = null;
