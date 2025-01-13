@@ -65,8 +65,6 @@ function key_detect(signal_str) {
 		if (splash_screen.key_detect(signal_str)) {
 			return true;
 		}
-
-		return false;
 	}
 
 	if (starup_page.is_active) {

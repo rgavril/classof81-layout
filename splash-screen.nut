@@ -31,6 +31,7 @@ class SplashScreen
 
 		// if (this.video.video_time >= this.video.video_duration) { # This doesn't work
 		if (tick_time >= this.video.video_duration) {
+			print("SPLASH STOP\n");
 			this.stop();
 			this.hide();
 		}
@@ -62,7 +63,6 @@ class SplashScreen
 	function hide()
 	{
 		this.is_hidden = true;
-		this.is_active = false;
 		// animation.add(PropertyAnimation(this.video, {property = "width", end=0, time = 200, tween = Tween.Linear}));
 		// animation.add(PropertyAnimation(this.video, {property = "origin_x", end=-960/2, time = 200, tween = Tween.Linear}));
 		// animation.add(PropertyAnimation(this.video, {property = "height", end=0, time = 200, tween = Tween.Linear}));
