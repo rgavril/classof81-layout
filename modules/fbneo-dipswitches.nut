@@ -4,13 +4,15 @@ class FBNeoDipSwitch {
 	values = [];
 	current_idx = "";
 	default_idx = "";
+	is_advanced = false;
 
-	constructor(rom, name, values, default_idx) {
+	constructor(rom, name, values, default_idx, is_advanced=false) {
 		this.rom = rom;
 		this.name = name;
 		this.values = values;
 		this.default_idx = default_idx;
 		this.current_idx = default_idx;
+		this.is_advanced = is_advanced;
 
 		local saved_value = retroarch_config_read(AM_CONFIG["fbneo_config_file"], this.key());
 		foreach(idx, value in this.values) {
@@ -84,7 +86,8 @@ class FBNeoDipSwitches {
 			if (definition["name"] == "Unknown") {  continue; }
 			if (definition["name"] == "Unused")  {  continue; }
 
-			local dip_switch = FBNeoDipSwitch(rom, definition["name"], definition["values"], definition["default"]);
+			local is_advanced = "advanced" in definition && definition["advanced"] == true ? true : false;
+			local dip_switch = FBNeoDipSwitch(rom, definition["name"], definition["values"], definition["default"], is_advanced);
 			dip_switches.push(dip_switch);
 		}
 	}

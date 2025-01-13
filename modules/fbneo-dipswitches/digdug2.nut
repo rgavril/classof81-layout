@@ -27,6 +27,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 0,
     "values": [
       "1 Coin  1 Credit",
@@ -37,6 +38,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -45,6 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -53,6 +56,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -61,6 +65,7 @@ return [
   },
   {
     "name": "Service",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

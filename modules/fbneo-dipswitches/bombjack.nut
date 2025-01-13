@@ -61,6 +61,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 0,
     "values": [
       "1 Coin  1 Credit",
@@ -71,6 +72,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 1,
     "values": [
       "2 Coins  1 Credit",
@@ -81,6 +83,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",

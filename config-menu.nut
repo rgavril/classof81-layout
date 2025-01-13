@@ -59,7 +59,12 @@ class ConfigMenu {
 		# Add dipswitch menu entries
 		local dipswitches = FBNeoDipSwitches(rom);
 		for (local i=0; i<dipswitches.len(); i++) {
-			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitches.get(i) });
+			local dipswitch = dipswitches.get(i);
+			if (dipswitch.is_advanced) {
+				continue;
+			}
+
+			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitch });
 		}
 
 		# Add 'Reset to Defaults' menu entry

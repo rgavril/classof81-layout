@@ -37,6 +37,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 1,
     "values": [
       "2C/1C 1C/1C 1C/3C 1C/7C",
@@ -45,6 +46,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",

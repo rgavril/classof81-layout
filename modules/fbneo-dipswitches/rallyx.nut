@@ -25,6 +25,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 1,
     "values": [
       "2 Coins 1 Play",
@@ -35,6 +36,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -43,6 +45,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",

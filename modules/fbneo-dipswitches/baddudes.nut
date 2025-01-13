@@ -37,6 +37,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced" : true,
     "default": 2,
     "values": [
       "3 Coins 1 Play",
@@ -47,6 +48,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced" : true,
     "default": 2,
     "values": [
       "3 Coins 1 Play",
@@ -57,6 +59,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced" : true,
     "default": 0,
     "values": [
       "Off",
@@ -65,6 +68,7 @@ return [
   },
   {
     "name": "Flip Screen",
+    "advanced" : true,
     "default": 0,
     "values": [
       "Off",

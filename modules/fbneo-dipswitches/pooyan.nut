@@ -41,6 +41,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 5,
     "values": [
       "4 Coins 1 Credit",
@@ -63,6 +64,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 5,
     "values": [
       "4 Coins 1 Credit",

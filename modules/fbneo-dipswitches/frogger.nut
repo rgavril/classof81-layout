@@ -11,6 +11,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 2,
     "values": [
       "A 2C/1P  B 2C/1P  C 2C/1P",
@@ -21,6 +22,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",

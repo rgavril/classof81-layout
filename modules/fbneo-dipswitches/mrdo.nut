@@ -37,6 +37,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 4,
     "values": [
       "4 Coins / 1 Credit",
@@ -54,6 +55,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 4,
     "values": [
       "4 Coins / 1 Credit",
@@ -71,6 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -79,6 +82,7 @@ return [
   },
   {
     "name": "Rack Test (Cheat)",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

@@ -11,6 +11,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 2,
     "values": [
       "3 Coins 1 Credits",
@@ -21,6 +22,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 2,
     "values": [
       "3 Coins 1 Credits",
@@ -31,6 +33,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -39,6 +42,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -47,6 +51,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

@@ -27,6 +27,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 2,
     "values": [
       "2 Coins 1 Credits",
@@ -37,6 +38,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -45,6 +47,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

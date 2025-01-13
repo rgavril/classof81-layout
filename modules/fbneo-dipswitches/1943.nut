@@ -39,6 +39,7 @@ return [
   },
   {
     "name": "2 Player Game",
+    "advanced" : true,
     "default": 1,
     "values": [
       "1 Credit / 2 Players",
@@ -47,6 +48,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 3,
     "values": [
       "4 Coins 1 Play",
@@ -61,6 +63,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 3,
     "values": [
       "4 Coins 1 Play",
@@ -75,6 +78,7 @@ return [
   },
   {
     "name": "Flip Screen",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -83,6 +87,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -91,6 +96,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

@@ -43,6 +43,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 3,
     "values": [
       "4 Coins 1 Play",
@@ -57,6 +58,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -65,6 +67,7 @@ return [
   },
   {
     "name": "Rack Test",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -73,6 +76,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -81,6 +85,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

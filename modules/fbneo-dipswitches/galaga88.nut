@@ -1,6 +1,7 @@
 return [
   {
     "name": "Auto Data Sampling",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -9,6 +10,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

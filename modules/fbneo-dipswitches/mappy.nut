@@ -47,6 +47,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 3,
     "values": [
       "3 Coins 1 Credit",
@@ -61,6 +62,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 1,
     "values": [
       "2 Coins 1 Credit",
@@ -71,6 +73,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",
@@ -79,6 +82,7 @@ return [
   },
   {
     "name": "Service",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -87,6 +91,7 @@ return [
   },
   {
     "name": "Rack Test (Cheat)",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -95,6 +100,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

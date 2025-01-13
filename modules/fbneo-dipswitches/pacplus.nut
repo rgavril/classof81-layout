@@ -37,6 +37,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 1,
     "values": [
       "2C 1C",
@@ -47,6 +48,7 @@ return [
   },
   {
     "name": "Rack Test (Cheat)",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -55,6 +57,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 0,
     "values": [
       "Upright",

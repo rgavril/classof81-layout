@@ -1,6 +1,7 @@
 return [
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -9,6 +10,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -17,6 +19,7 @@ return [
   },
   {
     "name": "Kick Watchdog in IRQ",
+    "advanced": true,
     "default": 0,
     "values": [
       "No",
@@ -25,6 +28,7 @@ return [
   },
   {
     "name": "Auto Data Sampling",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",

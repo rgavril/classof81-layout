@@ -17,6 +17,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced" : true,
     "default": 0,
     "values": [
       "1 Coin 1 Play"
@@ -27,6 +28,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced" : true,
     "default": 0,
     "values": [
       "Upright",

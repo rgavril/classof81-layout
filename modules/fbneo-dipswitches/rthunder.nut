@@ -57,6 +57,7 @@ return [
   },
   {
     "name": "Coin A",
+    "advanced": true,
     "default": 2,
     "values": [
       "3 Coins / 1 Credit",
@@ -67,6 +68,7 @@ return [
   },
   {
     "name": "Coin B",
+    "advanced": true,
     "default": 2,
     "values": [
       "3 Coins / 1 Credit",
@@ -85,6 +87,7 @@ return [
   },
   {
     "name": "Freeze",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -93,6 +96,7 @@ return [
   },
   {
     "name": "Service Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
@@ -101,6 +105,7 @@ return [
   },
   {
     "name": "Cabinet",
+    "advanced": true,
     "default": 2,
     "values": [
       "Upright 1 Player",

@@ -47,6 +47,7 @@ return [
   },
   {
     "name": "Coinage",
+    "advanced": true,
     "default": 0,
     "values": [
       "1 coin 1 credit",
@@ -69,6 +70,7 @@ return [
   },
   {
     "name": "Credits to Start",
+    "advanced": true,
     "default": 0,
     "values": [
       "1",
@@ -77,6 +79,7 @@ return [
   },
   {
     "name": "Coin Mode",
+    "advanced": true,
     "default": 0,
     "values": [
       "A",
@@ -85,6 +88,7 @@ return [
   },
   {
     "name": "Flip Screen",
+    "advanced": true,
     "default": 0,
     "values": [
       "Off",
