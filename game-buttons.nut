@@ -5,7 +5,6 @@ class GameButtons {
 	is_active = true;  # Whether the list is active or not
 
 	letter = null;
-	rectangle = null;
 
 	is_config_mode = false;
 
@@ -18,8 +17,15 @@ class GameButtons {
 			this.buttons.push(button);
 		}
 
-		// this.rectangle = fe.add_rectangle(0,0, 30, 30);
-		this.letter = fe.add_text("A", 0, 0, 40, 40);
+		this.letter = fe.add_text("A", -100, -100, 40, 40);
+		this.letter.width = 50;
+		this.letter.height = 195;
+		this.letter.margin = 0;
+		this.letter.x = 960/2 - this.letter.width/2 + 220;
+		// this.letter.set_rgb(0xFF, 0x68, 0xB5);
+		this.letter.style = Style.Bold;
+		this.letter.align = Align.MiddleCentre;
+		this.letter.char_size = 195;
 
 		# Draw the buttons
 		draw();
@@ -27,6 +33,8 @@ class GameButtons {
 
 		# Add a callback to refresh the buttons when events take place
 		fe.add_transition_callback(this, "transition_callback");
+
+		fe.add_ticks_callback(this, "ticks_callback");
 	}
 
 	function transition_callback(ttype, var, transition_time)
@@ -35,6 +43,12 @@ class GameButtons {
 			this.is_config_mode = false;
 			::sound_engine.play_click_sound();
 			draw();
+		}
+	}
+
+	function ticks_callback(tick_time) {
+		if (signal_repeater.hold_time["up"] == 0 && signal_repeater.hold_time["down"] == 0) {
+			animation.add(PropertyAnimation(this.letter, {property = "alpha", end=0, time=400, tween = Tween.Linear}));
 		}
 	}
 
@@ -55,45 +69,23 @@ class GameButtons {
 			return true;
 		}
 
+		if (signal_str = "up" || signal_str == "down") {
+			if (signal_repeater.hold_time["up"] > 0 || signal_repeater.hold_time["down"] > 0) {
+				animation.add(PropertyAnimation(this.letter, {property = "alpha", end=255, time = 1, tween = Tween.Linear}));
+			}
+		}
+
 		return false;
 	}
 
 	function draw()
 	{
 		# Update the letter
+		local y_min = 251;
+		local y_max = 1111 - this.letter.height;
+		local y_current = y_min + (y_max - y_min) * ((fe.list.index-1).tofloat() / fe.list.size)
 		this.letter.msg = fe.game_info(Info.Title).slice(0,1).toupper();
-		// this.letter.msg = fe.list.index;
-		local y_min = 220;
-		local y_max = 1070;
-		local y_current = y_min + (y_max - y_min) * (fe.list.index.tofloat() / fe.list.size)
-		this.letter.y = y_current;
-		this.letter.x = 456;
-		this.letter.style = Style.Bold;
-		
-		// local x_min = 0;
-		// local x_max = 960;
-		// local x_current = x_min + (x_max - x_min) * (fe.list.index.tofloat() / fe.list.size)
-		// this.letter.x = x_current;
-		// this.letter.y = 150;
-
-		this.letter.char_size = 23;
-		this.letter.width = 25;
-		this.letter.align = Align.MiddleCentre;
-		this.letter.margin = 0;
-		// this.rectangle.x = this.letter.x;
-		// this.rectangle.y = this.letter.y;
-		// this.rectangle.width = this.letter.width;
-		// this.rectangle.height = this.letter.height;
-		// this.rectangle.set_rgb(0,0,0);
-
-		// this.rectangle.visible = false;
-		// this.rectangle.x = this.letter.x;
-		// this.rectangle.y = y_min;
-		// this.rectangle.width = this.letter.width;
-		// this.rectangle.height = y_max-y_min + this.letter.height/2;
-		// this.rectangle.set_rgb(255,104,181);
-		// this.rectangle.alpha = 200;
-
+		animation.add(PropertyAnimation(this.letter, {property = "y",  end=y_current, time = 150, tween = Tween.Quart}));
 
 		# Calculate the page number
 		local page_number = fe.list.index / PAGE_SIZE
