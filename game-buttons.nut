@@ -6,8 +6,6 @@ class GameButtons {
 
 	letter = null;
 
-	is_config_mode = false;
-
 	constructor() 
 	{
 		# Create the game buttons
@@ -42,9 +40,9 @@ class GameButtons {
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.FromOldSelection) {
-			this.is_config_mode = false;
 			::sound_engine.play_click_sound();
 			draw();
+			// this.deselect_gear();
 		}
 	}
 
@@ -60,32 +58,8 @@ class GameButtons {
 			return false;
 		}
 
-		if (signal_str == "left" && !is_config_mode) {
-			is_config_mode = true;
-			::sound_engine.play_click_sound();
-			draw();
-			return true;
-		}
-
-		if (signal_str == "right" && is_config_mode) {
-			this.buttons[0].set_config_mode(false);
-			is_config_mode = false;
-			::sound_engine.play_click_sound();
-			draw();
-			return true;
-		}
-
-		# If Game Buttons is pointing to config gear 
-		# and select is pressed activate Config Menu
-		if (signal_str == "select" && this.is_config_mode) {
-			::config_menu.show();
-			// game_buttons.desactivate();
-			return true;
-		}
-
-		if (signal_str == "select" && !this.is_config_mode) {
-			this.is_active = false;
-			::starup_page.show();
+		# Send all signals to active button 
+		if (buttons[0].key_detect(signal_str)) {
 			return true;
 		}
 
@@ -113,7 +87,6 @@ class GameButtons {
 		local y_min = 251;
 		local y_max = 1111 - this.letter.height;
 		local y_current = y_min + (y_max - y_min) * ((fe.list.index-1).tofloat() / fe.list.size)
-		// local y_current = 200;
 		this.letter.msg = fe.game_info(Info.Title).slice(0,1).toupper();
 		animation.add(PropertyAnimation(this.letter, {property = "y",  end=y_current, time = 150, tween = Tween.Quart}));
 
@@ -129,11 +102,8 @@ class GameButtons {
 
 			# Load the logo
 			button.setLogo(fe.get_art("wheel", relative_index))
-			button.deselect()
-			button.show()
-
-			# Set the button mode
-			button.set_config_mode(this.is_config_mode);
+			button.deselect();
+			button.show();
 
 			# If the button is pointing to a game ouside the list of games, hide it
 			if (absolute_index >= fe.list.size) {
@@ -149,14 +119,6 @@ class GameButtons {
 				} else {
 					button.desactivate();
 				}
-			}
-		}
-
-		if (this.is_active) {
-			if (this.is_config_mode) {
-				bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
-			} else {
-				bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
 			}
 		}
 	}

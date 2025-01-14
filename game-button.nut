@@ -12,7 +12,7 @@ class GameButton {
 
 	is_selected = false;
 	is_active = true;
-	is_config_mode = false;
+	is_gear_selected = false;
 
 	constructor(x=0, y=0)
 	{
@@ -50,6 +50,34 @@ class GameButton {
 
 		# Draw
 		draw();
+	}
+
+	function key_detect(signal_str)
+	{
+		if (signal_str == "left" && !this.is_gear_selected) {
+			::sound_engine.play_click_sound();
+			this.select_gear();
+			return true;
+		}
+
+		if (signal_str == "right" && this.is_gear_selected) {
+			::sound_engine.play_click_sound();
+			this.deselect_gear();
+			return true;
+		}
+
+		if (signal_str == "select" && this.is_gear_selected) {
+			::config_menu.show();
+			return true;
+		}
+
+		if (signal_str == "select" && !this.is_gear_selected) {
+			this.is_active = false;
+			::starup_page.show();
+			return true;
+		}
+
+		return false;
 	}
 
 	function setLogo(filename)
@@ -91,33 +119,41 @@ class GameButton {
 		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
 
 		# Gear Icon Logic
-		if (this.is_selected && this.is_config_mode) {
+		if (this.is_selected && this.is_gear_selected) {
 			this.gear_icon.file_name = "images/gear_active.png";
 		} else {
 			this.gear_icon.file_name = "images/gear_inactive.png";
 		}
 
 		# Button Background Logic
-		if (this.is_selected && this.is_config_mode) {
+		if (this.is_selected && this.is_gear_selected) {
 			m_background.file_name = "images/button_background_active.png";
 		} else {
 			m_background.file_name = "images/button_background_inactive.png";
 		}
 
 		# Select Box Game Logic
-		if (this.is_selected && this.is_active && !this.is_config_mode) {
+		if (this.is_selected && this.is_active && !this.is_gear_selected) {
 			this.game_select_box.file_name = "images/game_select_box_active.png"
 			this.game_select_box.visible = true;
 
-		} else if (this.is_selected && !this.is_active && !this.is_config_mode) {
+		} else if (this.is_selected && !this.is_active && !this.is_gear_selected) {
 			this.game_select_box.file_name = "images/game_select_box_inactive.png"
 			this.game_select_box.visible = true;
 
-		} else if (this.is_selected && this.is_active && this.is_config_mode) {
+		} else if (this.is_selected && this.is_active && this.is_gear_selected) {
 			this.game_select_box.file_name = "images/game_select_box_inactive.png"
 			this.game_select_box.visible = true;
 		} else {
 			this.game_select_box.visible = false;
+		}
+
+		if (this.is_active) {
+			if (this.is_gear_selected) {
+				::bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
+			} else {
+				::bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
+			}
 		}
 	}
 
@@ -130,6 +166,7 @@ class GameButton {
 	function deselect()
 	{
 		this.is_selected = false;
+		this.is_gear_selected = false;
 		draw();
 	}
 
@@ -155,9 +192,15 @@ class GameButton {
 		draw();
 	}
 
-	function set_config_mode(is_config_mode)
+	function select_gear()
 	{
-		this.is_config_mode = is_config_mode;
+		this.is_gear_selected = true;
+		draw();
+	}
+
+	function deselect_gear()
+	{
+		this.is_gear_selected = false;
 		draw();
 	}
 }
