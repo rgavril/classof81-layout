@@ -1,9 +1,9 @@
 class GameButton {
-	m_surface = null;
-	m_background = null;
+	surface = null;
+	background_image = null;
 	game_select_box = null;
-	m_logo = null;
-	m_logo_shadow = null;	
+	logo = null;
+	logo_shadow = null;
 	gear_icon = null;
 
 	m_desaturize_shader = null;
@@ -17,30 +17,30 @@ class GameButton {
 	constructor(x=0, y=0)
 	{
 		# Create surface for drawing onto and position it
-		m_surface = fe.add_surface(500, 300);
-		m_surface.set_pos(x, y);
-		m_surface.origin_y = m_surface.texture_height/2;
+		this.surface = fe.add_surface(500, 300);
+		this.surface.set_pos(x, y);
+		this.surface.origin_y = this.surface.texture_height/2;
 
 		# Draw the button background image on the surface
-		m_background = m_surface.add_image("images/button_background_inactive.png");
-		m_background.y = m_surface.texture_height / 2;
+		this.background_image = this.surface.add_image("images/button_background_inactive.png");
+		this.background_image.y = this.surface.texture_height / 2;
 
 		# Create the the selection rectangle
-		this.game_select_box = m_surface.add_image("images/game_select_box_active.png", 0, 0);
-		this.game_select_box.y = m_surface.texture_height / 2;
+		this.game_select_box = this.surface.add_image("images/game_select_box_active.png", 0, 0);
+		this.game_select_box.y = this.surface.texture_height / 2;
 		this.game_select_box.origin_x = this.game_select_box.texture_width;
-		this.game_select_box.x = m_background.texture_width + m_background.x;
+		this.game_select_box.x = this.background_image.texture_width + this.background_image.x;
 		this.game_select_box.visible = false;
 
 		# Game Logo
-		m_logo_shadow = m_surface.add_image(null);
-		m_logo = m_surface.add_image(null);
+		this.logo_shadow = this.surface.add_image(null);
+		this.logo = this.surface.add_image(null);
 
 		# Gear Icon
-		this.gear_icon = m_surface.add_image("images/gear.png", 0, 0, 95, 95);
+		this.gear_icon = this.surface.add_image("images/gear.png", 0, 0, 95, 95);
 		this.gear_icon.origin_y = 40;
 		this.gear_icon.origin_x = 0;
-		this.gear_icon.y = m_background.y;
+		this.gear_icon.y = this.background_image.y;
 		this.gear_icon.x = 7;
 
 		# Shader used to desaturade the unselected logo on buttons
@@ -82,41 +82,41 @@ class GameButton {
 
 	function setLogo(filename)
 	{
-		m_logo.file_name = filename
+		this.logo.file_name = filename
 
 		# Resize the logo
-		m_logo.preserve_aspect_ratio = true;
-		m_logo.mipmap = true;
-		m_logo.width = 260;
-		m_logo.zorder = 2;
+		this.logo.preserve_aspect_ratio = true;
+		this.logo.mipmap = true;
+		this.logo.width = 260;
+		this.logo.zorder = 2;
 
 		# Set the origin point to the center-right of the logo
-		m_logo.origin_y = (m_logo.texture_height * (m_logo.width / m_logo.texture_width)) / 2;
-		m_logo.origin_x = m_logo.width;
+		this.logo.origin_y = (this.logo.texture_height * (this.logo.width / this.logo.texture_width)) / 2;
+		this.logo.origin_x = this.logo.width;
 
 		# Align it horizontaly near the end of the button background
-		m_logo.x = m_background.x + m_background.texture_width - 17;
+		this.logo.x = this.background_image.x + this.background_image.texture_width - 17;
 		
 		# Align it verticaly to the middle of the button background image
-		m_logo.y = m_background.y + m_background.texture_height/2;
+		this.logo.y = this.background_image.y + this.background_image.texture_height/2;
 
-		m_logo_shadow.file_name = filename;
-		m_logo_shadow.preserve_aspect_ratio = true;
-		m_logo_shadow.width = m_logo.width;
-		m_logo_shadow.origin_y = m_logo.origin_y - 2;
-		m_logo_shadow.origin_x = m_logo.origin_x - 2;
-		m_logo_shadow.x = m_logo.x;
-		m_logo_shadow.y = m_logo.y;
-		m_logo_shadow.shader = m_shadow_shader;
-		m_logo_shadow.zorder = 1;
+		this.logo_shadow.file_name = filename;
+		this.logo_shadow.width = this.logo.width;
+		this.logo_shadow.origin_y = this.logo.origin_y - 2;
+		this.logo_shadow.origin_x = this.logo.origin_x - 2;
+		this.logo_shadow.x = this.logo.x;
+		this.logo_shadow.y = this.logo.y;
+		this.logo_shadow.preserve_aspect_ratio = true;
+		this.logo_shadow.shader = m_shadow_shader;
+		this.logo_shadow.zorder = 1;
 
-		draw();
+		// draw();
 	}
 
 	function draw()
 	{
-		m_logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
-		m_logo_shadow.alpha = this.is_selected ? 200 : 100;
+		this.logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
+		this.logo_shadow.alpha = this.is_selected ? 255 : 100;
 
 		# Gear Icon Logic
 		if (this.is_selected && this.is_gear_selected) {
@@ -127,9 +127,9 @@ class GameButton {
 
 		# Button Background Logic
 		if (this.is_selected && this.is_gear_selected) {
-			m_background.file_name = "images/button_background_active.png";
+			this.background_image.file_name = "images/button_background_active.png";
 		} else {
-			m_background.file_name = "images/button_background_inactive.png";
+			this.background_image.file_name = "images/button_background_inactive.png";
 		}
 
 		# Select Box Game Logic
@@ -172,12 +172,12 @@ class GameButton {
 
 	function hide()
 	{
-		m_surface.visible = false;
+		this.surface.visible = false;
 	}
 
 	function show()
 	{
-		m_surface.visible = true;
+		this.surface.visible = true;
 	}
 
 	function activate()

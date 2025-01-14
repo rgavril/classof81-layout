@@ -3,6 +3,7 @@ class GameButtons {
 	
 	buttons = [];      # Array containing the game buttons
 	is_active = true;  # Whether the list is active or not
+	select_idx = 0;
 
 	letter = null;
 
@@ -42,7 +43,6 @@ class GameButtons {
 		if (ttype == Transition.FromOldSelection) {
 			::sound_engine.play_click_sound();
 			draw();
-			// this.deselect_gear();
 		}
 	}
 
@@ -59,7 +59,7 @@ class GameButtons {
 		}
 
 		# Send all signals to active button 
-		if (buttons[0].key_detect(signal_str)) {
+		if (buttons[this.select_idx].key_detect(signal_str)) {
 			return true;
 		}
 
@@ -112,6 +112,7 @@ class GameButtons {
 
 			# Select the current button
 			if (relative_index == 0){
+				this.select_idx = index;
 				button.select();
 
 				if (this.is_active) {
