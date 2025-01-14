@@ -67,10 +67,10 @@ signal_repeater.enable_for("up");
 function key_detect(signal_str) {
 	if ( splash_screen.key_detect(signal_str) ) { return true; }
 	if ( starup_page.key_detect(signal_str)   ) { return true; }
+	if ( game_buttons.key_detect(signal_str)  ) { return true; }
 	if ( popup_menu.key_detect(signal_str)    ) { return true; }
 	if ( config_menu.key_detect(signal_str)   ) { return true; }
 	if ( right_box.key_detect(signal_str)     ) { return true; }
-	if ( game_buttons.key_detect(signal_str)  ) { return true; }
 
 	return false;
 }

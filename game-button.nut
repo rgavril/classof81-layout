@@ -54,6 +54,10 @@ class GameButton {
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+
 		if (signal_str == "left" && !this.is_gear_selected) {
 			::sound_engine.play_click_sound();
 			this.select_gear();
