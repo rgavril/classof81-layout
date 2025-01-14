@@ -19,7 +19,11 @@ class SplashScreen
 	}
 
 	function key_detect(signal_str) {
-		if (this.is_active && !this.is_hidden) {
+		if (!this.is_active) {
+			return false;
+		}
+
+		if (!this.is_hidden) {
 			this.hide();
 			return true;
 		}

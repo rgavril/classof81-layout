@@ -39,14 +39,19 @@ class ConfigMenu {
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+
 		switch (signal_str)
 		{
-			case "down"   : this.down_action()   ; break;
-			case "up"     : this.up_action()     ; break;
-			case "select" : this.select_action() ; break;
-			case "left"   : this.left_action()   ; break;
-			case "right"  : this.right_action()  ; break;
-			case "custom1": this.custom1_action() ;break;
+			case "down"   : this.down_action()    ; break;
+			case "up"     : this.up_action()      ; break;
+			case "select" : this.select_action()  ; break;
+			case "left"   : this.left_action()    ; break;
+			case "right"  : this.right_action()   ; break;
+			case "back"   : this.hide();          ; break;
+			case "custom1": this.custom1_action() ; break;
 			default:
 				return false;
 		}

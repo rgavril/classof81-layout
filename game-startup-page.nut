@@ -134,6 +134,10 @@ class GameStartupPage
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+
 		if ( signal_str != "select" ) {
 			fe.signal("select");
 			return true;

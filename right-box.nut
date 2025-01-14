@@ -75,10 +75,19 @@ class RightBox
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+
 		switch (signal_str)
 		{
 			case "down"   : this.down_action()   ; break;
 			case "up"     : this.up_action()     ; break;
+			case "select" : break;
+			case "left"   : 
+				game_buttons.activate();
+				right_box.desactivate();
+				break;
 			default:
 				return false;
 		}

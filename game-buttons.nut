@@ -56,6 +56,10 @@ class GameButtons {
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+
 		if (signal_str == "left" && !is_config_mode) {
 			is_config_mode = true;
 			::sound_engine.play_click_sound();
@@ -71,10 +75,33 @@ class GameButtons {
 			return true;
 		}
 
+		# If Game Buttons is pointing to config gear 
+		# and select is pressed activate Config Menu
+		if (signal_str == "select" && this.is_config_mode) {
+			::config_menu.show();
+			// game_buttons.desactivate();
+			return true;
+		}
+
+		if (signal_str == "select" && !this.is_config_mode) {
+			this.is_active = false;
+			::starup_page.show();
+			return true;
+		}
+
+		# If Right is pressed, activate Achivements
+		if (signal_str == "right") {
+			::right_box.activate();
+			this.desactivate();
+			return true;
+		}
+
 		if (signal_str = "up" || signal_str == "down") {
 			if (signal_repeater.hold_time["up"] > 500 || signal_repeater.hold_time["down"] > 500) {
 				animation.add(PropertyAnimation(this.letter, {property = "alpha", end=200, time = 100, tween = Tween.Linear}));
 			}
+
+			return false;
 		}
 
 		return false;

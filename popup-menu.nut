@@ -58,6 +58,10 @@ class PopupMenu {
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return false;
+		}
+		
 		switch (signal_str)
 		{
 			case "down"   : this.down_action()   ; break;

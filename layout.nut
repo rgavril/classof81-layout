@@ -46,6 +46,8 @@ fe.do_nut("splash-screen.nut");
 
 # Background Image
 fe.add_image("images/background.png", 0, 0);
+
+# GUI Elements
 splash_screen   <- SplashScreen();
 sound_engine    <- SoundEngine()
 signal_repeater <- SignalRepeater()
@@ -57,89 +59,19 @@ config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
 starup_page     <- GameStartupPage();
 
+# Enable Signal Repeaters for up and down keys
 signal_repeater.enable_for("down");
 signal_repeater.enable_for("up");
 
+# Key Signal Handlers
 function key_detect(signal_str) {
-	if (splash_screen.is_active) {
-		if (splash_screen.key_detect(signal_str)) {
-			return true;
-		}
-	}
+	if ( splash_screen.key_detect(signal_str) ) { return true; }
+	if ( starup_page.key_detect(signal_str)   ) { return true; }
+	if ( popup_menu.key_detect(signal_str)    ) { return true; }
+	if ( config_menu.key_detect(signal_str)   ) { return true; }
+	if ( right_box.key_detect(signal_str)     ) { return true; }
+	if ( game_buttons.key_detect(signal_str)  ) { return true; }
 
-	if (starup_page.is_active) {
-		if (starup_page.key_detect(signal_str)) {
-			return true;
-		}
-		
-		return false;
-	}
-
-	if (popup_menu.is_active) {
-		if (popup_menu.key_detect(signal_str)) {
-			return true;
-		}
-	}
-
-	# If Achivements is Active
-	if (right_box.is_active) {
-		# Send the keypress for processing
-		if ( right_box.key_detect(signal_str) ) {
-			return true;
-		};
-
-		# If Right is pressed, activate Game Buttons
-		if (signal_str == "left") {
-			game_buttons.activate();
-			right_box.desactivate();
-			return true;
-		}
-	}
-
-	# Config Menu is active
-	if (config_menu.is_active) {
-		# Send the keypress for processing
-		if ( config_menu.key_detect(signal_str) ) {
-			return true;
-		};
-
-		# If back is pressed, activate Game Buttons
-		if (signal_str == "back") {
-			game_buttons.activate();
-			config_menu.hide();
-			return true;
-		}
-	}
-
-	# Game Buttons are active
-	if (game_buttons.is_active) {
-		# Send the keypress for processing
-		if ( game_buttons.key_detect(signal_str) ) {
-			return true;
-		}
-
-		# If Game Buttons is pointing to config gear 
-		# and select is pressed activate Config Menu
-		if (signal_str == "select" && game_buttons.is_config_mode) {
-			config_menu.show();
-			// game_buttons.desactivate();
-			return true;
-		}
-
-		if (signal_str == "select" && !game_buttons.is_config_mode) {
-			starup_page.show();
-			return true;
-		}
-
-		# If Right is pressed, activate Achivements
-		if (signal_str == "right") {
-			right_box.activate();
-			game_buttons.desactivate();
-			return false;
-		}
-	}
-
-	# print("SIGNAL : " + signal_str + "\n"); return true;
 	return false;
 }
 fe.add_signal_handler("key_detect");
