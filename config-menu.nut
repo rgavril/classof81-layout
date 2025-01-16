@@ -209,6 +209,11 @@ class ConfigMenu {
 				::sound_engine.play_click_sound();
 				menu_entry["dipswitch"].move_to_next_value();
 				break;
+
+			case "versions":
+				::sound_engine.play_click_sound();
+				menu_entry["versions"].select_next_version();
+				break;
 				
 			default:
 				print("Config action not yet implemented\n");
@@ -228,7 +233,12 @@ class ConfigMenu {
 				::sound_engine.play_click_sound();
 				menu_entry["dipswitch"].move_to_prev_value();
 				break;
-				
+
+			case "versions":
+				::sound_engine.play_click_sound();
+				menu_entry["versions"].select_prev_version();
+				break;
+
 			default:
 				print("Config action not yet implemented\n");
 		}
@@ -308,7 +318,7 @@ class ConfigMenu {
 
 				case "versions":
 					local versions = menu_entry["versions"];
-					versions.set_current_idx(versions.get_default_idx());
+					versions.reset();
 					break;
 			}
 

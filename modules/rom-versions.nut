@@ -60,6 +60,22 @@ class RomVersions
 		return 0;
 	}
 
+	function select_next_version() {
+		local next_idx = (this.current_idx + 1) % this.available_games.len();
+
+		this.set_current_idx(next_idx);
+	}
+
+	function select_prev_version() {
+		local prev_idx = (this.current_idx + this.available_games.len() - 1) % this.available_games.len();
+
+		this.set_current_idx(prev_idx);
+	}
+
+	function reset() {
+		this.set_current_idx(this.get_default_idx());
+	}
+
 	function _parse_available_games()
 	{
 		local file = ReadTextFile(this._romlist_file());
