@@ -68,6 +68,12 @@ class ConfigMenu {
 		# Add 'Hide this Menu' menu entry
 		this.menu_entries.push({ "type": "hide" });
 
+		# Add versions menu entry
+		local versions = RomVersions(rom);
+		if (versions.get_available_roms().len() > 1) {
+			this.menu_entries.push({ "type": "versions", "versions": versions});
+		}
+
 		# Add dipswitch menu entries
 		local dipswitches = FBNeoDipSwitches(rom);
 		for (local i=0; i<dipswitches.len(); i++) {
@@ -127,6 +133,11 @@ class ConfigMenu {
  				case "hide":
  					menu_button.set_label("Hide this Menu");
  					break;
+
+				case "versions":
+					local versions = menu_entry.versions;
+					menu_button.set_label("Version", versions.get_current_title());
+					break;
 
  				case "reset":
  					menu_button.set_label("Reset to Default");
@@ -233,6 +244,14 @@ class ConfigMenu {
 				this.hide();
 				break;
 
+			case "versions":
+				local versions = menu_entry["versions"];
+				::popup_menu.set_message("What version do you want to play ?");
+				::popup_menu.set_options(versions.get_available_titles(), versions.get_current_idx());
+				::popup_menu.show();
+				this.draw();
+				break;
+
 			case "reset":
 				::popup_menu.set_message("Are you sure you want to reset to Default Settings ?");
 				::popup_menu.set_options(["Yes", "No"], 1);
@@ -262,6 +281,10 @@ class ConfigMenu {
 				if (::popup_menu.last_selected_value() == "Yes") {
 					this.reset_all_options();
 				}
+				break;
+			case "versions":
+				menu_entry["versions"].set_current_idx(::popup_menu.last_selected_idx());
+				draw();
 				break;
 
 			case "dipswitch":
