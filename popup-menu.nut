@@ -9,7 +9,7 @@ class PopupMenu {
 	background_bottom = null;
 	message_label = null;
 
-	MAX_OPTIONS = 20;
+	MAX_OPTIONS = 19;
 	options_background = [];
 	options_text = [];
 
@@ -67,8 +67,14 @@ class PopupMenu {
 			return;
 		}
 
+		# Calculate the wait time till the next scroll
+		local wait_tick_time = 100;
+		if (last_scroll_idx == 0) {
+			wait_tick_time = 500;
+		}
+
 		# If not enough time passed, skip this scroll
-		if (tick_time < last_scroll_tick + 100) {
+		if (tick_time < last_scroll_tick + wait_tick_time) {
 			return;
 		# Else update last scroll time
 		} else {
@@ -94,13 +100,14 @@ class PopupMenu {
 			last_scroll_idx++;
 		}
 
+		# Duplicate the scroll text so it will look as it repeats
+		scroll_text = scroll_text + "      " + scroll_text;
+
 		# If scroll index is at the end, reset it
-		if (last_scroll_idx > scroll_text.len()){
+		if (last_scroll_idx > scroll_text.len() / 2 + 1){
 			last_scroll_idx = 0;
 		}
 
-		# Duplicate the scroll text so it will look as it repeats
-		scroll_text = scroll_text + "      " + scroll_text;
 		container.msg = scroll_text.slice(last_scroll_idx);
 	}
 
@@ -132,10 +139,6 @@ class PopupMenu {
 
 		# Now create and show options that are active
 		foreach(idx,option in this.options) {
-			if (idx >= this.MAX_OPTIONS) {
-				print("WARNING: Popup cannot display all options.");
-				break;
-			}
 
 			# Set the text of the option
 			options_text[idx].msg = option;
@@ -174,6 +177,18 @@ class PopupMenu {
 	function set_options(options, select_idx) {
 		this.options = options;
 		this.select_idx = select_idx;
+
+		# If we need to display more options than we can
+		if (options.len() >= this.MAX_OPTIONS) {
+			# Write a error message
+			print("WARNING: Popup cannot display more that "+this.MAX_OPTIONS+" options. List was truncated");
+
+			# Truncate the options list
+			this.options = options.slice(0, this.MAX_OPTIONS)
+
+			# Ensure the selected idx is in the list
+			if (this.select_idx >= this.MAX_OPTIONS) { this.select_idx = 0; }
+		}
 	}
 
 	function set_message(message)
