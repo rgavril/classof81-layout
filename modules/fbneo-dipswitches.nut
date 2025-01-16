@@ -36,12 +36,20 @@ class FBNeoDipSwitch {
 		this.write();
 	}
 
-	function value() {
+	function get_current_value() {
 		return values[current_idx];
 	}
 
-	function default_value() {
-		return values[default_idx];
+	function get_current_idx() {
+		return this.current_idx;
+	}
+
+	function get_name() {
+		return this.name;
+	}
+
+	function get_values() {
+		return this.values;
 	}
 
 	function key() {
@@ -49,10 +57,10 @@ class FBNeoDipSwitch {
 	}
 
 	function write() {
-		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.value());
+		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.get_current_value());
 	}
 
-	function set(index) {
+	function set_current_idx(index) {
 		if (index < 0 || index > this.values.len() - 1) {
 			return;
 		}

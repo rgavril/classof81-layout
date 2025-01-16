@@ -135,8 +135,7 @@ class ConfigMenu {
  					break;
 
 				case "versions":
-					local versions = menu_entry.versions;
-					menu_button.set_label("Version", versions.get_current_title());
+					menu_button.set_label("Version", menu_entry["versions"].get_current_title());
 					break;
 
  				case "reset":
@@ -144,8 +143,7 @@ class ConfigMenu {
  					break;
 
  				case "dipswitch":
- 					local dipswitch = menu_entry.dipswitch;
- 					menu_button.set_label(dipswitch.name, dipswitch.value());
+ 					menu_button.set_label(menu_entry["dipswitch"].get_name(), menu_entry["dipswitch"].get_current_value());
  					break;
  			}
 		}
@@ -255,9 +253,8 @@ class ConfigMenu {
 				break;
 
 			case "versions":
-				local versions = menu_entry["versions"];
 				::popup_menu.set_message("What version do you want to play ?");
-				::popup_menu.set_options(versions.get_available_titles(), versions.get_current_idx());
+				::popup_menu.set_options(menu_entry["versions"].get_available_titles(), menu_entry["versions"].get_current_idx());
 				::popup_menu.show();
 				this.draw();
 				break;
@@ -270,9 +267,8 @@ class ConfigMenu {
 				break;
 
 			case "dipswitch":
-				local dipswitch = menu_entry["dipswitch"]; 
-				::popup_menu.set_message("Choose a new setting for\n" + dipswitch.name.toupper());
-				::popup_menu.set_options(dipswitch.values, dipswitch.current_idx);
+				::popup_menu.set_message("Choose a new setting for\n" + menu_entry["dipswitch"].get_name().toupper());
+				::popup_menu.set_options(menu_entry["dipswitch"].get_values(), menu_entry["dipswitch"].get_current_idx());
 				::popup_menu.show();
 				this.draw();
 				break;
@@ -298,7 +294,7 @@ class ConfigMenu {
 				break;
 
 			case "dipswitch":
-				menu_entry["dipswitch"].set(::popup_menu.last_selected_idx());
+				menu_entry["dipswitch"].set_current_idx(::popup_menu.last_selected_idx());
 				draw();
 				break;
 
@@ -312,13 +308,11 @@ class ConfigMenu {
 		foreach (menu_entry in this.menu_entries) {
 			switch (menu_entry["type"]) {
 				case "dipswitch":
-					local dipswitch = menu_entry["dipswitch"];
-					dipswitch.reset();
+					menu_entry["dipswitch"].reset();
 					break;
 
 				case "versions":
-					local versions = menu_entry["versions"];
-					versions.reset();
+					menu_entry["versions"].reset();
 					break;
 			}
 
