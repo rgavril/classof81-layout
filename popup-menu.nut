@@ -100,14 +100,14 @@ class PopupMenu {
 			last_scroll_idx++;
 		}
 
-		# Duplicate the scroll text so it will look as it repeats
-		scroll_text = scroll_text + "      " + scroll_text;
-
 		# If scroll index is at the end, reset it
-		if (last_scroll_idx > scroll_text.len() / 2 + 1){
+		local scroll_space = "      ";
+		if (last_scroll_idx > scroll_text.len() + scroll_space.len()){
 			last_scroll_idx = 0;
 		}
 
+		# Duplicate the scroll text so it will look as it repeats
+		scroll_text = scroll_text + scroll_space + scroll_text;
 		container.msg = scroll_text.slice(last_scroll_idx);
 	}
 
