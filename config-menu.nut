@@ -207,7 +207,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound();
-				menu_entry["dipswitch"].move_to_next_value();
+				menu_entry["dipswitch"].select_next_value();
 				break;
 
 			case "versions":
@@ -231,7 +231,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound();
-				menu_entry["dipswitch"].move_to_prev_value();
+				menu_entry["dipswitch"].select_prev_value();
 				break;
 
 			case "versions":

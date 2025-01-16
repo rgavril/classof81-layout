@@ -22,14 +22,14 @@ class FBNeoDipSwitch {
 		}
 	}
 
-	function move_to_next_value() {
+	function select_next_value() {
 		local next_value_idx = (current_idx + 1) % values.len();
 		this.current_idx = next_value_idx;
 
 		this.write();
 	}
 
-	function move_to_prev_value() {
+	function select_prev_value() {
 		local next_value_idx = (current_idx + values.len() - 1) % values.len();
 		this.current_idx = next_value_idx;
 
