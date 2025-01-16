@@ -74,6 +74,11 @@ function key_detect(signal_str) {
 	if ( game_buttons.key_detect(signal_str)  ) { return true; }
 	if ( right_box.key_detect(signal_str)     ) { return true; }
 
+	# This is here only to prevent changing displays
+	if (signal_str == "left" || signal_str == "right") {
+		return true;
+	}
+
 	return false;
 }
 fe.add_signal_handler("key_detect");
