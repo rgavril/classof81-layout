@@ -15,7 +15,7 @@ return [
   },
   {
     "name": "Bonus Life",
-    "default": 21,
+    "default": 3,
     "values": [
       "15000",
       "30000",
