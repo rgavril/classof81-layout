@@ -48,12 +48,60 @@ class PopupMenu {
 			text.char_size = 26;
 			text.font = "fonts/CriqueGrotesk-Bold.ttf";
 			text.align = Align.MiddleLeft;
-			text.margin = 40;
+			text.margin = 30;
 			text.visible = false;
 			this.options_text.push(text);
 		}
 
 		draw();
+
+		fe.add_ticks_callback(this, "ticks_callback");
+	}
+
+	last_scroll_text = "";
+	last_scroll_tick = 0;
+	last_scroll_idx = 0;
+	function ticks_callback(tick_time) {
+		# Don't scroll if we're not active
+		if (!this.is_active) {
+			return;
+		}
+
+		# If not enough time passed, skip this scroll
+		if (tick_time < last_scroll_tick + 100) {
+			return;
+		# Else update last scroll time
+		} else {
+			last_scroll_tick = tick_time;
+		}
+
+		# Get a hold of the container and the text we need to scroll
+		local container = this.options_text[this.select_idx];
+		local scroll_text = this.options[this.select_idx];
+
+		# Don't scroll if text fits the container
+		container.msg = scroll_text;
+		if (strip(container.msg) == strip(container.msg_wrapped)) {
+			return;
+		}
+
+		# If the scrollable text changed, reset scroll index
+		if (last_scroll_text != scroll_text) {
+			last_scroll_idx = 0;
+			last_scroll_text = scroll_text;
+		# Else increase the scroll index
+		} else {
+			last_scroll_idx++;
+		}
+
+		# If scroll index is at the end, reset it
+		if (last_scroll_idx > scroll_text.len()){
+			last_scroll_idx = 0;
+		}
+
+		# Duplicate the scroll text so it will look as it repeats
+		scroll_text = scroll_text + "      " + scroll_text;
+		container.msg = scroll_text.slice(last_scroll_idx);
 	}
 
 	function key_detect(signal_str)
@@ -92,6 +140,11 @@ class PopupMenu {
 			# Set the text of the option
 			options_text[idx].msg = option;
 			options_text[idx].visible = true;
+
+			# Add "..."" if the text doesn't fit the box
+			if (strip(options_text[idx].msg) != strip(this.options_text[idx].msg_wrapped)) {
+				options_text[idx].msg = strip(options_text[idx].msg_wrapped).slice(0, -3) + "...";
+			}
 
 			# Show the option
 			options_background[idx].visible = true;
