@@ -23,9 +23,9 @@ class ConfigMenuButton {
 		# Title
 		this.name_label = this.surface.add_text (
 			title,
-			this.background_image.x,
+			this.background_image.x + 45,
 			this.background_image.y,
-			this.background_image.texture_width,
+			this.background_image.texture_width - 45*2,
 			this.background_image.texture_height
 		);
 		name_label.align = Align.MiddleLeft;
@@ -69,6 +69,11 @@ class ConfigMenuButton {
 
 			# Display the value label
 			this.value_label.visible = true;
+
+			# Dynamic label width
+			this.value_label.x = this.name_label.x + this.name_label.msg_width - 10;
+			this.value_label.width = this.background_image.texture_width - this.name_label.msg_width - 45 ;
+
 		}
 
 		if (this.is_selected) {
