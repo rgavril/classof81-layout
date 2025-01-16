@@ -106,9 +106,9 @@ class ConfigMenu {
 			# Calculate the button vertical position
 			local y = 105 + 90*i;
 			if (menu_entries.len() < PAGE_SIZE) {
-				local unused_space = (PAGE_SIZE - menu_entries.len()) * 90;
+				local unused_space = (PAGE_SIZE - menu_entries.len()) * 90 - 20*2;
 				local extra_padding = unused_space / (menu_entries.len()-1);
-				y += extra_padding * i;
+				y += extra_padding * i + 20;
 			}
 			menu_button.set_y(y);
 
