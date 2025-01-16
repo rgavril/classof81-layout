@@ -23,7 +23,12 @@ function retroarch_config_write(filename, variable, value) {
 	}
 
 	if (! was_replaced) {
-		temp_file.write_line(variable + " = \"" + value + "\"\n");
+		try {
+			temp_file.write_line(variable + " = \"" + value + "\"\n");
+		} catch (e) {
+			print("ERROR: Cannot write to retroach config file : " + filename + "\n");
+			return;
+		}
 	}
 
 	rename(filename+".tmp", filename);
