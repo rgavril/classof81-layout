@@ -51,13 +51,13 @@ class RomVersions
 
 	function read_available_games()
 	{
-		local file = ReadTextFile("/", "/Users/rgavril/.attract/romlists/Mame.txt");
+		local file = ReadTextFile(this._romlist_file());
 
 		local available_games = []
 
 		while(!file.eos()) {
 			local line = file.read_line();
-			local game = splitPreserveEmpty(line, ";");
+			local game = this._split_preserve_empty(line, ";");
 
 			if (game[Info.CloneOf] != this.rom && game[Info.Name] != this.rom) { continue; }
 
@@ -66,22 +66,57 @@ class RomVersions
 
 		return available_games;
 	}
-}
 
-function splitPreserveEmpty(str, delimiter) {
-    local result = [];
-    local current = "";
+	function _romlist_file()
+	{
+		local romlist = fe.displays[fe.list.display_index].romlist;
 
-	for (local i = 0; i < str.len(); i++) {
-        local char = format("%c", str[i]);
-        
-        if (char == delimiter) {
-            result.append(current);
-            current = "";
-        } else {
-            current += char;
-        }
-    }
-    result.append(current); // Add the last segment
-    return result;
+		// Start from the script directory
+		local path = fe.script_dir;
+
+		// Go two folders back
+		local count = 3;
+		while (count > 0) {
+			local lastSlashIndex = -1;
+
+			// Find the location of the last '/'
+			for (local i = path.len() - 1; i >= 0; i--) {
+			    if (path[i] == '/') {
+			        lastSlashIndex = i;
+			        break;
+			    }
+			}
+
+			if (lastSlashIndex == -1) {
+				break;
+			}
+
+			path = path.slice(0, lastSlashIndex);
+			count--;
+		}
+
+		// Create the actual path
+		path = path + "/romlists/"+romlist+".txt";
+
+		return path;
+	}
+
+	function _split_preserve_empty(str, delimiter) {
+		local result = [];
+		local current = "";
+
+		for (local i = 0; i < str.len(); i++) {
+		    local char = format("%c", str[i]);
+
+		    if (char == delimiter) {
+		        result.append(current);
+		        current = "";
+		    } else {
+		        current += char;
+		    }
+		}
+		result.append(current);
+
+		return result;
+	}
 }
