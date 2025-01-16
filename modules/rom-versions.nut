@@ -9,8 +9,9 @@ class RomVersions
 	{
 		this.rom = rom;
 		this.current = this.rom;
-		this.available_games = this.read_available_games();
-		this.current_idx = 0;
+		this.available_games = this._parse_available_games();
+
+		this.current_idx = this.get_default_idx();
 	}
 
 	function get_available_titles() {
@@ -49,7 +50,17 @@ class RomVersions
 		this.current_idx = idx;
 	}
 
-	function read_available_games()
+	function get_default_idx() {
+		foreach(idx, game in this.available_games) {
+			if (game[Info.CloneOf] == "") {
+				return idx;
+			}
+		}
+
+		return 0;
+	}
+
+	function _parse_available_games()
 	{
 		local file = ReadTextFile(this._romlist_file());
 

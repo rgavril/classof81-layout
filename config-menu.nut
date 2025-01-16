@@ -300,12 +300,18 @@ class ConfigMenu {
 	function reset_all_options()
 	{
 		foreach (menu_entry in this.menu_entries) {
-			if (menu_entry["type"] != "dipswitch") {
-				continue;
+			switch (menu_entry["type"]) {
+				case "dipswitch":
+					local dipswitch = menu_entry["dipswitch"];
+					dipswitch.reset();
+					break;
+
+				case "versions":
+					local versions = menu_entry["versions"];
+					versions.set_current_idx(versions.get_default_idx());
+					break;
 			}
 
-			local dipswitch = menu_entry["dipswitch"];
-			dipswitch.reset();
 		}
 
 		this.draw();
