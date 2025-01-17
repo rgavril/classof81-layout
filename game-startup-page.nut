@@ -2,7 +2,7 @@ class GameStartupPage
 {
 	surface = null;
 	background_image = null;
-	wheel = null;
+	logo = null;
 	is_active = false;
 	warning_message = null;
 	in_clone_list = false;
@@ -28,8 +28,7 @@ class GameStartupPage
 
 		this.background_image = this.surface.add_image("images/controls.png", 0, 0);
 
-		this.wheel = this.surface.add_artwork("wheel", 30, 190);
-		this.wheel.preserve_aspect_ratio = true;
+		this.logo = this.surface.add_artwork("wheel", 45, 250);
 
 		construct_control("button1", 667, 695, 150);
 		construct_control("button2", 761, 695, 115);
@@ -73,11 +72,16 @@ class GameStartupPage
 	function draw()
 	{
 
-		# Resize the game logo
-		this.wheel.height = 120;
-		if (this.wheel.texture_width > 400) {
-			this.wheel.width = 400;
+		# Calculate the size of the logo based on max 170 vertical / 300 horizontal
+		local logo_height = 170;
+		local logo_width = 170.0/this.logo.texture_height * this.logo.texture_width;
+		if (logo_width > 300) {
+			logo_width = 300;
+			logo_height = 300.0/this.logo.texture_width * this.logo.texture_height;
 		}
+		this.logo.height = logo_height;
+		this.logo.width = logo_width;
+		this.logo.origin_y = logo_height/2;
 
 		# Unset all labels
 		foreach(label,info_label in this.info_label) {
