@@ -88,20 +88,26 @@ class GameButton {
 	{
 		this.logo.file_name = filename
 
+		# Calculate the size of the logo based on max 260 horizontal / 125 vertical
+		local logo_width = 260;
+		local logo_height = 260.0/this.logo.texture_width * this.logo.texture_height;
+		if (logo_height > 125) {
+			logo_height = 125;
+			logo_width = 125.0/this.logo.texture_height * this.logo.texture_width;
+		}
+
 		# Resize the logo
 		this.logo.preserve_aspect_ratio = true;
 		this.logo.mipmap = true;
-		this.logo.width = 260;
+		this.logo.width = logo_width;
 		this.logo.zorder = 2;
 
 		# Set the origin point to the center-right of the logo
-		this.logo.origin_y = (this.logo.texture_height * (this.logo.width / this.logo.texture_width)) / 2;
-		this.logo.origin_x = this.logo.width;
+		this.logo.origin_y = logo_height / 2;
+		this.logo.origin_x = logo_width / 2;
 
-		# Align it horizontaly near the end of the button background
-		this.logo.x = this.background_image.x + this.background_image.texture_width - 17;
-		
-		# Align it verticaly to the middle of the button background image
+		# Position the logo on center of select box from the button
+		this.logo.x = this.background_image.x + this.background_image.texture_width - 145;
 		this.logo.y = this.background_image.y + this.background_image.texture_height/2;
 
 		this.logo_shadow.file_name = filename;
