@@ -12,6 +12,15 @@ class RomVersions
 		this.available_games = this._parse_available_games();
 
 		this.current_idx = this.get_default_idx();
+		if ("game_versions_map" in fe.nv && this.rom in fe.nv["game_versions_map"]) {
+			local stored_rom = fe.nv["game_versions_map"][this.rom];
+
+			foreach (idx, game in available_games) {
+				if (game[Info.Name] == stored_rom) {
+					this.current_idx = idx;
+				}
+			}
+		}
 	}
 
 	function get_available_titles() {
@@ -39,7 +48,7 @@ class RomVersions
 	}
 
 	function get_current_rom() {
-		return this.available_games[this.current_idx][Info.Title];
+		return this.available_games[this.current_idx][Info.Name];
 	}
 
 	function get_current_idx() {
@@ -48,6 +57,12 @@ class RomVersions
 
 	function set_current_idx(idx) {
 		this.current_idx = idx;
+
+		if (! ("game_versions_map" in fe.nv)) {
+			fe.nv["game_versions_map"] <- {};
+		}
+
+		fe.nv["game_versions_map"][this.rom] <- this.get_current_rom();
 	}
 
 	function get_default_idx() {

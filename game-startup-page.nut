@@ -5,6 +5,8 @@ class GameStartupPage
 	wheel = null;
 	is_active = false;
 	warning_message = null;
+	in_clone_list = false;
+	rom = false;
 
 	controls = {}
 
@@ -48,7 +50,24 @@ class GameStartupPage
 		this.warning_message.set_rgb(255, 50, 50);
 		this.warning_message.visible = false;
 
+		fe.add_ticks_callback(this, "ticks_callback");
 		draw();
+	}
+
+	function ticks_callback(tick_time) {
+		# If the this page is active and we're in the clone list, we need to select a game
+		if (this.is_active && this.in_clone_list) {
+			local current_game = fe.game_info(Info.Name);
+			local wanted_game = RomVersions(this.rom).get_current_rom();
+
+			print("WANTED:" + wanted_game + " CURRENT:" + current_game + "\n\n");
+			if (current_game != wanted_game) {
+				fe.signal("next_game");
+			} else {
+				this.in_clone_list = false;
+				fe.signal("up"); fe.signal("up");
+			}
+		}
 	}
 
 	function draw()
@@ -138,9 +157,17 @@ class GameStartupPage
 			return false;
 		}
 
-		if ( signal_str != "select" ) {
-			fe.signal("select");
-			return true;
+		# While in clone list selection, only accept next_game signals
+		if (this.in_clone_list) {
+			if ( signal_str != "next_game") {
+				return true;
+			}
+		# If not i clone list selection, all signals are select
+		} else {
+			if ( signal_str != "select" ) {
+				fe.signal("select");
+				return true;
+			}
 		}
 
 		return false;
@@ -148,6 +175,7 @@ class GameStartupPage
 
 	function transition_callback(ttype, var, transition_time)
 	{
+		# Delay the starting of the game to play a sound
 		if (ttype == Transition.ToGame) {
 			if (transition_time == 0) {
 				::sound_engine.play_enter_sound();
@@ -162,6 +190,12 @@ class GameStartupPage
 			return false;
 		}
 
+		# When a list change is made while the start page is active
+		# it means that we moved to a clone select list
+		if (ttype == Transition.ToNewList && this.is_active) {
+			this.in_clone_list = true;
+		}
+
 		if (ttype == Transition.FromOldSelection) {
 			draw();
 		}
@@ -172,6 +206,8 @@ class GameStartupPage
 		::sound_engine.play_enter_sound();
 		this.is_active = true;
 		this.surface.visible = true;
+		this.in_clone_list = false;
+		this.rom = fe.game_info(Info.Name);
 	}
 
 	function hide()
