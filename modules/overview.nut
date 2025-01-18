@@ -46,6 +46,8 @@ function short_overview()
         if (chunk.len() >= 2 && chunk.slice(-2) == "Mr")  { skip_newline = true; }
         if (chunk.len() >= 2 && chunk.slice(-2) == "Ms")  { skip_newline = true; }
         if (chunk.len() >= 2 && chunk.slice(-2) == "Dr")  { skip_newline = true; }
+        if (chunk.len() >= 2 && chunk.slice(-2) == "Mt")  { skip_newline = true; }
+        if (chunk.len() >= 3 && chunk.slice(-3) == "Inc")  { skip_newline = true; }
 
         if (sumary.len() > 328) {
             break;

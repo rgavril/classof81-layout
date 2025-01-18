@@ -46,9 +46,21 @@ class GameButtons {
 		}
 	}
 
+	letter_alpha = 0;
 	function ticks_callback(tick_time) {
-		if (signal_repeater.hold_time["up"] == 0 && signal_repeater.hold_time["down"] == 0) {
-			animation.add(PropertyAnimation(this.letter, {property = "alpha", end=0, time=400, tween = Tween.Linear}));
+		if (fe.get_input_state("up") || fe.get_input_state("down")) {
+			letter_alpha+=1;
+		} else {
+			letter_alpha-=1;
+		}
+
+		if (letter_alpha < 0) { letter_alpha = 0; }
+		if (letter_alpha > 255) { letter_alpha = 255; }
+
+		if (letter_alpha > 0) {
+			this.letter.alpha = letter_alpha;
+		} else {
+			this.letter.alpha = 0;
 		}
 	}
 
@@ -68,15 +80,6 @@ class GameButtons {
 			::right_box.activate();
 			this.desactivate();
 			return true;
-		}
-
-		if (signal_str = "up" || signal_str == "down") {
-			if (signal_repeater.hold_time["up"] > 500 || signal_repeater.hold_time["down"] > 500) {
-				this.letter.alpha = 200
-				animation.add(PropertyAnimation(this.letter, {property = "alpha", end=200, time = 10, tween = Tween.Linear}));
-			}
-
-			return false;
 		}
 
 		return false;

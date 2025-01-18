@@ -3,7 +3,6 @@ class SignalRepeater
 	valid_signals = ["up", "down", "left", "right"];
 	enabled_for = {};
 	last_repeat_time = {};
-	hold_time = {};
 
 	constructor()
 	{
@@ -11,7 +10,6 @@ class SignalRepeater
 		foreach (signal_str in this.valid_signals) {
 			this.enabled_for[signal_str] <- false;
 			this.last_repeat_time[signal_str] <- 0;
-			this.hold_time[signal_str] <- 0;
 		}
 
 		# Add a tick call back to resend the signals
@@ -34,16 +32,10 @@ class SignalRepeater
 					
 					# Mark it as started, but also add a 500ms delay
 					this.last_repeat_time[signal_str] = tick_time + 500;
-
-					# Update Hold Time
-					this.hold_time[signal_str] = 500;
 				}
 
 				# If the signal was repeated more that 100ms ago 
 				if (tick_time - this.last_repeat_time[signal_str] > 100) {
-					# Update Hold Time
-					this.hold_time[signal_str] += (tick_time - this.last_repeat_time[signal_str]);
-
 					# Send a repeat signal
 					fe.signal(signal_str);
 
@@ -54,7 +46,6 @@ class SignalRepeater
 			# If the key is no not being hold
 			} else {
 				this.last_repeat_time[signal_str] = 0;
-				this.hold_time[signal_str] = 0;
 			}
 		}
 	}

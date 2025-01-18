@@ -12,10 +12,10 @@ class RightBox
 
 		# Snap
 		local snap = fe.add_artwork("snap", 0, 0);
-		snap.width = 450;
+		snap.width  = 450;
 		snap.height = snap.width * 4/3;
-		snap.x = 475;
-		snap.y = 235+840 - snap.height;
+		snap.x      = 475;
+		snap.y      = 235 + 840 - snap.height;
 		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 
 		# Snap Fade
