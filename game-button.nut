@@ -97,9 +97,9 @@ class GameButton {
 		}
 
 		# Resize the logo
-		this.logo.preserve_aspect_ratio = true;
 		this.logo.mipmap = true;
-		this.logo.width = logo_width;
+		this.logo.width  = logo_width;
+		this.logo.height = logo_height;
 		this.logo.zorder = 2;
 
 		# Set the origin point to the center-right of the logo
@@ -110,56 +110,56 @@ class GameButton {
 		this.logo.x = this.background_image.x + this.background_image.texture_width - 145;
 		this.logo.y = this.background_image.y + this.background_image.texture_height/2;
 
+		# Update the logo shadow
 		this.logo_shadow.file_name = filename;
-		this.logo_shadow.width = this.logo.width;
-		this.logo_shadow.origin_y = this.logo.origin_y - 2;
-		this.logo_shadow.origin_x = this.logo.origin_x - 2;
-		this.logo_shadow.x = this.logo.x;
-		this.logo_shadow.y = this.logo.y;
-		this.logo_shadow.preserve_aspect_ratio = true;
-		this.logo_shadow.shader = m_shadow_shader;
-		this.logo_shadow.zorder = 1;
-
-		// draw();
+		this.logo_shadow.shader    = m_shadow_shader;
+		this.logo_shadow.width     = this.logo.width;
+		this.logo_shadow.height    = this.logo.height;
+		this.logo_shadow.origin_y  = this.logo.origin_y - 2;
+		this.logo_shadow.origin_x  = this.logo.origin_x - 2;
+		this.logo_shadow.x         = this.logo.x;
+		this.logo_shadow.y         = this.logo.y;
+		this.logo_shadow.zorder    = 1;
 	}
 
 	function draw()
 	{
-		this.logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
+		this.logo.shader       = this.is_selected ? m_empty_shader : m_desaturize_shader;
 		this.logo_shadow.alpha = this.is_selected ? 255 : 100;
 
-		# Gear Icon Logic
-		if (this.is_selected && this.is_gear_selected) {
+		# Gear Icon
+		if ( this.is_selected && this.is_gear_selected ) {
 			this.gear_icon.file_name = "images/gear_active.png";
 		} else {
 			this.gear_icon.file_name = "images/gear_inactive.png";
 		}
 
-		# Button Background Logic
-		if (this.is_selected && this.is_gear_selected) {
+		# Button Background
+		if ( this.is_selected && this.is_gear_selected ) {
 			this.background_image.file_name = "images/button_background_active.png";
 		} else {
 			this.background_image.file_name = "images/button_background_inactive.png";
 		}
 
 		# Select Box Game Logic
-		if (this.is_selected && this.is_active && !this.is_gear_selected) {
+		if ( this.is_selected && this.is_active && !this.is_gear_selected ) {
 			this.game_select_box.file_name = "images/game_select_box_active.png"
-			this.game_select_box.visible = true;
+			this.game_select_box.visible   = true;
 
-		} else if (this.is_selected && !this.is_active && !this.is_gear_selected) {
+		} else if ( this.is_selected && !this.is_active && !this.is_gear_selected ) {
 			this.game_select_box.file_name = "images/game_select_box_inactive.png"
-			this.game_select_box.visible = true;
+			this.game_select_box.visible   = true;
 
-		} else if (this.is_selected && this.is_active && this.is_gear_selected) {
+		} else if ( this.is_selected && this.is_active && this.is_gear_selected ) {
 			this.game_select_box.file_name = "images/game_select_box_inactive.png"
-			this.game_select_box.visible = true;
+			this.game_select_box.visible   = true;
 		} else {
-			this.game_select_box.visible = false;
+			this.game_select_box.visible   = false;
 		}
 
-		if (this.is_active) {
-			if (this.is_gear_selected) {
+		# Bottom Text
+		if ( this.is_active ) {
+			if ( this.is_gear_selected ) {
 				::bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
 			} else {
 				::bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
