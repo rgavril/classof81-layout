@@ -13,109 +13,116 @@ class PopupMenu {
 	options_background = [];
 	options_text = [];
 
-	is_active = true;
+	is_active = false;
 
 	function constructor()
 	{
-		this.surface = fe.add_surface(1000, 1280);
-		this.surface.set_pos(0, 0);
-		this.surface.visible = false;
-
-		this.select_idx = 0;
-		this.options = [];
-		this.is_active = false;
+		# Drawing Surface
+		this.surface = fe.add_surface(1000, 1280)
+		this.surface.visible = false
+		this.surface.set_pos(0, 0)
 
 		# Background
-		this.background_top = this.surface.add_image("images/popup_menu.png", 0, 0);
-		this.background_bottom = this.surface.add_clone(this.background_top);
+		this.background_top    = this.surface.add_image("images/popup_menu.png", 0, 0)
+		this.background_bottom = this.surface.add_clone(this.background_top)
 
 		# Message
-		this.message_label = this.surface.add_text("", this.background_top.texture_width/2 - 250, 80, 500,200);
-		this.message_label.font = "fonts/CriqueGrotesk-Bold.ttf";
-		this.message_label.set_rgb(255, 255, 255);
-		this.message_label.char_size = 26;
-		this.message_label.word_wrap = true;
-		this.message_label.align = Align.TopCentre;
+		this.message_label = this.surface.add_text("", 0, 0, 0, 0)
+		this.message_label.x         = this.background_top.texture_width/2 - 250
+		this.message_label.y         = 80
+		this.message_label.width     = 500
+		this.message_label.height    = 200
+		this.message_label.font      = "fonts/CriqueGrotesk-Bold.ttf";
+		this.message_label.char_size = 26
+		this.message_label.word_wrap = true
+		this.message_label.align     = Align.TopCentre
+		this.message_label.set_rgb(0xff, 0xff, 0xff)
 
 		# Popup Option Buttons
 		for (local idx=0; idx<MAX_OPTIONS; idx++) {
-			local background = this.surface.add_image("images/popup_option.png", 260, 160+50*idx);
+			# Popup Option Background
+			local background = this.surface.add_image("images/popup_option.png");
+			background.x       = 260
+			background.y       = 160 + 50*idx
 			background.visible = false;
-			this.options_background.push(background);
 
-			local text = this.surface.add_text("", background.x, background.y+background.texture_height/2, background.texture_width, background.height);
-			text.set_rgb(255, 255, 255);
-			text.char_size = 26;
-			text.font = "fonts/CriqueGrotesk-Bold.ttf";
-			text.align = Align.MiddleLeft;
-			text.margin = 30;
-			text.visible = false;
-			this.options_text.push(text);
+			this.options_background.push(background)
+
+			# Popup Option Text
+			local text = this.surface.add_text("", 0, 0, 0, 0)
+			text.x         = background.x
+			text.y         = background.y + background.texture_height/2
+			text.width     = background.texture_width
+			text.height    = background.height
+			text.char_size = 26
+			text.font      = "fonts/CriqueGrotesk-Bold.ttf"
+			text.align     = Align.MiddleLeft
+			text.margin    = 30
+			text.visible   = false
+			text.set_rgb(0xff, 0xff, 0xff)
+
+			this.options_text.push(text)
 		}
 
-		draw();
+		this.draw()
 
-		fe.add_ticks_callback(this, "ticks_callback");
+		fe.add_ticks_callback(this, "scroll_active_option_text")
 	}
 
 	last_scroll_text = "";
 	last_scroll_tick = 0;
 	last_scroll_idx = 0;
-	function ticks_callback(tick_time) {
-		# Don't scroll if we're not active
-		if (!this.is_active) {
-			return;
-		}
+	function scroll_active_option_text(tick_time) {
+		# Don't do any scrolling if popup is not visible
+		if ( ! this.is_active ) { return  }
 
 		# Calculate the wait time till the next scroll
-		local wait_tick_time = 100;
+		local wait_tick_time = 100
 		if (last_scroll_idx == 0) {
-			wait_tick_time = 500;
+			wait_tick_time = 500
 		}
 
 		# If not enough time passed, skip this scroll
-		if (tick_time < last_scroll_tick + wait_tick_time) {
-			return;
+		if ( tick_time < last_scroll_tick + wait_tick_time ) {
+			return
 		# Else update last scroll time
 		} else {
-			last_scroll_tick = tick_time;
+			last_scroll_tick = tick_time
 		}
 
 		# Get a hold of the container and the text we need to scroll
-		local container = this.options_text[this.select_idx];
-		local scroll_text = this.options[this.select_idx];
+		local container   = this.options_text[this.select_idx]
+		local scroll_text = this.options[this.select_idx]
 
 		# Don't scroll if text fits the container
 		container.msg = scroll_text;
-		if (strip(container.msg) == strip(container.msg_wrapped)) {
-			return;
+		if ( strip(container.msg) == strip(container.msg_wrapped) ) {
+			return
 		}
 
 		# If the scrollable text changed, reset scroll index
-		if (last_scroll_text != scroll_text) {
-			last_scroll_idx = 0;
-			last_scroll_text = scroll_text;
+		if ( last_scroll_text != scroll_text ) {
+			last_scroll_idx = 0
+			last_scroll_text = scroll_text
 		# Else increase the scroll index
 		} else {
-			last_scroll_idx++;
+			last_scroll_idx++
 		}
 
 		# If scroll index is at the end, reset it
 		local scroll_space = "      ";
-		if (last_scroll_idx > scroll_text.len() + scroll_space.len()){
-			last_scroll_idx = 0;
+		if ( last_scroll_idx > scroll_text.len() + scroll_space.len() ) {
+			last_scroll_idx = 0
 		}
 
 		# Duplicate the scroll text so it will look as it repeats
-		scroll_text = scroll_text + scroll_space + scroll_text;
-		container.msg = scroll_text.slice(last_scroll_idx);
+		scroll_text = scroll_text + scroll_space + scroll_text 
+		container.msg = scroll_text.slice(last_scroll_idx)
 	}
 
 	function key_detect(signal_str)
 	{
-		if (!this.is_active) {
-			return false;
-		}
+		if ( ! this.is_active ) { return false }
 		
 		switch (signal_str)
 		{
@@ -123,7 +130,8 @@ class PopupMenu {
 			case "up"     : this.up_action()     ; break;
 			case "select" : this.select_action() ; break;	
 		}
-		return true;
+
+		return true
 	}
 
 	function draw()
@@ -174,9 +182,8 @@ class PopupMenu {
 		this.surface.origin_y = (visible_height+75-1280)/2;
 	}
 
-	function set_options(options, select_idx) {
+	function set_options(options) {
 		this.options = options;
-		this.select_idx = select_idx;
 
 		# If we need to display more options than we can
 		if (options.len() >= this.MAX_OPTIONS) {
@@ -185,11 +192,18 @@ class PopupMenu {
 
 			# Truncate the options list
 			this.options = options.slice(0, this.MAX_OPTIONS)
-
-			# Ensure the selected idx is in the list
-			if (this.select_idx >= this.MAX_OPTIONS) { this.select_idx = 0; }
 		}
 	}
+
+	function set_selected_idx(select_idx)
+	{
+		# Ensure the selected idx is in the list
+		if ( select_idx >= this.MAX_OPTIONS ) {
+			select_idx = 0
+		}
+
+		this.select_idx = select_idx
+	} 
 
 	function set_message(message)
 	{
@@ -246,12 +260,12 @@ class PopupMenu {
 		fe.signal("custom1");
 	}
 
-	function last_selected_idx()
+	function get_selected_idx()
 	{
 		return this.select_idx;
 	}
 
-	function last_selected_value()
+	function get_selected_value()
 	{
 		return this.options[this.select_idx];
 	}

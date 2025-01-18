@@ -1,78 +1,76 @@
 class ConfigMenuButton {
-	title = "";
-	value = "";
+	surface = null
+	name_label = null
+	value_label = null
+	background_image = null
 
-	surface = null;
-	name_label = null;
-	value_label = null;
-	background_image = null;
+	name = ""
+	value = ""
 
-	name = "";
-	value = "";
-
-	is_selected = false;
+	is_selected = false
 
 	constructor(parent_surface, x, y)
 	{
-		this.surface = parent_surface.add_surface(1000, 100);
-		this.surface.set_pos(x, y);
+		# Drawing Sufrace
+		this.surface = parent_surface.add_surface(1000, 100)
+		this.surface.set_pos(x, y)
 		
 		# Background
-		this.background_image = this.surface.add_image("images/config_menu_button.png", 0, 0);
+		this.background_image = this.surface.add_image("images/config_menu_button.png", 0, 0)
 
-		# Title
-		this.name_label = this.surface.add_text (
-			title,
-			this.background_image.x + 25,
-			this.background_image.y,
-			this.background_image.texture_width - 25*2,
-			this.background_image.texture_height
-		);
-		name_label.align = Align.MiddleLeft;
-		name_label.char_size = 29;
-		name_label.style = Style.Bold;
-		name_label.set_rgb(255, 255, 255);
+		# Title Label
+		this.name_label = this.surface.add_text("", 0, 0, 0, 0)
 
-		# Value
-		this.value_label = this.surface.add_text (
-			value,
-			this.background_image.x + this.background_image.texture_width / 2,
-			this.background_image.y,
-			this.background_image.texture_width/2 - 45,
-			this.background_image.texture_height
-		);
-		value_label.align = Align.MiddleRight;
-		value_label.char_size = 29;
-		value_label.style = Style.Bold;
-		value_label.set_rgb(255, 255, 255);
+		this.name_label.x         = this.background_image.x + 25
+		this.name_label.y         = this.background_image.y
+		this.name_label.width     = this.background_image.texture_width - 25*2
+		this.name_label.height    = this.background_image.texture_height
+		this.name_label.align     = Align.MiddleLeft
+		this.name_label.char_size = 29
+		this.name_label.style     = Style.Bold
+		this.name_label.set_rgb(255, 255, 255)
+
+		# Value Label
+		this.value_label = this.surface.add_text("", 0, 0, 0, 0)
+
+		this.value_label.y         = this.background_image.y
+		this.value_label.x         = this.background_image.x + this.background_image.texture_width / 2
+		this.value_label.width     = this.background_image.texture_width/2 - 45
+		this.value_label.height    = this.background_image.texture_height
+		this.value_label.align     = Align.MiddleRight
+		this.value_label.char_size = 29
+		this.value_label.style     = Style.Bold
+		this.value_label.set_rgb(255, 255, 255)
 	}
 
 	function draw() 
 	{
-		this.name_label.msg = name.toupper();
-		this.name_label.align = Align.MiddleCentre;
-		this.value_label.visible = false;
+		# By default align name label on center and hide value label
+		this.name_label.msg   = name.toupper()
+		this.name_label.align = Align.MiddleCentre
 
-		# If there is a value to show
+		this.value_label.visible = false
+
+		# If the options has a value to display
 		if (this.value != null) {
-			# Add a ":" to the end of the name and align it to the left
-			this.name_label.msg += ":";
-			this.name_label.align = Align.MiddleLeft;
+			# Add ":" to the end of the name and align it to the left
+			this.name_label.msg  += ":"
+			this.name_label.align = Align.MiddleLeft
 
 			# Remove all the whitespaces from the value (some fbneo dipswitches have them)
-			this.value_label.msg = str_replace("  ", " ", this.value);
+			this.value_label.msg = str_replace("  ", " ", this.value)
 
 			# If the value is to big to show on screen add some "..." at the end
 			if (strip(this.value_label.msg) != strip(this.value_label.msg_wrapped)) {
-				this.value_label.msg = strip(this.value_label.msg_wrapped).slice(0, -3) + "...";
+				this.value_label.msg = strip(this.value_label.msg_wrapped).slice(0, -3) + "..."
 			}
 
 			# Display the value label
-			this.value_label.visible = true;
+			this.value_label.visible = true
 
 			# Dynamic label width
-			this.value_label.x = this.name_label.x + this.name_label.msg_width - 10;
-			this.value_label.width = this.background_image.texture_width - this.name_label.msg_width - 55 ;
+			this.value_label.x     = this.name_label.x + this.name_label.msg_width - 10
+			this.value_label.width = this.background_image.texture_width - this.name_label.msg_width - 55 
 
 		}
 
@@ -92,38 +90,38 @@ class ConfigMenuButton {
 		}
 	}
 
+	function set_value(value)
+	{
+		this.value = value;
+	}
+
 	function set_label(name, value=null)
 	{
-		this.name = name;
-		this.value = value;
-
-		draw();
+		this.name = name
 	}
 
 	function set_y(value)
 	{
-		this.surface.y = value; 
+		this.surface.y = value 
 	}
 
 	function hide()
 	{
-		this.surface.visible = false;
+		this.surface.visible = false
 	}
 
 	function show()
 	{
-		this.surface.visible = true;
+		this.surface.visible = true
 	}
 
 	function select()
 	{
-		this.is_selected = true;
-		draw();
+		this.is_selected = true
 	}
 
 	function deselect()
 	{
-		this.is_selected = false;
-		draw();
+		this.is_selected = false
 	}
 }

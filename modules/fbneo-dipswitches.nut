@@ -70,7 +70,7 @@ class FBNeoDipSwitch {
 	}
 
 	function reset() {
-		this.set(this.default_idx);
+		this.set_current_idx(this.default_idx);
 	}
 }
 
