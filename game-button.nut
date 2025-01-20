@@ -162,7 +162,7 @@ class GameButton {
 			if ( this.is_gear_selected ) {
 				::bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
 			} else {
-				::bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Retro Achievements.");
+				::bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access game info box.");
 			}
 		}
 	}
