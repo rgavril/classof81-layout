@@ -2753,6 +2753,11 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
+    "neobombe": {
+        "buttons": [ "Bomb/Kick/Pickup" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
     "netwars": {
         "buttons": [ "Fire" ],
         "players": 2,
