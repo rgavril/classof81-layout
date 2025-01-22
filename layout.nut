@@ -59,7 +59,7 @@ right_box       <- RightBox();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
-starup_page     <- GameStartupPage();
+startup_page    <- GameStartupPage();
 
 # Enable Signal Repeaters for up and down keys
 signal_repeater.enable_for("down");
@@ -68,7 +68,7 @@ signal_repeater.enable_for("up");
 # Key Signal Handlers
 function key_detect(signal_str) {
 	if ( splash_screen.key_detect(signal_str) ) { return true; }
-	if ( starup_page.key_detect(signal_str)   ) { return true; }
+	if ( startup_page.key_detect(signal_str)   ) { return true; }
 	if ( popup_menu.key_detect(signal_str)    ) { return true; }
 	if ( config_menu.key_detect(signal_str)   ) { return true; }
 	if ( game_buttons.key_detect(signal_str)  ) { return true; }

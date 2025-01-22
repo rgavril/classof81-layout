@@ -77,7 +77,7 @@ class GameButton {
 
 		if (signal_str == "select" && !this.is_gear_selected) {
 			this.is_active = false;
-			::starup_page.show();
+			::startup_page.show();
 			return true;
 		}
 

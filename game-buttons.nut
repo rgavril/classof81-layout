@@ -40,7 +40,7 @@ class GameButtons {
 
 	function transition_callback(ttype, var, transition_time)
 	{
-		if (ttype == Transition.FromOldSelection && !::starup_page.is_active) {
+		if (ttype == Transition.FromOldSelection && !::startup_page.is_active) {
 			::sound_engine.play_click_sound();
 			this.draw();
 		}
