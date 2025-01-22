@@ -48,7 +48,7 @@ class RomVersions
 	}
 
 	function get_current_rom() {
-		return this.available_games[this.current_idx][Info.Name];
+		return this.available_games[this.current_idx][Info.Name]
 	}
 
 	function get_current_idx() {
@@ -69,6 +69,10 @@ class RomVersions
 		}
 
 		return 0;
+	}
+
+	function get_default_rom() {
+		return this.available_games[this.get_default_idx()][Info.Name]
 	}
 
 	function select_next_version() {

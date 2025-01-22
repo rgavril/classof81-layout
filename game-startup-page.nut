@@ -56,14 +56,34 @@ class GameStartupPage
 	function ticks_callback(tick_time) {
 		# If the this page is active and we're in the clone list, we need to select a game
 		if (this.is_active && this.in_clone_list) {
-			local current_game = fe.game_info(Info.Name);
-			local wanted_game = RomVersions(this.rom).get_current_rom();
+			local versions = RomVersions(this.rom);
 
-			print("WANTED:" + wanted_game + " CURRENT:" + current_game + "\n\n");
-			if (current_game != wanted_game) {
+			local selected_rom = fe.game_info(Info.Name);     # Current selected rom from attractmode
+			local diverted_rom = versions.get_current_rom();  # Actual rom that we want to play
+
+			# If the current game is not what we want to run move to next game
+			if (selected_rom != diverted_rom) {
 				fe.signal("next_game");
+
+			# If the current game is what we want to run
 			} else {
+				# Reset the flat that notifies that we're in the clones list
+				# this way we get out of the ticks loop
 				this.in_clone_list = false;
+
+				# Copy the dipswitches from the parent rom if this is a clone
+				local parent_rom = versions.get_default_rom();
+				if (parent_rom != diverted_rom) {
+					local dipswitches = FBNeoDipSwitches(parent_rom);
+					for(local idx=0; idx<dipswitches.len(); idx++) {
+						local dipswitch = dipswitches.get(idx);
+
+						dipswitch.rom = diverted_rom;
+						dipswitch.write();
+					}
+				}
+
+				# Simulate key presses to run the current game
 				fe.signal("up"); fe.signal("up");
 			}
 		}
