@@ -1,22 +1,22 @@
 class RomVersions
 {
-	rom = null;
-	current = null;
-	available_games = [];
-	current_idx = 0;
+	CONFIG_FILE = fe.script_dir+"/config/versions.conf"
+
+	rom = null             # String storing the parent rom name
+	available_games = [];  # Array with all information from the romlists/ file
+	current_idx = 0;       # Index for available_games that points to the active version
 
 	constructor(rom)
 	{
 		this.rom = rom;
-		this.current = this.rom;
+
 		this.available_games = this._parse_available_games();
-
 		this.current_idx = this.get_default_idx();
-		if ("game_versions_map" in fe.nv && this.rom in fe.nv["game_versions_map"]) {
-			local stored_rom = fe.nv["game_versions_map"][this.rom];
 
+		local current_rom = this._read_from_disk();
+		if (current_rom != "") {
 			foreach (idx, game in available_games) {
-				if (game[Info.Name] == stored_rom) {
+				if (game[Info.Name] == current_rom) {
 					this.current_idx = idx;
 				}
 			}
@@ -58,11 +58,7 @@ class RomVersions
 	function set_current_idx(idx) {
 		this.current_idx = idx;
 
-		if (! ("game_versions_map" in fe.nv)) {
-			fe.nv["game_versions_map"] <- {};
-		}
-
-		fe.nv["game_versions_map"][this.rom] <- this.get_current_rom();
+		this._save_to_disk();
 	}
 
 	function get_default_idx() {
@@ -91,6 +87,7 @@ class RomVersions
 		this.set_current_idx(this.get_default_idx());
 	}
 
+	# Return a string array with rom names of all clones and parent rom
 	function _parse_available_games()
 	{
 		local file = ReadTextFile(this._romlist_file());
@@ -109,6 +106,7 @@ class RomVersions
 		return available_games;
 	}
 
+	# Return the romlist filename from romlists/ folder
 	function _romlist_file()
 	{
 		local romlist = fe.displays[fe.list.display_index].romlist;
@@ -143,6 +141,7 @@ class RomVersions
 		return path;
 	}
 
+	# Split a string by a delimiter, preserving empty values
 	function _split_preserve_empty(str, delimiter) {
 		local result = [];
 		local current = "";
@@ -160,5 +159,13 @@ class RomVersions
 		result.append(current);
 
 		return result;
+	}
+
+	function _save_to_disk() {
+		retroarch_config_write(this.CONFIG_FILE, this.rom, this.get_current_rom());
+	}
+
+	function _read_from_disk() {
+		return retroarch_config_read(this.CONFIG_FILE, this.rom)
 	}
 }
