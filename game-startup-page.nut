@@ -28,7 +28,7 @@ class GameStartupPage
 
 		this.background_image = this.surface.add_image("images/controls.png", 0, 0);
 
-		this.logo = this.surface.add_artwork("wheel", 45, 250);
+		this.logo = this.surface.add_image("", 45, 250);
 
 		construct_control("button1", 667, 695, 150);
 		construct_control("button2", 761, 695, 115);
@@ -91,6 +91,8 @@ class GameStartupPage
 
 	function draw()
 	{
+		# Change the logo
+		this.logo.file_name = fe.get_art("wheel")
 
 		# Calculate the size of the logo based on max 170 vertical / 300 horizontal
 		local logo_height = 170;
@@ -219,19 +221,20 @@ class GameStartupPage
 		if (ttype == Transition.ToNewList && this.is_active) {
 			this.in_clone_list = true;
 		}
-
-		if (ttype == Transition.FromOldSelection) {
-			draw();
-		}
 	}
 
 	function show()
 	{
+		# Prevent redwaing the startup page if is already visible
+		# this might happen when a clone is selected.
+		if (this.is_active) { return; }
+
 		::sound_engine.play_enter_sound();
 		this.is_active = true;
 		this.surface.visible = true;
 		this.in_clone_list = false;
 		this.rom = fe.game_info(Info.Name);
+		this.draw();
 	}
 
 	function hide()
