@@ -42,7 +42,15 @@ class GameButtons {
 	{
 		if (ttype == Transition.FromOldSelection && !::starup_page.is_active) {
 			::sound_engine.play_click_sound();
-			draw();
+			this.draw();
+		}
+
+		if (ttype == Transition.FromGame) {
+			this.draw();
+		}
+
+		if (ttype == Transition.ToNewList) {
+			this.draw();
 		}
 	}
 
