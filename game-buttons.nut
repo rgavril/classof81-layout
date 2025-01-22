@@ -113,7 +113,13 @@ class GameButtons {
 			local absolute_index = page_number * PAGE_SIZE + index
 
 			# Load the logo
-			button.setLogo(fe.get_art("wheel", relative_index))
+			local logo_filename = fe.script_dir+"/images/wheel/"+fe.game_info(Info.Name, relative_index)+".png";
+			if (! fe.path_test(logo_filename, PathTest.IsFile)) {
+				logo_filename = fe.get_art("wheel", relative_index)
+			}
+			button.setLogo(logo_filename)
+
+			# Show the button
 			button.deselect();
 			button.show();
 
