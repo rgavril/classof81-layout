@@ -212,7 +212,6 @@ class GameStartupPage
 				return true;
 			}
 
-			this.hide();
 			return false;
 		}
 
@@ -220,6 +219,10 @@ class GameStartupPage
 		# it means that we moved to a clone select list
 		if (ttype == Transition.ToNewList && this.is_active) {
 			this.in_clone_list = true;
+		}
+
+		if (ttype == Transition.FromGame) {
+			this.hide();
 		}
 	}
 
