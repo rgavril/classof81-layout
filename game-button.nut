@@ -112,15 +112,16 @@ class GameButton {
 
 		# Update the logo shadow
 		this.logo_shadow.file_name = filename;
-		this.logo_shadow.shader    = m_shadow_shader;
-		this.logo_shadow.width     = this.logo.width + 2;
-		this.logo_shadow.height    = this.logo.height + 2;
+		this.logo_shadow.width     = this.logo.width;
+		this.logo_shadow.height    = this.logo.height;
 		this.logo_shadow.origin_y  = this.logo_shadow.height/2 - 2;
 		this.logo_shadow.origin_x  = this.logo_shadow.width/2 - 2;
 		this.logo_shadow.x         = this.logo.x;
 		this.logo_shadow.y         = this.logo.y;
+		this.logo_shadow.alpha     = 1;
 		this.logo_shadow.zorder    = 1;
-		this.logo_shadow.alpha     = 100;
+		this.logo_shadow.shader    = m_shadow_shader;
+		// this.logo.visible = false;
 	}
 
 	function draw()

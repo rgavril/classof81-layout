@@ -12,7 +12,7 @@ void main(void)
         // texel.rgb = vec3(100.0 / 255.0, 100.0 / 255.0, 100.0 / 255.0);
         
        	// Dark yellow
-        texel.rgb = vec3(0.4,0.4,0);
+        texel.rgba = vec4(0.4, 0.4, 0.4, 0.3);
     }
 
     // Output the final color (black with original transparency)
