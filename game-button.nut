@@ -113,19 +113,20 @@ class GameButton {
 		# Update the logo shadow
 		this.logo_shadow.file_name = filename;
 		this.logo_shadow.shader    = m_shadow_shader;
-		this.logo_shadow.width     = this.logo.width;
-		this.logo_shadow.height    = this.logo.height;
-		this.logo_shadow.origin_y  = this.logo.origin_y - 2;
-		this.logo_shadow.origin_x  = this.logo.origin_x - 2;
+		this.logo_shadow.width     = this.logo.width + 2;
+		this.logo_shadow.height    = this.logo.height + 2;
+		this.logo_shadow.origin_y  = this.logo_shadow.height/2 - 2;
+		this.logo_shadow.origin_x  = this.logo_shadow.width/2 - 2;
 		this.logo_shadow.x         = this.logo.x;
 		this.logo_shadow.y         = this.logo.y;
 		this.logo_shadow.zorder    = 1;
+		this.logo_shadow.alpha     = 100;
 	}
 
 	function draw()
 	{
-		this.logo.shader       = this.is_selected ? m_empty_shader : m_desaturize_shader;
-		this.logo_shadow.alpha = this.is_selected ? 255 : 100;
+		this.logo.shader         = this.is_selected ? m_empty_shader : m_desaturize_shader;
+		this.logo_shadow.visible = this.is_selected ? true : false
 
 		# Gear Icon
 		if ( this.is_selected && this.is_gear_selected ) {

@@ -1,23 +1,25 @@
-uniform sampler2D tex;
+uniform sampler2D tex; // Input texture
 
-void main (void)
+void main(void)
 {
-	vec4 texel = texture2D(tex,gl_TexCoord[0].st);
-	vec4 color = texel * gl_Color;
+    vec2 texCoord = gl_TexCoord[0].st; // Texture coordinates of the current fragment
+    vec4 texel = texture2D(tex, texCoord); // Sample the texture
 
-	// desaturate
-	float lum = (0.299 * color.r) + (0.587 * color.g) + (0.114 * color.b);
-	
-	// Tint & Bright
-	color = vec4(lum, lum, lum, color.a);
+    // Desaturate the color
+    float luminance = (0.299 * texel.r) + (0.587 * texel.g) + (0.114 * texel.b);
+    vec4 desaturatedColor = vec4(luminance, luminance, luminance, texel.a);
 
-	// color += vec4(144/700.0, 172/700.0, 191/700.0, 0);
-	color += vec4(1.0/255.0, 28.0/255.0, 47.0/255.0, 0);
+	// Hardcoded tint color for #90ACBF
+    vec4 tintColor = vec4(0.5647, 0.6745, 0.7490, 1.0);
 
-	// Increase brightness in dark areas
-	if (color.r + color.g + color.b < 0.7) {
-		color += vec4(0.2, 0.2, 0.2, 0);
-	}
-	
-    gl_FragColor = color;
+    // Apply the tint by multiplying with the tintColor
+    vec4 tintedColor = desaturatedColor * tintColor;
+
+	// Brighten dark areas by lifting blacks
+    tintedColor.rgb += 0.2;
+
+    // Increase overall brightnes
+    tintedColor.rgb *= 1.2;
+
+    gl_FragColor = tintedColor; // Set the output color
 }
