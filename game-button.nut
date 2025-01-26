@@ -88,12 +88,12 @@ class GameButton {
 	{
 		this.logo.file_name = filename
 
-		# Calculate the size of the logo based on max 260 horizontal / 125 vertical
+		# Calculate the size of the logo based on max 260 horizontal / 130 vertical
 		local logo_width = 260;
 		local logo_height = 260.0/this.logo.texture_width * this.logo.texture_height;
-		if (logo_height > 125) {
-			logo_height = 125;
-			logo_width = 125.0/this.logo.texture_height * this.logo.texture_width;
+		if (logo_height > 130) {
+			logo_height = 130;
+			logo_width = 130.0/this.logo.texture_height * this.logo.texture_width;
 		}
 
 		# Resize the logo
@@ -122,6 +122,12 @@ class GameButton {
 		this.logo_shadow.zorder    = 1;
 		this.logo_shadow.shader    = m_shadow_shader;
 		// this.logo.visible = false;
+
+		// local x = this.surface.add_rectangle(
+		// 		this.background_image.x + this.background_image.texture_width - 145 - 260/2,
+		// 		this.background_image.y + this.background_image.texture_height/2    - 130/2,
+		// 		260, 130);
+		// x.alpha = 100;
 	}
 
 	function draw()
