@@ -84,24 +84,33 @@ class GameButton {
 		return false;
 	}
 
-	function setLogo(filename)
+	function setLogo(filename, resize=true)
 	{
 		this.logo.file_name = filename
 
-		# Calculate the size of the logo based on max 260 horizontal / 130 vertical
-		local logo_width = 260;
-		local logo_height = 260.0/this.logo.texture_width * this.logo.texture_height;
-		if (logo_height > 130) {
-			logo_height = 130;
-			logo_width = 130.0/this.logo.texture_height * this.logo.texture_width;
+		local logo_width = 0;
+		local logo_height = 0;
+		if (resize) {
+			# Calculate the size of the logo based on max 260 horizontal / 130 vertical
+			logo_width = 260;
+			logo_height = 260.0/this.logo.texture_width * this.logo.texture_height;
+			if (logo_height > 130) {
+				logo_height = 130;
+				logo_width = 130.0/this.logo.texture_height * this.logo.texture_width;
+			}
+		} else {
+			logo_width = this.logo.texture_width;
+			logo_height = this.logo.texture_height;
 		}
 
 		# Resize the logo
 		this.logo.mipmap = true;
 		this.logo.width  = logo_width;
 		this.logo.height = logo_height;
-		this.logo.zorder = 2;
 
+		# Put the logo in front of shadow
+		this.logo.zorder = 2;
+		
 		# Set the origin point to the center-right of the logo
 		this.logo.origin_y = logo_height / 2;
 		this.logo.origin_x = logo_width / 2;
@@ -112,8 +121,8 @@ class GameButton {
 
 		# Update the logo shadow
 		this.logo_shadow.file_name = filename;
-		this.logo_shadow.width     = this.logo.width;
-		this.logo_shadow.height    = this.logo.height;
+		this.logo_shadow.width     = logo_width;
+		this.logo_shadow.height    = logo_height;
 		this.logo_shadow.origin_y  = this.logo_shadow.height/2 - 2;
 		this.logo_shadow.origin_x  = this.logo_shadow.width/2 - 2;
 		this.logo_shadow.x         = this.logo.x;
@@ -125,15 +134,15 @@ class GameButton {
 
 		// local x = this.surface.add_rectangle(
 		// 		this.background_image.x + this.background_image.texture_width - 145 - 260/2,
-		// 		this.background_image.y + this.background_image.texture_height/2    - 130/2,
-		// 		260, 130);
+		// 		this.background_image.y + this.background_image.texture_height/2    - 160/2,
+		// 		260, 160);
 		// x.alpha = 100;
 	}
 
 	function draw()
 	{
 		this.logo.shader         = this.is_selected ? m_empty_shader : m_desaturize_shader;
-		this.logo_shadow.visible = this.is_selected ? true : false
+		// this.logo_shadow.visible = this.is_selected ? true : false
 
 		# Gear Icon
 		if ( this.is_selected && this.is_gear_selected ) {
