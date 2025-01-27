@@ -10,7 +10,7 @@ void main(void)
     vec4 desaturatedColor = vec4(luminance, luminance, luminance, texel.a);
 
     // Brighten dark areas by lifting blacks
-    desaturatedColor.rgb += 0.4;
+    desaturatedColor.rgb += 0.3;
 
 	// Hardcoded tint color for #90ACBF
     vec4 tintColor = vec4(0.5647, 0.6745, 0.7490, 1.0);
