@@ -3295,6 +3295,11 @@ return {
         "players": 2,
         "joystick": [ "Up", "Down", "Left", "Right" ]
     },
+    "raiden2": {
+        "buttons": [ "Fire", "Bomb" ],
+        "players": 2,
+        "joystick": [ "Up", "Down", "Left", "Right" ]
+    },
     "raiders5": {
         "buttons": [ "Fire" ],
         "players": 2,
