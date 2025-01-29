@@ -115,32 +115,8 @@ class RomVersions
 	{
 		local romlist = fe.displays[fe.list.display_index].romlist;
 
-		// Start from the script directory
-		local path = fe.script_dir;
-
-		// Go two folders back
-		local count = 3;
-		while (count > 0) {
-			local lastSlashIndex = -1;
-
-			// Find the location of the last '/'
-			for (local i = path.len() - 1; i >= 0; i--) {
-			    if (path[i] == '/') {
-			        lastSlashIndex = i;
-			        break;
-			    }
-			}
-
-			if (lastSlashIndex == -1) {
-				break;
-			}
-
-			path = path.slice(0, lastSlashIndex);
-			count--;
-		}
-
 		// Create the actual path
-		path = path + "/romlists/"+romlist+".txt";
+		local path = FeConfigDirectory + "/romlists/"+romlist+".txt";
 
 		return fix_path(path);
 	}
