@@ -81,3 +81,27 @@ function key_detect(signal_str) {
 	return false;
 }
 fe.add_signal_handler("key_detect");
+
+function check_extras() {
+	print ( "\n\n\nCHECKIN MISSING EXTRAS:\n\n" )
+	local controls = dofile(fe.script_dir + "/modules/controls.nut");
+	for (local i=0; i<fe.list.size; i++) {
+		local rom = fe.game_info(Info.Name, i);
+		
+		if (rom in controls) { } else {
+			print (" - controls : " + rom + "\n");
+		}
+
+		local dipswitches = FBNeoDipSwitches(rom)
+		if (dipswitches.is_missing_file) {
+			print (" - dipswitches : " + rom + "\n");
+		}
+
+		local logo_filename = fe.script_dir+"/images/wheel/"+rom+".png";
+		if (! fe.path_test(logo_filename, PathTest.IsFile)) {
+			print (" - button image : " + rom + "\n");
+		}
+	}
+	print ( "\n\n\n" )
+}
+// check_extras()
