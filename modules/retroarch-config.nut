@@ -2,7 +2,7 @@ function retroarch_config_write(filename, variable, value) {
 	local orig_file = null;
 	local temp_file = null;
 
-	local orig_file = ReadTextFile("/", filename);
+	local orig_file = ReadTextFile("/", fix_path(filename));
 	local temp_file = WriteTextFile(filename+".tmp");
 
 	local was_replaced = false;
@@ -35,7 +35,7 @@ function retroarch_config_write(filename, variable, value) {
 }
 
 function retroarch_config_read(filename, variable) {
-	local file = ReadTextFile("/", filename);
+	local file = ReadTextFile("/", fix_path(filename));
 
 	local value = null;
 

@@ -21,7 +21,7 @@ class GameButtons {
 		this.letter.height = 250;
 		this.letter.margin = 0;
 		this.letter.x = 960/2 - this.letter.width/2 + 220;
-		this.letter.font = "fonts/CriqueGrotesk-Bold.ttf"
+		this.letter.font = fix_path("fonts/CriqueGrotesk-Bold.ttf")
 		// this.letter.set_rgb(0xFF, 0x68, 0xB5);
 		this.letter.style = Style.Bold;
 		this.letter.align = Align.MiddleCentre;
@@ -113,7 +113,7 @@ class GameButtons {
 			local absolute_index = page_number * PAGE_SIZE + index
 
 			# Load the logo
-			local logo_filename = fe.script_dir+"/images/wheel/"+fe.game_info(Info.Name, relative_index)+".png";
+			local logo_filename = fix_path(fe.script_dir+"/images/wheel/"+fe.game_info(Info.Name, relative_index)+".png")
 			if (! fe.path_test(logo_filename, PathTest.IsFile)) {
 				logo_filename = fe.get_art("wheel", relative_index)
 				button.setLogo(logo_filename)

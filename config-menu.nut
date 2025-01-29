@@ -19,7 +19,7 @@ class ConfigMenu {
 		this.surface.visible = false
 
 		# Background
-		this.surface.add_image("images/config_menu.png", 0, 0)
+		this.surface.add_image(fix_path("images/config_menu.png"), 0, 0)
 
 		# Missing Dipswitch File Warning
 		this.missing_file_warning           = this.surface.add_text("Missing Dipswitch Definition File", 80, 200, 780, 30)

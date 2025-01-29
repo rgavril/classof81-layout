@@ -16,7 +16,7 @@ class ConfigMenuButton {
 		this.surface.set_pos(x, y)
 		
 		# Background
-		this.background_image = this.surface.add_image("images/config_menu_button.png", 0, 0)
+		this.background_image = this.surface.add_image(fix_path("images/config_menu_button.png"), 0, 0)
 
 		# Title Label
 		this.name_label = this.surface.add_text("", 0, 0, 0, 0)
@@ -75,7 +75,7 @@ class ConfigMenuButton {
 		}
 
 		if (this.is_selected) {
-			this.background_image.file_name = "images/config_menu_button_selected.png"
+			this.background_image.file_name = fix_path("images/config_menu_button_selected.png")
 			if (::popup_menu && ::popup_menu.is_visible()) {
 				this.name_label.set_rgb(255, 255, 255)
 				this.value_label.set_rgb(255, 255, 255)
@@ -84,7 +84,7 @@ class ConfigMenuButton {
 				this.value_label.set_rgb(100, 71, 145)
 			}
 		} else {
-			this.background_image.file_name = "images/config_menu_button.png"
+			this.background_image.file_name = fix_path("images/config_menu_button.png")
 			this.name_label.set_rgb(255, 255, 255)
 			this.value_label.set_rgb(255, 255, 255)
 		}

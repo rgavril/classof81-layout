@@ -2,34 +2,35 @@ class UserConfig {
 	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
 	fbneo_config_file="/opt/retropie/configs/all/retroarch-core-options.cfg";
 }
+
 ::AM_CONFIG <- fe.get_config();
+
+fe.load_module("file");
+fe.load_module("animate");
+fe.do_nut("utils.nut");
 
 fe.layout.preserve_aspect_ratio=true;
 fe.layout.width = 960;
 fe.layout.height = 1280;
 fe.layout.page_size = 6;
-fe.layout.font = "fonts/CriqueGrotesk.ttf";
+fe.layout.font = fix_path("fonts/CriqueGrotesk.ttf");
 
-fe.load_module("file");
-fe.load_module("animate");
+fe.do_nut(fix_path("modules/signal-repeater.nut"));
+fe.do_nut(fix_path("modules/retroarch-config.nut"));
+fe.do_nut(fix_path("modules/fbneo-dipswitches.nut"));
+fe.do_nut(fix_path("modules/overview.nut"));
+fe.do_nut(fix_path("modules/rom-versions.nut"));
 
-fe.do_nut("modules/signal-repeater.nut");
-fe.do_nut("modules/retroarch-config.nut");
-fe.do_nut("modules/fbneo-dipswitches.nut");
-fe.do_nut("modules/overview.nut");
-fe.do_nut("modules/rom-versions.nut");
-
-fe.do_nut("utils.nut");
-fe.do_nut("sound-engine.nut");
-fe.do_nut("bottom-text.nut");
-fe.do_nut("game-button.nut");
-fe.do_nut("game-buttons.nut");
-fe.do_nut("right-box.nut");
-fe.do_nut("config-menu.nut");
-fe.do_nut("config-menu-button.nut");
-fe.do_nut("popup-menu.nut");
-fe.do_nut("game-startup-page.nut");
-fe.do_nut("splash-screen.nut");
+fe.do_nut(fix_path("sound-engine.nut"));
+fe.do_nut(fix_path("bottom-text.nut"));
+fe.do_nut(fix_path("game-button.nut"));
+fe.do_nut(fix_path("game-buttons.nut"));
+fe.do_nut(fix_path("right-box.nut"));
+fe.do_nut(fix_path("config-menu.nut"));
+fe.do_nut(fix_path("config-menu-button.nut"));
+fe.do_nut(fix_path("popup-menu.nut"));
+fe.do_nut(fix_path("game-startup-page.nut"));
+fe.do_nut(fix_path("splash-screen.nut"));
 
 // fe.layout.base_rotation = RotateScreen.Right;
 
@@ -47,7 +48,7 @@ fe.do_nut("splash-screen.nut");
 
 
 # Background Image
-fe.add_image("images/background.png", 0, 0);
+fe.add_image(fix_path("images/background.png"), 0, 0);
 
 # GUI Elements
 splash_screen   <- SplashScreen();

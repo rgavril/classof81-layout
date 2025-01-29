@@ -1,3 +1,6 @@
+
+function fix_path(p) { return OS == "Windows" ? str_replace(p, "/", "\\") : p; }
+
 function min(a,b) 
 {
 	return a < b ? a : b;

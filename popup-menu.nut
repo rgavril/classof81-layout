@@ -22,7 +22,7 @@ class PopupMenu
 		this.surface.set_pos(0, 0)
 
 		# Background
-		this.background_top    = this.surface.add_image("images/popup_menu.png", 0, 0)
+		this.background_top    = this.surface.add_image(fix_path("images/popup_menu.png"), 0, 0)
 		this.background_bottom = this.surface.add_clone(this.background_top)
 
 		# Message
@@ -31,7 +31,7 @@ class PopupMenu
 		this.message_label.y         = 80
 		this.message_label.width     = 500
 		this.message_label.height    = 200
-		this.message_label.font      = "fonts/CriqueGrotesk-Bold.ttf"
+		this.message_label.font      = fix_path("fonts/CriqueGrotesk-Bold.ttf")
 		this.message_label.char_size = 26
 		this.message_label.word_wrap = true
 		this.message_label.align     = Align.TopCentre
@@ -40,7 +40,7 @@ class PopupMenu
 		# Option Buttons
 		for ( local idx=0; idx<this.MAX_OPTIONS; idx++ ) {
 			local button = {
-				"image" : this.surface.add_image("images/popup_option.png"),
+				"image" : this.surface.add_image(fix_path("images/popup_option.png")),
 				"text"  : this.surface.add_text("", 0, 0, 0, 0)
 			}
 
@@ -55,7 +55,7 @@ class PopupMenu
 			button.text.width     = button.image.texture_width
 			button.text.height    = button.image.height
 			button.text.char_size = 26
-			button.text.font      = "fonts/CriqueGrotesk-Bold.ttf"
+			button.text.font      = fix_path("fonts/CriqueGrotesk-Bold.ttf")
 			button.text.align     = Align.MiddleLeft
 			button.text.margin    = 30
 			button.text.visible   = false
@@ -209,10 +209,10 @@ class PopupMenu
 			# Set different image and text color is option is selected
 			if ( this.selected_idx == idx ) {
 				button.text.set_rgb(100, 71, 145)
-				button.image.file_name = "images/popup_option_selected.png"
+				button.image.file_name = fix_path("images/popup_option_selected.png")
 			} else {
 				button.text.set_rgb(255, 255, 255)
-				button.image.file_name = "images/popup_option.png"
+				button.image.file_name = fix_path("images/popup_option.png")
 			}
 		}
 

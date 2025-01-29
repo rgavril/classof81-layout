@@ -1,6 +1,6 @@
 class RomVersions
 {
-	CONFIG_FILE = fe.script_dir+"/config/versions.conf"
+	CONFIG_FILE = fix_path(fe.script_dir+"/config/versions.conf")
 
 	rom = null             # String storing the parent rom name
 	available_games = [];  # Array with all information from the romlists/ file
@@ -142,7 +142,7 @@ class RomVersions
 		// Create the actual path
 		path = path + "/romlists/"+romlist+".txt";
 
-		return path;
+		return fix_path(path);
 	}
 
 	# Split a string by a delimiter, preserving empty values

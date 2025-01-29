@@ -22,11 +22,11 @@ class GameButton {
 		this.surface.origin_y = this.surface.texture_height/2;
 
 		# Draw the button background image on the surface
-		this.background_image = this.surface.add_image("images/button_background_inactive.png");
+		this.background_image = this.surface.add_image(fix_path("images/button_background_inactive.png"));
 		this.background_image.y = this.surface.texture_height / 2;
 
 		# Create the the selection rectangle
-		this.game_select_box = this.surface.add_image("images/game_select_box_active.png", 0, 0);
+		this.game_select_box = this.surface.add_image(fix_path("images/game_select_box_active.png"), 0, 0);
 		this.game_select_box.y = this.surface.texture_height / 2;
 		this.game_select_box.origin_x = this.game_select_box.texture_width;
 		this.game_select_box.x = this.background_image.texture_width + this.background_image.x;
@@ -37,15 +37,15 @@ class GameButton {
 		this.logo = this.surface.add_image(null);
 
 		# Gear Icon
-		this.gear_icon = this.surface.add_image("images/gear.png", 0, 0, 95, 95);
+		this.gear_icon = this.surface.add_image(fix_path("images/gear.png"), 0, 0, 95, 95);
 		this.gear_icon.origin_y = 40;
 		this.gear_icon.origin_x = 0;
 		this.gear_icon.y = this.background_image.y;
 		this.gear_icon.x = 7;
 
 		# Shader used to desaturade the unselected logo on buttons
-		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
-		m_shadow_shader = fe.add_shader(Shader.Fragment, "shaders/shadow.glsl");
+		m_desaturize_shader = fe.add_shader(Shader.Fragment, fix_path("shaders/desaturate.glsl"));
+		m_shadow_shader = fe.add_shader(Shader.Fragment, fix_path("shaders/shadow.glsl"));
 		m_empty_shader = fe.add_shader(Shader.Empty);
 
 		# Draw
@@ -146,29 +146,29 @@ class GameButton {
 
 		# Gear Icon
 		if ( this.is_selected && this.is_gear_selected ) {
-			this.gear_icon.file_name = "images/gear_active.png";
+			this.gear_icon.file_name = fix_path("images/gear_active.png")
 		} else {
-			this.gear_icon.file_name = "images/gear_inactive.png";
+			this.gear_icon.file_name = fix_path("images/gear_inactive.png")
 		}
 
 		# Button Background
 		if ( this.is_selected && this.is_gear_selected ) {
-			this.background_image.file_name = "images/button_background_active.png";
+			this.background_image.file_name = fix_path("images/button_background_active.png")
 		} else {
-			this.background_image.file_name = "images/button_background_inactive.png";
+			this.background_image.file_name = fix_path("images/button_background_inactive.png")
 		}
 
 		# Select Box Game Logic
 		if ( this.is_selected && this.is_active && !this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_active.png"
+			this.game_select_box.file_name = fix_path("images/game_select_box_active.png")
 			this.game_select_box.visible   = true;
 
 		} else if ( this.is_selected && !this.is_active && !this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_inactive.png"
+			this.game_select_box.file_name = fix_path("images/game_select_box_inactive.png")
 			this.game_select_box.visible   = true;
 
 		} else if ( this.is_selected && this.is_active && this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_inactive.png"
+			this.game_select_box.file_name = fix_path("images/game_select_box_inactive.png")
 			this.game_select_box.visible   = true;
 		} else {
 			this.game_select_box.visible   = false;

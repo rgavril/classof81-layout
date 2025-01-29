@@ -26,7 +26,7 @@ class GameStartupPage
 		this.surface.set_pos(0, 0);
 		this.surface.visible = false;
 
-		this.background_image = this.surface.add_image("images/controls.png", 0, 0);
+		this.background_image = this.surface.add_image(fix_path("images/controls.png"), 0, 0);
 
 		this.logo = this.surface.add_image("", 45, 250);
 
@@ -40,7 +40,7 @@ class GameStartupPage
 		
 		fe.add_transition_callback(this, "transition_callback");
 
-		this.controls = dofile(fe.script_dir + "/modules/controls.nut");
+		this.controls = dofile(fix_path(fe.script_dir + "/modules/controls.nut"));
 
 		this.warning_message = this.surface.add_text("WARNING:\nThis game requires more than 2 buttons. Controls may be limited!", 40, 360, 900, 100);
 		this.warning_message.char_size = 26;
@@ -164,7 +164,7 @@ class GameStartupPage
 	}
 
 	function construct_control(name, x, y, height) {
-		local line = this.surface.add_image("images/line.png", x, y);
+		local line = this.surface.add_image(fix_path("images/line.png"), x, y);
 		line.height = height;
 		line.origin_x = line.texture_width/2;
 

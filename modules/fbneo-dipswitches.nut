@@ -87,7 +87,7 @@ class FBNeoDipSwitches {
 
 		local dip_switches_definition = [];
 		try {
-			dip_switches_definition = dofile(fe.script_dir + "/modules/fbneo-dipswitches/"+rom+".nut");
+			dip_switches_definition = dofile(fix_path(fe.script_dir + "/modules/fbneo-dipswitches/"+rom+".nut"));
 		} catch(e) {
 			this.is_missing_file = true;
 			print("WARNING: Cannot find dip switch definitnion file from rom '"+rom+"'.\n");
