@@ -1,0 +1,7 @@
+In this maze game, control a paintbrush to cover the entire board while avoiding two pursuing fish. 
+
+Use rollers to attack the fish and score bonus points. 
+
+A third character also leaves tracks you must paint over to finish the level.
+
+Stop the figure to prevent further tracks and earn extra points!

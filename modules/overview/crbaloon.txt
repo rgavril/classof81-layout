@@ -1,0 +1,5 @@
+Guide a delicate swaying balloon through a maze of pin wheel obstacles.
+
+Don't take too long, because if you are too slow, a bogey man erupts on the screen and forces you to move.
+
+Just when you think you have the maze all figured out, pin wheels attack your balloon forcing you to take evasive action.

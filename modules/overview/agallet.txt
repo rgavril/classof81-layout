@@ -1,5 +1,5 @@
-Pilot a fighter jet, collect power-ups, and unleash powerful weapons to dominate air and ground enemies!
+Control a fighter jet and shoot enemies in the air and on the ground, collects power-ups, and defeat bosses to advance levels.
 
-Upgrade lasers, missiles, drones, or vulcan fire by collecting tokens.
+Four levels of power-ups are available for each weapon, however each level requires four power up tokens be collected.
 
-Use devastating bomb attacks to clear the screen or focus your fire as you face massive bosses and thrilling challenges!
+There are also two special "bomb" weapons available for collection.

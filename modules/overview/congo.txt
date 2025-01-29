@@ -1,0 +1,5 @@
+The player takes on the role of a red-nosed safari explorer by the name of Safari Sam, who tries to catch a gorilla named Bongo.
+
+The game consists of four different scenes. Each is timed by a bonus counter in the upper left corner of the screen.
+
+As time passes, the bonus decreases. If the bonus counter reaches zero, a player life is lost.

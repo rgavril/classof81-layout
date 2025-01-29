@@ -1,0 +1,3 @@
+Horizontally-scrolling run 'n' jump game in which Charlie the clown must be guided through six different circus events.
+
+Bonus points can be won by finishing a level as quickly as possible, with further points awarded for collecting any of the money bags that occasionally appear.
