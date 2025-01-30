@@ -26,6 +26,9 @@ fe.do_nut(fix_path("bottom-text.nut"));
 fe.do_nut(fix_path("game-button.nut"));
 fe.do_nut(fix_path("game-buttons.nut"));
 fe.do_nut(fix_path("right-box.nut"));
+fe.do_nut(fix_path("achievement-entry.nut"));
+fe.do_nut(fix_path("achievement-entries.nut"));
+fe.do_nut(fix_path("sound-engine.nut"));
 fe.do_nut(fix_path("config-menu.nut"));
 fe.do_nut(fix_path("config-menu-button.nut"));
 fe.do_nut(fix_path("popup-menu.nut"));
@@ -57,6 +60,7 @@ signal_repeater <- SignalRepeater()
 popup_menu      <- null;
 bottom_text     <- BottomText();
 right_box       <- RightBox();
+achivements     <- AchievementEntries();
 game_buttons    <- GameButtons();
 config_menu     <- ConfigMenu();
 popup_menu      <- PopupMenu();
@@ -74,6 +78,7 @@ function key_detect(signal_str) {
 	if ( config_menu.key_detect(signal_str)   ) { return true; }
 	if ( game_buttons.key_detect(signal_str)  ) { return true; }
 	if ( right_box.key_detect(signal_str)     ) { return true; }
+	// if ( achivements.key_detect(signal_str)   ) { return true; }
 	# This is here only to prevent changing displays
 	if (signal_str == "left" || signal_str == "right") {
 		return true;

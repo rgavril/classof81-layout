@@ -60,6 +60,9 @@ class RightBox
 		this.overview_text.margin = 20;
 		this.overview_text.set_rgb(255, 252, 103);
 
+		this.overview_text.visible = false;
+		this.overview_shadow.visible =false;
+
 		draw();
 
 		# Add a callback to refresh the buttons when events take place
