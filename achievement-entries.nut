@@ -2,12 +2,20 @@ class AchievementEntries {
 	PAGE_SIZE = 10;       # Number of achivements visible on screen
 
 	achievements = [];   # Array containing all the achivements
+	total_achivements = 0;
 	select_idx = 0;    # The index of the selected achivement
 	offset_idx = 0;       # The index of the first visible achivement
 
 	entries = [];        # Array containing the achivement entries
 	missing_message = null;
 	is_active = false;   # Whether the list is active or not
+
+	Filter = {
+		All = 0,
+		Locked = 1,
+		Unlocked = 2
+	}
+	active_filter = 0;
 
 	constructor()
 	{
@@ -17,6 +25,9 @@ class AchievementEntries {
 			local entry = AchievementEntry(475, 320+70*i);
 			this.entries.push(entry)
 		}
+
+		# Filter
+		this.active_filter = Filter.Unlocked;
 
 		# No Achivements Message
 		this.missing_message = fe.add_text("This game has no\nRetro Achivements!", 480, 450, 440, 320);
@@ -56,6 +67,11 @@ class AchievementEntries {
 			return true;
 		}
 
+		if (signal_str == "right") {
+			this.right_action();
+			return true;
+		}
+
 		if (signal_str == "select") {
 			print("Achievements action not yet implemented\n");
 			return true;
@@ -63,7 +79,6 @@ class AchievementEntries {
 
 		return false;
 	}
-
 
 	# Loads the achivements info for the current game
 	function load()
@@ -74,11 +89,14 @@ class AchievementEntries {
 		try {
 			local temp = dofile(fe.script_dir + "/achievements/nuts/"+rom+".nut");
 			this.achievements = temp.Achievements;
+			this.total_achivements = temp.Achievements.len();
 			sort();
+			filter();
 
 		# If the achivements list was not loaded correctly (ex: missing or bad format)
 		} catch(e) {
 			this.achievements = []
+			this.total_achivements = 0;
 			hide();
 		}
 
@@ -103,6 +121,38 @@ class AchievementEntries {
 		}
 
 		this.achievements = sorted_list;
+	}
+
+	function filter()
+	{
+		if (this.active_filter == Filter.All) {
+			return;
+		}
+
+		local filtered_list = []
+
+		switch(this.active_filter) {
+			case Filter.All:
+				filtered_list = this.achievements;
+				break;
+
+			case Filter.Locked:
+				foreach (key, achievement in this.achievements) {
+					if ("DateEarned" in achievement) continue;
+					filtered_list.push(achievement)
+				}
+				break;
+
+			case Filter.Unlocked:
+				foreach (key, achievement in this.achievements) {
+					if ("DateEarned" in achievement) {
+						filtered_list.push(achievement)
+					}
+				}
+				break;
+		}
+
+		this.achievements = filtered_list
 	}
 
 	function draw()
@@ -131,7 +181,7 @@ class AchievementEntries {
 			}
 		}
 
-		if (this.achievements.len() == 0) {
+		if (this.total_achivements == 0) {
 			this.missing_message.visible = true;
 		} else {
 			this.missing_message.visible = false;
@@ -177,6 +227,13 @@ class AchievementEntries {
 		}
 
 		draw();
+	}
+
+	function right_action()
+	{
+		this.active_filter = (this.active_filter + 1) % Filter.len();
+		this.load();
+		this.draw();
 	}
 
 	# Hide the achivement entries
