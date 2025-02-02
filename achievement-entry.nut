@@ -6,6 +6,10 @@ class AchievementEntry {
 	title_label = null;
 	description_label = null;
 	selection_box = null;
+	is_selected = false;
+
+	description_scroller = null;
+	title_scroller = null;
 
 	m_desaturize_shader = null;
 	m_empty_shader = null;
@@ -47,10 +51,16 @@ class AchievementEntry {
 		// this.description_label.word_wrap = true;
 		this.description_label.margin = 0;
 
+
+		this.description_scroller = TextScroller(this.description_label, "");
+		this.title_scroller = TextScroller(this.title_label, "");
+
+
 		# Shader used for desaturating badge icon
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 		m_empty_shader = fe.add_shader(Shader.Empty);
 	}
+
 
 	function set_achivement(achievement)
 	{
@@ -77,18 +87,32 @@ class AchievementEntry {
 		}
 
 		# Update the title and description
-		this.title_label.msg = this.achievement.Title;
-		this.description_label.msg = this.achievement.Description;
-		// this.description_label.msg = ""
+		// this.title_label.msg = this.achievement.Title;
+		// this.description_label.msg = this.achievement.Description;
+		
+		this.description_scroller.set_text(this.achievement.Description)
+		this.title_scroller.set_text(this.achievement.Title)
+
+		if (this.is_selected) {
+			this.selection_box.visible = true;
+			this.description_scroller.activate();
+			this.title_scroller.activate();
+		} else {
+			this.selection_box.visible = false;
+			this.description_scroller.desactivate();
+			this.title_scroller.desactivate();
+		}
 	}
 
 	function select()
 	{
-		this.selection_box.visible = true;
+		this.is_selected = true;
+		this.draw()
 	}
 
 	function deselect()
 	{	
-		this.selection_box.visible = false;
+		this.is_selected = false;
+		this.draw()
 	}
 }
