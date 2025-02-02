@@ -17,11 +17,21 @@ class TextScroller {
 	function set_text(text) {
 		if (this.text != text) {
 			this.text = text;
-			this.last_scroll_text = "";
-			this.last_scroll_tick = 0;
-			this.last_scroll_idx = 0;
+			this._reset()
+		}
+	}
 
-			this.container.msg = text;
+	function _reset()
+	{
+		this.last_scroll_text = "";
+		this.last_scroll_tick = 0;
+		this.last_scroll_idx = 0;
+
+		this.container.msg = this.text;
+
+		# If the text doesn't fit add '...' at the end
+		if ( strip(this.container.msg) != strip(this.container.msg_wrapped) ) {
+			this.container.msg = strip(this.container.msg_wrapped).slice(0, -3) + "..."
 		}
 	}
 
@@ -80,6 +90,6 @@ class TextScroller {
 
 	function desactivate() {
 		this.is_active = false;
-		this.container.msg = this.text;
+		this._reset()
 	}
 }

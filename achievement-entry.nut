@@ -39,22 +39,18 @@ class AchievementEntry {
 		this.title_label = this.surface.add_text("", text_x, text_y, 340, 85);
 		this.title_label.char_size = 24;
 		this.title_label.align = Align.TopLeft;
-		// this.title_label.word_wrap = true;
 		this.title_label.margin = 0;
-		// this.title_label.font = "fonts/CriqueGrotesk-Bold.ttf"
 		this.title_label.set_rgb(255,252,103);
+
+		this.title_scroller = TextScroller(this.title_label, "");
 
 		# Description of the achievement
 		this.description_label = this.surface.add_text("", text_x, text_y + 25 , 340, 40);
 		this.description_label.char_size = 18;
 		this.description_label.align = Align.TopLeft;
-		// this.description_label.word_wrap = true;
 		this.description_label.margin = 0;
 
-
 		this.description_scroller = TextScroller(this.description_label, "");
-		this.title_scroller = TextScroller(this.title_label, "");
-
 
 		# Shader used for desaturating badge icon
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
@@ -87,9 +83,6 @@ class AchievementEntry {
 		}
 
 		# Update the title and description
-		// this.title_label.msg = this.achievement.Title;
-		// this.description_label.msg = this.achievement.Description;
-		
 		this.description_scroller.set_text(this.achievement.Description)
 		this.title_scroller.set_text(this.achievement.Title)
 
