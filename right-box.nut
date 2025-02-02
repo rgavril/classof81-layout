@@ -17,6 +17,7 @@ class RightBox
 		snap.x      = 475;
 		snap.y      = 235 + 840 - snap.height;
 		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
+		snap.alpha  = 0;
 
 		# Snap Fade
 		fe.add_image(fix_path("images/test.png"), 475, 235);
@@ -61,7 +62,8 @@ class RightBox
 		this.overview_text.set_rgb(255, 252, 103);
 
 		this.overview_text.visible = false;
-		this.overview_shadow.visible =false;
+		this.overview_shadow.visible = false;
+
 
 		draw();
 
@@ -128,12 +130,14 @@ class RightBox
 	function activate()
 	{
 		this.is_active = true;
+		::achivements.activate()
 		draw();
 	}
 
 	function desactivate()
 	{
 		this.is_active = false;
+		::achivements.desactivate()
 		draw();
 	}
 }

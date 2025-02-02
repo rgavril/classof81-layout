@@ -23,23 +23,29 @@ class AchievementEntry {
 
 		# Achievemnt badge image
 		this.badge_icon = this.surface.add_image(null, 15, 5);
+		this.badge_icon.height=55;
+		this.badge_icon.width=55;
+
 
 		# Location of description and title text
-		local text_x = 67 + 10;
-		local text_y = 5-6;
-
-		# Description of the achievement
-		this.description_label = this.surface.add_text("", text_x, text_y, 370, 85);
-		this.description_label.char_size = 26;
-		this.description_label.align = Align.TopLeft;
-		this.description_label.word_wrap = true;
+		local text_x = 85;
+		local text_y = 13;
 
 		# Title of the achievement
-		this.title_label = this.surface.add_text("", text_x, text_y, 370, 85);
-		this.title_label.char_size = 26;
+		this.title_label = this.surface.add_text("", text_x, text_y, 340, 85);
+		this.title_label.char_size = 24;
 		this.title_label.align = Align.TopLeft;
-		this.title_label.word_wrap = false;
+		// this.title_label.word_wrap = true;
+		this.title_label.margin = 0;
+		// this.title_label.font = "fonts/CriqueGrotesk-Bold.ttf"
 		this.title_label.set_rgb(255,252,103);
+
+		# Description of the achievement
+		this.description_label = this.surface.add_text("", text_x, text_y + 25 , 340, 40);
+		this.description_label.char_size = 18;
+		this.description_label.align = Align.TopLeft;
+		// this.description_label.word_wrap = true;
+		this.description_label.margin = 0;
 
 		# Shader used for desaturating badge icon
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
@@ -48,7 +54,6 @@ class AchievementEntry {
 
 	function set_achivement(achievement)
 	{
-
 		this.achievement = achievement;
 		draw();
 		this.surface.visible = true;
@@ -65,11 +70,16 @@ class AchievementEntry {
 		local filename = fe.script_dir + "/achievements/images/" + this.achievement.BadgeName + ".png";
 
 		this.badge_icon.file_name = filename;
-		this.badge_icon.shader = m_desaturize_shader;
+		if ("DateEarned" in achievement) {
+			this.badge_icon.shader = m_empty_shader;
+		} else {
+			this.badge_icon.shader = m_desaturize_shader;
+		}
 
 		# Update the title and description
 		this.title_label.msg = this.achievement.Title;
-		this.description_label.msg = "\n" + this.achievement.Description;
+		this.description_label.msg = this.achievement.Description;
+		// this.description_label.msg = ""
 	}
 
 	function select()

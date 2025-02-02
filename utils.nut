@@ -1,9 +1,5 @@
 
 function fix_path(p) {
-	if (OS == "Windows") {
-		p = str_replace(p, "/", "\\");
-	}
-
 	return fe.path_expand(p);
 }
 

@@ -77,8 +77,8 @@ function key_detect(signal_str) {
 	if ( popup_menu.key_detect(signal_str)    ) { return true; }
 	if ( config_menu.key_detect(signal_str)   ) { return true; }
 	if ( game_buttons.key_detect(signal_str)  ) { return true; }
+	if ( achivements.key_detect(signal_str)   ) { return true; }
 	if ( right_box.key_detect(signal_str)     ) { return true; }
-	// if ( achivements.key_detect(signal_str)   ) { return true; }
 	# This is here only to prevent changing displays
 	if (signal_str == "left" || signal_str == "right") {
 		return true;

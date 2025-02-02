@@ -1,5 +1,5 @@
 class AchievementEntries {
-	PAGE_SIZE = 8;       # Number of achivements visible on screen
+	PAGE_SIZE = 10;       # Number of achivements visible on screen
 
 	achievements = [];   # Array containing all the achivements
 	select_idx = 0;    # The index of the selected achivement
@@ -14,7 +14,7 @@ class AchievementEntries {
 		# Create the achivement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(475, 360+80*i);
+			local entry = AchievementEntry(475, 320+70*i);
 			this.entries.push(entry)
 		}
 
@@ -42,6 +42,10 @@ class AchievementEntries {
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) {
+			return
+		}
+		
 		if (signal_str == "down") {
 			this.down_action();
 			return true;
