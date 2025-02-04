@@ -27,10 +27,10 @@ class AchievementEntries {
 		}
 
 		# Filter
-		this.active_filter = Filter.Unlocked;
+		this.active_filter = Filter.All;
 
 		# No Achivements Message
-		this.missing_message = fe.add_text("This game has no\nRetro Achivements!", 480, 450, 440, 320);
+		this.missing_message = fe.add_text("", 480, 450, 440, 320);
 		this.missing_message.char_size = 30;
 		this.missing_message.line_spacing = 1.2;
 		this.missing_message.align = Align.MiddleCentre;
@@ -182,6 +182,13 @@ class AchievementEntries {
 		}
 
 		if (this.total_achivements == 0) {
+			this.missing_message.msg = "This game has no\nRetro Achivements!"
+			this.missing_message.visible = true;
+		} else if (this.achievements.len() == 0 && this.active_filter == Filter.Unlocked) {
+			this.missing_message.msg = "No Unlocked\nRetro Achivements!"
+			this.missing_message.visible = true;
+		} else if (this.achievements.len() == 0 && this.active_filter == Filter.Locked) {
+			this.missing_message.msg = "You have no locked\nRetro Achivements!"
 			this.missing_message.visible = true;
 		} else {
 			this.missing_message.visible = false;

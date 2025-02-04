@@ -1,6 +1,12 @@
 class UserConfig {
 	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
 	fbneo_config_file="/opt/retropie/configs/all/retroarch-core-options.cfg";
+
+	</ label="RetroAchievemnts User", help="", is_input="no", order=1 />
+	ra_username="";
+	
+	</ label="RetroAchievemnts Key", help="", is_input="no", order=1 />
+	ra_apikey="";
 }
 
 ::AM_CONFIG <- fe.get_config();
@@ -17,6 +23,7 @@ fe.layout.font = fix_path("fonts/CriqueGrotesk.ttf");
 
 fe.do_nut(fix_path("modules/signal-repeater.nut"));
 fe.do_nut(fix_path("modules/retroarch-config.nut"));
+fe.do_nut(fix_path("modules/retro-achievements.nut"));
 fe.do_nut(fix_path("modules/fbneo-dipswitches.nut"));
 fe.do_nut(fix_path("modules/overview.nut"));
 fe.do_nut(fix_path("modules/rom-versions.nut"));
@@ -88,6 +95,9 @@ function key_detect(signal_str) {
 	return false;
 }
 fe.add_signal_handler("key_detect");
+
+local ra = RetroAchievements();
+ra.update_achievements("mspacman");
 
 function check_extras() {
 	print ( "\n\n\nCHECKIN MISSING EXTRAS:\n\n" )
