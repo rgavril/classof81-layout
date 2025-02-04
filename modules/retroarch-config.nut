@@ -1,37 +1,45 @@
 function retroarch_config_write(filename, variable, value) {
-	local orig_file = null;
-	local temp_file = null;
+	try {
+		rename(fix_path(filename), fix_path(filename+".old"));
+	} catch (e) {
+		print("ERROR: Cannot rename to retroach config file : " + filename + "\n");
+		return;
+	}
 
-	local orig_file = ReadTextFile("/", fix_path(filename));
-	local temp_file = WriteTextFile(filename+".tmp");
+	local old_file = ReadTextFile(fix_path(filename+".old"));
+	local new_file = WriteTextFile(fix_path(filename));
 
 	local was_replaced = false;
-	while (!orig_file.eos()) {
-		local line = orig_file.read_line();
+	while (!old_file.eos()) {
+		local line = old_file.read_line();
 
 		local parts = split(line, "=");
 		if (parts.len() == 2) {
 			local key = strip(parts[0]);
 			if (key == variable) {
-				temp_file.write_line(variable + " = \"" + value + "\"\n");
+				new_file.write_line(variable + " = \"" + value + "\"\n");
 				was_replaced = true;
 				continue;
 			}
 		}
 
-		temp_file.write_line(line + "\n");
+		new_file.write_line(line + "\n");
 	}
 
 	if (! was_replaced) {
 		try {
-			temp_file.write_line(variable + " = \"" + value + "\"\n");
+			new_file.write_line(variable + " = \"" + value + "\"\n");
 		} catch (e) {
 			print("ERROR: Cannot write to retroach config file : " + filename + "\n");
 			return;
 		}
 	}
 
-	rename(filename+".tmp", filename);
+	try {
+		remove(fix_path(filename+".old"))
+	} catch (e) {
+		print("WARNING: Cannot delete temp retroach config file : " + filename + ".old\n");
+	}
 }
 
 function retroarch_config_read(filename, variable) {
