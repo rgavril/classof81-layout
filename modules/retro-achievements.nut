@@ -1,12 +1,22 @@
 class RetroAchievements
 {
+	Error = {
+		NoAcheievemnts = "Game Has No Retro Achivements",
+		GameListDownload = "Cannot Download Retro Achievements Game List",
+		GameListParse = "Cannot Parse Retro Achievements Game List",
+		GameInfoDownload = "Cannot Download Retro Achievements Game Info",
+		GameInfoParse = "Cannot Parse Retro Achievements Game Info",
+		GameInfoFormat = "Wrong Game Info Format",
+	}
+
 	STORAGE_DIR   = fe.script_dir+"/achievements/";
-	GAMELIST_JSON = fe.script_dir+"/achievements/GameList.json"
+	GAMELIST_JSON = fe.script_dir+"/achievements/_gamelist.json"
 
 	constructor() {
 	}
 
 	function download_gamelist() {
+		# Build the gamelist download url
 		local url = this.build_url(
 			"API_GetGameList.php",
 			{
@@ -15,23 +25,39 @@ class RetroAchievements
 			}
 		);
 
-		fe.get_url(url, GAMELIST_JSON);
+		# Try to download the gamelist 
+		if (! fe.get_url(url, GAMELIST_JSON) ) {
+
+			# If it fails, thow a error
+			throw Error.GameListDownload;
+		}
 	}
 
 	function parse_gamelist() {
+		# Download the gamelist if not yet downloaded
 		if (! fe.path_test(GAMELIST_JSON, PathTest.IsFile)) {
 			this.download_gamelist();
 		}
 
-		return load_json(GAMELIST_JSON);
+		# Try to parse the gamelist
+		try {
+			return load_json(GAMELIST_JSON);
+
+		# If it fails json parsing
+		} catch (e) {
+			# Delete the file so it can be downloaded again
+			remove(GAMELIST_JSON);
+
+			# Throw a error
+			throw Error.GameListParse;
+		}
 	}
 
 	function download_gameinfo(rom) {
+		# Find the gameid associated with the rom
 		local game_id = this.game_id(rom);
-		if (game_id == null) {
-			return;
-		}
 
+		# Build teh gameinfo url
 		local url = this.build_url(
 			"API_GetGameInfoAndUserProgress.php",
 			{
@@ -41,7 +67,12 @@ class RetroAchievements
 			}
 		)
 
-		fe.get_url(url, STORAGE_DIR+"/"+rom+".json");
+		# Try to download the gameinfo
+		if (! fe.get_url(url, STORAGE_DIR+"/"+rom+".json")) {
+
+			# If it fails thow a error
+			throw Error.GameInfoDownload;
+		}
 	}
 
 	function parse_gameinfo(rom) {
@@ -49,19 +80,21 @@ class RetroAchievements
 			this.download_gameinfo(rom);
 		}
 
-		local data = null;
 		try {
-			data = load_json(STORAGE_DIR+"/"+rom+".json");
-		} catch(e) {}
-
-		return data;
+			return load_json(STORAGE_DIR+"/"+rom+".json");
+		} catch(e) {
+			throw Error.GameInfoParse;
+		}
 	}
 
 	function game_id(rom) {
+		# Parse the gamelist
 		local gamelist = this.parse_gamelist();
 
+		# Create a hash for the current rom
 		local romHash = md5(rom);
 
+		# Find a game that has this hash and return it's gameID
 		foreach(game in gamelist) {
 			foreach(hash in game.Hashes) {
 				if (hash == romHash) {
@@ -70,17 +103,21 @@ class RetroAchievements
 			}
 		}
 
-		return null;
+		# If we got this far, and not game was found, thow a error
+		throw Error.NoAcheievemnts;
 	}
 
 	function game_achievements(rom) {
+		# Parse the game info
 		local gameinfo = this.parse_gameinfo(rom);
 
-		if (gameinfo != null) {
+		# Return the achivements part of the gameinfo
+		if ("Achievements" in gameinfo) {
 			return gameinfo.Achievements;
-		} else {
-			return null;
 		}
+
+		# If Achivements was not found, we have a problem
+		throw Error.GameInfoFormat;
 	}
 
 	function build_url(method, params) {
