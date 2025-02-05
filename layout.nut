@@ -22,6 +22,7 @@ fe.layout.page_size = 6;
 fe.layout.font = fix_path("fonts/CriqueGrotesk.ttf");
 
 fe.do_nut(fix_path("modules/signal-repeater.nut"));
+fe.do_nut(fix_path("modules/text-scroller.nut"));
 fe.do_nut(fix_path("modules/retroarch-config.nut"));
 fe.do_nut(fix_path("modules/fbneo-dipswitches.nut"));
 fe.do_nut(fix_path("modules/overview.nut"));
@@ -113,6 +114,3 @@ fe.add_signal_handler("key_detect");
 // 	print ( "\n\n\n" )
 // }
 // // check_extras()
-// local ra = RetroAchievements()
-// local x = ra.game_achievements("galaga");
-// print_table(x);

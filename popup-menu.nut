@@ -40,8 +40,9 @@ class PopupMenu
 		# Option Buttons
 		for ( local idx=0; idx<this.MAX_OPTIONS; idx++ ) {
 			local button = {
-				"image" : this.surface.add_image(fix_path("images/popup_option.png")),
-				"text"  : this.surface.add_text("", 0, 0, 0, 0)
+				"image"    : this.surface.add_image(fix_path("images/popup_option.png")),
+				"text"     : this.surface.add_text("", 0, 0, 0, 0),
+				"scroller" : null
 			}
 
 			# Option Button Image
@@ -60,63 +61,10 @@ class PopupMenu
 			button.text.margin    = 30
 			button.text.visible   = false
 
+			button.scroller = TextScroller(button.text, "");
+
 			this.buttons.push(button)
 		}
-
-		# Callback to scroll the active options's text
-		fe.add_ticks_callback(this, "_scroll_active_option_text")
-	}
-
-	last_scroll_text = "";
-	last_scroll_tick = 0;
-	last_scroll_idx = 0;
-	function _scroll_active_option_text(tick_time)
-	{
-		# Don't do any scrolling if popup is not visible
-		if ( ! this.is_active ) { return  }
-
-		# Calculate the wait time till the next scroll
-		local wait_tick_time = 100
-		if (last_scroll_idx == 0) {
-			wait_tick_time = 500
-		}
-
-		# If not enough time passed, skip this scroll
-		if ( tick_time < last_scroll_tick + wait_tick_time ) {
-			return
-		# Else update last scroll time
-		} else {
-			last_scroll_tick = tick_time
-		}
-
-		# Get a hold of the container and the text we need to scroll
-		local container   = this.buttons[this.selected_idx].text
-		local scroll_text = this.options[this.selected_idx]
-
-		# Don't scroll if text fits the container
-		container.msg = scroll_text
-		if ( strip(container.msg) == strip(container.msg_wrapped) ) {
-			return
-		}
-
-		# If the scrollable text changed, reset scroll index
-		if ( last_scroll_text != scroll_text ) {
-			last_scroll_idx = 0
-			last_scroll_text = scroll_text
-		# Else increase the scroll index
-		} else {
-			last_scroll_idx++
-		}
-
-		# If scroll index is at the end, reset it
-		local scroll_space = "      "
-		if ( last_scroll_idx > scroll_text.len() + scroll_space.len() ) {
-			last_scroll_idx = 0
-		}
-
-		# Duplicate the scroll text so it will look as it repeats
-		scroll_text = scroll_text + scroll_space + scroll_text 
-		container.msg = scroll_text.slice(last_scroll_idx)
 	}
 
 	function key_detect(signal_str)
@@ -199,19 +147,16 @@ class PopupMenu
 			button.image.visible = true
 			
 			# Set the text for the button
-			button.text.msg = option
-
-			# If the text doesn't fit add '...' at the end
-			if ( strip(button.text.msg) != strip(button.text.msg_wrapped) ) {
-				button.text.msg = strip(option).slice(0, -3) + "..."
-			}
+			button.scroller.set_text(option)
 
 			# Set different image and text color is option is selected
 			if ( this.selected_idx == idx ) {
 				button.text.set_rgb(100, 71, 145)
+				button.scroller.activate()
 				button.image.file_name = fix_path("images/popup_option_selected.png")
 			} else {
 				button.text.set_rgb(255, 255, 255)
+				button.scroller.desactivate()
 				button.image.file_name = fix_path("images/popup_option.png")
 			}
 		}
