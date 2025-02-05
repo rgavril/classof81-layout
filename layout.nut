@@ -1,6 +1,12 @@
 class UserConfig {
 	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
 	fbneo_config_file="/opt/retropie/configs/all/retroarch-core-options.cfg";
+
+	</ label="Retro Achievemnts User", help="", is_input="no", order=1 />
+	ra_username="";
+	
+	</ label="Retro Achievemnts Key", help="", is_input="no", order=1 />
+	ra_apikey="";
 }
 
 ::AM_CONFIG <- fe.get_config();
@@ -20,6 +26,7 @@ fe.do_nut(fix_path("modules/retroarch-config.nut"));
 fe.do_nut(fix_path("modules/fbneo-dipswitches.nut"));
 fe.do_nut(fix_path("modules/overview.nut"));
 fe.do_nut(fix_path("modules/rom-versions.nut"));
+fe.do_nut(fix_path("modules/retro-achievements.nut"));
 
 fe.do_nut(fix_path("sound-engine.nut"));
 fe.do_nut(fix_path("bottom-text.nut"));
@@ -106,3 +113,6 @@ function check_extras() {
 	print ( "\n\n\n" )
 }
 // check_extras()
+local ra = RetroAchievements()
+local x = ra.game_achievements("galaga");
+print_table(x);
