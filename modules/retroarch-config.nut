@@ -7,7 +7,7 @@ function retroarch_config_write(filename, variable, value) {
 		try {
 			remove(filenameTemp);
 		} catch (e) {
-			print(format("WARNING : Cannot remove temporary file %s (%s)", filenameTemp, e));
+			print(format("WARNING : Cannot remove temporary file %s (%s)\n", filenameTemp, e));
 			return;
 		}
 	}
@@ -37,30 +37,35 @@ function retroarch_config_write(filename, variable, value) {
 	try {
 		fileTemp._f.close();
 	} catch (e) {
-		print(format("WARNING : Cannot close temp file %s (%s)", filenameTemp, e)); 
+		print(format("WARNING : Cannot close temp file %s (%s)\n", filenameTemp, e));
 	}
 	try {
 		fileOrig._f.close();
 	} catch (e) {
-		print(format("WARNING : Cannot close orig file %s (%s)", filenameOrig, e)); 
+		print(format("WARNING : Cannot close orig file %s (%s)\n", filenameOrig, e));
 	}
 
 	# Remove original file
 	try {
 		remove(filenameOrig)
 	} catch (e) {
-		print(format("WARNING : Cannot remove orig file %s (%s)", filenameOrig, e)); 
+		print(format("WARNING : Cannot remove orig file %s (%s)\n", filenameOrig, e));
 	}
 
 	# Make the tempoarary file our new original
 	try {
 		rename(filenameTemp, filenameOrig);
 	} catch (e) {
-		print(format("WARNING : Cannot rename temporary file %s (%s)", filenameOrig, e)); 
+		print(format("WARNING : Cannot rename temporary file %s (%s)\n", filenameOrig, e));
 	}
 }
 
 function retroarch_config_read(filename, variable) {
+	if (! fe.path_test(filename, PathTest.IsFile)) {
+		print(format("WARNING : File %s does not exits.\n", filename));
+		return "";
+	}
+
 	local file = ReadTextFile(fe.path_expand(filename));
 
 	local value = null;
@@ -80,11 +85,11 @@ function retroarch_config_read(filename, variable) {
 		}
 	}
 
-	# Close the file so windows doesn't complain
+	# Try to close the file so windows doesn't complain
 	try {
 		file._f.close();
 	} catch (e) {
-		print(format("WARNING : Cannot close retroarch file %s (%s)", filename, e)); 
+		// print(format("WARNING : Cannot close retroarch file %s (%s)\n", filename, e));
 	}
 
 	return value;
