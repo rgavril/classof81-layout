@@ -2,6 +2,7 @@ class ConfigMenuButton {
 	surface = null
 	name_label = null
 	value_label = null
+	value_scroller = null
 	background_image = null
 
 	name = ""
@@ -41,6 +42,8 @@ class ConfigMenuButton {
 		this.value_label.char_size = 29
 		this.value_label.style     = Style.Bold
 		this.value_label.set_rgb(255, 255, 255)
+
+		this.value_scroller = TextScroller(this.value_label, "")
 	}
 
 	function draw() 
@@ -57,25 +60,22 @@ class ConfigMenuButton {
 			this.name_label.msg  += ":"
 			this.name_label.align = Align.MiddleLeft
 
-			# Remove all the whitespaces from the value (some fbneo dipswitches have them)
-			this.value_label.msg = str_replace("  ", " ", this.value)
-
-			# If the value is to big to show on screen add some "..." at the end
-			if (strip(this.value_label.msg) != strip(this.value_label.msg_wrapped)) {
-				this.value_label.msg = strip(this.value_label.msg_wrapped).slice(0, -3) + "..."
-			}
+			# Dynamic label width
+			this.value_label.x     = this.name_label.x + this.name_label.msg_width + 10
+			this.value_label.width = this.background_image.texture_width - this.name_label.msg_width - 55
 
 			# Display the value label
 			this.value_label.visible = true
 
-			# Dynamic label width
-			this.value_label.x     = this.name_label.x + this.name_label.msg_width - 10
-			this.value_label.width = this.background_image.texture_width - this.name_label.msg_width - 55 
-
+			# Update the value label text
+			this.value_scroller.set_text(str_replace("  ", " ", this.value))
 		}
 
 		if (this.is_selected) {
 			this.background_image.file_name = fix_path("images/config_menu_button_selected.png")
+
+			this.value_scroller.activate()
+
 			if (::popup_menu && ::popup_menu.is_visible()) {
 				this.name_label.set_rgb(255, 255, 255)
 				this.value_label.set_rgb(255, 255, 255)
@@ -85,6 +85,9 @@ class ConfigMenuButton {
 			}
 		} else {
 			this.background_image.file_name = fix_path("images/config_menu_button.png")
+
+			this.value_scroller.desactivate()
+
 			this.name_label.set_rgb(255, 255, 255)
 			this.value_label.set_rgb(255, 255, 255)
 		}
