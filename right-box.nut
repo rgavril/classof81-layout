@@ -19,28 +19,28 @@ class RightBox
 		// snap.shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
 
 		# Snap Fade
-		fe.add_image(fix_path("images/test.png"), 475, 235);
+		fe.add_image("images/test.png", 475, 235);
 
 		# Title Shadow
 		local title_shadow = fe.add_text("[Title]", 475+1, 235+10+1, 450, 50)
-		title_shadow.font = fix_path("fonts/CriqueGrotesk-Bold.ttf")
+		title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title_shadow.set_rgb(0,0,0)
 		title_shadow.char_size = 32
 		title_shadow.align = Align.TopCentre
 
 		# Title
 		local title = fe.add_text("[Title]", 475, 235+10, 450, 50)
-		title.font = fix_path("fonts/CriqueGrotesk-Bold.ttf")
+		title.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title.set_rgb(255,104,181);
 		title.char_size = 32;
 		title.align = Align.TopCentre;
 
 		# Sidebox Border
-		this.border_image = fe.add_image(fix_path("images/sidebox_active.png"), 460, 220);
+		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
 		this.border_image.visible = false;
 
 		# Connection Bar
-		this.connection_bar = fe.add_image(fix_path("images/connection_bar_inactive.png"), 460, 340);
+		this.connection_bar = fe.add_image("images/connection_bar_inactive.png", 460, 340);
 		this.connection_bar.origin_x = this.connection_bar.texture_width;
 		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
 		this.connection_bar.visible = true;
@@ -101,9 +101,9 @@ class RightBox
 
 		# Connection Bar Image
 		if (this.is_active) {
-			this.connection_bar.file_name = fix_path("images/connection_bar_active.png")
+			this.connection_bar.file_name = "images/connection_bar_active.png"
 		} else {
-			this.connection_bar.file_name = fix_path("images/connection_bar_inactive.png")
+			this.connection_bar.file_name = "images/connection_bar_inactive.png"
 		}
 
 		# Connection Bar Location

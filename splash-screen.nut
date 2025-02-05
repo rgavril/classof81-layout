@@ -6,10 +6,9 @@ class SplashScreen
 	
 	constructor()
 	{
-		print("SPLASH CONSTRUCTOR\n");
 		is_active = true;
 
-		this.video = fe.add_image(fix_path("videos/splash.mp4"), 0, 0, 960, 1280);
+		this.video = fe.add_image("videos/splash.mp4", 0, 0, 960, 1280);
 		this.video.zorder = 100;
 		this.video.video_playing = true;
 		this.video.video_flags = Vid.NoLoop;
@@ -35,7 +34,6 @@ class SplashScreen
 
 		// if (this.video.video_time >= this.video.video_duration) { # This doesn't work
 		if (tick_time >= this.video.video_duration) {
-			print("SPLASH STOP\n");
 			this.stop();
 			this.hide();
 		}
@@ -50,15 +48,13 @@ class SplashScreen
 
 	function start()
 	{
-		print("SPLASH START\n");
-		this.video.file_name = fix_path("videos/splash.mp4")
+		this.video.file_name = "videos/splash.mp4"
 		this.is_active = true;
 		this.video.video_playing = true;
 	}
 
 	function stop()
 	{
-		print("SPLASH STOP\n");
 		this.is_active = false;
 		this.video.video_playing = false;
 		this.video.file_name = "";

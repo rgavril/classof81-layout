@@ -19,29 +19,29 @@ fe.layout.preserve_aspect_ratio=true;
 fe.layout.width = 960;
 fe.layout.height = 1280;
 fe.layout.page_size = 6;
-fe.layout.font = fix_path("fonts/CriqueGrotesk.ttf");
+fe.layout.font = "fonts/CriqueGrotesk.ttf";
 
-fe.do_nut(fix_path("modules/signal-repeater.nut"));
-fe.do_nut(fix_path("modules/text-scroller.nut"));
-fe.do_nut(fix_path("modules/retroarch-config.nut"));
-fe.do_nut(fix_path("modules/fbneo-dipswitches.nut"));
-fe.do_nut(fix_path("modules/overview.nut"));
-fe.do_nut(fix_path("modules/rom-versions.nut"));
-fe.do_nut(fix_path("modules/retro-achievements.nut"));
+fe.do_nut("modules/signal-repeater.nut");
+fe.do_nut("modules/text-scroller.nut");
+fe.do_nut("modules/retroarch-config.nut");
+fe.do_nut("modules/fbneo-dipswitches.nut");
+fe.do_nut("modules/overview.nut");
+fe.do_nut("modules/rom-versions.nut");
+fe.do_nut("modules/retro-achievements.nut");
 
-fe.do_nut(fix_path("sound-engine.nut"));
-fe.do_nut(fix_path("bottom-text.nut"));
-fe.do_nut(fix_path("game-button.nut"));
-fe.do_nut(fix_path("game-buttons.nut"));
-fe.do_nut(fix_path("right-box.nut"));
-fe.do_nut(fix_path("config-menu.nut"));
-fe.do_nut(fix_path("config-menu-button.nut"));
-fe.do_nut(fix_path("popup-menu.nut"));
-fe.do_nut(fix_path("game-startup-page.nut"));
-fe.do_nut(fix_path("splash-screen.nut"));
+fe.do_nut("sound-engine.nut");
+fe.do_nut("bottom-text.nut");
+fe.do_nut("game-button.nut");
+fe.do_nut("game-buttons.nut");
+fe.do_nut("right-box.nut");
+fe.do_nut("config-menu.nut");
+fe.do_nut("config-menu-button.nut");
+fe.do_nut("popup-menu.nut");
+fe.do_nut("game-startup-page.nut");
+fe.do_nut("splash-screen.nut");
 
 # Background Image
-fe.add_image(fix_path("images/background.png"), 0, 0);
+fe.add_image("images/background.png", 0, 0);
 
 # GUI Elements
 splash_screen   <- SplashScreen();
@@ -62,7 +62,7 @@ signal_repeater.enable_for("up");
 # Key Signal Handlers
 function key_detect(signal_str) {
 	if ( splash_screen.key_detect(signal_str) ) { return true; }
-	if ( startup_page.key_detect(signal_str)   ) { return true; }
+	if ( startup_page.key_detect(signal_str)  ) { return true; }
 	if ( popup_menu.key_detect(signal_str)    ) { return true; }
 	if ( config_menu.key_detect(signal_str)   ) { return true; }
 	if ( game_buttons.key_detect(signal_str)  ) { return true; }
