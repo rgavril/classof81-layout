@@ -126,6 +126,15 @@ class RetroAchievements
 		throw Error.GameInfoFormat;
 	}
 
+	function badge_image(badge_id) {
+		local img_filename = STORAGE_DIR+"/"+badge_id+".png"
+
+		if (! fe.path_test(img_filename, PathTest.IsFile)) {
+			fe.get_url("https://media.retroachievements.org/Badge/"+badge_id+".png", img_filename);
+		}
+		return img_filename;
+	}
+
 	function build_url(method, params) {
 		local url = "https://retroachievements.org/API/"+method+"?y="+AM_CONFIG["ra_apikey"];
 	

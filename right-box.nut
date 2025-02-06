@@ -25,7 +25,7 @@ class RightBox
 		draw();
 
 		this.displays.push(RightBoxOverview());
-		// this.displays.push(RightBoxAchievements());
+		this.displays.push(RightBoxAchievements());
 		show_display(0);
 
 		# Add a callback to redraw when game is changed
@@ -102,12 +102,14 @@ class RightBox
 
 	function activate()
 	{
+		show_display(1);
 		this.is_active = true;
 		draw();
 	}
 
 	function desactivate()
 	{
+		show_display(0);
 		this.is_active = false;
 		draw();
 	}

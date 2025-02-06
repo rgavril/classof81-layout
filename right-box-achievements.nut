@@ -65,6 +65,11 @@ class AchievementEntry {
 		this.surface.visible = true;
 	}
 
+	function set_badge(filename)
+	{
+		this.badge_icon.file_name = filename;
+	}
+
 	function hide()
 	{
 		this.surface.visible = false;
@@ -72,10 +77,6 @@ class AchievementEntry {
 
 	function draw()
 	{
-		# Load the badge
-		local filename = fe.script_dir + "/achievements/images/" + this.achievement.BadgeName + ".png";
-
-		this.badge_icon.file_name = filename;
 		if ("DateEarned" in achievement) {
 			this.badge_icon.shader = m_empty_shader;
 		} else {
@@ -137,16 +138,16 @@ class RightBoxAchievements
 
 		# Snap Fade
 		this.surface.add_image("images/test.png", 0, 0);
-		
+
 		# Title Shadow
-		local title_shadow = this.surface.add_text("Retro Achievemnts", 25+1, 10+1, this.surface.width-50, 50)
+		local title_shadow = this.surface.add_text("Retro Achievements", 25+1, 10+1, this.surface.width-50, 50)
 		title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title_shadow.set_rgb(0,0,0)
 		title_shadow.char_size = 32
 		title_shadow.align = Align.TopCentre
 
 		# Title
-		local title = this.surface.add_text("Retro Achievemnts", 25, 10, this.surface.width-50, 50)
+		local title = this.surface.add_text("Retro Achievements", 25, 10, this.surface.width-50, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title.set_rgb(255,104,181);
 		title.char_size = 32;
@@ -228,6 +229,7 @@ class RightBoxAchievements
 			}
 
 			entry.set_achievement(this.achievements[visible_idx]);
+			entry.set_badge(this.ra.badge_image(this.achievements[visible_idx]["BadgeName"]));
 
 			# Mark entry as selected, but only when the achivements are active
 			if (this.is_active && this.select_idx == visible_idx) {
