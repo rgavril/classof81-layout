@@ -4,10 +4,14 @@ class RightBoxOverview
 	overview_text = null;
 	overview_shadow = null;
 
-	constructor() {
+	is_active = false;
+
+	constructor()
+	{
 		this.surface = fe.add_surface(450, 840);
-		this.surface.x  = 475;
-		this.surface.y  = 235;
+		this.surface.x       = 475;
+		this.surface.y       = 235;
+		this.surface.visible = this.is_active;
 
 		# Snap
 		local snap = this.surface.add_artwork("snap", 0, 0);
@@ -62,9 +66,31 @@ class RightBoxOverview
 		}
 	}
 
+	function key_detect(signal_str)
+	{
+		return false;
+	}
+
 	function draw() {
+		if (! this.is_active) {
+			return;
+		}
+
 		# Overview Text
 		this.overview_text.msg = short_overview();
 		this.overview_shadow.msg = this.overview_text.msg;
+	}
+
+	function activate()
+	{
+		this.is_active = true;
+		this.surface.visible = true;
+		this.draw();
+	}
+
+	function desactivate()
+	{
+		this.is_active = false;
+		this.surface.visible = false;
 	}
 }

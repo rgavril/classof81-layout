@@ -111,9 +111,15 @@ class RetroAchievements
 		# Parse the game info
 		local gameinfo = this.parse_gameinfo(rom);
 
-		# Return the achivements part of the gameinfo
+		# If this game has achievements
 		if ("Achievements" in gameinfo) {
-			return gameinfo.Achievements;
+
+			# Return the achivements part of the gameinfo as an array
+			local achievements = [];
+			foreach (key, value in gameinfo.Achievements) {
+			    achievements.append(value);
+			}
+			return achievements;
 		}
 
 		# If Achivements was not found, we have a problem
