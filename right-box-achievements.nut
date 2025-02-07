@@ -260,7 +260,8 @@ class RightBoxAchievements
 		return false;
 	}
 
-	function show_message(text) {
+	function show_message(text)
+	{
 		this.message.msg     = text;
 		this.message.visible = true;
 
@@ -270,7 +271,8 @@ class RightBoxAchievements
 		}
 	}
 
-	function hide_message() {
+	function hide_message()
+	{
 		this.message.visible = false;
 	}
 
@@ -300,6 +302,11 @@ class RightBoxAchievements
 			return;
 		} else {
 			this.hide_message();
+		}
+
+		if (this.achievements.len() == 0)
+		{
+			this.show_message("Game Has No Retro Achivements");
 		}
 
 		for (local i=0; i<PAGE_SIZE; i++) {
