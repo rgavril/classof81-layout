@@ -48,6 +48,7 @@ class RightBox
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.FromOldSelection) {
+			show_display(0);
 			draw();
 		}
 	}
@@ -109,7 +110,6 @@ class RightBox
 
 	function desactivate()
 	{
-		show_display(0);
 		this.is_active = false;
 		draw();
 	}
