@@ -150,7 +150,7 @@ function coroutine_load_achievements(rom) {
 		return {"achievements" : achievements};
 	}
 
-	return null;
+	return { "achievements": [] };
 }
 
 class RightBoxAchievements
@@ -193,7 +193,7 @@ class RightBoxAchievements
 		title.align = Align.TopCentre;
 
 		# Message
-		this.message = this.surface.add_text("", 30, 190, this.surface.width-60, 320);
+		this.message = this.surface.add_text("", 30, 200, this.surface.width-60, 320);
 		this.message.char_size = 30;
 		this.message.line_spacing = 1.2;
 		this.message.align = Align.MiddleCentre;
@@ -215,29 +215,24 @@ class RightBoxAchievements
 	async_load_thread = newthread(coroutine_load_achievements);
 	function async_load_update(tick_time)
 	{
-		if (!this.is_active) {
-			return;
-		}
-
 		if (this.async_load_thread.getstatus() == "suspended") {
 			local response = this.async_load_thread.wakeup();
 
 			if (response != null) {
 				if ("error" in response) {
+					this.set_achievements([]);
 					this.show_message(response.error);
 				}
 
 				if ("achievements" in response) {
 					# Update Achivements
-					this.set_achievements(response.achievements);				
+					this.set_achievements(response.achievements);
 				}
 			}
 		}
 
-		if (this.async_load_thread.getstatus() == "idle") {
-
+		if (this.async_load_thread.getstatus() == "idle" && this.is_active) {
 			if (fe.game_info(Info.Name) != last_rom_update) {
-				
 				this.last_rom_update = fe.game_info(Info.Name);
 				this.async_load_thread.call(last_rom_update);
 			}
@@ -297,6 +292,9 @@ class RightBoxAchievements
 			return;
 		}
 
+		# Update the instrutions bottom text
+		bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
+
 		if (fe.game_info(Info.Name) != last_rom_update || this.async_load_thread.getstatus() == "suspended") {
 			this.show_message("Loading ...");
 			return;
@@ -323,11 +321,6 @@ class RightBoxAchievements
 			} else {
 				entry.deselect();
 			}
-		}
-
-		# Update the instrutions bottom text
-		if (this.is_active) {
-			bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
 		}
 	}
 
