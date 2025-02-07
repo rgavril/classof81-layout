@@ -29,6 +29,9 @@ fe.do_nut("modules/overview.nut");
 fe.do_nut("modules/rom-versions.nut");
 fe.do_nut("modules/retro-achievements.nut");
 
+# Retro Achievements API
+ra <- RetroAchievements();
+
 fe.do_nut("sound-engine.nut");
 fe.do_nut("bottom-text.nut");
 fe.do_nut("game-button.nut");

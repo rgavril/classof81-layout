@@ -76,9 +76,9 @@ class RetroAchievements
 	}
 
 	function parse_gameinfo(rom) {
-		// if (! fe.path_test(STORAGE_DIR+"/"+rom+".json", PathTest.IsFile)) {
+		if (! fe.path_test(STORAGE_DIR+"/"+rom+".json", PathTest.IsFile)) {
 			this.download_gameinfo(rom);
-		// }
+		}
 
 		try {
 			return load_json(STORAGE_DIR+"/"+rom+".json");

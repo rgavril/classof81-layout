@@ -111,10 +111,50 @@ class AchievementEntry {
 	}
 }
 
+function coroutine_load_achievements(rom) {
+	suspend(null);
+
+	# Download Game Info
+	try {
+		ra.download_gameinfo(rom);
+	} catch (error) {
+		return {"error": error }
+	}
+	suspend(null);
+
+	# Parse Game Info
+	local gameinfo = null;
+	try {
+		gameinfo = ra.parse_gameinfo(rom);
+	} catch (error) {
+		return {"error": error }
+	}
+	suspend(null);
+
+
+	print_table(gameinfo);
+
+	# Download Badges
+	if ("Achievements" in gameinfo) {
+		foreach (achievement in gameinfo.Achievements) {
+			ra.badge_image(achievement["BadgeName"])
+			suspend(null);
+		}
+
+		# Return the achivements part of the gameinfo as an array
+		local achievements = [];
+		foreach (key, value in gameinfo.Achievements) {
+		    achievements.append(value);
+		}
+
+		return {"achievements" : achievements};
+	}
+
+	return null;
+}
+
 class RightBoxAchievements
-{
-	ra = null;         # RetroAchievements API
-	
+{	
 	surface = null;    # Drawing Surface
 	message = null;    # 
 	entries = [];      # Array of AchievementEntries
@@ -126,11 +166,10 @@ class RightBoxAchievements
 	PAGE_SIZE = 10;    # Number of achievemnts visible on screen
 	is_active = true;
 
+	last_rom_update = "";
+
 	function constructor()
 	{
-		# Retro Achievements API
-		ra = RetroAchievements()
-
 		# Drawing Sufrace
 		this.surface = fe.add_surface(450, 840);
 		this.surface.x  = 475;
@@ -168,8 +207,41 @@ class RightBoxAchievements
 			this.entries.push(entry)
 		}
 
-		fe.add_ticks_callback(this, "ticks_callback")
+		fe.add_ticks_callback(this, "async_load_update");
+
 		draw();
+	}
+
+	async_load_thread = newthread(coroutine_load_achievements);
+	function async_load_update(tick_time)
+	{
+		if (!this.is_active) {
+			return;
+		}
+
+		if (this.async_load_thread.getstatus() == "suspended") {
+			local response = this.async_load_thread.wakeup();
+
+			if (response != null) {
+				if ("error" in response) {
+					this.show_message(response.error);
+				}
+
+				if ("achievements" in response) {
+					# Update Achivements
+					this.set_achievements(response.achievements);				
+				}
+			}
+		}
+
+		if (this.async_load_thread.getstatus() == "idle") {
+
+			if (fe.game_info(Info.Name) != last_rom_update) {
+				
+				this.last_rom_update = fe.game_info(Info.Name);
+				this.async_load_thread.call(last_rom_update);
+			}
+		}
 	}
 
 	function key_detect(signal_str)
@@ -193,34 +265,43 @@ class RightBoxAchievements
 		return false;
 	}
 
-	function load()
-	{
-		if (! this.is_active) { return }
+	function show_message(text) {
+		this.message.msg     = text;
+		this.message.visible = true;
 
-		try {
-			# Load Achivements
-			this.achievements = this.ra.game_achievements(fe.game_info(Info.Name))
-
-			# Download Badges
-			foreach (achievement in this.achievements) {
-				this.ra.badge_image(achievement["BadgeName"])
-			}
-
-			# Sort them by ID
-			this.achievements.sort(@(a, b) a.ID <=> b.ID);
-		} catch (error) {
-			print("*** " + error + "\n");
+		# Hide all entries
+		foreach(entry in this.entries) {
+			entry.hide();
 		}
+	}
 
-		# Reset the offset and selected index
-		this.select_idx = 0;
-		this.offset_idx = 0;
+	function hide_message() {
+		this.message.visible = false;
+	}
+
+	function set_achievements(achievements)
+	{
+		# Update achievements
+		this.achievements = achievements;
+
+		# Sort Achievements by ID
+		this.achievements.sort(@(a, b) a.ID <=> b.ID);
+
+		# Redraw
+		this.draw();
 	}
 
 	function draw()
 	{
 		if (! this.is_active) {
 			return;
+		}
+
+		if (fe.game_info(Info.Name) != last_rom_update || this.async_load_thread.getstatus() == "suspended") {
+			this.show_message("Loading ...");
+			return;
+		} else {
+			this.hide_message();
 		}
 
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -234,7 +315,7 @@ class RightBoxAchievements
 			}
 
 			entry.set_achievement(this.achievements[visible_idx]);
-			entry.set_badge(this.ra.badge_image(this.achievements[visible_idx]["BadgeName"]));
+			entry.set_badge(ra.badge_image(this.achievements[visible_idx]["BadgeName"]));
 
 			# Mark entry as selected, but only when the achivements are active
 			if (this.is_active && this.select_idx == visible_idx) {
@@ -291,7 +372,7 @@ class RightBoxAchievements
 	{
 		this.is_active = true;
 		this.surface.visible = true;
-		this.load();
+		// this.load();
 		this.draw();
 	}
 
