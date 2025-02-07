@@ -113,17 +113,17 @@ class AchievementEntry {
 
 class RightBoxAchievements
 {
-	surface = null;
+	ra = null;         # RetroAchievements API
 	
-	ra = null;
-
-	PAGE_SIZE = 10;
-	entries = [];
+	surface = null;    # Drawing Surface
+	message = null;    # 
+	entries = [];      # Array of AchievementEntries
 
 	achievements = []; # Array containing all the achivements
 	select_idx = 0;    # The index of the selected achivement
 	offset_idx = 0;    # The index of the first visible achivement
 
+	PAGE_SIZE = 10;    # Number of achievemnts visible on screen
 	is_active = true;
 
 	function constructor()
@@ -153,6 +153,14 @@ class RightBoxAchievements
 		title.char_size = 32;
 		title.align = Align.TopCentre;
 
+		# Message
+		this.message = this.surface.add_text("", 30, 190, this.surface.width-60, 320);
+		this.message.char_size = 30;
+		this.message.line_spacing = 1.2;
+		this.message.align = Align.MiddleCentre;
+		this.message.word_wrap = true;
+		this.message.visible = false;
+
 		# Create the achievement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -160,20 +168,8 @@ class RightBoxAchievements
 			this.entries.push(entry)
 		}
 
-		# Add a callback to load achievements when game is changed
-		fe.add_transition_callback(this, "transition_callback");
-
+		fe.add_ticks_callback(this, "ticks_callback")
 		draw();
-	}
-
-	function transition_callback(ttype, var, transition_time)
-	{
-		if (!this.is_active) { return }
-
-		if (ttype == Transition.FromOldSelection) {
-			load();
-			draw();
-		}
 	}
 
 	function key_detect(signal_str)
@@ -202,7 +198,16 @@ class RightBoxAchievements
 		if (! this.is_active) { return }
 
 		try {
+			# Load Achivements
 			this.achievements = this.ra.game_achievements(fe.game_info(Info.Name))
+
+			# Download Badges
+			foreach (achievement in this.achievements) {
+				this.ra.badge_image(achievement["BadgeName"])
+			}
+
+			# Sort them by ID
+			this.achievements.sort(@(a, b) a.ID <=> b.ID);
 		} catch (error) {
 			print("*** " + error + "\n");
 		}
@@ -287,7 +292,6 @@ class RightBoxAchievements
 		this.is_active = true;
 		this.surface.visible = true;
 		this.load();
-
 		this.draw();
 	}
 
