@@ -74,10 +74,8 @@ class GameStartupPage
 				# Copy the dipswitches from the parent rom if this is a clone
 				local parent_rom = versions.get_default_rom();
 				if (parent_rom != diverted_rom) {
-					local dipswitches = FBNeoDipSwitches(parent_rom);
-					for(local idx=0; idx<dipswitches.len(); idx++) {
-						local dipswitch = dipswitches.get(idx);
-
+					local dipswitches = fbneo.dipswitches(parent_rom);
+					foreach (dipswitch in dipswitches) {
 						dipswitch.rom = diverted_rom;
 						dipswitch.write();
 					}

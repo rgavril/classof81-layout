@@ -6,7 +6,7 @@
 	option.select_prev();
 	option.select_idx(idx);
 */
-class ConfigMenuDipswitch {
+class ConfigMenuOptionDipswitch {
 	dipswitch = null
 
 	constructor(dipswitch) {
@@ -36,6 +36,7 @@ class ConfigMenuDipswitch {
 	}
 
 	function select_idx(idx) {
+		local value = this.dipswitch.get_possible_values()[idx];
 		this.dipswitch.set_value(this.dipswitch.get_possible_values()[idx]);		
 	}
 
@@ -133,21 +134,17 @@ class ConfigMenu {
 		}
 
 		# Add 'Dipswitch' entries
-		local dipswitches = FBNeoDipSwitches(rom)
-
-		for (local i=0; i<dipswitches.len(); i++) {
-			# Get the info for the dipswitch
-			local dipswitch = dipswitches.get(i)
-
+		local dipswitches = fbneo.dipswitches(rom);
+		foreach (dipswitch in dipswitches) {
 			# If dispwitch is marked as advanced, don't add it
 			if ( dipswitch.is_advanced ) { continue }
 
 			# Add the actual dipswitch menu entry
-			this.menu_entries.push({ "type": "dipswitch", "dipswitch": ConfigMenuDipswitch(dipswitch) })
+			this.menu_entries.push({ "type": "dipswitch", "dipswitch": ConfigMenuOptionDipswitch(dipswitch) })
 		}
 
 		# Show Warning Message if dipswitches were not defined 
-		this.missing_file_warning.visible = dipswitches.is_missing_file ? true : false
+		this.missing_file_warning.visible = (dipswitches == null);
 
 		# Add 'Reset to Defaults' menu entry
 		this.menu_entries.push({ "type": "reset" })

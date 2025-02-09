@@ -61,7 +61,11 @@ class FBNeoDipSwitch {
 	}
 
 	function set_value(value) {
-		local idx = this.values.find(value) || this.default_idx;
+		local idx = this.values.find(value);
+		if (idx == null) {
+			idx = this.default_idx;
+		}
+
 		this.set_current_idx(idx);
 	}
 
@@ -70,45 +74,33 @@ class FBNeoDipSwitch {
 	}
 }
 
-class FBNeoDipSwitches {
 
-	is_missing_file = false;
-	dip_switches = [];
-	rom = null;
-
-	constructor(rom)
+/*
+	fbneo.dipswitches("mspacman");
+*/
+class FBNeo {
+	function dipswitches(rom)
 	{
-		this.dip_switches = [];
-		this.rom = rom;
+		local json_info = [];
 
-		local dip_switches_definition = [];
 		try {
-			dip_switches_definition = dofile(fe.script_dir + "/modules/fbneo-dipswitches/"+rom+".nut");
+			json_info = dofile(fe.script_dir + "/modules/fbneo-dipswitches/"+rom+".nut");
 		} catch(e) {
-			this.is_missing_file = true;
-			print("WARNING: Cannot find dip switch definitnion file from rom '"+rom+"'.\n");
-		}
-
-		foreach (definition in dip_switches_definition) {
-			if (definition["name"] == "Unknown") {  continue; }
-			if (definition["name"] == "Unused")  {  continue; }
-
-			local is_advanced = "advanced" in definition && definition["advanced"] == true ? true : false;
-			local dip_switch = FBNeoDipSwitch(rom, definition["name"], definition["values"], definition["default"], is_advanced);
-
-			dip_switches.push(dip_switch);
-		}
-	}
-
-	function len() {
-		return dip_switches.len();
-	}
-
-	function get(index) {
-		if (index < dip_switches.len()) {
-			return dip_switches[index];
-		} else {
+			print("WARNING: Cannot find dip switch definition file for rom '"+rom+"'.\n");
 			return null;
 		}
+
+		local dipswitches = []
+		foreach (entry in json_info) {
+			local is_advanced = "advanced" in entry && entry["advanced"] == true ? true : false;
+			local dipswitch = FBNeoDipSwitch(rom, entry["name"], entry["values"], entry["default"], is_advanced);
+
+			dipswitches.push(dipswitch);
+		}
+
+		return dipswitches;
 	}
 }
+
+# FBNeo API
+fbneo <- FBNeo();
