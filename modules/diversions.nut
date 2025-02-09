@@ -6,14 +6,21 @@
 class Diversions {
 	CONFIG_FILE = fe.script_dir+"/config/versions.conf"
 
+	ini_cache = {};
+
 	function get(parent_rom) {
 		local clone_rom = null;
 
 		# Try to read if a diversion is in palce
 		try {
-			clone_rom = ini_read(CONFIG_FILE, parent_rom);
+			if (parent_rom in this.ini_cache) {
+				clone_rom = this.ini_cache[parent_rom];
+			} else {
+				clone_rom = ini_read(CONFIG_FILE, parent_rom);
+			}
 		} catch(e) {
 			print("WARNING: cannot read diversions from " + CONFIG_FILE + "\n");
+			print(e+"\n\n\n\n");
 			return parent_rom;
 		}
 
@@ -38,6 +45,8 @@ class Diversions {
 		}
 
 		ini_write(CONFIG_FILE, parent_rom, clone_rom);
+
+		this.ini_cache[parent_rom] <- clone_rom;
 	}
 }
 

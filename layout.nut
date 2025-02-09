@@ -29,7 +29,6 @@ fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/text-scroller.nut");
 fe.do_nut("modules/fbneo.nut");
 fe.do_nut("modules/overview.nut");
-fe.do_nut("modules/rom-versions.nut");
 
 fe.do_nut("sound-engine.nut");
 fe.do_nut("bottom-text.nut");

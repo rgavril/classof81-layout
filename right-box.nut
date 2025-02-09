@@ -62,7 +62,6 @@ class RightBox
 			return false;
 		}
 
-
 		if (this.active_display().key_detect(signal_str)) {
 			return true;
 		}
@@ -80,7 +79,6 @@ class RightBox
 			break;
 
 			case "right":
-				// this.next_display();
 				return true;
 			break;
 		}
@@ -115,6 +113,7 @@ class RightBox
 	function desactivate()
 	{
 		this.is_active = false;
+		// show_display(0);
 		this.active_display().desactivate();
 		draw();
 	}
