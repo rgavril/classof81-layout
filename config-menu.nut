@@ -1,3 +1,63 @@
+/*
+	option.label();
+	option.value();
+	option.all_values();
+	option.select_next();
+	option.select_prev();
+	option.select_idx(idx);
+*/
+class ConfigMenuDipswitch {
+	dipswitch = null
+
+	constructor(dipswitch) {
+		this.dipswitch = dipswitch;
+	}
+
+	function label() {
+		return this.dipswitch.get_name();
+	}
+
+	function value() {
+		return this.dipswitch.get_value();
+	}
+
+	function all_values() {
+		return this.dipswitch.get_possible_values();
+	}
+
+	function select_next() {
+		local idx = (this.current_idx() + 1) % this.all_values().len();
+		this.select_idx(idx);
+	}
+
+	function select_prev() {
+		local idx = (this.current_idx() + this.all_values().len() - 1) % this.all_values().len();
+		this.select_idx(idx);
+	}
+
+	function select_idx(idx) {
+		this.dipswitch.set_value(this.dipswitch.get_possible_values()[idx]);		
+	}
+
+	function current_idx() {
+		local dipswitch_values = this.dipswitch.get_possible_values();
+
+		local curr_value = this.dipswitch.get_value();
+		local curr_idx   = dipswitch_values.find(curr_value);
+
+		if (curr_idx == null) {
+			curr_value = this.dipswitch.get_default_value();
+			curr_idx   = dipswitch_values.find(curr_value);
+		}
+
+		return curr_idx;
+	}
+
+	function reset() {
+		this.dipswitch.set_value(this.dipswitch.get_default_value());
+	}
+}
+
 class ConfigMenu {
 	PAGE_SIZE = 7;
 
@@ -83,7 +143,7 @@ class ConfigMenu {
 			if ( dipswitch.is_advanced ) { continue }
 
 			# Add the actual dipswitch menu entry
-			this.menu_entries.push({ "type": "dipswitch", "dipswitch": dipswitch })
+			this.menu_entries.push({ "type": "dipswitch", "dipswitch": ConfigMenuDipswitch(dipswitch) })
 		}
 
 		# Show Warning Message if dipswitches were not defined 
@@ -148,8 +208,8 @@ class ConfigMenu {
  					break
 
  				case "dipswitch":
- 					menu_button.set_label(menu_entry["dipswitch"].get_name())
- 					menu_button.set_value(menu_entry["dipswitch"].get_current_value())
+ 					menu_button.set_label(menu_entry["dipswitch"].label())
+ 					menu_button.set_value(menu_entry["dipswitch"].value())
  					break
  			}
 
@@ -220,7 +280,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound()
-				menu_entry["dipswitch"].select_next_value()
+				menu_entry["dipswitch"].select_next()
 				break
 
 			case "versions":
@@ -246,7 +306,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound()
-				menu_entry["dipswitch"].select_prev_value()
+				menu_entry["dipswitch"].select_prev()
 				break
 
 			case "versions":
@@ -282,9 +342,9 @@ class ConfigMenu {
 				break
 
 			case "dipswitch":
-				::popup_menu.set_message     ( "Choose a new setting for\n" + menu_entry["dipswitch"].get_name().toupper() )
-				::popup_menu.set_options     ( menu_entry["dipswitch"].get_values() )
-				::popup_menu.set_selected_idx( menu_entry["dipswitch"].get_current_idx() )
+				::popup_menu.set_message     ( "Choose a new setting for\n" + menu_entry["dipswitch"].label().toupper() )
+				::popup_menu.set_options     ( menu_entry["dipswitch"].all_values() )
+				::popup_menu.set_selected_idx( menu_entry["dipswitch"].current_idx() )
 				::popup_menu.show()
 				break
 		}
@@ -311,7 +371,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				local popup_idx = ::popup_menu.get_selected_idx()
-				menu_entry["dipswitch"].set_current_idx( popup_idx )
+				menu_entry["dipswitch"].select_idx( popup_idx )
 				break
 
 			case "hide":

@@ -1,3 +1,12 @@
+/*
+	dipswitch.get_name();
+	dipswitch.get_value();
+	dipswitch.get_default_value();
+	dispwtich.get_possible_values();
+
+	dipswitch.set_value(value);
+	dipswitch.reset();
+*/
 class FBNeoDipSwitch {
 	rom = "";
 	name = "";
@@ -22,33 +31,15 @@ class FBNeoDipSwitch {
 		}
 	}
 
-	function select_next_value() {
-		local next_value_idx = (current_idx + 1) % values.len();
-		this.current_idx = next_value_idx;
-
-		this.write();
-	}
-
-	function select_prev_value() {
-		local next_value_idx = (current_idx + values.len() - 1) % values.len();
-		this.current_idx = next_value_idx;
-
-		this.write();
-	}
-
-	function get_current_value() {
+	function get_value() {
 		return values[current_idx];
-	}
-
-	function get_current_idx() {
-		return this.current_idx;
 	}
 
 	function get_name() {
 		return this.name;
 	}
 
-	function get_values() {
+	function get_possible_values() {
 		return this.values;
 	}
 
@@ -57,7 +48,7 @@ class FBNeoDipSwitch {
 	}
 
 	function write() {
-		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.get_current_value());
+		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.get_value());
 	}
 
 	function set_current_idx(index) {
@@ -67,6 +58,11 @@ class FBNeoDipSwitch {
 
 		this.current_idx = index;
 		write();
+	}
+
+	function set_value(value) {
+		local idx = this.values.find(value) || this.default_idx;
+		this.set_current_idx(idx);
 	}
 
 	function reset() {
