@@ -155,6 +155,7 @@ class RightBoxAchievements
 	surface = null;    # Drawing Surface
 	message = null;    # 
 	entries = [];      # Array of AchievementEntries
+	subtitle = null;
 
 	achievements = []; # Array containing all the achivements
 	select_idx = 0;    # The index of the selected achivement
@@ -190,6 +191,13 @@ class RightBoxAchievements
 		title.char_size = 32;
 		title.align = Align.TopCentre;
 
+		# Subtitle
+		this.subtitle = this.surface.add_text("", 25, 50, this.surface.width-50, 50);
+		subtitle.font = "fonts/CriqueGrotesk.ttf"
+		subtitle.set_rgb(255, 255, 255);
+		subtitle.char_size = 24;
+		subtitle.align = Align.TopCentre;
+
 		# Message
 		this.message = this.surface.add_text("", 30, 200, this.surface.width-60, 320);
 		this.message.char_size = 30;
@@ -201,7 +209,7 @@ class RightBoxAchievements
 		# Create the achievement entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = AchievementEntry(this.surface, 0, 85+70*i);
+			local entry = AchievementEntry(this.surface, 0, 105+70*i);
 			this.entries.push(entry)
 		}
 
@@ -304,6 +312,9 @@ class RightBoxAchievements
 	{
 		# Update the instrutions bottom text
 		bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
+
+		# Update subtitle
+		this.subtitle.msg = romlist.game_info(this.rom_current(), Info.Title);
 
 		# If Current rom is not loaded or is still loading
 		if (this.rom_current() != this.rom_loaded || this.async_load_thread.getstatus() == "suspended") {
