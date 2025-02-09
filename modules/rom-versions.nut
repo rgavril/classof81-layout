@@ -142,10 +142,10 @@ class RomVersions
 	}
 
 	function _save_to_disk() {
-		retroarch_config_write(this.CONFIG_FILE, this.rom, this.get_current_rom());
+		ini_write(this.CONFIG_FILE, this.rom, this.get_current_rom());
 	}
 
 	function _read_from_disk() {
-		return retroarch_config_read(this.CONFIG_FILE, this.rom)
+		return ini_read(this.CONFIG_FILE, this.rom)
 	}
 }

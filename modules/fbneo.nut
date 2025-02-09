@@ -23,7 +23,7 @@ class FBNeoDipSwitch {
 		this.current_idx = default_idx;
 		this.is_advanced = is_advanced;
 
-		local saved_value = retroarch_config_read(AM_CONFIG["fbneo_config_file"], this.key());
+		local saved_value = ini_read(AM_CONFIG["fbneo_config_file"], this.key());
 		foreach(idx, value in this.values) {
 			if (saved_value == value) {
 				this.current_idx = idx;
@@ -48,7 +48,7 @@ class FBNeoDipSwitch {
 	}
 
 	function write() {
-		retroarch_config_write(AM_CONFIG["fbneo_config_file"], this.key(), this.get_value());
+		ini_write(AM_CONFIG["fbneo_config_file"], this.key(), this.get_value());
 	}
 
 	function set_current_idx(index) {
