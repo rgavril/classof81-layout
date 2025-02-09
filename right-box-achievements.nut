@@ -111,7 +111,7 @@ class AchievementEntry {
 	}
 }
 
-function coroutine_load_achievements(rom) {
+function async_load_function(rom) {
 	suspend(null);
 
 	# Download Game Info
@@ -130,9 +130,6 @@ function coroutine_load_achievements(rom) {
 		return {"error": error }
 	}
 	suspend(null);
-
-
-	print_table(gameinfo);
 
 	# Download Badges
 	if ("Achievements" in gameinfo) {
@@ -166,7 +163,8 @@ class RightBoxAchievements
 	PAGE_SIZE = 10;    # Number of achievemnts visible on screen
 	is_active = true;
 
-	last_rom_update = "";
+	rom_loaded = "";
+	rom_current = "";
 
 	function constructor()
 	{
@@ -207,34 +205,46 @@ class RightBoxAchievements
 			this.entries.push(entry)
 		}
 
-		fe.add_ticks_callback(this, "async_load_update");
+		fe.add_ticks_callback(this, "async_load_manager");
+		fe.add_transition_callback(this, "transition_callback");
 
 		draw();
 	}
 
-	async_load_thread = newthread(coroutine_load_achievements);
-	function async_load_update(tick_time)
+	function transition_callback(ttype, var, transition_time) {
+		this.rom_current = fe.game_info(Info.Name);
+	}
+
+	async_load_thread = newthread(async_load_function);
+	function async_load_manager(tick_time)
 	{
 		if (this.async_load_thread.getstatus() == "suspended") {
 			local response = this.async_load_thread.wakeup();
 
 			if (response != null) {
 				if ("error" in response) {
+					# Clear Achievements
 					this.set_achievements([]);
+
+					# Show Message
 					this.show_message(response.error);
 				}
 
 				if ("achievements" in response) {
 					# Update Achivements
 					this.set_achievements(response.achievements);
+
+					if (this.achievements.len() == 0) {
+						this.show_message("Game Has No Retro Achivements Defined");
+					}
 				}
 			}
 		}
 
 		if (this.async_load_thread.getstatus() == "idle" && this.is_active) {
-			if (fe.game_info(Info.Name) != last_rom_update) {
-				this.last_rom_update = fe.game_info(Info.Name);
-				this.async_load_thread.call(last_rom_update);
+			if (this.rom_current != this.rom_loaded) {
+				this.async_load_thread.call(this.rom_current);
+				this.rom_loaded = this.rom_current;
 			}
 		}
 	}
@@ -297,16 +307,16 @@ class RightBoxAchievements
 		# Update the instrutions bottom text
 		bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
 
-		if (fe.game_info(Info.Name) != last_rom_update || this.async_load_thread.getstatus() == "suspended") {
+		if (this.rom_current != this.rom_loaded || this.async_load_thread.getstatus() == "suspended") {
 			this.show_message("Loading ...");
 			return;
 		} else {
 			this.hide_message();
 		}
 
-		if (this.achievements.len() == 0)
-		{
-			this.show_message("Game Has No Retro Achivements");
+		if (this.achievements.len() == 0) {
+			this.message.visible = true;
+			return;
 		}
 
 		for (local i=0; i<PAGE_SIZE; i++) {

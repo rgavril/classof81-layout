@@ -1,7 +1,7 @@
 class RetroAchievements
 {
 	Error = {
-		NoAcheievemnts = "Game Has No Retro Achivements",
+		GameIDNotFound = "Game Not Found in Retro Achivements Database",
 		GameListDownload = "Cannot Download Retro Achievements Game List",
 		GameListParse = "Cannot Parse Retro Achievements Game List",
 		GameInfoDownload = "Cannot Download Retro Achievements Game Info",
@@ -104,7 +104,7 @@ class RetroAchievements
 		}
 
 		# If we got this far, and not game was found, thow a error
-		throw Error.NoAcheievemnts;
+		throw Error.GameIDNotFound;
 	}
 
 	function game_achievements(rom) {
