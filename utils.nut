@@ -235,7 +235,7 @@ function print_table(t, indent = 0) {
     }
 
     foreach (key, value in t) {
-        if (typeof(value) == "table") {
+        if (typeof(value) == "table" || typeof(value) == "array") {
             print(indentation + key + ": {\n")
             print_table(value, indent + 1)  // Recursively print nested table with increased indentation
             print(indentation + "}\n")

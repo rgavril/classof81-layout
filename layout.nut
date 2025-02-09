@@ -21,13 +21,15 @@ fe.layout.height = 1280;
 fe.layout.page_size = 6;
 fe.layout.font = "fonts/CriqueGrotesk.ttf";
 
+fe.do_nut("modules/retro-achievements.nut");
+fe.do_nut("modules/romlist.nut");
+
 fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/text-scroller.nut");
 fe.do_nut("modules/retroarch-config.nut");
 fe.do_nut("modules/fbneo-dipswitches.nut");
 fe.do_nut("modules/overview.nut");
 fe.do_nut("modules/rom-versions.nut");
-fe.do_nut("modules/retro-achievements.nut");
 
 fe.do_nut("sound-engine.nut");
 fe.do_nut("bottom-text.nut");
