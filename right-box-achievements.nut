@@ -300,25 +300,25 @@ class RightBoxAchievements
 
 	function draw()
 	{
-		if (! this.is_active) {
-			return;
-		}
-
 		# Update the instrutions bottom text
 		bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
 
+		# If Current rom is not loaded or is still loading
 		if (this.rom_current != this.rom_loaded || this.async_load_thread.getstatus() == "suspended") {
 			this.show_message("Loading ...");
 			return;
+
+		# If Current rom is loaded but has not returned achievements
+		} else if (this.achievements.len() == 0) {
+			this.message.visible = true;
+			return;
+
+		# If Current rom is loaded and has achievements
 		} else {
 			this.hide_message();
 		}
 
-		if (this.achievements.len() == 0) {
-			this.message.visible = true;
-			return;
-		}
-
+		# Update all the achievemnt entries
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
 			local visible_idx = this.offset_idx + i;
@@ -381,14 +381,22 @@ class RightBoxAchievements
 	function activate()
 	{
 		this.is_active = true;
-		this.surface.visible = true;
-		// this.load();
 		this.draw();
 	}
 
 	function desactivate()
 	{
 		this.is_active = false;
+		this.draw();
+	}
+
+	function show()
+	{
+		this.surface.visible = true;
+	}
+
+	function hide()
+	{
 		this.surface.visible = false;
 	}
 }

@@ -41,8 +41,11 @@ class RightBox
 
 		foreach (display in displays) {
 			display.desactivate();
+			display.hide();
 		}
+
 		this.active_display().activate();
+		this.active_display().show();
 	}
 
 	function transition_callback(ttype, var, transition_time)
@@ -105,12 +108,14 @@ class RightBox
 	{
 		show_display(1);
 		this.is_active = true;
+		this.active_display().activate();
 		draw();
 	}
 
 	function desactivate()
 	{
 		this.is_active = false;
+		this.active_display().desactivate();
 		draw();
 	}
 }

@@ -84,13 +84,22 @@ class RightBoxOverview
 	function activate()
 	{
 		this.is_active = true;
-		this.surface.visible = true;
 		this.draw();
 	}
 
 	function desactivate()
 	{
 		this.is_active = false;
+		this.draw();
+	}
+
+	function show()
+	{
+		this.surface.visible = true;
+	}
+
+	function hide()
+	{
 		this.surface.visible = false;
 	}
 }
