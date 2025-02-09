@@ -304,6 +304,10 @@ class RightBoxAchievements
 		# Sort Achievements by ID
 		this.achievements.sort(@(a, b) a.ID <=> b.ID);
 
+		# Reset Indexes
+		this.select_idx = 0;
+		this.offset_idx = 0;
+
 		# Redraw
 		this.draw();
 	}
@@ -361,6 +365,8 @@ class RightBoxAchievements
 			return;
 		}
 
+		# Play a sound
+		::sound_engine.play_click_sound()
 
 		# Select the next element in list
 		this.select_idx++;
@@ -379,6 +385,9 @@ class RightBoxAchievements
 		if (this.select_idx == 0) {
 			return;
 		}
+
+		# Play a sound
+		::sound_engine.play_click_sound()
 
 		# Select the previous element in the list
 		this.select_idx--;
