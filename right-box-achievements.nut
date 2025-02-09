@@ -314,9 +314,6 @@ class RightBoxAchievements
 
 	function draw()
 	{
-		# Update the instrutions bottom text
-		bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
-
 		# Update subtitle
 		this.subtitle.msg = romlist.game_info(this.rom_current(), Info.Title);
 
@@ -402,6 +399,9 @@ class RightBoxAchievements
 
 	function activate()
 	{
+		# Update the instrutions bottom text
+		::bottom_text.set("Move up or down to browse the Achievements. Move left to play [Title] or a different game.");
+
 		this.is_active = true;
 		this.draw();
 	}

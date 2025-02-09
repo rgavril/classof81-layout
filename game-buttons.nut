@@ -155,6 +155,9 @@ class GameButtons {
 	function desactivate()
 	{
 		this.is_active = false;
+		foreach (button in this.buttons) {
+			button.desactivate();
+		}
 		draw();
 	}
 }
