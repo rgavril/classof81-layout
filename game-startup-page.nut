@@ -56,10 +56,8 @@ class GameStartupPage
 	function ticks_callback(tick_time) {
 		# If the this page is active and we're in the clone list, we need to select a game
 		if (this.is_active && this.in_clone_list) {
-			local versions = RomVersions(this.rom);
-
-			local selected_rom = fe.game_info(Info.Name);     # Current selected rom from attractmode
-			local diverted_rom = versions.get_current_rom();  # Actual rom that we want to play
+			local selected_rom = fe.game_info(Info.Name);   # Current selected rom from attractmode
+			local diverted_rom = diversions.get(this.rom)  # Actual rom that we want to play
 
 			# If the current game is not what we want to run move to next game
 			if (selected_rom != diverted_rom) {
@@ -72,7 +70,7 @@ class GameStartupPage
 				this.in_clone_list = false;
 
 				# Copy the dipswitches from the parent rom if this is a clone
-				local parent_rom = versions.get_default_rom();
+				local parent_rom = this.rom;
 				if (parent_rom != diverted_rom) {
 					local dipswitches = fbneo.dipswitches(parent_rom);
 					foreach (dipswitch in dipswitches) {

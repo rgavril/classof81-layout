@@ -23,6 +23,7 @@ fe.layout.font = "fonts/CriqueGrotesk.ttf";
 
 fe.do_nut("modules/retro-achievements.nut");
 fe.do_nut("modules/romlist.nut");
+fe.do_nut("modules/diversions.nut");
 
 fe.do_nut("modules/signal-repeater.nut");
 fe.do_nut("modules/text-scroller.nut");

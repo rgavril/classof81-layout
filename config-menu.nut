@@ -1,9 +1,9 @@
 /*
 	option.label();
 	option.value();
-	option.all_values();
-	option.select_next();
-	option.select_prev();
+	option.options();
+	option.select_next_option();
+	option.select_prev_options();
 	option.select_idx(idx);
 */
 class ConfigMenuOptionDipswitch {
@@ -21,17 +21,17 @@ class ConfigMenuOptionDipswitch {
 		return this.dipswitch.get_value();
 	}
 
-	function all_values() {
+	function options() {
 		return this.dipswitch.get_possible_values();
 	}
 
-	function select_next() {
-		local idx = (this.current_idx() + 1) % this.all_values().len();
+	function select_next_option() {
+		local idx = (this.current_idx() + 1) % this.options().len();
 		this.select_idx(idx);
 	}
 
-	function select_prev() {
-		local idx = (this.current_idx() + this.all_values().len() - 1) % this.all_values().len();
+	function select_prev_options() {
+		local idx = (this.current_idx() + this.options().len() - 1) % this.options().len();
 		this.select_idx(idx);
 	}
 
@@ -56,6 +56,67 @@ class ConfigMenuOptionDipswitch {
 
 	function reset() {
 		this.dipswitch.set_value(this.dipswitch.get_default_value());
+	}
+}
+
+class ConfigMenuOptionVersions {
+	rom = "";
+	versions = [];
+
+	constructor(rom) {
+
+		this.rom = rom;
+
+		versions = [];
+		foreach (clone_rom in romlist.game_clones(this.rom)) {
+			versions.push(clone_rom);
+		}
+		versions.push(rom);
+	}
+
+	function label() {
+		return "Version"
+	}
+
+	function value() {
+		local current_rom = diversions.get(this.rom);
+
+		return (romlist.game_info(current_rom, Info.Title));
+	}
+
+	function options() {
+		local values = [];
+
+		foreach (version in this.versions) {
+			values.push(romlist.game_info(version, Info.Title));
+		}
+
+		return values;
+	}
+
+	function select_next_option() {
+		local idx = (this.current_idx() + 1) % this.options().len();
+		this.select_idx(idx);
+	}
+
+	function select_prev_options() {
+		local idx = (this.current_idx() + this.options().len() - 1) % this.options().len();
+		this.select_idx(idx);
+	}
+
+	function select_idx(idx) {
+		local clone_rom = this.versions[idx];
+		diversions.set(this.rom, clone_rom);
+	}
+
+	function current_idx() {
+		local current_rom = diversions.get(this.rom);
+
+		return this.versions.find(current_rom);
+	}
+
+	function reset() {
+		diversions.set(this.rom, this.rom);
 	}
 }
 
@@ -128,9 +189,8 @@ class ConfigMenu {
 		this.menu_entries.push({ "type": "hide" })
 
 		# Add 'Version' entry
-		local versions = RomVersions(rom)
-		if ( versions.get_available_roms().len() > 1 ) {
-			this.menu_entries.push({ "type": "versions", "versions": versions })
+		if ( romlist.game_clones(rom).len() > 0) {
+			this.menu_entries.push({ "type": "versions", "versions": ConfigMenuOptionVersions(rom) })
 		}
 
 		# Add 'Dipswitch' entries
@@ -195,8 +255,8 @@ class ConfigMenu {
  					break
 
 				case "versions":
-					menu_button.set_label("Version")
-					menu_button.set_value(menu_entry["versions"].get_current_title())
+					menu_button.set_label(menu_entry["versions"].label())
+					menu_button.set_value(menu_entry["versions"].value())
 					break
 
  				case "reset":
@@ -277,12 +337,12 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound()
-				menu_entry["dipswitch"].select_next()
+				menu_entry["dipswitch"].select_next_option()
 				break
 
 			case "versions":
 				::sound_engine.play_click_sound()
-				menu_entry["versions"].select_next_version()
+				menu_entry["versions"].select_next_option()
 				break
 		}
 
@@ -303,12 +363,12 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::sound_engine.play_click_sound()
-				menu_entry["dipswitch"].select_prev()
+				menu_entry["dipswitch"].select_prev_options()
 				break
 
 			case "versions":
 				::sound_engine.play_click_sound()
-				menu_entry["versions"].select_prev_version()
+				menu_entry["versions"].select_prev_options()
 				break
 		}
 
@@ -326,8 +386,8 @@ class ConfigMenu {
 
 			case "versions":
 				::popup_menu.set_message     ( "What version do you want to play ?" )
-				::popup_menu.set_options     ( menu_entry["versions"].get_available_titles() )
-				::popup_menu.set_selected_idx( menu_entry["versions"].get_current_idx() )
+				::popup_menu.set_options     ( menu_entry["versions"].options() )
+				::popup_menu.set_selected_idx( menu_entry["versions"].current_idx() )
 				::popup_menu.show()
 				break
 
@@ -340,7 +400,7 @@ class ConfigMenu {
 
 			case "dipswitch":
 				::popup_menu.set_message     ( "Choose a new setting for\n" + menu_entry["dipswitch"].label().toupper() )
-				::popup_menu.set_options     ( menu_entry["dipswitch"].all_values() )
+				::popup_menu.set_options     ( menu_entry["dipswitch"].options() )
 				::popup_menu.set_selected_idx( menu_entry["dipswitch"].current_idx() )
 				::popup_menu.show()
 				break
@@ -363,7 +423,7 @@ class ConfigMenu {
 
 			case "versions":
 				local popup_idx = ::popup_menu.get_selected_idx()
-				menu_entry["versions"].set_current_idx( popup_idx )
+				menu_entry["versions"].select_idx( popup_idx )
 				break
 
 			case "dipswitch":
