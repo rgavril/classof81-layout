@@ -146,3 +146,6 @@ class RetroAchievements
 		return url;
 	}
 }
+
+# Retro Achievements API
+ra <- RetroAchievements();
