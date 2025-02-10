@@ -22,10 +22,7 @@ This layout was specifically designed for Arcade1UP's *Class of '81* cabinet and
 - Designed to run on Linux. Windows and macOS are not a priority, but I'll try to maintain compatibility.
 - Dip switches and controls layouts require JSON files. Only a limited set of games are currently supported, but more can be added easily.
 
-## Installation and Configuration
+## Configuration
 
-This guide assumes you already have Attract Mode Plus, RetroArch with FBNeo core installed and running.
+Check the [Wiki Page](https://github.com/rgavril/classof81-layout/wiki) as there are some important settings you need to tweak to get all the features running!
 
-After copying the theme to the layout folder, you’ll need to adjust some settings in Attract Mode and RetroArch to enable all features.
-
-For detailed instructions, see the wiki page.
