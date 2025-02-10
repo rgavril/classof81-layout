@@ -8,7 +8,7 @@ This Attract Mode layout replicates the look and functionality of the default in
 
 - Configure dip switches from the game config menu.
 - Select alternate ROMs (clones) from the game config menu.
-- Display Retro Achievements for each game.
+- Display [Retro Achievements](https://retroachievements.org/) for each game.
 - Show the controls layout when starting a game.
 
 ## Limitations
