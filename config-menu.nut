@@ -276,7 +276,7 @@ class ConfigMenu {
 
 		# Update the bottom text info
 		if ( this.is_active ) {
-			::bottom_text.set("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Selet \"HIDE THIS MENU\" when done.")
+			::bottom_text.set("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Select \"HIDE THIS MENU\" when done.")
 		}
 	}
 
