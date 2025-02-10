@@ -220,29 +220,58 @@ function md5(input) {
 }
 
 // Recursive function to print tables with tabs for indentation
-function print_table(t, indent = 0) {
-    local tab = "    "  // Define a tab space (4 spaces)
-    local indentation = ""
-    
-    // Build the indentation string
-    for (local i = 0; i < indent; i++) {
-        indentation += tab
-    }
+function var_dump(variable, indent = 0) {
+	local tab = "    "  // Define a tab space (4 spaces)
+	local indentation = ""
 
-    if (t == null) {
-    	print(indentation + "(null)");
-    	return;
-    }
+	// Build the indentation string
+	for (local i = 0; i < indent; i++) {
+		indentation += tab
+	}
 
-    foreach (key, value in t) {
-        if (typeof(value) == "table" || typeof(value) == "array") {
-            print(indentation + key + ": {\n")
-            print_table(value, indent + 1)  // Recursively print nested table with increased indentation
-            print(indentation + "}\n")
-        } else {
-            print(indentation + key + ": " + value + "\n")  // Print the key-value pair with the indentation
-        }
-    }
+	if (variable == null) {
+		print("(null)\n");
+		return;
+	}
+
+	if (typeof(variable) != "table" && typeof(variable) != "array") {
+		if (typeof(variable) == "string") {
+			print("\""+ variable + "\"\n");
+		} else {
+			print(variable + "\n");
+		}
+		return;
+	}
+
+	if (typeof variable == "table") {
+		print("{\n")
+		foreach (key, value in variable) {
+			print(indentation + tab + key + ": ");
+
+			if (typeof(value) == "table" || typeof(value) == "array") {
+				var_dump(value, indent + 1);
+			} else {
+				var_dump(value, indent);
+			}
+		}
+		print(indentation + "}\n");
+		return;
+	}
+
+	if (typeof variable == "array") {
+		print("[\n")
+		foreach (key, value in variable) {
+			print(indentation + tab + key + " = ");
+
+			if (typeof(value) == "table" || typeof(value) == "array") {
+				var_dump(value, indent + 1);
+			} else {
+				var_dump(value, indent);
+			}
+		}
+		print(indentation + "]\n");
+		return;
+	}
 }
 
 function ini_write(filename, variable, value) {
