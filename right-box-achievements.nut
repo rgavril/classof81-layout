@@ -3,6 +3,7 @@ class AchievementEntry {
 
 	surface = null;
 	badge_icon = null;
+	badge_icon_border = null;
 	title_label = null;
 	description_label = null;
 	selection_box = null;
@@ -29,6 +30,13 @@ class AchievementEntry {
 		this.badge_icon = this.surface.add_image(null, 15, 5);
 		this.badge_icon.height=55;
 		this.badge_icon.width=55;
+
+		# Achievemnt badge image border
+		this.badge_icon_border = this.surface.add_rectangle(this.badge_icon.x, this.badge_icon.y, this.badge_icon.width, this.badge_icon.height);
+		this.badge_icon_border.alpha = 0;
+		this.badge_icon_border.outline = 2;
+		this.badge_icon_border.set_outline_rgb(255,255,0);
+
 
 
 		# Location of description and title text
@@ -81,6 +89,12 @@ class AchievementEntry {
 			this.badge_icon.shader = m_empty_shader;
 		} else {
 			this.badge_icon.shader = m_desaturize_shader;
+		}
+
+		if ("DateEarnedHardcore" in achievement) {
+			this.badge_icon_border.visible = true;
+		} else {
+			this.badge_icon_border.visible = false;
 		}
 
 		# Update the title and description
