@@ -56,6 +56,11 @@ class GameButtons {
 
 	letter_alpha = 0;
 	function ticks_callback(tick_time) {
+		if (! this.is_active && letter_alpha != 0) {
+			letter_alpha = 0;
+			this.letter.alpha = 0;
+			return;
+		}
 		if (fe.get_input_state("up") || fe.get_input_state("down")) {
 			letter_alpha+=1;
 		} else {
