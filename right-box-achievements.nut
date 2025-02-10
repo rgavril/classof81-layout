@@ -238,6 +238,14 @@ class RightBoxAchievements
 		return diversions.get(fe.game_info(Info.Name));
 	}
 
+	function transition_callback(ttype, var, transition_time)
+	{
+		# Force a achivements reload when returning from the game
+		if (ttype == Transition.FromGame && this.surface.visible) {
+			this.rom_loaded = "";
+		}
+	}
+
 	async_load_thread = newthread(async_load_function);
 	function async_load_manager(tick_time)
 	{
