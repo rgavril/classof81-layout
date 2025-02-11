@@ -1,6 +1,6 @@
 class UserConfig {
 	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
-	fbneo_config_file="/opt/retropie/configs/all/retroarch-core-options.cfg";
+	fbneo_config_file="";
 
 	</ label="Retro Achievemnts User", help="", is_input="no", order=1 />
 	ra_username="";
