@@ -148,7 +148,7 @@ class ConfigMenu {
 		this.warning_text.align     = Align.TopCentre
 		this.warning_text.char_size = 24
 		this.warning_text.visible   = false
-		this.warning_text.alpha     = 150
+		this.warning_text.alpha     = 180
 		// this.warning_text.set_rgb(255, 100, 100)
 
 		# Config Menu Buttons Array
@@ -286,6 +286,11 @@ class ConfigMenu {
 		# Update the bottom text info
 		if ( this.is_active ) {
 			::bottom_text.set("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Select \"HIDE THIS MENU\" when done.")
+		}
+
+		if (! fe.path_test(AM_CONFIG["fbneo_config_file"], PathTest.IsFile)) {
+			this.warning_text.msg = "WARNING: Layout Option 'FB Neo Config File' is not set correctly !";
+			this.warning_text.visible = true;
 		}
 	}
 
