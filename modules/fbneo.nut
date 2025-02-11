@@ -43,6 +43,10 @@ class FBNeoDipSwitch {
 		return this.values;
 	}
 
+	function get_default_value() {
+		return this.values[this.default_idx];
+	}
+
 	function key() {
 		return "fbneo-dipswitch-"+this.rom+"-"+str_replace(" ", "_", this.name);
 	}
