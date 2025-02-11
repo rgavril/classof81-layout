@@ -245,6 +245,10 @@ class RightBoxAchievements
 		if (ttype == Transition.FromGame && this.surface.visible) {
 			this.rom_loaded = "";
 		}
+
+		if (ttype == Transition.ToNewList && this.surface.visible) {
+			this.rom_loaded = "";
+		}
 	}
 
 	async_load_thread = newthread(async_load_function);

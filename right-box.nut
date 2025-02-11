@@ -54,6 +54,10 @@ class RightBox
 			show_display(0);
 			draw();
 		}
+
+		if (ttype == Transition.ToNewList) {
+			draw();
+		}
 	}
 
 	function key_detect(signal_str)

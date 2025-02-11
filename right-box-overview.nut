@@ -64,6 +64,10 @@ class RightBoxOverview
 		if (ttype == Transition.FromOldSelection) {
 			draw();
 		}
+
+		if (ttype == Transition.ToNewList) {
+			draw();
+		}
 	}
 
 	function key_detect(signal_str)
