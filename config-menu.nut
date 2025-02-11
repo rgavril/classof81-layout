@@ -129,7 +129,7 @@ class ConfigMenu {
 
 	surface = [];
 	menu_buttons = [];
-	missing_file_warning = null;
+	warning_text = null;
 	is_active = false;
 
 	constructor()
@@ -144,10 +144,12 @@ class ConfigMenu {
 		this.surface.add_image("images/config_menu.png", 0, 0)
 
 		# Missing Dipswitch File Warning
-		this.missing_file_warning           = this.surface.add_text("Missing Dipswitch Definition File", 80, 200, 780, 30)
-		this.missing_file_warning.align     = Align.TopCentre
-		this.missing_file_warning.char_size = 29
-		this.missing_file_warning.visible   = false
+		this.warning_text           = this.surface.add_text("", 80, 75, 780, 30)
+		this.warning_text.align     = Align.TopCentre
+		this.warning_text.char_size = 24
+		this.warning_text.visible   = false
+		this.warning_text.alpha     = 150
+		// this.warning_text.set_rgb(255, 100, 100)
 
 		# Config Menu Buttons Array
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -193,8 +195,18 @@ class ConfigMenu {
 			this.menu_entries.push({ "type": "versions", "versions": ConfigMenuOptionVersions(rom) })
 		}
 
-		# Add 'Dipswitch' entries
+		# Read 'Dipswitch' entries
 		local dipswitches = fbneo.dipswitches(rom);
+		if (dipswitches == null) {
+			dipswitches = [];
+
+			this.warning_text.msg     = "WARNING: Dipswitch Definition File is Missing or Invalid!";
+			this.warning_text.visible = true;
+		} else {
+			this.warning_text.visible = false;
+		}
+
+		# Add 'Dipswitch' entries
 		foreach (dipswitch in dipswitches) {
 			# If dispwitch is marked as advanced, don't add it
 			if ( dipswitch.is_advanced ) { continue }
@@ -202,9 +214,6 @@ class ConfigMenu {
 			# Add the actual dipswitch menu entry
 			this.menu_entries.push({ "type": "dipswitch", "dipswitch": ConfigMenuOptionDipswitch(dipswitch) })
 		}
-
-		# Show Warning Message if dipswitches were not defined 
-		this.missing_file_warning.visible = (dipswitches == null);
 
 		# Add 'Reset to Defaults' menu entry
 		this.menu_entries.push({ "type": "reset" })
