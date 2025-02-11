@@ -1,11 +1,20 @@
 class UserConfig {
-	</ label="FB Neo Config File", help="Location of fbneo config file where the dipswitch are saved", is_input="no", order=1 />
+	</ label="FB Neo Config File",
+	   help="Full path to the FBNeo config file for updating dipswitch settings.",
+	   is_input="no", order=1
+	/>
 	fbneo_config_file="";
 
-	</ label="Retro Achievemnts User", help="", is_input="no", order=1 />
+	</ label="RetroAchievements.org Username",
+	   help="Your RetroAchievements.org username for accessing game achievements.",
+	   is_input="no", order=2
+	/>
 	ra_username="";
 	
-	</ label="Retro Achievemnts Key", help="", is_input="no", order=1 />
+	</ label="RetroAchievements.org Web API Key",
+	   help="Your RetroAchievements.org Web API Key for accessing game achievements.",
+	   is_input="no", order=3
+	/>
 	ra_apikey="";
 }
 
