@@ -213,8 +213,9 @@ class RightBoxAchievements
 		subtitle.align = Align.TopCentre;
 
 		# Message
-		this.message = this.surface.add_text("", 30, 200, this.surface.width-60, 320);
-		this.message.char_size = 30;
+		this.message = this.surface.add_text("", 30, 250, this.surface.width-60, 320);
+		this.message.font = "fonts/CriqueGrotesk.ttf"
+		this.message.char_size = 28;
 		this.message.line_spacing = 1.2;
 		this.message.align = Align.MiddleCentre;
 		this.message.word_wrap = true;
@@ -266,7 +267,7 @@ class RightBoxAchievements
 					this.set_achievements(response.achievements);
 
 					if (this.achievements.len() == 0) {
-						this.show_message("Game Has No Retro Achivements Defined");
+						this.show_message("RetroAchievements.org doesn't have achievements for this game.");
 					}
 				}
 			}

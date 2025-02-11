@@ -1,12 +1,12 @@
 class RetroAchievements
 {
 	Error = {
-		GameIDNotFound = "Game Not Found in Retro Achivements Database",
-		GameListDownload = "Cannot Download Retro Achievements Game List",
-		GameListParse = "Cannot Parse Retro Achievements Game List",
-		GameInfoDownload = "Cannot Download Retro Achievements Game Info",
-		GameInfoParse = "Cannot Parse Retro Achievements Game Info",
-		GameInfoFormat = "Wrong Game Info Format",
+		GameIDNotFound = "Game not found in RetroAchievements.org database.",
+		GameListDownload = "Failed to download game list.\nCheck your internet connection and login credentials.",
+		GameListParse = "Error parsing the game list. Please try again.",
+		GameInfoDownload = "Failed to download game info.\nCheck your internet connection and login credentials.",
+		GameInfoParse = "Error parsing the game list. Please try again.",
+		GameInfoEmpty = "Game info is empty.\nCheck your internet connection and login credentials.",
 	}
 
 	STORAGE_DIR   = fe.script_dir+"/achievements/";
@@ -76,15 +76,23 @@ class RetroAchievements
 	}
 
 	function parse_gameinfo(rom) {
+		local gameinfo = null;
+
 		if (! fe.path_test(STORAGE_DIR+"/"+rom+".json", PathTest.IsFile)) {
 			this.download_gameinfo(rom);
 		}
 
 		try {
-			return load_json(STORAGE_DIR+"/"+rom+".json");
+			gameinfo = load_json(STORAGE_DIR+"/"+rom+".json");
 		} catch(e) {
 			throw Error.GameInfoParse;
 		}
+
+		if (gameinfo.len() == 0) {
+			throw Error.GameInfoEmpty;
+		}
+
+		return gameinfo;
 	}
 
 	function game_id(rom) {
@@ -105,25 +113,6 @@ class RetroAchievements
 
 		# If we got this far, and not game was found, thow a error
 		throw Error.GameIDNotFound;
-	}
-
-	function game_achievements(rom) {
-		# Parse the game info
-		local gameinfo = this.parse_gameinfo(rom);
-
-		# If this game has achievements
-		if ("Achievements" in gameinfo) {
-
-			# Return the achivements part of the gameinfo as an array
-			local achievements = [];
-			foreach (key, value in gameinfo.Achievements) {
-			    achievements.append(value);
-			}
-			return achievements;
-		}
-
-		# If Achivements was not found, we have a problem
-		throw Error.GameInfoFormat;
 	}
 
 	function badge_image(badge_id) {
