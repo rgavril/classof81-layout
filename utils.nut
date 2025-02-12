@@ -370,3 +370,38 @@ function ini_read(filename, variable) {
 
 	return value;
 }
+
+function unicode_fix(str) {
+	local unicodeMap = {
+		"00a5": "¥",
+		"00e9": "é",
+		"016b": "u", //"ū",
+		"2019": "’",
+		"201c": "“",
+		"201d": "”"
+	}
+	local re = regexp("\\\\u([0-9A-Fa-f]{1,4})");
+	local result = "";
+	local lastIndex = 0;
+	local match;
+
+	while ((match = re.search(str, lastIndex)) != null) {
+		local startIndex = match.begin;
+		result += str.slice(lastIndex, startIndex);
+
+		local unicodeValue = str.slice(startIndex+2, match.end);
+
+		local unicodeChar = "?";
+		if (unicodeValue in unicodeMap) {
+		    unicodeChar = unicodeMap[unicodeValue];
+		} else {
+			print("WARNING: Cannot decode \\u"+unicodeValue+" unicode escape char.\n");
+		}
+		result += unicodeChar;
+
+		lastIndex = match.end;
+	}
+
+	result += str.slice(lastIndex);
+	return result;
+}

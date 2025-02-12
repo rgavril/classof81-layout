@@ -98,8 +98,8 @@ class AchievementEntry {
 		}
 
 		# Update the title and description
-		this.description_scroller.set_text(this.achievement.Description)
-		this.title_scroller.set_text(this.achievement.Title)
+		this.description_scroller.set_text(unicode_fix(this.achievement.Description))
+		this.title_scroller.set_text(unicode_fix(this.achievement.Title))
 
 		if (this.is_selected) {
 			this.selection_box.visible = true;
