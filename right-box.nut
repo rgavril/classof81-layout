@@ -51,7 +51,6 @@ class RightBox
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.FromOldSelection) {
-			show_display(0);
 			draw();
 		}
 
@@ -84,6 +83,8 @@ class RightBox
 			break;
 
 			case "right":
+				local next_display_idx = (this.active_display_idx + 1 ) % this.displays.len()
+				this.show_display(next_display_idx);
 				return true;
 			break;
 		}

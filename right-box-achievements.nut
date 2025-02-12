@@ -181,6 +181,10 @@ class RightBoxAchievements
 	rom_loaded = "";
 	rom_current = "";
 
+	needs_reload = false;
+	rom_loaded = "";
+	last_romchange_time = 0;
+
 	function constructor()
 	{
 		# Drawing Sufrace
@@ -243,11 +247,19 @@ class RightBoxAchievements
 	{
 		# Force a achivements reload when returning from the game
 		if (ttype == Transition.FromGame && this.surface.visible) {
-			this.rom_loaded = "";
+			this.needs_reload = true;
+			draw();
 		}
 
 		if (ttype == Transition.ToNewList && this.surface.visible) {
-			this.rom_loaded = "";
+			this.needs_reload = true;
+			draw();
+		}
+
+		if (ttype == Transition.ToNewSelection) {
+			this.needs_reload = true;
+			this.last_romchange_time = fe.layout.time;
+			draw();
 		}
 	}
 
@@ -277,9 +289,15 @@ class RightBoxAchievements
 			}
 		}
 
-		if (this.async_load_thread.getstatus() == "idle" && this.surface.visible) {
-			if (this.rom_current() != this.rom_loaded) {
+		if (this.rom_current() != this.rom_loaded) {
+			this.needs_reload = true;
+			draw();
+		}
+
+		if (this.async_load_thread.getstatus() == "idle" && this.needs_reload && this.surface.visible) {
+			if (this.last_romchange_time + 300 < fe.layout.time) {
 				this.async_load_thread.call(this.rom_current());
+				this.needs_reload = false;
 				this.rom_loaded = this.rom_current();
 				draw();
 			}
@@ -345,7 +363,7 @@ class RightBoxAchievements
 		this.subtitle.msg = romlist.game_info(this.rom_current(), Info.Title);
 
 		# If Current rom is not loaded or is still loading
-		if (this.rom_current() != this.rom_loaded || this.async_load_thread.getstatus() == "suspended") {
+		if (this.needs_reload || this.async_load_thread.getstatus() == "suspended") {
 			this.show_message("Loading ...");
 			return;
 
@@ -426,9 +444,10 @@ class RightBoxAchievements
 
 	function activate()
 	{
+		if (this.is_active) return;
+
 		# Update the instrutions bottom text
 		::bottom_text.set("Move up or down to browse the Retro Achievements. Move left to play [Title] or a different game.");
-
 		this.is_active = true;
 		this.draw();
 	}
