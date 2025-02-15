@@ -7,12 +7,15 @@ class RetroAchievements
 		GameInfoDownload = "Failed to download game info.\nCheck your internet connection and login credentials.",
 		GameInfoParse = "Error parsing the game list. Please try again.",
 		GameInfoEmpty = "Game info is empty.\nCheck your internet connection and login credentials.",
+		LeaderboardsDownload = "Failde to download leaderbords.\nCheck your internet connection and login credentials.",
+		LeaderboardsParse = "Error parsing the game leaderboards. Please try again."
 	}
 
 	STORAGE_DIR   = fe.script_dir+"/achievements/";
 	GAMELIST_JSON = fe.script_dir+"/achievements/_gamelist.json"
 
 	constructor() {
+
 	}
 
 	function download_gamelist() {
@@ -93,6 +96,46 @@ class RetroAchievements
 		}
 
 		return gameinfo;
+	}
+
+	function download_leaderboards(rom) {
+		# Find the gameid associated with the rom
+		local game_id = this.game_id(rom);
+
+		# Build teh gameinfo url
+		local url = this.build_url(
+			"API_GetGameLeaderboards.php",
+			{
+				"i": game_id
+			}
+		)
+
+		# Try to download the leaderboards
+		if (! fe.get_url(url, STORAGE_DIR+"/leaderboards/"+rom+".json")) {
+			
+			# If it fails thow a error
+			throw Error.LeaderboardsDownload;
+		}
+	}
+
+	function parse_leaderboards(rom) {
+		local leaderboards = null;
+
+		if (! fe.path_test(STORAGE_DIR+"/leaderboards/"+rom+".json", PathTest.IsFile)) {
+			this.download_leaderboards(rom);
+		}
+
+		try {
+			leaderboards = load_json(STORAGE_DIR+"/leaderboards/"+rom+".json");
+		} catch(e) {
+			throw Error.LeaderboardsParse;
+		}
+
+		// if (leaderboards.len() == 0) {
+		// 	throw Error.GameInfoEmpty;
+		// }
+
+		return leaderboards;
 	}
 
 	function game_id(rom) {
