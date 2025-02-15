@@ -46,6 +46,7 @@ fe.do_nut("game-buttons.nut");
 fe.do_nut("right-box.nut");
 fe.do_nut("right-box-overview.nut");
 fe.do_nut("right-box-achievements.nut");
+fe.do_nut("right-box-leaderboards.nut");
 fe.do_nut("config-menu.nut");
 fe.do_nut("config-menu-button.nut");
 fe.do_nut("popup-menu.nut");
