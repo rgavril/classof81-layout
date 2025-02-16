@@ -7,8 +7,10 @@ class RetroAchievements
 		GameInfoDownload = "Failed to download game info.\nCheck your internet connection and login credentials.",
 		GameInfoParse = "Error parsing the game list. Please try again.",
 		GameInfoEmpty = "Game info is empty.\nCheck your internet connection and login credentials.",
-		LeaderboardsDownload = "Failde to download leaderbords.\nCheck your internet connection and login credentials.",
-		LeaderboardsParse = "Error parsing the game leaderboards. Please try again."
+		LeaderboardsDownload = "Failed to download leaderbords.\nCheck your internet connection and login credentials.",
+		LeaderboardsParse = "Error parsing the game leaderboards. Please try again.",
+		LeaderboardEntriesDownload = "Failed to download leaderbord entries.\nCheck your internet connection and login credentials.",
+		LeaderboardEntriesParse = "Error parsing the leaderboard entries. Please try again.",
 	}
 
 	STORAGE_DIR   = fe.script_dir+"/achievements/";
@@ -98,44 +100,55 @@ class RetroAchievements
 		return gameinfo;
 	}
 
-	function download_leaderboards(rom) {
-		# Find the gameid associated with the rom
-		local game_id = this.game_id(rom);
+	function GetGameLeaderboards(game_id, use_cache=false) {
+		local cache_file = STORAGE_DIR+"/leaderboards/"+game_id+".json"
 
-		# Build teh gameinfo url
-		local url = this.build_url(
-			"API_GetGameLeaderboards.php",
-			{
-				"i": game_id
-			}
-		)
-
-		# Try to download the leaderboards
-		if (! fe.get_url(url, STORAGE_DIR+"/leaderboards/"+rom+".json")) {
-			
-			# If it fails thow a error
-			throw Error.LeaderboardsDownload;
-		}
-	}
-
-	function parse_leaderboards(rom) {
 		local leaderboards = null;
 
-		if (! fe.path_test(STORAGE_DIR+"/leaderboards/"+rom+".json", PathTest.IsFile)) {
-			this.download_leaderboards(rom);
+		# Download the api response
+		local url = this.build_url("API_GetGameLeaderboards.php", {"i": game_id } )
+
+		if (! fe.get_url(url, cache_file)) {
+			throw Error.LeaderboardsDownload;
 		}
 
+		# Parse the api response
 		try {
-			leaderboards = load_json(STORAGE_DIR+"/leaderboards/"+rom+".json");
+			leaderboards = load_json(cache_file);
 		} catch(e) {
 			throw Error.LeaderboardsParse;
 		}
 
-		// if (leaderboards.len() == 0) {
-		// 	throw Error.GameInfoEmpty;
-		// }
-
+		# Return parsed response
 		return leaderboards;
+	}
+
+	function GetLeaderboardEntries(leaderboard_id, offset=0, count=100) {
+		# Build teh gameinfo url
+		local url = this.build_url(
+			"API_GetLeaderboardEntries.php",
+			{
+				"i": leaderboard_id,
+				"c": count,
+				"o": offset
+			}
+		)
+
+		# Try to download the leaderboard entries
+		if (! fe.get_url(url, STORAGE_DIR+"/leaderboards/"+leaderboard_id+".json")) {
+			
+			# If it fails thow a error
+			throw Error.LeaderboardEntriesDownload;
+		}
+
+		local entries = null;
+		try {
+			entries = load_json(STORAGE_DIR+"/leaderboards/"+leaderboard_id+".json");
+		} catch(e) {
+			throw Error.LeaderboardEntriesParse;
+		}
+
+		return entries;
 	}
 
 	function game_id(rom) {

@@ -3,6 +3,9 @@ class RightBoxLeaderboards {
 	is_active = false;
 
 	subtitle = null;
+	
+	entries = [];
+	PAGE_SIZE = 20;
 
 	constructor()
 	{
@@ -31,6 +34,14 @@ class RightBoxLeaderboards {
 		subtitle.set_rgb(255, 255, 255);
 		subtitle.char_size = 24;
 		subtitle.align = Align.TopCentre;
+
+		# Entries
+		this.entries = [];
+		for (local i=0; i<PAGE_SIZE; i++) {
+			local entry = LeaderboardEntry(this.surface, 0, 105+30*i);
+			this.entries.push(entry)
+		}
+
 	}
 
 	function rom_current()
@@ -41,15 +52,20 @@ class RightBoxLeaderboards {
 	function draw()
 	{
 		local rom = this.rom_current();
-		local leaderboard_id = 0;
-		local leaderboard_offset = 0;
-		local leaderboard_entries = 10;
 
-		local leaderboards = ra.parse_leaderboards(rom);
+		local game_id = ra.game_id(rom);
+
+		local leaderboards = ra.GetGameLeaderboards(game_id);
 		var_dump(leaderboards);
 
-		// local leaderboard = ra.parse_leaderboard_entries(leaderboard_id, leaderboard_offset, leaderboard_entries);
-		// var_dump(leaderboard);
+		local leaderboard_id = leaderboards["Results"][0]["ID"];
+		local leaderboard = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
+		var_dump(leaderboard);
+
+		for (local i=0; i<PAGE_SIZE; i++) {
+			local entry = this.entries[i];
+			entry.set_data(leaderboard["Results"][i]);
+		}
 	}
 
 	function key_detect(signal_str)
@@ -76,5 +92,52 @@ class RightBoxLeaderboards {
 	function hide()
 	{
 		this.surface.visible = false;
+	}
+}
+
+class LeaderboardEntry
+{
+	surface = null;
+	rank = null;
+	name = null;
+	score = null;
+
+	data = null;
+
+	constructor(surface, x, y) {
+		# Surface that we draw on
+		this.surface = surface.add_surface(460, 100);
+		this.surface.set_pos(x, y);
+
+		this.rank = this.surface.add_text("Rank", 20, 0, 340, 40);
+		this.rank.char_size = 24;
+		this.rank.align = Align.TopLeft;
+		this.rank.margin = 0;
+		this.rank.set_rgb(255,252,103);
+
+		this.name = this.surface.add_text("name", 70, 0, 340, 40);
+		this.name.char_size = 24;
+		this.name.align = Align.TopLeft;
+		this.name.margin = 0;
+		this.name.set_rgb(255,252,103);
+
+		this.score = this.surface.add_text("score", 350, 0, 450-350-20, 40);
+		this.score.char_size = 24;
+		this.score.align = Align.TopRight;
+		this.score.margin = 0;
+		this.score.set_rgb(255,252,103);
+	}
+
+	function set_data(data)
+	{
+		this.data = data;
+		this.draw();
+	}
+
+	function draw()
+	{
+		this.rank.msg = data["Rank"];
+		this.name.msg = data["User"];
+		this.score.msg = data["FormattedScore"];
 	}
 }
