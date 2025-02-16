@@ -3,9 +3,12 @@ class RightBoxLeaderboards {
 	is_active = false;
 
 	subtitle = null;
+	subtitle_scroller = null;
+	title = null;
+	title_shadow = null;
 	
 	entries = [];
-	PAGE_SIZE = 20;
+	PAGE_SIZE = 24;
 
 	constructor()
 	{
@@ -14,19 +17,22 @@ class RightBoxLeaderboards {
 		this.surface.y       = 235;
 		this.surface.visible = this.is_active;
 
+		# Snap Fade
+		this.surface.add_image("images/test.png", 0, 0);
+
 		# Title Shadow
-		local title_shadow = this.surface.add_text("Leaderboards", 25+1, 10+1, this.surface.width-50, 50)
-		title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
-		title_shadow.set_rgb(0,0,0)
-		title_shadow.char_size = 32
-		title_shadow.align = Align.TopCentre
+		this.title_shadow = this.surface.add_text("Leaderboards", 25+1, 10+1, this.surface.width-50, 50)
+		this.title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
+		this.title_shadow.set_rgb(0,0,0)
+		this.title_shadow.char_size = 32
+		this.title_shadow.align = Align.TopCentre
 
 		# Title
-		local title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
-		title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		title.set_rgb(255,104,181);
-		title.char_size = 32;
-		title.align = Align.TopCentre;
+		this.title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
+		this.title.font = "fonts/CriqueGrotesk-Bold.ttf"
+		this.title.set_rgb(255,104,181);
+		this.title.char_size = 32;
+		this.title.align = Align.TopCentre;
 
 		# Subtitle
 		this.subtitle = this.surface.add_text("", 25, 50, this.surface.width-50, 50);
@@ -34,6 +40,9 @@ class RightBoxLeaderboards {
 		subtitle.set_rgb(255, 255, 255);
 		subtitle.char_size = 24;
 		subtitle.align = Align.TopCentre;
+
+		this.subtitle_scroller = TextScroller(this.subtitle, "");
+		this.subtitle_scroller.activate();
 
 		# Entries
 		this.entries = [];
@@ -57,6 +66,10 @@ class RightBoxLeaderboards {
 
 		local leaderboards = ra.GetGameLeaderboards(game_id);
 		var_dump(leaderboards);
+
+		this.title.msg = leaderboards["Results"][0]["Title"];
+		this.title_shadow.msg = leaderboards["Results"][0]["Title"];
+		this.subtitle_scroller.set_text(leaderboards["Results"][0]["Description"]);
 
 		local leaderboard_id = leaderboards["Results"][0]["ID"];
 		local leaderboard = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
@@ -110,22 +123,24 @@ class LeaderboardEntry
 		this.surface.set_pos(x, y);
 
 		this.rank = this.surface.add_text("Rank", 20, 0, 340, 40);
-		this.rank.char_size = 24;
+		this.rank.char_size = 25;
 		this.rank.align = Align.TopLeft;
 		this.rank.margin = 0;
 		this.rank.set_rgb(255,252,103);
 
-		this.name = this.surface.add_text("name", 70, 0, 340, 40);
-		this.name.char_size = 24;
+		this.name = this.surface.add_text("name", 80, 0, 340, 40);
+		this.name.char_size = 25;
 		this.name.align = Align.TopLeft;
 		this.name.margin = 0;
 		this.name.set_rgb(255,252,103);
 
-		this.score = this.surface.add_text("score", 350, 0, 450-350-20, 40);
-		this.score.char_size = 24;
+		this.score = this.surface.add_text("score", 0, 0, 450-20, 40);
+		this.score.char_size = 25;
 		this.score.align = Align.TopRight;
 		this.score.margin = 0;
 		this.score.set_rgb(255,252,103);
+
+		// this.surface.add_rectangle(340, 0, 100, 40);
 	}
 
 	function set_data(data)
