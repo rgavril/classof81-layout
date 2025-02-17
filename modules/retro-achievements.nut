@@ -11,6 +11,8 @@ class RetroAchievements
 		LeaderboardsParse = "Error parsing the game leaderboards. Please try again.",
 		LeaderboardEntriesDownload = "Failed to download leaderbord entries.\nCheck your internet connection and login credentials.",
 		LeaderboardEntriesParse = "Error parsing the leaderboard entries. Please try again.",
+		UserGameLeaderboardsDownload = "Failed to download user game leaderbord entries.\nCheck your internet connection and login credentials.",
+		UserGameLeaderboardsParse = "Error parsing the user game leaderboard entries. Please try again."
 	}
 
 	STORAGE_DIR   = fe.script_dir+"/achievements/";
@@ -124,7 +126,7 @@ class RetroAchievements
 	}
 
 	function GetLeaderboardEntries(leaderboard_id, offset=0, count=100) {
-		# Build teh gameinfo url
+		# Build the url
 		local url = this.build_url(
 			"API_GetLeaderboardEntries.php",
 			{
@@ -149,6 +151,29 @@ class RetroAchievements
 		}
 
 		return entries;
+	}
+
+	function GetUserGameLeaderboards(game_id, offset=0, count=200) {
+		local cache_file = STORAGE_DIR+"/leaderboards/user_"+game_id+".json"
+
+		local leaderboards = null;
+
+		# Download the api response
+		local url = this.build_url("API_GetUserGameLeaderboards.php", {"i": game_id, "u": AM_CONFIG["ra_username"], "c": count, "o": offset } )
+
+		if (! fe.get_url(url, cache_file)) {
+			throw Error.UserGameLeaderboardsDownload;
+		}
+
+		# Parse the api response
+		try {
+			leaderboards = load_json(cache_file);
+		} catch(e) {
+			throw Error.UserGameLeaderboardsParse;
+		}
+
+		# Return parsed response
+		return leaderboards;
 	}
 
 	function game_id(rom) {

@@ -10,6 +10,11 @@ class RightBoxLeaderboards {
 	entries = [];
 	PAGE_SIZE = 24;
 
+	leaderboards = null;
+	leaderboards_user = null;
+	leaderboard_idx = 0;
+	leaderboard_entries = null;
+
 	constructor()
 	{
 		this.surface = fe.add_surface(450, 840);
@@ -51,6 +56,67 @@ class RightBoxLeaderboards {
 			this.entries.push(entry)
 		}
 
+		fe.add_transition_callback(this, "transition_callback");
+	}
+
+	function transition_callback(ttype, var, transition_time)
+	{
+		if (ttype == Transition.FromOldSelection) {
+			this.leaderboard_idx = 0;
+			this.draw();
+		}
+	}
+
+	function load()
+	{
+		local rom = this.rom_current();
+
+		// Find Game ID
+		local game_id = ra.game_id(rom);
+
+		// Get Leaderboards
+		local leaderboards = ra.GetGameLeaderboards(game_id);
+		this.leaderboards = leaderboards["Results"];
+		//var_dump(leaderboards);
+
+		// Select a Leaderboard ID
+		local leaderboard_id = this.leaderboards[this.leaderboard_idx]["ID"];
+
+		// Retrive leaderboard entries
+		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
+		this.leaderboard_entries = leaderboard_entries["Results"];
+		// var_dump(leaderboard_entries);
+
+		// See if the user has a score in this leaderboard
+		local user_entry = null;
+		try {
+			// Get User Game Leaderboards
+			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
+
+			// Searh for a rank in selected leaderbord
+			foreach (result in user_game_leaderboards["Results"]) {
+				if (result["ID"] == leaderboard_id) {
+					user_entry = result["UserEntry"];
+				}
+			}
+		} catch (e) {
+			print(e);
+		}
+
+		// See it it's displayed in the current leaerboard entries
+		local user_found = false;
+
+		foreach (entry in this.leaderboard_entries) {
+			if (entry["User"] == user_entry["User"])  {
+				user_found = true;
+				break;
+			}
+		}
+
+		// If user has a entry but is not displayed, add it at the end
+		if (user_entry && !user_found) {
+			this.leaderboard_entries[this.leaderboard_entries.len()-1] = user_entry;
+		}
 	}
 
 	function rom_current()
@@ -60,29 +126,34 @@ class RightBoxLeaderboards {
 
 	function draw()
 	{
-		local rom = this.rom_current();
+		this.load();
 
-		local game_id = ra.game_id(rom);
-
-		local leaderboards = ra.GetGameLeaderboards(game_id);
-		var_dump(leaderboards);
-
-		this.title.msg = leaderboards["Results"][0]["Title"];
-		this.title_shadow.msg = leaderboards["Results"][0]["Title"];
-		this.subtitle_scroller.set_text(leaderboards["Results"][0]["Description"]);
-
-		local leaderboard_id = leaderboards["Results"][0]["ID"];
-		local leaderboard = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
-		var_dump(leaderboard);
+		// Update graphic elements
+		this.title.msg = this.leaderboards[this.leaderboard_idx]["Title"];
+		this.title_shadow.msg = this.leaderboards[this.leaderboard_idx]["Title"];
+		this.subtitle_scroller.set_text(this.leaderboards[this.leaderboard_idx]["Description"]);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
-			entry.set_data(leaderboard["Results"][i]);
+			entry.set_data(this.leaderboard_entries[i]);
 		}
 	}
 
 	function key_detect(signal_str)
 	{
+		if (!this.is_active) { return }
+
+		if (signal_str == "right") {
+			if (leaderboard_idx + 1 < this.leaderboards.len()) {
+				this.leaderboard_idx = this.leaderboard_idx + 1;
+				this.draw();
+				return true;
+			} else {
+				this.leaderboard_idx = 0;
+				return false;
+			}
+		}
+
 		return false;
 	}
 
@@ -125,6 +196,7 @@ class LeaderboardEntry
 		this.rank = this.surface.add_text("Rank", 20, 0, 340, 40);
 		this.rank.char_size = 25;
 		this.rank.align = Align.TopLeft;
+		this.rank.font = "fonts/Roboto-Regular.ttf"
 		this.rank.margin = 0;
 		this.rank.set_rgb(255,252,103);
 
@@ -137,10 +209,9 @@ class LeaderboardEntry
 		this.score = this.surface.add_text("score", 0, 0, 450-20, 40);
 		this.score.char_size = 25;
 		this.score.align = Align.TopRight;
+		this.score.font = "fonts/Roboto-Regular.ttf"
 		this.score.margin = 0;
 		this.score.set_rgb(255,252,103);
-
-		// this.surface.add_rectangle(340, 0, 100, 40);
 	}
 
 	function set_data(data)
