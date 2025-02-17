@@ -11,7 +11,6 @@ class RightBoxLeaderboards {
 	PAGE_SIZE = 24;
 
 	leaderboards = null;
-	leaderboards_user = null;
 	leaderboard_idx = 0;
 	leaderboard_entries = null;
 
@@ -73,9 +72,11 @@ class RightBoxLeaderboards {
 
 		// Find Game ID
 		local game_id = ra.game_id(rom);
+		fe.layout.redraw();
 
 		// Get Leaderboards
 		local leaderboards = ra.GetGameLeaderboards(game_id);
+		fe.layout.redraw();
 		this.leaderboards = leaderboards["Results"];
 		//var_dump(leaderboards);
 
@@ -84,14 +85,16 @@ class RightBoxLeaderboards {
 
 		// Retrive leaderboard entries
 		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
+		fe.layout.redraw();
 		this.leaderboard_entries = leaderboard_entries["Results"];
-		// var_dump(leaderboard_entries);
+		var_dump(leaderboard_entries);
 
 		// See if the user has a score in this leaderboard
 		local user_entry = null;
 		try {
 			// Get User Game Leaderboards
 			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
+			fe.layout.redraw();
 
 			// Searh for a rank in selected leaderbord
 			foreach (result in user_game_leaderboards["Results"]) {
@@ -107,7 +110,7 @@ class RightBoxLeaderboards {
 		local user_found = false;
 
 		foreach (entry in this.leaderboard_entries) {
-			if (entry["User"] == user_entry["User"])  {
+			if (entry["User"] == AM_CONFIG["ra_username"])  {
 				user_found = true;
 				break;
 			}
@@ -115,6 +118,11 @@ class RightBoxLeaderboards {
 
 		// If user has a entry but is not displayed, add it at the end
 		if (user_entry && !user_found) {
+			local empty_entry = {};
+			empty_entry["FormattedScore"] <- "";
+			empty_entry["User"] <- "";
+			empty_entry["Rank"] <- "...";
+			this.leaderboard_entries[this.leaderboard_entries.len()-2] = empty_entry;
 			this.leaderboard_entries[this.leaderboard_entries.len()-1] = user_entry;
 		}
 	}
@@ -126,6 +134,10 @@ class RightBoxLeaderboards {
 
 	function draw()
 	{
+		if (! this.surface.visible == false && this.is_active == false ) {
+			return;
+		}
+
 		this.load();
 
 		// Update graphic elements
@@ -185,30 +197,37 @@ class LeaderboardEntry
 	rank = null;
 	name = null;
 	score = null;
+	box = null;
 
 	data = null;
 
 	constructor(surface, x, y) {
 		# Surface that we draw on
-		this.surface = surface.add_surface(460, 100);
+		this.surface = surface.add_surface(460, 30);
 		this.surface.set_pos(x, y);
 
-		this.rank = this.surface.add_text("Rank", 20, 0, 340, 40);
+		this.box = this.surface.add_rectangle(0,1, this.surface.width, this.surface.height-2);
+		this.box.outline = 1;
+		this.box.alpha = 200;
+		this.box.set_rgb(100, 100, 100);
+		this.box.visible = false;
+
+		this.rank = this.surface.add_text("Rank", 20, 0, 340, 30);
 		this.rank.char_size = 25;
-		this.rank.align = Align.TopLeft;
+		this.rank.align = Align.MiddleLeft;
 		this.rank.font = "fonts/Roboto-Regular.ttf"
 		this.rank.margin = 0;
 		this.rank.set_rgb(255,252,103);
 
-		this.name = this.surface.add_text("name", 80, 0, 340, 40);
+		this.name = this.surface.add_text("name", 80, 0, 340, 30);
 		this.name.char_size = 25;
-		this.name.align = Align.TopLeft;
+		this.name.align = Align.MiddleLeft;
 		this.name.margin = 0;
 		this.name.set_rgb(255,252,103);
 
-		this.score = this.surface.add_text("score", 0, 0, 450-20, 40);
+		this.score = this.surface.add_text("score", 0, 0, 450-20, 30);
 		this.score.char_size = 25;
-		this.score.align = Align.TopRight;
+		this.score.align = Align.MiddleRight;
 		this.score.font = "fonts/Roboto-Regular.ttf"
 		this.score.margin = 0;
 		this.score.set_rgb(255,252,103);
@@ -225,5 +244,11 @@ class LeaderboardEntry
 		this.rank.msg = data["Rank"];
 		this.name.msg = data["User"];
 		this.score.msg = data["FormattedScore"];
+
+		if (data["User"] == AM_CONFIG["ra_username"]) {
+			this.box.visible = true;
+		} else {
+			this.box.visible = false;
+		}
 	}
 }
