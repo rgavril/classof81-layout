@@ -11,9 +11,8 @@ class RightBoxLeaderboards {
 	PAGE_SIZE = 24;
 
 	current_page = 1;
+
 	leaderboards = null;
-	leaderboard_idx = 0;
-	leaderboard_entries = null;
 
 	constructor()
 	{
@@ -62,71 +61,8 @@ class RightBoxLeaderboards {
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.FromOldSelection) {
-			this.leaderboard_idx = 0;
+			this.leaderboards = Leaderboards(this.rom_current());
 			this.draw();
-		}
-	}
-
-	function load()
-	{
-		local rom = this.rom_current();
-
-		// Find Game ID
-		local game_id = ra.game_id(rom);
-
-		// Get Leaderboards
-		local leaderboards = ra.GetGameLeaderboards(game_id);
-		this.leaderboards = leaderboards["Results"];
-		// var_dump(leaderboards);
-
-		// Select a Leaderboard ID
-		local leaderboard_id = this.leaderboards[this.leaderboard_idx]["ID"];
-
-		// Retrive leaderboard entries
-		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, (this.current_page - 1) * (this.PAGE_SIZE - 2), this.PAGE_SIZE);
-		this.leaderboard_entries = leaderboard_entries["Results"];
-		// var_dump(leaderboard_entries);
-
-		// See if the user has a score in this leaderboard
-		local user_entry = null;
-		try {
-			// Get User Game Leaderboards
-			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
-
-			// Searh for a rank in selected leaderbord
-			foreach (result in user_game_leaderboards["Results"]) {
-				if (result["ID"] == leaderboard_id) {
-					user_entry = result["UserEntry"];
-				}
-			}
-		} catch (e) {
-			print(e);
-		}
-
-		// See it it's displayed in the current leaerboard entries
-		local user_found = false;
-
-		foreach (entry in this.leaderboard_entries) {
-			if (entry["User"] == AM_CONFIG["ra_username"])  {
-				user_found = true;
-				break;
-			}
-		}
-
-		// If user has a entry but is not displayed, add it at the end
-		if (user_entry && !user_found) {
-			local empty_entry = {};
-			empty_entry["FormattedScore"] <- "";
-			empty_entry["User"]           <- "";
-			empty_entry["Rank"]           <- "...";
-			
-			if (user_entry["Rank"] < this.leaderboard_entries[0]["Rank"] ) {
-				this.leaderboard_entries[0] = user_entry;
-				this.leaderboard_entries[1] = empty_entry;
-			} else {
-				this.leaderboard_entries[this.leaderboard_entries.len()-2] = empty_entry;
-				this.leaderboard_entries[this.leaderboard_entries.len()-1] = user_entry;
-			}
 		}
 	}
 
@@ -141,17 +77,17 @@ class RightBoxLeaderboards {
 			return;
 		}
 
-		this.load();
-
 		// Update graphic elements
-		this.title.msg = this.leaderboards[this.leaderboard_idx]["Title"];
-		this.title_shadow.msg = this.leaderboards[this.leaderboard_idx]["Title"];
-		this.subtitle_scroller.set_text(this.leaderboards[this.leaderboard_idx]["Description"]);
+		this.title.msg = this.leaderboards.get_current_title();
+		this.title_shadow.msg = this.leaderboards.get_current_title();
+		this.subtitle_scroller.set_text(this.leaderboards.get_current_description());
+
+		local leaderboard_entries = leaderboards.get_current_entries((this.current_page - 1) * (this.PAGE_SIZE - 2), this.PAGE_SIZE);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
-			if (i < this.leaderboard_entries.len()) {
-				entry.set_data(this.leaderboard_entries[i]);
+			if (i < leaderboard_entries.len()) {
+				entry.set_data(leaderboard_entries[i]);
 				entry.show();
 			} else {
 				entry.hide();
@@ -164,14 +100,11 @@ class RightBoxLeaderboards {
 		if (!this.is_active) { return }
 
 		if (signal_str == "right") {
-			if (leaderboard_idx + 1 < this.leaderboards.len()) {
-				this.leaderboard_idx = this.leaderboard_idx + 1;
+			if (this.leaderboards.next_leaderboard()) {
 				this.current_page = 1;
 				this.draw();
 				return true;
 			} else {
-				this.leaderboard_idx = 0;
-				this.current_page = 1;
 				return false;
 			}
 		}
@@ -215,6 +148,93 @@ class RightBoxLeaderboards {
 	}
 }
 
+class Leaderboards {
+	rom = "";
+
+	leaderboards = [];
+	current_idx = 0;
+
+	game_id = "";
+
+	function constructor(rom)
+	{
+		this.rom = rom;
+		this.current_idx = 0;
+
+		this.game_id = ra.game_id(rom);
+		this.leaderboards = ra.GetGameLeaderboards(game_id);
+	}
+
+	function get_current_title() {
+		return this.leaderboards["Results"][current_idx]["Title"];
+	}
+
+	function get_current_description() {
+		return this.leaderboards["Results"][current_idx]["Description"];
+	}
+
+
+	function get_current_entries(start, count) {
+		local leaderboard_id = this.leaderboards["Results"][current_idx]["ID"];
+
+		// Retrive leaderboard entries
+		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, start, count);
+		leaderboard_entries = leaderboard_entries["Results"];
+
+		// See if the user has a score in this leaderboard
+		local user_entry = null;
+		try {
+			// Get User Game Leaderboards
+			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
+
+			// Searh for a rank in selected leaderbord
+			foreach (result in user_game_leaderboards["Results"]) {
+				if (result["ID"] == leaderboard_id) {
+					user_entry = result["UserEntry"];
+				}
+			}
+		} catch (e) {
+			print(e);
+		}
+
+		// See it it's displayed in the current leaerboard entries
+		local user_found = false;
+
+		foreach (entry in leaderboard_entries) {
+			if (entry["User"] == AM_CONFIG["ra_username"])  {
+				user_found = true;
+				break;
+			}
+		}
+
+		// If user has a entry but is not displayed, add it at the end
+		if (user_entry && !user_found) {
+			local empty_entry = {};
+			empty_entry["FormattedScore"] <- "";
+			empty_entry["User"]           <- "";
+			empty_entry["Rank"]           <- "...";
+			
+			if (user_entry["Rank"] < leaderboard_entries[0]["Rank"] ) {
+				leaderboard_entries[0] = user_entry;
+				leaderboard_entries[1] = empty_entry;
+			} else {
+				leaderboard_entries[leaderboard_entries.len()-2] = empty_entry;
+				leaderboard_entries[leaderboard_entries.len()-1] = user_entry;
+			}
+		}
+
+		return leaderboard_entries;
+	}
+
+	function next_leaderboard() {
+		if ( this.current_idx + 1 < this.leaderboards["Total"]) {
+			this.current_idx = this.current_idx + 1;
+			return true;
+		} else {
+			return false
+		}
+	}
+}
 class LeaderboardEntry
 {
 	surface = null;
