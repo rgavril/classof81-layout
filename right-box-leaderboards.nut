@@ -73,11 +73,9 @@ class RightBoxLeaderboards {
 
 		// Find Game ID
 		local game_id = ra.game_id(rom);
-		fe.layout.redraw();
 
 		// Get Leaderboards
 		local leaderboards = ra.GetGameLeaderboards(game_id);
-		fe.layout.redraw();
 		this.leaderboards = leaderboards["Results"];
 		// var_dump(leaderboards);
 
@@ -86,7 +84,6 @@ class RightBoxLeaderboards {
 
 		// Retrive leaderboard entries
 		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, (this.current_page - 1) * (this.PAGE_SIZE - 2), this.PAGE_SIZE);
-		fe.layout.redraw();
 		this.leaderboard_entries = leaderboard_entries["Results"];
 		// var_dump(leaderboard_entries);
 
@@ -95,7 +92,6 @@ class RightBoxLeaderboards {
 		try {
 			// Get User Game Leaderboards
 			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
-			fe.layout.redraw();
 
 			// Searh for a rank in selected leaderbord
 			foreach (result in user_game_leaderboards["Results"]) {
@@ -154,7 +150,12 @@ class RightBoxLeaderboards {
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
-			entry.set_data(this.leaderboard_entries[i]);
+			if (i < this.leaderboard_entries.len()) {
+				entry.set_data(this.leaderboard_entries[i]);
+				entry.show();
+			} else {
+				entry.hide();
+			}
 		}
 	}
 
@@ -165,10 +166,12 @@ class RightBoxLeaderboards {
 		if (signal_str == "right") {
 			if (leaderboard_idx + 1 < this.leaderboards.len()) {
 				this.leaderboard_idx = this.leaderboard_idx + 1;
+				this.current_page = 1;
 				this.draw();
 				return true;
 			} else {
 				this.leaderboard_idx = 0;
+				this.current_page = 1;
 				return false;
 			}
 		}
@@ -180,12 +183,10 @@ class RightBoxLeaderboards {
 		}
 
 		if (signal_str == "up") {
-			this.current_page -= 1;
+			if (this.current_page > 1) {
+				this.current_page -= 1;
+			}
 			this.draw();
-			return true;
-		}
-
-		if (signal_str == "up" || signal_str == "down") {
 			return true;
 		}
 
@@ -273,5 +274,15 @@ class LeaderboardEntry
 		} else {
 			this.box.visible = false;
 		}
+	}
+
+	function show()
+	{
+		this.surface.visible = true;
+	}
+
+	function hide()
+	{
+		this.surface.visible = false;
 	}
 }
