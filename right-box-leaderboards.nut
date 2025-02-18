@@ -10,6 +10,7 @@ class RightBoxLeaderboards {
 	entries = [];
 	PAGE_SIZE = 24;
 
+	current_page = 1;
 	leaderboards = null;
 	leaderboard_idx = 0;
 	leaderboard_entries = null;
@@ -78,16 +79,16 @@ class RightBoxLeaderboards {
 		local leaderboards = ra.GetGameLeaderboards(game_id);
 		fe.layout.redraw();
 		this.leaderboards = leaderboards["Results"];
-		//var_dump(leaderboards);
+		// var_dump(leaderboards);
 
 		// Select a Leaderboard ID
 		local leaderboard_id = this.leaderboards[this.leaderboard_idx]["ID"];
 
 		// Retrive leaderboard entries
-		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, 0, this.PAGE_SIZE);
+		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, (this.current_page - 1) * (this.PAGE_SIZE - 2), this.PAGE_SIZE);
 		fe.layout.redraw();
 		this.leaderboard_entries = leaderboard_entries["Results"];
-		var_dump(leaderboard_entries);
+		// var_dump(leaderboard_entries);
 
 		// See if the user has a score in this leaderboard
 		local user_entry = null;
@@ -120,10 +121,16 @@ class RightBoxLeaderboards {
 		if (user_entry && !user_found) {
 			local empty_entry = {};
 			empty_entry["FormattedScore"] <- "";
-			empty_entry["User"] <- "";
-			empty_entry["Rank"] <- "...";
-			this.leaderboard_entries[this.leaderboard_entries.len()-2] = empty_entry;
-			this.leaderboard_entries[this.leaderboard_entries.len()-1] = user_entry;
+			empty_entry["User"]           <- "";
+			empty_entry["Rank"]           <- "...";
+			
+			if (user_entry["Rank"] < this.leaderboard_entries[0]["Rank"] ) {
+				this.leaderboard_entries[0] = user_entry;
+				this.leaderboard_entries[1] = empty_entry;
+			} else {
+				this.leaderboard_entries[this.leaderboard_entries.len()-2] = empty_entry;
+				this.leaderboard_entries[this.leaderboard_entries.len()-1] = user_entry;
+			}
 		}
 	}
 
@@ -134,7 +141,7 @@ class RightBoxLeaderboards {
 
 	function draw()
 	{
-		if (! this.surface.visible == false && this.is_active == false ) {
+		if (this.surface.visible == false && this.is_active == false ) {
 			return;
 		}
 
@@ -164,6 +171,22 @@ class RightBoxLeaderboards {
 				this.leaderboard_idx = 0;
 				return false;
 			}
+		}
+
+		if (signal_str == "down") {
+			this.current_page += 1;
+			this.draw();
+			return true;
+		}
+
+		if (signal_str == "up") {
+			this.current_page -= 1;
+			this.draw();
+			return true;
+		}
+
+		if (signal_str == "up" || signal_str == "down") {
+			return true;
 		}
 
 		return false;
