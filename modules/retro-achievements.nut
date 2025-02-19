@@ -191,14 +191,13 @@ class RetroAchievements
 
 		# If Cache is to old
 		if (! this.valid_cache(cache_file, cache_age)) {
-			print("HIT RA WEB  : "+ url + "\n");
 			# Download URL
 			if (! fe.get_url(url, cache_file)) {
 				# If it fails thow a error
 				throw (Error.Download)
 			}
 		} else {
-			print("HIT RA CACHE : "+ url + "\n");
+			// print("HIT RA CACHE : "+ url + "\n");
 		}
 
 		# Parse the response

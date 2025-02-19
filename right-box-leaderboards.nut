@@ -1,6 +1,8 @@
 local ldb_data = {
 	// Inputs
 	"rom": "",
+	"current_page": -1,
+	"leaderboard_idx": -1,
 
 	// Outputs
 	"game_id": null,
@@ -13,34 +15,93 @@ local ldb_data = {
 	"game_leaderboard_description": "",
 	"game_leaderboard_total": 0,
 	"game_leaderboard_entries": null,
+
+	// Stats
+	"is_loading" : true,
+	"error": ""
+
 }
 
-function ldb_data_update(rom, idx, offset, count) {
+function ldb_data_update(rom, leaderboard_idx, current_page, page_size) {
+	ldb_data["is_loading"] = true;
+	ldb_data["error"] = "";
+	ldb_data["leaderboard_idx"] = leaderboard_idx;
+	ldb_data["current_page"] = current_page;
+	suspend(null);
+
 	// If rom changed reset everything
 	if (rom != ldb_data["rom"]) {
 		ldb_data["rom"] = rom;
-		ldb_data["game_id"] = ra.game_id(rom);
-		ldb_data["game_leaderboards"] = ra.GetGameLeaderboards(ldb_data["game_id"]);
-		ldb_data["user_leaderboards"] = ra.GetUserGameLeaderboards(ldb_data["game_id"]);
-		ldb_data["game_leaderboard_entries"] = null;
+		
+		// Get Game ID
+		try {
+			ldb_data["game_id"] = ra.game_id(rom);
+		} catch(error) {
+			ldb_data["error"] = error;
+			ldb_data["is_loading"] = false;
+			return;
+		}
+		suspend(null);
 
+		// Get Game Leaderboards
+		try {
+			ldb_data["game_leaderboards"] = ra.GetGameLeaderboards(ldb_data["game_id"]);
+		} catch(error) {
+			ldb_data["error"] = "error";
+			ldb_data["is_loading"] = false;
+			return;
+		}
+		suspend(null);
+
+		// Get User Leaderboards
+		try {
+			ldb_data["user_leaderboards"] = ra.GetUserGameLeaderboards(ldb_data["game_id"]);
+		} catch(error) {
+			ldb_data["user_leaderboards"] = null;
+		}
+		suspend(null);
+
+		ldb_data["game_leaderboard_entries"] = null;
 		ldb_data["game_leaderboards_count"] = ldb_data["game_leaderboards"]["Results"].len();
 	}
 
-	ldb_data["game_leaderboard_id"] = ldb_data["game_leaderboards"]["Results"][idx]["ID"];
-	ldb_data["game_leaderboard_title"] = ldb_data["game_leaderboards"]["Results"][idx]["Title"];
-	ldb_data["game_leaderboard_description"] = ldb_data["game_leaderboards"]["Results"][idx]["Description"];
+	if (ldb_data["game_leaderboards_count"] == 0) {
+		ldb_data["error"] = "Game has no leaderboards.";
+		ldb_data["is_loading"] = false;
+		return;
+	}
+
+	if (leaderboard_idx >= ldb_data["game_leaderboards_count"]) {
+			ldb_data["error"] = "Leaderbord index out of bounds.";
+			ldb_data["is_loading"] = false;
+			return;
+	}
+
+	ldb_data["game_leaderboard_id"] = ldb_data["game_leaderboards"]["Results"][leaderboard_idx]["ID"];
+	ldb_data["game_leaderboard_title"] = ldb_data["game_leaderboards"]["Results"][leaderboard_idx]["Title"];
+	ldb_data["game_leaderboard_description"] = ldb_data["game_leaderboards"]["Results"][leaderboard_idx]["Description"];
 
 	// Retrive leaderboard entries
-	local leaderboard_entries = ra.GetLeaderboardEntries(ldb_data["game_leaderboard_id"], offset, count);
+	local leaderboard_entries = null;
+	try {
+		 leaderboard_entries = ra.GetLeaderboardEntries(ldb_data["game_leaderboard_id"], (current_page-1)*page_size, page_size);
+	} catch(error) {
+		ldb_data["error"] = error;
+		ldb_data["is_loading"] = false;
+		return;
+	}
+	suspend(null);
+
 	ldb_data["game_leaderboard_total"] = leaderboard_entries["Total"];
 	ldb_data["game_leaderboard_entries"] = leaderboard_entries["Results"];
 
 	// See if the user has a score in this leaderboard
 	local user_entry = null;
-	foreach (result in ldb_data["user_leaderboards"]["Results"]) {
-		if (result["ID"] == ldb_data["game_leaderboard_id"]) {
-			user_entry = result["UserEntry"];
+	if ("Results" in ldb_data["user_leaderboards"]) {
+		foreach (result in ldb_data["user_leaderboards"]["Results"]) {
+			if (result["ID"] == ldb_data["game_leaderboard_id"]) {
+				user_entry = result["UserEntry"];
+			}
 		}
 	}
 
@@ -69,6 +130,8 @@ function ldb_data_update(rom, idx, offset, count) {
 			ldb_data["game_leaderboard_entries"][ldb_data["game_leaderboard_entries"].len()-1] = user_entry;
 		}
 	}
+
+	ldb_data["is_loading"] = false;
 }
 
 class RightBoxLeaderboards {
@@ -79,12 +142,14 @@ class RightBoxLeaderboards {
 	subtitle_scroller = null;
 	title = null;
 	title_shadow = null;
+	message = null;
 	
 	entries = [];
 	PAGE_SIZE = 24;
 
 	current_page = 1;
-	current_leaderboard = 0;
+	leaderboard_idx = 0;
+	last_romchange_time = 0;
 
 	constructor()
 	{
@@ -120,6 +185,15 @@ class RightBoxLeaderboards {
 		this.subtitle_scroller = TextScroller(this.subtitle, "");
 		this.subtitle_scroller.activate();
 
+		# Message
+		this.message = this.surface.add_text("", 30, 250, this.surface.width-60, 320);
+		this.message.font = "fonts/CriqueGrotesk.ttf"
+		this.message.char_size = 28;
+		this.message.line_spacing = 1.2;
+		this.message.align = Align.MiddleCentre;
+		this.message.word_wrap = true;
+		this.message.visible = false;
+
 		# Entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
@@ -127,11 +201,53 @@ class RightBoxLeaderboards {
 			this.entries.push(entry)
 		}
 
+		fe.add_ticks_callback(this, "async_load_manager");
 		fe.add_transition_callback(this, "transition_callback");
+	}
+
+	async_load_thread = newthread(ldb_data_update);
+	function async_load_manager(tick_time) {
+		if (this.async_load_thread.getstatus() == "suspended") {
+			this.async_load_thread.wakeup();
+
+			if (this.async_load_thread.getstatus() == "idle") {
+				this.draw();
+			}
+		}
+
+		local need_reload = false;
+		if (ldb_data["current_page"] != this.current_page) {
+			need_reload = true;
+		}
+		if (ldb_data["rom"] != this.rom_current()) {
+			need_reload = true;
+		}
+		if (ldb_data["leaderboard_idx"] != this.leaderboard_idx) {
+			need_reload = true;
+		}
+
+		if (this.async_load_thread.getstatus() == "idle" && need_reload) {
+			ldb_data["is_loading"] = true;
+			if (this.last_romchange_time + 300 < fe.layout.time) {
+				this.async_load_thread.call(this.rom_current(), this.leaderboard_idx, this.current_page, this.PAGE_SIZE);
+			}
+			draw();
+		}
 	}
 
 	function transition_callback(ttype, var, transition_time)
 	{
+		if (ttype == Transition.ToNewSelection) {
+			this.leaderboard_idx = 0;
+			this.current_page = 1;
+			this.last_romchange_time = fe.layout.time;
+		}
+
+		if (ttype == Transition.FromOldSelection) {
+			this.title.msg = "Leaderboards";
+			this.title_shadow.msg = this.title.msg;
+			this.subtitle_scroller.set_text(romlist.game_info(this.rom_current(), Info.Title));
+		}
 	}
 
 	function rom_current()
@@ -145,8 +261,15 @@ class RightBoxLeaderboards {
 			return;
 		}
 
-		ldb_data_update(this.rom_current(), current_leaderboard, (this.current_page-1)*23, PAGE_SIZE);
-		// var_dump(ldb_data);
+		if (ldb_data["is_loading"] == true) {
+			this.show_message("Loading ...");
+			return;
+		} else if (ldb_data["error"] != "") {
+			this.show_message(ldb_data["error"]);
+			return;
+		} else {
+			this.hide_message();
+		}
 
 		# Update the Title
 		this.title.msg        = ldb_data["game_leaderboard_title"];
@@ -169,18 +292,34 @@ class RightBoxLeaderboards {
 		}
 	}
 
+	function show_message(text)
+	{
+		this.message.msg     = text;
+		this.message.visible = true;
+
+		# Hide all entries
+		foreach(entry in this.entries) {
+			entry.hide();
+		}
+	}
+
+	function hide_message()
+	{
+		this.message.visible = false;
+	}
+
 	function key_detect(signal_str)
 	{
 		if (!this.is_active) { return }
 
 		if (signal_str == "right") {
-			if (ldb_data["game_leaderboards_count"] > (this.current_leaderboard + 1)) {
-				this.current_leaderboard += 1;
+			if (ldb_data["game_leaderboards_count"] > (this.leaderboard_idx + 1)) {
+				this.leaderboard_idx += 1;
 				this.current_page = 1;
 				this.draw();
 				return true;
 			} else {
-				this.current_leaderboard = 0;
+				this.leaderboard_idx = 0;
 				this.current_page = 1;
 				this.draw();
 				return false;
