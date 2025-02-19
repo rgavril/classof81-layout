@@ -55,6 +55,8 @@ class RightBoxLeaderboards {
 			this.entries.push(entry)
 		}
 
+		this.leaderboards = Leaderboards(this.rom_current());
+
 		fe.add_transition_callback(this, "transition_callback");
 	}
 
@@ -62,6 +64,7 @@ class RightBoxLeaderboards {
 	{
 		if (ttype == Transition.FromOldSelection) {
 			this.leaderboards = Leaderboards(this.rom_current());
+			this.current_page = 1;
 			this.draw();
 		}
 	}
@@ -77,12 +80,15 @@ class RightBoxLeaderboards {
 			return;
 		}
 
-		// Update graphic elements
-		this.title.msg = this.leaderboards.get_current_title();
-		this.title_shadow.msg = this.leaderboards.get_current_title();
+		# Update the Title
+		this.title.msg        = this.leaderboards.get_current_title();
+		this.title_shadow.msg = this.title.msg;
+
+		# Update the Subtitle
 		this.subtitle_scroller.set_text(this.leaderboards.get_current_description());
 
-		local leaderboard_entries = leaderboards.get_current_entries((this.current_page - 1) * (this.PAGE_SIZE - 2), this.PAGE_SIZE);
+		# Update the Entries
+		local leaderboard_entries = leaderboards.get_current_entries(this.current_page);
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
@@ -110,16 +116,18 @@ class RightBoxLeaderboards {
 		}
 
 		if (signal_str == "down") {
-			this.current_page += 1;
-			this.draw();
+			if (this.leaderboards.current_has_page(this.current_page+1)) {
+				this.current_page += 1;
+				this.draw();
+			}
 			return true;
 		}
 
 		if (signal_str == "up") {
-			if (this.current_page > 1) {
+			if (this.leaderboards.current_has_page(this.current_page-1)) {
 				this.current_page -= 1;
+				this.draw();
 			}
-			this.draw();
 			return true;
 		}
 
@@ -153,6 +161,9 @@ class Leaderboards {
 
 	leaderboards = [];
 	current_idx = 0;
+	current_total = 0;
+
+	page_size = 24;
 
 	game_id = "";
 
@@ -166,26 +177,41 @@ class Leaderboards {
 	}
 
 	function get_current_title() {
+		if (this.leaderboards["Results"].len() == 0) {
+			return "Leaderboards"
+		}
+		
 		return this.leaderboards["Results"][current_idx]["Title"];
 	}
 
 	function get_current_description() {
+		if (this.leaderboards["Results"].len() == 0) {
+			return "There are no leaderboards."
+		}
+		
 		return this.leaderboards["Results"][current_idx]["Description"];
 	}
 
+	function get_current_entries(page) {
+		if (this.leaderboards["Results"].len() == 0) {
+			return [];
+		}
 
-	function get_current_entries(start, count) {
+		local start = (page - 1) * (this.page_size - 2);
+		local count = this.page_size;
+
 		local leaderboard_id = this.leaderboards["Results"][current_idx]["ID"];
 
 		// Retrive leaderboard entries
 		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, start, count);
+		this.current_total = leaderboard_entries["Total"];
 		leaderboard_entries = leaderboard_entries["Results"];
 
 		// See if the user has a score in this leaderboard
 		local user_entry = null;
 		try {
 			// Get User Game Leaderboards
-			local user_game_leaderboards = ra.GetUserGameLeaderboards(game_id);
+			local user_game_leaderboards = ra.GetUserGameLeaderboards(this.game_id);
 
 			// Searh for a rank in selected leaderbord
 			foreach (result in user_game_leaderboards["Results"]) {
@@ -224,6 +250,16 @@ class Leaderboards {
 		}
 
 		return leaderboard_entries;
+	}
+
+	function current_has_page(page) {
+		if (page == 1) {
+			return true;
+		} else if (page < 1) {
+			return false;
+		} else {
+			return (page-1)*this.page_size < this.current_total;
+		}
 	}
 
 	function next_leaderboard() {
