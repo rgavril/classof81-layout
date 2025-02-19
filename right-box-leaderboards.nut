@@ -1,3 +1,76 @@
+local ldb_data = {
+	// Inputs
+	"rom": "",
+
+	// Outputs
+	"game_id": null,
+	"game_leaderboards": null,
+	"game_leaderboards_count": 0,
+	"user_leaderboards": null,
+
+	"game_leaderboard_id": null,
+	"game_leaderboard_title": "",
+	"game_leaderboard_description": "",
+	"game_leaderboard_total": 0,
+	"game_leaderboard_entries": null,
+}
+
+function ldb_data_update(rom, idx, offset, count) {
+	// If rom changed reset everything
+	if (rom != ldb_data["rom"]) {
+		ldb_data["rom"] = rom;
+		ldb_data["game_id"] = ra.game_id(rom);
+		ldb_data["game_leaderboards"] = ra.GetGameLeaderboards(ldb_data["game_id"]);
+		ldb_data["user_leaderboards"] = ra.GetUserGameLeaderboards(ldb_data["game_id"]);
+		ldb_data["game_leaderboard_entries"] = null;
+
+		ldb_data["game_leaderboards_count"] = ldb_data["game_leaderboards"]["Results"].len();
+	}
+
+	ldb_data["game_leaderboard_id"] = ldb_data["game_leaderboards"]["Results"][idx]["ID"];
+	ldb_data["game_leaderboard_title"] = ldb_data["game_leaderboards"]["Results"][idx]["Title"];
+	ldb_data["game_leaderboard_description"] = ldb_data["game_leaderboards"]["Results"][idx]["Description"];
+
+	// Retrive leaderboard entries
+	local leaderboard_entries = ra.GetLeaderboardEntries(ldb_data["game_leaderboard_id"], offset, count);
+	ldb_data["game_leaderboard_total"] = leaderboard_entries["Total"];
+	ldb_data["game_leaderboard_entries"] = leaderboard_entries["Results"];
+
+	// See if the user has a score in this leaderboard
+	local user_entry = null;
+	foreach (result in ldb_data["user_leaderboards"]["Results"]) {
+		if (result["ID"] == ldb_data["game_leaderboard_id"]) {
+			user_entry = result["UserEntry"];
+		}
+	}
+
+	// See if the user it's displayed in the current leaerboard entries
+	local user_found = false;
+	foreach (entry in ldb_data["game_leaderboard_entries"]) {
+		if (entry["User"] == AM_CONFIG["ra_username"])  {
+			user_found = true;
+			break;
+		}
+	}
+
+	// If user has a entry but is not displayed, add it at in the list
+	if (user_entry && !user_found) {
+		local empty_entry = {
+			"FormattedScore": "",
+			"User": "",
+			"Rank": "..."
+		};
+		
+		if (user_entry["Rank"] < ldb_data["game_leaderboard_entries"][0]["Rank"] ) {
+			ldb_data["game_leaderboard_entries"][0] = user_entry;
+			ldb_data["game_leaderboard_entries"][1] = empty_entry;
+		} else {
+			ldb_data["game_leaderboard_entries"][ldb_data["game_leaderboard_entries"].len()-2] = empty_entry;
+			ldb_data["game_leaderboard_entries"][ldb_data["game_leaderboard_entries"].len()-1] = user_entry;
+		}
+	}
+}
+
 class RightBoxLeaderboards {
 	surface = null;
 	is_active = false;
@@ -11,8 +84,7 @@ class RightBoxLeaderboards {
 	PAGE_SIZE = 24;
 
 	current_page = 1;
-
-	leaderboards = null;
+	current_leaderboard = 0;
 
 	constructor()
 	{
@@ -55,18 +127,11 @@ class RightBoxLeaderboards {
 			this.entries.push(entry)
 		}
 
-		this.leaderboards = Leaderboards(this.rom_current());
-
 		fe.add_transition_callback(this, "transition_callback");
 	}
 
 	function transition_callback(ttype, var, transition_time)
 	{
-		if (ttype == Transition.FromOldSelection) {
-			this.leaderboards = Leaderboards(this.rom_current());
-			this.current_page = 1;
-			this.draw();
-		}
 	}
 
 	function rom_current()
@@ -80,15 +145,18 @@ class RightBoxLeaderboards {
 			return;
 		}
 
+		ldb_data_update(this.rom_current(), current_leaderboard, (this.current_page-1)*23, PAGE_SIZE);
+		// var_dump(ldb_data);
+
 		# Update the Title
-		this.title.msg        = this.leaderboards.get_current_title();
+		this.title.msg        = ldb_data["game_leaderboard_title"];
 		this.title_shadow.msg = this.title.msg;
 
 		# Update the Subtitle
-		this.subtitle_scroller.set_text(this.leaderboards.get_current_description());
+		this.subtitle_scroller.set_text(ldb_data["game_leaderboard_description"]);
 
 		# Update the Entries
-		local leaderboard_entries = leaderboards.get_current_entries(this.current_page);
+		local leaderboard_entries = ldb_data["game_leaderboard_entries"];
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
@@ -106,17 +174,21 @@ class RightBoxLeaderboards {
 		if (!this.is_active) { return }
 
 		if (signal_str == "right") {
-			if (this.leaderboards.next_leaderboard()) {
+			if (ldb_data["game_leaderboards_count"] > (this.current_leaderboard + 1)) {
+				this.current_leaderboard += 1;
 				this.current_page = 1;
 				this.draw();
 				return true;
 			} else {
+				this.current_leaderboard = 0;
+				this.current_page = 1;
+				this.draw();
 				return false;
 			}
 		}
 
 		if (signal_str == "down") {
-			if (this.leaderboards.current_has_page(this.current_page+1)) {
+			if (this.current_page*this.PAGE_SIZE < ldb_data["game_leaderboard_total"]) {
 				this.current_page += 1;
 				this.draw();
 			}
@@ -124,7 +196,7 @@ class RightBoxLeaderboards {
 		}
 
 		if (signal_str == "up") {
-			if (this.leaderboards.current_has_page(this.current_page-1)) {
+			if (current_page > 1) {
 				this.current_page -= 1;
 				this.draw();
 			}
@@ -156,121 +228,6 @@ class RightBoxLeaderboards {
 	}
 }
 
-class Leaderboards {
-	rom = "";
-
-	leaderboards = [];
-	current_idx = 0;
-	current_total = 0;
-
-	page_size = 24;
-
-	game_id = "";
-
-	function constructor(rom)
-	{
-		this.rom = rom;
-		this.current_idx = 0;
-
-		this.game_id = ra.game_id(rom);
-		this.leaderboards = ra.GetGameLeaderboards(game_id);
-	}
-
-	function get_current_title() {
-		if (this.leaderboards["Results"].len() == 0) {
-			return "Leaderboards"
-		}
-		
-		return this.leaderboards["Results"][current_idx]["Title"];
-	}
-
-	function get_current_description() {
-		if (this.leaderboards["Results"].len() == 0) {
-			return "There are no leaderboards."
-		}
-		
-		return this.leaderboards["Results"][current_idx]["Description"];
-	}
-
-	function get_current_entries(page) {
-		if (this.leaderboards["Results"].len() == 0) {
-			return [];
-		}
-
-		local start = (page - 1) * (this.page_size - 2);
-		local count = this.page_size;
-
-		local leaderboard_id = this.leaderboards["Results"][current_idx]["ID"];
-
-		// Retrive leaderboard entries
-		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, start, count);
-		this.current_total = leaderboard_entries["Total"];
-		leaderboard_entries = leaderboard_entries["Results"];
-
-		// See if the user has a score in this leaderboard
-		local user_entry = null;
-		try {
-			// Get User Game Leaderboards
-			local user_game_leaderboards = ra.GetUserGameLeaderboards(this.game_id);
-
-			// Searh for a rank in selected leaderbord
-			foreach (result in user_game_leaderboards["Results"]) {
-				if (result["ID"] == leaderboard_id) {
-					user_entry = result["UserEntry"];
-				}
-			}
-		} catch (e) {
-			print(e);
-		}
-
-		// See it it's displayed in the current leaerboard entries
-		local user_found = false;
-
-		foreach (entry in leaderboard_entries) {
-			if (entry["User"] == AM_CONFIG["ra_username"])  {
-				user_found = true;
-				break;
-			}
-		}
-
-		// If user has a entry but is not displayed, add it at the end
-		if (user_entry && !user_found) {
-			local empty_entry = {};
-			empty_entry["FormattedScore"] <- "";
-			empty_entry["User"]           <- "";
-			empty_entry["Rank"]           <- "...";
-			
-			if (user_entry["Rank"] < leaderboard_entries[0]["Rank"] ) {
-				leaderboard_entries[0] = user_entry;
-				leaderboard_entries[1] = empty_entry;
-			} else {
-				leaderboard_entries[leaderboard_entries.len()-2] = empty_entry;
-				leaderboard_entries[leaderboard_entries.len()-1] = user_entry;
-			}
-		}
-
-		return leaderboard_entries;
-	}
-
-	function current_has_page(page) {
-		if (page == 1) {
-			return true;
-		} else if (page < 1) {
-			return false;
-		} else {
-			return (page-1)*this.page_size < this.current_total;
-		}
-	}
-
-	function next_leaderboard() {
-		if ( this.current_idx + 1 < this.leaderboards["Total"]) {
-			this.current_idx = this.current_idx + 1;
-			return true;
-		} else {
-			return false
-		}
-	}
-}
 class LeaderboardEntry
 {
 	surface = null;

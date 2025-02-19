@@ -111,7 +111,7 @@ class RightBox
 
 	function activate()
 	{
-		show_display(1);
+		// show_display(1);
 		this.is_active = true;
 		this.active_display().activate();
 		draw();
