@@ -226,7 +226,7 @@ class RightBoxLeaderboards {
 			need_reload = true;
 		}
 
-		if (this.async_load_thread.getstatus() == "idle" && need_reload) {
+		if (this.async_load_thread.getstatus() == "idle" && need_reload && this.surface.visible) {
 			ldb_data["is_loading"] = true;
 			if (this.last_romchange_time + 300 < fe.layout.time) {
 				this.async_load_thread.call(this.rom_current(), this.leaderboard_idx, this.current_page, this.PAGE_SIZE);

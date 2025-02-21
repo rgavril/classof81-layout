@@ -105,6 +105,34 @@ class RetroAchievements
 		return gameinfo;
 	}
 
+	/*
+		User Game Progress
+		A call to this endpoint will retrieve extended metadata about a game, in addition to a user's 
+		progress about that game. This is targeted via a game's unique ID and a given username.
+
+		https://api-docs.retroachievements.org/v1/get-game-info-and-user-progress.html
+	*/
+	function GetGameInfoAndUserProgress(game_id, use_cache=true)
+	{
+		local cache_age = 1; // 1 Minute
+
+		return this.call_method(
+			"API_GetGameInfoAndUserProgress.php",
+			{
+				"g": game_id,
+				"u": AM_CONFIG["ra_username"],
+				"z": AM_CONFIG["ra_username"]
+			},
+			use_cache ? cache_age : 0
+		)
+	}
+
+	/*
+		Game Leaderboards
+		A call to this endpoint will retrieve a given game's list of leaderboards, targeted by the game's ID.
+		
+		https://api-docs.retroachievements.org/v1/get-game-leaderboards.html
+	*/
 	function GetGameLeaderboards(game_id, use_cache=true) {
 		local cache_age = 30 * 24 * 60; // 30 Days
 
@@ -233,7 +261,7 @@ class RetroAchievements
 		}
 
 		// TODO: Compare file mtime to current time to see how old it is
-		return true;
+		return false;
 	}
 }
 
