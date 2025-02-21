@@ -27,7 +27,7 @@ class RightBox
 		this.displays.push(RightBoxOverview());
 		this.displays.push(RightBoxAchievements());
 		this.displays.push(RightBoxLeaderboards());
-		show_display(0);
+		show_display(2);
 
 		# Add a callback to redraw when game is changed
 		fe.add_transition_callback(this, "transition_callback");

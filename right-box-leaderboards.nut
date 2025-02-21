@@ -54,10 +54,11 @@ function RightBoxLeaderboards_AsyncData_Load(rom) {
 				foreach(user_leaderboard in user_leaderboards["Results"]) {
 					if (user_leaderboard["ID"] == game_leaderboard["ID"]) {
 						local user_entry = user_leaderboard["UserEntry"];
-						data["rank"] <- user_entry["Rank"]
-						data["score"] <- user_entry["FormattedScore"]
+						data["rank"] <- user_entry["Rank"];
+						data["score"] <- user_entry["FormattedScore"];
 					}
 				}
+
 			}
 
 			RightBoxLeaderboards_AsyncData["leaderboards"].push(data);
@@ -371,19 +372,19 @@ class RightBoxLeaderboardsEntry
 		this.icon_border.outline_alpha = 100;
 
 
-		this.rank_label = this.surface.add_text("Rank", this.icon_border.x, this.icon_border.y+6, 55, 24);
+		this.rank_label = this.surface.add_text("Rank", this.icon_border.x, this.icon_border.y+7, 55, 20);
 		this.rank_label.margin = 0;
 		this.rank_label.align = Align.MiddleCentre;
 		this.rank_label.char_size = 20;
-		this.rank_label.font = "fonts/RobotoCondensed-SemiBold.ttf"
+		this.rank_label.font = "fonts/RobotoCondensed-Regular.ttf"
 		this.rank_label.set_rgb(255,252,103);
 
-		this.score_label = this.surface.add_text("Score", this.icon_border.x, this.icon_border.y + 35, 55, 14);
+		this.score_label = this.surface.add_text("Score", this.icon_border.x, this.icon_border.y + 32, 55, 14);
 		this.score_label.margin = 0;
 		this.score_label.align = Align.MiddleCentre;
 		this.score_label.char_size = 14;
 		this.score_label.font = "fonts/RobotoCondensed-Regular.ttf"
-		this.score_label.set_rgb(255,252,103);
+		// this.score_label.set_rgb(255,252,103);
 
 		# Location of description and title text
 		local text_x = 85;
@@ -424,13 +425,26 @@ class RightBoxLeaderboardsEntry
 		}
 
 		if ("rank" in this.data && "rank" in this.data) {
-			this.rank_label.msg = this.data["rank"] + "th";
+			this.rank_label.msg = this.data["rank"];
 			this.score_label.msg = this.data["score"];
-			// this.icon_border.set_outline_rgb(255, 255, 0);
+
+			switch(this.data["rank"] % 10) {
+				case 1:
+					this.rank_label.msg += this.data["rank"] != 11 ? "st" : "th";
+					break;
+				case 2:
+					this.rank_label.msg += this.data["rank"] != 12 ? "nd" : "th";
+					break;
+				case 3:
+					this.rank_label.msg += this.data["rank"] != 13 ? "rd" : "th";
+					break;
+				default:
+					this.rank_label.msg += "th";
+					break;
+			}
 		} else {
-			this.rank_label.msg = "NO";
+			this.rank_label.msg = "N/A";
 			this.score_label.msg = "Score";
-			// this.icon_border.set_outline_rgb(0x90, 0xAC, 0xBF);
 		}
 
 		if (this.is_selected) {
