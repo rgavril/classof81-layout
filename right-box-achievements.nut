@@ -447,7 +447,7 @@ class RightBoxAchievements
 		if (this.is_active) return;
 
 		# Update the instrutions bottom text
-		::bottom_text.set("Move up or down to browse the Retro Achievements. Move left to play [Title] or a different game.");
+		::bottom_text.set("Move up or down to browse the Retro Achievements. Move left to play [Title] or a different game. Move right to view Leaderboards.");
 		this.is_active = true;
 		this.draw();
 	}

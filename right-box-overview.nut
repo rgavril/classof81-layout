@@ -145,10 +145,6 @@ class RightBoxOverview
 	}
 
 	function draw() {
-		if (! this.is_active) {
-			return;
-		}
-
 		// async_load_right_box_button_data(diversions.get(fe.game_info(Info.Name)));
 
 		// foreach (idx, button in this.buttons) {
@@ -171,6 +167,7 @@ class RightBoxOverview
 
 	function activate()
 	{
+		::bottom_text.set("Move left to play [Title] or a different game. Move right to view Retro Achivements and Leaderboards.");
 		this.is_active = true;
 		this.draw();
 	}

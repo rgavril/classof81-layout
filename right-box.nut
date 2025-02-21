@@ -85,6 +85,8 @@ class RightBox
 
 			case "right":
 				local next_display_idx = (this.active_display_idx + 1 ) % this.displays.len()
+				# Play a sound
+				::sound_engine.play_click_sound()
 				this.show_display(next_display_idx);
 				return true;
 			break;

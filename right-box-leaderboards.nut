@@ -1,7 +1,6 @@
 local RightBoxLeaderboards_AsyncData = {
 	"rom" : "",
 	"error": "",
-	"is_loading": false,
 	"leaderboards": [
 		{
 			"title": "Ms. Normal Score",
@@ -69,6 +68,7 @@ function RightBoxLeaderboards_AsyncData_Load(rom) {
 class RightBoxLeaderboards {
 	surface = null;
 	is_active = false;
+	is_loading = false;
 
 	subtitle = null;
 	title = null;
@@ -76,10 +76,13 @@ class RightBoxLeaderboards {
 	message = null;
 	
 	entries = [];
-	PAGE_SIZE = 24;
+	PAGE_SIZE = 10;
 
 	leaderboard_idx = 0;
 	last_romchange_time = 0;
+
+	select_idx = 0;    # The index of the selected leaderboard
+	offset_idx = 0;    # The index of the first visible leaderboard
 
 	constructor()
 	{
@@ -124,7 +127,7 @@ class RightBoxLeaderboards {
 		# Entries
 		this.entries = [];
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local entry = LeaderboardEntry(this.surface, 0, 105+70*i);
+			local entry = RightBoxLeaderboardsEntry(this.surface, 0, 105+70*i);
 			this.entries.push(entry)
 		}
 
@@ -140,7 +143,7 @@ class RightBoxLeaderboards {
 
 			// If the last wakeup finished the job
 			if (this.async_load_thread.getstatus() == "idle") {
-				RightBoxLeaderboards_AsyncData["is_loading"] = false;
+				this.is_loading = false;
 				this.draw();
 			}
 		}
@@ -152,7 +155,9 @@ class RightBoxLeaderboards {
 		}
 
 		if (this.async_load_thread.getstatus() == "idle" && need_reload && this.surface.visible) {
-			RightBoxLeaderboards_AsyncData["is_loading"] = true;
+			this.is_loading = true;
+			this.offset_idx = 0;
+			this.select_idx = 0;
 
 			if (this.last_romchange_time + 300 < fe.layout.time) {
 				this.async_load_thread.call(this.rom_current());
@@ -188,7 +193,7 @@ class RightBoxLeaderboards {
 		this.subtitle.msg = romlist.game_info(this.rom_current(), Info.Title);
 
 		# If the data is still loading
-		if (RightBoxLeaderboards_AsyncData["is_loading"] == true) {
+		if (this.is_loading == true) {
 			this.show_message("Loading ...");
 			return;
 		}
@@ -208,14 +213,23 @@ class RightBoxLeaderboards {
 			this.hide_message();
 		}
 
+		# Update all leaderboard entries
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
+			local visible_idx = this.offset_idx + i;
 
-			if (i < leaderboards.len()) {
-				entry.set_data(leaderboards[i]);
-				entry.show();
-			} else {
+			if (visible_idx >= leaderboards.len()) {
 				entry.hide();
+				continue;
+			}
+
+			entry.set_data(leaderboards[visible_idx]);
+			entry.show();
+
+			if (this.is_active && this.select_idx == visible_idx) {
+				entry.select()
+			} else {
+				entry.deselect();
 			}
 		}
 	}
@@ -241,18 +255,67 @@ class RightBoxLeaderboards {
 		if (!this.is_active) { return }
 
 		if (signal_str == "down") {
+			this.down_action();
 			return true;
 		}
 
-		if (signal_str == "up") {
+		if (signal_str == "up" ) {
+			this.up_action();
+			return true;
+		}
+
+		if (signal_str == "select") {
 			return true;
 		}
 
 		return false;
 	}
 
+	function down_action()
+	{
+		# If we're at the end of the list, no need to move forward
+		if (this.select_idx == RightBoxLeaderboards_AsyncData["leaderboards"].len() - 1) {
+			return;
+		}
+
+		# Play a sound
+		::sound_engine.play_click_sound()
+
+		# Select the next element in list
+		this.select_idx++;
+
+		# Scroll the list down if the selection is not visible
+		if (this.select_idx > this.offset_idx + (PAGE_SIZE - 1)) {
+			this.offset_idx++;
+		}
+
+		this.draw();
+	}
+
+	function up_action()
+	{
+		# If we're at the begining of the list, no need to move back
+		if (this.select_idx == 0) {
+			return;
+		}
+
+		# Play a sound
+		::sound_engine.play_click_sound()
+
+		# Select the previous element in the list
+		this.select_idx--;
+
+		# Scroll the list up if the selection is not visible
+		if (this.select_idx < this.offset_idx) {
+			this.offset_idx--;
+		}
+
+		this.draw();
+	}
+
 	function activate()
 	{
+		::bottom_text.set("Move up or down to browse the Leaderboards. Move left to play [Title] or a different game. Move right to view game description.");
 		this.is_active = true;
 		this.draw();
 	}
@@ -273,7 +336,7 @@ class RightBoxLeaderboards {
 	}
 }
 
-class LeaderboardEntry
+class RightBoxLeaderboardsEntry
 {
 	data = null;
 
@@ -294,12 +357,12 @@ class LeaderboardEntry
 		this.surface = surface.add_surface(460, 350);
 		this.surface.set_pos(x, y);
 
-		# Achievement selection box
+		# Selection box
 		this.selection_box = this.surface.add_image("images/achievement_selected.png", 0, 0);
 		this.selection_box.visible = false;
 		this.selection_box.alpha = 200;
 
-		# Achievemnt badge image border
+		# Badge image border
 		this.icon_border = this.surface.add_rectangle(15, 5, 55, 55);
 		this.icon_border.set_rgb(0, 0, 0);
 		this.icon_border.alpha = 100;
@@ -326,7 +389,7 @@ class LeaderboardEntry
 		local text_x = 85;
 		local text_y = 13;
 
-		# Title of the achievement
+		# Title
 		this.title_label = this.surface.add_text("Title", text_x, text_y, 340, 85);
 		this.title_label.char_size = 24;
 		this.title_label.align = Align.TopLeft;
@@ -335,7 +398,7 @@ class LeaderboardEntry
 
 		this.title_scroller = TextScroller(this.title_label, this.title_label.msg);
 
-		# Description of the achievement
+		# Description
 		this.description_label = this.surface.add_text("Description", text_x, text_y + 25 , 340, 40);
 		this.description_label.char_size = 18;
 		this.description_label.align = Align.TopLeft;
@@ -369,6 +432,16 @@ class LeaderboardEntry
 			this.score_label.msg = "Score";
 			// this.icon_border.set_outline_rgb(0x90, 0xAC, 0xBF);
 		}
+
+		if (this.is_selected) {
+			this.selection_box.visible = true;
+			this.description_scroller.activate();
+			this.title_scroller.activate();
+		} else {
+			this.selection_box.visible = false;
+			this.description_scroller.desactivate();
+			this.title_scroller.desactivate();
+		}
 	}
 
 	function show()
@@ -379,5 +452,17 @@ class LeaderboardEntry
 	function hide()
 	{
 		this.surface.visible = false;
+	}
+
+	function select()
+	{
+		this.is_selected = true;
+		this.draw()
+	}
+
+	function deselect()
+	{	
+		this.is_selected = false;
+		this.draw()
 	}
 }
