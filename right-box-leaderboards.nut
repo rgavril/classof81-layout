@@ -1,8 +1,13 @@
 local RightBoxLeaderboards_AsyncData = {
+	"rom" : "",
+	"error": "",
+	"is_loading": false,
 	"leaderboards": [
 		{
 			"title": "Ms. Normal Score",
-			"description": "This is a description"
+			"description": "This is a description",
+			"rank": 5,
+			"score": "123,456"
 		},
 		{
 			"title": "High Score: Hard Difficulty",
@@ -12,12 +17,24 @@ local RightBoxLeaderboards_AsyncData = {
 };
 
 function RightBoxLeaderboards_AsyncData_Load(rom) {
+	RightBoxLeaderboards_AsyncData["rom"] = rom;
 	RightBoxLeaderboards_AsyncData["leaderboards"] = [];
+	RightBoxLeaderboards_AsyncData["error"] = "";
 
-	local game_id = ra.game_id(rom);
+	suspend(null);
+
+	local game_id = 0;
+	try {
+		game_id = ra.game_id(rom);
+	} catch(e) {
+		RightBoxLeaderboards_AsyncData["error"] = e;
+		return null;
+	}
+	suspend(null);
 
 	// Game Leaderboards
 	local game_leaderboards = ra.GetGameLeaderboards(game_id);
+	suspend(null);
 
 	// User Leaderboards
 	local user_leaderboards = null;
@@ -25,6 +42,7 @@ function RightBoxLeaderboards_AsyncData_Load(rom) {
 		user_leaderboards = ra.GetUserGameLeaderboards(game_id);
 	} catch(e) {
 	}
+	suspend(null);
 
 	if ("Results" in game_leaderboards) {
 		foreach (game_leaderboard in game_leaderboards["Results"]) {
@@ -114,6 +132,36 @@ class RightBoxLeaderboards {
 		fe.add_transition_callback(this, "transition_callback");
 	}
 
+	async_load_thread = newthread(RightBoxLeaderboards_AsyncData_Load)
+	function async_load_manager(tick_time) {
+		// Continue Suspended Threads
+		if (this.async_load_thread.getstatus() == "suspended") {
+			this.async_load_thread.wakeup();
+
+			// If the last wakeup finished the job
+			if (this.async_load_thread.getstatus() == "idle") {
+				RightBoxLeaderboards_AsyncData["is_loading"] = false;
+				this.draw();
+			}
+		}
+
+		// Determine if we need to run a thread
+		local need_reload = false;
+		if (RightBoxLeaderboards_AsyncData["rom"] != this.rom_current()) {
+			need_reload = true;
+		}
+
+		if (this.async_load_thread.getstatus() == "idle" && need_reload && this.surface.visible) {
+			RightBoxLeaderboards_AsyncData["is_loading"] = true;
+
+			if (this.last_romchange_time + 300 < fe.layout.time) {
+				this.async_load_thread.call(this.rom_current());
+			}
+
+			draw();
+		}
+	}
+
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.ToNewSelection) {
@@ -136,13 +184,29 @@ class RightBoxLeaderboards {
 			return;
 		}
 
-		RightBoxLeaderboards_AsyncData_Load(this.rom_current());
-
 		# Update the Subtitle
 		this.subtitle.msg = romlist.game_info(this.rom_current(), Info.Title);
 
+		# If the data is still loading
+		if (RightBoxLeaderboards_AsyncData["is_loading"] == true) {
+			this.show_message("Loading ...");
+			return;
+		}
+
+		# If the data loaaing found a error
+		if (RightBoxLeaderboards_AsyncData["error"] != "") {
+			this.show_message(RightBoxLeaderboards_AsyncData["error"]);
+			return;
+		}
+
 		# Update the Entries
 		local leaderboards = RightBoxLeaderboards_AsyncData["leaderboards"];
+
+		if (leaderboards.len() == 0) {
+			this.show_message("No Leaderboards Found!");
+		} else {
+			this.hide_message();
+		}
 
 		for (local i=0; i<PAGE_SIZE; i++) {
 			local entry = this.entries[i];
