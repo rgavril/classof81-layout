@@ -102,6 +102,9 @@ class TextShadow {
 		this.container = container;
 
 		this.shadow = surface.add_text(container.msg, container.x+1, container.y+1, container.width, container.height);
+		if (this.container.font != "") {
+			this.shadow.font = this.container.font;
+		}
 		this.shadow.set_rgb(0,0,0);
 		this.shadow.zorder = 0;
 		this.container.zorder = 1;
@@ -114,5 +117,6 @@ class TextShadow {
 		this.shadow.char_size = this.container.char_size;
 		this.shadow.margin = this.container.margin;
 		this.shadow.align = this.container.align;
+		this.shadow.word_wrap = this.container.word_wrap;
 	}
 }
