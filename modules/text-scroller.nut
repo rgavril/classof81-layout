@@ -93,3 +93,26 @@ class TextScroller {
 		this._reset()
 	}
 }
+
+class TextShadow {
+	container = null;
+	shadow = null;
+
+	constructor(surface, container) {
+		this.container = container;
+
+		this.shadow = surface.add_text(container.msg, container.x+1, container.y+1, container.width, container.height);
+		this.shadow.set_rgb(0,0,0);
+		this.shadow.zorder = 0;
+		this.container.zorder = 1;
+
+		fe.add_ticks_callback(this, "redraw_shadow");
+	}
+
+	function redraw_shadow(tick_time) {
+		this.shadow.msg = this.container.msg;
+		this.shadow.char_size = this.container.char_size;
+		this.shadow.margin = this.container.margin;
+		this.shadow.align = this.container.align;
+	}
+}
