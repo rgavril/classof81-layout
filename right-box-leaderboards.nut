@@ -114,6 +114,8 @@ class RightBoxLeaderboards {
 		this.message.align = Align.MiddleCentre;
 		this.message.word_wrap = true;
 		this.message.visible = false;
+		this.message.set_rgb(255, 252, 103);
+		TextShadow(this.surface, this.message);
 
 		# Entries
 		this.entries = [];

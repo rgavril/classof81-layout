@@ -118,5 +118,7 @@ class TextShadow {
 		this.shadow.margin = this.container.margin;
 		this.shadow.align = this.container.align;
 		this.shadow.word_wrap = this.container.word_wrap;
+		this.shadow.line_spacing = this.container.line_spacing;
+		this.shadow.visible = this.container.visible;
 	}
 }
