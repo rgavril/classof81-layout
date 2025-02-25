@@ -72,7 +72,6 @@ class RightBoxLeaderboards {
 
 	subtitle = null;
 	title = null;
-	title_shadow = null;
 	message = null;
 	
 	entries = [];
@@ -91,19 +90,13 @@ class RightBoxLeaderboards {
 		this.surface.y       = 235;
 		this.surface.visible = this.is_active;
 
-		# Title Shadow
-		this.title_shadow = this.surface.add_text("Leaderboards", 25+1, 10+1, this.surface.width-50, 50)
-		this.title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
-		this.title_shadow.set_rgb(0,0,0)
-		this.title_shadow.char_size = 32
-		this.title_shadow.align = Align.TopCentre
-
 		# Title
 		this.title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
 		this.title.font = "fonts/CriqueGrotesk-Bold.ttf"
 		this.title.set_rgb(255,104,181);
 		this.title.char_size = 32;
 		this.title.align = Align.TopCentre;
+		TextShadow(this.surface, this.title);
 
 		# Subtitle
 		this.subtitle = this.surface.add_text("", 25, 50, this.surface.width-50, 50);

@@ -194,19 +194,13 @@ class RightBoxAchievements
 		this.surface.x  = 475;
 		this.surface.y  = 235;
 
-		# Title Shadow
-		local title_shadow = this.surface.add_text("Retro Achievements", 25+1, 10+1, this.surface.width-50, 50)
-		title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
-		title_shadow.set_rgb(0,0,0)
-		title_shadow.char_size = 32
-		title_shadow.align = Align.TopCentre
-
 		# Title
 		local title = this.surface.add_text("Retro Achievements", 25, 10, this.surface.width-50, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf"
 		title.set_rgb(255,104,181);
 		title.char_size = 32;
 		title.align = Align.TopCentre;
+		TextShadow(this.surface, title);
 
 		# Subtitle
 		this.subtitle = this.surface.add_text("", 25, 50, this.surface.width-50, 50);
@@ -214,6 +208,7 @@ class RightBoxAchievements
 		subtitle.set_rgb(255, 255, 255);
 		subtitle.char_size = 24;
 		subtitle.align = Align.TopCentre;
+		TextShadow(this.surface, subtitle);
 
 		# Message
 		this.message = this.surface.add_text("", 30, 250, this.surface.width-60, 320);
