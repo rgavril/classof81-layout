@@ -91,9 +91,6 @@ class RightBoxLeaderboards {
 		this.surface.y       = 235;
 		this.surface.visible = this.is_active;
 
-		# Snap Fade
-		this.surface.add_image("images/test.png", 0, 0);
-
 		# Title Shadow
 		this.title_shadow = this.surface.add_text("Leaderboards", 25+1, 10+1, this.surface.width-50, 50)
 		this.title_shadow.font = "fonts/CriqueGrotesk-Bold.ttf"
@@ -114,6 +111,7 @@ class RightBoxLeaderboards {
 		subtitle.set_rgb(255, 255, 255);
 		subtitle.char_size = 24;
 		subtitle.align = Align.TopCentre;
+		TextShadow(this.surface, this.subtitle);
 
 		# Message
 		this.message = this.surface.add_text("", 30, 250, this.surface.width-60, 320);
@@ -376,7 +374,7 @@ class RightBoxLeaderboardsEntry
 		this.rank_label.margin = 0;
 		this.rank_label.align = Align.MiddleCentre;
 		this.rank_label.char_size = 20;
-		this.rank_label.font = "fonts/RobotoCondensed-SemiBold.ttf"
+		// this.rank_label.font = "fonts/RobotoCondensed-SemiBold.ttf"
 		this.rank_label.set_rgb(255,255,255);
 		this.rank_label.outline = 1;
 		this.rank_label.set_outline_rgb(0,0,100)
@@ -385,7 +383,7 @@ class RightBoxLeaderboardsEntry
 		this.score_label.margin = 0;
 		this.score_label.align = Align.MiddleCentre;
 		this.score_label.char_size = 14;
-		this.score_label.font = "fonts/RobotoCondensed-Regular.ttf"
+		// this.score_label.font = "fonts/RobotoCondensed-Regular.ttf"
 		this.score_label.set_rgb(0, 0, 0);
 
 		# Location of description and title text
@@ -399,6 +397,7 @@ class RightBoxLeaderboardsEntry
 		this.title_label.margin = 0;
 		this.title_label.set_rgb(255,252,103);
 		this.title_scroller = TextScroller(this.title_label, this.title_label.msg);
+		TextShadow(this.surface, this.title_label);
 
 		# Description
 		this.description_label = this.surface.add_text("Description", text_x, text_y + 25 , 340, 40);
@@ -407,6 +406,7 @@ class RightBoxLeaderboardsEntry
 		this.description_label.margin = 0;
 
 		this.description_scroller = TextScroller(this.description_label, this.description_label.msg);
+		TextShadow(this.surface, this.description_label);
 	}
 
 	function set_data(data)

@@ -51,6 +51,7 @@ class AchievementEntry {
 		this.title_label.set_rgb(255,252,103);
 
 		this.title_scroller = TextScroller(this.title_label, "");
+		TextShadow(this.surface, this.title_label);
 
 		# Description of the achievement
 		this.description_label = this.surface.add_text("", text_x, text_y + 25 , 340, 40);
@@ -59,6 +60,7 @@ class AchievementEntry {
 		this.description_label.margin = 0;
 
 		this.description_scroller = TextScroller(this.description_label, "");
+		TextShadow(this.surface, this.description_label);
 
 		# Shader used for desaturating badge icon
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
@@ -191,9 +193,6 @@ class RightBoxAchievements
 		this.surface = fe.add_surface(450, 840);
 		this.surface.x  = 475;
 		this.surface.y  = 235;
-
-		# Snap Fade
-		this.surface.add_image("images/test.png", 0, 0);
 
 		# Title Shadow
 		local title_shadow = this.surface.add_text("Retro Achievements", 25+1, 10+1, this.surface.width-50, 50)

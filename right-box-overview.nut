@@ -39,7 +39,7 @@ class RightBoxOverview
 
 		# Overview Short
 		// this.overview_shadow = fe.add_text("", 475+2, 235+65+2, 450, 840-65);
-		this.overview_shadow = this.surface.add_text("", 2, 65+2, 450, this.surface.height-65);
+		this.overview_shadow = this.surface.add_text("", 1, 65+1, 450, this.surface.height-65);
 		this.overview_shadow.align = Align.TopLeft;
 		this.overview_shadow.char_size = 26;
 		this.overview_shadow.word_wrap = true;
