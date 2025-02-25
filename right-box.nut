@@ -27,7 +27,7 @@ class RightBox
 		this.displays.push(RightBoxOverview());
 		this.displays.push(RightBoxAchievements());
 		this.displays.push(RightBoxLeaderboards());
-		show_display(2);
+		show_display(0);
 
 		# Add a callback to redraw when game is changed
 		fe.add_transition_callback(this, "transition_callback");
@@ -52,6 +52,7 @@ class RightBox
 	function transition_callback(ttype, var, transition_time)
 	{
 		if (ttype == Transition.FromOldSelection) {
+			show_display(0);
 			draw();
 		}
 
@@ -88,6 +89,11 @@ class RightBox
 				# Play a sound
 				::sound_engine.play_click_sound()
 				this.show_display(next_display_idx);
+				return true;
+			break;
+
+			case "up":
+			case "down":
 				return true;
 			break;
 		}

@@ -58,7 +58,6 @@ function RightBoxLeaderboards_AsyncData_Load(rom) {
 						data["score"] <- user_entry["FormattedScore"];
 					}
 				}
-
 			}
 
 			RightBoxLeaderboards_AsyncData["leaderboards"].push(data);
@@ -160,7 +159,7 @@ class RightBoxLeaderboards {
 			this.offset_idx = 0;
 			this.select_idx = 0;
 
-			if (this.last_romchange_time + 300 < fe.layout.time) {
+			if (this.last_romchange_time + 600 < fe.layout.time) {
 				this.async_load_thread.call(this.rom_current());
 			}
 
@@ -343,6 +342,7 @@ class RightBoxLeaderboardsEntry
 
 	surface = null;
 	icon_border = null;
+	icon_background = null;
 	title_label = null;
 	title_scroller = null;
 	description_label = null;
@@ -365,26 +365,28 @@ class RightBoxLeaderboardsEntry
 
 		# Badge image border
 		this.icon_border = this.surface.add_rectangle(15, 5, 55, 55);
-		this.icon_border.set_rgb(0, 0, 0);
-		this.icon_border.alpha = 100;
-		this.icon_border.outline = 2;
-		this.icon_border.set_outline_rgb(255, 255, 255); //90 AC BF
-		this.icon_border.outline_alpha = 100;
+		this.icon_border.set_rgb(0x90, 0xac, 0xbf);
+		this.icon_border.outline = 1;
+		this.icon_border.set_outline_rgb(255,255,255); //90 AC BF
+		this.icon_border.alpha = 0;
 
+		this.icon_background = this.surface.add_image("images/leaderboard_icon.png",15,5,55,55);
 
-		this.rank_label = this.surface.add_text("Rank", this.icon_border.x, this.icon_border.y+7, 55, 20);
+		this.rank_label = this.surface.add_text("Rank", this.icon_border.x, this.icon_border.y+6, 55, 20);
 		this.rank_label.margin = 0;
 		this.rank_label.align = Align.MiddleCentre;
 		this.rank_label.char_size = 20;
-		this.rank_label.font = "fonts/RobotoCondensed-Regular.ttf"
-		this.rank_label.set_rgb(255,252,103);
+		this.rank_label.font = "fonts/RobotoCondensed-SemiBold.ttf"
+		this.rank_label.set_rgb(255,255,255);
+		this.rank_label.outline = 1;
+		this.rank_label.set_outline_rgb(0,0,100)
 
-		this.score_label = this.surface.add_text("Score", this.icon_border.x, this.icon_border.y + 32, 55, 14);
+		this.score_label = this.surface.add_text("Score", this.icon_border.x, this.icon_border.y + 37, 55, 14);
 		this.score_label.margin = 0;
 		this.score_label.align = Align.MiddleCentre;
 		this.score_label.char_size = 14;
 		this.score_label.font = "fonts/RobotoCondensed-Regular.ttf"
-		// this.score_label.set_rgb(255,252,103);
+		this.score_label.set_rgb(0, 0, 0);
 
 		# Location of description and title text
 		local text_x = 85;
@@ -396,7 +398,6 @@ class RightBoxLeaderboardsEntry
 		this.title_label.align = Align.TopLeft;
 		this.title_label.margin = 0;
 		this.title_label.set_rgb(255,252,103);
-
 		this.title_scroller = TextScroller(this.title_label, this.title_label.msg);
 
 		# Description
@@ -443,7 +444,7 @@ class RightBoxLeaderboardsEntry
 					break;
 			}
 		} else {
-			this.rank_label.msg = "N/A";
+			this.rank_label.msg = "NO";
 			this.score_label.msg = "Score";
 		}
 
