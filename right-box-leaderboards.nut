@@ -162,6 +162,11 @@ class RightBoxLeaderboards {
 
 	function transition_callback(ttype, var, transition_time)
 	{
+		# Force a leaderboards reload when returning from the game
+		if (ttype == Transition.FromGame && this.surface.visible) {
+			RightBoxLeaderboards_AsyncData["rom"] = "";
+		}
+
 		if (ttype == Transition.ToNewSelection) {
 			this.last_romchange_time = fe.layout.time;
 		}
@@ -359,8 +364,8 @@ class RightBoxLeaderboardsEntry
 		# Badge image border
 		this.icon_border = this.surface.add_rectangle(15, 5, 55, 55);
 		this.icon_border.set_rgb(0x90, 0xac, 0xbf);
-		this.icon_border.outline = 1;
-		this.icon_border.set_outline_rgb(255,255,255); //90 AC BF
+		this.icon_border.outline = 0;
+		this.icon_border.set_outline_rgb(0x90, 0xac, 0xbf); //90 AC BF
 		this.icon_border.alpha = 0;
 
 		this.icon_background = this.surface.add_image("images/leaderboard_icon.png",15,5,55,55);
@@ -371,8 +376,7 @@ class RightBoxLeaderboardsEntry
 		this.rank_label.char_size = 20;
 		// this.rank_label.font = "fonts/RobotoCondensed-SemiBold.ttf"
 		this.rank_label.set_rgb(255,255,255);
-		this.rank_label.outline = 1;
-		this.rank_label.set_outline_rgb(0,0,100)
+		TextShadow(this.surface, this.rank_label);
 
 		this.score_label = this.surface.add_text("Score", this.icon_border.x, this.icon_border.y + 37, 55, 14);
 		this.score_label.margin = 0;
