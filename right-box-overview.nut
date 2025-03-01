@@ -73,6 +73,7 @@ class RightBoxOverview
 	function activate()
 	{
 		this.is_active = true;
+		::bottom_text.set("Move left to play [Title] or a different game. Move right to view achievements.");
 		this.draw();
 	}
 

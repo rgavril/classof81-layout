@@ -1,16 +1,13 @@
 
-function min(a,b) 
-{
+::min <- function(a,b) {
 	return a < b ? a : b;
 }
 
-function max(a,b) 
-{
+::max <- function(a,b) {
 	return a > b ? a : b;
 }
 
-function str_replace(search, replace, subject)
-{
+::str_replace <- function(search, replace, subject) {
 	if (subject == null) return null;
 
 	local text = subject;
@@ -27,42 +24,6 @@ function str_replace(search, replace, subject)
 	}
 
 	return text;
-}
-
-function ini_section(filename, section)
-{
-	local file = ReadTextFile("/", filename);
-	local map = {};
-	
-	local section_found = false;
-	while(!file.eos()) {
-		local line = file.read_line();
-
-		if (line == "["+section+"]") {
-			section_found = true;
-			continue;
-		}
-
-		if (! section_found) {
-			continue;
-		}
-
-		if (line.len()>0 && line.slice(0, 1) == "[") {
-			break;
-		}
-
-		local parts = split(line, "=");
-		if (parts.len() == 2) {
-			local key = strip(parts[0]);
-			local value = strip(parts[1]);
-			value = str_replace("\"", "", value);
-
-			map[key] <- value;
-		}
-	}
-
-	// file.close();
-	return map;
 }
 
 function load_json(filename) {
@@ -144,7 +105,7 @@ function intToBytesLE(x) {
     return [x & 0xFF, (x >> 8) & 0xFF, (x >> 16) & 0xFF, (x >> 24) & 0xFF];
 }
 
-function md5(input) {
+::md5 <- function(input) {
     local S = [
         7, 12, 17, 22,  7, 12, 17, 22,  7, 12, 17, 22,  7, 12, 17, 22,
         5,  9, 14, 20,  5,  9, 14, 20,  5,  9, 14, 20,  5,  9, 14, 20,
@@ -220,7 +181,7 @@ function md5(input) {
 }
 
 // Recursive function to print tables with tabs for indentation
-function var_dump(variable, indent = 0) {
+::var_dump <- function(variable, indent = 0) {
 	local tab = "    "  // Define a tab space (4 spaces)
 	local indentation = ""
 
