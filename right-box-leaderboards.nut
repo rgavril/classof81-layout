@@ -16,6 +16,8 @@ local RightBoxLeaderboards_AsyncData = {
 };
 
 function RightBoxLeaderboards_AsyncData_Load(rom) {
+	suspend(null);
+
 	RightBoxLeaderboards_AsyncData["rom"] = rom;
 	RightBoxLeaderboards_AsyncData["leaderboards"] = [];
 	RightBoxLeaderboards_AsyncData["error"] = "";

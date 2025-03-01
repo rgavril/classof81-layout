@@ -24,6 +24,8 @@ local RightBoxAchievements_AsyncData = {
 }
 
 function RightBoxAchievements_AsyncData_Load(rom) {
+	suspend(null);
+
 	RightBoxAchievements_AsyncData["rom"] = rom;
 	RightBoxAchievements_AsyncData["error"] = "";
 	RightBoxAchievements_AsyncData["achievements"] = [];
