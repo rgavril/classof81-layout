@@ -1,13 +1,7 @@
 class RetroAchievements
 {
 	Error = {
-		GameIDNotFound = "Game not found in RetroAchievements.org database.",
-		GameListDownload = "Failed to download game list.\nCheck your internet connection and login credentials.",
-		GameListParse = "Error parsing the game list. Please try again.",
-		GameInfoDownload = "Failed to download game info.\nCheck your internet connection and login credentials.",
-		GameInfoParse = "Error parsing the game list. Please try again.",
-		GameInfoEmpty = "Game info is empty.\nCheck your internet connection and login credentials.",
-
+		GameIDNotFound = "Game not found on RetroAchievements.org",
 		Download = "Failed retrive data from RetroAchievements.org.\nCheck your internet connection and login credentials.",
 		ParseJSON = "Error parsing response from RetroAchievements.org. Please try again."
 	}
