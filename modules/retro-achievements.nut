@@ -19,84 +19,17 @@ class RetroAchievements
 
 	}
 
-	function download_gamelist() {
-		# Build the gamelist download url
-		local url = this.build_url(
+	function GetGameList(use_cache=true) {
+		local cache_age = 30 * 24 * 60; // 30 Days
+
+		return this.call_method(
 			"API_GetGameList.php",
 			{
 				"i": 27,
 				"h": 1
-			}
-		);
-
-		# Try to download the gamelist 
-		if (! fe.get_url(url, GAMELIST_JSON) ) {
-
-			# If it fails, thow a error
-			throw Error.GameListDownload;
-		}
-	}
-
-	function parse_gamelist() {
-		# Download the gamelist if not yet downloaded
-		if (! fe.path_test(GAMELIST_JSON, PathTest.IsFile)) {
-			this.download_gamelist();
-		}
-
-		# Try to parse the gamelist
-		try {
-			return load_json(GAMELIST_JSON);
-
-		# If it fails json parsing
-		} catch (e) {
-			# Delete the file so it can be downloaded again
-			remove(GAMELIST_JSON);
-
-			# Throw a error
-			throw Error.GameListParse;
-		}
-	}
-
-	function download_gameinfo(rom) {
-		# Find the gameid associated with the rom
-		local game_id = this.game_id(rom);
-
-		# Build teh gameinfo url
-		local url = this.build_url(
-			"API_GetGameInfoAndUserProgress.php",
-			{
-				"g": game_id,
-				"u": AM_CONFIG["ra_username"],
-				"z": AM_CONFIG["ra_username"]
-			}
+			},
+			use_cache ? cache_age : 0
 		)
-
-		# Try to download the gameinfo
-		if (! fe.get_url(url, STORAGE_DIR+"/"+rom+".json")) {
-
-			# If it fails thow a error
-			throw Error.GameInfoDownload;
-		}
-	}
-
-	function parse_gameinfo(rom) {
-		local gameinfo = null;
-
-		if (! fe.path_test(STORAGE_DIR+"/"+rom+".json", PathTest.IsFile)) {
-			this.download_gameinfo(rom);
-		}
-
-		try {
-			gameinfo = load_json(STORAGE_DIR+"/"+rom+".json");
-		} catch(e) {
-			throw Error.GameInfoParse;
-		}
-
-		if (gameinfo.len() == 0) {
-			throw Error.GameInfoEmpty;
-		}
-
-		return gameinfo;
 	}
 
 	/*
@@ -106,8 +39,7 @@ class RetroAchievements
 
 		https://api-docs.retroachievements.org/v1/get-game-info-and-user-progress.html
 	*/
-	function GetGameInfoAndUserProgress(game_id, use_cache=true)
-	{
+	function GetGameInfoAndUserProgress(game_id, use_cache=true) {
 		local cache_age = 1; // 1 Minute
 
 		return this.call_method(
@@ -170,7 +102,7 @@ class RetroAchievements
 
 	function game_id(rom) {
 		# Parse the gamelist
-		local gamelist = this.parse_gamelist();
+		local gamelist = this.GetGameList();
 
 		# Create a hash for the current rom
 		local romHash = md5(rom);
