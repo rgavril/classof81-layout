@@ -102,9 +102,9 @@ class GameButtons {
 	function draw()
 	{
 		# Update the letter
-		local y_min = 251;
-		local y_max = 1111 - this.letter.height;
-		local y_current = y_min + (y_max - y_min) * ((fe.list.index-1).tofloat() / fe.list.size)
+		local y_min = 205;
+		local y_max = 1105 - this.letter.height;
+		local y_current = y_min + (y_max - y_min) * (fe.list.index.tofloat() / (fe.list.size-1))
 		this.letter.msg = fe.game_info(Info.Title).slice(0,1).toupper();
 		animation.add(PropertyAnimation(this.letter, {property = "y",  end=y_current, time = 150, tween = Tween.Quart}));
 
