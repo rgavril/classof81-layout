@@ -5,6 +5,7 @@ class GameButton {
 	logo = null;
 	logo_shadow = null;
 	gear_icon = null;
+	game_name = null;
 
 	m_desaturize_shader = null;
 	m_shadow_shader = null;
@@ -42,6 +43,14 @@ class GameButton {
 		this.gear_icon.origin_x = 0;
 		this.gear_icon.y = this.background_image.y;
 		this.gear_icon.x = 7;
+
+		# Game Name
+		this.game_name = this.surface.add_text("[Title]", 90, 135, 315, 105);
+		this.game_name.align = Align.MiddleCentre;
+		this.game_name.font = "fonts/compactablkbt_black.ttf";
+		this.game_name.char_size = 48;
+		this.game_name.char_spacing = 0.8;
+		this.game_name.set_rgb(100, 120, 150);
 
 		# Shader used to desaturade the unselected logo on buttons
 		m_desaturize_shader = fe.add_shader(Shader.Fragment, "shaders/desaturate.glsl");
@@ -84,8 +93,18 @@ class GameButton {
 		return false;
 	}
 
+	function setTitle(name) {
+		this.game_name.msg = name;
+	}
+
 	function setLogo(filename, resize=true)
 	{
+		if (! fe.path_test(filename, PathTest.IsFile)) {
+			this.game_name.visible = true;
+		} else {
+			this.game_name.visible = false;
+		}
+
 		this.logo.file_name = filename
 
 		local logo_width = 0;
@@ -130,19 +149,17 @@ class GameButton {
 		this.logo_shadow.alpha     = 1;
 		this.logo_shadow.zorder    = 1;
 		this.logo_shadow.shader    = m_shadow_shader;
-		// this.logo.visible = false;
-
-		// local x = this.surface.add_rectangle(
-		// 		this.background_image.x + this.background_image.texture_width - 145 - 260/2,
-		// 		this.background_image.y + this.background_image.texture_height/2    - 160/2,
-		// 		260, 160);
-		// x.alpha = 100;
 	}
 
 	function draw()
 	{
-		this.logo.shader         = this.is_selected ? m_empty_shader : m_desaturize_shader;
-		// this.logo_shadow.visible = this.is_selected ? true : false
+		this.logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
+
+		if (this.is_selected) {
+			this.game_name.set_rgb(0, 0, 0);
+		} else {
+			this.game_name.set_rgb(100, 120, 150);
+		}
 
 		# Gear Icon
 		if ( this.is_selected && this.is_gear_selected ) {
@@ -158,7 +175,7 @@ class GameButton {
 			this.background_image.file_name = "images/button_background_inactive.png"
 		}
 
-		# Select Box Game Logic
+		# Game Select Box Logic
 		if ( this.is_selected && this.is_active && !this.is_gear_selected ) {
 			this.game_select_box.file_name = "images/game_select_box_active.png"
 			this.game_select_box.visible   = true;

@@ -126,6 +126,8 @@ class GameButtons {
 			} else {
 				button.setLogo(logo_filename, false)
 			}
+
+			button.setTitle(fe.game_info(Info.Name, relative_index));
 			
 
 			# Show the button
