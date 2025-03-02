@@ -54,6 +54,7 @@ fe.do_nut("game-startup-page.nut");
 fe.do_nut("splash-screen.nut");
 
 # Background Image
+// fe.add_artwork("snap", 0, 0, 960, 1280);
 fe.add_image("images/background.png", 0, 0);
 
 # GUI Elements

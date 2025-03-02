@@ -13,8 +13,7 @@ class RightBox
 	constructor()
 	{
 		# Sidebox Border
-		this.border_image = fe.add_image("images/sidebox_active.png", 460, 220);
-		this.border_image.visible = false;
+		this.border_image = fe.add_image("images/sidebox_inactive.png", 460, 220);
 
 		# Connection Bar
 		this.connection_bar = fe.add_image("images/connection_bar_inactive.png", 460, 340);
@@ -28,10 +27,10 @@ class RightBox
 		snap.height = snap.width * 4/3;
 		snap.x      = 475;
 		snap.y      = 235 + 840 - snap.height;
-		snap.alpha  = 50;
+		// snap.alpha  = 50;
 
 		# Snap Fade
-		fe.add_image("images/test.png", 475, 235);
+		fe.add_image("images/fade.png", 475, 235);
 
 		draw();
 
@@ -115,7 +114,11 @@ class RightBox
 	function draw()
 	{
 		# Sidebox Border
-		this.border_image.visible = this.is_active;
+		if (this.is_active) {
+			this.border_image.file_name = "images/sidebox_active.png";
+		} else {
+			this.border_image.file_name = "images/sidebox_inactive.png";
+		}
 
 		# Connection Bar Image
 		if (this.is_active) {
