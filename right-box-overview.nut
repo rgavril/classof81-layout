@@ -57,7 +57,9 @@ class RightBoxOverview
 		}
 
 		# Overview Text
-		this.overview_text.msg = short_overview();
+		this.overview_text.msg = "";
+		this.overview_text.msg += short_overview();
+		this.overview_text.msg += "\n\nReleased in [Year] by [Manufacturer].";
 	}
 
 	function activate()
