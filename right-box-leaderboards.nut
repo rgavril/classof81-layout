@@ -323,6 +323,7 @@ class RightBoxLeaderboards {
 	function desactivate()
 	{
 		this.is_active = false;
+		this.draw();
 	}
 
 	function show()
