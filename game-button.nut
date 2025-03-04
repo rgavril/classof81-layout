@@ -4,8 +4,11 @@ class GameButton {
 	game_select_box = null;
 	logo = null;
 	logo_shadow = null;
+
 	gear_icon = null;
 	game_name = null;
+
+	index_offset = 0;
 
 	m_desaturize_shader = null;
 	m_shadow_shader = null;
@@ -93,18 +96,8 @@ class GameButton {
 		return false;
 	}
 
-	function setTitle(name) {
-		this.game_name.msg = name;
-	}
-
 	function setLogo(filename, resize=true)
 	{
-		if (! fe.path_test(filename, PathTest.IsFile)) {
-			this.game_name.visible = true;
-		} else {
-			this.game_name.visible = false;
-		}
-
 		this.logo.file_name = filename
 
 		local logo_width = 0;
@@ -151,9 +144,34 @@ class GameButton {
 		this.logo_shadow.shader    = m_shadow_shader;
 	}
 
+	function set_index_offset(index)
+	{
+		this.index_offset = index;
+	}
+
 	function draw()
 	{
 		this.logo.shader = this.is_selected ? m_empty_shader : m_desaturize_shader;
+
+		# Logo Image
+		local custom_logo_image = fe.script_dir+"/images/wheel/"+fe.game_info(Info.Name, this.index_offset)+".png";
+		local default_logo_image = fe.get_art("wheel", this.index_offset);
+
+		if (fe.path_test(custom_logo_image, PathTest.IsFile)) {
+			this.setLogo(custom_logo_image, false);
+			this.game_name.visible = false;
+
+		} else if (fe.path_test(default_logo_image, PathTest.IsFile)) {
+			this.setLogo(default_logo_image, true);
+			this.game_name.visible = false;
+
+		} else {
+			this.setLogo("", true);
+			this.game_name.visible = true;
+		}
+
+		# Fallback Name
+		this.game_name.msg = fe.game_info(Info.Name, this.index_offset);
 
 		if (this.is_selected) {
 			this.game_name.set_rgb(0, 0, 0);
