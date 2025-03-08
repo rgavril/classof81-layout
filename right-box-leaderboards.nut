@@ -48,8 +48,9 @@ function RightBoxLeaderboards_AsyncData_Load(rom) {
 	if ("Results" in game_leaderboards) {
 		foreach (game_leaderboard in game_leaderboards["Results"]) {
 			local data = {
-				"title": game_leaderboard["Title"],
-				"description" : game_leaderboard["Description"]
+				"id"         : game_leaderboard["ID"],
+				"title"      : game_leaderboard["Title"],
+				"description": game_leaderboard["Description"],
 			}
 
 			if ("Results" in user_leaderboards) {
@@ -84,6 +85,8 @@ class RightBoxLeaderboards {
 
 	select_idx = 0;    # The index of the selected leaderboard
 	offset_idx = 0;    # The index of the first visible leaderboard
+
+	leaderboard_dispay = null;
 
 	constructor()
 	{
@@ -125,6 +128,9 @@ class RightBoxLeaderboards {
 			local entry = RightBoxLeaderboardsEntry(this.surface, 0, 105+70*i);
 			this.entries.push(entry)
 		}
+
+		# Display
+		this.leaderboard_dispay = RightBoxLeaderboard();
 
 		fe.add_ticks_callback(this, "async_load_manager");
 		fe.add_transition_callback(this, "transition_callback");
@@ -252,7 +258,13 @@ class RightBoxLeaderboards {
 
 	function key_detect(signal_str)
 	{
-		if (!this.is_active) { return }
+		if (! this.is_active) { return }
+
+		if ( this.leaderboard_dispay.is_active ) {
+			if (this.leaderboard_dispay.key_detect(signal_str)) {
+				return true;
+			}
+		}
 
 		if (signal_str == "down") {
 			this.down_action();
@@ -265,6 +277,9 @@ class RightBoxLeaderboards {
 		}
 
 		if (signal_str == "select") {
+			local leaderboard = RightBoxLeaderboards_AsyncData["leaderboards"][select_idx];
+			this.leaderboard_dispay.set_leaderboard_id(leaderboard["id"]);
+			this.leaderboard_dispay.show();
 			return true;
 		}
 
