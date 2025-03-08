@@ -58,6 +58,26 @@ fe.do_nut("splash-screen.nut");
 // fe.add_artwork("snap", 0, 0, 960, 1280);
 fe.add_image("images/background.png", 0, 0);
 
+# Header Text
+local headerText = fe.add_text("[!headerTextMsg]", 0, 48, 940, 70);
+headerText.margin = 0;
+headerText.char_size = 65;
+headerText.set_rgb(255, 140, 1);
+headerText.outline = 3;
+headerText.char_spacing = 0.95;
+headerText.set_outline_rgb(197, 29, 11);
+headerText.font = "fonts/compactablkbt_black.ttf";
+headerText.align = Align.TopRight;
+function headerTextMsg()
+{
+	if (fe.list.filter_index == 0) {
+		return "Class of 1981"
+	} else {
+		return "[FilterName]";
+	}
+}
+
+
 # GUI Elements
 splash_screen   <- SplashScreen();
 sound_engine    <- SoundEngine()
