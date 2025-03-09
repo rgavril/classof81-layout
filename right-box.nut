@@ -27,7 +27,6 @@ class RightBox
 		snap.height = snap.width * 4/3;
 		snap.x      = 475;
 		snap.y      = 235 + 840 - snap.height;
-		// snap.alpha  = 50;
 
 		# Snap Fade
 		fe.add_image("images/fade.png", 475, 235);
