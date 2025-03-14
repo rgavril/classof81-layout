@@ -1,4 +1,5 @@
 local RightBoxLeaderboard_AsyncData = {
+	"total": 0,
 	"entries": []
 }
 
@@ -15,9 +16,11 @@ function RightBoxLeaderboard_AsyncData_Load(leaderboard_id, current_page, page_s
 
 	// Leaderboard Entries
 	RightBoxLeaderboard_AsyncData["entries"] = [];
+	RightBoxLeaderboard_AsyncData["total"] = 0;
 	try {
 		local leaderboard_entries = ra.GetLeaderboardEntries(leaderboard_id, (current_page-1)*(page_size-2), page_size);
 		RightBoxLeaderboard_AsyncData["entries"] = leaderboard_entries["Results"];
+		RightBoxLeaderboard_AsyncData["total"] = leaderboard_entries["Total"]; 
 	} catch (e) {
 		return ;
 	}
@@ -64,6 +67,8 @@ class RightBoxLeaderboard {
 	is_active = false;
 
 	entries = [];
+	title = null;
+	subtitle = null;
 	PAGE_SIZE = 24;
 
 	current_page = 1;
@@ -77,8 +82,24 @@ class RightBoxLeaderboard {
 		this.surface.y       = 235;
 		this.surface.visible = this.is_active;
 
-		local box = this.surface.add_rectangle(0, 0, 450, 840);
-		box.set_rgb(0,64,101);
+		// local box = this.surface.add_rectangle(0, 0, 450, 840);
+		// box.set_rgb(0,64,101);
+
+		# Title
+		this.title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
+		this.title.font = "fonts/CriqueGrotesk-Bold.ttf"
+		this.title.set_rgb(255,104,181);
+		this.title.char_size = 32;
+		this.title.align = Align.TopCentre;
+		TextShadow(this.surface, this.title);
+
+		# Subtitle
+		this.subtitle = this.surface.add_text("", 25, 50, this.surface.width-50, 50);
+		subtitle.font = "fonts/CriqueGrotesk.ttf"
+		subtitle.set_rgb(255, 255, 255);
+		subtitle.char_size = 24;
+		subtitle.align = Align.TopCentre;
+		TextShadow(this.surface, this.subtitle);
 
 		# Entries
 		this.entries = [];
@@ -98,13 +119,16 @@ class RightBoxLeaderboard {
 		}
 
 		if (signal_str == "down") {
-			this.current_page += 1;
-			this.draw();
+			if (this.current_page * this.PAGE_SIZE < RightBoxLeaderboard_AsyncData["total"]) {
+				this.current_page += 1;
+				this.draw();
+			}
 			return true;
 		}
 
-		if (signal_str == "select") {
+		if (signal_str == "select" || signal_str == "right" || signal_str == "left") {
 			this.hide();
+			::right_box.show_display(2);
 			return true;
 		}
 	}
@@ -114,12 +138,20 @@ class RightBoxLeaderboard {
 		this.leaderboard_id = id;
 	}
 
+	function set_leaderboard_title(title) {
+		this.title.msg = title;
+	}
+
+	function set_leaderboard_description(subtitle) {
+		this.subtitle.msg = subtitle;
+	}
+
 	function draw() {
 		if (this.surface.visible == false && this.is_active == false) {
 			return;
 		}
 
-		# Update the Entries
+		# Entries
 		RightBoxLeaderboard_AsyncData_Load(this.leaderboard_id, this.current_page, this.PAGE_SIZE);
 		local leaderboard_entries = RightBoxLeaderboard_AsyncData["entries"];
 

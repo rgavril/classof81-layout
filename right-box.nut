@@ -21,12 +21,12 @@ class RightBox
 		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
 		this.connection_bar.visible = true;
 
-		# Snap
-		local snap = fe.add_artwork("snap", 0, 0);
-		snap.width  = 450;
-		snap.height = snap.width * 4/3;
-		snap.x      = 475;
-		snap.y      = 235 + 840 - snap.height;
+		// # Snap
+		// local snap = fe.add_artwork("snap", 0, 0);
+		// snap.width  = 450;
+		// snap.height = snap.width * 4/3;
+		// snap.x      = 475;
+		// snap.y      = 235 + 840 - snap.height;
 
 		# Snap Fade
 		fe.add_image("images/fade.png", 475, 235);

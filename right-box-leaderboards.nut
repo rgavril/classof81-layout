@@ -278,8 +278,14 @@ class RightBoxLeaderboards {
 
 		if (signal_str == "select") {
 			local leaderboard = RightBoxLeaderboards_AsyncData["leaderboards"][select_idx];
+		
 			this.leaderboard_dispay.set_leaderboard_id(leaderboard["id"]);
+			this.leaderboard_dispay.set_leaderboard_title(leaderboard["title"]);
+			this.leaderboard_dispay.set_leaderboard_description(leaderboard["description"]);
 			this.leaderboard_dispay.show();
+
+			this.hide();
+
 			return true;
 		}
 

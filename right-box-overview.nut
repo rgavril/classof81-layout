@@ -12,6 +12,16 @@ class RightBoxOverview
 		this.surface.y       = 235;
 		this.surface.visible = this.is_active;
 
+		# Snap
+		local snap = this.surface.add_artwork("snap", 0, 0);
+		snap.width  = 450;
+		snap.height = snap.width * 4/3;
+		snap.x      = 0;
+		snap.y      = 840 - snap.height;
+
+		# Snap Fade
+		this.surface.add_image("images/fade.png", 0, 0);
+
 		# Title
 		local title = this.surface.add_text("[Title]", 25, 10, this.surface.width-50, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf"
