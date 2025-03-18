@@ -1,0 +1,5 @@
+Fixed-screen shooter set in space where you control a spaceship, avoiding missiles and charging enemies.
+
+Use a temporary force field to protect yourself from attacks.
+
+Battle through five stages, including waves of phoenix enemies that regenerate if not destroyed properly. The final stage features a space fortress with attacking birds and missiles.

@@ -1,0 +1,5 @@
+Side-scrolling shooter where you pilot a plane through mountainous terrain to infiltrate and destroy an enemy base.
+
+Battle missiles, tanks, UFOs, and more using bombs and guns.
+
+Avoid crashing into enemies or the landscape, and manage your limited fuel by bombing fuel depots to stay in the air.

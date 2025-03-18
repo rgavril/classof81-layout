@@ -1,0 +1,7 @@
+A fast-paced, vertically-scrolling shoot 'em up where you pilot one of six WWII fighter planes.
+
+Blast through waves of enemies with powerful machine guns and bombs across eight stages.
+
+The first four stages are randomly selected, while the last four follow a set order.
+
+Survive long enough to increase difficulty, earn extra lives, and challenge yourself in each new loop!

@@ -1,0 +1,5 @@
+An action-maze game that plays similarly like other games in the Bomberman franchise.
+
+In this, players take control of the titular characters with the main objective of destroying all of the monsters filling the playfield by placing bombs.
+
+Beating all the monsters will open a level's gate and lead players to the next area.

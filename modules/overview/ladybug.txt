@@ -1,0 +1,5 @@
+Eat all flowers, hearts, and letters in the maze while avoiding enemy insects.
+
+Control a ladybug-like character and use green gates to alter the maze layout.
+
+Each level introduces new insects, with up to four enemies at once. Speed increases on stages 2 and 5.
