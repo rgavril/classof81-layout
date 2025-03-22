@@ -334,11 +334,13 @@ class RightBoxAchievements
 	function show()
 	{
 		this.surface.visible = true;
+		this.surface.redraw = true;
 	}
 
 	function hide()
 	{
 		this.surface.visible = false;
+		this.surface.redraw = false;
 	}
 }
 
@@ -441,7 +443,7 @@ class RightBoxAchievementEntry {
 		}
 
 		if ("description" in this.data) {
-			this.description_scroller.set_text(this.data["description"]);
+			this.description_scroller.set_text(unicode_fix(this.data["description"]));
 		}
 		
 		if ("image" in this.data) {
@@ -450,7 +452,7 @@ class RightBoxAchievementEntry {
 		}
 
 		if ("title" in this.data) {
-			this.title_scroller.set_text(this.data["title"]);
+			this.title_scroller.set_text(unicode_fix(this.data["title"]));
 		}
 
 		if (this.is_selected) {

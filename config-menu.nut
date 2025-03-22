@@ -479,6 +479,7 @@ class ConfigMenu {
 		# Mark as Active and make it Visible
 		this.is_active = true
 		this.surface.visible = true
+		this.surface.redraw = true;
 
 		# Load and Redraw
 		this.load()
@@ -502,5 +503,7 @@ class ConfigMenu {
 		# Animate
 		local animate_fadeout = { property = "alpha", start = 255, end = 0, time = 200, tween = Tween.Quart }
 		animation.add( PropertyAnimation(this.surface, animate_fadeout) )
+
+		this.surface.redraw = false;
 	}
 }
