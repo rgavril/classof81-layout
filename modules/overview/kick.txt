@@ -1,0 +1,7 @@
+Control a clown on a unicycle, catching falling balloons on its hat.
+
+As the stack grows, it gets harder to catch them.
+
+Use the "kick" button to launch missed balloons back up. 
+
+Pac-Man characters and bombs add extra challenges. Let an object hit the ground, and you lose a life!

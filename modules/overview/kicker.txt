@@ -1,7 +1,5 @@
-Control a clown on a unicycle, catching falling balloons on its hat.
+Fight your way through waves of enemies using powerful kicks and acrobatic moves.
 
-As the stack grows, it gets harder to catch them.
+Time your attacks carefully to knock out opponents while dodging their strikes.
 
-Use the "kick" button to launch missed balloons back up. 
-
-Pac-Man characters and bombs add extra challenges. Let an object hit the ground, and you lose a life!
+Advance through each stage by defeating all foes, but stay sharp—enemies get faster and more aggressive!

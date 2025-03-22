@@ -1,0 +1,5 @@
+Gyruss is a fast-paced, space-themed shoot 'em up where you control a ship circling the screen, shooting enemies that approach from all directions.
+
+Battle through waves of alien forces, avoiding enemy fire and collecting power-ups to enhance your weapons.
+
+Advance through stages set in a rotating, concentric circular path while facing challenging boss battles!
