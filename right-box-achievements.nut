@@ -44,6 +44,7 @@ function RightBoxAchievements_AsyncData_Load(rom) {
 	local game_info = ra.GetGameInfoAndUserProgress(game_id);
 	suspend(null);
 
+
 	if ("Achievements" in game_info) {
 		foreach (achievement in game_info["Achievements"]) {
 			local data = {
@@ -54,7 +55,6 @@ function RightBoxAchievements_AsyncData_Load(rom) {
 				"is_hardcore": ("DateEarnedHardcore" in achievement ? true : false),
 			}
 
-			suspend(null);
 			data["image"] <- ra.badge_image(achievement["BadgeName"]);
 			suspend(null);
 

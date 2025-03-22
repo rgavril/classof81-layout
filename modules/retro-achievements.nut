@@ -34,7 +34,7 @@ class RetroAchievements
 		https://api-docs.retroachievements.org/v1/get-game-info-and-user-progress.html
 	*/
 	function GetGameInfoAndUserProgress(game_id, use_cache=true) {
-		local cache_age = 1; // 1 Minute
+		local cache_age = 60; // 1 Minute
 
 		return this.call_method(
 			"API_GetGameInfoAndUserProgress.php",
@@ -66,7 +66,7 @@ class RetroAchievements
 	}
 
 	function GetLeaderboardEntries(leaderboard_id, offset=0, count=100, use_cache=true) {
-		local cache_age = 1 * 60; // 1 Hour
+		local cache_age = 1 * 60; // 1 Minute
 
 		return this.call_method(
 			"API_GetLeaderboardEntries.php",
@@ -182,7 +182,6 @@ class RetroAchievements
 
 		// TODO: Compare file mtime to current time to see how old it is
 		local mtime = this.read_mtime(filename);
-		var_dump(mtime);
 		if (mtime + age > time()) {
 			return true;
 		} else {
