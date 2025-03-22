@@ -181,7 +181,33 @@ class RetroAchievements
 		}
 
 		// TODO: Compare file mtime to current time to see how old it is
-		return false;
+		local mtime = this.read_mtime(filename);
+		var_dump(mtime);
+		if (mtime + age > time()) {
+			return true;
+		} else {
+			this.write_mtime(filename)
+			return false;
+		}
+	}
+
+	function write_mtime(filename) {
+		local CACHE_MTIME_FILE = this.STORAGE_DIR+"/mtime.conf";
+
+		ini_write(CACHE_MTIME_FILE, filename, time());
+	}
+
+	function read_mtime(filename) {
+		local CACHE_MTIME_FILE = this.STORAGE_DIR+"/mtime.conf";
+		local mtime = ini_read(CACHE_MTIME_FILE, filename);
+
+		if (mtime == null || mtime == "") {
+			mtime = 0;
+		} else {
+			mtime = mtime.tointeger();
+		}
+
+		return mtime;
 	}
 }
 
