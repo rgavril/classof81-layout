@@ -1,8 +1,7 @@
 # Class of '81 Attract-Mode Layout
-
 ![Screenshot](https://raw.githubusercontent.com/rgavril/classof81-layout/refs/heads/main/images/screenshot.png)
+[![YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/shorts/kZBlQUjjFJ4)
 
-This Attract Mode layout replicates the look and functionality of the default interface from Arcade1UP's *Class of '81* cabinet.
 
 ## Features
 
