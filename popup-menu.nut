@@ -54,7 +54,6 @@ class PopupMenu
 			button.text.x         = button.image.x
 			button.text.y         = button.image.y + button.image.texture_height/2
 			button.text.width     = button.image.texture_width
-			button.text.height    = button.image.height
 			button.text.char_size = 26
 			button.text.font      = "fonts/CriqueGrotesk-Bold.ttf"
 			button.text.align     = Align.MiddleLeft
