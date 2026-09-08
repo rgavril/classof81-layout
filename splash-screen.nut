@@ -41,7 +41,13 @@ class SplashScreen
 
 	function transition_callback(ttype, var, transition_time)
 	{
-		if (ttype == Transition.StartLayout && var == FromTo.Frontend) {
+		if (ttype == Transition.FromGame) {
+			this.stop();
+		} else if (ttype == Transition.StartLayout && var == FromTo.ScreenSaver) {
+			this.stop();
+		} else if (ttype == Transition.StartLayout && var == FromTo.NoValue) {
+			this.stop();
+		} else if (ttype == Transition.StartLayout && var == FromTo.Frontend) {
 			this.start();
 		}
 	}
