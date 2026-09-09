@@ -1,10 +1,11 @@
 class GameButton {
+
+
 	surface = null;
-	background_image = null;
-	game_select_box = null;
+	background_box = null;
+	logo_box = null;
 	logo = null;
 	logo_shadow = null;
-
 	gear_icon = null;
 	game_name = null;
 
@@ -22,19 +23,24 @@ class GameButton {
 	{
 		# Create surface for drawing onto and position it
 		this.surface = fe.add_surface(500, 300);
-		this.surface.set_pos(x, y);
-		this.surface.origin_y = this.surface.texture_height/2;
+		this.surface.set_pos(x, y+150);
+		this.surface.origin_y = this.surface.texture_height;
 
 		# Draw the button background image on the surface
-		this.background_image = this.surface.add_image("images/button_background_inactive.png");
-		this.background_image.y = this.surface.texture_height / 2;
+		this.background_box = this.surface.add_rectangle(0, this.surface.texture_height / 2, 390, 75);
+		this.background_box.set_rgb(168, 200, 219);
+		this.background_box.outline = -3;
+		this.background_box.set_outline_rgb(0, 0, 0);
+		this.background_box.corner_radius = 7;
 
 		# Create the the selection rectangle
-		this.game_select_box = this.surface.add_image("images/game_select_box_active.png", 0, 0);
-		this.game_select_box.y = this.surface.texture_height / 2;
-		this.game_select_box.origin_x = this.game_select_box.texture_width;
-		this.game_select_box.x = this.background_image.texture_width + this.background_image.x;
-		this.game_select_box.visible = false;
+		this.logo_box = this.surface.add_rectangle(this.background_box.width, this.surface.texture_height / 2, 285, 75);
+		this.logo_box.anchor_x = 1.0;
+		this.logo_box.set_rgb(238, 96, 167);
+		this.logo_box.outline = -3;
+		this.logo_box.set_outline_rgb(0, 0, 0);
+		this.logo_box.corner_radius = 7;
+		this.logo_box.visible = false;
 
 		# Game Logo
 		this.logo_shadow = this.surface.add_image(null);
@@ -44,7 +50,7 @@ class GameButton {
 		this.gear_icon = this.surface.add_image("images/gear.png", 0, 0, 95, 95);
 		this.gear_icon.origin_y = 40;
 		this.gear_icon.origin_x = 0;
-		this.gear_icon.y = this.background_image.y;
+		this.gear_icon.y = this.background_box.y;
 		this.gear_icon.x = 7;
 
 		# Game Name
@@ -124,12 +130,14 @@ class GameButton {
 		this.logo.zorder = 2;
 		
 		# Set the origin point to the center-right of the logo
-		this.logo.origin_y = logo_height / 2;
-		this.logo.origin_x = logo_width / 2;
 
 		# Position the logo on center of select box from the button
-		this.logo.x = this.background_image.x + this.background_image.texture_width - 145;
-		this.logo.y = this.background_image.y + this.background_image.texture_height/2;
+		this.logo.anchor = Anchor.Centre;
+		this.logo.x = this.background_box.x + this.background_box.width - 145;
+		this.logo.y = this.background_box.y + this.background_box.height/2;
+
+		this.logo.x = this.logo_box.x - this.logo_box.width/2;
+		this.logo.y = this.logo_box.y + this.logo_box.height/2;
 
 		# Update the logo shadow
 		this.logo_shadow.file_name = filename;
@@ -157,11 +165,11 @@ class GameButton {
 		local custom_logo_image = fe.script_dir+"/images/wheel/"+fe.game_info(Info.Name, this.index_offset)+".png";
 		local default_logo_image = fe.get_art("wheel", this.index_offset);
 
-		if (fe.path_test(custom_logo_image, PathTest.IsFile)) {
+		if (fs.path_test(custom_logo_image, PathTest.IsFile)) {
 			this.setLogo(custom_logo_image, false);
 			this.game_name.visible = false;
 
-		} else if (fe.path_test(default_logo_image, PathTest.IsFile)) {
+		} else if (fs.path_test(default_logo_image, PathTest.IsFile)) {
 			this.setLogo(default_logo_image, true);
 			this.game_name.visible = false;
 
@@ -171,7 +179,7 @@ class GameButton {
 		}
 
 		# Fallback Name
-		this.game_name.msg = fe.game_info(Info.Name, this.index_offset);
+		this.game_name.msg = fe.get_game_info(Info.Name, this.index_offset);
 
 		if (this.is_selected) {
 			this.game_name.set_rgb(0, 0, 0);
@@ -188,25 +196,25 @@ class GameButton {
 
 		# Button Background
 		if ( this.is_selected && this.is_gear_selected ) {
-			this.background_image.file_name = "images/button_background_active.png"
+			this.background_box.set_rgb(255, 252, 103);
 		} else {
-			this.background_image.file_name = "images/button_background_inactive.png"
+			this.background_box.set_rgb(168, 200, 219);
 		}
 
 		# Game Select Box Logic
 		if ( this.is_selected && this.is_active && !this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_active.png"
-			this.game_select_box.visible   = true;
+			this.logo_box.set_rgb(255, 252, 103);
+			this.logo_box.visible = true;
 
 		} else if ( this.is_selected && !this.is_active && !this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_inactive.png"
-			this.game_select_box.visible   = true;
+			this.logo_box.set_rgb(238, 96, 167);
+			this.logo_box.visible = true;
 
 		} else if ( this.is_selected && this.is_active && this.is_gear_selected ) {
-			this.game_select_box.file_name = "images/game_select_box_inactive.png"
-			this.game_select_box.visible   = true;
+			this.logo_box.set_rgb(238, 96, 167);
+			this.logo_box.visible = true;
 		} else {
-			this.game_select_box.visible   = false;
+			this.logo_box.visible = false;
 		}
 
 		# Bottom Text
