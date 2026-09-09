@@ -11,14 +11,14 @@ class SoundEngine {
 	{
 		# Initialize the click sounds
 		for (local channel=0; channel<40; channel++) {
-			m_click_sounds.push(fe.add_sound("sounds/click.mp3", false))
+			m_click_sounds.push(fe.add_sound("sounds/click.mp3"))
 		}
 
 		# Intializa the enter sound
-		m_enter_sound = fe.add_sound("sounds/enter.mp3", false);
+		m_enter_sound = fe.add_sound("sounds/enter.mp3");
 
 		# Intializa the enter sound
-		m_exit_sound = fe.add_sound("sounds/exit.mp3", false);
+		m_exit_sound = fe.add_sound("sounds/exit.mp3");
 	}
 
 	# Play a click sound
