@@ -136,8 +136,9 @@ class ConfigMenu {
 	{
 		# Drawing Surface
 		this.surface = fe.add_surface(1000, 1000)
-		this.surface.x       = 0
-		this.surface.y       = 245
+		this.surface.transform_origin = Origin.Centre;
+		this.surface.x       = 500;
+		this.surface.y       = 500+245
 		this.surface.visible = false
 
 		# Background
@@ -182,7 +183,7 @@ class ConfigMenu {
 
 	function load() 
 	{
-		local rom = fe.game_info(Info.Name)
+		local rom = fe.get_game_info(Info.Name)
 
 		# Clear old menu entries
 		this.menu_entries = []
@@ -485,11 +486,13 @@ class ConfigMenu {
 		this.load()
 		this.draw()
 
-		# Animate 
-		local animate_enlarge = { property = "scale", start = 0.1, end = 1, time = 300, tween = Tween.Quart }
-		local animate_fadein  = { property = "alpha", start = 0  , end=255, time = 150, tween = Tween.Quart }
+		# Animate
+		local animate_enlarge_x = { property = "width", start = 0, end = this.surface.width, time = 300, tween = Tween.Quart }
+		local animate_enlarge_y = { property = "height", start = 0, end = this.surface.height, time = 300, tween = Tween.Quart }
+		local animate_fadein  = { property = "alpha", start = 0, end=255, time = 150, tween = Tween.Quart }
 		animation.add( PropertyAnimation(this.surface, animate_fadein ) )
-        animation.add( PropertyAnimation(this.surface, animate_enlarge) )
+        animation.add( PropertyAnimation(this.surface, animate_enlarge_x) )
+        animation.add( PropertyAnimation(this.surface, animate_enlarge_y) )
 	}
 
 	function hide()
