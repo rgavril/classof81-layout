@@ -1,42 +1,75 @@
+class RightBoxBackground
+{
+	_box = null;
+
+	constructor()
+	{
+		this._box = fe.add_rectangle(460, 220, 480, 870);
+		// this._box.set_rgba(0, 0, 0, 0);
+		this._box.outline = -15;
+		this._box.corner_radius = 15;
+		this._box.set_outline_rgb(238,95,167);
+		
+		fe.add_image("images/fade.png", 475, 235);
+	}
+
+	function activate()
+	{
+		this._box.set_outline_rgb(255,252,103);
+	}
+
+	function desactivate()
+	{
+		this._box.set_outline_rgb(255,95,167);
+	}
+}
+
+class RightBoxConnectionBar
+{
+	_bar = null;
+
+	constructor()
+	{
+		this._bar = fe.add_image("images/connection_bar_inactive.png", 460, 340);
+		this._bar.origin_x = this._bar.texture_width;
+		this._bar.origin_y = this._bar.texture_height / 2;
+		this._bar.visible = true;
+	}
+
+	function activate()
+	{
+		this._bar.file_name = "images/connection_bar_active.png"
+	}
+
+	function desactivate()
+	{
+		this._bar.file_name = "images/connection_bar_inactive.png"
+	}
+
+	function move_to(position)
+	{
+		this._bar.y = 340 + position * 130;
+	}
+}
+
 class RightBox
 {
 	is_active = false;
-	border_image = null;
-	connection_bar = null;
+	_background = null;
+	_connection_bar = null;
 
  	displays = [];
  	active_display_idx = 0;
 
-	overview = null;
-	achievements = null;
-
 	constructor()
 	{
-		# Sidebox Border
-		this.border_image = fe.add_image("images/sidebox_inactive.png", 460, 220);
-
-		# Connection Bar
-		this.connection_bar = fe.add_image("images/connection_bar_inactive.png", 460, 340);
-		this.connection_bar.origin_x = this.connection_bar.texture_width;
-		this.connection_bar.origin_y = this.connection_bar.texture_height / 2;
-		this.connection_bar.visible = true;
-
-		// # Snap
-		// local snap = fe.add_artwork("snap", 0, 0);
-		// snap.width  = 450;
-		// snap.height = snap.width * 4/3;
-		// snap.x      = 475;
-		// snap.y      = 235 + 840 - snap.height;
-
-		# Snap Fade
-		fe.add_image("images/fade.png", 475, 235);
-
-		draw();
+		this._background = RightBoxBackground();
+		this._connection_bar = RightBoxConnectionBar();
 
 		this.displays.push(RightBoxOverview());
 		this.displays.push(RightBoxAchievements());
 		this.displays.push(RightBoxLeaderboards());
-		show_display(0);
+		this.show_display(0);
 
 		# Add a callback to redraw when game is changed
 		fe.add_transition_callback(this, "transition_callback");
@@ -62,11 +95,11 @@ class RightBox
 	{
 		if (ttype == Transition.FromOldSelection) {
 			show_display(0);
-			draw();
+			this._connection_bar.move_to(fe.list.index % 6);
 		}
 
 		if (ttype == Transition.ToNewList) {
-			draw();
+			this._connection_bar.move_to(fe.list.index % 6);
 		}
 	}
 
@@ -110,37 +143,19 @@ class RightBox
 		return false;
 	}
 
-	function draw()
-	{
-		# Sidebox Border
-		if (this.is_active) {
-			this.border_image.file_name = "images/sidebox_active.png";
-		} else {
-			this.border_image.file_name = "images/sidebox_inactive.png";
-		}
-
-		# Connection Bar Image
-		if (this.is_active) {
-			this.connection_bar.file_name = "images/connection_bar_active.png"
-		} else {
-			this.connection_bar.file_name = "images/connection_bar_inactive.png"
-		}
-
-		# Connection Bar Location
-		this.connection_bar.y = 340 + (fe.list.index % 6) * 130;
-	}
-
 	function activate()
 	{
 		this.is_active = true;
+		this._background.activate();
+		this._connection_bar.activate();
 		this.active_display().activate();
-		draw();
 	}
 
 	function desactivate()
 	{
 		this.is_active = false;
+		this._background.desactivate();
+		this._connection_bar.desactivate();
 		this.active_display().desactivate();
-		draw();
 	}
 }
