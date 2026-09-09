@@ -40,20 +40,25 @@ class PopupMenu
 		# Option Buttons
 		for ( local idx=0; idx<this.MAX_OPTIONS; idx++ ) {
 			local button = {
-				"image"    : this.surface.add_image("images/popup_option.png"),
-				"text"     : this.surface.add_text("", 0, 0, 0, 0),
-				"scroller" : null
+				"background" : this.surface.add_rectangle(0, 0, 440, 35),
+				"text"       : this.surface.add_text("", 0, 0, 0, 0),
+				"scroller"   : null
 			}
 
 			# Option Button Image
-			button.image.x         = 260
-			button.image.y         = 160 + 50*idx
-			button.image.visible   = false
+			button.background.x             = 260
+			button.background.y             = 160 + 50*idx
+			button.background.outline       = -3;
+			button.background.corner_radius = 5;
+			button.background.visible       = false
+			button.background.set_rgb(183, 156, 198);
+			button.background.set_outline_rgb(255,255,255);
+
 
 			# Option Button Text
-			button.text.x         = button.image.x
-			button.text.y         = button.image.y + button.image.texture_height/2
-			button.text.width     = button.image.texture_width
+			button.text.x         = button.background.x
+			button.text.y         = button.background.y + button.background.height/2
+			button.text.width     = button.background.width
 			button.text.char_size = 26
 			button.text.font      = "fonts/CriqueGrotesk-Bold.ttf"
 			button.text.align     = Align.MiddleLeft
@@ -133,7 +138,7 @@ class PopupMenu
 
 		# First hide all buttons
 		foreach(button in this.buttons) {
-			button.image.visible = false
+			button.background.visible = false
 			button.text.visible = false
 		}
 
@@ -143,20 +148,20 @@ class PopupMenu
 
 			# Make button visible
 			button.text.visible = true
-			button.image.visible = true
+			button.background.visible = true
 			
 			# Set the text for the button
 			button.scroller.set_text(option)
 
-			# Set different image and text color is option is selected
+			# Set different background and text color is option is selected
 			if ( this.selected_idx == idx ) {
 				button.text.set_rgb(100, 71, 145)
+				button.background.set_rgb(106, 148, 228);
 				button.scroller.activate()
-				button.image.file_name = "images/popup_option_selected.png"
 			} else {
 				button.text.set_rgb(255, 255, 255)
+				button.background.set_rgb(183, 156, 198);
 				button.scroller.desactivate()
-				button.image.file_name = "images/popup_option.png"
 			}
 		}
 
