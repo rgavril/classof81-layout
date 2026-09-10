@@ -1,7 +1,9 @@
 
 COLOR <- {
-	accent_one = [238, 95, 167],
-	accent_two = [255, 252, 103],
+	// accent_one = [238, 95, 167], # pink
+	// accent_two = [255, 252, 103], # yellow
+	accent_one = [255, 116, 201],
+	accent_two = [255, 252, 121],
 }
 
 ::min <- function(a,b) {
