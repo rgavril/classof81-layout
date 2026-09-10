@@ -7,8 +7,8 @@ class PopupMenu
 	selected_idx = 0          # Integer representing the selected option
 
 	surface = null             # fe.Surface that everything is drawn on
-	background_top = null      # fe.Image for the top part of the background
-	background_bottom = null   # fe.Image for the bottom part of the background
+	background = null
+	background_shadow = null
 	buttons = []               # Array of fe.Image / fe.Text elements representing the buttons
 	message_label = null       # fe.Text that displays the message
 
@@ -21,13 +21,29 @@ class PopupMenu
 		this.surface.visible = false
 		this.surface.set_pos(0, 0)
 
+		# Background Shadow
+		this.background_shadow = this.surface.add_rectangle(0, 0, 1000, 1280)
+		this.background_shadow.set_rgb(0, 0, 0)
+
+        local glow_shader = fe.add_shader(Shader.Fragment, "shaders/glow_shadow.fsh")
+        glow_shader.set_param("resolution", fe.layout.width, fe.layout.height)
+        glow_shader.set_param("rect", 230.0, 60.0, 500.0, 100.0)
+        glow_shader.set_param("radius", 20.0)
+        glow_shader.set_param("glow_size", 40.0)
+        glow_shader.set_param("glow_color", 186.0 / 255.0, 253.0 / 255.0, 244.0 / 255.0)
+		glow_shader.set_param("intensity", 0.5)
+        this.background_shadow.shader = glow_shader
+
 		# Background
-		this.background_top    = this.surface.add_image("images/popup_menu.png", 0, 0)
-		this.background_bottom = this.surface.add_clone(this.background_top)
+		this.background = this.surface.add_rectangle(245, 75, 470, 800)
+		this.background.outline = 15;
+		this.background.corner_radius = 5;
+		this.background.set_rgb(74,84,86);
+		this.background.set_outline_rgb(194,139,240);
 
 		# Message
 		this.message_label = this.surface.add_text("", 0, 0, 0, 0)
-		this.message_label.x         = this.background_top.texture_width/2 - 250
+		this.message_label.x         = this.background.width/2
 		this.message_label.y         = 80
 		this.message_label.width     = 500
 		this.message_label.height    = 200
@@ -165,16 +181,12 @@ class PopupMenu
 			}
 		}
 
-		# Hide the unused top background image
+		# Resize the background
 		local visible_height = this.options.len() * 50 + 170
-		this.background_top.subimg_height = visible_height
 		
-		# Move the bottom background image in place
-		this.background_bottom.subimg_y = this.background_bottom.texture_height - 75
-		this.background_bottom.y = visible_height
-
-		# Set surface origin so that is centered when we do animations
+		this.background.height = visible_height - 75
 		this.surface.origin_y = ( visible_height + 75 - 1280)/2
+		this.background_shadow.shader.set_param("rect", 230.0, 60.0, 500.0, background.height + 30)
 	}
 
 	function set_message(message)
