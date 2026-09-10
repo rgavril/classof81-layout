@@ -8,9 +8,12 @@ class RightBoxBackground
 		// this._box.set_rgba(0, 0, 0, 0);
 		this._box.outline = -15;
 		this._box.corner_radius = 15;
+		this._box.corner_points = 32;
 		this._box.set_outline_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
+		this._box.set_rgb(0,0,100);
+		this._box.alpha = 155;
 		
-		fe.add_image("images/fade.png", 475, 235);
+		// fe.add_image("images/fade.png", 475, 235);
 	}
 
 	function activate()

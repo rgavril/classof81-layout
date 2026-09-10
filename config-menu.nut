@@ -161,6 +161,9 @@ class ConfigMenu {
 		this.background.set_rgb(74,84,86);
 		this.background.set_outline_rgb(194,139,240);
 
+		local bgimage = this.surface.add_image("images/settings_background.png", 50, 65, 890, 670)
+		// bgimage.transform_origin = Origin.Centre;
+
 		# Missing Dipswitch File Warning
 		this.warning_text           = this.surface.add_text("", 80, 75, 780, 30)
 		this.warning_text.align     = Align.TopCentre
@@ -171,7 +174,7 @@ class ConfigMenu {
 
 		# Config Menu Buttons Array
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local menu_button = ConfigMenuButton(this.surface, 90, 110+90*i)
+			local menu_button = ConfigMenuButton(this.surface, 110, 110+90*i)
 			this.menu_buttons.push(menu_button)
 		}
 	}

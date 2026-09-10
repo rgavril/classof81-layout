@@ -83,8 +83,8 @@ class ConfigMenuButton {
 				this.name_label.set_rgb(255, 255, 255)
 				this.value_label.set_rgb(255, 255, 255)
 			} else {
-				this.name_label.set_rgb(100, 71, 145)
-				this.value_label.set_rgb(100, 71, 145)
+				this.name_label.set_rgb(77, 55, 109)
+				this.value_label.set_rgb(77, 55, 109)
 			}
 		} else {
 			this.background.set_rgb(183, 156, 198);
