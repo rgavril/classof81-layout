@@ -123,6 +123,7 @@ class ConfigMenuOptionVersions {
 class ConfigMenu {
 	PAGE_SIZE = 7;
 
+	background = null;
 	menu_entries = [];
 	offset_idx = 0;
 	select_idx = 0;
@@ -141,8 +142,24 @@ class ConfigMenu {
 		this.surface.y       = 500+245
 		this.surface.visible = false
 
-		# Background
-		this.surface.add_image("images/config_menu.png", 0, 0)
+		# Background Shadow
+        local shadow = this.surface.add_rectangle(0, 000, 1000, 1000)
+        shadow.set_rgb(0, 0, 0)
+        local glow_shader = fe.add_shader(Shader.Fragment, "shaders/glow_shadow.fsh")
+        glow_shader.set_param("resolution", fe.layout.width, fe.layout.height)
+        glow_shader.set_param("rect", 35.0, 330.0, 920.0, 700.0)
+        glow_shader.set_param("radius", 20.0)
+        glow_shader.set_param("glow_size", 40.0)
+        glow_shader.set_param("glow_color", 186.0 / 255.0, 253.0 / 255.0, 244.0 / 255.0)
+		glow_shader.set_param("intensity", 0.7)
+        shadow.shader = glow_shader
+
+		# Background Rectangle
+		this.background = this.surface.add_rectangle(50, 65, 890, 670)
+		this.background.outline = 15;
+		this.background.corner_radius = 5;
+		this.background.set_rgb(74,84,86);
+		this.background.set_outline_rgb(194,139,240);
 
 		# Missing Dipswitch File Warning
 		this.warning_text           = this.surface.add_text("", 80, 75, 780, 30)
