@@ -88,7 +88,7 @@ class RightBoxLeaderboard {
 		# Title
 		this.title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
 		this.title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		this.title.set_rgb(255,104,181);
+		this.title.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 		this.title.char_size = 32;
 		this.title.align = Align.TopCentre;
 		TextShadow(this.surface, this.title);
@@ -205,20 +205,20 @@ class LeaderboardEntry
 		this.rank.align = Align.MiddleLeft;
 		this.rank.font = "fonts/Roboto-Regular.ttf"
 		this.rank.margin = 0;
-		this.rank.set_rgb(255,252,103);
+		this.rank.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 
 		this.name = this.surface.add_text("name", 80, 0, 340, 30);
 		this.name.char_size = 25;
 		this.name.align = Align.MiddleLeft;
 		this.name.margin = 0;
-		this.name.set_rgb(255,252,103);
+		this.name.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 
 		this.score = this.surface.add_text("score", 0, 0, 450-20, 30);
 		this.score.char_size = 25;
 		this.score.align = Align.MiddleRight;
 		this.score.font = "fonts/Roboto-Regular.ttf"
 		this.score.margin = 0;
-		this.score.set_rgb(255,252,103);
+		this.score.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 	}
 
 	function set_data(data) {

@@ -98,7 +98,7 @@ class RightBoxLeaderboards {
 		# Title
 		this.title = this.surface.add_text("Leaderboards", 25, 10, this.surface.width-50, 50)
 		this.title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		this.title.set_rgb(255,104,181);
+		this.title.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 		this.title.char_size = 32;
 		this.title.align = Align.TopCentre;
 		TextShadow(this.surface, this.title);
@@ -119,7 +119,7 @@ class RightBoxLeaderboards {
 		this.message.align = Align.MiddleCentre;
 		this.message.word_wrap = true;
 		this.message.visible = false;
-		this.message.set_rgb(255, 252, 103);
+		this.message.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 		TextShadow(this.surface, this.message);
 
 		# Entries
@@ -418,7 +418,7 @@ class RightBoxLeaderboardsEntry
 		this.title_label.char_size = 24;
 		this.title_label.align = Align.TopLeft;
 		this.title_label.margin = 0;
-		this.title_label.set_rgb(255,252,103);
+		this.title_label.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 		this.title_scroller = TextScroller(this.title_label, this.title_label.msg);
 		TextShadow(this.surface, this.title_label);
 

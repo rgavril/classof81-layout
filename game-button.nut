@@ -36,7 +36,7 @@ class GameButton {
 		# Create the the selection rectangle
 		this.logo_box = this.surface.add_rectangle(this.background_box.width, this.surface.texture_height / 2, 285, 75);
 		this.logo_box.anchor_x = 1.0;
-		this.logo_box.set_rgb(238, 96, 167);
+		this.logo_box.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 		this.logo_box.outline = -3;
 		this.logo_box.set_outline_rgb(0, 0, 0);
 		this.logo_box.corner_radius = 7;
@@ -196,22 +196,22 @@ class GameButton {
 
 		# Button Background
 		if ( this.is_selected && this.is_gear_selected ) {
-			this.background_box.set_rgb(255, 252, 103);
+			this.background_box.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 		} else {
 			this.background_box.set_rgb(168, 200, 219);
 		}
 
 		# Game Select Box Logic
 		if ( this.is_selected && this.is_active && !this.is_gear_selected ) {
-			this.logo_box.set_rgb(255, 252, 103);
+			this.logo_box.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 			this.logo_box.visible = true;
 
 		} else if ( this.is_selected && !this.is_active && !this.is_gear_selected ) {
-			this.logo_box.set_rgb(238, 96, 167);
+			this.logo_box.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 			this.logo_box.visible = true;
 
 		} else if ( this.is_selected && this.is_active && this.is_gear_selected ) {
-			this.logo_box.set_rgb(238, 96, 167);
+			this.logo_box.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 			this.logo_box.visible = true;
 		} else {
 			this.logo_box.visible = false;

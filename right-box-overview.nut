@@ -25,7 +25,7 @@ class RightBoxOverview
 		# Title
 		local title = this.surface.add_text("[Title]", 25, 10, this.surface.width-50, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		title.set_rgb(255,104,181);
+		title.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 		title.char_size = 32;
 		title.align = Align.TopCentre;
 		TextShadow(this.surface, title);
@@ -36,7 +36,7 @@ class RightBoxOverview
 		this.overview_text.char_size = 26;
 		this.overview_text.word_wrap = true;
 		this.overview_text.margin = 20;
-		this.overview_text.set_rgb(255, 252, 103);
+		this.overview_text.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 		TextShadow(this.surface, this.overview_text);
 
 		# Add a callback to redraw when game is changed

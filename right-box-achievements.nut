@@ -93,7 +93,7 @@ class RightBoxAchievements
 		# Title
 		local title = this.surface.add_text("Retro Achievements", 25, 10, this.surface.width-50, 50)
 		title.font = "fonts/CriqueGrotesk-Bold.ttf"
-		title.set_rgb(255,104,181);
+		title.set_rgb(COLOR.accent_one[0], COLOR.accent_one[1], COLOR.accent_one[2]);
 		title.char_size = 32;
 		title.align = Align.TopCentre;
 		TextShadow(this.surface, title);
@@ -114,7 +114,7 @@ class RightBoxAchievements
 		this.message.align = Align.MiddleCentre;
 		this.message.word_wrap = true;
 		this.message.visible = false;
-		this.message.set_rgb(255, 252, 103);
+		this.message.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 		TextShadow(this.surface, this.message);
 
 		# Create the achievement entries
@@ -396,7 +396,7 @@ class RightBoxAchievementEntry {
 		this.title_label.char_size = 24;
 		this.title_label.align = Align.TopLeft;
 		this.title_label.margin = 0;
-		this.title_label.set_rgb(255,252,103);
+		this.title_label.set_rgb(COLOR.accent_two[0], COLOR.accent_two[1], COLOR.accent_two[2]);
 
 		this.title_scroller = TextScroller(this.title_label, "");
 		TextShadow(this.surface, this.title_label);

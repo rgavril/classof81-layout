@@ -1,4 +1,9 @@
 
+COLOR <- {
+	accent_one = [238, 95, 167],
+	accent_two = [255, 252, 103],
+}
+
 ::min <- function(a,b) {
 	return a < b ? a : b;
 }
