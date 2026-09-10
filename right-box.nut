@@ -26,29 +26,37 @@ class RightBoxBackground
 
 class RightBoxConnectionBar
 {
-	_bar = null;
+	vbar = null;
+	hbar = null;
+	surface = null;
 
 	constructor()
 	{
-		this._bar = fe.add_image("images/connection_bar_inactive.png", 460, 340);
-		this._bar.origin_x = this._bar.texture_width;
-		this._bar.origin_y = this._bar.texture_height / 2;
-		this._bar.visible = true;
+		this.surface = fe.add_surface(260, 340, 200, 190);
+
+		this.hbar = this.surface.add_rectangle(0, 65, 200, 15);
+		this.hbar.set_rgb(238,95,167);
+
+		this.vbar = this.surface.add_rectangle(190, 5, 20, 180);
+		this.vbar.set_rgb(238,95,167);
+		this.vbar.corner_radius = 10;
 	}
 
 	function activate()
 	{
-		this._bar.file_name = "images/connection_bar_active.png"
+		this.vbar.set_rgb(255,252,103);
+		this.hbar.set_rgb(255,252,103);
 	}
 
 	function desactivate()
 	{
-		this._bar.file_name = "images/connection_bar_inactive.png"
+		this.vbar.set_rgb(238,95,167);
+		this.hbar.set_rgb(238,95,167);
 	}
 
 	function move_to(position)
 	{
-		this._bar.y = 340 + position * 130;
+		this.surface.y = 240 + position * 130;
 	}
 }
 
