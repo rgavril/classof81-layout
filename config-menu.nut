@@ -138,7 +138,7 @@ class ConfigMenu {
 		# Drawing Surface
 		this.surface = fe.add_surface(1000, 1000)
 		this.surface.transform_origin = Origin.Centre;
-		this.surface.x       = 500;
+		this.surface.x       = 490;
 		this.surface.y       = 500+245
 		this.surface.visible = false
 
@@ -162,7 +162,6 @@ class ConfigMenu {
 		this.background.set_outline_rgb(194,139,240);
 
 		local bgimage = this.surface.add_image("images/settings_background.png", 50, 65, 890, 670)
-		// bgimage.transform_origin = Origin.Centre;
 
 		# Missing Dipswitch File Warning
 		this.warning_text           = this.surface.add_text("", 80, 75, 780, 30)
