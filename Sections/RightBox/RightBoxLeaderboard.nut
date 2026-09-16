@@ -128,7 +128,7 @@ class RightBoxLeaderboard {
 
 		if (signal_str == "select" || signal_str == "right" || signal_str == "left") {
 			this.hide();
-			::right_box.show_display(2);
+			::RightBox.show_display(2);
 			return true;
 		}
 	}

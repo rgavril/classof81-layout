@@ -93,7 +93,7 @@ class GameList {
 		# If Right is pressed, activate Right Box
 		if (signal_str == "right") {
 			::sound_engine.play_click_sound()
-			::right_box.activate();
+			::RightBox.activate();
 			this.desactivate();
 			return true;
 		}

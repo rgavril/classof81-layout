@@ -1,3 +1,7 @@
+fe.do_nut("Sections/RightBox/RightBoxOverview.nut");
+fe.do_nut("Sections/RightBox/RightBoxAchievements.nut");
+fe.do_nut("Sections/RightBox/RightBoxLeaderboards.nut");
+
 class RightBoxBackground
 {
 	_box = null;
@@ -133,7 +137,7 @@ class RightBox
 			case "left": 
 				::sound_engine.play_click_sound()
 				GameList.activate();
-				right_box.desactivate();
+				this.desactivate();
 				return true;
 			break;
 

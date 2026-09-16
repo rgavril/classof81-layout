@@ -42,11 +42,7 @@ fe.do_nut("modules/overview.nut");
 fe.do_nut("Sections/GameList/GameList.nut");
 fe.do_nut("sound-engine.nut");
 fe.do_nut("Sections/StatusBar/StatusBar.nut");
-fe.do_nut("right-box.nut");
-fe.do_nut("right-box-overview.nut");
-fe.do_nut("right-box-achievements.nut");
-fe.do_nut("right-box-leaderboard.nut");
-fe.do_nut("right-box-leaderboards.nut");
+fe.do_nut("Sections/RightBox/RightBox.nut");
 fe.do_nut("Sections/GameSettings/GameSettings.nut");
 fe.do_nut("Sections/GameStartScreen/GameStartScreen.nut");
 fe.do_nut("Sections/SplashScreen/SplashScreen.nut");
@@ -80,7 +76,7 @@ function headerTextMsg()
 sound_engine    <- SoundEngine()
 signal_repeater <- SignalRepeater()
 StatusBar       <- StatusBar();
-right_box       <- RightBox();
+RightBox        <- RightBox();
 GameList        <- GameList();
 GameSettings    <- GameSettings();
 GameStartScreen <- GameStartScreen();
@@ -95,7 +91,8 @@ function key_detect(signal_str) {
 	if ( GameStartScreen.key_detect(signal_str)) { return true; }
 	if ( GameSettings.key_detect(signal_str)    ) { return true; }
 	if ( GameList.key_detect(signal_str)       ) { return true; }
-	if ( right_box.key_detect(signal_str)      ) { return true; }
+	if ( RightBox .key_detect(signal_str)      ) { return true; }
+
 	# This is here only to prevent changing displays
 	if (signal_str == "left" || signal_str == "right") {
 		return true;

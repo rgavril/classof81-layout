@@ -1,3 +1,5 @@
+fe.do_nut("Sections/RightBox/RightBoxLeaderboard.nut");
+
 local RightBoxLeaderboards_AsyncData = {
 	"rom" : "",
 	"error": "",
