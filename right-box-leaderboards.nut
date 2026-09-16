@@ -336,7 +336,7 @@ class RightBoxLeaderboards {
 
 	function activate()
 	{
-		::bottom_text.set("Move up or down to browse the Leaderboards. Move left to play [Title] or a different game. Move right to view game description.");
+		::StatusBar.setText("Move up or down to browse the Leaderboards. Move left to play [Title] or a different game. Move right to view game description.");
 		this.is_active = true;
 		this.draw();
 	}

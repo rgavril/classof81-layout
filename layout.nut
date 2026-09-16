@@ -39,20 +39,17 @@ fe.do_nut("modules/text-scroller.nut");
 fe.do_nut("modules/fbneo.nut");
 fe.do_nut("modules/overview.nut");
 
+fe.do_nut("Sections/GameList/GameList.nut");
 fe.do_nut("sound-engine.nut");
-fe.do_nut("bottom-text.nut");
-fe.do_nut("game-button.nut");
-fe.do_nut("game-buttons.nut");
+fe.do_nut("Sections/StatusBar/StatusBar.nut");
 fe.do_nut("right-box.nut");
 fe.do_nut("right-box-overview.nut");
 fe.do_nut("right-box-achievements.nut");
 fe.do_nut("right-box-leaderboard.nut");
 fe.do_nut("right-box-leaderboards.nut");
-fe.do_nut("config-menu.nut");
-fe.do_nut("config-menu-button.nut");
-fe.do_nut("popup-menu.nut");
-fe.do_nut("game-startup-page.nut");
-fe.do_nut("splash-screen.nut");
+fe.do_nut("Sections/GameSettings/GameSettings.nut");
+fe.do_nut("Sections/GameStartScreen/GameStartScreen.nut");
+fe.do_nut("Sections/SplashScreen/SplashScreen.nut");
 
 # Background Image
 // fe.add_artwork("snap", 0, 0, 960, 1280);
@@ -79,16 +76,14 @@ function headerTextMsg()
 
 
 # GUI Elements
-splash_screen   <- SplashScreen();
+// SplashScreen   <- SplashScreen();
 sound_engine    <- SoundEngine()
 signal_repeater <- SignalRepeater()
-popup_menu      <- null;
-bottom_text     <- BottomText();
+StatusBar       <- StatusBar();
 right_box       <- RightBox();
-game_buttons    <- GameButtons();
-config_menu     <- ConfigMenu();
-popup_menu      <- PopupMenu();
-startup_page    <- GameStartupPage();
+GameList        <- GameList();
+GameSettings    <- GameSettings();
+GameStartScreen <- GameStartScreen();
 
 # Enable Signal Repeaters for up and down keys
 signal_repeater.enable_for("down");
@@ -96,12 +91,11 @@ signal_repeater.enable_for("up");
 
 # Key Signal Handlers
 function key_detect(signal_str) {
-	if ( splash_screen.key_detect(signal_str) ) { return true; }
-	if ( startup_page.key_detect(signal_str)  ) { return true; }
-	if ( popup_menu.key_detect(signal_str)    ) { return true; }
-	if ( config_menu.key_detect(signal_str)   ) { return true; }
-	if ( game_buttons.key_detect(signal_str)  ) { return true; }
-	if ( right_box.key_detect(signal_str)     ) { return true; }
+	// if ( SplashScreen.key_detect(signal_str) ) { return true; }
+	if ( GameStartScreen.key_detect(signal_str)) { return true; }
+	if ( GameSettings.key_detect(signal_str)    ) { return true; }
+	if ( GameList.key_detect(signal_str)       ) { return true; }
+	if ( right_box.key_detect(signal_str)      ) { return true; }
 	# This is here only to prevent changing displays
 	if (signal_str == "left" || signal_str == "right") {
 		return true;

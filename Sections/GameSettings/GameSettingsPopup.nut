@@ -1,5 +1,5 @@
 
-class PopupMenu
+class GameSettingsPopup
 {
 	MAX_OPTIONS = 19          # The maximum number of options a popup can show
 	message = ""              # String containg the message

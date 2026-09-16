@@ -132,7 +132,7 @@ class RightBox
 
 			case "left": 
 				::sound_engine.play_click_sound()
-				game_buttons.activate();
+				GameList.activate();
 				right_box.desactivate();
 				return true;
 			break;

@@ -1,4 +1,4 @@
-class BottomText {
+class StatusBar {
 	text_obj = "";
 
 	constructor()
@@ -13,7 +13,7 @@ class BottomText {
 		fe.add_transition_callback(this, "transition_callback");
 	}
 
-	function set(text)
+	function setText(text)
 	{
 		if (this.text_obj.msg != text) {
 			this.text_obj.msg = text;

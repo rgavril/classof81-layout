@@ -1,4 +1,6 @@
-class GameButtons {
+fe.do_nut("Sections/GameList/GameListButton.nut");
+
+class GameList {
 	PAGE_SIZE = 6;     # Number of game buttons visible on screen
 	
 	buttons = [];      # Array containing the game buttons
@@ -12,7 +14,7 @@ class GameButtons {
 		# Create the game buttons
 		this.buttons = []
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local button = GameButton(20, 295+130*i);
+			local button = GameListButton(20, 295+130*i);
 			this.buttons.push(button);
 		}
 
@@ -40,7 +42,7 @@ class GameButtons {
 
 	function transition_callback(ttype, var, transition_time)
 	{
-		if (ttype == Transition.FromOldSelection && !::startup_page.is_active) {
+		if (ttype == Transition.FromOldSelection && !::GameStartScreen.is_active) {
 			::sound_engine.play_click_sound();
 			this.draw();
 		}

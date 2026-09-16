@@ -1,6 +1,4 @@
-class GameButton {
-
-
+class GameListButton {
 	surface = null;
 	background_box = null;
 	logo_box = null;
@@ -89,13 +87,13 @@ class GameButton {
 		}
 
 		if (signal_str == "select" && this.is_gear_selected) {
-			::config_menu.show();
+			::GameSettings.show();
 			return true;
 		}
 
 		if (signal_str == "select" && !this.is_gear_selected) {
 			this.is_active = false;
-			::startup_page.show();
+			::GameStartScreen.show();
 			return true;
 		}
 
@@ -220,9 +218,9 @@ class GameButton {
 		# Bottom Text
 		if ( this.is_active ) {
 			if ( this.is_gear_selected ) {
-				::bottom_text.set("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
+				::StatusBar.setText("Press any button access settings for [Title]. Move right to select [Title] or a different game.");
 			} else {
-				::bottom_text.set("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Online Features.");
+				::StatusBar.setText("Press any button to start [Title]. Move up or down to select a different game. Move left to change game settings for [Title]. Move righ to access Online Features.");
 			}
 		}
 	}

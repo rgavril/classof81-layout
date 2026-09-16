@@ -1,4 +1,4 @@
-class ConfigMenuButton {
+class GameSettingsButton {
 	surface = null
 	name_label = null
 	value_label = null
@@ -9,6 +9,7 @@ class ConfigMenuButton {
 	value = ""
 
 	is_selected = false
+	is_expanded = true
 
 	constructor(parent_surface, x, y)
 	{
@@ -79,7 +80,7 @@ class ConfigMenuButton {
 
 			this.value_scroller.activate()
 
-			if (::popup_menu && ::popup_menu.is_visible()) {
+			if (is_expanded == true) {
 				this.name_label.set_rgb(255, 255, 255)
 				this.value_label.set_rgb(255, 255, 255)
 			} else {

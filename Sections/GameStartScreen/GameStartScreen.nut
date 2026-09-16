@@ -1,4 +1,4 @@
-class GameStartupPage
+class GameStartScreen
 {
 	surface = null;
 	background_image = null;
@@ -56,7 +56,7 @@ class GameStartupPage
 	function ticks_callback(tick_time) {
 		# If the this page is active and we're in the clone list, we need to select a game
 		if (this.is_active && this.in_clone_list) {
-			local selected_rom = fe.game_info(Info.Name);   # Current selected rom from attractmode
+			local selected_rom = fe.get_game_info(Info.Name);   # Current selected rom from attractmode
 			local diverted_rom = diversions.get(this.rom)  # Actual rom that we want to play
 
 			# If the current game is not what we want to run move to next game

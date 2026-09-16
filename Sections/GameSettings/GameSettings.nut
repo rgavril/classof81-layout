@@ -1,12 +1,7 @@
-/*
-	option.label();
-	option.value();
-	option.options();
-	option.select_next_option();
-	option.select_prev_options();
-	option.select_idx(idx);
-*/
-class ConfigMenuOptionDipswitch {
+fe.do_nut("Sections/GameSettings/GameSettingsPopup.nut");
+fe.do_nut("Sections/GameSettings/GameSettingsButton.nut");
+
+class GameSettingsOptionDipswitch {
 	dipswitch = null
 
 	constructor(dipswitch) {
@@ -59,7 +54,7 @@ class ConfigMenuOptionDipswitch {
 	}
 }
 
-class ConfigMenuOptionVersions {
+class GameSettingsOptionVersions {
 	rom = "";
 	versions = [];
 
@@ -120,7 +115,7 @@ class ConfigMenuOptionVersions {
 	}
 }
 
-class ConfigMenu {
+class GameSettings {
 	PAGE_SIZE = 7;
 
 	background = null;
@@ -132,6 +127,8 @@ class ConfigMenu {
 	menu_buttons = [];
 	warning_text = null;
 	is_active = false;
+
+	popup_menu = null;
 
 	constructor()
 	{
@@ -173,9 +170,11 @@ class ConfigMenu {
 
 		# Config Menu Buttons Array
 		for (local i=0; i<PAGE_SIZE; i++) {
-			local menu_button = ConfigMenuButton(this.surface, 110, 110+90*i)
+			local menu_button = GameSettingsButton(this.surface, 110, 110+90*i)
 			this.menu_buttons.push(menu_button)
 		}
+
+		this.popup_menu = GameSettingsPopup();
 	}
 
 	function key_detect(signal_str)
@@ -183,6 +182,8 @@ class ConfigMenu {
 		if ( ! this.is_active ) {
 			return false
 		}
+
+		if ( this.popup_menu.key_detect(signal_str)     ) { return true; }
 
 		switch ( signal_str )
 		{
@@ -212,7 +213,7 @@ class ConfigMenu {
 
 		# Add 'Version' entry
 		if ( romlist.game_clones(rom).len() > 0) {
-			this.menu_entries.push({ "type": "versions", "versions": ConfigMenuOptionVersions(rom) })
+			this.menu_entries.push({ "type": "versions", "versions": GameSettingsOptionVersions(rom) })
 		}
 
 		# Read 'Dipswitch' entries
@@ -232,7 +233,7 @@ class ConfigMenu {
 			if ( dipswitch.is_advanced ) { continue }
 
 			# Add the actual dipswitch menu entry
-			this.menu_entries.push({ "type": "dipswitch", "dipswitch": ConfigMenuOptionDipswitch(dipswitch) })
+			this.menu_entries.push({ "type": "dipswitch", "dipswitch": GameSettingsOptionDipswitch(dipswitch) })
 		}
 
 		# Add 'Reset to Defaults' menu entry
@@ -269,11 +270,17 @@ class ConfigMenu {
 			menu_button.set_y(button_y)
 
 			# Set Select Status
-			 if ( this.select_idx == menu_entry_idx ) {
+			if ( this.select_idx == menu_entry_idx ) {
  				menu_button.select()
  			} else {
  				menu_button.deselect()
  			}
+
+			if (this.popup_menu.is_visible()) {
+				menu_button.is_expanded = true
+			} else {
+				menu_button.is_expanded = false
+			}
 
  			# Set Text Label and Value
 			local menu_entry = menu_entries[menu_entry_idx]
@@ -305,10 +312,10 @@ class ConfigMenu {
 
 		# Update the bottom text info
 		if ( this.is_active ) {
-			::bottom_text.set("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Select \"HIDE THIS MENU\" when done.")
+			::StatusBar.setText("Move up or down or down to select an option for [Title]. To change that option, move left or right, or press any button. Select \"HIDE THIS MENU\" when done.")
 		}
 
-		if (! fe.path_test(AM_CONFIG["fbneo_config_file"], PathTest.IsFile)) {
+		if (! fs.path_test(AM_CONFIG["fbneo_config_file"], PathTest.IsFile)) {
 			this.warning_text.msg = "WARNING: Layout Option 'FB Neo Config File' is not set correctly !";
 			this.warning_text.visible = true;
 		}
@@ -419,24 +426,24 @@ class ConfigMenu {
 				break
 
 			case "versions":
-				::popup_menu.set_message     ( "What version do you want to play ?" )
-				::popup_menu.set_options     ( menu_entry["versions"].options() )
-				::popup_menu.set_selected_idx( menu_entry["versions"].current_idx() )
-				::popup_menu.show()
+				this.popup_menu.set_message     ( "What version do you want to play ?" )
+				this.popup_menu.set_options     ( menu_entry["versions"].options() )
+				this.popup_menu.set_selected_idx( menu_entry["versions"].current_idx() )
+				this.popup_menu.show()
 				break
 
 			case "reset":
-				::popup_menu.set_message     ( "Are you sure you want to reset to Default Settings ?" )
-				::popup_menu.set_options     ( ["Yes", "No"] )
-				::popup_menu.set_selected_idx( 1 )
-				::popup_menu.show()
+				this.popup_menu.set_message     ( "Are you sure you want to reset to Default Settings ?" )
+				this.popup_menu.set_options     ( ["Yes", "No"] )
+				this.popup_menu.set_selected_idx( 1 )
+				this.popup_menu.show()
 				break
 
 			case "dipswitch":
-				::popup_menu.set_message     ( "Choose a new setting for\n" + menu_entry["dipswitch"].label().toupper() )
-				::popup_menu.set_options     ( menu_entry["dipswitch"].options() )
-				::popup_menu.set_selected_idx( menu_entry["dipswitch"].current_idx() )
-				::popup_menu.show()
+				this.popup_menu.set_message     ( "Choose a new setting for\n" + menu_entry["dipswitch"].label().toupper() )
+				this.popup_menu.set_options     ( menu_entry["dipswitch"].options() )
+				this.popup_menu.set_selected_idx( menu_entry["dipswitch"].current_idx() )
+				this.popup_menu.show()
 				break
 		}
 
@@ -449,19 +456,19 @@ class ConfigMenu {
 
 		switch ( menu_entry["type"] ) {
 			case "reset":
-				local popup_value = ::popup_menu.get_selected_value()
+				local popup_value = this.popup_menu.get_selected_value()
 				if ( popup_value == "Yes" ) {
 					this.reset_all_options()
 				}
 				break
 
 			case "versions":
-				local popup_idx = ::popup_menu.get_selected_idx()
+				local popup_idx = this.popup_menu.get_selected_idx()
 				menu_entry["versions"].select_idx( popup_idx )
 				break
 
 			case "dipswitch":
-				local popup_idx = ::popup_menu.get_selected_idx()
+				local popup_idx = this.popup_menu.get_selected_idx()
 				menu_entry["dipswitch"].select_idx( popup_idx )
 				break
 
