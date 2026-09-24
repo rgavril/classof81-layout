@@ -4,7 +4,7 @@ local RightBoxLeaderboard_AsyncData = {
 }
 
 function RightBoxLeaderboard_AsyncData_Load(leaderboard_id, current_page, page_size) {
-    local rom = diversions.get(fe.game_info(Info.Name))
+    local rom = diversions.get(fe.get_game_info(Info.Name))
 
     // User Leaderboards
     local user_leaderboards = null
@@ -72,6 +72,7 @@ class RightBoxLeaderboard {
     entries = []
     title = null
     subtitle = null
+    subtitle_scroller = null
     PAGE_SIZE = 24
 
     current_page = 1
@@ -101,6 +102,8 @@ class RightBoxLeaderboard {
         subtitle.set_rgb(255, 255, 255)
         subtitle.char_size = 24
         subtitle.align = Align.TopCentre
+
+        this.subtitle_scroller = TextScroller(this.subtitle, "")
         TextShadow(this.surface, this.subtitle)
 
         # Entries
@@ -113,6 +116,7 @@ class RightBoxLeaderboard {
 
     function key_detect(signal_str) {
         if (signal_str == "up") {
+            ::sound_engine.play_click_sound()
             if (this.current_page > 1) {
                 this.current_page -= 1
                 this.draw()
@@ -121,6 +125,7 @@ class RightBoxLeaderboard {
         }
 
         if (signal_str == "down") {
+            ::sound_engine.play_click_sound()
             if (this.current_page * this.PAGE_SIZE < RightBoxLeaderboard_AsyncData["total"]) {
                 this.current_page += 1
                 this.draw()
@@ -139,7 +144,9 @@ class RightBoxLeaderboard {
     }
 
     function set_leaderboard_description(subtitle) {
-        this.subtitle.msg = subtitle
+        this.subtitle_scroller.set_text(subtitle)
+        this.subtitle_scroller.activate()
+        // this.subtitle.msg = subtitle
     }
 
     function draw() {

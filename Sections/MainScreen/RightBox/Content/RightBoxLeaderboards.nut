@@ -273,9 +273,11 @@ class RightBoxLeaderboards {
 
         if (signal_str == "select") {
             if (this.surface.visible == false) {
+                ::sound_engine.play_exit_sound()
                 this.surface.visible = true
                 this.leaderboard_content.hide()
             } else {
+                ::sound_engine.play_enter_sound()
                 local leaderboard = RightBoxLeaderboards_AsyncData["leaderboards"][select_idx]
 
                 this.surface.visible = false
