@@ -59,7 +59,7 @@ function headerTextMsg() {
 }
 
 # GUI Elements
-// SplashScreen   <- SplashScreen();
+SplashScreen <- SplashScreen()
 sound_engine <- SoundEngine()
 signal_repeater <- SignalRepeater()
 StatusBar <- StatusBar()
@@ -73,9 +73,9 @@ signal_repeater.enable_for("up")
 
 # Key Signal Handlers
 function key_detect(signal_str) {
-    // if (SplashScreen.key_detect(signal_str)) {
-    //     return true
-    // }
+    if (SplashScreen.key_detect(signal_str)) {
+        return true
+    }
     if (GameStartScreen.key_detect(signal_str)) {
         return true
     }
@@ -85,12 +85,6 @@ function key_detect(signal_str) {
     if (MainScreen.key_detect(signal_str)) {
         return true
     }
-    // if (GameList.key_detect(signal_str)) {
-    //     return true
-    // }
-    // if (RightBox.key_detect(signal_str)) {
-    //     return true
-    // }
 
     # This is here only to prevent changing displays
     if (signal_str == "left" || signal_str == "right") {

@@ -46,7 +46,6 @@ function RightBoxAchievements_AsyncData_Load(rom) {
 
     if ("Achievements" in game_info) {
         foreach (achievement in game_info["Achievements"]) {
-            var_dump(game_info)
             local data = {
                 "id": achievement["ID"],
                 "title": achievement["Title"],
